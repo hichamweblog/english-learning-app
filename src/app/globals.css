@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-serif), "Newsreader", "Lora", Georgia, Cambria, serif;
+  --font-mono: var(--font-mono), "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    /* Warm paper & ink palette */
+    --background: 40 25% 98%;      /* Warm cream paper: #FAF8F5 */
+    --foreground: 220 18% 12%;     /* Deep warm ink */
+    --card: 0 0% 100%;             /* Crisp milk white */
+    --card-foreground: 220 18% 12%;
+    --card-border: 38 18% 90%;     /* Warm subtle hairline border */
+    
+    --primary: 218 80% 40%;        /* Oxford Cambridge Navy */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 40 18% 94%;       /* Warm parchment tint */
+    --secondary-foreground: 220 16% 22%;
+    
+    --muted: 40 16% 93%;
+    --muted-foreground: 220 10% 44%;
+    
+    --accent: 28 85% 48%;          /* Warm terracotta / book gilding amber */
+    --accent-foreground: 0 0% 100%;
+
+    --reader-emerald: 154 55% 30%; /* Scholarly English green for Graded Readers */
+    
+    --border: 38 16% 89%;
+    --ring: 218 80% 40%;
+  }
+
+  .dark {
+    /* Nocturnal library atmosphere */
+    --background: 225 14% 8%;      /* Deep nocturnal slate: #101216 */
+    --foreground: 40 15% 94%;      /* Warm parchment white */
+    --card: 225 14% 11%;           /* Elevated obsidian surface */
+    --card-foreground: 40 15% 94%;
+    --card-border: 225 12% 18%;
+    
+    --primary: 214 90% 64%;
+    --primary-foreground: 225 14% 8%;
+    
+    --secondary: 225 12% 16%;
+    --secondary-foreground: 40 15% 92%;
+    
+    --muted: 225 12% 16%;
+    --muted-foreground: 220 10% 62%;
+    
+    --accent: 32 90% 55%;
+    --accent-foreground: 225 14% 8%;
+
+    --reader-emerald: 154 50% 48%;
+    
+    --border: 225 12% 18%;
+    --ring: 214 90% 64%;
+  }
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Soundwave Equalizer Animation */
+@keyframes soundwave-1 {
+  0%, 100% { height: 4px; }
+  50% { height: 16px; }
+}
+@keyframes soundwave-2 {
+  0%, 100% { height: 14px; }
+  50% { height: 6px; }
+}
+@keyframes soundwave-3 {
+  0%, 100% { height: 8px; }
+  50% { height: 18px; }
+}
+@keyframes soundwave-4 {
+  0%, 100% { height: 16px; }
+  50% { height: 8px; }
+}
+
+.animate-wave-1 { animation: soundwave-1 0.9s ease-in-out infinite; }
+.animate-wave-2 { animation: soundwave-2 0.75s ease-in-out infinite; }
+.animate-wave-3 { animation: soundwave-3 1.1s ease-in-out infinite; }
+.animate-wave-4 { animation: soundwave-4 0.85s ease-in-out infinite; }
+
+/* Custom Sleek Slider Thumb */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 9999px;
+  background-color: hsl(var(--muted));
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: hsl(var(--primary));
+  margin-top: -5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+  transform: scale(1.25);
+}
+
+input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: 9999px;
+  background-color: hsl(var(--muted));
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: hsl(var(--primary));
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease;
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+  transform: scale(1.25);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.45);
+}
+
+/* Reading mode filters for book reader */
+.reader-mode-sepia {
+  filter: sepia(0.2) contrast(0.95);
+  background-color: #F6F1E7 !important;
+}
+
+.reader-mode-night {
+  filter: invert(0.9) hue-rotate(180deg) brightness(0.9);
+}

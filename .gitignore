@@ -1,0 +1,40 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js build output
+/.next/
+/out/
+
+# Production & Build
+/build
+/dist
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env*.local
+.env
+
+# TypeScript
+*.tsbuildinfo
+
+# Local media symlink / storage
+/public/materials
+
+# Testing & Dev tools artifacts
+/.playwright-mcp/
+screenshot*.png
+coverage/
+
+# OS files
+.DS_Store
+*.pem
+Thumbs.db
