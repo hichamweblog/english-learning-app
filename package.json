@@ -12,8 +12,9 @@
     "content:validate": "node scripts/validate-content.mjs",
     "content:index": "node scripts/index-content.mjs",
     "content:extract:anchor": "node scripts/extract/extract-daily-english.mjs && node scripts/extract/extract-cultural-english.mjs && node scripts/extract/extract-fluent-vip.mjs",
+    "content:extract:4000": "node scripts/extract/extract-4000-words.mjs",
     "content:extract:validate": "node scripts/extract/validate-extracted.mjs",
-    "content:extract:all": "node scripts/extract/extract-daily-english.mjs --all && node scripts/extract/extract-cultural-english.mjs --all && node scripts/extract/extract-fluent-vip.mjs --all"
+    "content:extract:all": "node scripts/extract/extract-daily-english.mjs --all && node scripts/extract/extract-cultural-english.mjs --all && node scripts/extract/extract-fluent-vip.mjs --all && node scripts/extract/extract-4000-words.mjs"
   },
   "dependencies": {
     "next": "^16.0.0",

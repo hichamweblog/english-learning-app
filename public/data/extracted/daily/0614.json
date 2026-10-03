@@ -1,0 +1,189 @@
+{
+  "id": "daily-614",
+  "series": "daily-english",
+  "seriesTitle": "Daily English",
+  "episodeNumber": 614,
+  "title": "Experiencing an Earthquake",
+  "audioPath": "materials/ESL PodCast Full/Daily English/601-700/0614 Experiencing an Earthquake - [www.easytalk.ir].mp3",
+  "pdfPath": "materials/ESL PodCast Full/Daily English/601-700/0614  [Daily English] [www.easytalk.ir].pdf",
+  "glossary": [
+    {
+      "term": "earthquake",
+      "definition": "a short period of time when the ground shakes because of geological movements deep below the surface, often causing damage, injuries, and/or death",
+      "exampleSentence": "People living in southern California experience many small earthquakes over the course of their lives."
+    },
+    {
+      "term": "to occur",
+      "definition": "to happen; to take place",
+      "exampleSentence": "Police are trying to determine exactly when the murder occurred."
+    },
+    {
+      "term": "seismologist",
+      "definition": "a scientist who studies earthquakes and the movement of the earth",
+      "exampleSentence": "Seismologists say a major earthquake will happen here sometime within the next 50 years, but they can't provide a more specific date or time."
+    },
+    {
+      "term": "magnitude",
+      "definition": "the size of something; how big or small something is",
+      "exampleSentence": "If they understood the real magnitude of the problem, they would be much more concerned with finding a solution."
+    },
+    {
+      "term": "Richter scale",
+      "definition": "a number-based system for measuring and reporting the size and strength of earthquakes",
+      "exampleSentence": "The earthquake was only 2.0 on the Richter scale, so we couldn't really feel it."
+    },
+    {
+      "term": "epicenter",
+      "definition": "the center of an earthquake; the exact point on the earth's surface where an earthquake is strongest",
+      "exampleSentence": "Although it was a large earthquake, it didn't cause very much damage, because there weren't any cities near the epicenter."
+    },
+    {
+      "term": "fault",
+      "definition": "fault line; a large crack or long hole in the earth's surface where parts of the earth are moving away from each other",
+      "exampleSentence": "I would never want to live near the San Andreas fault."
+    },
+    {
+      "term": "aftershock",
+      "definition": "one of many small earthquakes that happens soon after a large earthquake",
+      "exampleSentence": "After the earthquake, people were warned not to go back into their houses until all the aftershocks had ended."
+    },
+    {
+      "term": "high-intensity",
+      "definition": "very strong and powerful, but normally lasting for only a short period of time",
+      "exampleSentence": "If you want to lose weight, is it better to do a short, high-intensity workout or a longer, low-intensity workout?"
+    },
+    {
+      "term": "to predict",
+      "definition": "to say what will happen in the future",
+      "exampleSentence": "If we could predict the future of the stock market, we'd be rich."
+    },
+    {
+      "term": "damage",
+      "definition": "harm; what results when things are broken or destroyed",
+      "exampleSentence": "The flooding caused a lot of damage to their carpet and furniture."
+    },
+    {
+      "term": "to be declared",
+      "definition": "to officially be named something or categorized in a particular way",
+      "exampleSentence": "War between the two sides was declared in 1842."
+    },
+    {
+      "term": "disaster area",
+      "definition": "a geographical area where there has been a lot of damage, injuries, and/or death, usually as the result of a natural disaster or disease",
+      "exampleSentence": "After the strong tornadoes, much of the Midwest was declared a disaster area."
+    },
+    {
+      "term": "to send aid",
+      "definition": "to send money, food, medical supplies, and other important things to another country or an area that is in an emergency and needs a lot of help",
+      "exampleSentence": "Which countries sent aid to Haiti after the earthquake in January 2010?"
+    },
+    {
+      "term": "relief effort",
+      "definition": "an organized attempt to send money, food, medical supplies, and other important things to another country or area that is in an emergency and needs a lot of help, usually organized at an international level",
+      "exampleSentence": "Do you think the relief efforts can prevent people from dying in the famine?"
+    },
+    {
+      "term": "UN",
+      "definition": "United Nations; a very large international organization that tries to solve global problems",
+      "exampleSentence": "Arabic, Chinese, English, French, Russian, and Spanish are the official languages of the UN."
+    }
+  ],
+  "usefulPhrases": [
+    {
+      "term": "to occur",
+      "definition": "to happen; to take place",
+      "exampleSentence": "Police are trying to determine exactly when the murder occurred."
+    },
+    {
+      "term": "Richter scale",
+      "definition": "a number-based system for measuring and reporting the size and strength of earthquakes",
+      "exampleSentence": "The earthquake was only 2.0 on the Richter scale, so we couldn't really feel it."
+    },
+    {
+      "term": "to predict",
+      "definition": "to say what will happen in the future",
+      "exampleSentence": "If we could predict the future of the stock market, we'd be rich."
+    },
+    {
+      "term": "to be declared",
+      "definition": "to officially be named something or categorized in a particular way",
+      "exampleSentence": "War between the two sides was declared in 1842."
+    },
+    {
+      "term": "disaster area",
+      "definition": "a geographical area where there has been a lot of damage, injuries, and/or death, usually as the result of a natural disaster or disease",
+      "exampleSentence": "After the strong tornadoes, much of the Midwest was declared a disaster area."
+    },
+    {
+      "term": "to send aid",
+      "definition": "to send money, food, medical supplies, and other important things to another country or an area that is in an emergency and needs a lot of help",
+      "exampleSentence": "Which countries sent aid to Haiti after the earthquake in January 2010?"
+    },
+    {
+      "term": "relief effort",
+      "definition": "an organized attempt to send money, food, medical supplies, and other important things to another country or area that is in an emergency and needs a lot of help, usually organized at an international level",
+      "exampleSentence": "Do you think the relief efforts can prevent people from dying in the famine?"
+    }
+  ],
+  "questions": [
+    {
+      "questionNumber": 1,
+      "question": "Which of these would cause the most damage?",
+      "options": [
+        {
+          "key": "a",
+          "text": "A high-intensity earthquake."
+        },
+        {
+          "key": "b",
+          "text": "An aftershock."
+        },
+        {
+          "key": "c",
+          "text": "A relief effort."
+        }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "questionNumber": 2,
+      "question": "Where would an earthquake be felt most strongly?",
+      "options": [
+        {
+          "key": "a",
+          "text": "At the epicenter."
+        },
+        {
+          "key": "b",
+          "text": "Along the faults."
+        },
+        {
+          "key": "c",
+          "text": "In a disaster area."
+        }
+      ],
+      "correctAnswer": "a"
+    }
+  ],
+  "whatElse": [
+    {
+      "term": "fault",
+      "explanation": "The word \"fault,\" in this podcast, means a large crack or long hole in the earth's\n\nsurface where parts of the earth are moving away from each other: \"You'd be a\n\nfool to build your home near a fault.\" The word \"fault\" is also used to talk about\n\nwho should be blamed for something bad that happens: \"It's my fault that we\n\ndon't have enough money to pay the bills. If I hadn't bought that new big-screen\n\nTV, we'd have more savings in the bank.\" The phrase \"at fault\" is also used to\n\ndescribe the person who is responsible for something bad that has happened:\n\n\"Which driver was at fault in the accident?\" Finally, a \"fault\" is someone's\n\npersonal weakness: \"Her greatest fault is that she's impatient.\""
+    },
+    {
+      "term": "relief",
+      "explanation": "In this podcast, the phrase \"relief effort\" means an organized attempt to send\n\nmoney, food, medical supplies, and other important things to another country or\n\narea that is in an emergency and needs a lot of help, usually organized at an\n\ninternational level: \"Hundreds of doctors are going into the country as part of the\n\nrelief effort.\" When talking about emotions, \"relief\" is the good feeling when a lot\n\nof fear, pain, or worry has ended: \"Everyone smiled with relief when the police\n\nannounced that they had found the little girl.\" The phrase \"pain relief\" describes\n\nthe reduction or removal of pain: \"These pills should provide some pain relief\n\nwhile your broken bones are healing.\" Finally, when talking about maps, the\n\nphrase \"in relief\" describes a map that shows the different heights of things: \"Do\n\nyou have a map that shows these mountains in relief?\""
+    }
+  ],
+  "cultureNote": {
+    "title": "Culture Note",
+    "content": "In the United States, many \"nonprofit organizations\" (organizations that exist to\nhelp others or to serve a cause, not to make money) provide disaster relief\nservices. Some of these organizations work \"domestically\" (within the United\nStates), others work in specific countries or regions, and others work anywhere in\nthe world.\nThe American Red Cross is probably the best-known \"humanitarian\" (intending to\nhelp people) organization. It \"responds\" (reacts) to all kinds of emergencies. For\nexample, after Hurricane Katrina, it provided bottled water, food, and \"tents\"\n(temporary shelters; a shelter made of fabric that people can use to sleep in) for\nthe \"victims\" (people affected by a disaster). The American Red Cross also helps\ndisaster victims find their friends and family members if they have been\nseparated.\nThe Salvation Army is a nonprofit organization that \"primarily\" (mostly) helps\nAmericans meet their \"basic needs\" by assisting poor people with food, water,\nand housing. However, it also has disaster response teams that work in specific\nAmerican communities when they need help.\nWorld Vision is a Christian relief organization that tries to improve the lives of\nchildren living in \"poverty\" (without money) everywhere in the world and\nespecially in disaster areas. It asks individuals to \"sponsor\" a child, sending a\ncertain amount of money each month to cover the costs of giving that child food,\nwater, medicine, and education.\nCatholic Charities works within the United States to reduce poverty and support\nfamilies and communities, \"regardless of\" (without considering) their religious\nbeliefs. The organization provides \"technical assistance\" (specialized\nknowledge) and \"financial assistance\" (money) during domestic disasters."
+  },
+  "transcript": {
+    "dialogue": "Jamal: Did you feel that?\nKeisha: Was that an earthquake?\nJamal: Yes, I think so. Turn on the news.\nNewscaster: \"Reports are coming in about an earthquake that occurred at 4:35\np.m. in the downtown area. We spoke with a seismologist at the Earthquake\nCenter and learned that the earthquake had a magnitude of 3.2 on the Richter\nscale. The epicenter was near downtown, along one of the major faults, and the\nseismologist warns that there will be some aftershocks.\"\nKeisha: Phew! I'm glad the earthquake wasn't a high-intensity one. I wish they\ncould predict more accurately when those earthquakes are going to happen.\nJamal: Yeah, me, too. I've looked around the house and don't see any damage,\nthough. I guess our house won't be declared a disaster area.\nKeisha: Don't be too sure. Considering the mess you've made in kitchen, it\ncould easily be called a disaster area.\n\n\n\n\n\n\nJamal: In that case, will you be sending aid? I think I'm too tired to do the\ndishes.\nKeisha: You won't be getting any aid from me. If you're hoping for a relief effort,\nyou'd better ask the UN.",
+    "fullText": "Welcome to English as a Second Language Podcast number 614: Experiencing\nan Earthquake.\nThis is English as a Second Language Podcast episode 614. I'm your host, Dr.\nJeff McQuillan, coming to you from the Center for Educational Development in\nbeautiful Los Angeles, California.\nOur website is eslpod.com. Download a Learning Guide for this episode that will\ngive you all of the definitions, sample sentences, additional vocabulary,\ncomprehension questions, cultural notes, and a complete transcript of everything\nwe say on this episode.\nThis episode is a dialogue between Jamal and Keisha. They're talking about\nsomething which is very common to many parts of the world, including Los\nAngeles: earthquakes. We'll go over some of the vocabulary related to that topic.\nLet's get started.\n[start of dialogue]\nJamal: Did you feel that?\nKeisha: Was that an earthquake?\nJamal: Yes, I think so. Turn on the news.\nNewscaster: \"Reports are coming in about an earthquake that occurred at 4:35\np.m. in the downtown area. We spoke with a seismologist at the Earthquake\nCenter and learned that the earthquake had a magnitude of 3.2 on the Richter\nscale. The epicenter was near downtown, along one of the major faults, and the\nseismologist warns that there will be some aftershocks.\"\nKeisha: Phew! I'm glad the earthquake wasn't a high-intensity one. I wish they\ncould predict more accurately when those earthquakes are going to happen.\nJamal: Yeah, me, too. I've looked around the house and don't see any damage,\nthough. I guess our house won't be declared a disaster area.\nKeisha: Don't be too sure. Considering the mess you've made in kitchen, it\ncould easily be called a disaster area.\n\n\n\n\n\n\nJamal: In that case, will you be sending aid? I think I'm too tired to do the\ndishes.\nKeisha: You won't be getting any aid from me. If you're hoping for a relief effort,\nyou'd better ask the UN.\n[end of dialogue]\nJamal begins by saying, \"Did you feel that?\" Keisha says, \"Was that an\nearthquake?\" An \"earthquake\" is a short period of time when the ground shakes\nor moves because there is some sort of what we would call geological movement\nunderneath the ground. Most places that experience earthquakes often have\nearthquakes that are very small or minor. I feel an earthquake here in Los\nAngeles maybe once a year, usually it's small, maybe twice a year. It depends\non where you live exactly, but that's about average, although there are many\nsmall earthquakes that most people don't feel that are taking place all the time, at\nleast that's what I've read.\nKeisha asks if it was an earthquake; she wasn't sure. Usually you can tell.\nSometimes if you look over at, for example, a lamp and you see the string that\nyou use to turn on the lamp is moving back and forth, well that's a sign that there\nwas something that moved the whole house or the whole apartment. Jamal\nsays, \"Yes, I think so (I think it was an earthquake). Turn on the news,\" meaning\nturn on the radio or the television to see if there is a news report. Nowadays, we\nwould probably just turn on the computer and look on the Internet.\nNext, a newscaster, who sounds surprisingly like Jamal, gives us the news. A\n\"newscaster\" is someone on the television or that you hear on radio that reads\nthe news to you – tells you what the news is. The newscaster says, \"Reports\n(information) are coming in about an earthquake that occurred at 4:35 p.m. in the\ndowntown area.\" \"Reports are coming in\" means we are receiving information\nfrom different places. The earthquake \"occurred\" (it happened; it took place) at\n4:35 p.m., in the afternoon, in the downtown area. \"We spoke with a\nseismologist at the Earthquake Center and learned that the earthquake had a\nmagnitude of 3.2 on the Richter scale.\" A \"seismologist\" (seismologist) is a\nscientist who studies earthquakes – who studies the movements of the earth.\nHere in Southern California there are seismologists at California Institute of\nTechnology, or what we call here Cal Tech, and usually after an earthquake\nthere is a seismologist that is interviewed from this area – this university research\ncenter. Here, the seismologist is interviewed and says that the earthquake had a\n\n\n\n\n\n\nmagnitude of 3.2. \"Magnitude\" (magnitude) is how big or small something is; it's\nthe size of something, usually used in talking about things like earthquakes. Or,\nit can also be used to describe a problem: \"The magnitude of the problem is huge\n(is large).\" The magnitude of the earthquake is how powerful it is, and there's a\nway of measuring this called the Richter scale. The \"Richter,\" which is the name\nof the person who helped invent it, is a system for measuring the size of\nearthquakes. A 3.2 is not a serious earthquake. If it's 5-6-7, these are large and\npotentially very damaging earthquakes – earthquakes that could cause a lot of\ndamage: people getting hurt, buildings falling down, and so forth.\nWell, this was a small earthquake, a 3.2. \"The epicenter,\" the newscaster\ncontinues, \"was near downtown.\" The \"epicenter\" (epicenter) is where the\nearthquakes started; it's like the center of the earthquake, the place in the ground\nwhere it started. Earthquakes are caused, as you probably know, by the\nmovement of what we call tectonic plates. These are parts of the earth that\nmove back, or can move back and forth and that creates the movement, which is\nthe earthquake. The epicenter was downtown – near downtown along one of the\nmajor faults. A \"fault\" (fault) here means or is short for a \"fault line,\" which is a\ncrack or a long hole in the earth, where the earth is moving away from each other\nso it opens up the earth. That's a fault – that's the manifestation, I should say, of\na fault; that's how you can see where a fault is, but there isn't necessarily a hole\nin the ground right where the fault is. There are earthquake faults – areas that\nwould likely have an earthquake all around Southern California, as well as\nNorthern California – although we're less interested in them! The biggest fault\nhere is called the San Andreas fault. \"Fault\" has some other meanings in\nEnglish, very different meanings, and those can be found in the Learning Guide.\nThe newscaster continues by saying that the seismologist warns that there will\nbe some aftershocks. \"Aftershocks\" (one word) are small earthquakes that\nhappen after a large earthquake. So when there's a large earthquake, the earth\nisn't done moving – it hasn't stopped moving completely typically, and there are\nadditional earthquakes that could happen an hour, two hours, perhaps even days\nfrom the original, large earthquake.\nNow we're back to Keisha and Jamal. Keisha says, \"Phew!\" which is just a way\nof expressing relief. \"Phew! I'm glad the earthquake wasn't a high-intensity\none.\" \"High-intensity\" means a strong, a powerful one. It lasts usually a short\ntime, but it is very powerful. This was not a high-intensity earthquake. Keisha\nsays, \"I wish they could predict more accurately when those earthquakes are\ngoing to happen.\" \"To predict\" means to say what is going to happen in the\nfuture. Seismologists are trying to get better at predicting when earthquakes will\n\n\n\n\n\n\ntake place so that they can warn people in advance, but unfortunately the\nscience is not yet sufficiently advanced to do that.\nJamal says, \"Yeah, me, too,\" meaning I agree, I wish also the seismologists\ncould predict more accurately. Jamal says, \"I've looked around the house and I\ndon't see any damage (any harm).\" \"Damage\" is what results when things are\nbroken or destroyed. He says, \"I guess our house won't be declared a disaster\narea.\" \"To be declared\" is a formal way of saying to be officially named\nsomething or to be put in a certain category. A \"disaster area\" is an area where\nthere has been a lot of damage – people have been hurt; people have died –\nusually because of what we would call a natural disaster. A \"disaster\" (disaster)\nis when there is a large event that harms or hurts many people or causes a lot of\ndamage. Sometimes we use \"disaster\" to describe a situation where everything\nwent wrong: \"How was your date last night with Julie?\" and you say, \"Oh, it was a\ndisaster! She talked about her ex-boyfriend the whole night.\" Here, however,\n\"disaster\" is used in the more traditional way. In the United States when there is\na lot of damage due to a natural disaster, which would be an earthquake, a flood,\ntornadoes, a hurricane, anything that is caused by the forces of nature, the\ngovernment will sometimes declare an area a disaster area, and that makes it\neligible – that qualifies it – that means that it can receive additional money and\nhelp from the government.\nJamal says that the house is not damaged and will not be declared a disaster\narea. Keisha says, \"Don't be too sure. Considering the mess you've made in\nkitchen, it could easily be called a disaster area.\" Here, we're seeing the other\nuse of the word \"disaster\" to describe a very negative situation. In this case,\nJamal has made a mess – he has made the kitchen dirty, and that, Keisha says,\nis also a disaster area. Jamal, joking of course, says, \"In that case, will you be\nsending aid?\" \"Aid\" (aid) is help. In a disaster it's usually food, medical supplies,\nother things that a country needs or an area needs after a disaster: drinking\nwater, money, and so forth. To \"send aid,\" then, would be to send those things to\nthe disaster area.\nJamal is joking, saying that he needs aid to clean up the kitchen. He says, \"I\nthink I'm too tired to do the dishes.\" Keisha says, \"You won't be getting any aid\nfrom me (I'm not going to help you). If you're hoping for a relief effort, you'd\nbetter ask the UN.\" \"Relief\" (relief) is a change in a situation, in a bad situation\nthings get better. \"Relief efforts\" are when organizations and governments try to\norganize aid. They have a committee – they have leaders that organize the\nmoney, the food, the medical supplies, and other things. Usually after a major\ndisaster – and there have been unhappily many in recent years – there is a relief\n\n\n\n\n\n\neffort organized by different countries, by organizations such as the Red Cross.\nThe \"UN\" is the United Nations, which of course is the large international\norganization that tries to solve problems among nations, as well as help when\nthere is a disaster. Keisha, continuing the joke, says that there is going to be no\nrelief effort and that Jamal should ask the United Nations to help him with the\ndisaster area he created in the kitchen.\nNow let's listen to the dialogue, this time at a normal speed.\n[start of dialogue]\nJamal: Did you feel that?\nKeisha: Was that an earthquake?\nJamal: Yes, I think so. Turn on the news.\nNewscaster: \"Reports are coming in about an earthquake that occurred at 4:35\np.m. in the downtown area. We spoke with a seismologist at the Earthquake\nCenter and learned that the earthquake had a magnitude of 3.2 on the Richter\nscale. The epicenter was near downtown, along one of the major faults, and the\nseismologist warns that there will be some aftershocks.\"\nKeisha: Phew! I'm glad the earthquake wasn't a high-intensity one. I wish they\ncould predict more accurately when those earthquakes are going to happen.\nJamal: Yeah, me, too. I've looked around the house and don't see any damage,\nthough. I guess our house won't be declared a disaster area.\nKeisha: Don't be too sure. Considering the mess you've made in kitchen, it\ncould easily be called a disaster area.\nJamal: In that case, will you be sending aid? I think I'm too tired to do the\ndishes.\nKeisha: You won't be getting any aid from me. If you're hoping for a relief effort,\nyou'd better ask the UN.\n[end of dialogue]\n\n\n\n\n\n\nWe hope this episode will not be declared a disaster area. We thank Dr. Lucy\nTse for writing it.\nFrom Los Angeles, California, I'm Jeff McQuillan. Thank you for listening. Come\nback and listen to us again on ESL Podcast.\nEnglish as a Second Language Podcast is written and produced by Dr. Lucy Tse,\nhosted by Dr. Jeff McQuillan, copyright 2010 by the Center for Educational\nDevelopment.",
+    "wordCount": 2082,
+    "txtPath": "data/extracted/transcripts/daily/0614.txt"
+  },
+  "extractedAt": "2026-10-03T21:48:45.070Z"
+}

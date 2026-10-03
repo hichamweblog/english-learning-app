@@ -196,7 +196,13 @@ async function main() {
       const outFileName = `${String(ep.number).padStart(4, '0')}.json`;
       fs.writeFileSync(path.join(OUTPUT_DIR, outFileName), JSON.stringify(data, null, 2));
       successCount++;
-      console.log(`✔ [OK] Cultural Ep ${ep.number} (${data.topics.slice(0, 2).join('; ')}...): ${data.glossary.length} words, insiders: ${data.insidersKnow ? data.insidersKnow.title : 'none'}`);
+      if (allArg) {
+        if (successCount % 50 === 0 || successCount === targetEpisodes.length) {
+          console.log(`[PROGRESS] Extracted ${successCount} / ${targetEpisodes.length} Cultural episodes...`);
+        }
+      } else {
+        console.log(`✔ [OK] Cultural Ep ${ep.number} (${data.topics.slice(0, 2).join('; ')}...): ${data.glossary.length} words, insiders: ${data.insidersKnow ? data.insidersKnow.title : 'none'}`);
+      }
     } catch (err) {
       errorCount++;
       errors.push({ number: ep.number, error: err.message });

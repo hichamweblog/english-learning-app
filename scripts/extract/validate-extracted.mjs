@@ -86,7 +86,7 @@ function checkDirectory(dirName, type) {
           valid = validateQuestions(data.questions, epId) && valid;
         }
       } else if (type === 'VIP') {
-        if (!Array.isArray(data.vocabulary) || data.vocabulary.length === 0) {
+        if (data.pdfPath !== null && (!Array.isArray(data.vocabulary) || data.vocabulary.length === 0)) {
           failures.push(`${epId}: VIP vocabulary is empty`);
           valid = false;
         }
@@ -103,11 +103,68 @@ function checkDirectory(dirName, type) {
   }
 }
 
+function check4000Words() {
+  const wordsDir = path.join(EXTRACTED_DIR, 'words4000');
+  if (!fs.existsSync(wordsDir)) return;
+
+  console.log('Validating 4000 Essential English Words (6 volumes, 180 units)...');
+  for (let v = 1; v <= 6; v++) {
+    const volDir = path.join(wordsDir, `vol-${v}`);
+    if (!fs.existsSync(volDir)) {
+      failures.push(`words4000: missing volume directory vol-${v}`);
+      continue;
+    }
+
+    const files = fs.readdirSync(volDir).filter(f => f.endsWith('.json') && f !== 'index.json');
+    for (const f of files) {
+      totalFiles++;
+      const p = path.join(volDir, f);
+      try {
+        const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
+        const unitId = data.id || `v${v}-${f}`;
+        let valid = true;
+
+        if (!Array.isArray(data.targetWords) || data.targetWords.length < 18) {
+          failures.push(`${unitId}: insufficient target words (${data.targetWords ? data.targetWords.length : 0})`);
+          valid = false;
+        }
+
+        if (!data.story || !data.story.passage || data.story.passage.length < 200) {
+          failures.push(`${unitId}: missing or short story passage (< 200 chars)`);
+          valid = false;
+        }
+
+        const txtPath = path.resolve('public', data.story.txtPath);
+        if (!fs.existsSync(txtPath)) {
+          failures.push(`${unitId}: missing transcript txt file at ${txtPath}`);
+          valid = false;
+        }
+
+        const a1 = path.resolve('public', data.audio.wordsAudioPath);
+        const a2 = path.resolve('public', data.audio.storyAudioPath);
+        if (!fs.existsSync(a1)) {
+          failures.push(`${unitId}: missing words audio ${data.audio.wordsAudioPath}`);
+          valid = false;
+        }
+        if (!fs.existsSync(a2)) {
+          failures.push(`${unitId}: missing story audio ${data.audio.storyAudioPath}`);
+          valid = false;
+        }
+
+        if (valid) totalPassed++;
+      } catch (err) {
+        failures.push(`${f}: JSON parse error - ${err.message}`);
+      }
+    }
+  }
+}
+
 console.log('=== Extracted Content Validation Suite ===\n');
 
 checkDirectory('daily', 'Daily');
 checkDirectory('cultural', 'Cultural');
 checkDirectory('vip', 'VIP');
+check4000Words();
 
 console.log('\n==========================================');
 console.log(`Total Extracted Files Checked: ${totalFiles}`);

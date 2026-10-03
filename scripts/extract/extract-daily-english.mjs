@@ -291,7 +291,13 @@ async function main() {
       const outFileName = `${String(ep.number).padStart(4, '0')}.json`;
       fs.writeFileSync(path.join(OUTPUT_DIR, outFileName), JSON.stringify(data, null, 2));
       successCount++;
-      console.log(`✔ [OK] Ep ${ep.number} (${data.title}): ${data.glossary.length} words, ${data.questions.length} questions, ${data.transcript ? 'transcript' : 'no transcript'}`);
+      if (allArg) {
+        if (successCount % 100 === 0 || successCount === targetEpisodes.length) {
+          console.log(`[PROGRESS] Extracted ${successCount} / ${targetEpisodes.length} Daily episodes...`);
+        }
+      } else {
+        console.log(`✔ [OK] Ep ${ep.number} (${data.title}): ${data.glossary.length} words, ${data.questions.length} questions, ${data.transcript ? 'transcript' : 'no transcript'}`);
+      }
     } catch (err) {
       errorCount++;
       errors.push({ number: ep.number, error: err.message });

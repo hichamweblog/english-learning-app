@@ -1,0 +1,2396 @@
+[
+  {
+    "volume": 1,
+    "level": {
+      "level": "A2",
+      "label": "Elementary (Beginner)"
+    },
+    "units": [
+      {
+        "unit": 1,
+        "id": "4000-v1-u01",
+        "title": "The Lion and the Rabbit",
+        "targetWordsCount": 20,
+        "storyWordCount": 316,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/01.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/02.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-01.json"
+      },
+      {
+        "unit": 2,
+        "id": "4000-v1-u02",
+        "title": "The Laboratory",
+        "targetWordsCount": 20,
+        "storyWordCount": 312,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/03.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/04.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-02.json"
+      },
+      {
+        "unit": 3,
+        "id": "4000-v1-u03",
+        "title": "The Report",
+        "targetWordsCount": 20,
+        "storyWordCount": 312,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/05.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/06.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-03.json"
+      },
+      {
+        "unit": 4,
+        "id": "4000-v1-u04",
+        "title": "The Dog's Bell",
+        "targetWordsCount": 20,
+        "storyWordCount": 319,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/07.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/08.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-04.json"
+      },
+      {
+        "unit": 5,
+        "id": "4000-v1-u05",
+        "title": "The Jackal and the Sun Child",
+        "targetWordsCount": 20,
+        "storyWordCount": 312,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/09.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/10.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-05.json"
+      },
+      {
+        "unit": 6,
+        "id": "4000-v1-u06",
+        "title": "The Friendly Ghost",
+        "targetWordsCount": 20,
+        "storyWordCount": 297,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/11.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/12.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-06.json"
+      },
+      {
+        "unit": 7,
+        "id": "4000-v1-u07",
+        "title": "The Best Prince",
+        "targetWordsCount": 20,
+        "storyWordCount": 314,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/13.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/14.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-07.json"
+      },
+      {
+        "unit": 8,
+        "id": "4000-v1-u08",
+        "title": "How the Sun and",
+        "targetWordsCount": 20,
+        "storyWordCount": 318,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/15.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/16.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-08.json"
+      },
+      {
+        "unit": 9,
+        "id": "4000-v1-u09",
+        "title": "The Starfish",
+        "targetWordsCount": 20,
+        "storyWordCount": 305,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/17.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/18.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-09.json"
+      },
+      {
+        "unit": 10,
+        "id": "4000-v1-u10",
+        "title": "The First Peacock",
+        "targetWordsCount": 20,
+        "storyWordCount": 296,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/19.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/20.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-10.json"
+      },
+      {
+        "unit": 11,
+        "id": "4000-v1-u11",
+        "title": "Princess Rose and the Creature",
+        "targetWordsCount": 20,
+        "storyWordCount": 310,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/21.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/22.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-11.json"
+      },
+      {
+        "unit": 12,
+        "id": "4000-v1-u12",
+        "title": "The Crazy Artist",
+        "targetWordsCount": 20,
+        "storyWordCount": 314,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/23.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/24.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-12.json"
+      },
+      {
+        "unit": 13,
+        "id": "4000-v1-u13",
+        "title": "The Farmer and the Cats",
+        "targetWordsCount": 20,
+        "storyWordCount": 314,
+        "questionsCount": 4,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/25.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/26.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-13.json"
+      },
+      {
+        "unit": 14,
+        "id": "4000-v1-u14",
+        "title": "A Magical Book",
+        "targetWordsCount": 20,
+        "storyWordCount": 322,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/27.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/28.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-14.json"
+      },
+      {
+        "unit": 15,
+        "id": "4000-v1-u15",
+        "title": "The Big Race",
+        "targetWordsCount": 20,
+        "storyWordCount": 332,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/29.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/30.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-15.json"
+      },
+      {
+        "unit": 16,
+        "id": "4000-v1-u16",
+        "title": "Adams County's Gold",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 4,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/31.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/32.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-16.json"
+      },
+      {
+        "unit": 17,
+        "id": "4000-v1-u17",
+        "title": "The Race for Water",
+        "targetWordsCount": 20,
+        "storyWordCount": 317,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/33.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/34.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-17.json"
+      },
+      {
+        "unit": 18,
+        "id": "4000-v1-u18",
+        "title": "The Little Red Chicken",
+        "targetWordsCount": 20,
+        "storyWordCount": 325,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/35.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/36.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-18.json"
+      },
+      {
+        "unit": 19,
+        "id": "4000-v1-u19",
+        "title": "Shipwrecked",
+        "targetWordsCount": 20,
+        "storyWordCount": 314,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/37.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/38.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-19.json"
+      },
+      {
+        "unit": 20,
+        "id": "4000-v1-u20",
+        "title": "The Seven Cities of Gold",
+        "targetWordsCount": 20,
+        "storyWordCount": 310,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/39.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/40.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-20.json"
+      },
+      {
+        "unit": 21,
+        "id": "4000-v1-u21",
+        "title": "Unit 21 Reading",
+        "targetWordsCount": 20,
+        "storyWordCount": 291,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/41.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/42.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-21.json"
+      },
+      {
+        "unit": 22,
+        "id": "4000-v1-u22",
+        "title": "A Better Reward",
+        "targetWordsCount": 20,
+        "storyWordCount": 317,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/43.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/44.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-22.json"
+      },
+      {
+        "unit": 23,
+        "id": "4000-v1-u23",
+        "title": "The Camp",
+        "targetWordsCount": 20,
+        "storyWordCount": 305,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/45.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/46.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-23.json"
+      },
+      {
+        "unit": 24,
+        "id": "4000-v1-u24",
+        "title": "A Strong Friendship",
+        "targetWordsCount": 20,
+        "storyWordCount": 310,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/47.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/48.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-24.json"
+      },
+      {
+        "unit": 25,
+        "id": "4000-v1-u25",
+        "title": "Joe's Pond",
+        "targetWordsCount": 20,
+        "storyWordCount": 314,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/49.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/50.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-25.json"
+      },
+      {
+        "unit": 26,
+        "id": "4000-v1-u26",
+        "title": "Archie and His Donkey",
+        "targetWordsCount": 20,
+        "storyWordCount": 295,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/51.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/52.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-26.json"
+      },
+      {
+        "unit": 27,
+        "id": "4000-v1-u27",
+        "title": "The Spider and the Bird",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/53.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/54.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-27.json"
+      },
+      {
+        "unit": 28,
+        "id": "4000-v1-u28",
+        "title": "The Party",
+        "targetWordsCount": 20,
+        "storyWordCount": 336,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/55.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/56.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-28.json"
+      },
+      {
+        "unit": 29,
+        "id": "4000-v1-u29",
+        "title": "How the World Got Light",
+        "targetWordsCount": 20,
+        "storyWordCount": 293,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/57.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/58.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-29.json"
+      },
+      {
+        "unit": 30,
+        "id": "4000-v1-u30",
+        "title": "i Cats and Secrets",
+        "targetWordsCount": 20,
+        "storyWordCount": 321,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/59.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 1/60.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-1/unit-30.json"
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "level": {
+      "level": "B1",
+      "label": "Pre-Intermediate"
+    },
+    "units": [
+      {
+        "unit": 1,
+        "id": "4000-v2-u01",
+        "title": "The Twelve Months",
+        "targetWordsCount": 20,
+        "storyWordCount": 233,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/01.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/02.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-01.json"
+      },
+      {
+        "unit": 2,
+        "id": "4000-v2-u02",
+        "title": "The Dragon",
+        "targetWordsCount": 20,
+        "storyWordCount": 240,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/03.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/04.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-02.json"
+      },
+      {
+        "unit": 3,
+        "id": "4000-v2-u03",
+        "title": "The Battle of Thermopylae",
+        "targetWordsCount": 20,
+        "storyWordCount": 252,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/05.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/06.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-03.json"
+      },
+      {
+        "unit": 4,
+        "id": "4000-v2-u04",
+        "title": "I",
+        "targetWordsCount": 20,
+        "storyWordCount": 236,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/07.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/08.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-04.json"
+      },
+      {
+        "unit": 5,
+        "id": "4000-v2-u05",
+        "title": "May 29,1953",
+        "targetWordsCount": 20,
+        "storyWordCount": 223,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/09.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/10.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-05.json"
+      },
+      {
+        "unit": 6,
+        "id": "4000-v2-u06",
+        "title": "The Frog Prince",
+        "targetWordsCount": 20,
+        "storyWordCount": 233,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/11.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/12.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-06.json"
+      },
+      {
+        "unit": 7,
+        "id": "4000-v2-u07",
+        "title": "A Beautiful Bird",
+        "targetWordsCount": 19,
+        "storyWordCount": 246,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/13.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/14.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-07.json"
+      },
+      {
+        "unit": 8,
+        "id": "4000-v2-u08",
+        "title": "Tricky Turtle",
+        "targetWordsCount": 20,
+        "storyWordCount": 226,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/15.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/16.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-08.json"
+      },
+      {
+        "unit": 9,
+        "id": "4000-v2-u09",
+        "title": "The Tale of Bartelby O'Boyle",
+        "targetWordsCount": 20,
+        "storyWordCount": 227,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/17.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/18.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-09.json"
+      },
+      {
+        "unit": 10,
+        "id": "4000-v2-u10",
+        "title": "Blackbeard",
+        "targetWordsCount": 20,
+        "storyWordCount": 227,
+        "questionsCount": 4,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/19.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/20.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-10.json"
+      },
+      {
+        "unit": 11,
+        "id": "4000-v2-u11",
+        "title": "Dinosaur Drawings",
+        "targetWordsCount": 20,
+        "storyWordCount": 225,
+        "questionsCount": 2,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/21.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/22.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-11.json"
+      },
+      {
+        "unit": 12,
+        "id": "4000-v2-u12",
+        "title": "The Mean Chef",
+        "targetWordsCount": 20,
+        "storyWordCount": 217,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/23.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/24.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-12.json"
+      },
+      {
+        "unit": 13,
+        "id": "4000-v2-u13",
+        "title": "The Cat andthe Fox",
+        "targetWordsCount": 20,
+        "storyWordCount": 230,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/25.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/26.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-13.json"
+      },
+      {
+        "unit": 14,
+        "id": "4000-v2-u14",
+        "title": "The Good Student",
+        "targetWordsCount": 20,
+        "storyWordCount": 234,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/27.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/28.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-14.json"
+      },
+      {
+        "unit": 15,
+        "id": "4000-v2-u15",
+        "title": "The Lucky Knife",
+        "targetWordsCount": 19,
+        "storyWordCount": 226,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/29.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/30.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-15.json"
+      },
+      {
+        "unit": 16,
+        "id": "4000-v2-u16",
+        "title": "Prince Sam",
+        "targetWordsCount": 19,
+        "storyWordCount": 268,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/31.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/32.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-16.json"
+      },
+      {
+        "unit": 17,
+        "id": "4000-v2-u17",
+        "title": "Henry Ford's Famous Car",
+        "targetWordsCount": 20,
+        "storyWordCount": 224,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/33.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/34.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-17.json"
+      },
+      {
+        "unit": 18,
+        "id": "4000-v2-u18",
+        "title": "The Priest",
+        "targetWordsCount": 20,
+        "storyWordCount": 221,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/35.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/36.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-18.json"
+      },
+      {
+        "unit": 19,
+        "id": "4000-v2-u19",
+        "title": "II I) I",
+        "targetWordsCount": 20,
+        "storyWordCount": 231,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/37.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/38.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-19.json"
+      },
+      {
+        "unit": 20,
+        "id": "4000-v2-u20",
+        "title": "Albert Einstein",
+        "targetWordsCount": 20,
+        "storyWordCount": 225,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/39.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/40.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-20.json"
+      },
+      {
+        "unit": 21,
+        "id": "4000-v2-u21",
+        "title": "II From the Earth",
+        "targetWordsCount": 20,
+        "storyWordCount": 225,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/41.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/42.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-21.json"
+      },
+      {
+        "unit": 22,
+        "id": "4000-v2-u22",
+        "title": "I The Farm Festival",
+        "targetWordsCount": 20,
+        "storyWordCount": 246,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/43.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/44.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-22.json"
+      },
+      {
+        "unit": 23,
+        "id": "4000-v2-u23",
+        "title": "I The Clever Thief",
+        "targetWordsCount": 20,
+        "storyWordCount": 224,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/45.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/46.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-23.json"
+      },
+      {
+        "unit": 24,
+        "id": "4000-v2-u24",
+        "title": "The Doctor's Cure",
+        "targetWordsCount": 20,
+        "storyWordCount": 233,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/47.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/48.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-24.json"
+      },
+      {
+        "unit": 25,
+        "id": "4000-v2-u25",
+        "title": "The Criminal",
+        "targetWordsCount": 20,
+        "storyWordCount": 226,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/49.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/50.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-25.json"
+      },
+      {
+        "unit": 26,
+        "id": "4000-v2-u26",
+        "title": "The Two Captains",
+        "targetWordsCount": 19,
+        "storyWordCount": 234,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/51.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/52.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-26.json"
+      },
+      {
+        "unit": 27,
+        "id": "4000-v2-u27",
+        "title": "The Duke andthe Minister",
+        "targetWordsCount": 20,
+        "storyWordCount": 231,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/53.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/54.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-27.json"
+      },
+      {
+        "unit": 28,
+        "id": "4000-v2-u28",
+        "title": "The Fisherman",
+        "targetWordsCount": 19,
+        "storyWordCount": 221,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/55.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/56.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-28.json"
+      },
+      {
+        "unit": 29,
+        "id": "4000-v2-u29",
+        "title": "Osiris and the Nile",
+        "targetWordsCount": 20,
+        "storyWordCount": 226,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/57.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/58.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-29.json"
+      },
+      {
+        "unit": 30,
+        "id": "4000-v2-u30",
+        "title": "The Taxi Driver",
+        "targetWordsCount": 19,
+        "storyWordCount": 249,
+        "questionsCount": 5,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/59.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 2/4000 english words volume 2/60.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-2/unit-30.json"
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "level": {
+      "level": "B1+",
+      "label": "Intermediate"
+    },
+    "units": [
+      {
+        "unit": 1,
+        "id": "4000-v3-u01",
+        "title": "The Real St. Nick",
+        "targetWordsCount": 20,
+        "storyWordCount": 284,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/01.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/02.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-01.json"
+      },
+      {
+        "unit": 2,
+        "id": "4000-v3-u02",
+        "title": "The Shepherd and the Wild Sheep",
+        "targetWordsCount": 20,
+        "storyWordCount": 280,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/03.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/04.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-02.json"
+      },
+      {
+        "unit": 3,
+        "id": "4000-v3-u03",
+        "title": "Unit 3 Reading",
+        "targetWordsCount": 19,
+        "storyWordCount": 265,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/05.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/06.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-03.json"
+      },
+      {
+        "unit": 4,
+        "id": "4000-v3-u04",
+        "title": "Tiny Tina",
+        "targetWordsCount": 20,
+        "storyWordCount": 294,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/07.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/08.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-04.json"
+      },
+      {
+        "unit": 5,
+        "id": "4000-v3-u05",
+        "title": "Unit 5 Reading",
+        "targetWordsCount": 20,
+        "storyWordCount": 267,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/09.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/10.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-05.json"
+      },
+      {
+        "unit": 6,
+        "id": "4000-v3-u06",
+        "title": "The Senator and the Worm",
+        "targetWordsCount": 20,
+        "storyWordCount": 295,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/11.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/12.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-06.json"
+      },
+      {
+        "unit": 7,
+        "id": "4000-v3-u07",
+        "title": "Patsy Ann",
+        "targetWordsCount": 20,
+        "storyWordCount": 277,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/13.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/14.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-07.json"
+      },
+      {
+        "unit": 8,
+        "id": "4000-v3-u08",
+        "title": "The Anniversary Gift",
+        "targetWordsCount": 20,
+        "storyWordCount": 287,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/15.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/16.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-08.json"
+      },
+      {
+        "unit": 9,
+        "id": "4000-v3-u09",
+        "title": "Dalton vs. the Bully",
+        "targetWordsCount": 20,
+        "storyWordCount": 288,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/17.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/18.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-09.json"
+      },
+      {
+        "unit": 10,
+        "id": "4000-v3-u10",
+        "title": "Anna the Babysitter",
+        "targetWordsCount": 20,
+        "storyWordCount": 283,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/19.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/20.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-10.json"
+      },
+      {
+        "unit": 11,
+        "id": "4000-v3-u11",
+        "title": "Peter and the Dwarf",
+        "targetWordsCount": 20,
+        "storyWordCount": 282,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/21.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/22.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-11.json"
+      },
+      {
+        "unit": 12,
+        "id": "4000-v3-u12",
+        "title": "Unit 12 Reading",
+        "targetWordsCount": 20,
+        "storyWordCount": 295,
+        "questionsCount": 4,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/23.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/24.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-12.json"
+      },
+      {
+        "unit": 13,
+        "id": "4000-v3-u13",
+        "title": "Sheriff Dan",
+        "targetWordsCount": 20,
+        "storyWordCount": 293,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/25.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/26.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-13.json"
+      },
+      {
+        "unit": 14,
+        "id": "4000-v3-u14",
+        "title": "The Helpful Apprentice",
+        "targetWordsCount": 20,
+        "storyWordCount": 268,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/27.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/28.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-14.json"
+      },
+      {
+        "unit": 15,
+        "id": "4000-v3-u15",
+        "title": "Why Monkey Has No Home",
+        "targetWordsCount": 20,
+        "storyWordCount": 283,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/29.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/30.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-15.json"
+      },
+      {
+        "unit": 16,
+        "id": "4000-v3-u16",
+        "title": "Matthew Learns a Lesson",
+        "targetWordsCount": 20,
+        "storyWordCount": 297,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/31.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/32.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-16.json"
+      },
+      {
+        "unit": 17,
+        "id": "4000-v3-u17",
+        "title": "A The Magic Cup",
+        "targetWordsCount": 20,
+        "storyWordCount": 287,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/33.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/34.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-17.json"
+      },
+      {
+        "unit": 18,
+        "id": "4000-v3-u18",
+        "title": "The Knight's Plan",
+        "targetWordsCount": 20,
+        "storyWordCount": 283,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/35.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/36.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-18.json"
+      },
+      {
+        "unit": 19,
+        "id": "4000-v3-u19",
+        "title": "The Magic Pear Tree",
+        "targetWordsCount": 20,
+        "storyWordCount": 284,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/37.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/38.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-19.json"
+      },
+      {
+        "unit": 20,
+        "id": "4000-v3-u20",
+        "title": "H i Little Wolf and Mother Wolf",
+        "targetWordsCount": 20,
+        "storyWordCount": 280,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/39.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/40.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-20.json"
+      },
+      {
+        "unit": 21,
+        "id": "4000-v3-u21",
+        "title": "HHHI The Old Man with a Bump",
+        "targetWordsCount": 20,
+        "storyWordCount": 289,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/41.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/42.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-21.json"
+      },
+      {
+        "unit": 22,
+        "id": "4000-v3-u22",
+        "title": "The Circus",
+        "targetWordsCount": 20,
+        "storyWordCount": 282,
+        "questionsCount": 6,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/43.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/44.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-22.json"
+      },
+      {
+        "unit": 23,
+        "id": "4000-v3-u23",
+        "title": "m H E ~*",
+        "targetWordsCount": 20,
+        "storyWordCount": 297,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/45.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/46.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-23.json"
+      },
+      {
+        "unit": 24,
+        "id": "4000-v3-u24",
+        "title": "The Bremen Town Musicians",
+        "targetWordsCount": 20,
+        "storyWordCount": 299,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/47.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/48.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-24.json"
+      },
+      {
+        "unit": 25,
+        "id": "4000-v3-u25",
+        "title": "How Did",
+        "targetWordsCount": 20,
+        "storyWordCount": 284,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/49.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/50.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-25.json"
+      },
+      {
+        "unit": 26,
+        "id": "4000-v3-u26",
+        "title": "I Everyone is Special",
+        "targetWordsCount": 20,
+        "storyWordCount": 307,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/51.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/52.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-26.json"
+      },
+      {
+        "unit": 27,
+        "id": "4000-v3-u27",
+        "title": "Pizarro and the Inca Gold",
+        "targetWordsCount": 20,
+        "storyWordCount": 289,
+        "questionsCount": 8,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/53.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/54.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-27.json"
+      },
+      {
+        "unit": 28,
+        "id": "4000-v3-u28",
+        "title": "The Boy Who Saved the Town",
+        "targetWordsCount": 20,
+        "storyWordCount": 278,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/55.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/56.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-28.json"
+      },
+      {
+        "unit": 29,
+        "id": "4000-v3-u29",
+        "title": "An Interesting Life _3",
+        "targetWordsCount": 20,
+        "storyWordCount": 269,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/57.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/58.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-29.json"
+      },
+      {
+        "unit": 30,
+        "id": "4000-v3-u30",
+        "title": "The Kitten and the Caterpillar",
+        "targetWordsCount": 20,
+        "storyWordCount": 292,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/59.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 3/4000 english words volume 3/60.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-3/unit-30.json"
+      }
+    ]
+  },
+  {
+    "volume": 4,
+    "level": {
+      "level": "B2",
+      "label": "Upper-Intermediate"
+    },
+    "units": [
+      {
+        "unit": 1,
+        "id": "4000-v4-u01",
+        "title": "The „JI",
+        "targetWordsCount": 20,
+        "storyWordCount": 307,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/01.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/02.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-01.json"
+      },
+      {
+        "unit": 2,
+        "id": "4000-v4-u02",
+        "title": "Monkey Island",
+        "targetWordsCount": 20,
+        "storyWordCount": 331,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/03.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/04.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-02.json"
+      },
+      {
+        "unit": 3,
+        "id": "4000-v4-u03",
+        "title": "The Young Man",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/05.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/06.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-03.json"
+      },
+      {
+        "unit": 4,
+        "id": "4000-v4-u04",
+        "title": "The Tricky Fox",
+        "targetWordsCount": 20,
+        "storyWordCount": 309,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/07.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/08.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-04.json"
+      },
+      {
+        "unit": 5,
+        "id": "4000-v4-u05",
+        "title": "The Magic Computer",
+        "targetWordsCount": 20,
+        "storyWordCount": 318,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/09.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/10.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-05.json"
+      },
+      {
+        "unit": 6,
+        "id": "4000-v4-u06",
+        "title": "Unit 6 Reading",
+        "targetWordsCount": 20,
+        "storyWordCount": 348,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/11.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/12.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-06.json"
+      },
+      {
+        "unit": 7,
+        "id": "4000-v4-u07",
+        "title": "The Architect's Plan",
+        "targetWordsCount": 19,
+        "storyWordCount": 333,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/13.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/14.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-07.json"
+      },
+      {
+        "unit": 8,
+        "id": "4000-v4-u08",
+        "title": "a * * ™ - - -irr",
+        "targetWordsCount": 20,
+        "storyWordCount": 319,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/15.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/16.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-08.json"
+      },
+      {
+        "unit": 9,
+        "id": "4000-v4-u09",
+        "title": "Growing to be Great",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 8,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/17.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/18.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-09.json"
+      },
+      {
+        "unit": 10,
+        "id": "4000-v4-u10",
+        "title": "Anton's Great Discovery",
+        "targetWordsCount": 20,
+        "storyWordCount": 323,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/19.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/20.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-10.json"
+      },
+      {
+        "unit": 11,
+        "id": "4000-v4-u11",
+        "title": "mmm How a",
+        "targetWordsCount": 20,
+        "storyWordCount": 330,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/21.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/22.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-11.json"
+      },
+      {
+        "unit": 12,
+        "id": "4000-v4-u12",
+        "title": "rTT tiil^ The",
+        "targetWordsCount": 20,
+        "storyWordCount": 327,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/23.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/24.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-12.json"
+      },
+      {
+        "unit": 13,
+        "id": "4000-v4-u13",
+        "title": "The Big Race",
+        "targetWordsCount": 20,
+        "storyWordCount": 318,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/25.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/26.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-13.json"
+      },
+      {
+        "unit": 14,
+        "id": "4000-v4-u14",
+        "title": "ftn n m irfliifia The",
+        "targetWordsCount": 20,
+        "storyWordCount": 288,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/27.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/28.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-14.json"
+      },
+      {
+        "unit": 15,
+        "id": "4000-v4-u15",
+        "title": "Laika, the Space Dog",
+        "targetWordsCount": 20,
+        "storyWordCount": 321,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/29.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/30.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-15.json"
+      },
+      {
+        "unit": 16,
+        "id": "4000-v4-u16",
+        "title": "Gwen's New Friends",
+        "targetWordsCount": 20,
+        "storyWordCount": 315,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/31.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/32.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-16.json"
+      },
+      {
+        "unit": 17,
+        "id": "4000-v4-u17",
+        "title": "mmmA&utiiMi*",
+        "targetWordsCount": 20,
+        "storyWordCount": 332,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/33.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/34.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-17.json"
+      },
+      {
+        "unit": 18,
+        "id": "4000-v4-u18",
+        "title": "The School Play",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/35.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/36.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-18.json"
+      },
+      {
+        "unit": 19,
+        "id": "4000-v4-u19",
+        "title": "mmkrnmmm Isaac's First Plane Trip",
+        "targetWordsCount": 19,
+        "storyWordCount": 330,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/37.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/38.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-19.json"
+      },
+      {
+        "unit": 20,
+        "id": "4000-v4-u20",
+        "title": "The Betrayal",
+        "targetWordsCount": 20,
+        "storyWordCount": 323,
+        "questionsCount": 8,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/39.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/40.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-20.json"
+      },
+      {
+        "unit": 21,
+        "id": "4000-v4-u21",
+        "title": "The Teller and the Thieves",
+        "targetWordsCount": 20,
+        "storyWordCount": 295,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/41.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/42.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-21.json"
+      },
+      {
+        "unit": 22,
+        "id": "4000-v4-u22",
+        "title": "The c",
+        "targetWordsCount": 20,
+        "storyWordCount": 317,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/43.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/44.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-22.json"
+      },
+      {
+        "unit": 23,
+        "id": "4000-v4-u23",
+        "title": "n How the",
+        "targetWordsCount": 20,
+        "storyWordCount": 302,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/45.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/46.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-23.json"
+      },
+      {
+        "unit": 24,
+        "id": "4000-v4-u24",
+        "title": "M U The",
+        "targetWordsCount": 20,
+        "storyWordCount": 319,
+        "questionsCount": 8,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/47.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/48.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-24.json"
+      },
+      {
+        "unit": 25,
+        "id": "4000-v4-u25",
+        "title": "Gilbert and the Lizard",
+        "targetWordsCount": 20,
+        "storyWordCount": 329,
+        "questionsCount": 8,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/49.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/50.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-25.json"
+      },
+      {
+        "unit": 26,
+        "id": "4000-v4-u26",
+        "title": "The * _ •",
+        "targetWordsCount": 20,
+        "storyWordCount": 327,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/51.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/52.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-26.json"
+      },
+      {
+        "unit": 27,
+        "id": "4000-v4-u27",
+        "title": "Unit 27 Reading",
+        "targetWordsCount": 20,
+        "storyWordCount": 338,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/53.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/54.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-27.json"
+      },
+      {
+        "unit": 28,
+        "id": "4000-v4-u28",
+        "title": "Thucydides and the Plague of Athens",
+        "targetWordsCount": 20,
+        "storyWordCount": 319,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/55.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/56.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-28.json"
+      },
+      {
+        "unit": 29,
+        "id": "4000-v4-u29",
+        "title": "The Solar Car Race",
+        "targetWordsCount": 20,
+        "storyWordCount": 323,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/57.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/58.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-29.json"
+      },
+      {
+        "unit": 30,
+        "id": "4000-v4-u30",
+        "title": "The Heirs",
+        "targetWordsCount": 20,
+        "storyWordCount": 333,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/59.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 4/60.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-4/unit-30.json"
+      }
+    ]
+  },
+  {
+    "volume": 5,
+    "level": {
+      "level": "C1",
+      "label": "Advanced"
+    },
+    "units": [
+      {
+        "unit": 1,
+        "id": "4000-v5-u01",
+        "title": "The Little Mice",
+        "targetWordsCount": 20,
+        "storyWordCount": 328,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/01.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/02.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-01.json"
+      },
+      {
+        "unit": 2,
+        "id": "4000-v5-u02",
+        "title": "The Helpful Abbey",
+        "targetWordsCount": 20,
+        "storyWordCount": 317,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/03.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/04.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-02.json"
+      },
+      {
+        "unit": 3,
+        "id": "4000-v5-u03",
+        "title": "The Bachelor's Lesson",
+        "targetWordsCount": 20,
+        "storyWordCount": 307,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/05.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/06.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-03.json"
+      },
+      {
+        "unit": 4,
+        "id": "4000-v5-u04",
+        "title": "The Corrupt Administrator",
+        "targetWordsCount": 20,
+        "storyWordCount": 290,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/07.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/08.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-04.json"
+      },
+      {
+        "unit": 5,
+        "id": "4000-v5-u05",
+        "title": "a Famous Accident",
+        "targetWordsCount": 20,
+        "storyWordCount": 299,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/09.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/10.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-05.json"
+      },
+      {
+        "unit": 6,
+        "id": "4000-v5-u06",
+        "title": "The Island",
+        "targetWordsCount": 20,
+        "storyWordCount": 314,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/11.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/12.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-06.json"
+      },
+      {
+        "unit": 7,
+        "id": "4000-v5-u07",
+        "title": "Small World",
+        "targetWordsCount": 20,
+        "storyWordCount": 287,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/13.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/14.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-07.json"
+      },
+      {
+        "unit": 8,
+        "id": "4000-v5-u08",
+        "title": "Becoming a Healer",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/15.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/16.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-08.json"
+      },
+      {
+        "unit": 9,
+        "id": "4000-v5-u09",
+        "title": "The Weaving Machine",
+        "targetWordsCount": 20,
+        "storyWordCount": 331,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/17.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/18.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-09.json"
+      },
+      {
+        "unit": 10,
+        "id": "4000-v5-u10",
+        "title": "I Life on the Farm",
+        "targetWordsCount": 20,
+        "storyWordCount": 267,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/19.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/20.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-10.json"
+      },
+      {
+        "unit": 11,
+        "id": "4000-v5-u11",
+        "title": "Beethoven's Gift",
+        "targetWordsCount": 20,
+        "storyWordCount": 301,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/21.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/22.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-11.json"
+      },
+      {
+        "unit": 12,
+        "id": "4000-v5-u12",
+        "title": "Brothers",
+        "targetWordsCount": 20,
+        "storyWordCount": 311,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/23.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/24.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-12.json"
+      },
+      {
+        "unit": 13,
+        "id": "4000-v5-u13",
+        "title": "The Old Hound",
+        "targetWordsCount": 20,
+        "storyWordCount": 292,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/25.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/26.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-13.json"
+      },
+      {
+        "unit": 14,
+        "id": "4000-v5-u14",
+        "title": "Day Without Sight",
+        "targetWordsCount": 20,
+        "storyWordCount": 329,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/27.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/28.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-14.json"
+      },
+      {
+        "unit": 15,
+        "id": "4000-v5-u15",
+        "title": "The Big Ship I",
+        "targetWordsCount": 19,
+        "storyWordCount": 328,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/29.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/30.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-15.json"
+      },
+      {
+        "unit": 16,
+        "id": "4000-v5-u16",
+        "title": "The History of Parachutes",
+        "targetWordsCount": 20,
+        "storyWordCount": 321,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/31.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/32.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-16.json"
+      },
+      {
+        "unit": 17,
+        "id": "4000-v5-u17",
+        "title": "I Didn't Do It!\"",
+        "targetWordsCount": 20,
+        "storyWordCount": 329,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/33.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/34.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-17.json"
+      },
+      {
+        "unit": 18,
+        "id": "4000-v5-u18",
+        "title": "The Soldier's Decision",
+        "targetWordsCount": 20,
+        "storyWordCount": 337,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/35.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/36.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-18.json"
+      },
+      {
+        "unit": 19,
+        "id": "4000-v5-u19",
+        "title": "Jane's Pride",
+        "targetWordsCount": 20,
+        "storyWordCount": 316,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/37.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/38.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-19.json"
+      },
+      {
+        "unit": 20,
+        "id": "4000-v5-u20",
+        "title": "Microchips i",
+        "targetWordsCount": 20,
+        "storyWordCount": 315,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/39.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/40.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-20.json"
+      },
+      {
+        "unit": 21,
+        "id": "4000-v5-u21",
+        "title": "The iW in S",
+        "targetWordsCount": 20,
+        "storyWordCount": 323,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/41.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/42.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-21.json"
+      },
+      {
+        "unit": 22,
+        "id": "4000-v5-u22",
+        "title": "The New Bioco II",
+        "targetWordsCount": 20,
+        "storyWordCount": 335,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/43.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/44.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-22.json"
+      },
+      {
+        "unit": 23,
+        "id": "4000-v5-u23",
+        "title": "How Comet Got His Tail",
+        "targetWordsCount": 20,
+        "storyWordCount": 306,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/45.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/46.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-23.json"
+      },
+      {
+        "unit": 24,
+        "id": "4000-v5-u24",
+        "title": "The Resourceful Landlord landlord",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/47.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/48.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-24.json"
+      },
+      {
+        "unit": 25,
+        "id": "4000-v5-u25",
+        "title": "The Man and the Monkey",
+        "targetWordsCount": 20,
+        "storyWordCount": 323,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/49.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/50.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-25.json"
+      },
+      {
+        "unit": 26,
+        "id": "4000-v5-u26",
+        "title": "Cosmo's Flight",
+        "targetWordsCount": 20,
+        "storyWordCount": 366,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/51.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/52.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-26.json"
+      },
+      {
+        "unit": 27,
+        "id": "4000-v5-u27",
+        "title": "The First Organ Transplant",
+        "targetWordsCount": 20,
+        "storyWordCount": 317,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/53.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/54.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-27.json"
+      },
+      {
+        "unit": 28,
+        "id": "4000-v5-u28",
+        "title": "p The Lottery",
+        "targetWordsCount": 20,
+        "storyWordCount": 315,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/55.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/56.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-28.json"
+      },
+      {
+        "unit": 29,
+        "id": "4000-v5-u29",
+        "title": "Jen's New Job",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/57.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/58.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-29.json"
+      },
+      {
+        "unit": 30,
+        "id": "4000-v5-u30",
+        "title": "The Demon's Bridge",
+        "targetWordsCount": 20,
+        "storyWordCount": 330,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/59.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 5/4000 english words volume 5/60.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-5/unit-30.json"
+      }
+    ]
+  },
+  {
+    "volume": 6,
+    "level": {
+      "level": "C1+",
+      "label": "Mastery / Fluent"
+    },
+    "units": [
+      {
+        "unit": 1,
+        "id": "4000-v6-u01",
+        "title": "I The North Star",
+        "targetWordsCount": 20,
+        "storyWordCount": 325,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/01.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/02.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-01.json"
+      },
+      {
+        "unit": 2,
+        "id": "4000-v6-u02",
+        "title": "The Fossil Hunters",
+        "targetWordsCount": 20,
+        "storyWordCount": 331,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/03.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/04.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-02.json"
+      },
+      {
+        "unit": 3,
+        "id": "4000-v6-u03",
+        "title": "Dressed to Excess",
+        "targetWordsCount": 20,
+        "storyWordCount": 322,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/05.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/06.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-03.json"
+      },
+      {
+        "unit": 4,
+        "id": "4000-v6-u04",
+        "title": "The Butler's Bad Day",
+        "targetWordsCount": 20,
+        "storyWordCount": 316,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/07.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/08.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-04.json"
+      },
+      {
+        "unit": 5,
+        "id": "4000-v6-u05",
+        "title": "A Bet",
+        "targetWordsCount": 20,
+        "storyWordCount": 340,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/09.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/10.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-05.json"
+      },
+      {
+        "unit": 6,
+        "id": "4000-v6-u06",
+        "title": "I Amazing Komodo Dragons",
+        "targetWordsCount": 20,
+        "storyWordCount": 302,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/11.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/12.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-06.json"
+      },
+      {
+        "unit": 7,
+        "id": "4000-v6-u07",
+        "title": "Greek Magical Papyri",
+        "targetWordsCount": 20,
+        "storyWordCount": 300,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/13.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/14.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-07.json"
+      },
+      {
+        "unit": 8,
+        "id": "4000-v6-u08",
+        "title": "Unit 8 Reading",
+        "targetWordsCount": 20,
+        "storyWordCount": 333,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/15.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/16.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-08.json"
+      },
+      {
+        "unit": 9,
+        "id": "4000-v6-u09",
+        "title": "Dangerous Bites",
+        "targetWordsCount": 20,
+        "storyWordCount": 280,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/17.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/18.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-09.json"
+      },
+      {
+        "unit": 10,
+        "id": "4000-v6-u10",
+        "title": "The Avalanche",
+        "targetWordsCount": 20,
+        "storyWordCount": 352,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/19.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/20.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-10.json"
+      },
+      {
+        "unit": 11,
+        "id": "4000-v6-u11",
+        "title": "The Lydian King",
+        "targetWordsCount": 20,
+        "storyWordCount": 313,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/21.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/22.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-11.json"
+      },
+      {
+        "unit": 12,
+        "id": "4000-v6-u12",
+        "title": "The Butler",
+        "targetWordsCount": 20,
+        "storyWordCount": 329,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/23.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/24.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-12.json"
+      },
+      {
+        "unit": 13,
+        "id": "4000-v6-u13",
+        "title": "The End of Smallpox",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/25.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/26.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-13.json"
+      },
+      {
+        "unit": 14,
+        "id": "4000-v6-u14",
+        "title": "The Coward's Lesson",
+        "targetWordsCount": 20,
+        "storyWordCount": 320,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/27.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/28.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-14.json"
+      },
+      {
+        "unit": 15,
+        "id": "4000-v6-u15",
+        "title": "Epidemic in Zimbabwe",
+        "targetWordsCount": 20,
+        "storyWordCount": 318,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/29.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/30.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-15.json"
+      },
+      {
+        "unit": 16,
+        "id": "4000-v6-u16",
+        "title": "The Brute and the Billionaire",
+        "targetWordsCount": 20,
+        "storyWordCount": 323,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/31.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/32.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-16.json"
+      },
+      {
+        "unit": 17,
+        "id": "4000-v6-u17",
+        "title": "The Tenacious Inventor",
+        "targetWordsCount": 20,
+        "storyWordCount": 291,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/33.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/34.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-17.json"
+      },
+      {
+        "unit": 18,
+        "id": "4000-v6-u18",
+        "title": "The Nurse's Lesson",
+        "targetWordsCount": 20,
+        "storyWordCount": 334,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/35.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/36.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-18.json"
+      },
+      {
+        "unit": 19,
+        "id": "4000-v6-u19",
+        "title": "Seizures Then and Now",
+        "targetWordsCount": 20,
+        "storyWordCount": 321,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/37.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/38.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-19.json"
+      },
+      {
+        "unit": 20,
+        "id": "4000-v6-u20",
+        "title": "The Greedy Bee",
+        "targetWordsCount": 20,
+        "storyWordCount": 336,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/39.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/40.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-20.json"
+      },
+      {
+        "unit": 21,
+        "id": "4000-v6-u21",
+        "title": "The Mayor of Sherman",
+        "targetWordsCount": 20,
+        "storyWordCount": 322,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/41.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/42.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-21.json"
+      },
+      {
+        "unit": 22,
+        "id": "4000-v6-u22",
+        "title": "The Editor's Choice",
+        "targetWordsCount": 20,
+        "storyWordCount": 278,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/43.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/44.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-22.json"
+      },
+      {
+        "unit": 23,
+        "id": "4000-v6-u23",
+        "title": "The Ice House",
+        "targetWordsCount": 20,
+        "storyWordCount": 324,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/45.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/46.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-23.json"
+      },
+      {
+        "unit": 24,
+        "id": "4000-v6-u24",
+        "title": "Preparing ofthe Future - wTg",
+        "targetWordsCount": 20,
+        "storyWordCount": 327,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/47.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/48.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-24.json"
+      },
+      {
+        "unit": 25,
+        "id": "4000-v6-u25",
+        "title": "Hundred Plays",
+        "targetWordsCount": 20,
+        "storyWordCount": 315,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/49.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/50.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-25.json"
+      },
+      {
+        "unit": 26,
+        "id": "4000-v6-u26",
+        "title": "The Kidnapping",
+        "targetWordsCount": 20,
+        "storyWordCount": 332,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/51.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/52.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-26.json"
+      },
+      {
+        "unit": 27,
+        "id": "4000-v6-u27",
+        "title": "The Earl of Shining",
+        "targetWordsCount": 20,
+        "storyWordCount": 341,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/53.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/54.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-27.json"
+      },
+      {
+        "unit": 28,
+        "id": "4000-v6-u28",
+        "title": "The Lord and the Farmers",
+        "targetWordsCount": 20,
+        "storyWordCount": 314,
+        "questionsCount": 9,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/55.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/56.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-28.json"
+      },
+      {
+        "unit": 29,
+        "id": "4000-v6-u29",
+        "title": "The Shortcut",
+        "targetWordsCount": 20,
+        "storyWordCount": 330,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/57.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/58.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-29.json"
+      },
+      {
+        "unit": 30,
+        "id": "4000-v6-u30",
+        "title": "The Mad Hatter",
+        "targetWordsCount": 19,
+        "storyWordCount": 338,
+        "questionsCount": 10,
+        "audio": {
+          "wordsAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/59.mp3",
+          "storyAudioPath": "materials/4000 essential english words FULL/4000 english words volume 6/4000 english words volume 6/60.mp3"
+        },
+        "jsonPath": "data/extracted/words4000/vol-6/unit-30.json"
+      }
+    ]
+  }
+]

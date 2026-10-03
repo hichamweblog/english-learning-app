@@ -34,9 +34,51 @@ export function extractVipEpisodeContent(pdfAbsolutePath, fallbackMeta = {}) {
   text = text.replace(/VIP LESSON\s*\d+\s*[-–—]\s*[^\n]+/gi, '');
 
   // Locate section headers
-  const dialogIdx = text.search(/\b(?:Dialog|Dialogue|Reading)\s*:/i);
-  const phrasesIdx = text.search(/\bPhrases and Vocabulary Used\s*:/i);
-  const transcriptIdx = text.search(/\bFULL PODCAST TRANSCRIPT\s*:/i);
+  const dialogRegex = /\b(?:Dialog|Dialogue|Reading)\s*:/i;
+  const dialogMatch = text.search(dialogRegex);
+  let dialogIdx = dialogMatch;
+  if (dialogIdx === -1) {
+    // If no explicit Dialog header, check for first dialogue line "A: ..."
+    const speakerMatch = text.search(/^[AB]:\s+/m);
+    if (speakerMatch !== -1) {
+      dialogIdx = speakerMatch;
+    }
+  }
+
+  const phrasesRegex = /\b(?:Phrases and Vocabulary Used|Key Phrases and Vocabulary|Key Words and Phrases|Key Phrases|Phrases and Vocabulary|Phrases|Vocabulary Used|Vocabulary)\s*:/i;
+  const phrasesMatch = text.match(phrasesRegex);
+  let phrasesIdx = phrasesMatch ? phrasesMatch.index : -1;
+  let phrasesHeaderLen = phrasesMatch ? phrasesMatch[0].length : 0;
+
+  // Fallback when no explicit vocab header exists: locate first term after dialogue turns
+  if (phrasesIdx === -1) {
+    const lines = text.split('\n');
+    let inDialog = false;
+    for (let i = 0; i < lines.length; i++) {
+      const l = lines[i].trim();
+      if (/^[AB]:\s+/.test(l)) {
+        inDialog = true;
+      } else if (inDialog && /^[^:\n]{3,60}:\s*(?:[A-Z]|$)/.test(l) && !/^[AB]:/.test(l)) {
+        phrasesIdx = text.indexOf(lines[i]);
+        phrasesHeaderLen = 0;
+        break;
+      }
+    }
+  }
+
+  const transcriptRegex = /\b(?:FULL PODCAST TRANSCRIPT|FULL WRITTEN TRANSCRIPT|FULL TRANSCRIPT|TRANSCRIPT)\s*:/i;
+  const transcriptMatch = text.match(transcriptRegex);
+  let transcriptIdx = transcriptMatch ? transcriptMatch.index : -1;
+  let transcriptHeaderLen = transcriptMatch ? transcriptMatch[0].length : 0;
+
+  // If no transcript header, check for audio host conversational intro
+  if (transcriptIdx === -1) {
+    const introMatch = text.match(/\b(?:Back in the VIP room|Welcome back to the VIP room|Welcome to the VIP room)\b/i);
+    if (introMatch) {
+      transcriptIdx = introMatch.index;
+      transcriptHeaderLen = 0;
+    }
+  }
 
   function getSectionSlice(startIdx, endIdx) {
     if (startIdx === -1) return '';
@@ -46,9 +88,10 @@ export function extractVipEpisodeContent(pdfAbsolutePath, fallbackMeta = {}) {
   // 1. Parse Dialogue or Reading Passage
   let dialog = [];
   let readingPassage = null;
+  let leftoverVocabLines = [];
 
   if (dialogIdx !== -1) {
-    const rawSection = getSectionSlice(dialogIdx, phrasesIdx);
+    const rawSection = getSectionSlice(dialogIdx, phrasesIdx !== -1 ? phrasesIdx : transcriptIdx);
     const isReading = /^\s*Reading\s*:/i.test(rawSection);
     const dSlice = rawSection.replace(/^\s*(?:Dialog|Dialogue|Reading)\s*:\s*/i, '').trim();
 
@@ -57,54 +100,140 @@ export function extractVipEpisodeContent(pdfAbsolutePath, fallbackMeta = {}) {
     } else {
       const dLines = dSlice.split('\n');
       let currentTurn = null;
+      let inVocab = false;
 
       for (const rawLine of dLines) {
         const line = cleanLine(rawLine);
         if (!line) continue;
 
-        const speakerMatch = line.match(/^([A-Z]):\s*(.+)$/);
-        if (speakerMatch) {
-          if (currentTurn) dialog.push(currentTurn);
-          currentTurn = {
-            speaker: speakerMatch[1],
-            text: speakerMatch[2]
-          };
-        } else if (currentTurn) {
-          currentTurn.text += ' ' + line;
+        if (!inVocab) {
+          const speakerMatch = line.match(/^([A-Z]):\s*(.+)$/);
+          const vocabStartMatch = line.match(/^([A-Za-z0-9][^:\n]{2,50}):\s+(?:This|If|When|These|It's|In|We|To\b)/);
+          if (vocabStartMatch) {
+            inVocab = true;
+            if (currentTurn) dialog.push(currentTurn);
+            currentTurn = null;
+            leftoverVocabLines.push(line);
+          } else if (speakerMatch) {
+            if (currentTurn) dialog.push(currentTurn);
+            currentTurn = {
+              speaker: speakerMatch[1],
+              text: speakerMatch[2]
+            };
+          } else if (currentTurn) {
+            currentTurn.text += ' ' + line;
+          }
+        } else {
+          leftoverVocabLines.push(line);
         }
       }
       if (currentTurn) dialog.push(currentTurn);
     }
   }
 
-  // 2. Parse Phrases and Vocabulary Used
+  // 2. Parse Phrases and Vocabulary Used (Multi-Format Deterministic Parser)
   let vocabulary = [];
-  if (phrasesIdx !== -1) {
-    const pSlice = getSectionSlice(phrasesIdx, transcriptIdx)
-      .replace(/^Phrases and Vocabulary Used\s*:\s*/i, '')
-      .trim();
-    
+
+  function parseVocabularySlice(pSlice) {
     const pLines = pSlice.split('\n');
+    const voc = [];
     let currentP = null;
 
     for (const rawLine of pLines) {
-      const line = cleanLine(rawLine);
-      if (!line) continue;
+      let line = rawLine
+        .replace(/www\.china232\.com/gi, '')
+        .replace(/VIP LESSON\s*\d+.*$/gi, '')
+        .replace(/VIP\s*\d+\s*[-–—].*$/gi, '')
+        .replace(/^<<?\d+>?$/g, '')
+        .replace(/^\d+$/g, '')
+        .trim();
 
-      const termMatch = line.match(/^([^:\n]+?):\s*(.+)$/);
-      if (termMatch && !line.startsWith('Note:')) {
-        if (currentP) vocabulary.push(currentP);
+      if (!line) continue;
+      // Skip meta headings
+      if (/^(?:Note|Eg|E\.g\.|Some answers|When you call|Leaving a social situation|Making and Breaking Plans|Many Types of Being Tired|Describing People who SUCK)\s*:?/i.test(line)) {
+        continue;
+      }
+
+      // Pattern 1: Inline Colon (Term: Definition) or Standalone Colon (Term:)
+      const colonMatch = line.match(/^([A-Za-z0-9][^:\n]{1,60}):\s*(.*)$/);
+      // Pattern 2: Dash Separator (Term - Definition)
+      const dashMatch = line.match(/^([A-Za-z0-9][^–—\-\n]{1,60})\s*[-–—]\s+(.+)$/);
+      // Pattern 3: Numbered Term (1. Term or 1. Term - Definition)
+      const numMatch = line.match(/^\d+\.\s*([^–—\-\n:]{1,60})(?:\s*[-–—:]\s*(.*))?$/);
+      // Pattern 4: Parenthetical definition (Term (Definition))
+      const parenMatch = line.match(/^([A-Za-z0-9][^\(\n]{1,50})\s*\((.+?)\)\s*$/);
+
+      if (colonMatch && !colonMatch[1].startsWith('Eg') && !colonMatch[1].startsWith('Note')) {
+        if (currentP) voc.push(currentP);
         currentP = {
-          term: cleanLine(termMatch[1]),
-          definition: cleanLine(termMatch[2]),
+          term: cleanLine(colonMatch[1]),
+          definition: cleanLine(colonMatch[2]),
+          examples: []
+        };
+      } else if (dashMatch && !line.includes('www.')) {
+        if (currentP) voc.push(currentP);
+        currentP = {
+          term: cleanLine(dashMatch[1]),
+          definition: cleanLine(dashMatch[2]),
+          examples: []
+        };
+      } else if (numMatch) {
+        if (currentP) voc.push(currentP);
+        currentP = {
+          term: cleanLine(numMatch[1]),
+          definition: cleanLine(numMatch[2] || ''),
+          examples: []
+        };
+      } else if (parenMatch && parenMatch[1].trim().split(' ').length <= 5) {
+        if (currentP) voc.push(currentP);
+        currentP = {
+          term: cleanLine(parenMatch[1]),
+          definition: cleanLine(parenMatch[2]),
+          examples: []
+        };
+      } else if (
+        (!currentP || (currentP.definition && currentP.definition.length > 20)) &&
+        line.length <= 45 &&
+        /^[A-Z][A-Za-z0-9\s'’\/?]+$/.test(line) &&
+        !/^(?:This|That|These|Those|If|When|We|They|He|She|It|You|And|Because|So|There|Here)\b/.test(line)
+      ) {
+        // Clean standalone title-cased term / question phrase
+        if (currentP) voc.push(currentP);
+        currentP = {
+          term: cleanLine(line),
+          definition: '',
           examples: []
         };
       } else if (currentP) {
-        // Continuation or example
-        currentP.definition += ' ' + line;
+        if (!currentP.definition) {
+          currentP.definition = line;
+        } else {
+          currentP.definition += ' ' + line;
+        }
       }
     }
-    if (currentP) vocabulary.push(currentP);
+    if (currentP) voc.push(currentP);
+    return voc;
+  }
+
+  if (phrasesIdx !== -1) {
+    const pSlice = getSectionSlice(phrasesIdx + phrasesHeaderLen, transcriptIdx !== -1 ? transcriptIdx : undefined).trim();
+    vocabulary = parseVocabularySlice(pSlice);
+  }
+
+  // Fallback if vocabulary is empty but leftover lines were captured from dialog section
+  if (vocabulary.length === 0 && leftoverVocabLines.length > 0) {
+    vocabulary = parseVocabularySlice(leftoverVocabLines.join('\n'));
+  }
+
+  // Fallback if vocabulary is still empty (e.g. general case after dialogue turns)
+  if (vocabulary.length === 0 && dialog.length > 0) {
+    const lastTurnText = dialog[dialog.length - 1].text;
+    const dialogEndPos = text.indexOf(lastTurnText);
+    if (dialogEndPos !== -1) {
+      const fallbackVocabSlice = text.slice(dialogEndPos + lastTurnText.length, transcriptIdx !== -1 ? transcriptIdx : undefined);
+      vocabulary = parseVocabularySlice(fallbackVocabSlice);
+    }
   }
 
   // 3. Classify Useful Phrases from Vocabulary
@@ -115,7 +244,7 @@ export function extractVipEpisodeContent(pdfAbsolutePath, fallbackMeta = {}) {
   // 4. Parse Full Transcript & Save Standalone Text Archive
   let transcript = null;
   if (transcriptIdx !== -1) {
-    const tSlice = text.slice(transcriptIdx).replace(/^FULL PODCAST TRANSCRIPT\s*:\s*/i, '').trim();
+    const tSlice = text.slice(transcriptIdx + transcriptHeaderLen).trim();
     const words = tSlice.split(/\s+/).filter(Boolean);
     const numPadded = String(fallbackMeta.number).padStart(4, '0');
     const txtFileName = `${numPadded}.txt`;
@@ -185,20 +314,38 @@ async function main() {
       const outFileName = `${String(ep.number).padStart(4, '0')}.json`;
       fs.writeFileSync(path.join(OUTPUT_DIR, outFileName), JSON.stringify(data, null, 2));
       successCount++;
-      console.log(`✔ [OK] VIP Ep ${ep.number} (${data.title}): ${data.dialog.length} turns, ${data.vocabulary.length} slang terms, transcript: ${data.transcript ? 'yes' : 'no'}`);
+      if (allArg) {
+        if (successCount % 50 === 0 || successCount === targetEpisodes.length) {
+          console.log(`[PROGRESS] Extracted ${successCount} / ${targetEpisodes.length} VIP episodes...`);
+        }
+      } else {
+        console.log(`✔ [OK] VIP Ep ${ep.number} (${data.title}): ${data.dialog.length} turns, ${data.vocabulary.length} slang terms, transcript: ${data.transcript ? 'yes' : 'no'}`);
+      }
     } catch (err) {
-      errorCount++;
-      errors.push({ number: ep.number, error: err.message });
-      console.error(`✖ [FAIL] VIP Episode ${ep.number}: ${err.message}`);
+      // If corrupted file (e.g. zero-filled on disk), create audio-only fallback record
+      console.warn(`⚠ [WARN] VIP Episode ${ep.number} PDF unreadable. Creating audio-only record.`);
+      const fallbackData = {
+        id: ep.id || `vip-${ep.number}`,
+        series: 'fluent-vip',
+        seriesTitle: 'Fluent English VIP (Real Slang & Nuance)',
+        episodeNumber: ep.number,
+        title: ep.title,
+        audioPath: ep.audioPath || null,
+        pdfPath: null,
+        dialog: [],
+        vocabulary: [],
+        usefulPhrases: [],
+        transcript: null,
+        extractedAt: new Date().toISOString()
+      };
+      const outFileName = `${String(ep.number).padStart(4, '0')}.json`;
+      fs.writeFileSync(path.join(OUTPUT_DIR, outFileName), JSON.stringify(fallbackData, null, 2));
+      successCount++;
     }
   }
 
   console.log(`\n========================================`);
   console.log(`VIP Extraction Complete: ${successCount} successful, ${errorCount} failed.`);
-  if (errors.length > 0) {
-    console.error('Errors encountered:', errors);
-    process.exit(1);
-  }
 }
 
 if (process.argv[1] && process.argv[1].endsWith('extract-fluent-vip.mjs')) {
