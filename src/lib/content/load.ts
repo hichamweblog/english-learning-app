@@ -5,6 +5,8 @@ import type {
   GradedReaderBook,
   ReferenceBook,
   LibraryManifest,
+  ExtractedEpisodeData,
+  ExtractedVipData,
 } from '@/types/content';
 
 function readJsonFile<T>(filename: string): T {
@@ -67,3 +69,37 @@ export function getReaderById(id: string): GradedReaderBook | undefined {
   const readers = getGradedReaders();
   return readers.find((r) => r.id === id);
 }
+
+export function getExtractedEpisodeData(series: string, number: number): ExtractedEpisodeData | null {
+  const padded = String(number).padStart(4, '0');
+  let subDir = '';
+  if (series === 'daily-english') subDir = 'daily';
+  else if (series === 'cultural-english') subDir = 'cultural';
+  else return null;
+
+  const filePath = path.join(process.cwd(), 'public/data/extracted', subDir, `${padded}.json`);
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+  try {
+    const content = fs.readFileSync(filePath, 'utf-8');
+    return JSON.parse(content) as ExtractedEpisodeData;
+  } catch {
+    return null;
+  }
+}
+
+export function getExtractedVipData(number: number): ExtractedVipData | null {
+  const padded = String(number).padStart(4, '0');
+  const filePath = path.join(process.cwd(), 'public/data/extracted/vip', `${padded}.json`);
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+  try {
+    const content = fs.readFileSync(filePath, 'utf-8');
+    return JSON.parse(content) as ExtractedVipData;
+  } catch {
+    return null;
+  }
+}
+

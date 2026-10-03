@@ -90,3 +90,80 @@ export interface LibraryManifest {
     referenceBooks: number;
   };
 }
+
+export interface GlossaryEntry {
+  term: string;
+  definition: string;
+  exampleSentence?: string;
+  additionalExamples?: string[];
+}
+
+export interface ComprehensionQuestionOption {
+  key: string;
+  text: string;
+}
+
+export interface ComprehensionQuestion {
+  questionNumber: number;
+  question: string;
+  options: ComprehensionQuestionOption[];
+  correctAnswer?: string;
+}
+
+export interface WhatElseEntry {
+  term: string;
+  explanation: string;
+}
+
+export interface CultureNote {
+  title: string;
+  content: string;
+}
+
+export interface EpisodeTranscript {
+  dialogue?: string;
+  fullText: string;
+  wordCount?: number;
+  txtPath?: string;
+}
+
+export interface ExtractedEpisodeData {
+  id: string;
+  series: PodcastSeriesType;
+  seriesTitle: string;
+  episodeNumber: number;
+  title: string;
+  topics?: string[];
+  audioPath?: string | null;
+  pdfPath?: string | null;
+  glossary: GlossaryEntry[];
+  usefulPhrases?: GlossaryEntry[];
+  questions: ComprehensionQuestion[];
+  whatElse?: WhatElseEntry[];
+  cultureNote?: CultureNote | null;
+  insidersKnow?: CultureNote | null;
+  transcript?: EpisodeTranscript | null;
+  extractedAt: string;
+}
+
+export interface ExtractedVipTurn {
+  speaker: string;
+  text: string;
+}
+
+export interface ExtractedVipData {
+  id: string;
+  series: 'fluent-vip';
+  seriesTitle: string;
+  episodeNumber: number;
+  title: string;
+  audioPath?: string | null;
+  pdfPath?: string | null;
+  dialog: ExtractedVipTurn[];
+  readingPassage?: string;
+  vocabulary: GlossaryEntry[];
+  usefulPhrases?: GlossaryEntry[];
+  transcript?: EpisodeTranscript | null;
+  extractedAt: string;
+}
+

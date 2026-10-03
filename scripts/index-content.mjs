@@ -45,8 +45,14 @@ if (fs.existsSync(dailyDir)) {
       const title = cleanTitle(mp3) || `Episode ${num}`;
       
       // Find matching pdf
-      const numPrefix = String(num).padStart(3, '0');
-      const pdf = files.find(f => f.endsWith('.pdf') && (f.startsWith(numPrefix) || f.startsWith(String(num))));
+      const numPrefix3 = String(num).padStart(3, '0');
+      const numPrefix4 = String(num).padStart(4, '0');
+      const pdf = files.find(f => f.endsWith('.pdf') && (
+        f.startsWith(numPrefix3) || 
+        f.startsWith(numPrefix4) || 
+        f.startsWith(String(num)) ||
+        new RegExp(`^0*${num}\\b`).test(f)
+      ));
       
       dailyEnglishEpisodes.push({
         id: `daily-${num}`,

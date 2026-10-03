@@ -1,6 +1,6 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import { getPodcastById, getAllPodcastEpisodes } from '@/lib/content/load';
+import { getPodcastById, getAllPodcastEpisodes, getExtractedEpisodeData, getExtractedVipData } from '@/lib/content/load';
 import { EpisodeStudyView } from '@/components/Podcasts/EpisodeStudyView';
 
 interface Props {
@@ -28,11 +28,17 @@ export default async function EpisodePage({ params }: Props) {
   const prevEp = currentIdx > 0 ? seriesEpisodes[currentIdx - 1] : null;
   const nextEp = currentIdx < seriesEpisodes.length - 1 ? seriesEpisodes[currentIdx + 1] : null;
 
+  // Load extracted content if available
+  const extractedData = getExtractedEpisodeData(episode.series, episode.number);
+  const extractedVip = episode.series === 'fluent-vip' ? getExtractedVipData(episode.number) : null;
+
   return (
     <EpisodeStudyView
       episode={episode}
       prevEpisode={prevEp}
       nextEpisode={nextEp}
+      extractedData={extractedData}
+      extractedVip={extractedVip}
     />
   );
 }
