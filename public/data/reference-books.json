@@ -161,7 +161,11 @@
     "category": "Grammar & Vocabulary",
     "pdfPath": "materials/Grammar for Everyone_ Practical Tools for Learning and Teaching Grammar.pdf",
     "sizeBytes": 3728134,
-    "isExtracted": false
+    "isExtracted": true,
+    "extractedFile": "grammar-for-everyone.json",
+    "totalChapters": 25,
+    "totalWordCount": 39292,
+    "hasExercises": true
   },
   {
     "id": "ref-20",
@@ -193,7 +197,11 @@
     "category": "Grammar & Vocabulary",
     "pdfPath": "materials/Just Enough English Grammar Illustrated.pdf",
     "sizeBytes": 4172413,
-    "isExtracted": false
+    "isExtracted": true,
+    "extractedFile": "grammar-illustrated-just-enough.json",
+    "totalChapters": 9,
+    "totalWordCount": 24800,
+    "hasExercises": true
   },
   {
     "id": "ref-23",

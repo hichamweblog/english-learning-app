@@ -58,34 +58,25 @@ def save_progress(progress):
     with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
         json.dump(progress, f, indent=2)
 
-def ocr_page_tesseract(pix):
-    img_bytes = pix.tobytes("png")
-    proc = subprocess.Popen(
-        ['tesseract', 'stdin', 'stdout', '-l', 'eng', '--psm', '1'],
-        stdin=subprocess.PIPE,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE
-    )
-    stdout, _ = proc.communicate(input=img_bytes)
-    return stdout.decode('utf-8', errors='replace').strip()
+from concurrent.futures import ThreadPoolExecutor
 
-def ocr_page_rapidocr(pix):
-    img_bytes = pix.tobytes("png")
-    result, _ = ocr_engine(img_bytes)
-    lines = []
-    if result:
-        for item in result:
-            lines.append(item[1])
-    return "\n".join(lines).strip()
-
-def ocr_page(pix):
+def ocr_single_pix_bytes(img_bytes):
     if HAS_TESSERACT:
         try:
-            return ocr_page_tesseract(pix)
+            proc = subprocess.Popen(
+                ['tesseract', 'stdin', 'stdout', '-l', 'eng', '--psm', '3'],
+                stdin=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE
+            )
+            stdout, _ = proc.communicate(input=img_bytes)
+            return stdout.decode('utf-8', errors='replace').strip()
         except Exception:
             pass
     if ocr_engine:
-        return ocr_page_rapidocr(pix)
+        result, _ = ocr_engine(img_bytes)
+        lines = [item[1] for item in result] if result else []
+        return "\n".join(lines).strip()
     return ""
 
 def clean_ocr_text(text):
@@ -111,21 +102,18 @@ def process_scanned_book(reader_meta):
         print(f"[{book_id}] No audio chapters found in metadata. Skipping.")
         return False
 
-    print(f"[{book_id}] Processing: '{reader_meta['title']}' ({total_tracks} audio tracks)...")
-
     doc = pymupdf.open(str(full_pdf))
     total_pages = len(doc)
-    page_texts = []
+    print(f"[{book_id}] Starting OCR on '{reader_meta['title']}' ({total_pages} pages, {total_tracks} tracks)...")
 
-    # Choose reasonable DPI: 96 DPI provides great balance of speed and clarity
-    dpi = 96
-    for page_idx in range(total_pages):
-        page = doc[page_idx]
-        pix = page.get_pixmap(dpi=dpi)
-        p_txt = ocr_page(pix)
-        clean_p = clean_ocr_text(p_txt)
-        page_texts.append(clean_p)
+    # Render pages and run parallel OCR across 4 CPU cores
+    dpi = 120
+    pix_bytes_list = [doc[i].get_pixmap(dpi=dpi).tobytes("png") for i in range(total_pages)]
 
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        raw_page_texts = list(executor.map(ocr_single_pix_bytes, pix_bytes_list))
+
+    page_texts = [clean_ocr_text(t) for t in raw_page_texts]
     full_text = "\n\n--- Page Break ---\n\n".join(page_texts)
 
     # Check for chapter headings in OCR text

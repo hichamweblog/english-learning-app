@@ -402,7 +402,9 @@ for (const pdf of rootPdfs) {
     '650_English_Phrases_for_Everyday_Speaking.pdf': '650-english-phrases.json',
     'pamela_mcpartland_what_s_up_american_idioms.pdf': 'whats-up-american-idioms.json',
     'Illustrated_Everyday_expressions_with_stories_1.pdf': 'book-illustrated-expressions-1.json',
-    'Illustrated_Everyday_Expressions_with_Stories_2.pdf': 'book-illustrated-expressions-2.json'
+    'Illustrated_Everyday_Expressions_with_Stories_2.pdf': 'book-illustrated-expressions-2.json',
+    'Just Enough English Grammar Illustrated.pdf': 'grammar-illustrated-just-enough.json',
+    'Grammar for Everyone_ Practical Tools for Learning and Teaching Grammar.pdf': 'grammar-for-everyone.json'
   };
 
   const extractedFile = extractedMap[pdf];
