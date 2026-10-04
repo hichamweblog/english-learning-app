@@ -428,9 +428,27 @@ for (const pdf of rootPdfs) {
 fs.writeFileSync(path.join(OUTPUT_DIR, 'reference-books.json'), JSON.stringify(refBooks, null, 2));
 console.log(`Indexed ${refBooks.length} Reference Books.`);
 
-// 8. Overall Manifest
+// 8. English the American Way
+const etawIndexFile = path.resolve('public/data/extracted/etaw/index.json');
+let etawUnits = [];
+if (fs.existsSync(etawIndexFile)) {
+  etawUnits = JSON.parse(fs.readFileSync(etawIndexFile, 'utf8'));
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'etaw.json'), JSON.stringify(etawUnits, null, 2));
+  console.log(`Indexed ${etawUnits.length} English the American Way units (54 dialogues).`);
+}
+
+// 9. 4000 Essential English Words
+const wordsIndexFile = path.resolve('public/data/extracted/words4000/index.json');
+let words4000Units = [];
+if (fs.existsSync(wordsIndexFile)) {
+  words4000Units = JSON.parse(fs.readFileSync(wordsIndexFile, 'utf8'));
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'words4000.json'), JSON.stringify(words4000Units, null, 2));
+  console.log(`Indexed ${words4000Units.length} 4000 Essential English Words units.`);
+}
+
+// 10. Overall Manifest
 const manifest = {
-  version: '1.0.0',
+  version: '1.1.0',
   generatedAt: new Date().toISOString(),
   counts: {
     dailyEnglish: dailyEnglishEpisodes.length,
@@ -438,10 +456,12 @@ const manifest = {
     fluentEnglish: fluentEpisodes.length,
     fluentVip: vipEpisodes.length,
     americanAccent: accentLessons.length,
+    etawUnits: etawUnits.length,
+    words4000Units: words4000Units.length,
     readers: readersList.length,
     readersWithAudio: readersList.filter(r => r.hasAudio).length,
     referenceBooks: refBooks.length,
-    totalAudioItems: dailyEnglishEpisodes.length + culturalEpisodes.length + fluentEpisodes.length + vipEpisodes.length + accentLessons.length + readersList.reduce((acc, r) => acc + r.chapters.length, 0)
+    totalAudioItems: dailyEnglishEpisodes.length + culturalEpisodes.length + fluentEpisodes.length + vipEpisodes.length + accentLessons.length + (etawUnits.reduce((acc, u) => acc + (u.dialoguesCount || 0), 0)) + (words4000Units.length * 2) + readersList.reduce((acc, r) => acc + r.chapters.length, 0)
   }
 };
 fs.writeFileSync(path.join(OUTPUT_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));

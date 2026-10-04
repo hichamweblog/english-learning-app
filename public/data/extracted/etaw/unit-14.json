@@ -1,0 +1,575 @@
+{
+  "id": "etaw-unit-14",
+  "unitNumber": 14,
+  "title": "Culture Vulture",
+  "trackType": "english-the-american-way",
+  "level": "intermediate",
+  "levelLabel": "Intermediate",
+  "dialogues": [
+    {
+      "dialogueNumber": 1,
+      "trackNumber": 38,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 38.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "ALAN",
+          "text": "Hi, Lia. What’s happening?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Not much, Alan. But my cousin Bevin’s coming to town this week, so I’m pretty excited."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Cool. Are you planning to stay home and catch up, or are you going into the city? Is she staying for a while?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Well, she’s not staying very long. But I really want to show her around, so I’m looking to see what’s happening in the city this week. I know she’d like to see a show, so I’m hoping to get two-fers; you know . . . two tickets for the price of one . . . for a musical on Broadway. We’re not worrying about which musical—any one will do!"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Are you thinking about eating in a restaurant, too? I think I have twofers for a great Italian restaurant right near the theater district. I’m not going into the city for a while, so I’d be happy to give them to you."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Wow, that’s pretty nice of you! I wanted to treat Bevin to a nice dinner, but I know those restaurants are pricey. But if we have a coupon to get two dinners for the price of one, I’m in! And I think I know the place you mean. I read a review of Luigi’s Restaurant in Sunday’s paper; the food critic said that it’s excellent."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Yeah, you’ll have to make reservations before you go. Dinner and a show! Your cousin will have a great time."
+        },
+        {
+          "speaker": "LIA",
+          "text": "I’ll have a great time, too! I can’t wait! If you’re a student, be sure to ask for the student price at cultural events. Most places offer a good discount for students. You may have to show your student ID. There are discounts for seniors too. If your student days are over, you can still find a good deal at the local concert hall. Call to see if they have “Community Rush” tickets. This allows people to come to the box office on the day of the performance for cheap tickets. It’s a good way to be sure everyone in the community can afford to see a good concert. Theater? Theatre? You’ll see it spelled both ways. Take your pick!"
+        }
+      ],
+      "dialogueText": "ALAN: Hi, Lia. What’s happening?\n\nLIA: Not much, Alan. But my cousin Bevin’s coming to town this week, so I’m pretty excited.\n\nALAN: Cool. Are you planning to stay home and catch up, or are you going into the city? Is she staying for a while?\n\nLIA: Well, she’s not staying very long. But I really want to show her around, so I’m looking to see what’s happening in the city this week. I know she’d like to see a show, so I’m hoping to get two-fers; you know . . . two tickets for the price of one . . . for a musical on Broadway. We’re not worrying about which musical—any one will do!\n\nALAN: Are you thinking about eating in a restaurant, too? I think I have twofers for a great Italian restaurant right near the theater district. I’m not going into the city for a while, so I’d be happy to give them to you.\n\nLIA: Wow, that’s pretty nice of you! I wanted to treat Bevin to a nice dinner, but I know those restaurants are pricey. But if we have a coupon to get two dinners for the price of one, I’m in! And I think I know the place you mean. I read a review of Luigi’s Restaurant in Sunday’s paper; the food critic said that it’s excellent.\n\nALAN: Yeah, you’ll have to make reservations before you go. Dinner and a show! Your cousin will have a great time.\n\nLIA: I’ll have a great time, too! I can’t wait! If you’re a student, be sure to ask for the student price at cultural events. Most places offer a good discount for students. You may have to show your student ID. There are discounts for seniors too. If your student days are over, you can still find a good deal at the local concert hall. Call to see if they have “Community Rush” tickets. This allows people to come to the box office on the day of the performance for cheap tickets. It’s a good way to be sure everyone in the community can afford to see a good concert. Theater? Theatre? You’ll see it spelled both ways. Take your pick!"
+    },
+    {
+      "dialogueNumber": 2,
+      "trackNumber": 39,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 39.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "LIA",
+          "text": "Hey, Alan, aren’t you planning a trip to London this month?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Well, that was the original plan. But now we’re not planning to go to the UK at all. We’ve decided to save some money and just have a staycation this year."
+        },
+        {
+          "speaker": "JAE",
+          "text": "Yeah. We’re going to Plan B: just stay home and have a vacation doing things nearby. And with the money we save, we’re planning to see three extra shows when we go to London next year! We’re thinking about a drive to Washington, D.C., for a weekend. What do you think?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Wow, road trip! Count me in! The North Tower at the National Gallery has an exhibit of American art that I really want to see. And I’m dying to see the special Matisse paper cuttings exhibit. I checked the floor plan, and I see that they’ve moved it from the Tower to the Concourse. Every time I’m in the capital, I forget to plan around the exhibit’s hours, and I miss it. Every time!"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Don’t you check the museum’s hours? Isn’t it open all day?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Sure, I know the museum’s hours. But the Matisse exhibit has its own hours, separate from the rest of the museum. Because the paper cuttings are fragile, they’re only on display for certain times of the day. Too much light can damage them."
+        },
+        {
+          "speaker": "JAE",
+          "text": "Well, we’re not staying in D.C. very long, and we’re planning to buy tickets for an opera performance at the Kennedy Center. I’m not sure we’ll get around to going to the National Gallery of Art on this trip."
+        },
+        {
+          "speaker": "LIA",
+          "text": "I know you culture vultures have your own plan. But we can save some big bucks if we carpool down. Then you can do your own thing, and I’ll go see the Matisse exhibit. I’m not going home until I see that exhibit! We can split the gas, and we can share the driving. It’ll be a great way to save money and have a great cultural weekend. And if you’re lucky, maybe I’ll sing on the way home!"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Aaghh! It sounds like a great idea, but we’ll only do it if you promise not to sing! Find out who the congressional representative is in your voting district. If you call that office a few weeks before you go, the representative can sometimes arrange a special tour of the White House for you! (Your friends will be very impressed.)"
+        }
+      ],
+      "dialogueText": "LIA: Hey, Alan, aren’t you planning a trip to London this month?\n\nALAN: Well, that was the original plan. But now we’re not planning to go to the UK at all. We’ve decided to save some money and just have a staycation this year.\n\nJAE: Yeah. We’re going to Plan B: just stay home and have a vacation doing things nearby. And with the money we save, we’re planning to see three extra shows when we go to London next year! We’re thinking about a drive to Washington, D.C., for a weekend. What do you think?\n\nLIA: Wow, road trip! Count me in! The North Tower at the National Gallery has an exhibit of American art that I really want to see. And I’m dying to see the special Matisse paper cuttings exhibit. I checked the floor plan, and I see that they’ve moved it from the Tower to the Concourse. Every time I’m in the capital, I forget to plan around the exhibit’s hours, and I miss it. Every time!\n\nALAN: Don’t you check the museum’s hours? Isn’t it open all day?\n\nLIA: Sure, I know the museum’s hours. But the Matisse exhibit has its own hours, separate from the rest of the museum. Because the paper cuttings are fragile, they’re only on display for certain times of the day. Too much light can damage them.\n\nJAE: Well, we’re not staying in D.C. very long, and we’re planning to buy tickets for an opera performance at the Kennedy Center. I’m not sure we’ll get around to going to the National Gallery of Art on this trip.\n\nLIA: I know you culture vultures have your own plan. But we can save some big bucks if we carpool down. Then you can do your own thing, and I’ll go see the Matisse exhibit. I’m not going home until I see that exhibit! We can split the gas, and we can share the driving. It’ll be a great way to save money and have a great cultural weekend. And if you’re lucky, maybe I’ll sing on the way home!\n\nALAN: Aaghh! It sounds like a great idea, but we’ll only do it if you promise not to sing! Find out who the congressional representative is in your voting district. If you call that office a few weeks before you go, the representative can sometimes arrange a special tour of the White House for you! (Your friends will be very impressed.)"
+    }
+  ],
+  "dialoguesCount": 2,
+  "vocabulary": [
+    {
+      "term": "afford",
+      "definition": "be able to pay for",
+      "isPhrase": false
+    },
+    {
+      "term": "amateur",
+      "definition": "not for money",
+      "isPhrase": false
+    },
+    {
+      "term": "arts groups",
+      "definition": "community groups of people with an interest in the arts",
+      "isPhrase": true
+    },
+    {
+      "term": "audition",
+      "definition": "try out to become part of an event",
+      "isPhrase": false
+    },
+    {
+      "term": "box office",
+      "definition": "the booth in the theater where you buy tickets",
+      "isPhrase": true
+    },
+    {
+      "term": "can’t wait",
+      "definition": "be excited about something about to happen",
+      "isPhrase": true
+    },
+    {
+      "term": "catch up",
+      "definition": "learn all the news from someone",
+      "isPhrase": true
+    },
+    {
+      "term": "cinema",
+      "definition": "another term for “movies”",
+      "isPhrase": false
+    },
+    {
+      "term": "couch",
+      "definition": "sofa",
+      "isPhrase": false
+    },
+    {
+      "term": "cultural activities/the arts",
+      "definition": "things to do with the arts, for example, music, dance, theater, and art",
+      "isPhrase": true
+    },
+    {
+      "term": "culture vulture",
+      "definition": "a person who is very interested in museums and the arts",
+      "isPhrase": true
+    },
+    {
+      "term": "dance numbers",
+      "definition": "special routines in a show for dancers",
+      "isPhrase": true
+    },
+    {
+      "term": "dance troupe",
+      "definition": "people putting on a dance performance",
+      "isPhrase": true
+    },
+    {
+      "term": "discouraged",
+      "definition": "feeling bad",
+      "isPhrase": false
+    },
+    {
+      "term": "film buff",
+      "definition": "someone with a strong interest in everything about movies",
+      "isPhrase": true
+    },
+    {
+      "term": "film industry",
+      "definition": "the business of making movies",
+      "isPhrase": true
+    },
+    {
+      "term": "full price",
+      "definition": "paying the entire cost of each ticket",
+      "isPhrase": true
+    },
+    {
+      "term": "good",
+      "definition": "valid, able to be used",
+      "isPhrase": false
+    },
+    {
+      "term": "half-price",
+      "definition": "paying only half of the cost for each ticket",
+      "isPhrase": true
+    },
+    {
+      "term": "hours",
+      "definition": "scheduled times something is open",
+      "isPhrase": false
+    },
+    {
+      "term": "inside scoop",
+      "definition": "the information only people who live there know",
+      "isPhrase": true
+    },
+    {
+      "term": "kiosk",
+      "definition": "a small building where something is sold",
+      "isPhrase": false
+    },
+    {
+      "term": "live music",
+      "definition": "music that you hear right there as they play it, not recorded",
+      "isPhrase": true
+    },
+    {
+      "term": "movie times",
+      "definition": "times the movie will show at the theater",
+      "isPhrase": true
+    },
+    {
+      "term": "music releases",
+      "definition": "days when new music goes on sale in stores",
+      "isPhrase": true
+    },
+    {
+      "term": "opportunities",
+      "definition": "chances",
+      "isPhrase": false
+    },
+    {
+      "term": "orchestra",
+      "definition": "a group of musicians playing many classical instruments",
+      "isPhrase": false
+    },
+    {
+      "term": "out and about",
+      "definition": "going to different places",
+      "isPhrase": true
+    },
+    {
+      "term": "paparazzi",
+      "definition": "photographers who are always around looking for famous people",
+      "isPhrase": false
+    },
+    {
+      "term": "performances",
+      "definition": "shows before an audience",
+      "isPhrase": false
+    },
+    {
+      "term": "play",
+      "definition": "a drama intended for performance before an audience",
+      "isPhrase": false
+    },
+    {
+      "term": "pricey",
+      "definition": "expensive",
+      "isPhrase": false
+    },
+    {
+      "term": "professional",
+      "definition": "an expert, someone who performs for pay",
+      "isPhrase": false
+    },
+    {
+      "term": "put on",
+      "definition": "perform before an audience",
+      "isPhrase": true
+    },
+    {
+      "term": "reviews",
+      "definition": "an expert’s report about something",
+      "isPhrase": false
+    },
+    {
+      "term": "show someone around",
+      "definition": "take a visitor to interesting places",
+      "isPhrase": true
+    },
+    {
+      "term": "special exhibition",
+      "definition": "a special show that will be there for only a short time",
+      "isPhrase": true
+    },
+    {
+      "term": "theater group",
+      "definition": "people putting on plays",
+      "isPhrase": true
+    },
+    {
+      "term": "treat",
+      "definition": "pay for, as a special event or reward",
+      "isPhrase": false
+    },
+    {
+      "term": "architecture",
+      "definition": "the art of designing buildings or other structures",
+      "isPhrase": false
+    },
+    {
+      "term": "browsing",
+      "definition": "just looking around",
+      "isPhrase": false
+    },
+    {
+      "term": "bugs",
+      "definition": "insects",
+      "isPhrase": false
+    },
+    {
+      "term": "capital",
+      "definition": "– spelled with an a – the city where the government is centered",
+      "isPhrase": false
+    },
+    {
+      "term": "capitol",
+      "definition": "– spelled with an o – this is the office building where government business takes place",
+      "isPhrase": false
+    },
+    {
+      "term": "carpool",
+      "definition": "join with other people for a drive",
+      "isPhrase": false
+    },
+    {
+      "term": "complex",
+      "definition": "many things in one area",
+      "isPhrase": false
+    },
+    {
+      "term": "concourse",
+      "definition": "the main area of a place, usually the first floor",
+      "isPhrase": false
+    },
+    {
+      "term": "congressional representative",
+      "definition": "the person elected in a district to vote in Congress for laws that",
+      "isPhrase": true
+    },
+    {
+      "term": "dome",
+      "definition": "a shape that looks like half a circle",
+      "isPhrase": false
+    },
+    {
+      "term": "do your own thing",
+      "definition": "separate so each person does what is interesting to him or her",
+      "isPhrase": true
+    },
+    {
+      "term": "dying to",
+      "definition": "want to do something very much",
+      "isPhrase": true
+    },
+    {
+      "term": "exhibit",
+      "definition": "a special display in a museum or gallery",
+      "isPhrase": false
+    },
+    {
+      "term": "fit in",
+      "definition": "be able to see a lot of things",
+      "isPhrase": true
+    },
+    {
+      "term": "floor plan",
+      "definition": "a map of where things are located in all areas of a place",
+      "isPhrase": true
+    },
+    {
+      "term": "foot",
+      "definition": "a unit of measurement. Remember: we do not usually use the metric system in the United",
+      "isPhrase": false
+    },
+    {
+      "term": "fragile",
+      "definition": "delicate and easily damaged",
+      "isPhrase": false
+    },
+    {
+      "term": "get around to",
+      "definition": "find time to do something",
+      "isPhrase": true
+    },
+    {
+      "term": "lawn",
+      "definition": "a large grassy area",
+      "isPhrase": false
+    },
+    {
+      "term": "lizards",
+      "definition": "reptiles of many sizes",
+      "isPhrase": false
+    },
+    {
+      "term": "longing for",
+      "definition": "wanting very much",
+      "isPhrase": true
+    },
+    {
+      "term": "long-lost",
+      "definition": "something that hasn’t been seen for a very long time",
+      "isPhrase": true
+    },
+    {
+      "term": "on display",
+      "definition": "able to be seen",
+      "isPhrase": true
+    },
+    {
+      "term": "opera",
+      "definition": "a musical play with all parts sung by professional classical singers",
+      "isPhrase": false
+    },
+    {
+      "term": "original",
+      "definition": "first",
+      "isPhrase": false
+    },
+    {
+      "term": "Plan B",
+      "definition": "a second-choice plan",
+      "isPhrase": true
+    },
+    {
+      "term": "road trip",
+      "definition": "a fun trip taken in the car",
+      "isPhrase": true
+    },
+    {
+      "term": "sculpture",
+      "definition": "art that is made by shaping or carving stone, clay, or some other material",
+      "isPhrase": false
+    },
+    {
+      "term": "Segway",
+      "definition": "a cool two-wheeled scooterlike vehicle that is run by balancing; people stand on it",
+      "isPhrase": false
+    }
+  ],
+  "vocabCount": 68,
+  "usefulPhrases": [
+    {
+      "phrase": "arts groups",
+      "meaning": "community groups of people with an interest in the arts"
+    },
+    {
+      "phrase": "box office",
+      "meaning": "the booth in the theater where you buy tickets"
+    },
+    {
+      "phrase": "can’t wait",
+      "meaning": "be excited about something about to happen"
+    },
+    {
+      "phrase": "catch up",
+      "meaning": "learn all the news from someone"
+    },
+    {
+      "phrase": "cultural activities/the arts",
+      "meaning": "things to do with the arts, for example, music, dance, theater, and art"
+    },
+    {
+      "phrase": "culture vulture",
+      "meaning": "a person who is very interested in museums and the arts"
+    },
+    {
+      "phrase": "dance numbers",
+      "meaning": "special routines in a show for dancers"
+    },
+    {
+      "phrase": "dance troupe",
+      "meaning": "people putting on a dance performance"
+    },
+    {
+      "phrase": "film buff",
+      "meaning": "someone with a strong interest in everything about movies"
+    },
+    {
+      "phrase": "film industry",
+      "meaning": "the business of making movies"
+    },
+    {
+      "phrase": "full price",
+      "meaning": "paying the entire cost of each ticket"
+    },
+    {
+      "phrase": "half-price",
+      "meaning": "paying only half of the cost for each ticket"
+    },
+    {
+      "phrase": "inside scoop",
+      "meaning": "the information only people who live there know"
+    },
+    {
+      "phrase": "live music",
+      "meaning": "music that you hear right there as they play it, not recorded"
+    },
+    {
+      "phrase": "movie times",
+      "meaning": "times the movie will show at the theater"
+    },
+    {
+      "phrase": "music releases",
+      "meaning": "days when new music goes on sale in stores"
+    },
+    {
+      "phrase": "out and about",
+      "meaning": "going to different places"
+    },
+    {
+      "phrase": "put on",
+      "meaning": "perform before an audience"
+    },
+    {
+      "phrase": "show someone around",
+      "meaning": "take a visitor to interesting places"
+    },
+    {
+      "phrase": "special exhibition",
+      "meaning": "a special show that will be there for only a short time"
+    },
+    {
+      "phrase": "theater group",
+      "meaning": "people putting on plays"
+    },
+    {
+      "phrase": "congressional representative",
+      "meaning": "the person elected in a district to vote in Congress for laws that"
+    },
+    {
+      "phrase": "do your own thing",
+      "meaning": "separate so each person does what is interesting to him or her"
+    },
+    {
+      "phrase": "dying to",
+      "meaning": "want to do something very much"
+    },
+    {
+      "phrase": "fit in",
+      "meaning": "be able to see a lot of things"
+    },
+    {
+      "phrase": "floor plan",
+      "meaning": "a map of where things are located in all areas of a place"
+    },
+    {
+      "phrase": "get around to",
+      "meaning": "find time to do something"
+    },
+    {
+      "phrase": "longing for",
+      "meaning": "wanting very much"
+    },
+    {
+      "phrase": "long-lost",
+      "meaning": "something that hasn’t been seen for a very long time"
+    },
+    {
+      "phrase": "on display",
+      "meaning": "able to be seen"
+    },
+    {
+      "phrase": "Plan B",
+      "meaning": "a second-choice plan"
+    },
+    {
+      "phrase": "road trip",
+      "meaning": "a fun trip taken in the car"
+    }
+  ],
+  "cultureNotes": [],
+  "transcript": {
+    "fullText": "Unit\n                                                                                                14\n\nCulture Vulture\n\nWhat's Happening? \ncurrently supported for your device.\n\n                         Home, sweet home. It's great to get mail and read all the news and gossip\n                         from home. As you're reading, are you listening to a favorite CD from the\n                         library? Are you thinking about how nice it would be to hear a concert in\n                         person? It's not hard to do. There are plenty of opportunities to hear live\n                         music, and many of them are right in the neighborhood. Are you interested in\n                         the arts? Pick up a copy of the local newspaper. The Arts and Entertainment\n                         section will have a full list of all the cultural activities going on in the area.\nThere are activities to make every culture vulture happy. If you do some research, you can find out\nwhat days are \"pay what you wish\" at some famous museums. Instead of a pricey ticket, you can give\nwhat you feel you can afford that day. (Remember that museums are not open every day, and if you're\nhoping to see that special exhibition at the Museum of Modern Art, make sure it's open on the day\nyou plan to go. And be sure to check the hours!)\n In the newspaper, you'll be able to find theater reviews, movie times, and reviews of new music\nreleases. Look for a section called Community Events. You'll find that most communities have arts\ngroups that perform locally. There are plays, classical concerts, and popular music. Even the local\nhigh schools and colleges put on plays and concerts. Ticket prices for these local performances are\nusually very low, and the performers are often very talented, so you can bring the whole family. In\n\nfact, you can even audition to become part of an orchestra, amateur theater group, or dance\ntroupe. Are you wondering what it would be like to be a star? Imagine having the paparazzi follow\nyou all day! Wouldn't your neighbors love to see you performing onstage? We sure would!\n  If you live in the city or the suburbs, you're always pretty close to a live professional performance,\ntoo. Don't be discouraged if it seems that the tickets for these events are very expensive. Costs for\nprofessional orchestras and musicians are pretty high. But we have the inside scoop for you. You may\nnot have to pay full price for those fancy tickets! Check to see if you can subscribe to a half-price\nticket newsletter. This is a weekly listing of the plays, museums, and concerts that are offering half-\nprice tickets. In our town, the list is delivered every week right to our e-mail box. You can get a great\nbargain without ever leaving your couch! But if you're out and about and visiting the city, places\nlike New York City often have a special kiosk where you can buy these half-price tickets. Often,\nthey're good only on the day of the performance, so get to the city early. Be sure to check for the\nhours of the ticket booths, too. And don't forget to check at the theater box office the day of the show.\nYou can sometimes get a great deal there, too.\n  You've probably noticed that we use the word theater in a lot of different ways. For a special night\nout, someone may \"go to the theater.\" This always means that they're going to see a play, and it\nusually means a Broadway show. This is not a TV show! A Broadway show is a play that is acted\nout by professional actors. It's professional theater. A Broadway show can also be a musical. That's\na play that has lots of songs and many dance numbers. Theater also refers to the building. So theater\ncan mean the show and the place where the show is performed!\n  But we're not finished yet! A theater can also refer to the place where you go to see a movie. So you\ngo to your favorite movie theater to see a movie. Film buffs may say they're going to the cinema.\nThey're talking about the movies in a fancy way. Film buffs often call movies films. You probably\nknow that the film industry in the United States is mostly located in Hollywood, California. But did\nyou know some people call Hollywood the \"City of Broken Dreams\"? Can you guess why? Imagine\nall the people who travel to Hollywood hoping to become rich movie stars. Only a very few ever\nbecome famous film stars. The rest live with their broken dreams . . .\n\n            Fun Fact!\n            The Academy Award (the top prize in the United States for the film industry) is called\n            the Oscar. It got its name from a librarian (yes!) who said that the award statue looked\nlike her Uncle Oscar!\n\nDIALOGUE 1: TRACK 38 \nthat \n\nALAN: Hi, Lia. What's happening?\n\nLIA: Not much, Alan. But my cousin Bevin's coming to town this week, so I'm pretty excited.\n\nALAN: Cool. Are you planning to stay home and catch up, or are you going into the city? Is she\nstaying for a while?\n\nLIA: Well, she's not staying very long. But I really want to show her around, so I'm looking to see\nwhat's happening in the city this week. I know she'd like to see a show, so I'm hoping to get two-fers;\nyou know . . . two tickets for the price of one . . . for a musical on Broadway. We're not worrying\nabout which musical—any one will do!\n\nALAN: Are you thinking about eating in a restaurant, too? I think I have twofers for a great Italian\nrestaurant right near the theater district. I'm not going into the city for a while, so I'd be happy to give\nthem to you.\n\nLIA: Wow, that's pretty nice of you! I wanted to treat Bevin to a nice dinner, but I know those\nrestaurants are pricey. But if we have a coupon to get two dinners for the price of one, I'm in! And I\nthink I know the place you mean. I read a review of Luigi's Restaurant in Sunday's paper; the food\ncritic said that it's excellent.\n\nALAN: Yeah, you'll have to make reservations before you go. Dinner and a show! Your cousin will\nhave a great time.\n\nLIA: I'll have a great time, too! I can't wait!\n\n        If you're a student, be sure to ask for the student price at cultural events. Most places offer a\n        good discount for students. You may have to show your student ID. There are discounts for\n        seniors too.\n\n      If your student days are over, you can still find a good deal at the local concert hall. Call to see\n      if they have \"Community Rush\" tickets. This allows people to come to the box office on the day\n      of the performance for cheap tickets. It's a good way to be sure everyone in the community can\n      afford to see a good concert.\n\n                       Theater? Theatre?\n                       You'll see it spelled both ways. Take your pick!\n\nVOCABULARY\n•    afford: be able to pay for\n\n•    amateur: not for money\n•    arts groups: community groups of people with an interest in the arts\n•    audition: try out to become part of an event\n•    box office: the booth in the theater where you buy tickets\n    can't wait: be excited about something about to happen\n    catch up: learn all the news from someone\n•    cinema: another term for \"movies\"\n•    couch: sofa\n•    cultural activities/the arts: things to do with the arts, for example, music, dance, theater, and art\n    culture vulture: a person who is very interested in museums and the arts\n•    dance numbers: special routines in a show for dancers\n•    dance troupe: people putting on a dance performance\n•    discouraged: feeling bad\n    film buff: someone with a strong interest in everything about movies\n•    film industry: the business of making movies\n•    full price: paying the entire cost of each ticket\n•    good: valid, able to be used\n•    half-price: paying only half of the cost for each ticket\n•    hours: scheduled times something is open\n    inside scoop: the information only people who live there know\n•    kiosk: a small building where something is sold\n•    live music: music that you hear right there as they play it, not recorded\n•    movie times: times the movie will show at the theater\n•    music releases: days when new music goes on sale in stores\n•    opportunities: chances\n•    orchestra: a group of musicians playing many classical instruments\n    out and about: going to different places\n•    paparazzi: photographers who are always around looking for famous people\n•    performances: shows before an audience\n•    play: a drama intended for performance before an audience\n    pricey: expensive\n•    professional: an expert, someone who performs for pay\n    put on: perform before an audience\n•    reviews: an expert's report about something\n    show someone around: take a visitor to interesting places\n\n•     special exhibition: a special show that will be there for only a short time\n•     theater group: people putting on plays\n     treat: pay for, as a special event or reward\n\nGRAMMAR REMINDER 1: The Present Continuous Tense—\nQuestions\nTo ask a question in the present continuous tense, remember to just switch the subject and present\nform of the verb to be: present form of to be → subject →-ing form of the main verb. (If needed,\nremember to put the question word at the beginning.) Look at the examples from the dialogue:\n• Are you planning to stay home and catch up, or are you going into the city?\n• Are you thinking about eating in a restaurant, too?\n• Is she staying for a while?\n• Where is she staying?\n\n              PRONUNCIATION POINTER \n              currently supported for your device.\n              \n\n    Like its spelling, the pronunciation of the word theater can vary. It usually sounds like thee-eh-\n    ter. However, in some parts of the United States, people may say thee-ay-ter.\n\n              Fun Fact!\n              Half-price tickets are often called two-fers. Can you guess why? They're priced so that\n              you can buy two fer (for) the price of one!\n\nMORE FUN WITH IDIOMATIC EXPRESSIONS: Music\n•     music to one's ears: something great\n      She really missed her family a lot, so it was music to her ears when she heard her sister's\n      voice.\n•     for a song: for a very low price\n      The shop at the beach was closing for the winter, so she was able to buy a swimsuit for a\n      song.\n•     face the music: handle consequences of an action\n      She was unprepared for the meeting, so she had to face the music when her boss asked for a\n\n     report.\n•    ring a bell: sound familiar\n     He didn't recognize the professor's face, but her name rang a bell.\n•    sing someone's praises: say very good things about someone\n     When he finally handed in an excellent report, the boss sang his praises to the whole\n     department.\n\nSee the Capital . . . and the Capitol There is audio content at this\nlocation that \n\n                            Are you dying to see museums and historical monuments? If you have some\n                            time, head to Washington, D.C. A visit to our nation's capital is the culture\n                            bargain of a lifetime! The Smithsonian Institution is worth a trip from\n                            anywhere. Although even some Americans think that the Smithsonian is a\n                            single museum, in fact, it's a complex of 19 museums and 9 research\n                            centers. NINETEEN MUSEUMS! All of them right in the same area! And\n                            here's the best part: they're free! There is no admission fee to visit any of\nthe Smithsonian museums. Yes, U.S. taxes pay for these museums, so you can enjoy seeing those taxes\nhard at work.\n  Do you like bugs? There's a museum for that. Thinking about flying to the moon? There's a museum\nfor that. Longing for a look at long-lost lizards? There's a museum for that. The Smithsonian\nInstitution has museums for just about anything you could possibly be interested in. Maybe you're just\nhoping for a stroll through beautiful gardens surrounded by sculpture. Yes, the Smithsonian has it all:\narchitecture and art, gardens, space information, ethnic museums, collections of clothing, history . . .\nYou name it, and it's there. And, of course, you can even buy a not-so-culturally-important T-shirt on\nthe mall. In fact, when you need a rest from all that walking, the mall is a beautiful spot to relax. This\nis not a shopping mall; it's a long stretch of lawn and walkways, with benches and some food places.\nYou can see the beautiful U.S. Capitol building with its white dome on one end, and the 555-foot-tall\nWashington Monument on the other end.\n  Because there's so much to do and see, it's a good idea to plan your cultural visit well in advance. If\nyou're not planning to do a tour on foot, you can arrange for all kinds of different tours. These special\ntours will cost money. Of course, there are the typical bus tours. These will pick you up at many\ndifferent locations and drive you through the entire area. Usually you can hop on and hop off. As the\nbus takes you to different spots, you can stop to visit the attraction for as long as you'd like, then get\non a bus to the next stop when you're ready. Or you can take bicycle tours of the area. How about a\nSegway tour? Now, that is cool! There are tons of special tours you can book, according to your\ninterests. Some of these are very popular, so you might want to buy your tickets in advance. You can\ndo it online and avoid the wait at the tour office or ticket counter.\n  If you plan in advance, you can also time your visit. That way you can easily fit in all you want to\nsee. Check online for museum floor plans and know what sections you plan to visit. (You can spend\n\nan entire day in some places and still not see everything!) See what other museums are nearby. Don't\nforget historical museums where you can learn all about the city, certain industries, and cultural and\nethnic influences on the country.\n And you will probably want to visit many of the beautiful memorials along the mall. There are\nseveral that honor past presidents, as well as many war memorials. These commemorate the\nsacrifices of people who served in the country's wars. Visiting these monuments and memorials is a\nnice way to think about all the wonderful things we have . . . and the people who made them possible.\n Just make sure you leave plenty of time for browsing in the gift shops!\n\nDIALOGUE 2: TRACK 39 \nthat \n\nLIA: Hey, Alan, aren't you planning a trip to London this month?\n\nALAN: Well, that was the original plan. But now we're not planning to go to the UK at all. We've\ndecided to save some money and just have a staycation this year.\n\nJAE: Yeah. We're going to Plan B: just stay home and have a vacation doing things nearby. And with\nthe money we save, we're planning to see three extra shows when we go to London next year! We're\nthinking about a drive to Washington, D.C., for a weekend. What do you think?\n\nLIA: Wow, road trip! Count me in! The North Tower at the National Gallery has an exhibit of\nAmerican art that I really want to see. And I'm dying to see the special Matisse paper cuttings\nexhibit. I checked the floor plan, and I see that they've moved it from the Tower to the Concourse.\nEvery time I'm in the capital, I forget to plan around the exhibit's hours, and I miss it. Every time!\n\nALAN: Don't you check the museum's hours? Isn't it open all day?\n\nLIA: Sure, I know the museum's hours. But the Matisse exhibit has its own hours, separate from the\nrest of the museum. Because the paper cuttings are fragile, they're only on display for certain times of\nthe day. Too much light can damage them.\n\nJAE: Well, we're not staying in D.C. very long, and we're planning to buy tickets for an opera\nperformance at the Kennedy Center. I'm not sure we'll get around to going to the National Gallery of\nArt on this trip.\n\nLIA: I know you culture vultures have your own plan. But we can save some big bucks if we carpool\ndown. Then you can do your own thing, and I'll go see the Matisse exhibit. I'm not going home until I\n\nsee that exhibit! We can split the gas, and we can share the driving. It'll be a great way to save\nmoney and have a great cultural weekend. And if you're lucky, maybe I'll sing on the way home!\n\nALAN: Aaghh! It sounds like a great idea, but we'll only do it if you promise not to sing!\n\n       Find out who the congressional representative is in your voting district. If you call that\n       office a few weeks before you go, the representative can sometimes arrange a special tour of\n       the White House for you! (Your friends will be very impressed.)\n\nVOCABULARY\n•    architecture: the art of designing buildings or other structures\n•    browsing: just looking around\n    bugs: insects\n•    capital: – spelled with an a – the city where the government is centered\n•    capitol: – spelled with an o – this is the office building where government business takes place\n•    carpool: join with other people for a drive\n•    complex: many things in one area\n•    concourse: the main area of a place, usually the first floor\n•    congressional representative: the person elected in a district to vote in Congress for laws that\n     the people in the district want\n•    dome: a shape that looks like half a circle\n    do your own thing: separate so each person does what is interesting to him or her\n    dying to: want to do something very much\n•    exhibit: a special display in a museum or gallery\n    fit in: be able to see a lot of things\n•    floor plan: a map of where things are located in all areas of a place\n•    foot: a unit of measurement. Remember: we do not usually use the metric system in the United\n     States.\n•    fragile: delicate and easily damaged\n    get around to: find time to do something\n•    lawn: a large grassy area\n•    lizards: reptiles of many sizes\n•    longing for: wanting very much\n    long-lost: something that hasn't been seen for a very long time\n•    memorials, monuments: buildings, gardens, or statues made to honor very important people or\n     times in history\n\n•     on display: able to be seen\n•     opera: a musical play with all parts sung by professional classical singers\n•     original: first\n     Plan B: a second-choice plan\n     road trip: a fun trip taken in the car\n•     sculpture: art that is made by shaping or carving stone, clay, or some other material\n•     Segway: a cool two-wheeled scooterlike vehicle that is run by balancing; people stand on it\n      (See the pronunciation note for another interesting /seg-way/.)\n•     separate from: different from\n     share the driving: take turns driving on a long trip\n     split the gas: share expenses of driving somewhere\n•     time your visit: plan your day so that you can see a lot of things\n•     voting district: the area that elects the person to act for the district in local, state and the national\n      government; neighborhoods in towns may belong in different districts\n\nGRAMMAR REMINDER 2: The Present Continuous\nTense—Negatives\nTo make a verb negative in the present continuous tense, just add not. Be sure to watch the word\norder! It goes like this: subject → present form of verb to be → not →-ing form of the main verb.\n\nCan you find these examples from the dialogue?\n• We're not planning to go to the UK. (We aren't planning to go to the UK.)\n• She's not staying very long. (She isn't staying very long.)\n• I'm not going home until I see that exhibit!\n\nUsage Reminder: What do you think is an informal way of asking What's your opinion?\n\n             PRONUNCIATION POINTER \n             currently supported for your device.\n             \n\n    You can impress your friends with a very fancy English word that means \"to gently move from\n    one topic to another.\" The word is segue and it is pronounced seg-way—just like the Segway\n    that people can ride! (Maybe the inventor gave it this name because it moves people easily from\n    one place to another?) Here's how segue can be used in a sentence: They were talking about\n    culture, but when the baseball player arrived, they segued [seg-wayed] into a discussion\n\nabout sports.",
+    "wordCount": 3442
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "id": "etaw-unit-21",
+  "unitNumber": 21,
+  "title": "The Big Interview",
+  "trackType": "english-the-american-way",
+  "level": "intermediate",
+  "levelLabel": "Intermediate",
+  "dialogues": [
+    {
+      "dialogueNumber": 1,
+      "trackNumber": 53,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 53.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "ALAN",
+          "text": "Hey, guess what? I got the call."
+        },
+        {
+          "speaker": "LIA",
+          "text": "The call? What are you talking about? What call?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I got a call about that job I wanted! Remember? You helped me with my résumé. It’s the supervisor position, and I’ve got an interview tomorrow! Wow, if I get this, it’ll be a real feather in my cap. I’m pretty excited."
+        },
+        {
+          "speaker": "LIA",
+          "text": "That’s awesome, Alan. And you’ve worked there for quite a while, so you’ve already got your foot in the door. Where’s the interview?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "It’s at the head office."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Oh boy. Where on earth is that?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Oh, it’s somewhere down Industrial Road. I have the address written down somewhere. I have a pretty good idea of where the office is."
+        },
+        {
+          "speaker": "LIA",
+          "text": "A pretty good idea? You’d better make sure you know exactly where it is. Industrial Road is pretty long, and there are a lot of cul-de-sacs. Whatever you do, you can’t be late! You have only one chance to make a good first impression, and you’ll blow it if the interviewer has to wait for you. Being late will not help you nail the job."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Yeah, I thought of that. I think I’ll drive down to the office tonight and check it out. I’ll be more confident in the morning if I know exactly where I’m going, and how long it will take to get there."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Good plan. Don’t forget to leave extra time for traffic in the morning. Have you decided what you’re going to wear?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I think the company is pretty casual, so I thought I might wear my new jeans. And I bought a new pair of sneakers last week. What do you think?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Aacckk! No way! If this is a supervisor job, you may need to dress a bit more upscale. Even if jeans are okay on the job, I think you should wear some other pants to the interview. I think you should even wear a suit jacket if you have one. And how about a tie? Even if it’s a casual place, you will look very professional to the interviewer."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Okay, okay. So, I guess that means no sneakers, too. Well, the good news is that if I don’t get this job, maybe I can get a job as a fashion model."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Haha. Well then at least you won’t have to worry about clothes. Yes, you need to think about how to dress for an interview, but just as important is to think about what you eat before the interview. You’ll be sitting pretty close to the hiring manager, so you may want to think carefully before you have onions and garlic for lunch! Also, spinach in your teeth is not a good look for anyone. Be sure to check the mirror before you go out!"
+        }
+      ],
+      "dialogueText": "ALAN: Hey, guess what? I got the call.\n\nLIA: The call? What are you talking about? What call?\n\nALAN: I got a call about that job I wanted! Remember? You helped me with my résumé. It’s the supervisor position, and I’ve got an interview tomorrow! Wow, if I get this, it’ll be a real feather in my cap. I’m pretty excited.\n\nLIA: That’s awesome, Alan. And you’ve worked there for quite a while, so you’ve already got your foot in the door. Where’s the interview?\n\nALAN: It’s at the head office.\n\nLIA: Oh boy. Where on earth is that?\n\nALAN: Oh, it’s somewhere down Industrial Road. I have the address written down somewhere. I have a pretty good idea of where the office is.\n\nLIA: A pretty good idea? You’d better make sure you know exactly where it is. Industrial Road is pretty long, and there are a lot of cul-de-sacs. Whatever you do, you can’t be late! You have only one chance to make a good first impression, and you’ll blow it if the interviewer has to wait for you. Being late will not help you nail the job.\n\nALAN: Yeah, I thought of that. I think I’ll drive down to the office tonight and check it out. I’ll be more confident in the morning if I know exactly where I’m going, and how long it will take to get there.\n\nLIA: Good plan. Don’t forget to leave extra time for traffic in the morning. Have you decided what you’re going to wear?\n\nALAN: I think the company is pretty casual, so I thought I might wear my new jeans. And I bought a new pair of sneakers last week. What do you think?\n\nLIA: Aacckk! No way! If this is a supervisor job, you may need to dress a bit more upscale. Even if jeans are okay on the job, I think you should wear some other pants to the interview. I think you should even wear a suit jacket if you have one. And how about a tie? Even if it’s a casual place, you will look very professional to the interviewer.\n\nALAN: Okay, okay. So, I guess that means no sneakers, too. Well, the good news is that if I don’t get this job, maybe I can get a job as a fashion model.\n\nLIA: Haha. Well then at least you won’t have to worry about clothes. Yes, you need to think about how to dress for an interview, but just as important is to think about what you eat before the interview. You’ll be sitting pretty close to the hiring manager, so you may want to think carefully before you have onions and garlic for lunch! Also, spinach in your teeth is not a good look for anyone. Be sure to check the mirror before you go out!"
+    },
+    {
+      "dialogueNumber": 2,
+      "trackNumber": 54,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 54.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "INTERVIEWER",
+          "text": "It’s nice to meet you, Alan. I see that you’ve been with our company for a while now, haven’t you? Why are you interested in the supervisor position?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Well, I’ve really enjoyed my job so far, but I feel ready to take on more responsibilities. I think I have a lot to offer the company."
+        },
+        {
+          "speaker": "INTERVIEWER",
+          "text": "Have you ever had any supervisory experience?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Well, when my supervisor has a day off, he asks me to help manage the restaurant. That includes supervising the other workers—you know, answering any questions they have, making sure they get their breaks . . . responsibilities like that."
+        },
+        {
+          "speaker": "INTERVIEWER",
+          "text": "Yes, your supervisor speaks very highly of you in his letter of recommendation. Well, Alan, can you think of a time when there was a problem you had to resolve when you were in charge? And tell us how you managed the situation."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Well, I can’t say I’ve ever had any problems with my co-workers. But I guess sometimes, if an order wasn’t exactly right, a customer might get angry and nasty. I just made sure that I stayed calm. I listened politely to his or her complaint, and I redid the order. I always apologized for the mix-up. A lot of times I’d throw in a coupon to show goodwill. That usually seemed to do the trick."
+        },
+        {
+          "speaker": "INTERVIEWER",
+          "text": "Customers can sometimes be tricky. Sounds like you handled those situations very well. It’s really important to us that our supervisor is able to deal in a friendly way with customer problems. You probably also know that we’re doing more and more work on the computer. Keeping spreadsheets is an important part of the job. How are your computer skills? Are you familiar with Excel?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I do use my home computer a lot, but I haven’t needed to use Excel. I’m pretty good at figuring out computer stuff, and I catch on pretty quickly, so I’m sure I can get up to speed with that program. No problem."
+        },
+        {
+          "speaker": "INTERVIEWER",
+          "text": "Great. Well, do you have any questions for me?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Yes. I know that the company is growing and opening new locations in different cities. If I’m offered the job, where will I be based?"
+        },
+        {
+          "speaker": "INTERVIEWER",
+          "text": "Good question. I am glad you reminded me. The position is open in the Eldred location, but we really need someone who can be flexible. We’ll want this person to fill in at our other restaurants when another supervisor is on vacation. Would you be able to do that?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Absolutely. I’d really enjoy getting to know different locations."
+        },
+        {
+          "speaker": "INTERVIEWER",
+          "text": "Great. Well, Alan, thank you for your time. We’ll be in touch as soon as we make a decision."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Thank you for taking the time to talk to me. Interviewers cannot, by law, ask you certain questions. Here are some questions an interviewer is not allowed to ask: • What are your religious practices? • How old are you? • Where were you born? • Do you have an illness or disability? • Are you married? • Do you have children? Although some of the above questions are not allowed, an interviewer can ask the following questions: • Are you able to perform all the physical duties of this job? • After we hire you, can you provide proof that you can work in the United States? • Will you be able to work during all of the scheduled days and times of this job?"
+        }
+      ],
+      "dialogueText": "INTERVIEWER: It’s nice to meet you, Alan. I see that you’ve been with our company for a while now, haven’t you? Why are you interested in the supervisor position?\n\nALAN: Well, I’ve really enjoyed my job so far, but I feel ready to take on more responsibilities. I think I have a lot to offer the company.\n\nINTERVIEWER: Have you ever had any supervisory experience?\n\nALAN: Well, when my supervisor has a day off, he asks me to help manage the restaurant. That includes supervising the other workers—you know, answering any questions they have, making sure they get their breaks . . . responsibilities like that.\n\nINTERVIEWER: Yes, your supervisor speaks very highly of you in his letter of recommendation. Well, Alan, can you think of a time when there was a problem you had to resolve when you were in charge? And tell us how you managed the situation.\n\nALAN: Well, I can’t say I’ve ever had any problems with my co-workers. But I guess sometimes, if an order wasn’t exactly right, a customer might get angry and nasty. I just made sure that I stayed calm. I listened politely to his or her complaint, and I redid the order. I always apologized for the mix-up. A lot of times I’d throw in a coupon to show goodwill. That usually seemed to do the trick.\n\nINTERVIEWER: Customers can sometimes be tricky. Sounds like you handled those situations very well. It’s really important to us that our supervisor is able to deal in a friendly way with customer problems. You probably also know that we’re doing more and more work on the computer. Keeping spreadsheets is an important part of the job. How are your computer skills? Are you familiar with Excel?\n\nALAN: I do use my home computer a lot, but I haven’t needed to use Excel. I’m pretty good at figuring out computer stuff, and I catch on pretty quickly, so I’m sure I can get up to speed with that program. No problem.\n\nINTERVIEWER: Great. Well, do you have any questions for me?\n\nALAN: Yes. I know that the company is growing and opening new locations in different cities. If I’m offered the job, where will I be based?\n\nINTERVIEWER: Good question. I am glad you reminded me. The position is open in the Eldred location, but we really need someone who can be flexible. We’ll want this person to fill in at our other restaurants when another supervisor is on vacation. Would you be able to do that?\n\nALAN: Absolutely. I’d really enjoy getting to know different locations.\n\nINTERVIEWER: Great. Well, Alan, thank you for your time. We’ll be in touch as soon as we make a decision.\n\nALAN: Thank you for taking the time to talk to me. Interviewers cannot, by law, ask you certain questions. Here are some questions an interviewer is not allowed to ask: • What are your religious practices? • How old are you? • Where were you born? • Do you have an illness or disability? • Are you married? • Do you have children? Although some of the above questions are not allowed, an interviewer can ask the following questions: • Are you able to perform all the physical duties of this job? • After we hire you, can you provide proof that you can work in the United States? • Will you be able to work during all of the scheduled days and times of this job?"
+    },
+    {
+      "dialogueNumber": 3,
+      "trackNumber": 55,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 55.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "LIA",
+          "text": "Hey, Alan, did you get that supervisor’s job?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I don’t know. I haven’t heard anything yet, and it’s been 10 days now!"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Don’t worry. Sometimes it can take ages before you hear anything. How do you think it went?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I think it went okay. I seemed to have most of the qualities they were looking for. The only thing is I haven’t had much experience with Excel, and that’s what they use for all their reports."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Well, that’s something you can learn. It’s actually pretty easy to work with. I can show you sometime if you’d like. I use it all the time in my job."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Thanks. I’ll take you up on that if they offer me the job."
+        },
+        {
+          "speaker": "LIA",
+          "text": "By the way, did you wear your sneakers and jeans?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "No. I took your advice and wore a jacket and tie. Hey, maybe they didn’t like my tie! There are usually a lot of people who interview for each job. You can make yourself stand out by looking and sounding professional. You will also stand out if you send an e-mail or short note thanking the interviewer and reminding him or her why you would be such a good choice for the job. You’ll also stand out if you have spinach in your teeth. But we don’t recommend that!"
+        }
+      ],
+      "dialogueText": "LIA: Hey, Alan, did you get that supervisor’s job?\n\nALAN: I don’t know. I haven’t heard anything yet, and it’s been 10 days now!\n\nLIA: Don’t worry. Sometimes it can take ages before you hear anything. How do you think it went?\n\nALAN: I think it went okay. I seemed to have most of the qualities they were looking for. The only thing is I haven’t had much experience with Excel, and that’s what they use for all their reports.\n\nLIA: Well, that’s something you can learn. It’s actually pretty easy to work with. I can show you sometime if you’d like. I use it all the time in my job.\n\nALAN: Thanks. I’ll take you up on that if they offer me the job.\n\nLIA: By the way, did you wear your sneakers and jeans?\n\nALAN: No. I took your advice and wore a jacket and tie. Hey, maybe they didn’t like my tie! There are usually a lot of people who interview for each job. You can make yourself stand out by looking and sounding professional. You will also stand out if you send an e-mail or short note thanking the interviewer and reminding him or her why you would be such a good choice for the job. You’ll also stand out if you have spinach in your teeth. But we don’t recommend that!"
+    }
+  ],
+  "dialoguesCount": 3,
+  "vocabulary": [
+    {
+      "term": "blow it",
+      "definition": "ruin your chance to do something",
+      "isPhrase": true
+    },
+    {
+      "term": "come across",
+      "definition": "seem to someone",
+      "isPhrase": true
+    },
+    {
+      "term": "confident",
+      "definition": "sure of yourself",
+      "isPhrase": false
+    },
+    {
+      "term": "conservative",
+      "definition": "traditional",
+      "isPhrase": false
+    },
+    {
+      "term": "cul-de-sac",
+      "definition": "a short street that is closed at one end",
+      "isPhrase": true
+    },
+    {
+      "term": "feather in one’s cap",
+      "definition": "an accomplishment to be proud of",
+      "isPhrase": true
+    },
+    {
+      "term": "first impression",
+      "definition": "how you seem to someone when he or she first meets you",
+      "isPhrase": true
+    },
+    {
+      "term": "follow-up",
+      "definition": "continue with something you started",
+      "isPhrase": true
+    },
+    {
+      "term": "foot in the door",
+      "definition": "first step in working toward a goal",
+      "isPhrase": true
+    },
+    {
+      "term": "head office",
+      "definition": "the main office of a company",
+      "isPhrase": true
+    },
+    {
+      "term": "in the know",
+      "definition": "an expert at something",
+      "isPhrase": true
+    },
+    {
+      "term": "land",
+      "definition": "get something you’ve tried for",
+      "isPhrase": false
+    },
+    {
+      "term": "mock",
+      "definition": "practice",
+      "isPhrase": false
+    },
+    {
+      "term": "nail",
+      "definition": "do something perfectly",
+      "isPhrase": false
+    },
+    {
+      "term": "natural",
+      "definition": "normal",
+      "isPhrase": false
+    },
+    {
+      "term": "on time",
+      "definition": "arrive when you’re supposed to be there, not late!",
+      "isPhrase": true
+    },
+    {
+      "term": "quite a while",
+      "definition": "a pretty long time",
+      "isPhrase": true
+    },
+    {
+      "term": "reaction",
+      "definition": "response",
+      "isPhrase": false
+    },
+    {
+      "term": "staged",
+      "definition": "looking too practiced or memorized",
+      "isPhrase": false
+    },
+    {
+      "term": "strategy",
+      "definition": "plan",
+      "isPhrase": false
+    },
+    {
+      "term": "suit jacket",
+      "definition": "a business-style jacket to wear with pants",
+      "isPhrase": true
+    },
+    {
+      "term": "unwind",
+      "definition": "relax",
+      "isPhrase": false
+    },
+    {
+      "term": "where on earth",
+      "definition": "a stronger way of saying where",
+      "isPhrase": true
+    },
+    {
+      "term": "Usage reminder",
+      "definition": "Pretty can mean beautiful, but it’s also an informal way of saying quite or rather.",
+      "isPhrase": true
+    },
+    {
+      "term": "apologize",
+      "definition": "say you’re sorry about something",
+      "isPhrase": false
+    },
+    {
+      "term": "based",
+      "definition": "have as your main location",
+      "isPhrase": false
+    },
+    {
+      "term": "candidate",
+      "definition": "someone being considered for a job",
+      "isPhrase": false
+    },
+    {
+      "term": "catch on",
+      "definition": "learn",
+      "isPhrase": true
+    },
+    {
+      "term": "do the trick",
+      "definition": "get a result you want",
+      "isPhrase": true
+    },
+    {
+      "term": "dry run",
+      "definition": "practice",
+      "isPhrase": true
+    },
+    {
+      "term": "duty",
+      "definition": "responsibility, something you have to do",
+      "isPhrase": false
+    },
+    {
+      "term": "fill in",
+      "definition": "substitute for someone who is not there",
+      "isPhrase": true
+    },
+    {
+      "term": "firm",
+      "definition": "strong, but not hard",
+      "isPhrase": false
+    },
+    {
+      "term": "flexible",
+      "definition": "able to make changes easily",
+      "isPhrase": false
+    },
+    {
+      "term": "get up to speed",
+      "definition": "learn what you need to do something",
+      "isPhrase": true
+    },
+    {
+      "term": "goodwill",
+      "definition": "friendliness",
+      "isPhrase": false
+    },
+    {
+      "term": "have a lot to offer",
+      "definition": "be very good at something that can help someone",
+      "isPhrase": true
+    },
+    {
+      "term": "hiring manager",
+      "definition": "the person who is in charge of hiring a new employee",
+      "isPhrase": true
+    },
+    {
+      "term": "in charge",
+      "definition": "in control",
+      "isPhrase": true
+    },
+    {
+      "term": "intimidating",
+      "definition": "making you feel unsure about yourself",
+      "isPhrase": false
+    },
+    {
+      "term": "in touch",
+      "definition": "be in contact by phone, letter, or e-mail",
+      "isPhrase": true
+    },
+    {
+      "term": "nasty",
+      "definition": "mean; unpleasant",
+      "isPhrase": false
+    },
+    {
+      "term": "no-no",
+      "definition": "something that you cannot do",
+      "isPhrase": true
+    },
+    {
+      "term": "offer someone a seat",
+      "definition": "ask someone to sit down",
+      "isPhrase": true
+    },
+    {
+      "term": "panel",
+      "definition": "a group of people who will make a decision",
+      "isPhrase": false
+    },
+    {
+      "term": "resolve",
+      "definition": "settle; solve",
+      "isPhrase": false
+    },
+    {
+      "term": "shake one’s confidence",
+      "definition": "make you feel unsure about yourself",
+      "isPhrase": true
+    },
+    {
+      "term": "speak highly of",
+      "definition": "say very good things about",
+      "isPhrase": true
+    },
+    {
+      "term": "spreadsheets",
+      "definition": "a way of keeping information",
+      "isPhrase": false
+    },
+    {
+      "term": "strength",
+      "definition": "something you do well",
+      "isPhrase": false
+    },
+    {
+      "term": "team player",
+      "definition": "someone who works well with others to get a job done",
+      "isPhrase": true
+    },
+    {
+      "term": "throw in",
+      "definition": "add",
+      "isPhrase": true
+    },
+    {
+      "term": "throw you",
+      "definition": "make you feel nervous",
+      "isPhrase": true
+    },
+    {
+      "term": "vibrate",
+      "definition": "move very fast; shake",
+      "isPhrase": false
+    },
+    {
+      "term": "don’t hear anything",
+      "definition": "not receive any information",
+      "isPhrase": true
+    },
+    {
+      "term": "feedback",
+      "definition": "opinions about how you acted in a situation",
+      "isPhrase": false
+    },
+    {
+      "term": "out of the blue",
+      "definition": "in a very unexpected way",
+      "isPhrase": true
+    },
+    {
+      "term": "qualities",
+      "definition": "things that make you a good worker or person",
+      "isPhrase": false
+    },
+    {
+      "term": "stand out",
+      "definition": "be noticed",
+      "isPhrase": true
+    },
+    {
+      "term": "take someone up on something",
+      "definition": "accept someone’s invitation to do something",
+      "isPhrase": true
+    },
+    {
+      "term": "MORE FUN WITH IDIOMATIC EXPRESSIONS",
+      "definition": "On the Job",
+      "isPhrase": true
+    },
+    {
+      "term": "cream of the crop",
+      "definition": "the best of the best",
+      "isPhrase": true
+    },
+    {
+      "term": "work like a dog",
+      "definition": "work very hard",
+      "isPhrase": true
+    },
+    {
+      "term": "get the job done",
+      "definition": "accomplish what needs to be done",
+      "isPhrase": true
+    },
+    {
+      "term": "all in a day’s work",
+      "definition": "just a normal part of the job",
+      "isPhrase": true
+    },
+    {
+      "term": "put your best foot forward",
+      "definition": "do your very best at something",
+      "isPhrase": true
+    }
+  ],
+  "vocabCount": 66,
+  "usefulPhrases": [
+    {
+      "phrase": "blow it",
+      "meaning": "ruin your chance to do something"
+    },
+    {
+      "phrase": "come across",
+      "meaning": "seem to someone"
+    },
+    {
+      "phrase": "cul-de-sac",
+      "meaning": "a short street that is closed at one end"
+    },
+    {
+      "phrase": "feather in one’s cap",
+      "meaning": "an accomplishment to be proud of"
+    },
+    {
+      "phrase": "first impression",
+      "meaning": "how you seem to someone when he or she first meets you"
+    },
+    {
+      "phrase": "follow-up",
+      "meaning": "continue with something you started"
+    },
+    {
+      "phrase": "foot in the door",
+      "meaning": "first step in working toward a goal"
+    },
+    {
+      "phrase": "head office",
+      "meaning": "the main office of a company"
+    },
+    {
+      "phrase": "in the know",
+      "meaning": "an expert at something"
+    },
+    {
+      "phrase": "on time",
+      "meaning": "arrive when you’re supposed to be there, not late!"
+    },
+    {
+      "phrase": "quite a while",
+      "meaning": "a pretty long time"
+    },
+    {
+      "phrase": "suit jacket",
+      "meaning": "a business-style jacket to wear with pants"
+    },
+    {
+      "phrase": "where on earth",
+      "meaning": "a stronger way of saying where"
+    },
+    {
+      "phrase": "Usage reminder",
+      "meaning": "Pretty can mean beautiful, but it’s also an informal way of saying quite or rather."
+    },
+    {
+      "phrase": "catch on",
+      "meaning": "learn"
+    },
+    {
+      "phrase": "do the trick",
+      "meaning": "get a result you want"
+    },
+    {
+      "phrase": "dry run",
+      "meaning": "practice"
+    },
+    {
+      "phrase": "fill in",
+      "meaning": "substitute for someone who is not there"
+    },
+    {
+      "phrase": "get up to speed",
+      "meaning": "learn what you need to do something"
+    },
+    {
+      "phrase": "have a lot to offer",
+      "meaning": "be very good at something that can help someone"
+    },
+    {
+      "phrase": "hiring manager",
+      "meaning": "the person who is in charge of hiring a new employee"
+    },
+    {
+      "phrase": "in charge",
+      "meaning": "in control"
+    },
+    {
+      "phrase": "in touch",
+      "meaning": "be in contact by phone, letter, or e-mail"
+    },
+    {
+      "phrase": "no-no",
+      "meaning": "something that you cannot do"
+    },
+    {
+      "phrase": "offer someone a seat",
+      "meaning": "ask someone to sit down"
+    },
+    {
+      "phrase": "shake one’s confidence",
+      "meaning": "make you feel unsure about yourself"
+    },
+    {
+      "phrase": "speak highly of",
+      "meaning": "say very good things about"
+    },
+    {
+      "phrase": "team player",
+      "meaning": "someone who works well with others to get a job done"
+    },
+    {
+      "phrase": "throw in",
+      "meaning": "add"
+    },
+    {
+      "phrase": "throw you",
+      "meaning": "make you feel nervous"
+    },
+    {
+      "phrase": "don’t hear anything",
+      "meaning": "not receive any information"
+    },
+    {
+      "phrase": "out of the blue",
+      "meaning": "in a very unexpected way"
+    },
+    {
+      "phrase": "stand out",
+      "meaning": "be noticed"
+    },
+    {
+      "phrase": "take someone up on something",
+      "meaning": "accept someone’s invitation to do something"
+    },
+    {
+      "phrase": "MORE FUN WITH IDIOMATIC EXPRESSIONS",
+      "meaning": "On the Job"
+    },
+    {
+      "phrase": "cream of the crop",
+      "meaning": "the best of the best"
+    },
+    {
+      "phrase": "work like a dog",
+      "meaning": "work very hard"
+    },
+    {
+      "phrase": "get the job done",
+      "meaning": "accomplish what needs to be done"
+    },
+    {
+      "phrase": "all in a day’s work",
+      "meaning": "just a normal part of the job"
+    },
+    {
+      "phrase": "put your best foot forward",
+      "meaning": "do your very best at something"
+    }
+  ],
+  "cultureNotes": [],
+  "transcript": {
+    "fullText": "Unit\n                                                                                            21\n\nThe Big Interview\n\nBefore . . . \nsupported for your device.\n\n                Well done! To land an interview is a big accomplishment. Your first reaction will\n                probably be excited relief. Then comes the next thought: \"I don't want to blow it! How\n                can I make sure I nail the interview?\" You made a good impression with your\n                application; now you need to follow up with a great personal impression.\n                 You've got to prepare. One great strategy is to practice with a mock interview.\n                Before the big day, ask someone in the know to help. Some people even make a video\n                of themselves in a practice interview so they can see how they come across when they\nanswer questions. Think about the questions your interviewer is most likely to ask. Practice your\nanswers, but be careful to sound natural and not to sound too staged.\n It's possible that they'll throw you a curveball and ask a question you never expected. Just stay calm\nand answer the best you can. Do your homework! Make sure you know about the company and the job\nresponsibilities. Interviewers often ask why you want to work for them. Make sure you have an\nanswer that shows you know about the company.\n It's natural to be nervous, but it's important to look confident. You'll feel more confident if you\nlook professional and feel comfortable. Choose clothes that are conservative. Save the tee shirt and\njeans for when you get home and need to unwind!\n Finally, before you go, make sure you know exactly where the interview is. Sometimes we think we\nknow where something is, but the exact street address can be tricky to find. You do not want to get\n\nlost or have to walk very far before your interview. Allow plenty of time to arrive early so you can\nrelax a bit. Never be late! It's important to make a good first impression. Trust us. An interviewer\nwill not be impressed by someone who can't be on time.\n\nDIALOGUE 1: TRACK 53 \nthat \n\nALAN: Hey, guess what? I got the call.\n\nLIA: The call? What are you talking about? What call?\n\nALAN: I got a call about that job I wanted! Remember? You helped me with my résumé. It's the\nsupervisor position, and I've got an interview tomorrow! Wow, if I get this, it'll be a real feather in\nmy cap. I'm pretty excited.\n\nLIA: That's awesome, Alan. And you've worked there for quite a while, so you've already got your\nfoot in the door. Where's the interview?\n\nALAN: It's at the head office.\n\nLIA: Oh boy. Where on earth is that?\n\nALAN: Oh, it's somewhere down Industrial Road. I have the address written down somewhere. I\nhave a pretty good idea of where the office is.\n\nLIA: A pretty good idea? You'd better make sure you know exactly where it is. Industrial Road is\npretty long, and there are a lot of cul-de-sacs. Whatever you do, you can't be late! You have only one\nchance to make a good first impression, and you'll blow it if the interviewer has to wait for you.\nBeing late will not help you nail the job.\n\nALAN: Yeah, I thought of that. I think I'll drive down to the office tonight and check it out. I'll be\nmore confident in the morning if I know exactly where I'm going, and how long it will take to get\nthere.\n\nLIA: Good plan. Don't forget to leave extra time for traffic in the morning. Have you decided what\nyou're going to wear?\n\nALAN: I think the company is pretty casual, so I thought I might wear my new jeans. And I bought a\n\nnew pair of sneakers last week. What do you think?\n\nLIA: Aacckk! No way! If this is a supervisor job, you may need to dress a bit more upscale. Even if\njeans are okay on the job, I think you should wear some other pants to the interview. I think you\nshould even wear a suit jacket if you have one. And how about a tie? Even if it's a casual place, you\nwill look very professional to the interviewer.\n\nALAN: Okay, okay. So, I guess that means no sneakers, too. Well, the good news is that if I don't get\nthis job, maybe I can get a job as a fashion model.\n\nLIA: Haha. Well then at least you won't have to worry about clothes.\n\n     Yes, you need to think about how to dress for an interview, but just as important is to think about\n     what you eat before the interview. You'll be sitting pretty close to the hiring manager, so you\n     may want to think carefully before you have onions and garlic for lunch! Also, spinach in your\n     teeth is not a good look for anyone. Be sure to check the mirror before you go out!\n\nVOCABULARY\n    blow it: ruin your chance to do something\n    come across: seem to someone\n•    confident: sure of yourself\n•    conservative: traditional\n•    cul-de-sac: a short street that is closed at one end\n    feather in one's cap: an accomplishment to be proud of\n•    first impression: how you seem to someone when he or she first meets you\n    follow-up: continue with something you started\n    foot in the door: first step in working toward a goal\n•    head office: the main office of a company\n    in the know: an expert at something\n    land: get something you've tried for\n•    mock: practice\n    nail: do something perfectly\n•    natural: normal\n•    on time: arrive when you're supposed to be there, not late!\n    quite a while: a pretty long time\n•    reaction: response\n•    staged: looking too practiced or memorized\n\n•    strategy: plan\n•    suit jacket: a business-style jacket to wear with pants\n•    unwind: relax\n     where on earth: a stronger way of saying where\n\nUsage reminder: Pretty can mean beautiful, but it's also an informal way of saying quite or rather.\n\nFor example:\n  Pretty excited is the same as quite excited.\n  Pretty casual is the same as rather casual.\n\n             PRONUNCIATION POINTER \n             currently supported for your device.\n             \n\n    Practice: In spoken English, going to sounds like gonna. (What are you gonna wear?)\n\n    Got to (must) sounds like gotta. (You've gotta prepare.)\n\n             Fun Fact!\n              During a job interview, an interviewer asked if the candidate would like some coffee.\n              The candidate said, \"That sounds great! Do you mind if I eat my doughnut with that?\"\nUm . . . he did not get the job.\n\nDuring . . . \nsupported for your device.\n\n                 You made it on time and you look great! The interviewer brings you into a room and,\n                 wham! There's an entire panel waiting to interview you. You may have expected to\n                 speak with just one person, but sometimes a company likes to have an entire group of\n                 people ask questions. Wow. It may be intimidating, but don't let this throw you.\n                 You are well prepared, you've done your research, and you've done a dry run.\n                 You're ready!\n                  Actually, the interview begins as soon as you meet your interviewer. It's usually\ncustomary to shake hands; the interviewer will probably offer his or her hand first. A firm handshake\nshows confidence (just don't break any fingers!). Look the person directly in the eye with a friendly\nsmile on your face. Don't sit down until the interviewer offers you a seat. And make sure you\n\nremember to turn off your cell phone! Leaving it on during an interview is a big no-no, even if it's set\nto vibrate. (Very often people can hear the vibrating sound. This is almost as bad as letting the phone\nring.) We don't even want to think about this, but if you forget to turn the phone off and it rings,\napologize, and turn the phone off immediately. Never answer your phone during a job interview!\n Different hiring people have different styles of interviewing job candidates. Some will try to make\nyou feel comfortable, and they may even sit in a chair next to you. Others will sit behind a big desk\nand have you sit on a small, uncomfortable chair. This can sometimes be intimidating, but the\ninterviewer may just want to see how you handle a situation like this. Don't let it shake your\nconfidence!\n During the interview, the interviewer may talk about the job and ask you about your experience. But\nhe or she may also ask some tricky questions. For example, a popular job interview question is to\nask, \"What is your biggest strength?\" This is a great time to talk about something you've done well\nin the past. You may say something like, \"I think I'm a great team player. Even when I'm in charge, I\nknow it takes everyone working together to do a great job.\" The next question may be, \"What is your\nbiggest weakness?\" This one isn't so easy. It's not a good idea to talk about a real weakness. You'll\nnever get the job if you say, \"Well, sometimes it's hard for me to get to work on time.\" A good idea is\nto think of something that can actually be a strength. For example, you might say, \"I really enjoy\nhelping my co-workers with their projects, so I try to be careful not to take on too many extra duties.\"\n Near the end of the interview, the hiring manager will probably ask if you have any questions.\nMake sure that you do! Asking a question about the job shows interest in the position and the\ncompany. It's also a chance for you to see if this job is a good fit for you.\n\nDIALOGUE 2: TRACK 54 \nthat \n\nINTERVIEWER: It's nice to meet you, Alan. I see that you've been with our company for a while\nnow, haven't you? Why are you interested in the supervisor position?\n\nALAN: Well, I've really enjoyed my job so far, but I feel ready to take on more responsibilities. I\nthink I have a lot to offer the company.\n\nINTERVIEWER: Have you ever had any supervisory experience?\n\nALAN: Well, when my supervisor has a day off, he asks me to help manage the restaurant. That\nincludes supervising the other workers—you know, answering any questions they have, making sure\nthey get their breaks . . . responsibilities like that.\n\nINTERVIEWER: Yes, your supervisor speaks very highly of you in his letter of recommendation.\n\nWell, Alan, can you think of a time when there was a problem you had to resolve when you were in\ncharge? And tell us how you managed the situation.\n\nALAN: Well, I can't say I've ever had any problems with my co-workers. But I guess sometimes, if\nan order wasn't exactly right, a customer might get angry and nasty. I just made sure that I stayed\ncalm. I listened politely to his or her complaint, and I redid the order. I always apologized for the\nmix-up. A lot of times I'd throw in a coupon to show goodwill. That usually seemed to do the trick.\n\nINTERVIEWER: Customers can sometimes be tricky. Sounds like you handled those situations very\nwell. It's really important to us that our supervisor is able to deal in a friendly way with customer\nproblems. You probably also know that we're doing more and more work on the computer. Keeping\nspreadsheets is an important part of the job. How are your computer skills? Are you familiar with\nExcel?\n\nALAN: I do use my home computer a lot, but I haven't needed to use Excel. I'm pretty good at\nfiguring out computer stuff, and I catch on pretty quickly, so I'm sure I can get up to speed with that\nprogram. No problem.\n\nINTERVIEWER: Great. Well, do you have any questions for me?\n\nALAN: Yes. I know that the company is growing and opening new locations in different cities. If I'm\noffered the job, where will I be based?\n\nINTERVIEWER: Good question. I am glad you reminded me. The position is open in the Eldred\nlocation, but we really need someone who can be flexible. We'll want this person to fill in at our\nother restaurants when another supervisor is on vacation. Would you be able to do that?\n\nALAN: Absolutely. I'd really enjoy getting to know different locations.\n\nINTERVIEWER: Great. Well, Alan, thank you for your time. We'll be in touch as soon as we make\na decision.\n\nALAN: Thank you for taking the time to talk to me.\n\n                Interviewers cannot, by law, ask you certain questions. Here are some questions\n                an interviewer is not allowed to ask:\n                • What are your religious practices?\n                • How old are you?\n                • Where were you born?\n                • Do you have an illness or disability?\n                • Are you married?\n                • Do you have children?\n\n               Although some of the above questions are not allowed, an interviewer can ask\n               the following questions:\n               • Are you able to perform all the physical duties of this job?\n               • After we hire you, can you provide proof that you can work in the United States?\n               • Will you be able to work during all of the scheduled days and times of this job?\n\nVOCABULARY\n•    apologize: say you're sorry about something\n•    based: have as your main location\n•    candidate: someone being considered for a job\n    catch on: learn\n    do the trick: get a result you want\n    dry run: practice\n•    duty: responsibility, something you have to do\n    fill in: substitute for someone who is not there\n•    firm: strong, but not hard\n•    flexible: able to make changes easily\n    get up to speed: learn what you need to do something\n•    goodwill: friendliness\n    have a lot to offer: be very good at something that can help someone\n•    hiring manager: the person who is in charge of hiring a new employee\n•    in charge: in control\n•    intimidating: making you feel unsure about yourself\n    in touch: be in contact by phone, letter, or e-mail\n•    nasty: mean; unpleasant\n    no-no: something that you cannot do\n•    offer someone a seat: ask someone to sit down\n•    panel: a group of people who will make a decision\n•    resolve: settle; solve\n    shake one's confidence: make you feel unsure about yourself\n•    speak highly of: say very good things about\n•    spreadsheets: a way of keeping information\n•    strength: something you do well\n\n     team player: someone who works well with others to get a job done\n     throw in: add\n     throw you: make you feel nervous\n•     vibrate: move very fast; shake\n\nGRAMMAR REMINDER 1: The Present Perfect Simple Tense—\nQuestions\nTo make a question in the present perfect simple tense, just switch the word order used in an\naffirmative statement. If needed, add the question word at the beginning.\n   Correct Example:\n   How long have you worked for the company?\n\n    Not:\n    How long you have worked for the company?\n\nSometimes we add in the word ever for extra emphasis.\n  Example: Have you ever had any supervisory experience?\n\nGRAMMAR REMINDER 2: The Present Perfect\nSimple Tense—Negatives\nPresent perfect simple tense negatives are made by adding the word not between have or has and the\npast participle. (Don't forget those contractions!)\n  Example: I haven't needed to use Excel.\n\nAfter . . . \nsupported for your device.\n\nIt's always a nerve-racking time after an interview. You keep thinking about the questions and your\nanswers. How did it go? Why didn't I say this? Why didn't I say that? You may get a call asking you\nto come back for a second interview. This is a good sign! It shows that you are one of a few people\nthat they are interested in. They may want you to talk to other people you'll be working with. This is a\ngood time to mention that great thing you forgot in the first interview!\n  Although a company should write or call to let you know if you got the job, not all of them do this. If\n\nyou don't hear anything for a while, it may be that you didn't get the job. It's fine to call\nthe hiring manager and ask if they've made a decision. You can even ask for feedback on\nthe interview. Knowing what things went well and what things made them decide to hire\nsomeone else can help you prepare for future interviews.\n  Sometimes, after you've given up all hope, you may get a letter or phone call out of the\nblue offering you that job. We knew you could do it!\n\nDIALOGUE 3: TRACK 55 \nthat \n\nLIA: Hey, Alan, did you get that supervisor's job?\n\nALAN: I don't know. I haven't heard anything yet, and it's been 10 days now!\n\nLIA: Don't worry. Sometimes it can take ages before you hear anything. How do you think it went?\n\nALAN: I think it went okay. I seemed to have most of the qualities they were looking for. The only\nthing is I haven't had much experience with Excel, and that's what they use for all their reports.\n\nLIA: Well, that's something you can learn. It's actually pretty easy to work with. I can show you\nsometime if you'd like. I use it all the time in my job.\n\nALAN: Thanks. I'll take you up on that if they offer me the job.\n\nLIA: By the way, did you wear your sneakers and jeans?\n\nALAN: No. I took your advice and wore a jacket and tie. Hey, maybe they didn't like my tie!\n\n     There are usually a lot of people who interview for each job. You can make yourself stand out\n     by looking and sounding professional. You will also stand out if you send an e-mail or short\n     note thanking the interviewer and reminding him or her why you would be such a good choice\n     for the job. You'll also stand out if you have spinach in your teeth. But we don't recommend\n     that!\n\nVOCABULARY\n    don't hear anything: not receive any information\n\n•    feedback: opinions about how you acted in a situation\n•    nerve-racking (also spelled nerve-wracking): very stressful\n    out of the blue: in a very unexpected way\n•    qualities: things that make you a good worker or person\n    stand out: be noticed\n    take someone up on something: accept someone's invitation to do something\n\nMORE FUN WITH IDIOMATIC EXPRESSIONS: On the Job\n•   cream of the crop: the best of the best\n    Our company only interviews the cream of the crop from the top universities.\n•   work like a dog: work very hard\n    He wanted to make a good impression on his boss, so he worked like a dog to finish the\n    report early.\n•   get the job done: accomplish what needs to be done\n    Mrs. Robinson could always rely on Ramon to get the job done when others were having\n    trouble.\n•   all in a day's work: just a normal part of the job\n    Dealing with angry customers is all in a day's work for people who work in the mall.\n•   put your best foot forward: do your very best at something\n    When you arrive at your new job, it's a good idea to put your best foot forward and be\n    helpful and friendly to all your co-workers.",
+    "wordCount": 3189
+  }
+}

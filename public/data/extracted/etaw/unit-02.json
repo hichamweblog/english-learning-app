@@ -1,0 +1,420 @@
+{
+  "id": "etaw-unit-02",
+  "unitNumber": 2,
+  "title": "Getting Around",
+  "trackType": "english-the-american-way",
+  "level": "intermediate",
+  "levelLabel": "Intermediate",
+  "dialogues": [
+    {
+      "dialogueNumber": 1,
+      "trackNumber": 5,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 05.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "TRANSIT OFFICE",
+          "text": "Good afternoon. Unionville Transit System. This is Stanley speaking."
+        },
+        {
+          "speaker": "COMMUTER",
+          "text": "Hi. I need some travel information. I need to go to 52nd Street and Broadway. I live on 8th Street, near Fifth Avenue."
+        },
+        {
+          "speaker": "TRANSIT OFFICE",
+          "text": "Well, you can take the B12 bus to Mercer Street. Then you'll have to catch the B9. You can take the subway, too."
+        },
+        {
+          "speaker": "COMMUTER",
+          "text": "I live near a bus stop, so I prefer to take the bus. What time does it come?"
+        },
+        {
+          "speaker": "TRANSIT OFFICE",
+          "text": "The buses run about every 15 minutes. Bus schedules are posted at the bus stop. You can also check our website."
+        },
+        {
+          "speaker": "COMMUTER",
+          "text": "How much does it cost?"
+        },
+        {
+          "speaker": "TRANSIT OFFICE",
+          "text": "You’ll need $2 in change. The driver won’t take dollar bills, and he won’t give you change. Make sure you have exact change."
+        },
+        {
+          "speaker": "COMMUTER",
+          "text": "Okay. Thanks for the help. Have a good day. Most bus systems offer a transfer. If you need to take more than one bus to get somewhere, you can get a free transfer to the second bus or train. Ask the driver! Many companies have an 800 number. An 800 number is a telephone number that will not be charged on your phone bill. Yay! We like free phone calls!"
+        }
+      ],
+      "dialogueText": "TRANSIT OFFICE: Good afternoon. Unionville Transit System. This is Stanley speaking.\n\nCOMMUTER: Hi. I need some travel information. I need to go to 52nd Street and Broadway. I live on 8th Street, near Fifth Avenue.\n\nTRANSIT OFFICE: Well, you can take the B12 bus to Mercer Street. Then you'll have to catch the B9. You can take the subway, too.\n\nCOMMUTER: I live near a bus stop, so I prefer to take the bus. What time does it come?\n\nTRANSIT OFFICE: The buses run about every 15 minutes. Bus schedules are posted at the bus stop. You can also check our website.\n\nCOMMUTER: How much does it cost?\n\nTRANSIT OFFICE: You’ll need $2 in change. The driver won’t take dollar bills, and he won’t give you change. Make sure you have exact change.\n\nCOMMUTER: Okay. Thanks for the help. Have a good day. Most bus systems offer a transfer. If you need to take more than one bus to get somewhere, you can get a free transfer to the second bus or train. Ask the driver! Many companies have an 800 number. An 800 number is a telephone number that will not be charged on your phone bill. Yay! We like free phone calls!"
+    },
+    {
+      "dialogueNumber": 2,
+      "trackNumber": 6,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 06.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "ALAN",
+          "text": "I need some tokens, please."
+        },
+        {
+          "speaker": "TRANSIT WORKER",
+          "text": "One way or round trip?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Round trip. And I’d like a few extra ones, please."
+        },
+        {
+          "speaker": "TRANSIT WORKER",
+          "text": "Most people aren’t crazy about carrying around a lot of tokens. Maybe you should just get a farecard. It’s better than a pocketful of tokens, and you can use it anytime."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Thanks. That’s a good idea. Do I need exact change for a farecard?"
+        },
+        {
+          "speaker": "TRANSIT WORKER",
+          "text": "No, the machine can take bills, and it will give you change."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Thanks for the tip. Now can you tell me where I get the train to Broadway? And where do the trains arrive?"
+        },
+        {
+          "speaker": "TRANSIT WORKER",
+          "text": "Sure. Catch the train right over there. Just follow the signs for Northbound/Uptown trains. You’ll have to change at 34th Street for the D train."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Thanks. And can you tell me where the restroom is?"
+        },
+        {
+          "speaker": "TRANSIT WORKER",
+          "text": "Right over there on the left. In some cities like New York City, you can buy a FunPass. This is a special farecard that you can use all day. It usually costs about the same as two trips, but you can use it as many times as you like. It’s a real bargain! Americans rarely ask where the toilet is. Instead they use the word restroom or bathroom. Careful! These public restrooms are not places to take a rest or a bath! These terms are just polite ways of saying toilet."
+        }
+      ],
+      "dialogueText": "ALAN: I need some tokens, please.\n\nTRANSIT WORKER: One way or round trip?\n\nALAN: Round trip. And I’d like a few extra ones, please.\n\nTRANSIT WORKER: Most people aren’t crazy about carrying around a lot of tokens. Maybe you should just get a farecard. It’s better than a pocketful of tokens, and you can use it anytime.\n\nALAN: Thanks. That’s a good idea. Do I need exact change for a farecard?\n\nTRANSIT WORKER: No, the machine can take bills, and it will give you change.\n\nALAN: Thanks for the tip. Now can you tell me where I get the train to Broadway? And where do the trains arrive?\n\nTRANSIT WORKER: Sure. Catch the train right over there. Just follow the signs for Northbound/Uptown trains. You’ll have to change at 34th Street for the D train.\n\nALAN: Thanks. And can you tell me where the restroom is?\n\nTRANSIT WORKER: Right over there on the left. In some cities like New York City, you can buy a FunPass. This is a special farecard that you can use all day. It usually costs about the same as two trips, but you can use it as many times as you like. It’s a real bargain! Americans rarely ask where the toilet is. Instead they use the word restroom or bathroom. Careful! These public restrooms are not places to take a rest or a bath! These terms are just polite ways of saying toilet."
+    },
+    {
+      "dialogueNumber": 3,
+      "trackNumber": 7,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 07.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "CAR SERVICE",
+          "text": "Little Apple Car Service. This is Larry speaking."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Hi. I need a car to take me to the airport at 5:30 p.m. tomorrow."
+        },
+        {
+          "speaker": "CAR SERVICE",
+          "text": "Do you need to be there at 5:30, or is that when you want us to pick you up?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "I need to be at the airport at 5:30 or I’ll miss my flight."
+        },
+        {
+          "speaker": "CAR SERVICE",
+          "text": "That’s right in the middle of rush hour. Traffic will be a nightmare at that time. I’ll have a car get you at 4 p.m. What’s your address? Tipping (everyone loves a tipping tip)! Drivers of buses and trains do not get a tip; however, tipping is expected for taxi drivers. The usual tip is 15% to 20%. There is no extra charge for singing cabbies!"
+        }
+      ],
+      "dialogueText": "CAR SERVICE: Little Apple Car Service. This is Larry speaking.\n\nLIA: Hi. I need a car to take me to the airport at 5:30 p.m. tomorrow.\n\nCAR SERVICE: Do you need to be there at 5:30, or is that when you want us to pick you up?\n\nLIA: I need to be at the airport at 5:30 or I’ll miss my flight.\n\nCAR SERVICE: That’s right in the middle of rush hour. Traffic will be a nightmare at that time. I’ll have a car get you at 4 p.m. What’s your address? Tipping (everyone loves a tipping tip)! Drivers of buses and trains do not get a tip; however, tipping is expected for taxi drivers. The usual tip is 15% to 20%. There is no extra charge for singing cabbies!"
+    }
+  ],
+  "dialoguesCount": 3,
+  "vocabulary": [
+    {
+      "term": "bus stop",
+      "definition": "the place you must go to wait for a bus (They are several blocks apart. They are",
+      "isPhrase": true
+    },
+    {
+      "term": "commuter",
+      "definition": "someone who travels to and from work on the bus or train, or by car",
+      "isPhrase": false
+    },
+    {
+      "term": "complicated",
+      "definition": "not easy to understand",
+      "isPhrase": false
+    },
+    {
+      "term": "efficient",
+      "definition": "smart and fast",
+      "isPhrase": false
+    },
+    {
+      "term": "exact change",
+      "definition": "the correct number of coins",
+      "isPhrase": true
+    },
+    {
+      "term": "mass transit",
+      "definition": "a transportation system provided by a city",
+      "isPhrase": true
+    },
+    {
+      "term": "provide",
+      "definition": "give",
+      "isPhrase": false
+    },
+    {
+      "term": "run",
+      "definition": "come, on a schedule",
+      "isPhrase": false
+    },
+    {
+      "term": "subway",
+      "definition": "an underground train system",
+      "isPhrase": false
+    },
+    {
+      "term": "take/catch the bus or train",
+      "definition": "get on a bus or train",
+      "isPhrase": true
+    },
+    {
+      "term": "crazy about",
+      "definition": "really like a lot!",
+      "isPhrase": true
+    },
+    {
+      "term": "entertaining",
+      "definition": "amusing, fun",
+      "isPhrase": false
+    },
+    {
+      "term": "farecard",
+      "definition": "a prepaid card that you can use instead of a token",
+      "isPhrase": false
+    },
+    {
+      "term": "hop on",
+      "definition": "get on; jump on",
+      "isPhrase": true
+    },
+    {
+      "term": "platform",
+      "definition": "the place in the station beside the train tracks where you wait for your train",
+      "isPhrase": false
+    },
+    {
+      "term": "restroom",
+      "definition": "toilet",
+      "isPhrase": false
+    },
+    {
+      "term": "round trip",
+      "definition": "there and back again!",
+      "isPhrase": true
+    },
+    {
+      "term": "stay tuned",
+      "definition": "pay attention for more information; don’t go away!",
+      "isPhrase": true
+    },
+    {
+      "term": "token",
+      "definition": "used in place of a coin to pay a fare",
+      "isPhrase": false
+    },
+    {
+      "term": "token booth",
+      "definition": "a place in the station where you can buy tokens, and where a transit worker can",
+      "isPhrase": true
+    },
+    {
+      "term": "turnstile",
+      "definition": "a machine that lets people go through one by one",
+      "isPhrase": false
+    },
+    {
+      "term": "wacky",
+      "definition": "silly, crazy, complicated",
+      "isPhrase": false
+    },
+    {
+      "term": "arrange",
+      "definition": "make a plan for something",
+      "isPhrase": false
+    },
+    {
+      "term": "cab",
+      "definition": "taxi",
+      "isPhrase": false
+    },
+    {
+      "term": "cabbie",
+      "definition": "taxi driver",
+      "isPhrase": false
+    },
+    {
+      "term": "dispatch",
+      "definition": "send",
+      "isPhrase": false
+    },
+    {
+      "term": "fare",
+      "definition": "the cost of the trip",
+      "isPhrase": false
+    },
+    {
+      "term": "hail a cab",
+      "definition": "signal that you want a taxi",
+      "isPhrase": true
+    },
+    {
+      "term": "in advance",
+      "definition": "before the time",
+      "isPhrase": true
+    },
+    {
+      "term": "nightmare",
+      "definition": "a very bad situation",
+      "isPhrase": false
+    },
+    {
+      "term": "pick up",
+      "definition": "get, collect",
+      "isPhrase": true
+    },
+    {
+      "term": "rate",
+      "definition": "how the fare is calculated",
+      "isPhrase": false
+    },
+    {
+      "term": "rush hour",
+      "definition": "the very busy traffic times (morning and evenings) when most people are traveling to",
+      "isPhrase": true
+    },
+    {
+      "term": "MORE FUN WITH IDIOMATIC EXPRESSIONS",
+      "definition": "Transportation",
+      "isPhrase": true
+    },
+    {
+      "term": "off track",
+      "definition": "off the subject",
+      "isPhrase": true
+    },
+    {
+      "term": "lose track",
+      "definition": "forget or lose",
+      "isPhrase": true
+    },
+    {
+      "term": "one-track mind",
+      "definition": "thinking of only one thing",
+      "isPhrase": true
+    },
+    {
+      "term": "miss the boat",
+      "definition": "miss an opportunity",
+      "isPhrase": true
+    },
+    {
+      "term": "in the same boat",
+      "definition": "in the same situation",
+      "isPhrase": true
+    },
+    {
+      "term": "They’re both in the same boat",
+      "definition": "neither of them remembered to do the homework.",
+      "isPhrase": true
+    }
+  ],
+  "vocabCount": 40,
+  "usefulPhrases": [
+    {
+      "phrase": "bus stop",
+      "meaning": "the place you must go to wait for a bus (They are several blocks apart. They are"
+    },
+    {
+      "phrase": "exact change",
+      "meaning": "the correct number of coins"
+    },
+    {
+      "phrase": "mass transit",
+      "meaning": "a transportation system provided by a city"
+    },
+    {
+      "phrase": "take/catch the bus or train",
+      "meaning": "get on a bus or train"
+    },
+    {
+      "phrase": "crazy about",
+      "meaning": "really like a lot!"
+    },
+    {
+      "phrase": "hop on",
+      "meaning": "get on; jump on"
+    },
+    {
+      "phrase": "round trip",
+      "meaning": "there and back again!"
+    },
+    {
+      "phrase": "stay tuned",
+      "meaning": "pay attention for more information; don’t go away!"
+    },
+    {
+      "phrase": "token booth",
+      "meaning": "a place in the station where you can buy tokens, and where a transit worker can"
+    },
+    {
+      "phrase": "hail a cab",
+      "meaning": "signal that you want a taxi"
+    },
+    {
+      "phrase": "in advance",
+      "meaning": "before the time"
+    },
+    {
+      "phrase": "pick up",
+      "meaning": "get, collect"
+    },
+    {
+      "phrase": "rush hour",
+      "meaning": "the very busy traffic times (morning and evenings) when most people are traveling to"
+    },
+    {
+      "phrase": "MORE FUN WITH IDIOMATIC EXPRESSIONS",
+      "meaning": "Transportation"
+    },
+    {
+      "phrase": "off track",
+      "meaning": "off the subject"
+    },
+    {
+      "phrase": "lose track",
+      "meaning": "forget or lose"
+    },
+    {
+      "phrase": "one-track mind",
+      "meaning": "thinking of only one thing"
+    },
+    {
+      "phrase": "miss the boat",
+      "meaning": "miss an opportunity"
+    },
+    {
+      "phrase": "in the same boat",
+      "meaning": "in the same situation"
+    },
+    {
+      "phrase": "They’re both in the same boat",
+      "meaning": "neither of them remembered to do the homework."
+    }
+  ],
+  "cultureNotes": [],
+  "transcript": {
+    "fullText": "Unit\n                                                                                               2\n\nGetting Around\n\nRiding the Bus \ncurrently supported for your device.\n\n                                              No car? No problem!\n                                              There are plenty of ways to get around. Most cities and\n                                              towns have an efficient mass transit system; that is,\n                                              they have buses or trains to get you where you need to\n                                              go.\n                                                Often, you may need to take a bus to the train station.\n                                              Sometimes it can be complicated to figure out which\n                                              bus or train will take you where, but there is help! Most\n                                              cities have a special department just to provide that\ninformation. You can call the transit company to ask. When you call the company, you will need to\ntell them where you are and where you need to go. You can also ask if you need exact change for the\nbus. Drivers usually can't accept cash.\n\nDIALOGUE 1: TRACK 5 \n\nTRANSIT OFFICE: Good afternoon. Unionville Transit System. This is Stanley speaking.\n\nCOMMUTER: Hi. I need some travel information. I need to go to 52nd Street and Broadway. I live\non 8th Street, near Fifth Avenue.\n\nTRANSIT OFFICE: Well, you can take the B12 bus to Mercer Street. Then you'll have to catch the\nB9. You can take the subway, too.\n\nCOMMUTER: I live near a bus stop, so I prefer to take the bus. What time does it come?\n\nTRANSIT OFFICE: The buses run about every 15 minutes. Bus schedules are posted at the bus\nstop. You can also check our website.\n\nCOMMUTER: How much does it cost?\n\nTRANSIT OFFICE: You'll need $2 in change. The driver won't take dollar bills, and he won't give\nyou change. Make sure you have exact change.\n\nCOMMUTER: Okay. Thanks for the help. Have a good day.\n\n        Most bus systems offer a transfer. If you need to take more than one bus to get somewhere,\n        you can get a free transfer to the second bus or train. Ask the driver!\n\n         Many companies have an 800 number. An 800 number is a telephone number that will not\n         be charged on your phone bill. Yay! We like free phone calls!\n\nVOCABULARY\n•   bus stop: the place you must go to wait for a bus (They are several blocks apart. They are\n    usually marked with the bus route and have posted schedules.)\n•   commuter: someone who travels to and from work on the bus or train, or by car\n•   complicated: not easy to understand\n•   efficient: smart and fast\n•   exact change: the correct number of coins\n•   mass transit: a transportation system provided by a city\n•   provide: give\n\n•    run: come, on a schedule\n•    subway: an underground train system\n    take/catch the bus or train: get on a bus or train\n\n             PRONUNCIATION POINTER \n             currently supported for your device.\n             \n\n    • Even though it looks funny when you write it, the word buses is pronounced busses. In fact,\n      some people spell it with two s's, just like it's pronounced. (Sometimes in English a word\n      may have two correct, but different, spellings or pronunciations.)\n    • Have to sounds like hafta in spoken English.\n\nGRAMMAR REMINDER 1: The Present Simple Tense—\nAffifirmative Statements\nThe present simple tense is used to talk about things that happen all the time or usually. The verb is\nused in its base form.\n\nDon't forget to add the letter s in the third person (he, she, it)!\n  Examples:\n  • I live\n  • You live\n  • He, she, or it lives\n  • We live\n  • They live\n\nGRAMMAR REMINDER 2: The Present Simple Tense —\nNegatives, and Questions with does\nFor present simple third-person questions (except that wacky verb to be), don't forget to use does\nand the base form of the verb.\n\nQuestions — Correct Examples:                                Not:\nWhat time does it come?                                      What time does it comes?\nHow much does it cost?                                       How much does it costs?\n\nTo form the negative, just add the contraction form of not between does and the base verb.\n• It doesn't come late.\n• It doesn't cost too much.\n\nGRAMMAR REMINDER 3: The Future Simple Tense Affirmative\nStatements, and Negatives\nUse will (or the short form/contraction) for the future simple tense when talking about a fact.\n• You'll have to catch the B9. (You will have to . . .)\n• You'll need $2 in change. (You will need . . .)\n\nUse the short form of will not (won't) for the negative.\n• The driver won't take dollar bills and he won't take change.\n\nStay tuned! There will be more reminders about will later on!\n\nGoing Underground: The Subway There is audio content at this\nlocation that \n\n                                              Large cities have very efficient subway systems. Taking\n                                              these trains can get you just about anywhere in the city,\n                                              and you don't have to wait outside in the rain! At some\n                                              stations, there may be people singing or playing a musical\n                                              instrument. This can be an entertaining way to wait for\n                                              the train—unless the singer isn't very good, haha. For\n                                              most subway systems, you will need a token or farecard.\n                                              You can buy these right at the station, either at the token\n                                              booth or at the ticket machine. You can put dollars or\n                                              credit cards right into the machine. It will give you a\nfarecard in the amount you choose. To get onto the platform, slide the card into the card reader or put\na token into the slot. Then push through the turnstile and hop on the train!\n\nDIALOGUE 2: TRACK 6 \n\nALAN: I need some tokens, please.\n\nTRANSIT WORKER: One way or round trip?\n\nALAN: Round trip. And I'd like a few extra ones, please.\n\nTRANSIT WORKER: Most people aren't crazy about carrying around a lot of tokens. Maybe you\nshould just get a farecard. It's better than a pocketful of tokens, and you can use it anytime.\n\nALAN: Thanks. That's a good idea. Do I need exact change for a farecard?\n\nTRANSIT WORKER: No, the machine can take bills, and it will give you change.\n\nALAN: Thanks for the tip. Now can you tell me where I get the train to Broadway? And where do the\ntrains arrive?\n\nTRANSIT WORKER: Sure. Catch the train right over there. Just follow the signs for\nNorthbound/Uptown trains. You'll have to change at 34th Street for the D train.\n\nALAN: Thanks. And can you tell me where the restroom is?\n\nTRANSIT WORKER: Right over there on the left.\n\n       In some cities like New York City, you can buy a FunPass. This is a special farecard that you\n       can use all day. It usually costs about the same as two trips, but you can use it as many times\n       as you like. It's a real bargain!\n\n       Americans rarely ask where the toilet is. Instead they use the word restroom or bathroom.\n       Careful! These public restrooms are not places to take a rest or a bath! These terms are just\n       polite ways of saying toilet.\n\nVOCABULARY\n    crazy about: really like a lot!\n•   entertaining: amusing, fun\n•   farecard: a prepaid card that you can use instead of a token\n    hop on: get on; jump on\n•   platform: the place in the station beside the train tracks where you wait for your train\n•   restroom: toilet\n\n•     round trip: there and back again!\n     stay tuned: pay attention for more information; don't go away!\n•     token: used in place of a coin to pay a fare\n•     token booth: a place in the station where you can buy tokens, and where a transit worker can\n      help you\n•     turnstile: a machine that lets people go through one by one\n•     wacky: silly, crazy, complicated\n\nGRAMMAR REMINDER 4: The Present Simple Tense Negatives,\nand Questions with do\nFor questions using I, you, or plural subjects, use do and the base form of the verb. To form the\nnegative, just add the contraction form of not between do and the base verb.\n\n    Examples:\n    • Do I need exact change? (I don't have exact change. You don't need exact change.)\n    • Where do the trains arrive? (They don't arrive on this platform.)\n\nUsage Reminder: I would like is a more polite way of saying I want. It's often shortened to I'd like.\n\nHey, Taxi! \nsupported for your device.\n\nIf the train and bus won't take you where you need to go, or if you're\nin a hurry, you can call a cab. In larger cities, you can hail a cab on\nthe street. Just step off the sidewalk into the street (watch for cars\nand buses!) and raise your arm. You can also call out, \"Taxi!\" In\ncities, the fares are posted right in the cab, and the rates are set by a\ngroup that regulates taxi companies.\n  If you need a ride in a smaller city or town, you can call a car\nservice. This is a private taxi company that usually does not have\ncars driving around the streets. Drivers wait in the office until\nsomeone calls, and then a manager will dispatch a car. You can also call in advance and arrange to\nbe picked up on another day.\n\nDIALOGUE 3: TRACK 7 \n\nCAR SERVICE: Little Apple Car Service. This is Larry speaking.\n\nLIA: Hi. I need a car to take me to the airport at 5:30 p.m. tomorrow.\n\nCAR SERVICE: Do you need to be there at 5:30, or is that when you want us to pick you up?\n\nLIA: I need to be at the airport at 5:30 or I'll miss my flight.\n\nCAR SERVICE: That's right in the middle of rush hour. Traffic will be a nightmare at that time.\nI'll have a car get you at 4 p.m. What's your address?\n\n        Tipping (everyone loves a tipping tip)! Drivers of buses and trains do not get a tip; however,\n        tipping is expected for taxi drivers. The usual tip is 15% to 20%. There is no extra charge for\n        singing cabbies!\n\nVOCABULARY\n•    arrange: make a plan for something\n    cab: taxi\n    cabbie: taxi driver\n•    dispatch: send\n•    fare: the cost of the trip\n    hail a cab: signal that you want a taxi\n•    in advance: before the time\n    nightmare: a very bad situation\n    pick up: get, collect\n•    rate: how the fare is calculated\n    rush hour: the very busy traffic times (morning and evenings) when most people are traveling to\n     and from work\n\nMORE FUN WITH IDIOMATIC EXPRESSIONS: Transportation\n•    off track: off the subject\n     The meeting got off track when Juan began talking about his family's vacation.\n\n•   lose track: forget or lose\n    I lost track of where I put my glasses. How will I be able to read the paper?\n•   one-track mind: thinking of only one thing\n    They couldn't make any progress at the meeting because the boss had a one-track mind and\n    could only talk about his golf game that afternoon.\n•   miss the boat: miss an opportunity\n    When the salesman came, he offered all the workers free coffee, but Stephen missed the boat\n    because he was chatting on the phone.\n•   in the same boat: in the same situation\n    They're both in the same boat: neither of them remembered to do the homework.",
+    "wordCount": 1848
+  }
+}

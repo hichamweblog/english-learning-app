@@ -159,12 +159,126 @@ function check4000Words() {
   }
 }
 
+function checkFluentRegular() {
+  const dirPath = path.join(EXTRACTED_DIR, 'fluent');
+  if (!fs.existsSync(dirPath)) return;
+  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'index.json');
+  console.log(`Validating ${files.length} Speak Fluent English extracted lessons...`);
+
+  for (const file of files) {
+    totalFiles++;
+    const filePath = path.join(dirPath, file);
+    try {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      let valid = true;
+      if (!data.id || !data.title || !data.dialogue) {
+        failures.push(`${file}: missing required fields`);
+        valid = false;
+      }
+      if (data.hasAudio && !fs.existsSync(path.resolve('public', data.audioPath))) {
+        failures.push(`${file}: audio file not found on disk: ${data.audioPath}`);
+        valid = false;
+      }
+      valid = validateTranscript(data.transcript, data.id) && valid;
+      if (valid) totalPassed++;
+    } catch (err) {
+      failures.push(`${file}: JSON parse error - ${err.message}`);
+    }
+  }
+}
+
+function checkEtaw() {
+  const dirPath = path.join(EXTRACTED_DIR, 'etaw');
+  if (!fs.existsSync(dirPath)) return;
+  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'index.json');
+  console.log(`Validating ${files.length} English the American Way units...`);
+
+  for (const file of files) {
+    totalFiles++;
+    const filePath = path.join(dirPath, file);
+    try {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      let valid = true;
+      if (!data.id || !data.title || !Array.isArray(data.dialogues)) {
+        failures.push(`${file}: missing required fields`);
+        valid = false;
+      }
+      for (const dlg of data.dialogues) {
+        if (dlg.hasAudio && !fs.existsSync(path.resolve('public', dlg.audioPath))) {
+          failures.push(`${file}: missing audio file for dialogue ${dlg.dialogueNumber}: ${dlg.audioPath}`);
+          valid = false;
+        }
+      }
+      valid = validateTranscript(data.transcript, data.id) && valid;
+      if (valid) totalPassed++;
+    } catch (err) {
+      failures.push(`${file}: JSON parse error - ${err.message}`);
+    }
+  }
+}
+
+function checkReaders() {
+  const dirPath = path.join(EXTRACTED_DIR, 'readers');
+  if (!fs.existsSync(dirPath)) return;
+  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'index.json');
+  console.log(`Validating ${files.length} Graded Readers extracted files...`);
+
+  for (const file of files) {
+    totalFiles++;
+    const filePath = path.join(dirPath, file);
+    try {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      let valid = true;
+      if (!data.id || !data.title || !Array.isArray(data.chapters) || data.chapters.length === 0) {
+        failures.push(`${file}: missing required reader fields or chapters`);
+        valid = false;
+      }
+      for (const ch of data.chapters) {
+        if (ch.hasAudio && !fs.existsSync(path.resolve('public', ch.audioPath))) {
+          failures.push(`${file}: missing chapter audio: ${ch.audioPath}`);
+          valid = false;
+        }
+      }
+      if (valid) totalPassed++;
+    } catch (err) {
+      failures.push(`${file}: JSON parse error - ${err.message}`);
+    }
+  }
+}
+
+function checkBooks() {
+  const booksDir = path.join(EXTRACTED_DIR, 'books');
+  if (!fs.existsSync(booksDir)) return;
+  const files = fs.readdirSync(booksDir).filter(f => f.endsWith('.json'));
+  console.log(`Validating ${files.length} Pedagogical Reference & Practice books...`);
+
+  for (const file of files) {
+    totalFiles++;
+    const filePath = path.join(booksDir, file);
+    try {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      let valid = true;
+      if (!data.id || !data.title) {
+        failures.push(`${file}: missing id or title`);
+        valid = false;
+      }
+      if (valid) totalPassed++;
+    } catch (err) {
+      failures.push(`${file}: JSON parse error - ${err.message}`);
+    }
+  }
+}
+
 console.log('=== Extracted Content Validation Suite ===\n');
 
 checkDirectory('daily', 'Daily');
 checkDirectory('cultural', 'Cultural');
 checkDirectory('vip', 'VIP');
 check4000Words();
+checkFluentRegular();
+checkEtaw();
+checkReaders();
+checkBooks();
 
 console.log('\n==========================================');
 console.log(`Total Extracted Files Checked: ${totalFiles}`);

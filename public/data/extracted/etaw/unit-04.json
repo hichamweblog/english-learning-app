@@ -1,0 +1,647 @@
+{
+  "id": "etaw-unit-04",
+  "unitNumber": 4,
+  "title": "Dining in Style",
+  "trackType": "english-the-american-way",
+  "level": "intermediate",
+  "levelLabel": "Intermediate",
+  "dialogues": [
+    {
+      "dialogueNumber": 1,
+      "trackNumber": 11,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 11.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "MACHINE GUY",
+          "text": "Can I take your order, please?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Hmmm. A burger sounds good. I think I’ll have a mega-burger with cheese, extra pickles, no mayo."
+        },
+        {
+          "speaker": "MACHINE GUY",
+          "text": "Anything to drink with that?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "I’d like a Coke. Extra large."
+        },
+        {
+          "speaker": "MACHINE GUY",
+          "text": "Anything else?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Yes, a kids’ meal with chocolate milk and chicken nuggets."
+        },
+        {
+          "speaker": "MACHINE GUY",
+          "text": "Would you like fries with that?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Hmmm. The fries smell great, but do you have fruit instead?"
+        },
+        {
+          "speaker": "MACHINE GUY",
+          "text": "Sure. You can have an apple or fruit cup."
+        },
+        {
+          "speaker": "KID",
+          "text": "Mom, you know I like fruit cup, but I’d like to have the apple. But only if they put a pie around it! Most places will fix the food to order. Just ask if you want something a little different from the usual preparation. Although fast food places offer many choices, don’t expect a gourmet meal. There’s a reason it’s called fast food!"
+        }
+      ],
+      "dialogueText": "MACHINE GUY: Can I take your order, please?\n\nLIA: Hmmm. A burger sounds good. I think I’ll have a mega-burger with cheese, extra pickles, no mayo.\n\nMACHINE GUY: Anything to drink with that?\n\nLIA: I’d like a Coke. Extra large.\n\nMACHINE GUY: Anything else?\n\nLIA: Yes, a kids’ meal with chocolate milk and chicken nuggets.\n\nMACHINE GUY: Would you like fries with that?\n\nLIA: Hmmm. The fries smell great, but do you have fruit instead?\n\nMACHINE GUY: Sure. You can have an apple or fruit cup.\n\nKID: Mom, you know I like fruit cup, but I’d like to have the apple. But only if they put a pie around it! Most places will fix the food to order. Just ask if you want something a little different from the usual preparation. Although fast food places offer many choices, don’t expect a gourmet meal. There’s a reason it’s called fast food!"
+    },
+    {
+      "dialogueNumber": 2,
+      "trackNumber": 12,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 12.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "SERVER",
+          "text": "Hi. Welcome to the Farkel Family Restaurant. I’ll be your server today. You’re just in time for our early-bird special, so you can choose from that menu or from the regular menu. Can I start you off with some appetizers and something to drink?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I think I may have a beer. What do you have on draft?"
+        },
+        {
+          "speaker": "SERVER",
+          "text": "We have Statler Lite and Orange Cow on tap."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "What’s your house wine?"
+        },
+        {
+          "speaker": "SERVER",
+          "text": "The house red is a Napa Valley cabernet, and the house white is a chardonnay from Mendoza, Argentina."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I’ll have a glass of cabernet."
+        },
+        {
+          "speaker": "SERVER",
+          "text": "And for you, ma’am?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "I’m driving so I’ll just have an OJ."
+        },
+        {
+          "speaker": "SERVER",
+          "text": "Would you like any appetizers?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "No, I think we’ll just have the entree. I’ll have the filet mignon."
+        },
+        {
+          "speaker": "SERVER",
+          "text": "Sure. How would you like it?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I’d like it rare. And hold the mushrooms."
+        },
+        {
+          "speaker": "SERVER",
+          "text": "And for you, ma’am?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "I’ll have the seafood combination with rice."
+        },
+        {
+          "speaker": "SERVER",
+          "text": "The dinner comes with a vegetable. What would you like?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "I’ll have broccoli and a side salad."
+        },
+        {
+          "speaker": "LIA",
+          "text": "And I’ll have some sautéed onions with the seafood. Steak is usually prepared to order. If you like your meat very lightly cooked, order it rare. More cooked, but still pink is medium. Cooked for a longer time with no pink is well done. A party in a restaurant is not necessarily a birthday party, although it could be. Confused? A party is simply the number of people in a group wishing to share the same table. The law is very clear: Don’t drink and drive! Many people have a “designated driver” when they go out. This person will not drink any alcohol, and he or she will be responsible for driving."
+        }
+      ],
+      "dialogueText": "SERVER: Hi. Welcome to the Farkel Family Restaurant. I’ll be your server today. You’re just in time for our early-bird special, so you can choose from that menu or from the regular menu. Can I start you off with some appetizers and something to drink?\n\nALAN: I think I may have a beer. What do you have on draft?\n\nSERVER: We have Statler Lite and Orange Cow on tap.\n\nALAN: What’s your house wine?\n\nSERVER: The house red is a Napa Valley cabernet, and the house white is a chardonnay from Mendoza, Argentina.\n\nALAN: I’ll have a glass of cabernet.\n\nSERVER: And for you, ma’am?\n\nLIA: I’m driving so I’ll just have an OJ.\n\nSERVER: Would you like any appetizers?\n\nALAN: No, I think we’ll just have the entree. I’ll have the filet mignon.\n\nSERVER: Sure. How would you like it?\n\nALAN: I’d like it rare. And hold the mushrooms.\n\nSERVER: And for you, ma’am?\n\nLIA: I’ll have the seafood combination with rice.\n\nSERVER: The dinner comes with a vegetable. What would you like?\n\nALAN: I’ll have broccoli and a side salad.\n\nLIA: And I’ll have some sautéed onions with the seafood. Steak is usually prepared to order. If you like your meat very lightly cooked, order it rare. More cooked, but still pink is medium. Cooked for a longer time with no pink is well done. A party in a restaurant is not necessarily a birthday party, although it could be. Confused? A party is simply the number of people in a group wishing to share the same table. The law is very clear: Don’t drink and drive! Many people have a “designated driver” when they go out. This person will not drink any alcohol, and he or she will be responsible for driving."
+    },
+    {
+      "dialogueNumber": 3,
+      "trackNumber": 13,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 13.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "ALAN",
+          "text": "Miss… Excuse me, but my glass has a smudge on it."
+        },
+        {
+          "speaker": "SERVER",
+          "text": "I’m terribly sorry sir. I’ll get you a clean one right away. *** Some time later ***"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Miss, I’m still waiting for a clean glass, and we still haven’t received our salads. We’ve been waiting a long time for our food."
+        },
+        {
+          "speaker": "SERVER",
+          "text": "I am SO sorry! We’re a little busier than usual tonight, and we’re short-staffed. I’ll bring it immediately. I’ll also bring more water. *** A few moments later ***"
+        },
+        {
+          "speaker": "SERVER",
+          "text": "Here you are, sir, and I’ve brought you another glass of wine, on the house. The manager would also like to give you a dessert of your choice, also compliments of the house. We’re so sorry for the mix-up. Sorry you had to wait."
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Thank you very much. A polite way to address a man you don’t know is sir. Use ma’am for a woman. Another tip about tips: You should tip in restaurants. For many servers, tips make up most of their pay. Usually the tip is 15% to 20% of the bill. If the food/service is exceptionally good, you may like to leave a little more."
+        }
+      ],
+      "dialogueText": "ALAN: Miss… Excuse me, but my glass has a smudge on it.\n\nSERVER: I’m terribly sorry sir. I’ll get you a clean one right away. *** Some time later ***\n\nALAN: Miss, I’m still waiting for a clean glass, and we still haven’t received our salads. We’ve been waiting a long time for our food.\n\nSERVER: I am SO sorry! We’re a little busier than usual tonight, and we’re short-staffed. I’ll bring it immediately. I’ll also bring more water. *** A few moments later ***\n\nSERVER: Here you are, sir, and I’ve brought you another glass of wine, on the house. The manager would also like to give you a dessert of your choice, also compliments of the house. We’re so sorry for the mix-up. Sorry you had to wait.\n\nALAN: Thank you very much. A polite way to address a man you don’t know is sir. Use ma’am for a woman. Another tip about tips: You should tip in restaurants. For many servers, tips make up most of their pay. Usually the tip is 15% to 20% of the bill. If the food/service is exceptionally good, you may like to leave a little more."
+    }
+  ],
+  "dialoguesCount": 3,
+  "vocabulary": [
+    {
+      "term": "bad rap (also called a bum rap)",
+      "definition": "an unfair bad opinion",
+      "isPhrase": true
+    },
+    {
+      "term": "cashier",
+      "definition": "the person who takes the money when you buy something",
+      "isPhrase": false
+    },
+    {
+      "term": "chicken nuggets",
+      "definition": "small pieces of chicken, covered in a batter and deep fried (come on . . . we",
+      "isPhrase": true
+    },
+    {
+      "term": "conscious of",
+      "definition": "aware of, thinking about",
+      "isPhrase": true
+    },
+    {
+      "term": "dream",
+      "definition": "anything that is just PERFECT! (a dream job, a dream vacation)",
+      "isPhrase": false
+    },
+    {
+      "term": "drive-thru",
+      "definition": "Yep! a lane outside the restaurant you drive right through; order your food at one end,",
+      "isPhrase": true
+    },
+    {
+      "term": "ethnic cuisine",
+      "definition": "cooking styles from different cultures",
+      "isPhrase": true
+    },
+    {
+      "term": "exhausted",
+      "definition": "really, really tired",
+      "isPhrase": false
+    },
+    {
+      "term": "to fix the food to order",
+      "definition": "prepare exactly as you would like it",
+      "isPhrase": true
+    },
+    {
+      "term": "fruit cup",
+      "definition": "a serving of mixed fruits",
+      "isPhrase": true
+    },
+    {
+      "term": "gourmet",
+      "definition": "very special food, often expensive",
+      "isPhrase": false
+    },
+    {
+      "term": "health conscious",
+      "definition": "concerned about things that are good for your health",
+      "isPhrase": true
+    },
+    {
+      "term": "hop into",
+      "definition": "get into",
+      "isPhrase": true
+    },
+    {
+      "term": "in the mood",
+      "definition": "wanting to do something",
+      "isPhrase": true
+    },
+    {
+      "term": "just what the doctor ordered",
+      "definition": "something that will be perfect for what you need",
+      "isPhrase": true
+    },
+    {
+      "term": "kids",
+      "definition": "children",
+      "isPhrase": false
+    },
+    {
+      "term": "mayo",
+      "definition": "short for mayonnaise, a white spread made from eggs and oil",
+      "isPhrase": false
+    },
+    {
+      "term": "picky eaters",
+      "definition": "people who don’t like many different kinds of food",
+      "isPhrase": true
+    },
+    {
+      "term": "pie",
+      "definition": "a pastry treat, usually prepared with fruit",
+      "isPhrase": false
+    },
+    {
+      "term": "post",
+      "definition": "show clearly",
+      "isPhrase": false
+    },
+    {
+      "term": "takeout",
+      "definition": "pretty much what it says. You buy the food, and take it with you to eat at home",
+      "isPhrase": false
+    },
+    {
+      "term": "thru",
+      "definition": "a short way to write through",
+      "isPhrase": false
+    },
+    {
+      "term": "vegetarian",
+      "definition": "without meat products",
+      "isPhrase": false
+    },
+    {
+      "term": "whole grains",
+      "definition": "grains (for example, oat and wheat) that are not processed",
+      "isPhrase": true
+    },
+    {
+      "term": "appetizer",
+      "definition": "a small dish of food served before the main meal",
+      "isPhrase": false
+    },
+    {
+      "term": "breaking the bank",
+      "definition": "costing too much for your budget",
+      "isPhrase": true
+    },
+    {
+      "term": "check in",
+      "definition": "let the staff know that you would like a table",
+      "isPhrase": true
+    },
+    {
+      "term": "dinner out",
+      "definition": "Yes! Eating anywhere but home",
+      "isPhrase": true
+    },
+    {
+      "term": "early-bird special",
+      "definition": "a lower-cost menu, usually offered before 6 p.m.",
+      "isPhrase": true
+    },
+    {
+      "term": "filet mignon",
+      "definition": "a very tender cut of steak",
+      "isPhrase": true
+    },
+    {
+      "term": "flashing",
+      "definition": "going on and off very quickly",
+      "isPhrase": false
+    },
+    {
+      "term": "free",
+      "definition": "available; can also mean at no cost",
+      "isPhrase": false
+    },
+    {
+      "term": "gadget",
+      "definition": "a cool little device that has some special use",
+      "isPhrase": false
+    },
+    {
+      "term": "hold",
+      "definition": "don’t include something",
+      "isPhrase": false
+    },
+    {
+      "term": "hostess station",
+      "definition": "usually at the front of the restaurant, where the staff will take your name",
+      "isPhrase": true
+    },
+    {
+      "term": "house wine",
+      "definition": "the brand of wine a restaurant serves if the customer doesn’t want something",
+      "isPhrase": true
+    },
+    {
+      "term": "just in time",
+      "definition": "arrived right before it’s too late",
+      "isPhrase": true
+    },
+    {
+      "term": "Napa Valley",
+      "definition": "a famous wine region in California",
+      "isPhrase": true
+    },
+    {
+      "term": "OJ",
+      "definition": "Orange Juice",
+      "isPhrase": false
+    },
+    {
+      "term": "party",
+      "definition": "the people who are joining you for dinner",
+      "isPhrase": false
+    },
+    {
+      "term": "Restaurant Week",
+      "definition": "a week when fancy restaurants offer a special menu at lower cost",
+      "isPhrase": true
+    },
+    {
+      "term": "seafood",
+      "definition": "various types of fish",
+      "isPhrase": false
+    },
+    {
+      "term": "server",
+      "definition": "also called a waiter or waitress",
+      "isPhrase": false
+    },
+    {
+      "term": "side salad",
+      "definition": "a small salad served with or before the entree",
+      "isPhrase": true
+    },
+    {
+      "term": "sit-down restaurant",
+      "definition": "a nicer restaurant with tables and waiters who will serve you",
+      "isPhrase": true
+    },
+    {
+      "term": "splurge",
+      "definition": "spend a little extra money for a special treat",
+      "isPhrase": false
+    },
+    {
+      "term": "upscale",
+      "definition": "a little fancier; more special",
+      "isPhrase": false
+    },
+    {
+      "term": "windshield",
+      "definition": "the large front window of a car",
+      "isPhrase": false
+    },
+    {
+      "term": "absolutely",
+      "definition": "completely",
+      "isPhrase": false
+    },
+    {
+      "term": "apologize",
+      "definition": "say you are sorry for something",
+      "isPhrase": false
+    },
+    {
+      "term": "backstroke",
+      "definition": "you guessed it… a swimming move done on your back!",
+      "isPhrase": false
+    },
+    {
+      "term": "bad day",
+      "definition": "a day when you seem to have a lot of problems",
+      "isPhrase": true
+    },
+    {
+      "term": "beef about",
+      "definition": "complain",
+      "isPhrase": true
+    },
+    {
+      "term": "correct",
+      "definition": "fix; to make something right",
+      "isPhrase": false
+    },
+    {
+      "term": "face it",
+      "definition": "accept the truth",
+      "isPhrase": true
+    },
+    {
+      "term": "immediately",
+      "definition": "at once; right away",
+      "isPhrase": false
+    },
+    {
+      "term": "legitimate complaint",
+      "definition": "a good reason for mentioning a pr oblem",
+      "isPhrase": true
+    },
+    {
+      "term": "lovely",
+      "definition": "very nice",
+      "isPhrase": false
+    },
+    {
+      "term": "mention",
+      "definition": "say",
+      "isPhrase": false
+    },
+    {
+      "term": "mix-up",
+      "definition": "a mistake",
+      "isPhrase": true
+    },
+    {
+      "term": "place setting",
+      "definition": "dishes, glasses, and silverware on the table",
+      "isPhrase": true
+    },
+    {
+      "term": "short-staffed",
+      "definition": "not enough people working",
+      "isPhrase": true
+    },
+    {
+      "term": "smudge",
+      "definition": "a dirty mark",
+      "isPhrase": false
+    },
+    {
+      "term": "spotless",
+      "definition": "perfectly clean",
+      "isPhrase": false
+    },
+    {
+      "term": "top priority",
+      "definition": "most important",
+      "isPhrase": true
+    },
+    {
+      "term": "Customer",
+      "definition": "Hey, waiter, what is this fly doing in my soup?",
+      "isPhrase": false
+    },
+    {
+      "term": "Waiter",
+      "definition": "I think it’s doing the backstroke!",
+      "isPhrase": false
+    }
+  ],
+  "vocabCount": 67,
+  "usefulPhrases": [
+    {
+      "phrase": "bad rap (also called a bum rap)",
+      "meaning": "an unfair bad opinion"
+    },
+    {
+      "phrase": "chicken nuggets",
+      "meaning": "small pieces of chicken, covered in a batter and deep fried (come on . . . we"
+    },
+    {
+      "phrase": "conscious of",
+      "meaning": "aware of, thinking about"
+    },
+    {
+      "phrase": "drive-thru",
+      "meaning": "Yep! a lane outside the restaurant you drive right through; order your food at one end,"
+    },
+    {
+      "phrase": "ethnic cuisine",
+      "meaning": "cooking styles from different cultures"
+    },
+    {
+      "phrase": "to fix the food to order",
+      "meaning": "prepare exactly as you would like it"
+    },
+    {
+      "phrase": "fruit cup",
+      "meaning": "a serving of mixed fruits"
+    },
+    {
+      "phrase": "health conscious",
+      "meaning": "concerned about things that are good for your health"
+    },
+    {
+      "phrase": "hop into",
+      "meaning": "get into"
+    },
+    {
+      "phrase": "in the mood",
+      "meaning": "wanting to do something"
+    },
+    {
+      "phrase": "just what the doctor ordered",
+      "meaning": "something that will be perfect for what you need"
+    },
+    {
+      "phrase": "picky eaters",
+      "meaning": "people who don’t like many different kinds of food"
+    },
+    {
+      "phrase": "whole grains",
+      "meaning": "grains (for example, oat and wheat) that are not processed"
+    },
+    {
+      "phrase": "breaking the bank",
+      "meaning": "costing too much for your budget"
+    },
+    {
+      "phrase": "check in",
+      "meaning": "let the staff know that you would like a table"
+    },
+    {
+      "phrase": "dinner out",
+      "meaning": "Yes! Eating anywhere but home"
+    },
+    {
+      "phrase": "early-bird special",
+      "meaning": "a lower-cost menu, usually offered before 6 p.m."
+    },
+    {
+      "phrase": "filet mignon",
+      "meaning": "a very tender cut of steak"
+    },
+    {
+      "phrase": "hostess station",
+      "meaning": "usually at the front of the restaurant, where the staff will take your name"
+    },
+    {
+      "phrase": "house wine",
+      "meaning": "the brand of wine a restaurant serves if the customer doesn’t want something"
+    },
+    {
+      "phrase": "just in time",
+      "meaning": "arrived right before it’s too late"
+    },
+    {
+      "phrase": "Napa Valley",
+      "meaning": "a famous wine region in California"
+    },
+    {
+      "phrase": "Restaurant Week",
+      "meaning": "a week when fancy restaurants offer a special menu at lower cost"
+    },
+    {
+      "phrase": "side salad",
+      "meaning": "a small salad served with or before the entree"
+    },
+    {
+      "phrase": "sit-down restaurant",
+      "meaning": "a nicer restaurant with tables and waiters who will serve you"
+    },
+    {
+      "phrase": "bad day",
+      "meaning": "a day when you seem to have a lot of problems"
+    },
+    {
+      "phrase": "beef about",
+      "meaning": "complain"
+    },
+    {
+      "phrase": "face it",
+      "meaning": "accept the truth"
+    },
+    {
+      "phrase": "legitimate complaint",
+      "meaning": "a good reason for mentioning a pr oblem"
+    },
+    {
+      "phrase": "mix-up",
+      "meaning": "a mistake"
+    },
+    {
+      "phrase": "place setting",
+      "meaning": "dishes, glasses, and silverware on the table"
+    },
+    {
+      "phrase": "short-staffed",
+      "meaning": "not enough people working"
+    },
+    {
+      "phrase": "top priority",
+      "meaning": "most important"
+    }
+  ],
+  "cultureNotes": [],
+  "transcript": {
+    "fullText": "Unit\n                                                                                               4\n\nDining in Style\n\nZipping Through the Drive-Thru There is audio content at this\nlocation that \n\n                     I don't know about you, but I'm exhausted! All that waiting for the bus and\n                     hailing taxis has made me hungry.\n                     Hungry? Yes. In the mood to cook? No way! Hmmm. The hard part is deciding\n                     where to go and what to eat. Restaurant choices are endless: steaks, vegetarian\n                     meals, burgers, pizza, and ethnic cuisine from just about every country on earth.\n                     Even the picky eaters will be happy! But I think some takeout is just what the\n                     doctor ordered. There's nothing like fast food after a busy day. Ha—fast food for\nwhen you're feeling slow.\n But don't let fast food's bad rap fool you. It's more than just burgers and fries with a chocolate\nshake. With people becoming more health conscious (and conscious of those extra pounds!),\nrestaurants are providing more and more healthy choices: salads, water, lean proteins, and whole\ngrain breads. In fact, many restaurants now post the calorie counts of their menu items. I'm not sure I\nwant to know that my mega-cheeseburger lunch has more calories than I need for an entire day!\n Once you have your dream dinner in mind, you can just hop into your car and head to the nearest\ndrive-thru. Sure, it may seem a little strange telling a machine that you want a mega-burger with\ncheese, but when you continue to the window to pay, the cashier will have your juicy burger order all\nready to go. Ah, I can taste the fries already…\n\nDIALOGUE 1: TRACK 11 \nthat \n\nMACHINE GUY: Can I take your order, please?\n\nLIA: Hmmm. A burger sounds good. I think I'll have a mega-burger with cheese, extra pickles, no\nmayo.\n\nMACHINE GUY: Anything to drink with that?\n\nLIA: I'd like a Coke. Extra large.\n\nMACHINE GUY: Anything else?\n\nLIA: Yes, a kids' meal with chocolate milk and chicken nuggets.\n\nMACHINE GUY: Would you like fries with that?\n\nLIA: Hmmm. The fries smell great, but do you have fruit instead?\n\nMACHINE GUY: Sure. You can have an apple or fruit cup.\n\nKID: Mom, you know I like fruit cup, but I'd like to have the apple. But only if they put a pie around\nit!\n\n            Most places will fix the food to order. Just ask if you want something a little different\n            from the usual preparation.\n\n            Although fast food places offer many choices, don't expect a gourmet meal. There's a\n            reason it's called fast food!\n\nVOCABULARY\n    bad rap (also called a bum rap): an unfair bad opinion\n•   cashier: the person who takes the money when you buy something\n•   chicken nuggets: small pieces of chicken, covered in a batter and deep fried (come on . . . we\n     know you love them!)\n•   conscious of: aware of, thinking about\n    dream: anything that is just PERFECT! (a dream job, a dream vacation)\n\n     drive-thru: Yep! a lane outside the restaurant you drive right through; order your food at one end,\n      and pick it up at the other\n•     ethnic cuisine: cooking styles from different cultures\n•     exhausted: really, really tired\n•     to fix the food to order: prepare exactly as you would like it\n•     fruit cup: a serving of mixed fruits\n•     gourmet: very special food, often expensive\n•     health conscious: concerned about things that are good for your health\n     hop into: get into\n     in the mood: wanting to do something\n     just what the doctor ordered: something that will be perfect for what you need\n     kids: children\n     mayo: short for mayonnaise, a white spread made from eggs and oil\n     picky eaters: people who don't like many different kinds of food\n•     pie: a pastry treat, usually prepared with fruit\n•     post: show clearly\n•     takeout: pretty much what it says. You buy the food, and take it with you to eat at home\n     thru: a short way to write through\n•     vegetarian: without meat products\n•     whole grains: grains (for example, oat and wheat) that are not processed\n\n             PRONUNCIATION POINTER \n             currently supported for your device.\n             \n\n    Don't forget to connect your words and phrases like native speakers do. Hop into sounds like\n    hoppinto.\n\nGRAMMAR REMINDER 1: Stative Verbs\nSome verbs (called stative verbs) are usually only used in the simple form. They refer to states or\nconditions. Examples of stative verbs are verbs of the senses (for example, smell and taste) and\nverbs of feeling (for example, love, like, hate, and want).\n\nCan you see the stative verbs in the dialogue above?\n\n•     The fries smell great.\n•     I like fruit cup.\n\nGRAMMAR REMINDER 2 : Would You Like or Do\nYou Like?\nShould you say what would you like or what do you like?\n You remember that I would (I'd) like is a more polite way to say what you want than I want.\nHowever, someone may just want to know, in general, what you like. Then you may hear, \"What do\nyou like?\" You might answer that, in general, you like something: \"I like coffee because it helps me\nwake up.\"\n If someone asks you what you would like, they are asking what you want to eat or drink at that\nmoment. If they ask you what you like, it is a general question about your preferences.\n\n    Examples:\n    What would you like, tea or coffee?\n    I'd like a coffee, please; I'm feeling really sleepy so I need something to wake me up.\n\n    What do you like: tea, coffee, or soda?\n    I like coffee best, but the caffeine keeps me awake.\n\nA Little More Upscale \nnot currently supported for your device.\n\nMaybe you've decided that a table near a window sounds better than a front seat near\na windshield. It may be time to splurge on a nice dinner out. It's easy to find a nice\nsit-down restaurant without breaking the bank. Especially in a tough economy,\nrestaurants will do almost anything to get your business. Lots of places offer a\nRestaurant Week menu all year. Take advantage of the early-bird special. You can\nhave a fancy dinner at a much lower price.\n Many restaurants are chain restaurants; this means they have restaurants of the same\nname and type in many towns or cities. At many places, you can call ahead and make a\nreservation, and they will save a table for you at a certain time. They'll ask what time you'd like to\neat, and how many will be in your party. Some restaurants won't take a reservation. For those places,\nyou check in at the hostess station when you arrive. The hostess will write down your name and call\nyou when a table is free. Some very popular restaurants have a very long wait for a table. The\nhostess may give you a cool little gadget to hold while you wait in the bar or outside. When a table\nbecomes available, the gadget buzzes and vibrates and little lights start flashing. (This can be very\n\nentertaining!) The flashing lights mean that your table is ready. The wait is no fun, but the little gadget\nsure is.\n\nDIALOGUE 2: TRACK 12 \nthat \n\nSERVER: Hi. Welcome to the Farkel Family Restaurant. I'll be your server today. You're just in\ntime for our early-bird special, so you can choose from that menu or from the regular menu. Can I\nstart you off with some appetizers and something to drink?\n\nALAN: I think I may have a beer. What do you have on draft?\n\nSERVER: We have Statler Lite and Orange Cow on tap.\n\nALAN: What's your house wine?\n\nSERVER: The house red is a Napa Valley cabernet, and the house white is a chardonnay from\nMendoza, Argentina.\n\nALAN: I'll have a glass of cabernet.\n\nSERVER: And for you, ma'am?\n\nLIA: I'm driving so I'll just have an OJ.\n\nSERVER: Would you like any appetizers?\n\nALAN: No, I think we'll just have the entree. I'll have the filet mignon.\n\nSERVER: Sure. How would you like it?\n\nALAN: I'd like it rare. And hold the mushrooms.\n\nSERVER: And for you, ma'am?\n\nLIA: I'll have the seafood combination with rice.\n\nSERVER: The dinner comes with a vegetable. What would you like?\n\nALAN: I'll have broccoli and a side salad.\n\nLIA: And I'll have some sautéed onions with the seafood.\n\n        Steak is usually prepared to order. If you like your meat very lightly cooked, order it rare.\n        More cooked, but still pink is medium. Cooked for a longer time with no pink is well done.\n\n        A party in a restaurant is not necessarily a birthday party, although it could be. Confused? A\n        party is simply the number of people in a group wishing to share the same table.\n\n        The law is very clear: Don't drink and drive! Many people have a \"designated driver\"\n        when they go out. This person will not drink any alcohol, and he or she will be responsible\n        for driving.\n\nVOCABULARY\n•    appetizer: a small dish of food served before the main meal\n    breaking the bank: costing too much for your budget\n    check in: let the staff know that you would like a table\n•    dinner out: Yes! Eating anywhere but home\n    early-bird special: a lower-cost menu, usually offered before 6 p.m.\n•    entrée: the main meal\n•    filet mignon: a very tender cut of steak\n•    flashing: going on and off very quickly\n•    free: available; can also mean at no cost\n•    gadget: a cool little device that has some special use\n    hold: don't include something\n•    hostess station: usually at the front of the restaurant, where the staff will take your name\n•    house wine: the brand of wine a restaurant serves if the customer doesn't want something\n     particular\n•    how would you like it?: how you would like your meat cooked (rare, medium, or well done)\n    just in time: arrived right before it's too late\n•    Napa Valley: a famous wine region in California\n    OJ: Orange Juice\n•    on draft, on tap: pulled from a keg, rather than served in a bottle\n•    party: the people who are joining you for dinner\n\n•     Restaurant Week: a week when fancy restaurants offer a special menu at lower cost\n•     sautéed: fried quickly in an open pan\n•     seafood: various types of fish\n•     server: also called a waiter or waitress\n•     side salad: a small salad served with or before the entree\n     sit-down restaurant: a nicer restaurant with tables and waiters who will serve you\n•     splurge: spend a little extra money for a special treat\n•     upscale: a little fancier; more special\n•     windshield: the large front window of a car\n\nGRAMMAR REMINDER 3: Count/Noncount Nouns\nCount nouns (things you can count, for example, one glass, two glasses… you get the idea!) will take\nthe verb that goes with the number. However, noncount nouns (things you can't count, for example,\nwine, sugar, and water) take a singular verb.\n\nNote: Count nouns are sometimes called countable nouns and noncount nouns are sometimes called\nuncountable nouns. It's the same idea, no matter what they're called: some things you can count, and\nsome things you can't!\n\n    Examples:\n    Water is the healthiest beverage. (noncount)\n    The house wine is delicious. (noncount)\n    Some scientists say that sugar is not good for your health. (noncount)\n    Two glasses (of wine) are expensive. (count)\n    A cup (of coffee) is a nice dessert. (count)\n\nRemember: A noncount noun (for example, beer, coffee) acts like a count noun if you put it into a\ncontainer: a bottle of beer; a cup of coffee. In fact, if you simply say a beer or a coffee, people will\nknow what you want. See how Lia asks for a Coke in dialogue 1 and Alan asks for a beer in dialogue\n2.\n\nIs This What I Ordered? \n\nWe know what you're thinking: I'm having a lovely dinner out, why should I complain? American\nrestaurants place a top priority on excellent service. Because people have so many choices when\n\n                               dining out, if a restaurant's service isn't perfect, it can lose customers.\n                               The waiters and waitresses know that great service equals great tips, so\n                               they'll do their best to be sure you have an excellent meal. But, let's face\n                               it: everyone has a bad day. You may have a beef about something if the\n                               food or service is not right.\n                                 Servers are not surprised if a customer has a legitimate complaint. For\n                               example, it is absolutely unacceptable for anything in the place setting\nto be dirty. Your server should apologize and immediately replace the item with one that is\nspotlessly clean. Although this is not fast food, if the service is too slow or if the waiter doesn't ask\noften enough if there's anything you need, then you can complain. If the food is not hot when it arrives,\nyou can complain. If you don't get the dish that you ordered, you can complain. Of course, the best\nway to complain is to be very polite.\n  If there has been a problem and if you're polite when you mention it, the restaurant staff will usually\ntry their best to correct their mistake. There's an expression in English: \"You can catch more flies\nwith honey than with vinegar.\" This means that if you are polite, people will try to make you happy. If\nyou are rude, they may not try their best.\n\nDIALOGUE 3: TRACK 13 \nthat \n\nALAN: Miss… Excuse me, but my glass has a smudge on it.\n\nSERVER: I'm terribly sorry sir. I'll get you a clean one right away.\n\n                                        *** Some time later ***\n\nALAN: Miss, I'm still waiting for a clean glass, and we still haven't received our salads. We've\nbeen waiting a long time for our food.\n\nSERVER: I am SO sorry! We're a little busier than usual tonight, and we're short-staffed. I'll bring\nit immediately. I'll also bring more water.\n\n                                     *** A few moments later ***\n\nSERVER: Here you are, sir, and I've brought you another glass of wine, on the house. The manager\nwould also like to give you a dessert of your choice, also compliments of the house. We're so sorry\nfor the mix-up. Sorry you had to wait.\n\nALAN: Thank you very much.\n\n                A polite way to address a man you don't know is sir. Use ma'am for a woman.\n\n        Another tip about tips: You should tip in restaurants. For many servers, tips make up most of\n        their pay. Usually the tip is 15% to 20% of the bill. If the food/service is exceptionally good,\n        you may like to leave a little more.\n\n            PRONUNCIATION POINTER \n            currently supported for your device.\n            \n\n    We get the word ma'am from the formal word madam. You may never hear the word madam,\n    but you will surely hear ma'am, pronounced mam, as in dam or Sam.\n\nVOCABULARY\n•     absolutely: completely\n•     apologize: say you are sorry for something\n•     backstroke: you guessed it… a swimming move done on your back!\n     bad day: a day when you seem to have a lot of problems\n     beef about: complain\n•     correct: fix; to make something right\n     face it: accept the truth\n•     immediately: at once; right away\n•     legitimate complaint: a good reason for mentioning a pr oblem\n•     lovely: very nice\n•     mention: say\n     mix-up: a mistake\n     on the house, compliments of the house: it's FREE!\n•     place setting: dishes, glasses, and silverware on the table\n•     server: waiter or waitress\n\n•     short-staffed: not enough people working\n•     smudge: a dirty mark\n•     spotless: perfectly clean\n•     top priority: most important\n\n             Fun Fact!\n             Restaurant jokes are popular. Here's one:\n             Customer: Hey, waiter, what is this fly doing in my soup?\nWaiter: I think it's doing the backstroke!\n\nGRAMMAR REMINDER 4: More Count/Noncount Nouns\nMore tips for count/noncount nouns:\n\nSingular count nouns take articles (a, an, the). Noncount nouns are usually considered singular, but\nthey do not take articles.\n\n    Example:\n    • I would like an apple. (count)\n    • I think I'll have a glass of beer. (count)\n    • The glass is dirty. (count)\n    • Rice is a good choice with seafood. (noncount)\n    • Sugar is good in coffee. (noncount)\n\nMORE FUN WITH IDIOMATIC EXPRESSIONS: Food\n•     chew the fat: have a casual conversation\n      After the meeting, Tom and Susan stayed a few minutes to chew the fat.\n•     in a nutshell: a summary\n      The park ranger gave a very long report about the dangers of forest fires. In a nutshell: Be\n      careful with your campfires!\n•     a piece of cake: easy!\n      Lina was so relieved about her driving test. She had expected it to be tricky and hard, but it\n      was a piece of cake!\n•     take it with a grain of salt: don't believe it completely\n      Because the study was done by a company that wants to sell the product, people should take\n      the results with a grain of salt.\n•     butter someone up: say nice things to someone to win his or her favor\n      Ellen was hoping for a promotion at work, so she tried to butter up the boss with compliments\n\nabout how nice she looked. (But we bet the boss took the compliment with a grain of salt!)",
+    "wordCount": 2848
+  }
+}

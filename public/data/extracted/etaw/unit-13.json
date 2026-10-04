@@ -1,0 +1,618 @@
+{
+  "id": "etaw-unit-13",
+  "unitNumber": 13,
+  "title": "Around Town",
+  "trackType": "english-the-american-way",
+  "level": "intermediate",
+  "levelLabel": "Intermediate",
+  "dialogues": [
+    {
+      "dialogueNumber": 1,
+      "trackNumber": 36,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 36.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "ALAN",
+          "text": "Hey, Lia, that’s a pretty big parcel you have. Can I give you a hand? Where are you going?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Thanks, Alan. Actually, it’s not that heavy, just a little bulky. I’m sending some American jeans home to my sister, so I’m headed to the post office. I thought it was on this block. Can you tell me where it is?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Oh, it’s not far. It’s right around the block. Go to that corner and make a right. When you get to the crosswalk, cross the street. You’ll see the post office in the middle of the next block. You can’t miss it; you’ll see the Stars and Stripes hanging over the entrance."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Hey, thanks. By the way, where are you headed? If you’re not busy, would you like to grab a quick bite somewhere?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "Great idea! I’m on my way to the library, and there’s a nice café in the lobby. We could have a quick bite or some coffee and then see what new magazines have arrived. They usually put the new ones on the table near the sofa. I also want to find out about the new English conversation class that’s starting this week. It meets once a week, and I figure it’s a great way to meet new friends while I practice English."
+        },
+        {
+          "speaker": "LIA",
+          "text": "English classes? This week? Count me in! I didn’t know the library was in this neighborhood. How do we get there?"
+        },
+        {
+          "speaker": "ALAN",
+          "text": "It’s just two blocks from the post office, between the bank and the drugstore. We cross the avenue and then turn left. That’s about a five-minute walk from here."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Let’s go! If you have a skill or hobby, your library wants you! Local libraries offer lots of classes, and they are always happy to find volunteers who will teach their hobbies to others. Be sure to find out if you need a license to own a pet in your town. Sometimes there is a limit on how many dogs or cats you can have. There are also noise ordinances, so if your pets (or your parties!) make a lot of noise after a certain time, you may get a visit from the code enforcement people."
+        }
+      ],
+      "dialogueText": "ALAN: Hey, Lia, that’s a pretty big parcel you have. Can I give you a hand? Where are you going?\n\nLIA: Thanks, Alan. Actually, it’s not that heavy, just a little bulky. I’m sending some American jeans home to my sister, so I’m headed to the post office. I thought it was on this block. Can you tell me where it is?\n\nALAN: Oh, it’s not far. It’s right around the block. Go to that corner and make a right. When you get to the crosswalk, cross the street. You’ll see the post office in the middle of the next block. You can’t miss it; you’ll see the Stars and Stripes hanging over the entrance.\n\nLIA: Hey, thanks. By the way, where are you headed? If you’re not busy, would you like to grab a quick bite somewhere?\n\nALAN: Great idea! I’m on my way to the library, and there’s a nice café in the lobby. We could have a quick bite or some coffee and then see what new magazines have arrived. They usually put the new ones on the table near the sofa. I also want to find out about the new English conversation class that’s starting this week. It meets once a week, and I figure it’s a great way to meet new friends while I practice English.\n\nLIA: English classes? This week? Count me in! I didn’t know the library was in this neighborhood. How do we get there?\n\nALAN: It’s just two blocks from the post office, between the bank and the drugstore. We cross the avenue and then turn left. That’s about a five-minute walk from here.\n\nLIA: Let’s go! If you have a skill or hobby, your library wants you! Local libraries offer lots of classes, and they are always happy to find volunteers who will teach their hobbies to others. Be sure to find out if you need a license to own a pet in your town. Sometimes there is a limit on how many dogs or cats you can have. There are also noise ordinances, so if your pets (or your parties!) make a lot of noise after a certain time, you may get a visit from the code enforcement people."
+    },
+    {
+      "dialogueNumber": 2,
+      "trackNumber": 37,
+      "audioPath": "materials/English-the-American-Way/ETAWAdditionalDialogues/English the American Way, 37.mp3",
+      "hasAudio": true,
+      "turns": [
+        {
+          "speaker": "RECEPTIONIST",
+          "text": "Hi. Welcome to Slumberton Township. Can I help you?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Thanks, yeah. I think I’ve got a big problem. Now that the nice weather is here, I’m spending more time outside in the yard. The other day I noticed a cat with a litter of kittens in the corner of the yard under a tree."
+        },
+        {
+          "speaker": "RECEPTIONIST",
+          "text": "I love kittens! They’re so cute! Did you ask your neighbors if anyone is missing a cat?"
+        },
+        {
+          "speaker": "LIA",
+          "text": "Oh, I think kittens are cute, too. But I’m not crazy about them when they grow into cats. I’m a dog person. Anyway, I checked with the neighbors, but they don’t own the cats. I don’t know what to do about them. I don’t really want a litter of kittens in my yard, but I don’t know who can help me."
+        },
+        {
+          "speaker": "RECEPTIONIST",
+          "text": "Come on in. Mr. Farkel is our animal control officer. His office is right down the hall, on the left. His department takes care of these things. I’m sure he can help."
+        },
+        {
+          "speaker": "LIA",
+          "text": "That’s a relief! I don’t want them to go hungry, but I don’t want the responsibility of taking care of them. *** a short time later *** MR. FARKEL: I understand that you have some feral cats in your yard. Be careful. These are wild cats, and they can be very aggressive around humans."
+        },
+        {
+          "speaker": "LIA",
+          "text": "I don’t want to hurt them. Is there some way to move them from my yard? MR. FARKEL: Actually, we have a feral cat program. There are a few specially trained cat people in the neighborhood who can trap the cats humanely. Then they’ll take them to a vet to be neutered or spayed. When the cats have recovered, they’ll be released back into the woods."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Won’t they be in danger in the woods? MR. FARKEL: These cats can take care of themselves. They’ll be fine."
+        },
+        {
+          "speaker": "LIA",
+          "text": "Wow, thanks so much for the help. I didn’t know there are so many ways the town can help residents! One of the most important services offered in every city is education. Everyone who lives in the United States can have a free public school education. Kids start early, but the cutoff dates for birthdays vary from state to state: • Pre-K is for children aged three and/or four. (The actual age depends on where you live. Pre-K is not mandatory.) • Kindergarten is for five-year-olds. • Elementary school starts at first grade. • Middle school (sometimes called junior high) is usually for grades 6, 7, and 8. • High school (also called secondary school) is for grades 9, 10, 11, and 12. To register for school, people need to prove that they live in the town. These are the documents most schools districts require: • Proof of the student’s birth date • A record of immunizations • Proof that the student lives in the district — A copy of an apartmen"
+        }
+      ],
+      "dialogueText": "RECEPTIONIST: Hi. Welcome to Slumberton Township. Can I help you?\n\nLIA: Thanks, yeah. I think I’ve got a big problem. Now that the nice weather is here, I’m spending more time outside in the yard. The other day I noticed a cat with a litter of kittens in the corner of the yard under a tree.\n\nRECEPTIONIST: I love kittens! They’re so cute! Did you ask your neighbors if anyone is missing a cat?\n\nLIA: Oh, I think kittens are cute, too. But I’m not crazy about them when they grow into cats. I’m a dog person. Anyway, I checked with the neighbors, but they don’t own the cats. I don’t know what to do about them. I don’t really want a litter of kittens in my yard, but I don’t know who can help me.\n\nRECEPTIONIST: Come on in. Mr. Farkel is our animal control officer. His office is right down the hall, on the left. His department takes care of these things. I’m sure he can help.\n\nLIA: That’s a relief! I don’t want them to go hungry, but I don’t want the responsibility of taking care of them. *** a short time later *** MR. FARKEL: I understand that you have some feral cats in your yard. Be careful. These are wild cats, and they can be very aggressive around humans.\n\nLIA: I don’t want to hurt them. Is there some way to move them from my yard? MR. FARKEL: Actually, we have a feral cat program. There are a few specially trained cat people in the neighborhood who can trap the cats humanely. Then they’ll take them to a vet to be neutered or spayed. When the cats have recovered, they’ll be released back into the woods.\n\nLIA: Won’t they be in danger in the woods? MR. FARKEL: These cats can take care of themselves. They’ll be fine.\n\nLIA: Wow, thanks so much for the help. I didn’t know there are so many ways the town can help residents! One of the most important services offered in every city is education. Everyone who lives in the United States can have a free public school education. Kids start early, but the cutoff dates for birthdays vary from state to state: • Pre-K is for children aged three and/or four. (The actual age depends on where you live. Pre-K is not mandatory.) • Kindergarten is for five-year-olds. • Elementary school starts at first grade. • Middle school (sometimes called junior high) is usually for grades 6, 7, and 8. • High school (also called secondary school) is for grades 9, 10, 11, and 12. To register for school, people need to prove that they live in the town. These are the documents most schools districts require: • Proof of the student’s birth date • A record of immunizations • Proof that the student lives in the district — A copy of an apartmen"
+    }
+  ],
+  "dialoguesCount": 2,
+  "vocabulary": [
+    {
+      "term": "add up",
+      "definition": "get more expensive",
+      "isPhrase": true
+    },
+    {
+      "term": "additions",
+      "definition": "structures that you add to your house",
+      "isPhrase": false
+    },
+    {
+      "term": "amazed",
+      "definition": "very surprised",
+      "isPhrase": false
+    },
+    {
+      "term": "apartment complexes",
+      "definition": "groups of apartment buildings",
+      "isPhrase": true
+    },
+    {
+      "term": "at home",
+      "definition": "feeling comfortable, as if at home",
+      "isPhrase": true
+    },
+    {
+      "term": "audiobooks",
+      "definition": "books you can listen to",
+      "isPhrase": false
+    },
+    {
+      "term": "building code",
+      "definition": "rules about how something may be built, for example, materials and size",
+      "isPhrase": true
+    },
+    {
+      "term": "bulky",
+      "definition": "big and a little hard to manage, but not necessarily heavy in weight",
+      "isPhrase": false
+    },
+    {
+      "term": "central location",
+      "definition": "a place convenient to most people",
+      "isPhrase": true
+    },
+    {
+      "term": "checked in",
+      "definition": "available on the shelf",
+      "isPhrase": true
+    },
+    {
+      "term": "check out",
+      "definition": "sign out a book or other material with your library card",
+      "isPhrase": true
+    },
+    {
+      "term": "code enforcement person",
+      "definition": "someone from the town whose job is to handle complaints about",
+      "isPhrase": true
+    },
+    {
+      "term": "commute",
+      "definition": "trip to work",
+      "isPhrase": false
+    },
+    {
+      "term": "corner",
+      "definition": "where two blocks meet",
+      "isPhrase": false
+    },
+    {
+      "term": "count me in",
+      "definition": "I want to be included!",
+      "isPhrase": true
+    },
+    {
+      "term": "crosswalk",
+      "definition": "a specially marked area to cross the street at a corner",
+      "isPhrase": false
+    },
+    {
+      "term": "deck",
+      "definition": "an open structure outside a house",
+      "isPhrase": false
+    },
+    {
+      "term": "drop off",
+      "definition": "leave something or someone at a place",
+      "isPhrase": true
+    },
+    {
+      "term": "due date",
+      "definition": "when you must bring the book back",
+      "isPhrase": true
+    },
+    {
+      "term": "figure",
+      "definition": "believe; think",
+      "isPhrase": false
+    },
+    {
+      "term": "flight plans",
+      "definition": "if an airport schedules planes to fly over your neighborhood",
+      "isPhrase": true
+    },
+    {
+      "term": "give someone a hand",
+      "definition": "help someone",
+      "isPhrase": true
+    },
+    {
+      "term": "gossip",
+      "definition": "exciting or surprising information, often about other people",
+      "isPhrase": false
+    },
+    {
+      "term": "grab a quick bite",
+      "definition": "have a quick, casual small meal or snack",
+      "isPhrase": true
+    },
+    {
+      "term": "hobby",
+      "definition": "something that you like to do in your free time",
+      "isPhrase": false
+    },
+    {
+      "term": "insufficient",
+      "definition": "not enough",
+      "isPhrase": false
+    },
+    {
+      "term": "insure",
+      "definition": "pay for a service that will pay you for the package if it is lost",
+      "isPhrase": false
+    },
+    {
+      "term": "librarian",
+      "definition": "the library worker",
+      "isPhrase": false
+    },
+    {
+      "term": "lobby",
+      "definition": "large open area before the main room",
+      "isPhrase": false
+    },
+    {
+      "term": "make a right",
+      "definition": "turn right",
+      "isPhrase": true
+    },
+    {
+      "term": "miss",
+      "definition": "feel sad to be without someone or something",
+      "isPhrase": false
+    },
+    {
+      "term": "once",
+      "definition": "one time",
+      "isPhrase": false
+    },
+    {
+      "term": "on my way",
+      "definition": "headed for, going to",
+      "isPhrase": true
+    },
+    {
+      "term": "ordinances",
+      "definition": "rules about noise and pets in a neighborhood",
+      "isPhrase": false
+    },
+    {
+      "term": "parcel",
+      "definition": "package",
+      "isPhrase": false
+    },
+    {
+      "term": "permit",
+      "definition": "a document allowing you to build something",
+      "isPhrase": false
+    },
+    {
+      "term": "pickup",
+      "definition": "(noun; one word): process of collecting something",
+      "isPhrase": false
+    },
+    {
+      "term": "postage",
+      "definition": "the stamps needed to mail something",
+      "isPhrase": false
+    },
+    {
+      "term": "put up",
+      "definition": "build",
+      "isPhrase": true
+    },
+    {
+      "term": "reliable",
+      "definition": "efficient; dependable",
+      "isPhrase": false
+    },
+    {
+      "term": "reserve",
+      "definition": "have the library save the book for you when it comes in",
+      "isPhrase": false
+    },
+    {
+      "term": "return address",
+      "definition": "your name and address, which you put in the upper left corner of the envelope",
+      "isPhrase": true
+    },
+    {
+      "term": "scoop",
+      "definition": "information",
+      "isPhrase": false
+    },
+    {
+      "term": "scope out",
+      "definition": "explore; find out about things",
+      "isPhrase": true
+    },
+    {
+      "term": "settling in (also settling down)",
+      "definition": "getting used to your new place; getting comfortable",
+      "isPhrase": true
+    },
+    {
+      "term": "signal",
+      "definition": "a sign",
+      "isPhrase": false
+    },
+    {
+      "term": "slot",
+      "definition": "a small opening, usually in machines, that will accept a letter or a coin",
+      "isPhrase": false
+    },
+    {
+      "term": "speedy",
+      "definition": "fast",
+      "isPhrase": false
+    },
+    {
+      "term": "stamps",
+      "definition": "postage in different denominations",
+      "isPhrase": false
+    },
+    {
+      "term": "Stars and Stripes",
+      "definition": "an informal name for the American flag (Can you guess why?)",
+      "isPhrase": true
+    },
+    {
+      "term": "stiff",
+      "definition": "harsh, extreme",
+      "isPhrase": false
+    },
+    {
+      "term": "Story Hour",
+      "definition": "a time (usually at a library) when children may come to hear a story read to them",
+      "isPhrase": true
+    },
+    {
+      "term": "write home",
+      "definition": "send a letter home",
+      "isPhrase": true
+    },
+    {
+      "term": "you can’t miss it",
+      "definition": "it’s obvious, very clear to see",
+      "isPhrase": true
+    },
+    {
+      "term": "zoning requirements",
+      "definition": "rules about what you can build on your property",
+      "isPhrase": true
+    },
+    {
+      "term": "aggressive",
+      "definition": "with a strong tendency to fight or hurt",
+      "isPhrase": false
+    },
+    {
+      "term": "animal control officer",
+      "definition": "the person who makes sure owners register their pets; he or she also",
+      "isPhrase": true
+    },
+    {
+      "term": "bus trips",
+      "definition": "activities that take groups of people to someplace special",
+      "isPhrase": true
+    },
+    {
+      "term": "confusing",
+      "definition": "not clear",
+      "isPhrase": false
+    },
+    {
+      "term": "crafts",
+      "definition": "things to make with simple materials",
+      "isPhrase": false
+    },
+    {
+      "term": "cutoff date",
+      "definition": "the last day something will be allowed",
+      "isPhrase": true
+    },
+    {
+      "term": "disabilities",
+      "definition": "needs that require special help (these can include problems walking, seeing,",
+      "isPhrase": false
+    },
+    {
+      "term": "dog people/cat people",
+      "definition": "people who prefer a certain pet",
+      "isPhrase": true
+    },
+    {
+      "term": "feral cats",
+      "definition": "wild cats that live outdoors and have no human owners",
+      "isPhrase": true
+    },
+    {
+      "term": "go hungry",
+      "definition": "be without food",
+      "isPhrase": true
+    },
+    {
+      "term": "heavy rain",
+      "definition": "a lot of rain",
+      "isPhrase": true
+    },
+    {
+      "term": "humanely",
+      "definition": "in a kind way that won’t hurt",
+      "isPhrase": false
+    },
+    {
+      "term": "immunizations",
+      "definition": "shots (injections) to prevent certain diseases",
+      "isPhrase": false
+    },
+    {
+      "term": "jogging trails",
+      "definition": "paved paths for jogging (a form of running)",
+      "isPhrase": true
+    },
+    {
+      "term": "keep an eye on",
+      "definition": "watch in a protective way",
+      "isPhrase": true
+    },
+    {
+      "term": "kiddies",
+      "definition": "kids (Don’t confuse this with kitties, which is another word for kittens, or baby cats.)",
+      "isPhrase": false
+    },
+    {
+      "term": "kittens",
+      "definition": "baby cats (Baby dogs are called puppies.)",
+      "isPhrase": false
+    },
+    {
+      "term": "litter",
+      "definition": "a group of cats or dogs born at the same time to the same mother",
+      "isPhrase": false
+    },
+    {
+      "term": "mandatory",
+      "definition": "required",
+      "isPhrase": false
+    },
+    {
+      "term": "missing",
+      "definition": "lost (Note this second meaning for miss; see the",
+      "isPhrase": false
+    }
+  ],
+  "vocabCount": 75,
+  "usefulPhrases": [
+    {
+      "phrase": "add up",
+      "meaning": "get more expensive"
+    },
+    {
+      "phrase": "apartment complexes",
+      "meaning": "groups of apartment buildings"
+    },
+    {
+      "phrase": "at home",
+      "meaning": "feeling comfortable, as if at home"
+    },
+    {
+      "phrase": "building code",
+      "meaning": "rules about how something may be built, for example, materials and size"
+    },
+    {
+      "phrase": "central location",
+      "meaning": "a place convenient to most people"
+    },
+    {
+      "phrase": "checked in",
+      "meaning": "available on the shelf"
+    },
+    {
+      "phrase": "check out",
+      "meaning": "sign out a book or other material with your library card"
+    },
+    {
+      "phrase": "code enforcement person",
+      "meaning": "someone from the town whose job is to handle complaints about"
+    },
+    {
+      "phrase": "count me in",
+      "meaning": "I want to be included!"
+    },
+    {
+      "phrase": "drop off",
+      "meaning": "leave something or someone at a place"
+    },
+    {
+      "phrase": "due date",
+      "meaning": "when you must bring the book back"
+    },
+    {
+      "phrase": "flight plans",
+      "meaning": "if an airport schedules planes to fly over your neighborhood"
+    },
+    {
+      "phrase": "give someone a hand",
+      "meaning": "help someone"
+    },
+    {
+      "phrase": "grab a quick bite",
+      "meaning": "have a quick, casual small meal or snack"
+    },
+    {
+      "phrase": "make a right",
+      "meaning": "turn right"
+    },
+    {
+      "phrase": "on my way",
+      "meaning": "headed for, going to"
+    },
+    {
+      "phrase": "put up",
+      "meaning": "build"
+    },
+    {
+      "phrase": "return address",
+      "meaning": "your name and address, which you put in the upper left corner of the envelope"
+    },
+    {
+      "phrase": "scope out",
+      "meaning": "explore; find out about things"
+    },
+    {
+      "phrase": "settling in (also settling down)",
+      "meaning": "getting used to your new place; getting comfortable"
+    },
+    {
+      "phrase": "Stars and Stripes",
+      "meaning": "an informal name for the American flag (Can you guess why?)"
+    },
+    {
+      "phrase": "Story Hour",
+      "meaning": "a time (usually at a library) when children may come to hear a story read to them"
+    },
+    {
+      "phrase": "write home",
+      "meaning": "send a letter home"
+    },
+    {
+      "phrase": "you can’t miss it",
+      "meaning": "it’s obvious, very clear to see"
+    },
+    {
+      "phrase": "zoning requirements",
+      "meaning": "rules about what you can build on your property"
+    },
+    {
+      "phrase": "animal control officer",
+      "meaning": "the person who makes sure owners register their pets; he or she also"
+    },
+    {
+      "phrase": "bus trips",
+      "meaning": "activities that take groups of people to someplace special"
+    },
+    {
+      "phrase": "cutoff date",
+      "meaning": "the last day something will be allowed"
+    },
+    {
+      "phrase": "dog people/cat people",
+      "meaning": "people who prefer a certain pet"
+    },
+    {
+      "phrase": "feral cats",
+      "meaning": "wild cats that live outdoors and have no human owners"
+    },
+    {
+      "phrase": "go hungry",
+      "meaning": "be without food"
+    },
+    {
+      "phrase": "heavy rain",
+      "meaning": "a lot of rain"
+    },
+    {
+      "phrase": "jogging trails",
+      "meaning": "paved paths for jogging (a form of running)"
+    },
+    {
+      "phrase": "keep an eye on",
+      "meaning": "watch in a protective way"
+    }
+  ],
+  "cultureNotes": [],
+  "transcript": {
+    "fullText": "Unit\n                                                                                              13\n\nAround Town\n\nWhere Am I? \ncurrently supported for your device.\n\n                        Settling in feels great, doesn't it? There's a comfortable feeling of being at\n                        home, and a big part of the fun is just to scope out the neighborhood. There are\n                        plenty of fun places to discover, but it's great to know that there are lots of\n                        places nearby that can help you with just about anything you may need. Maybe\n                        you're thinking, \"The first thing I need to do is write home.\" We agree! You\n                        miss family and friends, and they miss you. (Well, we hope they do.) It's time\n                        for a long letter with the latest scoop and all the gossip about your new life in\nthe United States. Hmm. But how does the letter get from your table to the table far away in your home\ncountry?\n  The U.S. Post Office can get the job done! Mail is reliable in the United States, and it's inexpensive\nand convenient. There's a central location in most apartment complexes for individual mailboxes.\nThe postal worker will put the letters in your box and leave parcels in a safe place. You can pick up\nyour mail here, and there's a place to leave mail that's going out. In some neighborhoods, there's a\nspecial large metal container where you can drop off mail. Pickups of that mail are scheduled at\nregular times during the day.\n  If you live in a house, you probably have your own mailbox next to the street. You can leave your\noutgoing mail there, but be sure to put up the little flag. That's the signal to the mail carrier that\n\nthere's something to collect. In a larger city, there will just be a slot in your front door. The mailman\nwill put your mail into the slot. Let's hope your little dog friend, Rover, doesn't think it's lunch!\n  Be sure to have the proper postage on the envelope, or the post office will return it to you, marked\n\"Return to Sender. Insufficient Postage.\" (Don't forget to include a return address on the envelope.)\nIf you don't have stamps, or if you want to mail a package, you'll need to head to the post office. The\nworker will weigh your parcel and give you several mailing choices. Regular mail is pretty speedy\nin the United States, but you may want to be sure that something will arrive quickly. You can choose\nPriority Mail, which usually arrives within the United States in three to four days. Express Mail will\nget your letter or package to a U.S. recipient the very next day, but this can be pretty expensive.\nYou'll be able to choose to insure the mail and to get notices about its delivery.\n  While you're out on the post office errand, plan to stop at the local library. It's not just about books,\nalthough you can find anything at all that you want to read. It doesn't cost anything to get a library\ncard, and you'll be able to check out as many books as you want for free. You'll need to return the\nbooks by the due date, or you'll pay a small fine. This fine increases every day the book is late, so it\ncan add up pretty quickly. If you want a book that isn't checked in, you can reserve a copy, and the\nlibrarian will notify you when it comes in. By the way, you can also just relax with the newspaper\nand a cup of coffee; many libraries have small cafés. And check out the DVDs, videos, music CDs,\nand audiobooks, so you have plenty to listen to on those long commutes! You'll be amazed at the\ncool things happening at the library. There are classes for just about any interest you may have:\nmanaging your money, knitting, learning computer skills, and starting art projects. Of course, there are\nbook discussion groups for all types of books and Story Hours for the kids. And most libraries in\nmost towns offer English classes for practice and conversation. These classes are almost always free.\nCool!\n  Don't forget your local town hall or municipal building as another great resource for information. At\nthe municipal building, you can view everything from airplane flight plans that might affect your\nneighborhood to property limits and zoning requirements. You can learn about any town ordinances\nyou may need to know. If you want to put up a fence or build a deck, you'll need to get a permit.\nThere are rules and building codes about where you can put additions and rules about how big they\ncan be. You'll have to pay for a permit, but it's better than paying a stiff fine for not getting one!\n\nDIALOGUE 1: TRACK 36 \nthat \n\nALAN: Hey, Lia, that's a pretty big parcel you have. Can I give you a hand? Where are you going?\n\nLIA: Thanks, Alan. Actually, it's not that heavy, just a little bulky. I'm sending some American jeans\nhome to my sister, so I'm headed to the post office. I thought it was on this block. Can you tell me\n\nwhere it is?\n\nALAN: Oh, it's not far. It's right around the block. Go to that corner and make a right. When you get\nto the crosswalk, cross the street. You'll see the post office in the middle of the next block. You can't\nmiss it; you'll see the Stars and Stripes hanging over the entrance.\n\nLIA: Hey, thanks. By the way, where are you headed? If you're not busy, would you like to grab a\nquick bite somewhere?\n\nALAN: Great idea! I'm on my way to the library, and there's a nice café in the lobby. We could have\na quick bite or some coffee and then see what new magazines have arrived. They usually put the new\nones on the table near the sofa. I also want to find out about the new English conversation class that's\nstarting this week. It meets once a week, and I figure it's a great way to meet new friends while I\npractice English.\n\nLIA: English classes? This week? Count me in! I didn't know the library was in this neighborhood.\nHow do we get there?\n\nALAN: It's just two blocks from the post office, between the bank and the drugstore. We cross the\navenue and then turn left. That's about a five-minute walk from here.\n\nLIA: Let's go!\n\n         If you have a skill or hobby, your library wants you! Local libraries offer lots of classes,\n         and they are always happy to find volunteers who will teach their hobbies to others.\n\n      Be sure to find out if you need a license to own a pet in your town. Sometimes there is a limit\n      on how many dogs or cats you can have. There are also noise ordinances, so if your pets (or\n      your parties!) make a lot of noise after a certain time, you may get a visit from the code\n      enforcement people.\n\nVOCABULARY\n•   add up: get more expensive\n•   additions: structures that you add to your house\n•   amazed: very surprised\n•   apartment complexes: groups of apartment buildings\n    at home: feeling comfortable, as if at home\n    audiobooks: books you can listen to\n•   building code: rules about how something may be built, for example, materials and size\n•   bulky: big and a little hard to manage, but not necessarily heavy in weight\n•   central location: a place convenient to most people\n\n•    checked in: available on the shelf\n•    check out: sign out a book or other material with your library card\n•    code enforcement person: someone from the town whose job is to handle complaints about\n     anyone not following the town ordinances\n•    commute: trip to work\n•    corner: where two blocks meet\n    count me in: I want to be included!\n•    crosswalk: a specially marked area to cross the street at a corner\n•    deck: an open structure outside a house\n    drop off: leave something or someone at a place\n•    due date: when you must bring the book back\n    figure: believe; think\n•    flight plans: if an airport schedules planes to fly over your neighborhood\n    give someone a hand: help someone\n•    gossip: exciting or surprising information, often about other people\n    grab a quick bite: have a quick, casual small meal or snack\n•    hobby: something that you like to do in your free time\n•    insufficient: not enough\n•    insure: pay for a service that will pay you for the package if it is lost\n•    librarian: the library worker\n•    lobby: large open area before the main room\n    make a right: turn right\n•    miss: feel sad to be without someone or something\n•    municipal building (also called town hall): building where the town or city offices are\n•    once: one time\n    on my way: headed for, going to\n•    ordinances: rules about noise and pets in a neighborhood\n•    parcel: package\n•    permit: a document allowing you to build something\n    pick up (verb; two words): collect; gather\n•    pickup: (noun; one word): process of collecting something\n•    postage: the stamps needed to mail something\n•    Priority Mail, Express Mail: two fast delivery options that cost extra\n    put up: build\n•    reliable: efficient; dependable\n\n•    reserve: have the library save the book for you when it comes in\n•    return address: your name and address, which you put in the upper left corner of the envelope\n     scoop: information\n     scope out: explore; find out about things\n•    settling in (also settling down): getting used to your new place; getting comfortable\n•    signal: a sign\n•    slot: a small opening, usually in machines, that will accept a letter or a coin\n•    speedy: fast\n•    stamps: postage in different denominations\n•    Stars and Stripes: an informal name for the American flag (Can you guess why?)\n     stiff: harsh, extreme\n•    Story Hour: a time (usually at a library) when children may come to hear a story read to them\n•    write home: send a letter home\n     you can't miss it: it's obvious, very clear to see\n•    zoning requirements: rules about what you can build on your property\n\n              PRONUNCIATION POINTER \n              currently supported for your device.\n              \n\n    Library is a tricky word to pronounce. It sure seems like there are a lot of r's in that word, and\n    we should hear them both! The word sounds like lie-brerry.\n\n              Fun Fact!\n              In the Batman comic books, Batgirl was a librarian. We bet she didn't have to tell the\n              kids to shhhh! more than once.\n\nMORE FUN WITH IDIOMATIC EXPRESSIONS:\nPrepositions of Place\nup in the air: uncertain; not sure\nHer plans to go to the movies were up in the air until she knew if she had to work late.\n\nunder the weather: feeling sick\n\nDoctors say you should stay home from work if you're feeling under the weather. Don't make\nothers sick!\n\nover my head: too complicated to understand\nI couldn't understand their conversation about the mathematics of space and the planets; it was\nway over my head.\n\naround the corner: happening soon\nWow, the summer was just ending, but the decorations in the store made her feel that Halloween\nwas just around the corner.\n\nout of the loop: not knowing what's going on\nMary Ellen's entire family was planning a vacation, but Mary Ellen was so busy with her work\nproject that she felt completely out of the loop.\n\nGRAMMAR REMINDER 1: Prepositions of Place\nOn, around, in, over, near, and between are all prepositions of place. They indicate where\nsomething is. Did you spot them in the dialogue?\non this block\naround the block\nin the middle of the next block\nover the entrance\non the table\nnear the sofa\nin this neighborhood\nbetween the bank and the drugstore\n\nGRAMMAR REMINDER 2: The Present Continuous Tense—\nAffifirmative Statements\nThe present continuous is used to talk about things happening at this moment. Use the verb to be and\nthe ing form of the verb. We usually use the contractions, especially when speaking.\n\nI am sending. (I'm sending.)\nYou are sending. (You're sending.)\n\nNote: Don't be confused! Some books call this tense the present continuous, and some call it the\npresent progressive. It's the same tense!\n\nAt Your Service \ncurrently supported for your device.\n\n                       There are tons of services available in every city and town to help you with\n                       any need. Sometimes it can be confusing to know how to find what you're\n                       looking for. Most towns have a website you can check, but if you're looking for\n                       that personal touch, the people at the local municipal offices can help. They\n                       know about all the services your town and county offer. Are you wondering\n                       about trash pickup? Town workers can tell you the schedule. And because the\n                       whole country is focusing more on recycling, towns are making it easy for\nresidents by supplying special recycling containers. The Public Works Department is responsible\nfor the care of all township property. Is there a pothole in your street? Call the department! Does\nyour road flood in a heavy rain? Call the department! Do you need someone to take away all those\npiles of leaves you raked up? Call the department! Are you looking for parks and recreation? Call the\ndepartment!\n Oh, yeah, we all can use a little recreation. Take your pick! There are local jogging trails and\nnature paths. There are baseball fields and tennis courts. How about a picnic in the park while the\nkiddies are playing in the tot lot? Some parks even have a dog park. Yes, take your pooch along so\nhe can play with his little doggie pals! Remember to take some poop bags. Owners need to clean up\nafter their mutts.\n Are you thinking about new activities with the neighbors? How about yoga? You can find boat\nsafety classes and golf lessons. And most towns have special activities designed just for seniors. If\nsomeone you know is looking for bus trips and special crafts activities, just call your town office!\nYou can even call the town for help with stray animals in the neighborhood or information about\nimmunization shots for your cat. Count us out for that one—we're dog people!\n We're not kidding when we say your town and county offices can help you find anything at all you\nneed. Even the police department offers great tips on how to keep your home safe. If you're going\naway (did somebody say vacation? Yay!), you can ask the police to drive by your street and keep an\neye on things while you're gone. Local government offices also provide special programs and\nservices for seniors and people with disabilities. And if you're wondering about how to register the\nkids for school, the town can direct you to the right school district. Back to school, kids! They're\nwaiting for you!\n\nDIALOGUE 2: TRACK 37 \nthat \n\nRECEPTIONIST: Hi. Welcome to Slumberton Township. Can I help you?\n\nLIA: Thanks, yeah. I think I've got a big problem. Now that the nice weather is here, I'm spending\nmore time outside in the yard. The other day I noticed a cat with a litter of kittens in the corner of the\nyard under a tree.\n\nRECEPTIONIST: I love kittens! They're so cute! Did you ask your neighbors if anyone is missing a\ncat?\n\nLIA: Oh, I think kittens are cute, too. But I'm not crazy about them when they grow into cats. I'm a\ndog person. Anyway, I checked with the neighbors, but they don't own the cats. I don't know what to\ndo about them. I don't really want a litter of kittens in my yard, but I don't know who can help me.\n\nRECEPTIONIST: Come on in. Mr. Farkel is our animal control officer. His office is right down\nthe hall, on the left. His department takes care of these things. I'm sure he can help.\n\nLIA: That's a relief! I don't want them to go hungry, but I don't want the responsibility of taking care\nof them.\n\n                                      *** a short time later ***\n\nMR. FARKEL: I understand that you have some feral cats in your yard. Be careful. These are wild\ncats, and they can be very aggressive around humans.\n\nLIA: I don't want to hurt them. Is there some way to move them from my yard?\n\nMR. FARKEL: Actually, we have a feral cat program. There are a few specially trained cat people\nin the neighborhood who can trap the cats humanely. Then they'll take them to a vet to be neutered\nor spayed. When the cats have recovered, they'll be released back into the woods.\n\nLIA: Won't they be in danger in the woods?\n\nMR. FARKEL: These cats can take care of themselves. They'll be fine.\n\nLIA: Wow, thanks so much for the help. I didn't know there are so many ways the town can help\nresidents!\n\n            One of the most important services offered in every city is education. Everyone who\n            lives in the United States can have a free public school education. Kids start early, but\n            the cutoff dates for birthdays vary from state to state:\n            • Pre-K is for children aged three and/or four. (The actual age depends on where you\n                live. Pre-K is not mandatory.)\n            • Kindergarten is for five-year-olds.\n\n            • Elementary school starts at first grade.\n            • Middle school (sometimes called junior high) is usually for grades 6, 7, and 8.\n            • High school (also called secondary school) is for grades 9, 10, 11, and 12.\n\n               To register for school, people need to prove that they live in the town. These are the\n               documents most schools districts require:\n               • Proof of the student's birth date\n               • A record of immunizations\n               • Proof that the student lives in the district\n               — A copy of an apartment lease agreement\n               — A copy of a utility bill (for example, water, telephone, or cable)\n               — Parent's driver's license or another photo ID\n\nVOCABULARY\n•   aggressive: with a strong tendency to fight or hurt\n•   animal control officer: the person who makes sure owners register their pets; he or she also\n     takes care of any animal issues in the town\n•   bus trips: activities that take groups of people to someplace special\n•   confusing: not clear\n•   crafts: things to make with simple materials\n•   cutoff date: the last day something will be allowed\n•   disabilities: needs that require special help (these can include problems walking, seeing,\n     hearing, or learning)\n    dog people/cat people: people who prefer a certain pet\n•   feral cats: wild cats that live outdoors and have no human owners\n•   go hungry: be without food\n•   heavy rain: a lot of rain\n•   humanely: in a kind way that won't hurt\n•   immunizations: shots (injections) to prevent certain diseases\n•   jogging trails: paved paths for jogging (a form of running)\n    keep an eye on: watch in a protective way\n    kiddies: kids (Don't confuse this with kitties, which is another word for kittens, or baby cats.)\n•   kittens: baby cats (Baby dogs are called puppies.)\n•   litter: a group of cats or dogs born at the same time to the same mother\n•   mandatory: required\n•   missing: lost (Note this second meaning for miss; see the Dialogue 1 vocabulary list to refresh\n\n     your memory about another meaning.)\n    mutt: a dog of mixed breeds\n•    nature paths: walkways through woods for exercise and enjoying nature\n•    neutered (for male animals): testicles removed in a painless medical procedure\n    pal: friend\n•    picnic: a special meal for eating in a park or other outside area\n    poop: Hmmm. How do we say this nicely? It's what comes out the tail end of your pooch. ICK!\n•    pothole: a hole in the middle of the street\n•    recovered: got better; get healthy again\n•    recycling: collecting bottles, cans, plastic, and paper to use again\n•    register: sign up; enroll\n•    released: set free\n•    residents: people who live in a place\n•    responsible for: have something be your job\n•    seniors: older people usually around 60 or more\n•    services: programs to make life easier or more comfortable\n•    spayed (for female animals): reproductive organs removed so they won't have more babies\n•    stray: an animal that is lost\n    tons: a lot\n    tot lot: children's playground in a park\n•    vary: be different\n•    yoga: a fitness program that stretches the body and calms the mind\n\nGRAMMAR REMINDER 3: More Present Continuous\nTense\nHey, did you spot the present continuous tense again?\n  I'm spending more time outside in the yard.\n\nHere it has a slightly different meaning. Rather than meaning \"at this particular moment\" (as in \"I'm\nsending\" in Dialogue 1), it means the general time frame around now. So Lia is not out in her yard\nright now (she is in the township office talking to Mr. Farkel!) but she is out in the yard more often, in\ngeneral, around this time of year.\n Remember those stative verbs (see unit 4)? Although she is talking about time around now, some\nverbs cannot be used in the continuous tense. Examples are the verbs to know and to want. They are\nstative verbs. Look at these examples from the dialogue.\n\nCorrect Examples:                                Not:\nI don't know what to do about them.              I'm not knowing what to do about them.\nI don't really want kittens in my yard.          I'm not really wanting kittens in my yard.\nI don't know who can help me.                    I'm not knowing who can help me.\n\nMORE FUN WITH IDIOMATIC EXPRESSIONS:\nTake Your Pick\n•    take your pick: choose any one\n     She was first on line for the special sale, so she got to take her pick of the best dresses.\n•    pick up the check: pay the bill for something\n     Sarah wanted to pick up the check when she took her dad to lunch.\n•    pick out: choose; select\n     For his birthday, Tommy's mom let him pick out one special toy to buy.\n•    pick on: tease; be mean to someone\n     The teacher stopped the little boy when he tried to pick on a smaller kid.\n•    pick and choose: be selective; choose carefully\n     Antonio arrived at the flower shop when it opened, so he had plenty of time to pick and\n     choose the perfect plant.\n•    pick up on: understand, notice\n     It wasn't hard to pick up on the surprise; everyone was whispering when she walked in the\n     door.\n\n            Fun Fact!\n            Okay, you know what's coming. What do we call that favorite vehicle with a large open\n            space in back for carrying just about anything you need to move? Yes, it's a pickup\ntruck!",
+    "wordCount": 3769
+  }
+}
