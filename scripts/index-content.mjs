@@ -404,7 +404,9 @@ for (const pdf of rootPdfs) {
     'Illustrated_Everyday_expressions_with_stories_1.pdf': 'book-illustrated-expressions-1.json',
     'Illustrated_Everyday_Expressions_with_Stories_2.pdf': 'book-illustrated-expressions-2.json',
     'Just Enough English Grammar Illustrated.pdf': 'grammar-illustrated-just-enough.json',
-    'Grammar for Everyone_ Practical Tools for Learning and Teaching Grammar.pdf': 'grammar-for-everyone.json'
+    'Grammar for Everyone_ Practical Tools for Learning and Teaching Grammar.pdf': 'grammar-for-everyone.json',
+    'Perfect Phrases for ESL Everyday Situations.pdf': 'perfect-phrases-everyday-situations.json',
+    '366882213-Perfect-phrases-for-ESL-conversational-skills-pdf.pdf': 'perfect-phrases-conversation-skills.json'
   };
 
   const extractedFile = extractedMap[pdf];
