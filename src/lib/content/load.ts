@@ -67,7 +67,24 @@ export function getPodcastById(id: string): PodcastEpisode | undefined {
 
 export function getReaderById(id: string): GradedReaderBook | undefined {
   const readers = getGradedReaders();
-  return readers.find((r) => r.id === id);
+  const reader = readers.find((r) => r.id === id);
+  if (!reader) return undefined;
+
+  const extractedPath = path.join(process.cwd(), 'public/data/extracted/readers', `${id}.json`);
+  if (fs.existsSync(extractedPath)) {
+    try {
+      const extracted = JSON.parse(fs.readFileSync(extractedPath, 'utf-8'));
+      return {
+        ...reader,
+        ...extracted,
+        chapters: extracted.chapters || reader.chapters,
+      };
+    } catch {
+      return reader;
+    }
+  }
+
+  return reader;
 }
 
 export function getExtractedEpisodeData(series: string, number: number): ExtractedEpisodeData | null {

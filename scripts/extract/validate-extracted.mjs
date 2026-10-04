@@ -220,7 +220,7 @@ function checkEtaw() {
 function checkReaders() {
   const dirPath = path.join(EXTRACTED_DIR, 'readers');
   if (!fs.existsSync(dirPath)) return;
-  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'index.json');
+  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'index.json' && !f.startsWith('.'));
   console.log(`Validating ${files.length} Graded Readers extracted files...`);
 
   for (const file of files) {

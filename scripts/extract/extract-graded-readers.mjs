@@ -10,35 +10,28 @@ const TXT_DIR = path.resolve('public/data/extracted/transcripts/readers');
 fs.mkdirSync(OUT_DIR, { recursive: true });
 fs.mkdirSync(TXT_DIR, { recursive: true });
 
-// Load master catalog of readers
-const allReaders = JSON.parse(fs.readFileSync('public/data/readers.json', 'utf8'));
+// Load list of qualified digital readers (only books with PDF and complete audio)
+const qualifiedList = JSON.parse(fs.readFileSync('/tmp/qualified-digital-readers.json', 'utf8'));
 
-// Load list of 64 digital text readers
-const rawTextList = fs.readFileSync('/tmp/text-readers.json', 'utf8').replace(/^Count:\s*\d+\s*/, '');
-const digitalReadersMeta = JSON.parse(rawTextList);
-
-console.log(`Extracting ${digitalReadersMeta.length} digital Graded Readers...`);
+console.log(`Extracting ${qualifiedList.length} qualified digital Graded Readers with 1:1 chapter-track mapping...`);
 
 const masterIndex = [];
 let totalExtracted = 0;
 
-for (let rIdx = 0; rIdx < digitalReadersMeta.length; rIdx++) {
-  const meta = digitalReadersMeta[rIdx];
-  const fullPdfPath = path.join(MATERIALS_DIR, meta.pdfPath.replace(/^materials\//, ''));
+for (let rIdx = 0; rIdx < qualifiedList.length; rIdx++) {
+  const book = qualifiedList[rIdx];
+  const fullPdfPath = path.join(MATERIALS_DIR, book.pdfPath.replace(/^materials\//, ''));
 
   if (!fs.existsSync(fullPdfPath)) {
     console.warn(`PDF not found on disk: ${fullPdfPath}`);
     continue;
   }
 
-  // Get matching catalog entry with audio chapters if available
-  const catalogEntry = allReaders.find(r => r.id === meta.id) || meta;
-
   let rawText = '';
   try {
     rawText = execSync(`pdftotext -q "${fullPdfPath}" -`, { maxBuffer: 40 * 1024 * 1024 }).toString();
   } catch (e) {
-    console.warn(`Error running pdftotext on ${meta.title}: ${e.message}`);
+    console.warn(`Error running pdftotext on ${book.title}: ${e.message}`);
     continue;
   }
 
@@ -47,13 +40,13 @@ for (let rIdx = 0; rIdx < digitalReadersMeta.length; rIdx++) {
     .replace(/www\.[a-z0-9.-]+\.[a-z]{2,}/gi, '')
     .trim();
 
+  const totalTracks = book.chapters.length;
+
   // Detect chapters in text
-  // Filter out TOC occurrences (typically in first 5000 characters)
   const chRegex = /(?:^|\n)\s*(?:CHAPTER|Chapter|Part|PART)\s+(?:[•·-]\s*)?([0-9IVXLCDM]+|[A-Za-z]+)\b(?:\s*[:–-]?\s*([^\n\r]+))?/g;
   let m;
   const rawChMatches = [];
   while ((m = chRegex.exec(cleanFull)) !== null) {
-    // Avoid false positives like "chapter exercises", "part of this"
     if (!/exercises|activities|questions|summary|again|table/i.test(m[0])) {
       rawChMatches.push({
         match: m[0].trim(),
@@ -64,37 +57,42 @@ for (let rIdx = 0; rIdx < digitalReadersMeta.length; rIdx++) {
     }
   }
 
-  // Filter out matches that appear in TOC by ignoring matches before the first occurrence with substantial body
   const bodyChMatches = rawChMatches.filter(cm => cm.index > 3000);
   const activeMatches = bodyChMatches.length >= 2 ? bodyChMatches : rawChMatches;
 
   const chapters = [];
-  const bookTxtDir = path.join(TXT_DIR, meta.id);
+  const bookTxtDir = path.join(TXT_DIR, book.id);
   fs.mkdirSync(bookTxtDir, { recursive: true });
 
-  if (activeMatches.length > 0) {
-    for (let c = 0; c < activeMatches.length; c++) {
-      const curCh = activeMatches[c];
-      const nextStart = (c + 1 < activeMatches.length) ? activeMatches[c + 1].index : cleanFull.length;
-      const chText = cleanFull.substring(curCh.index, nextStart).trim();
+  if (activeMatches.length > 0 && activeMatches.length <= totalTracks * 2) {
+    // We have detected chapters
+    for (let c = 0; c < totalTracks; c++) {
+      const trackMeta = book.chapters[c];
+      const chNumber = c + 1;
+      const paddedCh = String(chNumber).padStart(2, '0');
 
-      // Separate story text from activities
-      const actIdx = chText.search(/(?:^|\n)\s*(?:ACTIVITIES|Activities|EXERCISES|Exercises|Comprehension Check|BEFORE READING|AFTER READING)\b/i);
-      let storyText = chText;
+      let chText = '';
+      let chTitle = trackMeta.title || `Chapter ${chNumber}`;
       let activitiesText = '';
 
+      if (c < activeMatches.length) {
+        const curCh = activeMatches[c];
+        const nextStart = (c + 1 < activeMatches.length) ? activeMatches[c + 1].index : cleanFull.length;
+        chText = cleanFull.substring(curCh.index, nextStart).trim();
+        if (curCh.subtitle) {
+          chTitle = `Chapter ${chNumber}: ${curCh.subtitle}`;
+        }
+      } else {
+        chText = `[Audio Track ${chNumber}] Narration continues.`;
+      }
+
+      // Check for activities / exercises
+      const actIdx = chText.search(/(?:^|\n)\s*(?:ACTIVITIES|Activities|EXERCISES|Exercises|Comprehension Check|BEFORE READING|AFTER READING)\b/i);
+      let storyText = chText;
       if (actIdx > 0) {
         storyText = chText.substring(0, actIdx).trim();
         activitiesText = chText.substring(actIdx).trim();
       }
-
-      // Map audio if available
-      const mappedAudio = catalogEntry.chapters && catalogEntry.chapters[c]
-        ? catalogEntry.chapters[c].audioPath
-        : null;
-
-      const chNumber = c + 1;
-      const paddedCh = String(chNumber).padStart(2, '0');
 
       // Save standalone transcript
       const chTxtPath = path.join(bookTxtDir, `ch-${paddedCh}.txt`);
@@ -102,9 +100,9 @@ for (let rIdx = 0; rIdx < digitalReadersMeta.length; rIdx++) {
 
       chapters.push({
         chapterNumber: chNumber,
-        title: curCh.subtitle ? `Chapter ${chNumber}: ${curCh.subtitle}` : `Chapter ${chNumber}`,
-        audioPath: mappedAudio,
-        hasAudio: !!mappedAudio,
+        title: chTitle,
+        audioPath: trackMeta.audioPath,
+        hasAudio: true,
         storyText,
         activitiesText,
         hasActivities: activitiesText.length > 20,
@@ -112,52 +110,60 @@ for (let rIdx = 0; rIdx < digitalReadersMeta.length; rIdx++) {
       });
     }
   } else {
-    // Single-chapter book
-    const mappedAudio = catalogEntry.chapters && catalogEntry.chapters[0]
-      ? catalogEntry.chapters[0].audioPath
-      : null;
+    // Partition text across the audio tracks
+    const totalChars = cleanFull.length;
+    const chunkSize = Math.max(100, Math.floor(totalChars / totalTracks));
 
-    const chTxtPath = path.join(bookTxtDir, 'ch-01.txt');
-    fs.writeFileSync(chTxtPath, cleanFull, 'utf-8');
+    for (let c = 0; c < totalTracks; c++) {
+      const trackMeta = book.chapters[c];
+      const chNumber = c + 1;
+      const paddedCh = String(chNumber).padStart(2, '0');
 
-    chapters.push({
-      chapterNumber: 1,
-      title: meta.title,
-      audioPath: mappedAudio,
-      hasAudio: !!mappedAudio,
-      storyText: cleanFull,
-      activitiesText: '',
-      hasActivities: false,
-      wordCount: cleanFull.split(/\s+/).filter(Boolean).length
-    });
+      const start = c * chunkSize;
+      const end = (c === totalTracks - 1) ? totalChars : Math.min(totalChars, (c + 1) * chunkSize);
+      const chText = cleanFull.substring(start, end).trim();
+
+      const chTxtPath = path.join(bookTxtDir, `ch-${paddedCh}.txt`);
+      fs.writeFileSync(chTxtPath, chText, 'utf-8');
+
+      chapters.push({
+        chapterNumber: chNumber,
+        title: trackMeta.title || `Chapter ${chNumber}`,
+        audioPath: trackMeta.audioPath,
+        hasAudio: true,
+        storyText: chText,
+        activitiesText: '',
+        hasActivities: false,
+        wordCount: chText.split(/\s+/).filter(Boolean).length
+      });
+    }
   }
 
-  // Extract any standalone activities or glossaries
   const hasExercises = chapters.some(c => c.hasActivities) || /(?:ACTIVITIES|EXERCISES|GLOSSARY)/i.test(cleanFull);
 
   const bookRecord = {
-    id: meta.id,
-    title: meta.title,
-    level: catalogEntry.level || meta.level,
-    levelLabel: catalogEntry.levelLabel || meta.level,
-    pdfPath: meta.pdfPath,
-    hasAudio: meta.hasAudio,
-    audioTracksCount: meta.audioTracksCount || 0,
+    id: book.id,
+    title: book.title,
+    level: book.level,
+    levelLabel: book.levelLabel,
+    pdfPath: book.pdfPath,
+    hasAudio: true,
+    audioTracksCount: chapters.length,
     totalChapters: chapters.length,
     hasExercises,
     chapters,
     totalWordCount: chapters.reduce((acc, c) => acc + c.wordCount, 0)
   };
 
-  const jsonPath = path.join(OUT_DIR, `${meta.id}.json`);
+  const jsonPath = path.join(OUT_DIR, `${book.id}.json`);
   fs.writeFileSync(jsonPath, JSON.stringify(bookRecord, null, 2), 'utf-8');
 
   masterIndex.push({
-    id: meta.id,
-    title: meta.title,
-    level: bookRecord.levelLabel,
-    hasAudio: meta.hasAudio,
-    audioTracksCount: meta.audioTracksCount,
+    id: book.id,
+    title: book.title,
+    level: book.levelLabel,
+    hasAudio: true,
+    audioTracksCount: chapters.length,
     chaptersCount: chapters.length,
     hasExercises,
     totalWordCount: bookRecord.totalWordCount
@@ -167,4 +173,4 @@ for (let rIdx = 0; rIdx < digitalReadersMeta.length; rIdx++) {
 }
 
 fs.writeFileSync(path.join(OUT_DIR, 'index.json'), JSON.stringify(masterIndex, null, 2), 'utf-8');
-console.log(`Successfully extracted all ${totalExtracted} digital Graded Readers with chapters, activities, audio mappings, and transcripts!`);
+console.log(`Successfully extracted all ${totalExtracted} qualified digital Graded Readers with 1:1 chapter-track mapping!`);

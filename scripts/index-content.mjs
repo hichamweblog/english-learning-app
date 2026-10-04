@@ -321,22 +321,44 @@ for (const { dir, defaultLevel, fallbackLevel } of levelDirs) {
       return (normAf.length >= 3 && normP.includes(normAf)) || (normP.length >= 3 && normAf.includes(normP));
     });
 
-    const chapters = [];
-    if (matchedFolder) {
-      matchedAudioFolders.add(matchedFolder);
-      const folderPath = path.join(fullLevelDir, matchedFolder);
-      const trackFiles = findMp3sRecursive(folderPath);
-      trackFiles.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+    if (!matchedFolder) {
+      // PDF without Audio -> Excluded from plan per user requirement
+      continue;
+    }
 
-      trackFiles.forEach((trackPath, idx) => {
-        const relAudio = path.relative(path.resolve('public'), trackPath);
-        chapters.push({
-          id: `ch-${idx + 1}`,
-          chapterNumber: idx + 1,
-          title: `Chapter ${idx + 1}`,
-          audioPath: relAudio.startsWith('materials') ? relAudio : `materials/${path.relative(MATERIALS_DIR, trackPath)}`
-        });
+    matchedAudioFolders.add(matchedFolder);
+    const folderPath = path.join(fullLevelDir, matchedFolder);
+    const trackFiles = findMp3sRecursive(folderPath);
+    trackFiles.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+
+    if (trackFiles.length === 0) {
+      // Audio folder is empty -> Exclude
+      continue;
+    }
+
+    // Check completeness and validity of all audio files
+    let hasCorruptedTrack = false;
+    const chapters = [];
+    for (let idx = 0; idx < trackFiles.length; idx++) {
+      const trackPath = trackFiles[idx];
+      const stat = fs.statSync(trackPath);
+      if (stat.size < 10000) { // smaller than 10KB is dummy/corrupted
+        hasCorruptedTrack = true;
+        console.warn(`[CORRUPT AUDIO] ${cleanBookTitle}: track ${path.basename(trackPath)} is only ${stat.size} bytes. Excluding book.`);
+        break;
+      }
+      const relAudio = path.relative(path.resolve('public'), trackPath);
+      chapters.push({
+        id: `ch-${idx + 1}`,
+        chapterNumber: idx + 1,
+        title: `Chapter ${idx + 1}`,
+        audioPath: relAudio.startsWith('materials') ? relAudio : `materials/${path.relative(MATERIALS_DIR, trackPath)}`,
+        sizeBytes: stat.size
       });
+    }
+
+    if (hasCorruptedTrack || chapters.length === 0) {
+      continue;
     }
 
     readersList.push({
@@ -346,61 +368,17 @@ for (const { dir, defaultLevel, fallbackLevel } of levelDirs) {
       levelLabel: levelLabels[level],
       seriesCode,
       pdfPath: `materials/00Graded-Readers-Challenge/${dir}/${pdf}`,
-      hasAudio: chapters.length > 0,
+      hasAudio: true,
       audioTracksCount: chapters.length,
       chapters
     });
   }
 
-  // Standalone Audiobooks (Audio folders that do not have a separate PDF file on disk)
-  for (const af of audioFolders) {
-    if (!matchedAudioFolders.has(af)) {
-      const folderPath = path.join(fullLevelDir, af);
-      const trackFiles = findMp3sRecursive(folderPath);
-      if (trackFiles.length > 0) {
-        trackFiles.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
-
-        const cleanAfTitle = af
-          .replace(/^(\[\s*\]\d+|\(\w+\)|【\d+】|\d+|P1|S\d+)\s*/, '')
-          .replace(/\s*Audio$/i, '')
-          .trim();
-
-        let level = defaultLevel;
-        if (af.includes('(S1)') || af.includes('【1】')) level = 'starter';
-        else if (af.includes('(S2)') || af.includes('【2】')) level = 'elementary';
-        else if (af.includes('(S3)') || af.includes('【3】')) level = 'pre-intermediate';
-        else if (af.includes('(S4)') || af.includes('【4】')) level = 'intermediate';
-        else if (af.includes('(S5)') || af.includes('【5】')) level = 'upper-intermediate';
-        else if (af.includes('(S6)') || af.includes('【6】')) level = 'advanced';
-
-        const chapters = trackFiles.map((trackPath, idx) => {
-          const relAudio = path.relative(path.resolve('public'), trackPath);
-          return {
-            id: `ch-${idx + 1}`,
-            chapterNumber: idx + 1,
-            title: `Chapter ${idx + 1}`,
-            audioPath: relAudio.startsWith('materials') ? relAudio : `materials/${path.relative(MATERIALS_DIR, trackPath)}`
-          };
-        });
-
-        readersList.push({
-          id: `reader-${readersList.length + 1}-${cleanAfTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
-          title: `${cleanAfTitle} (Audiobook)`,
-          level,
-          levelLabel: levelLabels[level],
-          seriesCode: 'Audiobook Edition',
-          pdfPath: null,
-          hasAudio: true,
-          audioTracksCount: chapters.length,
-          chapters
-        });
-      }
-    }
-  }
+  // Standalone audiobooks (without PDF) are strictly omitted per user requirement
 }
 
 fs.writeFileSync(path.join(OUTPUT_DIR, 'readers.json'), JSON.stringify(readersList, null, 2));
-console.log(`Indexed ${readersList.length} Graded Readers (${readersList.filter(r => r.hasAudio).length} with full chapter audio).`);
+console.log(`Indexed ${readersList.length} Graded Readers with 100% complete audio & PDF pairs.`);
 
 // 7. Reference Books
 console.log('Indexing Reference Books...');
@@ -416,17 +394,54 @@ for (const pdf of rootPdfs) {
   else if (pdf.toLowerCase().includes('business')) category = 'Business English';
   else if (pdf.toLowerCase().includes('collocation')) category = 'Collocations';
 
+  const extractedMap = {
+    '1000 English Collocations. in 10 Minutes a Day .pdf': 'collocations-1000.json',
+    '600 Confusing-English-Words-Explained.pdf': 'confusing-words-600.json',
+    'Practice Makes Perfect. English Conversation_2016, 2nd, 176p.pdf': 'english-conversation-pmp.json',
+    'Shayna Oliveira - Slang & Informal English - 2014.pdf': 'slang-and-informal-english.json',
+    '650_English_Phrases_for_Everyday_Speaking.pdf': '650-english-phrases.json',
+    'pamela_mcpartland_what_s_up_american_idioms.pdf': 'whats-up-american-idioms.json',
+    'Illustrated_Everyday_expressions_with_stories_1.pdf': 'book-illustrated-expressions-1.json',
+    'Illustrated_Everyday_Expressions_with_Stories_2.pdf': 'book-illustrated-expressions-2.json'
+  };
+
+  const extractedFile = extractedMap[pdf];
+  let isExtracted = false;
+  let totalChapters = 0;
+  let totalWordCount = 0;
+  let hasExercises = false;
+
+  if (extractedFile) {
+    const exPath = path.resolve('public/data/extracted/books', extractedFile);
+    if (fs.existsSync(exPath)) {
+      try {
+        const exData = JSON.parse(fs.readFileSync(exPath, 'utf8'));
+        isExtracted = true;
+        totalChapters = exData.totalChapters || (exData.chapters ? exData.chapters.length : 0);
+        totalWordCount = exData.totalWordCount || 0;
+        hasExercises = Boolean(exData.hasExercises);
+      } catch (e) {
+        console.warn(`Failed to read extracted book ${extractedFile}:`, e.message);
+      }
+    }
+  }
+
   refBooks.push({
     id: `ref-${refBooks.length + 1}`,
     title: pdf.replace(/\.pdf$/i, '').replace(/_/g, ' '),
     category,
     pdfPath: `materials/${pdf}`,
-    sizeBytes: stat.size
+    sizeBytes: stat.size,
+    isExtracted,
+    extractedFile: isExtracted ? extractedFile : undefined,
+    totalChapters: isExtracted ? totalChapters : undefined,
+    totalWordCount: isExtracted ? totalWordCount : undefined,
+    hasExercises: isExtracted ? hasExercises : undefined
   });
 }
 
 fs.writeFileSync(path.join(OUTPUT_DIR, 'reference-books.json'), JSON.stringify(refBooks, null, 2));
-console.log(`Indexed ${refBooks.length} Reference Books.`);
+console.log(`Indexed ${refBooks.length} Reference Books (${refBooks.filter(b => b.isExtracted).length} with interactive extracted modules).`);
 
 // 8. English the American Way
 const etawIndexFile = path.resolve('public/data/extracted/etaw/index.json');

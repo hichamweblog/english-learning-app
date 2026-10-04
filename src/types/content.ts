@@ -55,6 +55,10 @@ export interface GradedReaderChapter {
   chapterNumber: number;
   title: string;
   audioPath: string;
+  storyText?: string;
+  activitiesText?: string;
+  hasActivities?: boolean;
+  wordCount?: number;
 }
 
 export interface GradedReaderBook {
@@ -67,6 +71,9 @@ export interface GradedReaderBook {
   hasAudio: boolean;
   audioTracksCount: number;
   chapters: GradedReaderChapter[];
+  totalChapters?: number;
+  totalWordCount?: number;
+  hasExercises?: boolean;
 }
 
 export interface ReferenceBook {
