@@ -1,0 +1,111 @@
+{
+  "sectionId": "reader-27-murder-at-coyote-canyon-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/226 (S2) Murder at Coyote Canyon/Track 01.mp3",
+  "totalDuration": 44.5649375,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 17.42,
+      "end": 19.0,
+      "text": "Murder at Coyote Canyon.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Murder",
+          "start": 17.42,
+          "end": 17.72
+        },
+        {
+          "id": "p1w2",
+          "text": "at",
+          "start": 17.72,
+          "end": 18.18
+        },
+        {
+          "id": "p1w3",
+          "text": "Coyote",
+          "start": 18.18,
+          "end": 18.66
+        },
+        {
+          "id": "p1w4",
+          "text": "Canyon.",
+          "start": 18.66,
+          "end": 19.0
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 20.75,
+      "end": 22.19,
+      "text": "By Gina D.B. Clemon.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "By",
+          "start": 20.75,
+          "end": 20.97
+        },
+        {
+          "id": "p2w2",
+          "text": "Gina",
+          "start": 20.97,
+          "end": 21.23
+        },
+        {
+          "id": "p2w3",
+          "text": "D",
+          "start": 21.23,
+          "end": 21.57
+        },
+        {
+          "id": "p2w4",
+          "text": ".B.",
+          "start": 21.57,
+          "end": 21.75
+        },
+        {
+          "id": "p2w5",
+          "text": "Clemon.",
+          "start": 21.97,
+          "end": 22.19
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 24.56,
+      "end": 26.56,
+      "text": "Copyright Black Cat Publishing.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Copyright",
+          "start": 24.56,
+          "end": 25.04
+        },
+        {
+          "id": "p3w2",
+          "text": "Black",
+          "start": 25.04,
+          "end": 25.88
+        },
+        {
+          "id": "p3w3",
+          "text": "Cat",
+          "start": 25.88,
+          "end": 26.18
+        },
+        {
+          "id": "p3w4",
+          "text": "Publishing.",
+          "start": 26.18,
+          "end": 26.56
+        }
+      ]
+    }
+  ]
+}

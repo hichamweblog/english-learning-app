@@ -22,6 +22,8 @@ import { SyncedReadAlong } from '@/components/AudioPlayer/SyncedReadAlong';
 import { useAudioStore, useProgressStore, useReadingSettingsStore } from '@/lib/store';
 import { ReadingSettingsPanel } from '@/components/ui/ReadingSettingsPanel';
 import { resolveMediaUrl, cn } from '@/lib/utils';
+import { isSectionAlignment } from '@/lib/alignment';
+import { AlignmentBadge } from '@/components/AudioPlayer/AlignmentBadge';
 
 interface Props {
   reader: GradedReaderBook;
@@ -29,7 +31,7 @@ interface Props {
 
 export function ReaderDetailView({ reader }: Props) {
   const { currentTrack, isPlaying, playTrack, togglePlay } = useAudioStore();
-  const { completedItems, toggleCompleted, addRecentItem } = useProgressStore();
+  const { completedItems, toggleCompleted, addRecentItem, addSavedNote } = useProgressStore();
 
   const [selectedChapterIdx, setSelectedChapterIdx] = useState(0);
   const [viewMode, setViewMode] = useState<'interactive' | 'pdf'>('interactive');
@@ -56,7 +58,9 @@ export function ReaderDetailView({ reader }: Props) {
     const url = `/data/alignments/readers/${reader.id}/ch-${currentChapter.chapterNumber}.json`;
     fetch(url)
       .then((res) => (res.ok ? res.json() : null))
-      .then((data) => setAlignment(data))
+      .then((data) => {
+        setAlignment(isSectionAlignment(data) ? data : null);
+      })
       .catch(() => setAlignment(null));
   }, [reader.id, currentChapter?.chapterNumber]);
 
@@ -79,8 +83,26 @@ export function ReaderDetailView({ reader }: Props) {
     localStorage.setItem(`notes_${reader.id}`, text);
   };
 
+  const saveReaderNote = () => {
+    const note = noteText.trim();
+    if (!note) return;
+    addSavedNote({
+      note,
+      sourceTitle: reader.title,
+      sourceUrl: `/readers/${reader.id}`,
+    });
+  };
+
   const handlePlayChapter = (chapter: GradedReaderChapter, index: number) => {
     setSelectedChapterIdx(index);
+    addRecentItem({
+      id: reader.id,
+      type: 'reader',
+      title: reader.title,
+      seriesTitle: `Reader (${reader.levelLabel})`,
+      url: `/readers/${reader.id}`,
+      progressPercent: Math.round(((index + 1) / Math.max(1, reader.chapters.length)) * 100),
+    });
     const trackId = `${reader.id}-ch-${chapter.chapterNumber}`;
     if (currentTrack?.id === trackId) {
       togglePlay();
@@ -99,21 +121,34 @@ export function ReaderDetailView({ reader }: Props) {
 
   return (
     <div className="space-y-8 pb-32 max-w-[1600px] mx-auto w-full px-4 lg:px-8">
-      {/* Top Breadcrumb */}
-      <div className="w-full">
+      {/* Reading room header */}
+      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[hsl(var(--border))] pb-5">
         <Link
           href="/readers"
-          className="text-sm text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] flex items-center gap-1 font-semibold transition-colors w-fit"
+          className="flex w-fit items-center gap-1 text-sm font-semibold text-[hsl(var(--muted-foreground))] transition-colors hover:text-[hsl(var(--foreground))]"
         >
           <ChevronLeft className="w-5 h-5" />
-          <span>Library</span>
+          <span>{reader.title}</span>
         </Link>
+        <div className="flex items-center gap-3 text-xs text-[hsl(var(--muted-foreground))]">
+          <span className="font-semibold">Chapter {currentChapter.chapterNumber}</span>
+          <span className="hidden sm:inline">· {currentChapter.title}</span>
+          <AlignmentBadge sources={[`/data/alignments/readers/${reader.id}/ch-${currentChapter.chapterNumber}.json`]} />
+          <button
+            type="button"
+            onClick={() => setShowSettings((open) => !open)}
+            className="inline-flex items-center gap-1.5 rounded-full border border-[hsl(var(--border))] px-3 py-1.5 font-semibold transition-colors hover:bg-[hsl(var(--foreground)/0.04)] hover:text-[hsl(var(--foreground))]"
+          >
+            <Settings className="h-3.5 w-3.5" />
+            <span>Aa</span>
+          </button>
+        </div>
       </div>
 
       {/* TOP ROW: Book Meta (Left) & Contents (Right) */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
         {/* Book Meta Card */}
-        <div className="surface-card p-8 rounded-3xl shadow-sm border border-[hsl(var(--border))] flex flex-col justify-between">
+        <div className="surface-card flex flex-col justify-between rounded-3xl border border-[hsl(var(--border))] p-8 shadow-sm">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-[11px] font-sans font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-[hsl(var(--reader-green)/0.15)] text-[hsl(var(--reader-green))]">
@@ -123,9 +158,12 @@ export function ReaderDetailView({ reader }: Props) {
                 {reader.seriesCode}
               </span>
             </div>
-            <h1 className="font-serif text-3xl sm:text-5xl font-medium tracking-tight text-[hsl(var(--foreground))] leading-snug">
+            <h1 className="font-serif text-3xl font-medium leading-snug tracking-tight text-[hsl(var(--foreground))] sm:text-5xl">
               {reader.title}
             </h1>
+            <p className="max-w-md text-sm leading-6 text-[hsl(var(--muted-foreground))]">
+              Read at your pace with chapter audio, a calm space for notes, and optional text guidance when alignment is available.
+            </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-3 mt-8">
@@ -149,6 +187,7 @@ export function ReaderDetailView({ reader }: Props) {
             <button
               type="button"
               onClick={() => toggleCompleted(reader.id)}
+              aria-label={isCompleted ? `Mark ${reader.title} as unfinished` : `Mark ${reader.title} as finished`}
               className={cn(
                 'inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-bold transition-colors border',
                 isCompleted
@@ -236,9 +275,11 @@ export function ReaderDetailView({ reader }: Props) {
       <div className="w-full space-y-6 pt-4">
         <div className="flex border-b border-[hsl(var(--border))]">
           <button
+            type="button"
             onClick={() => setActiveTab('reader')}
+            aria-pressed={activeTab === 'reader'}
             className={cn(
-              'px-8 py-4 text-base font-bold border-b-[3px] transition-colors',
+              'px-5 py-4 text-sm font-bold border-b-[3px] transition-colors sm:px-8',
               activeTab === 'reader'
                 ? 'border-[hsl(var(--primary))] text-[hsl(var(--foreground))]'
                 : 'border-transparent text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]'
@@ -247,9 +288,11 @@ export function ReaderDetailView({ reader }: Props) {
             Reading Room
           </button>
           <button
+            type="button"
             onClick={() => setActiveTab('notes')}
+            aria-pressed={activeTab === 'notes'}
             className={cn(
-              'px-8 py-4 text-base font-bold border-b-[3px] transition-colors flex items-center gap-2',
+              'flex items-center gap-2 border-b-[3px] px-5 py-4 text-sm font-bold transition-colors sm:px-8',
               activeTab === 'notes'
                 ? 'border-[hsl(var(--primary))] text-[hsl(var(--foreground))]'
                 : 'border-transparent text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]'
@@ -263,7 +306,7 @@ export function ReaderDetailView({ reader }: Props) {
         {activeTab === 'reader' ? (
           <div className={cn(
             "rounded-3xl min-h-[800px] transition-colors duration-500 relative",
-            theme === 'default' && 'surface-card border border-[hsl(var(--border))]',
+            theme === 'default' && 'surface-card text-[hsl(var(--foreground))] border border-[hsl(var(--border))]',
             theme === 'sepia' && 'bg-[#F4E9D5] text-[#433422] border border-[#E3D6BC]',
             theme === 'ocean' && 'bg-[#F0F4F8] dark:bg-[#0A192F] text-[#0A192F] dark:text-[#E6F1FF] border border-[#112240]',
             theme === 'night' && 'bg-[#161821] text-[#E8E4DC] border border-[#2B2F3D]'
@@ -307,7 +350,7 @@ export function ReaderDetailView({ reader }: Props) {
             {/* Text Content */}
             <div className={cn(
               "p-6 sm:p-16 mx-auto transition-all",
-              marginWidth === 'narrow' ? 'max-w-3xl' : marginWidth === 'wide' ? 'max-w-7xl' : 'max-w-5xl'
+              marginWidth === 'narrow' ? 'max-w-2xl' : marginWidth === 'wide' ? 'max-w-4xl' : 'max-w-3xl'
             )}>
               {hasExtractedText ? (
                 <>
@@ -360,6 +403,14 @@ export function ReaderDetailView({ reader }: Props) {
               className="w-full h-[600px] p-8 rounded-3xl border border-[hsl(var(--border))] bg-transparent resize-none focus:outline-none focus:ring-2 focus:ring-[hsl(var(--primary))] font-sans text-lg font-medium leading-relaxed"
             />
             <div className="flex justify-end gap-3">
+              <button
+                type="button"
+                onClick={saveReaderNote}
+                disabled={!noteText.trim()}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[hsl(var(--foreground))] text-[hsl(var(--background))] text-base font-bold disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                Save to Words & Notes
+              </button>
               <button
                 type="button"
                 onClick={() => navigator.clipboard.writeText(noteText)}

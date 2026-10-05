@@ -43,6 +43,8 @@ import { SyncedReadAlong } from '@/components/AudioPlayer/SyncedReadAlong';
 import { useProgressStore, useAudioStore, useReadingSettingsStore } from '@/lib/store';
 import { ReadingSettingsPanel } from '@/components/ui/ReadingSettingsPanel';
 import { resolveMediaUrl, cn } from '@/lib/utils';
+import { isSectionAlignment } from '@/lib/alignment';
+import { AlignmentBadge } from '@/components/AudioPlayer/AlignmentBadge';
 
 interface Props {
   course: Course;
@@ -51,6 +53,7 @@ interface Props {
 export function CourseDetailView({ course }: Props) {
   const { currentTrack, isPlaying, playTrack, togglePlay } = useAudioStore();
   
+  const { addSavedNote, completedItems, setCompleted } = useProgressStore();
   const { 
     fontSize, lineHeight, theme, marginWidth,
     setFontSize, setLineHeight, setTheme, setMarginWidth
@@ -86,7 +89,7 @@ export function CourseDetailView({ course }: Props) {
         const res = await fetch(`/data/alignments/courses/${course.id}/lesson-${activeLessonNumber}.json`);
         if (res.ok) {
           const data = await res.json();
-          if (isMounted) setLessonAlignment(data);
+          if (isMounted) setLessonAlignment(isSectionAlignment(data) ? data : null);
         } else {
           if (isMounted) setLessonAlignment(null);
         }
@@ -119,6 +122,18 @@ export function CourseDetailView({ course }: Props) {
     }
   }, [course.id]);
 
+  useEffect(() => {
+    const fromProgress = course.lessons.reduce<Record<number, boolean>>((acc, lesson) => {
+      if (completedItems[`course-${course.id}-lesson-${lesson.lessonNumber}`]) {
+        acc[lesson.lessonNumber] = true;
+      }
+      return acc;
+    }, {});
+    if (Object.keys(fromProgress).length > 0) {
+      setCompletedLessons((current) => ({ ...fromProgress, ...current }));
+    }
+  }, [completedItems, course.id, course.lessons]);
+
   const showToast = (msg: string) => {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(null), 2500);
@@ -144,6 +159,7 @@ export function CourseDetailView({ course }: Props) {
   const toggleLessonComplete = (num: number) => {
     const next = { ...completedLessons, [num]: !completedLessons[num] };
     setCompletedLessons(next);
+    setCompleted(`course-${course.id}-lesson-${num}`, next[num]);
     try {
       localStorage.setItem(`course_completed_${course.id}`, JSON.stringify(next));
     } catch {}
@@ -357,7 +373,7 @@ export function CourseDetailView({ course }: Props) {
                 <div>
                   <div className="flex items-center gap-2">
                     <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[hsl(var(--primary))]">
-                      Lesson {String(activeLesson.lessonNumber).padStart(2, '0')}
+                      {activeLesson.lessonNumber === 0 ? 'Getting started' : `Lesson ${activeLesson.lessonNumber}`}
                     </span>
                     {activeLesson.wordCount && (
                       <span className="text-[10px] text-[hsl(var(--muted-foreground))]">
@@ -368,6 +384,7 @@ export function CourseDetailView({ course }: Props) {
                   <h2 className="font-serif text-xl sm:text-2xl font-medium text-[hsl(var(--foreground))] mt-0.5">
                     {activeLesson.title}
                   </h2>
+                  <AlignmentBadge sources={[`/data/alignments/courses/${course.id}/lesson-${activeLesson.lessonNumber}.json`]} className="mt-2" />
                 </div>
 
                 <div className="flex items-center gap-2">
@@ -383,9 +400,19 @@ export function CourseDetailView({ course }: Props) {
                   >
                     <CheckCircle2 className="w-3.5 h-3.5" />
                     <span>
-                      {completedLessons[activeLesson.lessonNumber] ? 'Completed' : 'Mark as Complete'}
+                      {completedLessons[activeLesson.lessonNumber] ? 'Completed' : 'Complete lesson'}
                     </span>
                   </button>
+                  {nextLesson && (
+                    <button
+                      type="button"
+                      onClick={() => setActiveLessonNumber(nextLesson.lessonNumber)}
+                      className="inline-flex min-h-10 items-center gap-1.5 rounded-xl bg-[hsl(var(--foreground))] px-3 py-1.5 text-xs font-bold text-[hsl(var(--background))]"
+                    >
+                      Next lesson
+                      <ChevronRight className="h-3.5 w-3.5" />
+                    </button>
+                  )}
                 </div>
               </div>
 
@@ -495,7 +522,7 @@ export function CourseDetailView({ course }: Props) {
                           : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]'
                       )}
                     >
-                      {String(lesson.lessonNumber).padStart(2, '0')}
+                      {lesson.lessonNumber === 0 ? 'Start' : String(lesson.lessonNumber).padStart(2, '0')}
                     </span>
                     <div className="min-w-0">
                       <span className="text-sm font-medium truncate block">{lesson.title}</span>
@@ -739,7 +766,7 @@ export function CourseDetailView({ course }: Props) {
                   {activeLesson.fullText && (
                     <div className={cn(
                       "p-6 sm:p-12 rounded-3xl transition-colors duration-500",
-                      theme === 'default' && 'bg-white border border-[hsl(var(--border))]',
+                      theme === 'default' && 'bg-white text-stone-900 border border-[hsl(var(--border))]',
                       theme === 'sepia' && 'bg-[#F4E9D5] text-[#433422] border border-[#E3D6BC]',
                       theme === 'ocean' && 'bg-[#F0F4F8] dark:bg-[#0A192F] text-[#0A192F] dark:text-[#E6F1FF] border border-[#112240]',
                       theme === 'night' && 'bg-[#161821] text-[#E8E4DC] border border-[#2B2F3D]'
@@ -859,6 +886,13 @@ export function CourseDetailView({ course }: Props) {
                               }\n`;
                               const cur = lessonNotes[activeLesson.lessonNumber] || '';
                               handleNoteChange(activeLesson.lessonNumber, cur ? `${cur}\n${snippet}` : snippet);
+                              addSavedNote({
+                                term: item.term,
+                                definition: item.definition,
+                                note: item.example ? `${item.definition}\nExample: "${item.example}"` : item.definition,
+                                sourceTitle: `${course.title} — ${activeLesson.title}`,
+                                sourceUrl: `/courses/${course.id}`,
+                              });
                               showToast(`Added "${item.term}" to your notes!`);
                             }}
                             className="inline-flex items-center gap-1 text-[11px] font-semibold text-stone-600 dark:text-stone-400 hover:text-amber-600 dark:hover:text-amber-400"

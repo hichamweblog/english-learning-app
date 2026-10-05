@@ -37,6 +37,7 @@ import { SyncedReadAlong } from '@/components/AudioPlayer/SyncedReadAlong';
 import { useAudioStore, useProgressStore, useReadingSettingsStore } from '@/lib/store';
 import { ReadingSettingsPanel } from '@/components/ui/ReadingSettingsPanel';
 import { resolveMediaUrl, cn } from '@/lib/utils';
+import { isSectionAlignment } from '@/lib/alignment';
 
 interface Props {
   episode: PodcastEpisode;
@@ -54,7 +55,7 @@ export function EpisodeStudyView({
   extractedVip
 }: Props) {
   const { currentTrack, isPlaying, playTrack, togglePlay } = useAudioStore();
-  const { completedItems, toggleCompleted, addRecentItem } = useProgressStore();
+  const { completedItems, toggleCompleted, addRecentItem, addSavedNote } = useProgressStore();
 
   const { 
     fontSize, lineHeight, theme, marginWidth,
@@ -63,7 +64,9 @@ export function EpisodeStudyView({
   const [showSettings, setShowSettings] = useState(false);
 
   // Tab State
-  const defaultTab = extractedData?.glossary?.length
+  const defaultTab = extractedData?.transcript?.fullText
+    ? 'transcript'
+    : extractedData?.glossary?.length
     ? 'glossary'
     : extractedVip?.vocabulary?.length
     ? 'vocabulary'
@@ -91,7 +94,7 @@ export function EpisodeStudyView({
         const res = await fetch(`/data/alignments/podcasts/${episode.series}/${episode.id}.json`);
         if (res.ok) {
           const data = await res.json();
-          if (isMounted) setPodcastAlignment(data);
+          if (isMounted) setPodcastAlignment(isSectionAlignment(data) ? data : null);
         } else {
           if (isMounted) setPodcastAlignment(null);
         }
@@ -148,6 +151,13 @@ export function EpisodeStudyView({
     const updated = (noteText ? noteText.trim() + '\n\n' : '') + snippet;
     setNoteText(updated);
     localStorage.setItem(`notes_${episode.id}`, updated);
+    addSavedNote({
+      term: entry.term,
+      definition: entry.definition,
+      note: entry.exampleSentence ? `${entry.definition}\nExample: "${entry.exampleSentence}"` : entry.definition,
+      sourceTitle: episode.title,
+      sourceUrl: `/podcasts/${episode.id}`,
+    });
     showToast(`Added "${entry.term}" to your notebook`);
   };
 
@@ -247,7 +257,7 @@ export function EpisodeStudyView({
   ).length;
 
   return (
-    <div className="space-y-8">
+    <div className="mx-auto max-w-[1180px] space-y-8 pb-16">
       {/* Toast Notification */}
       {toastMessage && (
         <div className="fixed bottom-24 right-6 z-50 px-4 py-2.5 rounded-xl bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 text-xs font-semibold shadow-xl border border-stone-800 animate-in fade-in slide-in-from-bottom-2 duration-200">
@@ -259,10 +269,10 @@ export function EpisodeStudyView({
       <div className="flex items-center justify-between text-xs text-stone-500 dark:text-stone-400">
         <Link
           href={`/podcasts?series=${episode.series}`}
-          className="hover:text-stone-900 dark:hover:text-stone-100 flex items-center gap-1 font-semibold transition-colors"
+          className="flex items-center gap-1 font-semibold transition-colors hover:text-stone-900 dark:hover:text-stone-100"
         >
           <ChevronLeft className="w-4 h-4" />
-          <span>Back to {episode.seriesTitle}</span>
+          <span>{episode.seriesTitle}</span>
         </Link>
 
         {/* Prev / Next Episode Jumpers */}
@@ -280,20 +290,65 @@ export function EpisodeStudyView({
           {nextEpisode && (
             <Link
               href={`/podcasts/${nextEpisode.id}`}
-              className="px-2.5 py-1 rounded-lg border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors flex items-center gap-1 font-mono text-[11px]"
+              className="flex items-center gap-1 rounded-lg border border-stone-200 bg-white px-2.5 py-1 font-mono text-[11px] transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-stone-900 dark:hover:bg-stone-800"
               title={nextEpisode.title}
             >
-              <span>#{nextEpisode.number}</span>
+              <span className="hidden sm:inline">Next: {nextEpisode.title}</span>
+              <span className="sm:hidden">Next</span>
               <ChevronRight className="w-3.5 h-3.5" />
             </Link>
           )}
         </div>
       </div>
 
+      <div className="space-y-5 border-b border-[hsl(var(--border))] pb-6">
+        <div>
+          <div className="mb-2 flex flex-wrap items-center gap-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--muted-foreground))]">
+            <span>{episode.seriesTitle}</span>
+            <span className="text-[hsl(var(--border))]">•</span>
+            <span>{episode.levelLabel || 'B1'}</span>
+            <span className="text-[hsl(var(--border))]">•</span>
+            <span>8 min lesson</span>
+          </div>
+          <h1 className="max-w-3xl font-serif text-4xl font-normal leading-tight tracking-tight text-[hsl(var(--foreground))] sm:text-5xl">
+            {extractedData?.title || episode.title}
+          </h1>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onClick={handlePlay}
+            className="inline-flex items-center gap-2 rounded-full bg-[hsl(var(--foreground))] px-4 py-2 text-xs font-bold text-[hsl(var(--background))] transition-transform hover:-translate-y-0.5"
+          >
+            {isCurrentActive ? <Pause className="h-3.5 w-3.5 fill-current" /> : <Play className="h-3.5 w-3.5 fill-current" />}
+            {isCurrentActive ? 'Pause' : 'Listen'}
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('transcript')}
+            className={cn(
+              'rounded-full border px-4 py-2 text-xs font-bold transition-colors',
+              activeTab === 'transcript'
+                ? 'border-[hsl(var(--primary)/0.35)] bg-[hsl(var(--primary)/0.1)] text-[hsl(var(--primary))]'
+                : 'border-[hsl(var(--border))] text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]'
+            )}
+          >
+            Follow along
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('glossary')}
+            className="rounded-full border border-[hsl(var(--border))] px-4 py-2 text-xs font-bold text-[hsl(var(--muted-foreground))] transition-colors hover:text-[hsl(var(--foreground))]"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+
       {/* Main Layout Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_340px] gap-6">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-[1fr_300px]">
         {/* Main Episode Masthead (Left) */}
-        <div className="surface-card p-6 sm:p-8 rounded-3xl border border-[hsl(var(--border))] space-y-5">
+        <div className="surface-card space-y-5 rounded-3xl border border-[hsl(var(--border))] p-6 sm:p-8">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]">
@@ -318,6 +373,7 @@ export function EpisodeStudyView({
             <button
               type="button"
               onClick={() => toggleCompleted(episode.id)}
+              aria-label={isCompleted ? `Mark ${episode.title} as incomplete` : `Mark ${episode.title} as complete`}
               className={cn(
                 'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-colors border',
                 isCompleted
@@ -329,10 +385,6 @@ export function EpisodeStudyView({
               <span>{isCompleted ? 'Marked Complete' : 'Mark as Complete'}</span>
             </button>
           </div>
-
-          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal tracking-tight text-[hsl(var(--foreground))]">
-            {extractedData?.title || episode.title}
-          </h1>
 
           {/* Primary Action Buttons */}
           <div className="pt-2 flex flex-wrap items-center gap-3">
@@ -918,7 +970,7 @@ export function EpisodeStudyView({
             {/* Complete Spoken Script */}
             <div className={cn(
               "p-6 sm:p-12 rounded-3xl transition-colors duration-500",
-              theme === 'default' && 'bg-white border border-[hsl(var(--border))]',
+              theme === 'default' && 'bg-white text-stone-900 border border-[hsl(var(--border))]',
               theme === 'sepia' && 'bg-[#F4E9D5] text-[#433422] border border-[#E3D6BC]',
               theme === 'ocean' && 'bg-[#F0F4F8] dark:bg-[#0A192F] text-[#0A192F] dark:text-[#E6F1FF] border border-[#112240]',
               theme === 'night' && 'bg-[#161821] text-[#E8E4DC] border border-[#2B2F3D]'
@@ -930,6 +982,8 @@ export function EpisodeStudyView({
                 alignment={podcastAlignment}
                 fallbackText={extractedData.transcript.fullText}
                 trackId={episode.id}
+                glossary={[...(extractedData.glossary || []), ...(extractedData.usefulPhrases || [])]}
+                onSaveGlossaryEntry={appendToNotes}
                 fontSize={fontSize}
                 lineHeight={lineHeight}
                 readingTheme={theme}

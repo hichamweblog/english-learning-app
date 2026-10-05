@@ -1,0 +1,85 @@
+{
+  "sectionId": "reader-26-missing-in-sydney-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/219 (S1) Missing in Sydney/Track 01.mp3",
+  "totalDuration": 38.8701875,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 1.97,
+      "end": 19.14,
+      "text": "Missing Insidney by Andrea M. Hutchinson",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Missing",
+          "start": 1.97,
+          "end": 4.21
+        },
+        {
+          "id": "p1w2",
+          "text": "Insidney",
+          "start": 15.41,
+          "end": 16.61
+        },
+        {
+          "id": "p1w3",
+          "text": "by",
+          "start": 16.61,
+          "end": 17.57
+        },
+        {
+          "id": "p1w4",
+          "text": "Andrea",
+          "start": 17.66,
+          "end": 18.18
+        },
+        {
+          "id": "p1w5",
+          "text": "M.",
+          "start": 18.18,
+          "end": 18.66
+        },
+        {
+          "id": "p1w6",
+          "text": "Hutchinson",
+          "start": 19.14,
+          "end": 19.14
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 20.42,
+      "end": 23.3,
+      "text": "Copyright Black Cat Publishing",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Copyright",
+          "start": 20.42,
+          "end": 21.12
+        },
+        {
+          "id": "p2w2",
+          "text": "Black",
+          "start": 21.12,
+          "end": 22.42
+        },
+        {
+          "id": "p2w3",
+          "text": "Cat",
+          "start": 22.42,
+          "end": 22.8
+        },
+        {
+          "id": "p2w4",
+          "text": "Publishing",
+          "start": 22.8,
+          "end": 23.3
+        }
+      ]
+    }
+  ]
+}

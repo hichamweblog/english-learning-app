@@ -22,6 +22,18 @@ export interface RecentItem {
   progressPercent?: number;
 }
 
+export type ComfortRating = 'too-hard' | 'challenging' | 'comfortable' | 'easy';
+
+export interface SavedNote {
+  id: string;
+  term?: string;
+  definition?: string;
+  note: string;
+  sourceTitle: string;
+  sourceUrl: string;
+  createdAt: number;
+}
+
 interface AudioPlayerState {
   currentTrack: ActiveTrack | null;
   isPlaying: boolean;
@@ -49,12 +61,23 @@ interface StudyProgressState {
   savedPositions: Record<string, number>; // id -> seconds
   recentItems: RecentItem[];
   theme: 'light' | 'dark' | 'system';
+  dailyGoalMinutes: number;
+  learningGoal: 'conversation' | 'speaking' | 'reading' | 'pronunciation' | 'vocabulary' | null;
+  exposureSecondsByDate: Record<string, number>;
+  comfortRatings: Record<string, ComfortRating>;
+  savedNotes: SavedNote[];
 
   toggleCompleted: (id: string) => void;
   setCompleted: (id: string, completed: boolean) => void;
   saveItemPosition: (id: string, seconds: number) => void;
   addRecentItem: (item: Omit<RecentItem, 'lastAccessed'>) => void;
   setTheme: (theme: 'light' | 'dark' | 'system') => void;
+  setDailyGoalMinutes: (minutes: number) => void;
+  setLearningGoal: (goal: StudyProgressState['learningGoal']) => void;
+  addExposureSeconds: (seconds: number, date?: string) => void;
+  setComfortRating: (id: string, rating: ComfortRating) => void;
+  addSavedNote: (note: Omit<SavedNote, 'id' | 'createdAt'>) => void;
+  removeSavedNote: (id: string) => void;
 }
 
 export interface ReadingSettingsState {
@@ -95,7 +118,7 @@ export const useAudioStore = create<AudioPlayerState>((set, get) => ({
   volume: 1,
   currentTime: 0,
   duration: 0,
-  isExpanded: false,
+  isExpanded: true,
 
   playTrack: (track) => {
     const { currentTrack } = get();
@@ -108,6 +131,7 @@ export const useAudioStore = create<AudioPlayerState>((set, get) => ({
       isPlaying: true,
       currentTime: 0,
       duration: 0,
+      isExpanded: true,
     });
   },
 
@@ -144,6 +168,11 @@ export const useProgressStore = create<StudyProgressState>()(
       savedPositions: {},
       recentItems: [],
       theme: 'system',
+      dailyGoalMinutes: 10,
+      learningGoal: null,
+      exposureSecondsByDate: {},
+      comfortRatings: {},
+      savedNotes: [],
 
       toggleCompleted: (id) =>
         set((state) => ({
@@ -182,6 +211,35 @@ export const useProgressStore = create<StudyProgressState>()(
         }),
 
       setTheme: (theme) => set({ theme }),
+      setDailyGoalMinutes: (minutes) =>
+        set({ dailyGoalMinutes: Math.max(5, Math.min(120, Math.round(minutes))) }),
+      setLearningGoal: (learningGoal) => set({ learningGoal }),
+      addExposureSeconds: (seconds, date = new Date().toISOString().slice(0, 10)) =>
+        set((state) => ({
+          exposureSecondsByDate: {
+            ...state.exposureSecondsByDate,
+            [date]: (state.exposureSecondsByDate[date] || 0) + Math.max(0, Math.floor(seconds)),
+          },
+        })),
+      setComfortRating: (id, rating) =>
+        set((state) => ({
+          comfortRatings: { ...state.comfortRatings, [id]: rating },
+        })),
+      addSavedNote: (note) =>
+        set((state) => ({
+          savedNotes: [
+            {
+              ...note,
+              id: `${note.sourceUrl}-${note.term || note.note.slice(0, 24)}-${Date.now()}`,
+              createdAt: Date.now(),
+            },
+            ...state.savedNotes,
+          ].slice(0, 100),
+        })),
+      removeSavedNote: (id) =>
+        set((state) => ({
+          savedNotes: state.savedNotes.filter((note) => note.id !== id),
+        })),
     }),
     {
       name: 'english-learning-progress',

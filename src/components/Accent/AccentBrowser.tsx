@@ -16,6 +16,7 @@ import {
 import type { PodcastEpisode } from '@/types/content';
 import { useAudioStore, useProgressStore } from '@/lib/store';
 import { resolveMediaUrl, cn } from '@/lib/utils';
+import { AlignmentBadge } from '@/components/AudioPlayer/AlignmentBadge';
 
 interface Props {
   lessons: PodcastEpisode[];
@@ -42,7 +43,7 @@ export function AccentBrowser({ lessons }: Props) {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 2xl:grid-cols-3">
       {lessons.map((lesson) => {
         const isCurrentlyPlaying = currentTrack?.id === lesson.id && isPlaying;
         const isCurrentActive = currentTrack?.id === lesson.id;
@@ -62,9 +63,18 @@ export function AccentBrowser({ lessons }: Props) {
           >
             <div>
               <div className="flex items-center justify-between mb-2.5">
-                <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-amber-100 dark:bg-amber-950 text-amber-900 dark:text-amber-300">
-                  {lesson.title.split(' ')[0] || 'Unit'}
-                </span>
+                <div className="flex items-center gap-2">
+                  <Link
+                    href={`/accent/${lesson.id}`}
+                    className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-amber-100 dark:bg-amber-950 text-amber-900 dark:text-amber-300 hover:bg-amber-200 dark:hover:bg-amber-900"
+                  >
+                    {lesson.number === 0 ? 'Intro' : `Unit ${lesson.number}`}
+                  </Link>
+                  <AlignmentBadge sources={[
+                    `/data/alignments/accent/${lesson.id}.json`,
+                    `/data/alignments/accent/unit-${String(lesson.number).padStart(2, '0')}.json`,
+                  ]} />
+                </div>
 
                 <button
                   type="button"
@@ -82,20 +92,22 @@ export function AccentBrowser({ lessons }: Props) {
                 </button>
               </div>
 
-              <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100">
-                {lesson.title}
-              </h3>
+              <Link href={`/accent/${lesson.id}`} className="group/title block">
+                <h3 className="min-w-0 font-serif text-lg font-medium text-stone-900 dark:text-stone-100 group-hover/title:text-amber-700 dark:group-hover/title:text-amber-400">
+                  {lesson.title}
+                </h3>
+              </Link>
               <p className="text-xs text-stone-500 dark:text-stone-400 mt-1">
                 Acoustic pronunciation model with audio drill exercises & guide.
               </p>
             </div>
 
-            <div className="pt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between">
+            <div className="flex flex-col items-stretch gap-3 border-t border-stone-100 pt-3 dark:border-stone-800/80 sm:flex-row sm:items-center sm:justify-between">
               <button
                 type="button"
                 onClick={() => handlePlay(lesson)}
                 className={cn(
-                  'inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all',
+                  'inline-flex w-full shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg px-3.5 py-2 text-xs font-semibold transition-all sm:w-auto',
                   isCurrentlyPlaying
                     ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-xs'
                     : 'bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 hover:bg-amber-100 hover:text-amber-900 dark:hover:bg-amber-950/80'
@@ -114,7 +126,13 @@ export function AccentBrowser({ lessons }: Props) {
                 )}
               </button>
 
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center justify-end gap-x-2 gap-y-1">
+                <Link
+                  href={`/accent/${lesson.id}`}
+                  className="text-xs font-semibold text-amber-700 hover:underline dark:text-amber-400"
+                >
+                  Open unit
+                </Link>
                 {videoUrl && (
                   <a
                     href={videoUrl}

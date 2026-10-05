@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { getCourses } from '@/lib/content/load';
 import { CourseBrowser } from '@/components/Courses/CourseBrowser';
 
@@ -22,7 +22,9 @@ export default function CoursesPage() {
         </p>
       </div>
 
-      <CourseBrowser initialCourses={courses} />
+      <Suspense fallback={<div className="p-12 text-center text-sm text-stone-400 font-serif">Loading course catalog...</div>}>
+        <CourseBrowser initialCourses={courses} />
+      </Suspense>
     </div>
   );
 }

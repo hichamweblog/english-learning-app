@@ -164,6 +164,14 @@ export function GlobalSearch({ podcasts, readers, reference }: Props) {
 
       {/* Results List */}
       <div className="space-y-2.5">
+        {results.length === 0 && (
+          <div className="surface-inset rounded-2xl p-8 text-center">
+            <p className="font-serif text-xl text-[hsl(var(--foreground))]">No matching input yet</p>
+            <p className="mt-2 text-sm text-[hsl(var(--muted-foreground))]">
+              Try a broader topic, series name, or title.
+            </p>
+          </div>
+        )}
         {results.map((item) => (
           <div
             key={item.id}

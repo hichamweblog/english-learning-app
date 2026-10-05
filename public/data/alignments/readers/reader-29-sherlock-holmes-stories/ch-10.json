@@ -1,0 +1,475 @@
+{
+  "sectionId": "reader-29-sherlock-holmes-stories-ch-10",
+  "trackNumber": 10,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/220 (S1) Sherlock Holmes Stories/Track 10.mp3",
+  "totalDuration": 37.093875,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.11,
+      "end": 1.19,
+      "text": "Listening activity.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Listening",
+          "start": 0.11,
+          "end": 0.87
+        },
+        {
+          "id": "p1w2",
+          "text": "activity.",
+          "start": 0.87,
+          "end": 1.19
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 3.72,
+      "end": 5.96,
+      "text": "Welcome to Waterloo Station London.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Welcome",
+          "start": 3.72,
+          "end": 4.14
+        },
+        {
+          "id": "p2w2",
+          "text": "to",
+          "start": 4.14,
+          "end": 4.52
+        },
+        {
+          "id": "p2w3",
+          "text": "Waterloo",
+          "start": 4.52,
+          "end": 4.72
+        },
+        {
+          "id": "p2w4",
+          "text": "Station",
+          "start": 4.72,
+          "end": 5.26
+        },
+        {
+          "id": "p2w5",
+          "text": "London.",
+          "start": 5.26,
+          "end": 5.96
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 6.88,
+      "end": 9.38,
+      "text": "Today is Wednesday 22nd April.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Today",
+          "start": 6.88,
+          "end": 7.28
+        },
+        {
+          "id": "p3w2",
+          "text": "is",
+          "start": 7.28,
+          "end": 7.7
+        },
+        {
+          "id": "p3w3",
+          "text": "Wednesday",
+          "start": 7.7,
+          "end": 8.24
+        },
+        {
+          "id": "p3w4",
+          "text": "22nd",
+          "start": 8.24,
+          "end": 9.28
+        },
+        {
+          "id": "p3w5",
+          "text": "April.",
+          "start": 9.28,
+          "end": 9.38
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 10.26,
+      "end": 14.88,
+      "text": "The 1033 train to Leatherhead is now leaving from Platform 9.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "The",
+          "start": 10.26,
+          "end": 10.4
+        },
+        {
+          "id": "p4w2",
+          "text": "1033",
+          "start": 10.4,
+          "end": 11.18
+        },
+        {
+          "id": "p4w3",
+          "text": "train",
+          "start": 11.18,
+          "end": 11.82
+        },
+        {
+          "id": "p4w4",
+          "text": "to",
+          "start": 11.82,
+          "end": 12.1
+        },
+        {
+          "id": "p4w5",
+          "text": "Leatherhead",
+          "start": 12.1,
+          "end": 12.6
+        },
+        {
+          "id": "p4w6",
+          "text": "is",
+          "start": 12.6,
+          "end": 13.0
+        },
+        {
+          "id": "p4w7",
+          "text": "now",
+          "start": 13.0,
+          "end": 13.26
+        },
+        {
+          "id": "p4w8",
+          "text": "leaving",
+          "start": 13.26,
+          "end": 13.68
+        },
+        {
+          "id": "p4w9",
+          "text": "from",
+          "start": 13.68,
+          "end": 14.02
+        },
+        {
+          "id": "p4w10",
+          "text": "Platform",
+          "start": 14.02,
+          "end": 14.3
+        },
+        {
+          "id": "p4w11",
+          "text": "9.",
+          "start": 14.3,
+          "end": 14.88
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 16.06,
+      "end": 18.58,
+      "text": "First class seats are at the front of the train.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "First",
+          "start": 16.06,
+          "end": 16.34
+        },
+        {
+          "id": "p5w2",
+          "text": "class",
+          "start": 16.34,
+          "end": 16.62
+        },
+        {
+          "id": "p5w3",
+          "text": "seats",
+          "start": 16.62,
+          "end": 16.96
+        },
+        {
+          "id": "p5w4",
+          "text": "are",
+          "start": 16.96,
+          "end": 17.46
+        },
+        {
+          "id": "p5w5",
+          "text": "at",
+          "start": 17.46,
+          "end": 17.62
+        },
+        {
+          "id": "p5w6",
+          "text": "the",
+          "start": 17.62,
+          "end": 17.74
+        },
+        {
+          "id": "p5w7",
+          "text": "front",
+          "start": 17.74,
+          "end": 18.0
+        },
+        {
+          "id": "p5w8",
+          "text": "of",
+          "start": 18.0,
+          "end": 18.24
+        },
+        {
+          "id": "p5w9",
+          "text": "the",
+          "start": 18.24,
+          "end": 18.34
+        },
+        {
+          "id": "p5w10",
+          "text": "train.",
+          "start": 18.34,
+          "end": 18.58
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 19.53,
+      "end": 21.39,
+      "text": "Please have your tickets ready for inspection.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "Please",
+          "start": 19.53,
+          "end": 19.75
+        },
+        {
+          "id": "p6w2",
+          "text": "have",
+          "start": 19.75,
+          "end": 20.07
+        },
+        {
+          "id": "p6w3",
+          "text": "your",
+          "start": 20.07,
+          "end": 20.21
+        },
+        {
+          "id": "p6w4",
+          "text": "tickets",
+          "start": 20.21,
+          "end": 20.49
+        },
+        {
+          "id": "p6w5",
+          "text": "ready",
+          "start": 20.49,
+          "end": 20.81
+        },
+        {
+          "id": "p6w6",
+          "text": "for",
+          "start": 20.81,
+          "end": 21.05
+        },
+        {
+          "id": "p6w7",
+          "text": "inspection.",
+          "start": 21.05,
+          "end": 21.39
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 22.72,
+      "end": 27.4,
+      "text": "That's the 1033 to Leatherhead ready to leave from Platform 9.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "That's",
+          "start": 22.72,
+          "end": 23.16
+        },
+        {
+          "id": "p7w2",
+          "text": "the",
+          "start": 23.16,
+          "end": 23.28
+        },
+        {
+          "id": "p7w3",
+          "text": "1033",
+          "start": 23.28,
+          "end": 23.92
+        },
+        {
+          "id": "p7w4",
+          "text": "to",
+          "start": 23.92,
+          "end": 24.28
+        },
+        {
+          "id": "p7w5",
+          "text": "Leatherhead",
+          "start": 24.28,
+          "end": 24.72
+        },
+        {
+          "id": "p7w6",
+          "text": "ready",
+          "start": 24.72,
+          "end": 25.48
+        },
+        {
+          "id": "p7w7",
+          "text": "to",
+          "start": 25.48,
+          "end": 25.72
+        },
+        {
+          "id": "p7w8",
+          "text": "leave",
+          "start": 25.72,
+          "end": 25.98
+        },
+        {
+          "id": "p7w9",
+          "text": "from",
+          "start": 25.98,
+          "end": 26.46
+        },
+        {
+          "id": "p7w10",
+          "text": "Platform",
+          "start": 26.46,
+          "end": 26.76
+        },
+        {
+          "id": "p7w11",
+          "text": "9.",
+          "start": 26.76,
+          "end": 27.4
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 27.4,
+      "end": 33.16,
+      "text": "This train does not have a restaurant service, but you can buy cold drinks on board.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "This",
+          "start": 27.4,
+          "end": 28.44
+        },
+        {
+          "id": "p8w2",
+          "text": "train",
+          "start": 28.44,
+          "end": 28.76
+        },
+        {
+          "id": "p8w3",
+          "text": "does",
+          "start": 28.76,
+          "end": 28.98
+        },
+        {
+          "id": "p8w4",
+          "text": "not",
+          "start": 28.98,
+          "end": 29.26
+        },
+        {
+          "id": "p8w5",
+          "text": "have",
+          "start": 29.26,
+          "end": 29.48
+        },
+        {
+          "id": "p8w6",
+          "text": "a",
+          "start": 29.48,
+          "end": 29.56
+        },
+        {
+          "id": "p8w7",
+          "text": "restaurant",
+          "start": 29.56,
+          "end": 29.78
+        },
+        {
+          "id": "p8w8",
+          "text": "service,",
+          "start": 29.78,
+          "end": 30.28
+        },
+        {
+          "id": "p8w9",
+          "text": "but",
+          "start": 31.06,
+          "end": 31.18
+        },
+        {
+          "id": "p8w10",
+          "text": "you",
+          "start": 31.18,
+          "end": 31.3
+        },
+        {
+          "id": "p8w11",
+          "text": "can",
+          "start": 31.3,
+          "end": 31.5
+        },
+        {
+          "id": "p8w12",
+          "text": "buy",
+          "start": 31.5,
+          "end": 31.84
+        },
+        {
+          "id": "p8w13",
+          "text": "cold",
+          "start": 31.84,
+          "end": 32.22
+        },
+        {
+          "id": "p8w14",
+          "text": "drinks",
+          "start": 32.22,
+          "end": 32.58
+        },
+        {
+          "id": "p8w15",
+          "text": "on",
+          "start": 32.58,
+          "end": 32.88
+        },
+        {
+          "id": "p8w16",
+          "text": "board.",
+          "start": 32.88,
+          "end": 33.16
+        }
+      ]
+    }
+  ]
+}

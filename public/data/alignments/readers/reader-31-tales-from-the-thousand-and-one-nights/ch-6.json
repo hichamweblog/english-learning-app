@@ -1,0 +1,4875 @@
+{
+  "sectionId": "reader-31-tales-from-the-thousand-and-one-nights-ch-6",
+  "trackNumber": 6,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/221 (S1) Tales from The Thousand and One Nights/Track 06.mp3",
+  "totalDuration": 350.87675,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.4,
+      "end": 13.27,
+      "text": "Ali Baba and the Forty Thieves. Part 1. Kazim and Ali Baba were brothers. They lived in a city in Persia.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Ali",
+          "start": 0.4,
+          "end": 0.92
+        },
+        {
+          "id": "p1w2",
+          "text": "Baba",
+          "start": 0.92,
+          "end": 1.44
+        },
+        {
+          "id": "p1w3",
+          "text": "and",
+          "start": 1.44,
+          "end": 2.12
+        },
+        {
+          "id": "p1w4",
+          "text": "the",
+          "start": 2.12,
+          "end": 2.28
+        },
+        {
+          "id": "p1w5",
+          "text": "Forty",
+          "start": 2.28,
+          "end": 2.56
+        },
+        {
+          "id": "p1w6",
+          "text": "Thieves.",
+          "start": 2.56,
+          "end": 3.1
+        },
+        {
+          "id": "p1w7",
+          "text": "Part",
+          "start": 4.73,
+          "end": 5.35
+        },
+        {
+          "id": "p1w8",
+          "text": "1.",
+          "start": 5.35,
+          "end": 5.69
+        },
+        {
+          "id": "p1w9",
+          "text": "Kazim",
+          "start": 7.92,
+          "end": 8.46
+        },
+        {
+          "id": "p1w10",
+          "text": "and",
+          "start": 8.46,
+          "end": 9.06
+        },
+        {
+          "id": "p1w11",
+          "text": "Ali",
+          "start": 9.06,
+          "end": 9.28
+        },
+        {
+          "id": "p1w12",
+          "text": "Baba",
+          "start": 9.28,
+          "end": 9.86
+        },
+        {
+          "id": "p1w13",
+          "text": "were",
+          "start": 9.86,
+          "end": 10.3
+        },
+        {
+          "id": "p1w14",
+          "text": "brothers.",
+          "start": 10.3,
+          "end": 10.62
+        },
+        {
+          "id": "p1w15",
+          "text": "They",
+          "start": 11.85,
+          "end": 11.95
+        },
+        {
+          "id": "p1w16",
+          "text": "lived",
+          "start": 11.95,
+          "end": 12.21
+        },
+        {
+          "id": "p1w17",
+          "text": "in",
+          "start": 12.21,
+          "end": 12.41
+        },
+        {
+          "id": "p1w18",
+          "text": "a",
+          "start": 12.41,
+          "end": 12.49
+        },
+        {
+          "id": "p1w19",
+          "text": "city",
+          "start": 12.49,
+          "end": 12.79
+        },
+        {
+          "id": "p1w20",
+          "text": "in",
+          "start": 12.79,
+          "end": 13.05
+        },
+        {
+          "id": "p1w21",
+          "text": "Persia.",
+          "start": 13.05,
+          "end": 13.27
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 14.5,
+      "end": 23.12,
+      "text": "Kazim was rich. He had a shop. He bought and sold gold there. Ali Baba was poor.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Kazim",
+          "start": 14.5,
+          "end": 14.94
+        },
+        {
+          "id": "p2w2",
+          "text": "was",
+          "start": 14.94,
+          "end": 15.18
+        },
+        {
+          "id": "p2w3",
+          "text": "rich.",
+          "start": 15.18,
+          "end": 15.46
+        },
+        {
+          "id": "p2w4",
+          "text": "He",
+          "start": 16.38,
+          "end": 16.42
+        },
+        {
+          "id": "p2w5",
+          "text": "had",
+          "start": 16.42,
+          "end": 16.56
+        },
+        {
+          "id": "p2w6",
+          "text": "a",
+          "start": 16.56,
+          "end": 16.7
+        },
+        {
+          "id": "p2w7",
+          "text": "shop.",
+          "start": 16.7,
+          "end": 16.92
+        },
+        {
+          "id": "p2w8",
+          "text": "He",
+          "start": 17.78,
+          "end": 17.92
+        },
+        {
+          "id": "p2w9",
+          "text": "bought",
+          "start": 17.92,
+          "end": 18.14
+        },
+        {
+          "id": "p2w10",
+          "text": "and",
+          "start": 18.14,
+          "end": 18.56
+        },
+        {
+          "id": "p2w11",
+          "text": "sold",
+          "start": 18.56,
+          "end": 18.88
+        },
+        {
+          "id": "p2w12",
+          "text": "gold",
+          "start": 18.88,
+          "end": 19.56
+        },
+        {
+          "id": "p2w13",
+          "text": "there.",
+          "start": 19.56,
+          "end": 20.28
+        },
+        {
+          "id": "p2w14",
+          "text": "Ali",
+          "start": 21.52,
+          "end": 21.78
+        },
+        {
+          "id": "p2w15",
+          "text": "Baba",
+          "start": 21.78,
+          "end": 22.3
+        },
+        {
+          "id": "p2w16",
+          "text": "was",
+          "start": 22.3,
+          "end": 22.82
+        },
+        {
+          "id": "p2w17",
+          "text": "poor.",
+          "start": 22.82,
+          "end": 23.12
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 24.14,
+      "end": 27.16,
+      "text": "He collected wood in the forest and soldered in the city.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "He",
+          "start": 24.14,
+          "end": 24.28
+        },
+        {
+          "id": "p3w2",
+          "text": "collected",
+          "start": 24.28,
+          "end": 24.54
+        },
+        {
+          "id": "p3w3",
+          "text": "wood",
+          "start": 24.54,
+          "end": 24.92
+        },
+        {
+          "id": "p3w4",
+          "text": "in",
+          "start": 24.92,
+          "end": 25.18
+        },
+        {
+          "id": "p3w5",
+          "text": "the",
+          "start": 25.18,
+          "end": 25.26
+        },
+        {
+          "id": "p3w6",
+          "text": "forest",
+          "start": 25.26,
+          "end": 25.54
+        },
+        {
+          "id": "p3w7",
+          "text": "and",
+          "start": 25.54,
+          "end": 26.14
+        },
+        {
+          "id": "p3w8",
+          "text": "soldered",
+          "start": 26.14,
+          "end": 26.64
+        },
+        {
+          "id": "p3w9",
+          "text": "in",
+          "start": 26.64,
+          "end": 26.78
+        },
+        {
+          "id": "p3w10",
+          "text": "the",
+          "start": 26.78,
+          "end": 26.9
+        },
+        {
+          "id": "p3w11",
+          "text": "city.",
+          "start": 26.9,
+          "end": 27.16
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 27.16,
+      "end": 35.52,
+      "text": "One day, while he was collecting wood, Ali Baba heard the sound of horses hooves in the distance.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "One",
+          "start": 27.16,
+          "end": 28.2
+        },
+        {
+          "id": "p4w2",
+          "text": "day,",
+          "start": 28.84,
+          "end": 29.12
+        },
+        {
+          "id": "p4w3",
+          "text": "while",
+          "start": 29.6,
+          "end": 29.94
+        },
+        {
+          "id": "p4w4",
+          "text": "he",
+          "start": 29.94,
+          "end": 30.08
+        },
+        {
+          "id": "p4w5",
+          "text": "was",
+          "start": 30.08,
+          "end": 30.2
+        },
+        {
+          "id": "p4w6",
+          "text": "collecting",
+          "start": 30.2,
+          "end": 30.62
+        },
+        {
+          "id": "p4w7",
+          "text": "wood,",
+          "start": 30.62,
+          "end": 31.02
+        },
+        {
+          "id": "p4w8",
+          "text": "Ali",
+          "start": 31.92,
+          "end": 32.08
+        },
+        {
+          "id": "p4w9",
+          "text": "Baba",
+          "start": 32.08,
+          "end": 32.56
+        },
+        {
+          "id": "p4w10",
+          "text": "heard",
+          "start": 32.56,
+          "end": 33.06
+        },
+        {
+          "id": "p4w11",
+          "text": "the",
+          "start": 33.06,
+          "end": 33.42
+        },
+        {
+          "id": "p4w12",
+          "text": "sound",
+          "start": 33.42,
+          "end": 33.74
+        },
+        {
+          "id": "p4w13",
+          "text": "of",
+          "start": 33.74,
+          "end": 33.98
+        },
+        {
+          "id": "p4w14",
+          "text": "horses",
+          "start": 33.98,
+          "end": 34.2
+        },
+        {
+          "id": "p4w15",
+          "text": "hooves",
+          "start": 34.2,
+          "end": 35.04
+        },
+        {
+          "id": "p4w16",
+          "text": "in",
+          "start": 35.04,
+          "end": 35.14
+        },
+        {
+          "id": "p4w17",
+          "text": "the",
+          "start": 35.14,
+          "end": 35.24
+        },
+        {
+          "id": "p4w18",
+          "text": "distance.",
+          "start": 35.24,
+          "end": 35.52
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 36.76,
+      "end": 44.68,
+      "text": "Who's coming here? He asked himself. Perhaps they are thieves and want to steal my wood. I'll hide in this tree.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "Who's",
+          "start": 36.76,
+          "end": 37.26
+        },
+        {
+          "id": "p5w2",
+          "text": "coming",
+          "start": 37.26,
+          "end": 37.48
+        },
+        {
+          "id": "p5w3",
+          "text": "here?",
+          "start": 37.48,
+          "end": 38.02
+        },
+        {
+          "id": "p5w4",
+          "text": "He",
+          "start": 38.42,
+          "end": 38.64
+        },
+        {
+          "id": "p5w5",
+          "text": "asked",
+          "start": 38.64,
+          "end": 38.82
+        },
+        {
+          "id": "p5w6",
+          "text": "himself.",
+          "start": 38.82,
+          "end": 39.1
+        },
+        {
+          "id": "p5w7",
+          "text": "Perhaps",
+          "start": 39.84,
+          "end": 40.14
+        },
+        {
+          "id": "p5w8",
+          "text": "they",
+          "start": 40.14,
+          "end": 40.44
+        },
+        {
+          "id": "p5w9",
+          "text": "are",
+          "start": 40.44,
+          "end": 40.58
+        },
+        {
+          "id": "p5w10",
+          "text": "thieves",
+          "start": 40.58,
+          "end": 40.82
+        },
+        {
+          "id": "p5w11",
+          "text": "and",
+          "start": 40.82,
+          "end": 41.6
+        },
+        {
+          "id": "p5w12",
+          "text": "want",
+          "start": 41.6,
+          "end": 41.76
+        },
+        {
+          "id": "p5w13",
+          "text": "to",
+          "start": 41.76,
+          "end": 41.96
+        },
+        {
+          "id": "p5w14",
+          "text": "steal",
+          "start": 41.96,
+          "end": 42.16
+        },
+        {
+          "id": "p5w15",
+          "text": "my",
+          "start": 42.16,
+          "end": 42.38
+        },
+        {
+          "id": "p5w16",
+          "text": "wood.",
+          "start": 42.38,
+          "end": 42.64
+        },
+        {
+          "id": "p5w17",
+          "text": "I'll",
+          "start": 43.56,
+          "end": 43.86
+        },
+        {
+          "id": "p5w18",
+          "text": "hide",
+          "start": 43.86,
+          "end": 44.06
+        },
+        {
+          "id": "p5w19",
+          "text": "in",
+          "start": 44.06,
+          "end": 44.22
+        },
+        {
+          "id": "p5w20",
+          "text": "this",
+          "start": 44.22,
+          "end": 44.36
+        },
+        {
+          "id": "p5w21",
+          "text": "tree.",
+          "start": 44.36,
+          "end": 44.68
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 45.36,
+      "end": 54.7,
+      "text": "He quickly climbed up the tree and hid in the branches. The horsemen arrived. Ali Baba counted 40 men.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "He",
+          "start": 45.36,
+          "end": 45.56
+        },
+        {
+          "id": "p6w2",
+          "text": "quickly",
+          "start": 45.56,
+          "end": 45.94
+        },
+        {
+          "id": "p6w3",
+          "text": "climbed",
+          "start": 45.94,
+          "end": 46.4
+        },
+        {
+          "id": "p6w4",
+          "text": "up",
+          "start": 46.4,
+          "end": 46.74
+        },
+        {
+          "id": "p6w5",
+          "text": "the",
+          "start": 46.74,
+          "end": 46.9
+        },
+        {
+          "id": "p6w6",
+          "text": "tree",
+          "start": 46.9,
+          "end": 47.16
+        },
+        {
+          "id": "p6w7",
+          "text": "and",
+          "start": 47.16,
+          "end": 47.74
+        },
+        {
+          "id": "p6w8",
+          "text": "hid",
+          "start": 47.74,
+          "end": 48.02
+        },
+        {
+          "id": "p6w9",
+          "text": "in",
+          "start": 48.02,
+          "end": 48.26
+        },
+        {
+          "id": "p6w10",
+          "text": "the",
+          "start": 48.26,
+          "end": 48.38
+        },
+        {
+          "id": "p6w11",
+          "text": "branches.",
+          "start": 48.38,
+          "end": 48.58
+        },
+        {
+          "id": "p6w12",
+          "text": "The",
+          "start": 50.19,
+          "end": 50.27
+        },
+        {
+          "id": "p6w13",
+          "text": "horsemen",
+          "start": 50.27,
+          "end": 50.71
+        },
+        {
+          "id": "p6w14",
+          "text": "arrived.",
+          "start": 50.71,
+          "end": 51.01
+        },
+        {
+          "id": "p6w15",
+          "text": "Ali",
+          "start": 52.5,
+          "end": 52.74
+        },
+        {
+          "id": "p6w16",
+          "text": "Baba",
+          "start": 52.74,
+          "end": 53.26
+        },
+        {
+          "id": "p6w17",
+          "text": "counted",
+          "start": 53.26,
+          "end": 53.88
+        },
+        {
+          "id": "p6w18",
+          "text": "40",
+          "start": 53.88,
+          "end": 54.24
+        },
+        {
+          "id": "p6w19",
+          "text": "men.",
+          "start": 54.24,
+          "end": 54.7
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 54.7,
+      "end": 62.26,
+      "text": "They were big and strong and they had black beards. Each of them had a heavy saddlebag.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "They",
+          "start": 54.7,
+          "end": 55.22
+        },
+        {
+          "id": "p7w2",
+          "text": "were",
+          "start": 55.31,
+          "end": 55.93
+        },
+        {
+          "id": "p7w3",
+          "text": "big",
+          "start": 55.93,
+          "end": 56.13
+        },
+        {
+          "id": "p7w4",
+          "text": "and",
+          "start": 56.13,
+          "end": 56.51
+        },
+        {
+          "id": "p7w5",
+          "text": "strong",
+          "start": 56.51,
+          "end": 56.87
+        },
+        {
+          "id": "p7w6",
+          "text": "and",
+          "start": 56.87,
+          "end": 57.51
+        },
+        {
+          "id": "p7w7",
+          "text": "they",
+          "start": 57.51,
+          "end": 57.63
+        },
+        {
+          "id": "p7w8",
+          "text": "had",
+          "start": 57.63,
+          "end": 57.83
+        },
+        {
+          "id": "p7w9",
+          "text": "black",
+          "start": 57.83,
+          "end": 58.19
+        },
+        {
+          "id": "p7w10",
+          "text": "beards.",
+          "start": 58.19,
+          "end": 58.85
+        },
+        {
+          "id": "p7w11",
+          "text": "Each",
+          "start": 59.66,
+          "end": 60.08
+        },
+        {
+          "id": "p7w12",
+          "text": "of",
+          "start": 60.08,
+          "end": 60.32
+        },
+        {
+          "id": "p7w13",
+          "text": "them",
+          "start": 60.32,
+          "end": 60.54
+        },
+        {
+          "id": "p7w14",
+          "text": "had",
+          "start": 60.54,
+          "end": 61.06
+        },
+        {
+          "id": "p7w15",
+          "text": "a",
+          "start": 61.06,
+          "end": 61.22
+        },
+        {
+          "id": "p7w16",
+          "text": "heavy",
+          "start": 61.22,
+          "end": 61.6
+        },
+        {
+          "id": "p7w17",
+          "text": "saddlebag.",
+          "start": 61.6,
+          "end": 62.26
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 63.16,
+      "end": 65.38,
+      "text": "I was right. They are thieves.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "I",
+          "start": 63.16,
+          "end": 63.44
+        },
+        {
+          "id": "p8w2",
+          "text": "was",
+          "start": 63.44,
+          "end": 63.6
+        },
+        {
+          "id": "p8w3",
+          "text": "right.",
+          "start": 63.6,
+          "end": 63.9
+        },
+        {
+          "id": "p8w4",
+          "text": "They",
+          "start": 64.58,
+          "end": 64.7
+        },
+        {
+          "id": "p8w5",
+          "text": "are",
+          "start": 64.7,
+          "end": 65.06
+        },
+        {
+          "id": "p8w6",
+          "text": "thieves.",
+          "start": 65.06,
+          "end": 65.38
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 66.22,
+      "end": 76.84,
+      "text": "They thought Ali Baba. There was a big rock near the tree. The captain of the band of thieves went up to it and said,",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "They",
+          "start": 66.22,
+          "end": 66.32
+        },
+        {
+          "id": "p9w2",
+          "text": "thought",
+          "start": 66.32,
+          "end": 66.6
+        },
+        {
+          "id": "p9w3",
+          "text": "Ali",
+          "start": 66.6,
+          "end": 66.8
+        },
+        {
+          "id": "p9w4",
+          "text": "Baba.",
+          "start": 66.8,
+          "end": 67.3
+        },
+        {
+          "id": "p9w5",
+          "text": "There",
+          "start": 69.4,
+          "end": 69.78
+        },
+        {
+          "id": "p9w6",
+          "text": "was",
+          "start": 69.78,
+          "end": 69.92
+        },
+        {
+          "id": "p9w7",
+          "text": "a",
+          "start": 69.92,
+          "end": 70.02
+        },
+        {
+          "id": "p9w8",
+          "text": "big",
+          "start": 70.02,
+          "end": 70.18
+        },
+        {
+          "id": "p9w9",
+          "text": "rock",
+          "start": 70.18,
+          "end": 70.5
+        },
+        {
+          "id": "p9w10",
+          "text": "near",
+          "start": 70.5,
+          "end": 70.84
+        },
+        {
+          "id": "p9w11",
+          "text": "the",
+          "start": 70.84,
+          "end": 71.0
+        },
+        {
+          "id": "p9w12",
+          "text": "tree.",
+          "start": 71.0,
+          "end": 71.26
+        },
+        {
+          "id": "p9w13",
+          "text": "The",
+          "start": 72.44,
+          "end": 72.58
+        },
+        {
+          "id": "p9w14",
+          "text": "captain",
+          "start": 72.58,
+          "end": 73.02
+        },
+        {
+          "id": "p9w15",
+          "text": "of",
+          "start": 73.02,
+          "end": 73.32
+        },
+        {
+          "id": "p9w16",
+          "text": "the",
+          "start": 73.32,
+          "end": 73.42
+        },
+        {
+          "id": "p9w17",
+          "text": "band",
+          "start": 73.42,
+          "end": 73.68
+        },
+        {
+          "id": "p9w18",
+          "text": "of",
+          "start": 73.68,
+          "end": 73.9
+        },
+        {
+          "id": "p9w19",
+          "text": "thieves",
+          "start": 73.9,
+          "end": 74.16
+        },
+        {
+          "id": "p9w20",
+          "text": "went",
+          "start": 74.16,
+          "end": 75.0
+        },
+        {
+          "id": "p9w21",
+          "text": "up",
+          "start": 75.0,
+          "end": 75.28
+        },
+        {
+          "id": "p9w22",
+          "text": "to",
+          "start": 75.28,
+          "end": 75.46
+        },
+        {
+          "id": "p9w23",
+          "text": "it",
+          "start": 75.46,
+          "end": 75.58
+        },
+        {
+          "id": "p9w24",
+          "text": "and",
+          "start": 75.58,
+          "end": 76.1
+        },
+        {
+          "id": "p9w25",
+          "text": "said,",
+          "start": 76.1,
+          "end": 76.84
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 76.84,
+      "end": 87.38,
+      "text": "Open Sesame. Immediately a large door opened. They all went inside and the door in the rock closed behind them.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "Open",
+          "start": 76.84,
+          "end": 77.22
+        },
+        {
+          "id": "p10w2",
+          "text": "Sesame.",
+          "start": 77.22,
+          "end": 78.04
+        },
+        {
+          "id": "p10w3",
+          "text": "Immediately",
+          "start": 79.09,
+          "end": 79.67
+        },
+        {
+          "id": "p10w4",
+          "text": "a",
+          "start": 79.67,
+          "end": 80.65
+        },
+        {
+          "id": "p10w5",
+          "text": "large",
+          "start": 80.65,
+          "end": 80.97
+        },
+        {
+          "id": "p10w6",
+          "text": "door",
+          "start": 80.97,
+          "end": 81.53
+        },
+        {
+          "id": "p10w7",
+          "text": "opened.",
+          "start": 81.53,
+          "end": 82.15
+        },
+        {
+          "id": "p10w8",
+          "text": "They",
+          "start": 83.38,
+          "end": 83.52
+        },
+        {
+          "id": "p10w9",
+          "text": "all",
+          "start": 83.52,
+          "end": 83.74
+        },
+        {
+          "id": "p10w10",
+          "text": "went",
+          "start": 83.74,
+          "end": 84.02
+        },
+        {
+          "id": "p10w11",
+          "text": "inside",
+          "start": 84.02,
+          "end": 84.46
+        },
+        {
+          "id": "p10w12",
+          "text": "and",
+          "start": 84.46,
+          "end": 85.2
+        },
+        {
+          "id": "p10w13",
+          "text": "the",
+          "start": 85.2,
+          "end": 85.32
+        },
+        {
+          "id": "p10w14",
+          "text": "door",
+          "start": 85.32,
+          "end": 85.54
+        },
+        {
+          "id": "p10w15",
+          "text": "in",
+          "start": 85.54,
+          "end": 85.72
+        },
+        {
+          "id": "p10w16",
+          "text": "the",
+          "start": 85.72,
+          "end": 85.84
+        },
+        {
+          "id": "p10w17",
+          "text": "rock",
+          "start": 85.84,
+          "end": 86.04
+        },
+        {
+          "id": "p10w18",
+          "text": "closed",
+          "start": 86.04,
+          "end": 86.52
+        },
+        {
+          "id": "p10w19",
+          "text": "behind",
+          "start": 86.52,
+          "end": 87.02
+        },
+        {
+          "id": "p10w20",
+          "text": "them.",
+          "start": 87.02,
+          "end": 87.38
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 89.23,
+      "end": 99.94,
+      "text": "The captain and his men stayed in the cave for a long time. Ali Baba began to get tired. Suddenly, the door opened and they came out.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "The",
+          "start": 89.23,
+          "end": 89.31
+        },
+        {
+          "id": "p11w2",
+          "text": "captain",
+          "start": 89.31,
+          "end": 89.59
+        },
+        {
+          "id": "p11w3",
+          "text": "and",
+          "start": 89.59,
+          "end": 89.85
+        },
+        {
+          "id": "p11w4",
+          "text": "his",
+          "start": 89.85,
+          "end": 89.99
+        },
+        {
+          "id": "p11w5",
+          "text": "men",
+          "start": 89.99,
+          "end": 90.17
+        },
+        {
+          "id": "p11w6",
+          "text": "stayed",
+          "start": 90.17,
+          "end": 90.61
+        },
+        {
+          "id": "p11w7",
+          "text": "in",
+          "start": 90.61,
+          "end": 90.83
+        },
+        {
+          "id": "p11w8",
+          "text": "the",
+          "start": 90.83,
+          "end": 90.93
+        },
+        {
+          "id": "p11w9",
+          "text": "cave",
+          "start": 90.93,
+          "end": 91.13
+        },
+        {
+          "id": "p11w10",
+          "text": "for",
+          "start": 91.13,
+          "end": 91.43
+        },
+        {
+          "id": "p11w11",
+          "text": "a",
+          "start": 91.43,
+          "end": 91.55
+        },
+        {
+          "id": "p11w12",
+          "text": "long",
+          "start": 91.55,
+          "end": 91.73
+        },
+        {
+          "id": "p11w13",
+          "text": "time.",
+          "start": 91.73,
+          "end": 92.27
+        },
+        {
+          "id": "p11w14",
+          "text": "Ali",
+          "start": 93.68,
+          "end": 93.94
+        },
+        {
+          "id": "p11w15",
+          "text": "Baba",
+          "start": 93.94,
+          "end": 94.42
+        },
+        {
+          "id": "p11w16",
+          "text": "began",
+          "start": 94.42,
+          "end": 94.66
+        },
+        {
+          "id": "p11w17",
+          "text": "to",
+          "start": 94.66,
+          "end": 94.84
+        },
+        {
+          "id": "p11w18",
+          "text": "get",
+          "start": 94.84,
+          "end": 94.98
+        },
+        {
+          "id": "p11w19",
+          "text": "tired.",
+          "start": 94.98,
+          "end": 95.4
+        },
+        {
+          "id": "p11w20",
+          "text": "Suddenly,",
+          "start": 96.88,
+          "end": 97.34
+        },
+        {
+          "id": "p11w21",
+          "text": "the",
+          "start": 97.76,
+          "end": 98.02
+        },
+        {
+          "id": "p11w22",
+          "text": "door",
+          "start": 98.02,
+          "end": 98.22
+        },
+        {
+          "id": "p11w23",
+          "text": "opened",
+          "start": 98.22,
+          "end": 98.72
+        },
+        {
+          "id": "p11w24",
+          "text": "and",
+          "start": 98.72,
+          "end": 99.36
+        },
+        {
+          "id": "p11w25",
+          "text": "they",
+          "start": 99.36,
+          "end": 99.5
+        },
+        {
+          "id": "p11w26",
+          "text": "came",
+          "start": 99.5,
+          "end": 99.74
+        },
+        {
+          "id": "p11w27",
+          "text": "out.",
+          "start": 99.74,
+          "end": 99.94
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 101.01,
+      "end": 110.32,
+      "text": "Their saddlebags were empty now. The captain said, Shut Sesame! And the door closed and disappeared.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Their",
+          "start": 101.01,
+          "end": 101.33
+        },
+        {
+          "id": "p12w2",
+          "text": "saddlebags",
+          "start": 101.33,
+          "end": 101.89
+        },
+        {
+          "id": "p12w3",
+          "text": "were",
+          "start": 101.89,
+          "end": 102.21
+        },
+        {
+          "id": "p12w4",
+          "text": "empty",
+          "start": 102.21,
+          "end": 102.51
+        },
+        {
+          "id": "p12w5",
+          "text": "now.",
+          "start": 102.51,
+          "end": 102.91
+        },
+        {
+          "id": "p12w6",
+          "text": "The",
+          "start": 104.44,
+          "end": 104.56
+        },
+        {
+          "id": "p12w7",
+          "text": "captain",
+          "start": 104.56,
+          "end": 104.72
+        },
+        {
+          "id": "p12w8",
+          "text": "said,",
+          "start": 104.72,
+          "end": 105.18
+        },
+        {
+          "id": "p12w9",
+          "text": "Shut",
+          "start": 105.5,
+          "end": 105.86
+        },
+        {
+          "id": "p12w10",
+          "text": "Sesame!",
+          "start": 105.86,
+          "end": 106.8
+        },
+        {
+          "id": "p12w11",
+          "text": "And",
+          "start": 107.54,
+          "end": 108.04
+        },
+        {
+          "id": "p12w12",
+          "text": "the",
+          "start": 108.04,
+          "end": 108.14
+        },
+        {
+          "id": "p12w13",
+          "text": "door",
+          "start": 108.14,
+          "end": 108.34
+        },
+        {
+          "id": "p12w14",
+          "text": "closed",
+          "start": 108.34,
+          "end": 108.76
+        },
+        {
+          "id": "p12w15",
+          "text": "and",
+          "start": 108.76,
+          "end": 109.9
+        },
+        {
+          "id": "p12w16",
+          "text": "disappeared.",
+          "start": 109.9,
+          "end": 110.32
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 112.1,
+      "end": 118.64,
+      "text": "Then they got on their horses and rode away. Ali Baba climbed down the tree.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Then",
+          "start": 112.1,
+          "end": 112.36
+        },
+        {
+          "id": "p13w2",
+          "text": "they",
+          "start": 112.36,
+          "end": 112.56
+        },
+        {
+          "id": "p13w3",
+          "text": "got",
+          "start": 112.56,
+          "end": 112.7
+        },
+        {
+          "id": "p13w4",
+          "text": "on",
+          "start": 112.7,
+          "end": 112.86
+        },
+        {
+          "id": "p13w5",
+          "text": "their",
+          "start": 112.86,
+          "end": 113.0
+        },
+        {
+          "id": "p13w6",
+          "text": "horses",
+          "start": 113.0,
+          "end": 113.3
+        },
+        {
+          "id": "p13w7",
+          "text": "and",
+          "start": 113.3,
+          "end": 114.12
+        },
+        {
+          "id": "p13w8",
+          "text": "rode",
+          "start": 114.12,
+          "end": 114.28
+        },
+        {
+          "id": "p13w9",
+          "text": "away.",
+          "start": 114.28,
+          "end": 114.58
+        },
+        {
+          "id": "p13w10",
+          "text": "Ali",
+          "start": 116.48,
+          "end": 116.8
+        },
+        {
+          "id": "p13w11",
+          "text": "Baba",
+          "start": 116.8,
+          "end": 117.3
+        },
+        {
+          "id": "p13w12",
+          "text": "climbed",
+          "start": 117.3,
+          "end": 117.64
+        },
+        {
+          "id": "p13w13",
+          "text": "down",
+          "start": 117.64,
+          "end": 118.16
+        },
+        {
+          "id": "p13w14",
+          "text": "the",
+          "start": 118.16,
+          "end": 118.4
+        },
+        {
+          "id": "p13w15",
+          "text": "tree.",
+          "start": 118.4,
+          "end": 118.64
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 119.63,
+      "end": 124.69,
+      "text": "I'll try those magic words. Perhaps there is treasure in the cave. He thought.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "I'll",
+          "start": 119.63,
+          "end": 120.11
+        },
+        {
+          "id": "p14w2",
+          "text": "try",
+          "start": 120.11,
+          "end": 120.35
+        },
+        {
+          "id": "p14w3",
+          "text": "those",
+          "start": 120.35,
+          "end": 120.65
+        },
+        {
+          "id": "p14w4",
+          "text": "magic",
+          "start": 120.65,
+          "end": 121.03
+        },
+        {
+          "id": "p14w5",
+          "text": "words.",
+          "start": 121.03,
+          "end": 121.37
+        },
+        {
+          "id": "p14w6",
+          "text": "Perhaps",
+          "start": 122.21,
+          "end": 122.53
+        },
+        {
+          "id": "p14w7",
+          "text": "there",
+          "start": 122.53,
+          "end": 122.85
+        },
+        {
+          "id": "p14w8",
+          "text": "is",
+          "start": 122.85,
+          "end": 123.01
+        },
+        {
+          "id": "p14w9",
+          "text": "treasure",
+          "start": 123.01,
+          "end": 123.27
+        },
+        {
+          "id": "p14w10",
+          "text": "in",
+          "start": 123.27,
+          "end": 123.59
+        },
+        {
+          "id": "p14w11",
+          "text": "the",
+          "start": 123.59,
+          "end": 123.73
+        },
+        {
+          "id": "p14w12",
+          "text": "cave.",
+          "start": 123.73,
+          "end": 124.01
+        },
+        {
+          "id": "p14w13",
+          "text": "He",
+          "start": 124.37,
+          "end": 124.49
+        },
+        {
+          "id": "p14w14",
+          "text": "thought.",
+          "start": 124.49,
+          "end": 124.69
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 125.76,
+      "end": 135.1,
+      "text": "Open Sesame! He said, and the door in the rock opened. It wasn't very dark inside the cave, so he could see well.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "Open",
+          "start": 125.76,
+          "end": 126.1
+        },
+        {
+          "id": "p15w2",
+          "text": "Sesame!",
+          "start": 126.1,
+          "end": 126.74
+        },
+        {
+          "id": "p15w3",
+          "text": "He",
+          "start": 127.32,
+          "end": 127.76
+        },
+        {
+          "id": "p15w4",
+          "text": "said,",
+          "start": 127.76,
+          "end": 128.04
+        },
+        {
+          "id": "p15w5",
+          "text": "and",
+          "start": 128.7,
+          "end": 128.82
+        },
+        {
+          "id": "p15w6",
+          "text": "the",
+          "start": 128.82,
+          "end": 128.96
+        },
+        {
+          "id": "p15w7",
+          "text": "door",
+          "start": 128.96,
+          "end": 129.14
+        },
+        {
+          "id": "p15w8",
+          "text": "in",
+          "start": 129.14,
+          "end": 129.32
+        },
+        {
+          "id": "p15w9",
+          "text": "the",
+          "start": 129.32,
+          "end": 129.42
+        },
+        {
+          "id": "p15w10",
+          "text": "rock",
+          "start": 129.42,
+          "end": 129.64
+        },
+        {
+          "id": "p15w11",
+          "text": "opened.",
+          "start": 129.64,
+          "end": 130.08
+        },
+        {
+          "id": "p15w12",
+          "text": "It",
+          "start": 131.7,
+          "end": 131.82
+        },
+        {
+          "id": "p15w13",
+          "text": "wasn't",
+          "start": 131.82,
+          "end": 132.18
+        },
+        {
+          "id": "p15w14",
+          "text": "very",
+          "start": 132.18,
+          "end": 132.38
+        },
+        {
+          "id": "p15w15",
+          "text": "dark",
+          "start": 132.38,
+          "end": 132.7
+        },
+        {
+          "id": "p15w16",
+          "text": "inside",
+          "start": 132.7,
+          "end": 133.02
+        },
+        {
+          "id": "p15w17",
+          "text": "the",
+          "start": 133.02,
+          "end": 133.36
+        },
+        {
+          "id": "p15w18",
+          "text": "cave,",
+          "start": 133.36,
+          "end": 133.58
+        },
+        {
+          "id": "p15w19",
+          "text": "so",
+          "start": 134.06,
+          "end": 134.26
+        },
+        {
+          "id": "p15w20",
+          "text": "he",
+          "start": 134.26,
+          "end": 134.38
+        },
+        {
+          "id": "p15w21",
+          "text": "could",
+          "start": 134.38,
+          "end": 134.48
+        },
+        {
+          "id": "p15w22",
+          "text": "see",
+          "start": 134.48,
+          "end": 134.72
+        },
+        {
+          "id": "p15w23",
+          "text": "well.",
+          "start": 134.72,
+          "end": 135.1
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 136.14,
+      "end": 145.95,
+      "text": "There were bags of precious tunes, rubies, sapphires and emeralds. There were beautiful carpets and silk cloth.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "There",
+          "start": 136.14,
+          "end": 136.42
+        },
+        {
+          "id": "p16w2",
+          "text": "were",
+          "start": 136.42,
+          "end": 136.54
+        },
+        {
+          "id": "p16w3",
+          "text": "bags",
+          "start": 136.54,
+          "end": 136.78
+        },
+        {
+          "id": "p16w4",
+          "text": "of",
+          "start": 136.78,
+          "end": 137.2
+        },
+        {
+          "id": "p16w5",
+          "text": "precious",
+          "start": 137.2,
+          "end": 137.6
+        },
+        {
+          "id": "p16w6",
+          "text": "tunes,",
+          "start": 137.6,
+          "end": 138.18
+        },
+        {
+          "id": "p16w7",
+          "text": "rubies,",
+          "start": 138.96,
+          "end": 139.58
+        },
+        {
+          "id": "p16w8",
+          "text": "sapphires",
+          "start": 140.3,
+          "end": 140.94
+        },
+        {
+          "id": "p16w9",
+          "text": "and",
+          "start": 140.94,
+          "end": 141.2
+        },
+        {
+          "id": "p16w10",
+          "text": "emeralds.",
+          "start": 141.2,
+          "end": 141.98
+        },
+        {
+          "id": "p16w11",
+          "text": "There",
+          "start": 142.73,
+          "end": 143.03
+        },
+        {
+          "id": "p16w12",
+          "text": "were",
+          "start": 143.03,
+          "end": 143.15
+        },
+        {
+          "id": "p16w13",
+          "text": "beautiful",
+          "start": 143.15,
+          "end": 143.45
+        },
+        {
+          "id": "p16w14",
+          "text": "carpets",
+          "start": 143.45,
+          "end": 144.43
+        },
+        {
+          "id": "p16w15",
+          "text": "and",
+          "start": 144.43,
+          "end": 145.21
+        },
+        {
+          "id": "p16w16",
+          "text": "silk",
+          "start": 145.21,
+          "end": 145.55
+        },
+        {
+          "id": "p16w17",
+          "text": "cloth.",
+          "start": 145.55,
+          "end": 145.95
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 145.95,
+      "end": 157.81,
+      "text": "There were chests full of gold and silver coins. Ali Baba went back to his donkeys, took his bags and went inside the cave.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "There",
+          "start": 145.95,
+          "end": 146.43
+        },
+        {
+          "id": "p17w2",
+          "text": "were",
+          "start": 146.66,
+          "end": 147.52
+        },
+        {
+          "id": "p17w3",
+          "text": "chests",
+          "start": 147.52,
+          "end": 147.74
+        },
+        {
+          "id": "p17w4",
+          "text": "full",
+          "start": 147.74,
+          "end": 148.34
+        },
+        {
+          "id": "p17w5",
+          "text": "of",
+          "start": 148.34,
+          "end": 148.7
+        },
+        {
+          "id": "p17w6",
+          "text": "gold",
+          "start": 148.7,
+          "end": 149.06
+        },
+        {
+          "id": "p17w7",
+          "text": "and",
+          "start": 149.06,
+          "end": 149.58
+        },
+        {
+          "id": "p17w8",
+          "text": "silver",
+          "start": 149.58,
+          "end": 149.94
+        },
+        {
+          "id": "p17w9",
+          "text": "coins.",
+          "start": 149.94,
+          "end": 150.44
+        },
+        {
+          "id": "p17w10",
+          "text": "Ali",
+          "start": 152.29,
+          "end": 152.59
+        },
+        {
+          "id": "p17w11",
+          "text": "Baba",
+          "start": 152.59,
+          "end": 153.09
+        },
+        {
+          "id": "p17w12",
+          "text": "went",
+          "start": 153.09,
+          "end": 153.27
+        },
+        {
+          "id": "p17w13",
+          "text": "back",
+          "start": 153.27,
+          "end": 153.53
+        },
+        {
+          "id": "p17w14",
+          "text": "to",
+          "start": 153.53,
+          "end": 153.73
+        },
+        {
+          "id": "p17w15",
+          "text": "his",
+          "start": 153.73,
+          "end": 153.87
+        },
+        {
+          "id": "p17w16",
+          "text": "donkeys,",
+          "start": 153.87,
+          "end": 154.25
+        },
+        {
+          "id": "p17w17",
+          "text": "took",
+          "start": 154.93,
+          "end": 155.11
+        },
+        {
+          "id": "p17w18",
+          "text": "his",
+          "start": 155.11,
+          "end": 155.33
+        },
+        {
+          "id": "p17w19",
+          "text": "bags",
+          "start": 155.33,
+          "end": 155.57
+        },
+        {
+          "id": "p17w20",
+          "text": "and",
+          "start": 155.57,
+          "end": 156.61
+        },
+        {
+          "id": "p17w21",
+          "text": "went",
+          "start": 156.61,
+          "end": 156.75
+        },
+        {
+          "id": "p17w22",
+          "text": "inside",
+          "start": 156.75,
+          "end": 157.23
+        },
+        {
+          "id": "p17w23",
+          "text": "the",
+          "start": 157.23,
+          "end": 157.57
+        },
+        {
+          "id": "p17w24",
+          "text": "cave.",
+          "start": 157.57,
+          "end": 157.81
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 159.82,
+      "end": 166.11,
+      "text": "He filled his bags as quickly as he could with coins. Then he hid them under some wood on his donkeys.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "He",
+          "start": 159.82,
+          "end": 160.06
+        },
+        {
+          "id": "p18w2",
+          "text": "filled",
+          "start": 160.06,
+          "end": 160.28
+        },
+        {
+          "id": "p18w3",
+          "text": "his",
+          "start": 160.28,
+          "end": 160.62
+        },
+        {
+          "id": "p18w4",
+          "text": "bags",
+          "start": 160.62,
+          "end": 160.86
+        },
+        {
+          "id": "p18w5",
+          "text": "as",
+          "start": 160.86,
+          "end": 161.26
+        },
+        {
+          "id": "p18w6",
+          "text": "quickly",
+          "start": 161.26,
+          "end": 161.6
+        },
+        {
+          "id": "p18w7",
+          "text": "as",
+          "start": 161.6,
+          "end": 161.92
+        },
+        {
+          "id": "p18w8",
+          "text": "he",
+          "start": 161.92,
+          "end": 162.02
+        },
+        {
+          "id": "p18w9",
+          "text": "could",
+          "start": 162.02,
+          "end": 162.22
+        },
+        {
+          "id": "p18w10",
+          "text": "with",
+          "start": 162.22,
+          "end": 162.4
+        },
+        {
+          "id": "p18w11",
+          "text": "coins.",
+          "start": 162.4,
+          "end": 162.6
+        },
+        {
+          "id": "p18w12",
+          "text": "Then",
+          "start": 163.91,
+          "end": 164.17
+        },
+        {
+          "id": "p18w13",
+          "text": "he",
+          "start": 164.17,
+          "end": 164.43
+        },
+        {
+          "id": "p18w14",
+          "text": "hid",
+          "start": 164.43,
+          "end": 164.61
+        },
+        {
+          "id": "p18w15",
+          "text": "them",
+          "start": 164.61,
+          "end": 164.77
+        },
+        {
+          "id": "p18w16",
+          "text": "under",
+          "start": 164.77,
+          "end": 164.93
+        },
+        {
+          "id": "p18w17",
+          "text": "some",
+          "start": 164.93,
+          "end": 165.17
+        },
+        {
+          "id": "p18w18",
+          "text": "wood",
+          "start": 165.17,
+          "end": 165.39
+        },
+        {
+          "id": "p18w19",
+          "text": "on",
+          "start": 165.39,
+          "end": 165.59
+        },
+        {
+          "id": "p18w20",
+          "text": "his",
+          "start": 165.59,
+          "end": 165.73
+        },
+        {
+          "id": "p18w21",
+          "text": "donkeys.",
+          "start": 165.73,
+          "end": 166.11
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 167.58,
+      "end": 178.58,
+      "text": "Shut Sesame! He said. And the door closed. When he arrived home and showed his wife the gold coins, her eyes became as big as dinner plates.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "Shut",
+          "start": 167.58,
+          "end": 168.1
+        },
+        {
+          "id": "p19w2",
+          "text": "Sesame!",
+          "start": 168.1,
+          "end": 168.62
+        },
+        {
+          "id": "p19w3",
+          "text": "He",
+          "start": 169.12,
+          "end": 169.26
+        },
+        {
+          "id": "p19w4",
+          "text": "said.",
+          "start": 169.26,
+          "end": 169.5
+        },
+        {
+          "id": "p19w5",
+          "text": "And",
+          "start": 170.52,
+          "end": 170.58
+        },
+        {
+          "id": "p19w6",
+          "text": "the",
+          "start": 170.58,
+          "end": 170.68
+        },
+        {
+          "id": "p19w7",
+          "text": "door",
+          "start": 170.68,
+          "end": 170.84
+        },
+        {
+          "id": "p19w8",
+          "text": "closed.",
+          "start": 170.84,
+          "end": 171.06
+        },
+        {
+          "id": "p19w9",
+          "text": "When",
+          "start": 172.74,
+          "end": 172.88
+        },
+        {
+          "id": "p19w10",
+          "text": "he",
+          "start": 172.88,
+          "end": 173.04
+        },
+        {
+          "id": "p19w11",
+          "text": "arrived",
+          "start": 173.04,
+          "end": 173.28
+        },
+        {
+          "id": "p19w12",
+          "text": "home",
+          "start": 173.28,
+          "end": 173.62
+        },
+        {
+          "id": "p19w13",
+          "text": "and",
+          "start": 173.62,
+          "end": 173.88
+        },
+        {
+          "id": "p19w14",
+          "text": "showed",
+          "start": 173.88,
+          "end": 174.08
+        },
+        {
+          "id": "p19w15",
+          "text": "his",
+          "start": 174.08,
+          "end": 174.32
+        },
+        {
+          "id": "p19w16",
+          "text": "wife",
+          "start": 174.32,
+          "end": 174.54
+        },
+        {
+          "id": "p19w17",
+          "text": "the",
+          "start": 174.54,
+          "end": 174.84
+        },
+        {
+          "id": "p19w18",
+          "text": "gold",
+          "start": 174.84,
+          "end": 175.02
+        },
+        {
+          "id": "p19w19",
+          "text": "coins,",
+          "start": 175.02,
+          "end": 175.44
+        },
+        {
+          "id": "p19w20",
+          "text": "her",
+          "start": 176.16,
+          "end": 176.52
+        },
+        {
+          "id": "p19w21",
+          "text": "eyes",
+          "start": 176.52,
+          "end": 176.94
+        },
+        {
+          "id": "p19w22",
+          "text": "became",
+          "start": 176.94,
+          "end": 177.26
+        },
+        {
+          "id": "p19w23",
+          "text": "as",
+          "start": 177.26,
+          "end": 177.56
+        },
+        {
+          "id": "p19w24",
+          "text": "big",
+          "start": 177.56,
+          "end": 177.78
+        },
+        {
+          "id": "p19w25",
+          "text": "as",
+          "start": 177.78,
+          "end": 178.1
+        },
+        {
+          "id": "p19w26",
+          "text": "dinner",
+          "start": 178.1,
+          "end": 178.32
+        },
+        {
+          "id": "p19w27",
+          "text": "plates.",
+          "start": 178.32,
+          "end": 178.58
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 179.56,
+      "end": 181.16,
+      "text": "She started counting them.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "She",
+          "start": 179.56,
+          "end": 180.12
+        },
+        {
+          "id": "p20w2",
+          "text": "started",
+          "start": 180.12,
+          "end": 180.46
+        },
+        {
+          "id": "p20w3",
+          "text": "counting",
+          "start": 180.46,
+          "end": 180.8
+        },
+        {
+          "id": "p20w4",
+          "text": "them.",
+          "start": 180.8,
+          "end": 181.16
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 181.96,
+      "end": 182.82,
+      "text": "Stupid woman!",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "Stupid",
+          "start": 181.96,
+          "end": 182.36
+        },
+        {
+          "id": "p21w2",
+          "text": "woman!",
+          "start": 182.36,
+          "end": 182.82
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 183.3,
+      "end": 184.32,
+      "text": "Said Ali Baba.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "Said",
+          "start": 183.3,
+          "end": 183.58
+        },
+        {
+          "id": "p22w2",
+          "text": "Ali",
+          "start": 183.58,
+          "end": 183.82
+        },
+        {
+          "id": "p22w3",
+          "text": "Baba.",
+          "start": 183.82,
+          "end": 184.32
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 184.62,
+      "end": 190.34,
+      "text": "Go and get the scales from your sister-in-law. We must weigh them. There are too many to count.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "Go",
+          "start": 184.62,
+          "end": 184.96
+        },
+        {
+          "id": "p23w2",
+          "text": "and",
+          "start": 184.96,
+          "end": 185.14
+        },
+        {
+          "id": "p23w3",
+          "text": "get",
+          "start": 185.14,
+          "end": 185.3
+        },
+        {
+          "id": "p23w4",
+          "text": "the",
+          "start": 185.3,
+          "end": 185.46
+        },
+        {
+          "id": "p23w5",
+          "text": "scales",
+          "start": 185.46,
+          "end": 185.66
+        },
+        {
+          "id": "p23w6",
+          "text": "from",
+          "start": 185.66,
+          "end": 186.1
+        },
+        {
+          "id": "p23w7",
+          "text": "your",
+          "start": 186.1,
+          "end": 186.26
+        },
+        {
+          "id": "p23w8",
+          "text": "sister",
+          "start": 186.26,
+          "end": 186.48
+        },
+        {
+          "id": "p23w9",
+          "text": "-in",
+          "start": 186.48,
+          "end": 186.82
+        },
+        {
+          "id": "p23w10",
+          "text": "-law.",
+          "start": 186.82,
+          "end": 187.02
+        },
+        {
+          "id": "p23w11",
+          "text": "We",
+          "start": 187.54,
+          "end": 187.76
+        },
+        {
+          "id": "p23w12",
+          "text": "must",
+          "start": 187.76,
+          "end": 187.92
+        },
+        {
+          "id": "p23w13",
+          "text": "weigh",
+          "start": 187.92,
+          "end": 188.22
+        },
+        {
+          "id": "p23w14",
+          "text": "them.",
+          "start": 188.22,
+          "end": 188.5
+        },
+        {
+          "id": "p23w15",
+          "text": "There",
+          "start": 189.2,
+          "end": 189.24
+        },
+        {
+          "id": "p23w16",
+          "text": "are",
+          "start": 189.24,
+          "end": 189.36
+        },
+        {
+          "id": "p23w17",
+          "text": "too",
+          "start": 189.36,
+          "end": 189.6
+        },
+        {
+          "id": "p23w18",
+          "text": "many",
+          "start": 189.6,
+          "end": 189.86
+        },
+        {
+          "id": "p23w19",
+          "text": "to",
+          "start": 189.86,
+          "end": 190.08
+        },
+        {
+          "id": "p23w20",
+          "text": "count.",
+          "start": 190.08,
+          "end": 190.34
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 192.39,
+      "end": 199.49,
+      "text": "Ali Baba's wife went to Kazim's house and asked for the scales. Her sister-in-law was surprised.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "Ali",
+          "start": 192.39,
+          "end": 192.73
+        },
+        {
+          "id": "p24w2",
+          "text": "Baba's",
+          "start": 192.73,
+          "end": 193.21
+        },
+        {
+          "id": "p24w3",
+          "text": "wife",
+          "start": 193.21,
+          "end": 193.41
+        },
+        {
+          "id": "p24w4",
+          "text": "went",
+          "start": 193.41,
+          "end": 194.07
+        },
+        {
+          "id": "p24w5",
+          "text": "to",
+          "start": 194.07,
+          "end": 194.35
+        },
+        {
+          "id": "p24w6",
+          "text": "Kazim's",
+          "start": 194.35,
+          "end": 194.93
+        },
+        {
+          "id": "p24w7",
+          "text": "house",
+          "start": 194.93,
+          "end": 195.15
+        },
+        {
+          "id": "p24w8",
+          "text": "and",
+          "start": 195.15,
+          "end": 195.69
+        },
+        {
+          "id": "p24w9",
+          "text": "asked",
+          "start": 195.69,
+          "end": 195.99
+        },
+        {
+          "id": "p24w10",
+          "text": "for",
+          "start": 195.99,
+          "end": 196.45
+        },
+        {
+          "id": "p24w11",
+          "text": "the",
+          "start": 196.45,
+          "end": 196.55
+        },
+        {
+          "id": "p24w12",
+          "text": "scales.",
+          "start": 196.55,
+          "end": 196.77
+        },
+        {
+          "id": "p24w13",
+          "text": "Her",
+          "start": 197.95,
+          "end": 198.29
+        },
+        {
+          "id": "p24w14",
+          "text": "sister",
+          "start": 198.29,
+          "end": 198.57
+        },
+        {
+          "id": "p24w15",
+          "text": "-in",
+          "start": 198.57,
+          "end": 198.81
+        },
+        {
+          "id": "p24w16",
+          "text": "-law",
+          "start": 198.81,
+          "end": 198.97
+        },
+        {
+          "id": "p24w17",
+          "text": "was",
+          "start": 198.97,
+          "end": 199.11
+        },
+        {
+          "id": "p24w18",
+          "text": "surprised.",
+          "start": 199.11,
+          "end": 199.49
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 200.27,
+      "end": 202.49,
+      "text": "Ali Baba is a poor man.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "Ali",
+          "start": 200.27,
+          "end": 200.83
+        },
+        {
+          "id": "p25w2",
+          "text": "Baba",
+          "start": 200.83,
+          "end": 201.39
+        },
+        {
+          "id": "p25w3",
+          "text": "is",
+          "start": 201.39,
+          "end": 201.55
+        },
+        {
+          "id": "p25w4",
+          "text": "a",
+          "start": 201.55,
+          "end": 201.69
+        },
+        {
+          "id": "p25w5",
+          "text": "poor",
+          "start": 201.69,
+          "end": 201.97
+        },
+        {
+          "id": "p25w6",
+          "text": "man.",
+          "start": 201.97,
+          "end": 202.49
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 202.81,
+      "end": 203.33,
+      "text": "She thought.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "She",
+          "start": 202.81,
+          "end": 203.01
+        },
+        {
+          "id": "p26w2",
+          "text": "thought.",
+          "start": 203.01,
+          "end": 203.33
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 204.07,
+      "end": 205.15,
+      "text": "What does he want to weigh?",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "What",
+          "start": 204.07,
+          "end": 204.07
+        },
+        {
+          "id": "p27w2",
+          "text": "does",
+          "start": 204.07,
+          "end": 204.29
+        },
+        {
+          "id": "p27w3",
+          "text": "he",
+          "start": 204.29,
+          "end": 204.45
+        },
+        {
+          "id": "p27w4",
+          "text": "want",
+          "start": 204.45,
+          "end": 204.65
+        },
+        {
+          "id": "p27w5",
+          "text": "to",
+          "start": 204.65,
+          "end": 204.91
+        },
+        {
+          "id": "p27w6",
+          "text": "weigh?",
+          "start": 204.91,
+          "end": 205.15
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 206.14,
+      "end": 213.22,
+      "text": "Before giving the scales to Ali Baba's wife, she took the cup and put some wax on the bottom of it.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "Before",
+          "start": 206.14,
+          "end": 206.7
+        },
+        {
+          "id": "p28w2",
+          "text": "giving",
+          "start": 206.7,
+          "end": 207.08
+        },
+        {
+          "id": "p28w3",
+          "text": "the",
+          "start": 207.08,
+          "end": 207.3
+        },
+        {
+          "id": "p28w4",
+          "text": "scales",
+          "start": 207.3,
+          "end": 207.66
+        },
+        {
+          "id": "p28w5",
+          "text": "to",
+          "start": 207.66,
+          "end": 207.98
+        },
+        {
+          "id": "p28w6",
+          "text": "Ali",
+          "start": 207.98,
+          "end": 208.22
+        },
+        {
+          "id": "p28w7",
+          "text": "Baba's",
+          "start": 208.22,
+          "end": 208.74
+        },
+        {
+          "id": "p28w8",
+          "text": "wife,",
+          "start": 208.74,
+          "end": 208.96
+        },
+        {
+          "id": "p28w9",
+          "text": "she",
+          "start": 209.72,
+          "end": 209.92
+        },
+        {
+          "id": "p28w10",
+          "text": "took",
+          "start": 209.92,
+          "end": 210.14
+        },
+        {
+          "id": "p28w11",
+          "text": "the",
+          "start": 210.14,
+          "end": 210.34
+        },
+        {
+          "id": "p28w12",
+          "text": "cup",
+          "start": 210.34,
+          "end": 210.54
+        },
+        {
+          "id": "p28w13",
+          "text": "and",
+          "start": 210.54,
+          "end": 211.32
+        },
+        {
+          "id": "p28w14",
+          "text": "put",
+          "start": 211.32,
+          "end": 211.56
+        },
+        {
+          "id": "p28w15",
+          "text": "some",
+          "start": 211.56,
+          "end": 211.8
+        },
+        {
+          "id": "p28w16",
+          "text": "wax",
+          "start": 211.8,
+          "end": 212.1
+        },
+        {
+          "id": "p28w17",
+          "text": "on",
+          "start": 212.1,
+          "end": 212.5
+        },
+        {
+          "id": "p28w18",
+          "text": "the",
+          "start": 212.5,
+          "end": 212.6
+        },
+        {
+          "id": "p28w19",
+          "text": "bottom",
+          "start": 212.6,
+          "end": 212.9
+        },
+        {
+          "id": "p28w20",
+          "text": "of",
+          "start": 212.9,
+          "end": 213.04
+        },
+        {
+          "id": "p28w21",
+          "text": "it.",
+          "start": 213.04,
+          "end": 213.22
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 214.91,
+      "end": 221.09,
+      "text": "When Ali Baba's wife brought the scales back the next day, her sister-in-law looked at the cup carefully.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "When",
+          "start": 214.91,
+          "end": 215.15
+        },
+        {
+          "id": "p29w2",
+          "text": "Ali",
+          "start": 215.15,
+          "end": 215.35
+        },
+        {
+          "id": "p29w3",
+          "text": "Baba's",
+          "start": 215.35,
+          "end": 215.77
+        },
+        {
+          "id": "p29w4",
+          "text": "wife",
+          "start": 215.77,
+          "end": 216.01
+        },
+        {
+          "id": "p29w5",
+          "text": "brought",
+          "start": 216.01,
+          "end": 216.29
+        },
+        {
+          "id": "p29w6",
+          "text": "the",
+          "start": 216.29,
+          "end": 216.47
+        },
+        {
+          "id": "p29w7",
+          "text": "scales",
+          "start": 216.47,
+          "end": 216.75
+        },
+        {
+          "id": "p29w8",
+          "text": "back",
+          "start": 216.75,
+          "end": 217.13
+        },
+        {
+          "id": "p29w9",
+          "text": "the",
+          "start": 217.13,
+          "end": 217.69
+        },
+        {
+          "id": "p29w10",
+          "text": "next",
+          "start": 217.69,
+          "end": 217.89
+        },
+        {
+          "id": "p29w11",
+          "text": "day,",
+          "start": 217.89,
+          "end": 218.27
+        },
+        {
+          "id": "p29w12",
+          "text": "her",
+          "start": 218.99,
+          "end": 219.15
+        },
+        {
+          "id": "p29w13",
+          "text": "sister",
+          "start": 219.15,
+          "end": 219.49
+        },
+        {
+          "id": "p29w14",
+          "text": "-in",
+          "start": 219.49,
+          "end": 219.67
+        },
+        {
+          "id": "p29w15",
+          "text": "-law",
+          "start": 219.67,
+          "end": 219.83
+        },
+        {
+          "id": "p29w16",
+          "text": "looked",
+          "start": 219.83,
+          "end": 220.11
+        },
+        {
+          "id": "p29w17",
+          "text": "at",
+          "start": 220.11,
+          "end": 220.31
+        },
+        {
+          "id": "p29w18",
+          "text": "the",
+          "start": 220.31,
+          "end": 220.43
+        },
+        {
+          "id": "p29w19",
+          "text": "cup",
+          "start": 220.43,
+          "end": 220.63
+        },
+        {
+          "id": "p29w20",
+          "text": "carefully.",
+          "start": 220.63,
+          "end": 221.09
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 222.24,
+      "end": 228.47,
+      "text": "There was a gold coin sticking to the wax. That evening, she said to her husband.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "There",
+          "start": 222.24,
+          "end": 222.52
+        },
+        {
+          "id": "p30w2",
+          "text": "was",
+          "start": 222.52,
+          "end": 222.64
+        },
+        {
+          "id": "p30w3",
+          "text": "a",
+          "start": 222.64,
+          "end": 222.78
+        },
+        {
+          "id": "p30w4",
+          "text": "gold",
+          "start": 222.78,
+          "end": 222.98
+        },
+        {
+          "id": "p30w5",
+          "text": "coin",
+          "start": 222.98,
+          "end": 223.5
+        },
+        {
+          "id": "p30w6",
+          "text": "sticking",
+          "start": 223.5,
+          "end": 224.08
+        },
+        {
+          "id": "p30w7",
+          "text": "to",
+          "start": 224.08,
+          "end": 224.44
+        },
+        {
+          "id": "p30w8",
+          "text": "the",
+          "start": 224.44,
+          "end": 224.54
+        },
+        {
+          "id": "p30w9",
+          "text": "wax.",
+          "start": 224.54,
+          "end": 224.74
+        },
+        {
+          "id": "p30w10",
+          "text": "That",
+          "start": 225.95,
+          "end": 226.37
+        },
+        {
+          "id": "p30w11",
+          "text": "evening,",
+          "start": 226.37,
+          "end": 226.65
+        },
+        {
+          "id": "p30w12",
+          "text": "she",
+          "start": 227.43,
+          "end": 227.63
+        },
+        {
+          "id": "p30w13",
+          "text": "said",
+          "start": 227.63,
+          "end": 227.85
+        },
+        {
+          "id": "p30w14",
+          "text": "to",
+          "start": 227.85,
+          "end": 228.03
+        },
+        {
+          "id": "p30w15",
+          "text": "her",
+          "start": 228.03,
+          "end": 228.17
+        },
+        {
+          "id": "p30w16",
+          "text": "husband.",
+          "start": 228.17,
+          "end": 228.47
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 229.07,
+      "end": 236.49,
+      "text": "You think you are rich, but Ali Baba has more gold than you. He doesn't count his money. He weighs it.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "You",
+          "start": 229.07,
+          "end": 229.33
+        },
+        {
+          "id": "p31w2",
+          "text": "think",
+          "start": 229.33,
+          "end": 229.61
+        },
+        {
+          "id": "p31w3",
+          "text": "you",
+          "start": 229.61,
+          "end": 230.03
+        },
+        {
+          "id": "p31w4",
+          "text": "are",
+          "start": 230.03,
+          "end": 230.29
+        },
+        {
+          "id": "p31w5",
+          "text": "rich,",
+          "start": 230.29,
+          "end": 230.55
+        },
+        {
+          "id": "p31w6",
+          "text": "but",
+          "start": 230.97,
+          "end": 231.15
+        },
+        {
+          "id": "p31w7",
+          "text": "Ali",
+          "start": 231.15,
+          "end": 231.39
+        },
+        {
+          "id": "p31w8",
+          "text": "Baba",
+          "start": 231.39,
+          "end": 231.95
+        },
+        {
+          "id": "p31w9",
+          "text": "has",
+          "start": 231.95,
+          "end": 232.13
+        },
+        {
+          "id": "p31w10",
+          "text": "more",
+          "start": 232.13,
+          "end": 232.43
+        },
+        {
+          "id": "p31w11",
+          "text": "gold",
+          "start": 232.43,
+          "end": 232.65
+        },
+        {
+          "id": "p31w12",
+          "text": "than",
+          "start": 232.65,
+          "end": 232.99
+        },
+        {
+          "id": "p31w13",
+          "text": "you.",
+          "start": 232.99,
+          "end": 233.27
+        },
+        {
+          "id": "p31w14",
+          "text": "He",
+          "start": 233.95,
+          "end": 234.13
+        },
+        {
+          "id": "p31w15",
+          "text": "doesn't",
+          "start": 234.13,
+          "end": 234.55
+        },
+        {
+          "id": "p31w16",
+          "text": "count",
+          "start": 234.55,
+          "end": 234.79
+        },
+        {
+          "id": "p31w17",
+          "text": "his",
+          "start": 234.79,
+          "end": 235.15
+        },
+        {
+          "id": "p31w18",
+          "text": "money.",
+          "start": 235.15,
+          "end": 235.39
+        },
+        {
+          "id": "p31w19",
+          "text": "He",
+          "start": 235.79,
+          "end": 235.89
+        },
+        {
+          "id": "p31w20",
+          "text": "weighs",
+          "start": 235.89,
+          "end": 236.11
+        },
+        {
+          "id": "p31w21",
+          "text": "it.",
+          "start": 236.11,
+          "end": 236.49
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 238.13,
+      "end": 248.5,
+      "text": "Kazim didn't sleep that night. He thought about his brother's gold. The next morning, he went to Ali Baba's house and showed him the gold coin.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "Kazim",
+          "start": 238.13,
+          "end": 238.65
+        },
+        {
+          "id": "p32w2",
+          "text": "didn't",
+          "start": 238.65,
+          "end": 239.17
+        },
+        {
+          "id": "p32w3",
+          "text": "sleep",
+          "start": 239.17,
+          "end": 239.41
+        },
+        {
+          "id": "p32w4",
+          "text": "that",
+          "start": 239.41,
+          "end": 239.73
+        },
+        {
+          "id": "p32w5",
+          "text": "night.",
+          "start": 239.73,
+          "end": 240.05
+        },
+        {
+          "id": "p32w6",
+          "text": "He",
+          "start": 241.06,
+          "end": 241.18
+        },
+        {
+          "id": "p32w7",
+          "text": "thought",
+          "start": 241.18,
+          "end": 241.38
+        },
+        {
+          "id": "p32w8",
+          "text": "about",
+          "start": 241.38,
+          "end": 241.66
+        },
+        {
+          "id": "p32w9",
+          "text": "his",
+          "start": 241.66,
+          "end": 241.84
+        },
+        {
+          "id": "p32w10",
+          "text": "brother's",
+          "start": 241.84,
+          "end": 242.42
+        },
+        {
+          "id": "p32w11",
+          "text": "gold.",
+          "start": 242.42,
+          "end": 242.58
+        },
+        {
+          "id": "p32w12",
+          "text": "The",
+          "start": 243.76,
+          "end": 244.26
+        },
+        {
+          "id": "p32w13",
+          "text": "next",
+          "start": 244.26,
+          "end": 244.4
+        },
+        {
+          "id": "p32w14",
+          "text": "morning,",
+          "start": 244.4,
+          "end": 244.76
+        },
+        {
+          "id": "p32w15",
+          "text": "he",
+          "start": 245.24,
+          "end": 245.34
+        },
+        {
+          "id": "p32w16",
+          "text": "went",
+          "start": 245.34,
+          "end": 245.5
+        },
+        {
+          "id": "p32w17",
+          "text": "to",
+          "start": 245.5,
+          "end": 245.74
+        },
+        {
+          "id": "p32w18",
+          "text": "Ali",
+          "start": 245.74,
+          "end": 245.92
+        },
+        {
+          "id": "p32w19",
+          "text": "Baba's",
+          "start": 245.92,
+          "end": 246.44
+        },
+        {
+          "id": "p32w20",
+          "text": "house",
+          "start": 246.44,
+          "end": 246.68
+        },
+        {
+          "id": "p32w21",
+          "text": "and",
+          "start": 246.68,
+          "end": 247.36
+        },
+        {
+          "id": "p32w22",
+          "text": "showed",
+          "start": 247.36,
+          "end": 247.62
+        },
+        {
+          "id": "p32w23",
+          "text": "him",
+          "start": 247.62,
+          "end": 247.84
+        },
+        {
+          "id": "p32w24",
+          "text": "the",
+          "start": 247.84,
+          "end": 248.0
+        },
+        {
+          "id": "p32w25",
+          "text": "gold",
+          "start": 248.0,
+          "end": 248.16
+        },
+        {
+          "id": "p32w26",
+          "text": "coin.",
+          "start": 248.16,
+          "end": 248.5
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 249.82,
+      "end": 258.91,
+      "text": "He said, Brother, you say you are poor, but I know that you weigh your gold. My wife found this coin in the cup of the scales.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "He",
+          "start": 249.82,
+          "end": 250.1
+        },
+        {
+          "id": "p33w2",
+          "text": "said,",
+          "start": 250.1,
+          "end": 250.38
+        },
+        {
+          "id": "p33w3",
+          "text": "Brother,",
+          "start": 251.35,
+          "end": 251.51
+        },
+        {
+          "id": "p33w4",
+          "text": "you",
+          "start": 252.19,
+          "end": 252.45
+        },
+        {
+          "id": "p33w5",
+          "text": "say",
+          "start": 252.45,
+          "end": 252.75
+        },
+        {
+          "id": "p33w6",
+          "text": "you",
+          "start": 252.75,
+          "end": 252.99
+        },
+        {
+          "id": "p33w7",
+          "text": "are",
+          "start": 252.99,
+          "end": 253.13
+        },
+        {
+          "id": "p33w8",
+          "text": "poor,",
+          "start": 253.13,
+          "end": 253.37
+        },
+        {
+          "id": "p33w9",
+          "text": "but",
+          "start": 253.99,
+          "end": 254.11
+        },
+        {
+          "id": "p33w10",
+          "text": "I",
+          "start": 254.11,
+          "end": 254.31
+        },
+        {
+          "id": "p33w11",
+          "text": "know",
+          "start": 254.31,
+          "end": 254.53
+        },
+        {
+          "id": "p33w12",
+          "text": "that",
+          "start": 254.53,
+          "end": 254.73
+        },
+        {
+          "id": "p33w13",
+          "text": "you",
+          "start": 254.73,
+          "end": 254.91
+        },
+        {
+          "id": "p33w14",
+          "text": "weigh",
+          "start": 254.91,
+          "end": 255.13
+        },
+        {
+          "id": "p33w15",
+          "text": "your",
+          "start": 255.13,
+          "end": 255.43
+        },
+        {
+          "id": "p33w16",
+          "text": "gold.",
+          "start": 255.43,
+          "end": 255.69
+        },
+        {
+          "id": "p33w17",
+          "text": "My",
+          "start": 256.41,
+          "end": 256.57
+        },
+        {
+          "id": "p33w18",
+          "text": "wife",
+          "start": 256.57,
+          "end": 256.87
+        },
+        {
+          "id": "p33w19",
+          "text": "found",
+          "start": 256.87,
+          "end": 257.35
+        },
+        {
+          "id": "p33w20",
+          "text": "this",
+          "start": 257.35,
+          "end": 257.65
+        },
+        {
+          "id": "p33w21",
+          "text": "coin",
+          "start": 257.65,
+          "end": 257.93
+        },
+        {
+          "id": "p33w22",
+          "text": "in",
+          "start": 257.93,
+          "end": 258.19
+        },
+        {
+          "id": "p33w23",
+          "text": "the",
+          "start": 258.19,
+          "end": 258.29
+        },
+        {
+          "id": "p33w24",
+          "text": "cup",
+          "start": 258.29,
+          "end": 258.47
+        },
+        {
+          "id": "p33w25",
+          "text": "of",
+          "start": 258.47,
+          "end": 258.63
+        },
+        {
+          "id": "p33w26",
+          "text": "the",
+          "start": 258.63,
+          "end": 258.75
+        },
+        {
+          "id": "p33w27",
+          "text": "scales.",
+          "start": 258.75,
+          "end": 258.91
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 259.91,
+      "end": 260.83,
+      "text": "Where did you get it?",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "Where",
+          "start": 259.91,
+          "end": 260.11
+        },
+        {
+          "id": "p34w2",
+          "text": "did",
+          "start": 260.11,
+          "end": 260.33
+        },
+        {
+          "id": "p34w3",
+          "text": "you",
+          "start": 260.33,
+          "end": 260.45
+        },
+        {
+          "id": "p34w4",
+          "text": "get",
+          "start": 260.45,
+          "end": 260.63
+        },
+        {
+          "id": "p34w5",
+          "text": "it?",
+          "start": 260.63,
+          "end": 260.83
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 262.42,
+      "end": 267.44,
+      "text": "Ali Baba was an honest man, so he told Kazim about the cave in the forest.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "Ali",
+          "start": 262.42,
+          "end": 262.66
+        },
+        {
+          "id": "p35w2",
+          "text": "Baba",
+          "start": 262.66,
+          "end": 263.22
+        },
+        {
+          "id": "p35w3",
+          "text": "was",
+          "start": 263.22,
+          "end": 263.5
+        },
+        {
+          "id": "p35w4",
+          "text": "an",
+          "start": 263.5,
+          "end": 263.62
+        },
+        {
+          "id": "p35w5",
+          "text": "honest",
+          "start": 263.62,
+          "end": 263.92
+        },
+        {
+          "id": "p35w6",
+          "text": "man,",
+          "start": 263.92,
+          "end": 264.34
+        },
+        {
+          "id": "p35w7",
+          "text": "so",
+          "start": 264.84,
+          "end": 265.12
+        },
+        {
+          "id": "p35w8",
+          "text": "he",
+          "start": 265.12,
+          "end": 265.26
+        },
+        {
+          "id": "p35w9",
+          "text": "told",
+          "start": 265.26,
+          "end": 265.5
+        },
+        {
+          "id": "p35w10",
+          "text": "Kazim",
+          "start": 265.5,
+          "end": 266.08
+        },
+        {
+          "id": "p35w11",
+          "text": "about",
+          "start": 266.08,
+          "end": 266.34
+        },
+        {
+          "id": "p35w12",
+          "text": "the",
+          "start": 266.34,
+          "end": 266.54
+        },
+        {
+          "id": "p35w13",
+          "text": "cave",
+          "start": 266.54,
+          "end": 266.78
+        },
+        {
+          "id": "p35w14",
+          "text": "in",
+          "start": 266.78,
+          "end": 267.06
+        },
+        {
+          "id": "p35w15",
+          "text": "the",
+          "start": 267.06,
+          "end": 267.16
+        },
+        {
+          "id": "p35w16",
+          "text": "forest.",
+          "start": 267.16,
+          "end": 267.44
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 267.44,
+      "end": 283.46,
+      "text": "When he heard about the treasure, Kazim wanted some of the gold too. Without saying anything to his wife or Ali Baba, he took ten donkeys, each with two bags, and went to the forest.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "When",
+          "start": 267.44,
+          "end": 268.58
+        },
+        {
+          "id": "p36w2",
+          "text": "he",
+          "start": 269.09,
+          "end": 269.29
+        },
+        {
+          "id": "p36w3",
+          "text": "heard",
+          "start": 269.29,
+          "end": 269.51
+        },
+        {
+          "id": "p36w4",
+          "text": "about",
+          "start": 269.51,
+          "end": 269.77
+        },
+        {
+          "id": "p36w5",
+          "text": "the",
+          "start": 269.77,
+          "end": 269.93
+        },
+        {
+          "id": "p36w6",
+          "text": "treasure,",
+          "start": 269.93,
+          "end": 270.17
+        },
+        {
+          "id": "p36w7",
+          "text": "Kazim",
+          "start": 271.07,
+          "end": 271.51
+        },
+        {
+          "id": "p36w8",
+          "text": "wanted",
+          "start": 271.51,
+          "end": 271.93
+        },
+        {
+          "id": "p36w9",
+          "text": "some",
+          "start": 271.93,
+          "end": 272.19
+        },
+        {
+          "id": "p36w10",
+          "text": "of",
+          "start": 272.19,
+          "end": 272.31
+        },
+        {
+          "id": "p36w11",
+          "text": "the",
+          "start": 272.31,
+          "end": 272.43
+        },
+        {
+          "id": "p36w12",
+          "text": "gold",
+          "start": 272.43,
+          "end": 272.61
+        },
+        {
+          "id": "p36w13",
+          "text": "too.",
+          "start": 272.61,
+          "end": 273.17
+        },
+        {
+          "id": "p36w14",
+          "text": "Without",
+          "start": 274.32,
+          "end": 274.58
+        },
+        {
+          "id": "p36w15",
+          "text": "saying",
+          "start": 274.58,
+          "end": 275.08
+        },
+        {
+          "id": "p36w16",
+          "text": "anything",
+          "start": 275.08,
+          "end": 275.54
+        },
+        {
+          "id": "p36w17",
+          "text": "to",
+          "start": 275.54,
+          "end": 275.96
+        },
+        {
+          "id": "p36w18",
+          "text": "his",
+          "start": 275.96,
+          "end": 276.1
+        },
+        {
+          "id": "p36w19",
+          "text": "wife",
+          "start": 276.1,
+          "end": 276.36
+        },
+        {
+          "id": "p36w20",
+          "text": "or",
+          "start": 276.36,
+          "end": 277.16
+        },
+        {
+          "id": "p36w21",
+          "text": "Ali",
+          "start": 277.16,
+          "end": 277.54
+        },
+        {
+          "id": "p36w22",
+          "text": "Baba,",
+          "start": 277.54,
+          "end": 278.04
+        },
+        {
+          "id": "p36w23",
+          "text": "he",
+          "start": 278.56,
+          "end": 278.62
+        },
+        {
+          "id": "p36w24",
+          "text": "took",
+          "start": 278.62,
+          "end": 278.8
+        },
+        {
+          "id": "p36w25",
+          "text": "ten",
+          "start": 278.8,
+          "end": 279.24
+        },
+        {
+          "id": "p36w26",
+          "text": "donkeys,",
+          "start": 279.24,
+          "end": 279.88
+        },
+        {
+          "id": "p36w27",
+          "text": "each",
+          "start": 280.38,
+          "end": 280.62
+        },
+        {
+          "id": "p36w28",
+          "text": "with",
+          "start": 280.62,
+          "end": 280.88
+        },
+        {
+          "id": "p36w29",
+          "text": "two",
+          "start": 280.88,
+          "end": 281.22
+        },
+        {
+          "id": "p36w30",
+          "text": "bags,",
+          "start": 281.22,
+          "end": 281.62
+        },
+        {
+          "id": "p36w31",
+          "text": "and",
+          "start": 282.4,
+          "end": 282.6
+        },
+        {
+          "id": "p36w32",
+          "text": "went",
+          "start": 282.6,
+          "end": 282.84
+        },
+        {
+          "id": "p36w33",
+          "text": "to",
+          "start": 282.84,
+          "end": 283.14
+        },
+        {
+          "id": "p36w34",
+          "text": "the",
+          "start": 283.14,
+          "end": 283.24
+        },
+        {
+          "id": "p36w35",
+          "text": "forest.",
+          "start": 283.24,
+          "end": 283.46
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 285.12,
+      "end": 287.72,
+      "text": "He found the rock and said the magic words.",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "He",
+          "start": 285.12,
+          "end": 285.24
+        },
+        {
+          "id": "p37w2",
+          "text": "found",
+          "start": 285.24,
+          "end": 285.46
+        },
+        {
+          "id": "p37w3",
+          "text": "the",
+          "start": 285.46,
+          "end": 285.62
+        },
+        {
+          "id": "p37w4",
+          "text": "rock",
+          "start": 285.62,
+          "end": 285.8
+        },
+        {
+          "id": "p37w5",
+          "text": "and",
+          "start": 285.8,
+          "end": 286.46
+        },
+        {
+          "id": "p37w6",
+          "text": "said",
+          "start": 286.46,
+          "end": 286.8
+        },
+        {
+          "id": "p37w7",
+          "text": "the",
+          "start": 286.8,
+          "end": 287.1
+        },
+        {
+          "id": "p37w8",
+          "text": "magic",
+          "start": 287.1,
+          "end": 287.42
+        },
+        {
+          "id": "p37w9",
+          "text": "words.",
+          "start": 287.42,
+          "end": 287.72
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 288.72,
+      "end": 291.83,
+      "text": "Open sesame! The door opened.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "Open",
+          "start": 288.72,
+          "end": 289.04
+        },
+        {
+          "id": "p38w2",
+          "text": "sesame!",
+          "start": 289.04,
+          "end": 289.72
+        },
+        {
+          "id": "p38w3",
+          "text": "The",
+          "start": 290.89,
+          "end": 291.11
+        },
+        {
+          "id": "p38w4",
+          "text": "door",
+          "start": 291.11,
+          "end": 291.35
+        },
+        {
+          "id": "p38w5",
+          "text": "opened.",
+          "start": 291.35,
+          "end": 291.83
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 291.83,
+      "end": 304.54,
+      "text": "He went inside the cave and immediately started filling his bags with coins and jewels. While he was filling the last bag, he heard the sound of horses hooves outside.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "He",
+          "start": 291.83,
+          "end": 292.77
+        },
+        {
+          "id": "p39w2",
+          "text": "went",
+          "start": 293.03,
+          "end": 293.41
+        },
+        {
+          "id": "p39w3",
+          "text": "inside",
+          "start": 293.41,
+          "end": 293.83
+        },
+        {
+          "id": "p39w4",
+          "text": "the",
+          "start": 293.83,
+          "end": 294.11
+        },
+        {
+          "id": "p39w5",
+          "text": "cave",
+          "start": 294.11,
+          "end": 294.35
+        },
+        {
+          "id": "p39w6",
+          "text": "and",
+          "start": 294.35,
+          "end": 295.05
+        },
+        {
+          "id": "p39w7",
+          "text": "immediately",
+          "start": 295.05,
+          "end": 295.55
+        },
+        {
+          "id": "p39w8",
+          "text": "started",
+          "start": 295.55,
+          "end": 296.09
+        },
+        {
+          "id": "p39w9",
+          "text": "filling",
+          "start": 296.09,
+          "end": 296.43
+        },
+        {
+          "id": "p39w10",
+          "text": "his",
+          "start": 296.43,
+          "end": 296.77
+        },
+        {
+          "id": "p39w11",
+          "text": "bags",
+          "start": 296.77,
+          "end": 297.03
+        },
+        {
+          "id": "p39w12",
+          "text": "with",
+          "start": 297.03,
+          "end": 297.41
+        },
+        {
+          "id": "p39w13",
+          "text": "coins",
+          "start": 297.41,
+          "end": 297.67
+        },
+        {
+          "id": "p39w14",
+          "text": "and",
+          "start": 297.67,
+          "end": 298.35
+        },
+        {
+          "id": "p39w15",
+          "text": "jewels.",
+          "start": 298.35,
+          "end": 298.61
+        },
+        {
+          "id": "p39w16",
+          "text": "While",
+          "start": 299.74,
+          "end": 300.28
+        },
+        {
+          "id": "p39w17",
+          "text": "he",
+          "start": 300.28,
+          "end": 300.56
+        },
+        {
+          "id": "p39w18",
+          "text": "was",
+          "start": 300.56,
+          "end": 300.68
+        },
+        {
+          "id": "p39w19",
+          "text": "filling",
+          "start": 300.68,
+          "end": 300.98
+        },
+        {
+          "id": "p39w20",
+          "text": "the",
+          "start": 300.98,
+          "end": 301.22
+        },
+        {
+          "id": "p39w21",
+          "text": "last",
+          "start": 301.22,
+          "end": 301.44
+        },
+        {
+          "id": "p39w22",
+          "text": "bag,",
+          "start": 301.44,
+          "end": 301.88
+        },
+        {
+          "id": "p39w23",
+          "text": "he",
+          "start": 302.46,
+          "end": 302.66
+        },
+        {
+          "id": "p39w24",
+          "text": "heard",
+          "start": 302.66,
+          "end": 302.84
+        },
+        {
+          "id": "p39w25",
+          "text": "the",
+          "start": 302.84,
+          "end": 302.98
+        },
+        {
+          "id": "p39w26",
+          "text": "sound",
+          "start": 302.98,
+          "end": 303.26
+        },
+        {
+          "id": "p39w27",
+          "text": "of",
+          "start": 303.26,
+          "end": 303.42
+        },
+        {
+          "id": "p39w28",
+          "text": "horses",
+          "start": 303.42,
+          "end": 303.74
+        },
+        {
+          "id": "p39w29",
+          "text": "hooves",
+          "start": 303.74,
+          "end": 304.36
+        },
+        {
+          "id": "p39w30",
+          "text": "outside.",
+          "start": 304.36,
+          "end": 304.54
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 305.14,
+      "end": 310.44,
+      "text": "The thieves! He thought, what shall I do? They'll kill me. Where can I hide?",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "The",
+          "start": 305.14,
+          "end": 305.34
+        },
+        {
+          "id": "p40w2",
+          "text": "thieves!",
+          "start": 305.34,
+          "end": 305.8
+        },
+        {
+          "id": "p40w3",
+          "text": "He",
+          "start": 306.28,
+          "end": 306.36
+        },
+        {
+          "id": "p40w4",
+          "text": "thought,",
+          "start": 306.36,
+          "end": 306.6
+        },
+        {
+          "id": "p40w5",
+          "text": "what",
+          "start": 306.98,
+          "end": 307.3
+        },
+        {
+          "id": "p40w6",
+          "text": "shall",
+          "start": 307.3,
+          "end": 307.54
+        },
+        {
+          "id": "p40w7",
+          "text": "I",
+          "start": 307.54,
+          "end": 307.72
+        },
+        {
+          "id": "p40w8",
+          "text": "do?",
+          "start": 307.72,
+          "end": 307.92
+        },
+        {
+          "id": "p40w9",
+          "text": "They'll",
+          "start": 308.68,
+          "end": 308.92
+        },
+        {
+          "id": "p40w10",
+          "text": "kill",
+          "start": 308.92,
+          "end": 309.12
+        },
+        {
+          "id": "p40w11",
+          "text": "me.",
+          "start": 309.12,
+          "end": 309.36
+        },
+        {
+          "id": "p40w12",
+          "text": "Where",
+          "start": 309.68,
+          "end": 309.94
+        },
+        {
+          "id": "p40w13",
+          "text": "can",
+          "start": 309.94,
+          "end": 310.08
+        },
+        {
+          "id": "p40w14",
+          "text": "I",
+          "start": 310.08,
+          "end": 310.22
+        },
+        {
+          "id": "p40w15",
+          "text": "hide?",
+          "start": 310.22,
+          "end": 310.44
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 311.24,
+      "end": 321.46,
+      "text": "He looked around the cave, but at that moment the door opened and the captain came in. Kazim tried to escape, but the captain caught him.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "He",
+          "start": 311.24,
+          "end": 311.48
+        },
+        {
+          "id": "p41w2",
+          "text": "looked",
+          "start": 311.48,
+          "end": 311.7
+        },
+        {
+          "id": "p41w3",
+          "text": "around",
+          "start": 311.7,
+          "end": 312.02
+        },
+        {
+          "id": "p41w4",
+          "text": "the",
+          "start": 312.02,
+          "end": 312.3
+        },
+        {
+          "id": "p41w5",
+          "text": "cave,",
+          "start": 312.3,
+          "end": 312.58
+        },
+        {
+          "id": "p41w6",
+          "text": "but",
+          "start": 313.12,
+          "end": 313.22
+        },
+        {
+          "id": "p41w7",
+          "text": "at",
+          "start": 313.22,
+          "end": 313.34
+        },
+        {
+          "id": "p41w8",
+          "text": "that",
+          "start": 313.34,
+          "end": 313.56
+        },
+        {
+          "id": "p41w9",
+          "text": "moment",
+          "start": 313.56,
+          "end": 314.0
+        },
+        {
+          "id": "p41w10",
+          "text": "the",
+          "start": 314.0,
+          "end": 314.42
+        },
+        {
+          "id": "p41w11",
+          "text": "door",
+          "start": 314.42,
+          "end": 314.7
+        },
+        {
+          "id": "p41w12",
+          "text": "opened",
+          "start": 314.7,
+          "end": 315.22
+        },
+        {
+          "id": "p41w13",
+          "text": "and",
+          "start": 315.22,
+          "end": 315.84
+        },
+        {
+          "id": "p41w14",
+          "text": "the",
+          "start": 315.84,
+          "end": 315.94
+        },
+        {
+          "id": "p41w15",
+          "text": "captain",
+          "start": 315.94,
+          "end": 316.32
+        },
+        {
+          "id": "p41w16",
+          "text": "came",
+          "start": 316.32,
+          "end": 316.72
+        },
+        {
+          "id": "p41w17",
+          "text": "in.",
+          "start": 316.72,
+          "end": 316.98
+        },
+        {
+          "id": "p41w18",
+          "text": "Kazim",
+          "start": 318.08,
+          "end": 318.54
+        },
+        {
+          "id": "p41w19",
+          "text": "tried",
+          "start": 318.54,
+          "end": 319.02
+        },
+        {
+          "id": "p41w20",
+          "text": "to",
+          "start": 319.02,
+          "end": 319.3
+        },
+        {
+          "id": "p41w21",
+          "text": "escape,",
+          "start": 319.3,
+          "end": 319.56
+        },
+        {
+          "id": "p41w22",
+          "text": "but",
+          "start": 320.08,
+          "end": 320.38
+        },
+        {
+          "id": "p41w23",
+          "text": "the",
+          "start": 320.38,
+          "end": 320.52
+        },
+        {
+          "id": "p41w24",
+          "text": "captain",
+          "start": 320.52,
+          "end": 320.76
+        },
+        {
+          "id": "p41w25",
+          "text": "caught",
+          "start": 320.76,
+          "end": 321.18
+        },
+        {
+          "id": "p41w26",
+          "text": "him.",
+          "start": 321.18,
+          "end": 321.46
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 321.46,
+      "end": 323.5,
+      "text": "And killed him with his sword.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "And",
+          "start": 321.46,
+          "end": 321.82
+        },
+        {
+          "id": "p42w2",
+          "text": "killed",
+          "start": 321.82,
+          "end": 322.58
+        },
+        {
+          "id": "p42w3",
+          "text": "him",
+          "start": 322.58,
+          "end": 322.92
+        },
+        {
+          "id": "p42w4",
+          "text": "with",
+          "start": 322.92,
+          "end": 323.04
+        },
+        {
+          "id": "p42w5",
+          "text": "his",
+          "start": 323.04,
+          "end": 323.2
+        },
+        {
+          "id": "p42w6",
+          "text": "sword.",
+          "start": 323.2,
+          "end": 323.5
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 324.26,
+      "end": 330.27,
+      "text": "Perhaps other people know about the cave. We'll leave his body here as a warning to them.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "Perhaps",
+          "start": 324.26,
+          "end": 324.72
+        },
+        {
+          "id": "p43w2",
+          "text": "other",
+          "start": 324.72,
+          "end": 325.02
+        },
+        {
+          "id": "p43w3",
+          "text": "people",
+          "start": 325.02,
+          "end": 325.38
+        },
+        {
+          "id": "p43w4",
+          "text": "know",
+          "start": 325.38,
+          "end": 325.72
+        },
+        {
+          "id": "p43w5",
+          "text": "about",
+          "start": 325.72,
+          "end": 326.04
+        },
+        {
+          "id": "p43w6",
+          "text": "the",
+          "start": 326.04,
+          "end": 326.22
+        },
+        {
+          "id": "p43w7",
+          "text": "cave.",
+          "start": 326.22,
+          "end": 326.46
+        },
+        {
+          "id": "p43w8",
+          "text": "We'll",
+          "start": 327.29,
+          "end": 327.81
+        },
+        {
+          "id": "p43w9",
+          "text": "leave",
+          "start": 327.81,
+          "end": 327.99
+        },
+        {
+          "id": "p43w10",
+          "text": "his",
+          "start": 327.99,
+          "end": 328.21
+        },
+        {
+          "id": "p43w11",
+          "text": "body",
+          "start": 328.21,
+          "end": 328.49
+        },
+        {
+          "id": "p43w12",
+          "text": "here",
+          "start": 328.49,
+          "end": 328.81
+        },
+        {
+          "id": "p43w13",
+          "text": "as",
+          "start": 328.81,
+          "end": 329.27
+        },
+        {
+          "id": "p43w14",
+          "text": "a",
+          "start": 329.27,
+          "end": 329.35
+        },
+        {
+          "id": "p43w15",
+          "text": "warning",
+          "start": 329.35,
+          "end": 329.71
+        },
+        {
+          "id": "p43w16",
+          "text": "to",
+          "start": 329.71,
+          "end": 330.05
+        },
+        {
+          "id": "p43w17",
+          "text": "them.",
+          "start": 330.05,
+          "end": 330.27
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 330.98,
+      "end": 338.42,
+      "text": "Said the captain. He cut Kazim's body into four pieces and put them around the door of the cave.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "Said",
+          "start": 330.98,
+          "end": 331.3
+        },
+        {
+          "id": "p44w2",
+          "text": "the",
+          "start": 331.3,
+          "end": 331.48
+        },
+        {
+          "id": "p44w3",
+          "text": "captain.",
+          "start": 331.48,
+          "end": 331.64
+        },
+        {
+          "id": "p44w4",
+          "text": "He",
+          "start": 333.0,
+          "end": 333.16
+        },
+        {
+          "id": "p44w5",
+          "text": "cut",
+          "start": 333.16,
+          "end": 333.52
+        },
+        {
+          "id": "p44w6",
+          "text": "Kazim's",
+          "start": 333.52,
+          "end": 334.38
+        },
+        {
+          "id": "p44w7",
+          "text": "body",
+          "start": 334.38,
+          "end": 334.66
+        },
+        {
+          "id": "p44w8",
+          "text": "into",
+          "start": 334.66,
+          "end": 334.96
+        },
+        {
+          "id": "p44w9",
+          "text": "four",
+          "start": 334.96,
+          "end": 335.26
+        },
+        {
+          "id": "p44w10",
+          "text": "pieces",
+          "start": 335.26,
+          "end": 335.8
+        },
+        {
+          "id": "p44w11",
+          "text": "and",
+          "start": 335.8,
+          "end": 336.68
+        },
+        {
+          "id": "p44w12",
+          "text": "put",
+          "start": 336.68,
+          "end": 336.9
+        },
+        {
+          "id": "p44w13",
+          "text": "them",
+          "start": 336.9,
+          "end": 337.12
+        },
+        {
+          "id": "p44w14",
+          "text": "around",
+          "start": 337.12,
+          "end": 337.42
+        },
+        {
+          "id": "p44w15",
+          "text": "the",
+          "start": 337.42,
+          "end": 337.6
+        },
+        {
+          "id": "p44w16",
+          "text": "door",
+          "start": 337.6,
+          "end": 337.84
+        },
+        {
+          "id": "p44w17",
+          "text": "of",
+          "start": 337.84,
+          "end": 338.02
+        },
+        {
+          "id": "p44w18",
+          "text": "the",
+          "start": 338.02,
+          "end": 338.16
+        },
+        {
+          "id": "p44w19",
+          "text": "cave.",
+          "start": 338.16,
+          "end": 338.42
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 340.01,
+      "end": 346.77,
+      "text": "Then, after putting the gold and silver back in the chests, the captain and the thieves left.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "Then,",
+          "start": 340.01,
+          "end": 340.25
+        },
+        {
+          "id": "p45w2",
+          "text": "after",
+          "start": 340.73,
+          "end": 341.21
+        },
+        {
+          "id": "p45w3",
+          "text": "putting",
+          "start": 341.21,
+          "end": 341.55
+        },
+        {
+          "id": "p45w4",
+          "text": "the",
+          "start": 341.55,
+          "end": 341.75
+        },
+        {
+          "id": "p45w5",
+          "text": "gold",
+          "start": 341.75,
+          "end": 341.95
+        },
+        {
+          "id": "p45w6",
+          "text": "and",
+          "start": 341.95,
+          "end": 342.25
+        },
+        {
+          "id": "p45w7",
+          "text": "silver",
+          "start": 342.25,
+          "end": 342.49
+        },
+        {
+          "id": "p45w8",
+          "text": "back",
+          "start": 342.49,
+          "end": 342.99
+        },
+        {
+          "id": "p45w9",
+          "text": "in",
+          "start": 342.99,
+          "end": 343.35
+        },
+        {
+          "id": "p45w10",
+          "text": "the",
+          "start": 343.35,
+          "end": 343.47
+        },
+        {
+          "id": "p45w11",
+          "text": "chests,",
+          "start": 343.47,
+          "end": 343.71
+        },
+        {
+          "id": "p45w12",
+          "text": "the",
+          "start": 344.71,
+          "end": 344.79
+        },
+        {
+          "id": "p45w13",
+          "text": "captain",
+          "start": 344.79,
+          "end": 345.09
+        },
+        {
+          "id": "p45w14",
+          "text": "and",
+          "start": 345.09,
+          "end": 345.45
+        },
+        {
+          "id": "p45w15",
+          "text": "the",
+          "start": 345.45,
+          "end": 345.61
+        },
+        {
+          "id": "p45w16",
+          "text": "thieves",
+          "start": 345.61,
+          "end": 345.91
+        },
+        {
+          "id": "p45w17",
+          "text": "left.",
+          "start": 345.91,
+          "end": 346.77
+        }
+      ]
+    }
+  ]
+}

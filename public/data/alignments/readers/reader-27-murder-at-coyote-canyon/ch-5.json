@@ -1,0 +1,6413 @@
+{
+  "sectionId": "reader-27-murder-at-coyote-canyon-ch-5",
+  "trackNumber": 5,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/226 (S2) Murder at Coyote Canyon/Track 05.mp3",
+  "totalDuration": 362.7363125,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 1.0,
+      "text": "Chapter 3.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Chapter",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "id": "p1w2",
+          "text": "3.",
+          "start": 0.36,
+          "end": 1.0
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 1.97,
+      "end": 2.93,
+      "text": "The Ghost Warrior.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "The",
+          "start": 1.97,
+          "end": 2.19
+        },
+        {
+          "id": "p2w2",
+          "text": "Ghost",
+          "start": 2.19,
+          "end": 2.43
+        },
+        {
+          "id": "p2w3",
+          "text": "Warrior.",
+          "start": 2.43,
+          "end": 2.93
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 5.96,
+      "end": 11.18,
+      "text": "Tell me about the old two-mash cemetery and Mr. Richardson, said Nick, as they walked to",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Tell",
+          "start": 5.96,
+          "end": 6.48
+        },
+        {
+          "id": "p3w2",
+          "text": "me",
+          "start": 6.48,
+          "end": 6.58
+        },
+        {
+          "id": "p3w3",
+          "text": "about",
+          "start": 6.58,
+          "end": 6.74
+        },
+        {
+          "id": "p3w4",
+          "text": "the",
+          "start": 6.74,
+          "end": 6.9
+        },
+        {
+          "id": "p3w5",
+          "text": "old",
+          "start": 6.9,
+          "end": 7.04
+        },
+        {
+          "id": "p3w6",
+          "text": "two",
+          "start": 7.04,
+          "end": 7.28
+        },
+        {
+          "id": "p3w7",
+          "text": "-mash",
+          "start": 7.28,
+          "end": 7.5
+        },
+        {
+          "id": "p3w8",
+          "text": "cemetery",
+          "start": 7.5,
+          "end": 7.78
+        },
+        {
+          "id": "p3w9",
+          "text": "and",
+          "start": 7.78,
+          "end": 8.42
+        },
+        {
+          "id": "p3w10",
+          "text": "Mr.",
+          "start": 8.42,
+          "end": 8.56
+        },
+        {
+          "id": "p3w11",
+          "text": "Richardson,",
+          "start": 9.0,
+          "end": 9.0
+        },
+        {
+          "id": "p3w12",
+          "text": "said",
+          "start": 9.5,
+          "end": 9.8
+        },
+        {
+          "id": "p3w13",
+          "text": "Nick,",
+          "start": 9.8,
+          "end": 10.04
+        },
+        {
+          "id": "p3w14",
+          "text": "as",
+          "start": 10.44,
+          "end": 10.66
+        },
+        {
+          "id": "p3w15",
+          "text": "they",
+          "start": 10.66,
+          "end": 10.8
+        },
+        {
+          "id": "p3w16",
+          "text": "walked",
+          "start": 10.8,
+          "end": 10.98
+        },
+        {
+          "id": "p3w17",
+          "text": "to",
+          "start": 10.98,
+          "end": 11.18
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 11.18,
+      "end": 12.8,
+      "text": "the barbecue at Blue River Park.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "the",
+          "start": 11.18,
+          "end": 11.26
+        },
+        {
+          "id": "p4w2",
+          "text": "barbecue",
+          "start": 11.26,
+          "end": 11.56
+        },
+        {
+          "id": "p4w3",
+          "text": "at",
+          "start": 11.56,
+          "end": 12.0
+        },
+        {
+          "id": "p4w4",
+          "text": "Blue",
+          "start": 12.0,
+          "end": 12.16
+        },
+        {
+          "id": "p4w5",
+          "text": "River",
+          "start": 12.16,
+          "end": 12.4
+        },
+        {
+          "id": "p4w6",
+          "text": "Park.",
+          "start": 12.4,
+          "end": 12.8
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 13.6,
+      "end": 16.1,
+      "text": "Oh, you won't believe it, Nick, said Bill.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "Oh,",
+          "start": 13.6,
+          "end": 13.9
+        },
+        {
+          "id": "p5w2",
+          "text": "you",
+          "start": 14.04,
+          "end": 14.18
+        },
+        {
+          "id": "p5w3",
+          "text": "won't",
+          "start": 14.18,
+          "end": 14.46
+        },
+        {
+          "id": "p5w4",
+          "text": "believe",
+          "start": 14.46,
+          "end": 14.74
+        },
+        {
+          "id": "p5w5",
+          "text": "it,",
+          "start": 14.74,
+          "end": 14.98
+        },
+        {
+          "id": "p5w6",
+          "text": "Nick,",
+          "start": 14.98,
+          "end": 15.22
+        },
+        {
+          "id": "p5w7",
+          "text": "said",
+          "start": 15.5,
+          "end": 15.82
+        },
+        {
+          "id": "p5w8",
+          "text": "Bill.",
+          "start": 15.82,
+          "end": 16.1
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 16.7,
+      "end": 21.32,
+      "text": "People at Coyote Canyon say that on night when there's a full moon, they see an American",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "People",
+          "start": 16.7,
+          "end": 16.86
+        },
+        {
+          "id": "p6w2",
+          "text": "at",
+          "start": 16.86,
+          "end": 17.12
+        },
+        {
+          "id": "p6w3",
+          "text": "Coyote",
+          "start": 17.12,
+          "end": 17.54
+        },
+        {
+          "id": "p6w4",
+          "text": "Canyon",
+          "start": 17.54,
+          "end": 17.94
+        },
+        {
+          "id": "p6w5",
+          "text": "say",
+          "start": 17.94,
+          "end": 18.42
+        },
+        {
+          "id": "p6w6",
+          "text": "that",
+          "start": 18.42,
+          "end": 18.62
+        },
+        {
+          "id": "p6w7",
+          "text": "on",
+          "start": 18.62,
+          "end": 18.76
+        },
+        {
+          "id": "p6w8",
+          "text": "night",
+          "start": 18.76,
+          "end": 19.02
+        },
+        {
+          "id": "p6w9",
+          "text": "when",
+          "start": 19.02,
+          "end": 19.3
+        },
+        {
+          "id": "p6w10",
+          "text": "there's",
+          "start": 19.3,
+          "end": 19.48
+        },
+        {
+          "id": "p6w11",
+          "text": "a",
+          "start": 19.48,
+          "end": 19.58
+        },
+        {
+          "id": "p6w12",
+          "text": "full",
+          "start": 19.58,
+          "end": 19.74
+        },
+        {
+          "id": "p6w13",
+          "text": "moon,",
+          "start": 19.74,
+          "end": 19.96
+        },
+        {
+          "id": "p6w14",
+          "text": "they",
+          "start": 20.58,
+          "end": 20.66
+        },
+        {
+          "id": "p6w15",
+          "text": "see",
+          "start": 20.66,
+          "end": 20.84
+        },
+        {
+          "id": "p6w16",
+          "text": "an",
+          "start": 20.84,
+          "end": 21.0
+        },
+        {
+          "id": "p6w17",
+          "text": "American",
+          "start": 21.0,
+          "end": 21.32
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 21.32,
+      "end": 22.3,
+      "text": "Indian warrior.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Indian",
+          "start": 21.32,
+          "end": 21.76
+        },
+        {
+          "id": "p7w2",
+          "text": "warrior.",
+          "start": 21.76,
+          "end": 22.3
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 23.02,
+      "end": 25.62,
+      "text": "He has a black horse and gallops through the canyon.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "He",
+          "start": 23.02,
+          "end": 23.1
+        },
+        {
+          "id": "p8w2",
+          "text": "has",
+          "start": 23.1,
+          "end": 23.22
+        },
+        {
+          "id": "p8w3",
+          "text": "a",
+          "start": 23.22,
+          "end": 23.34
+        },
+        {
+          "id": "p8w4",
+          "text": "black",
+          "start": 23.34,
+          "end": 23.56
+        },
+        {
+          "id": "p8w5",
+          "text": "horse",
+          "start": 23.56,
+          "end": 24.04
+        },
+        {
+          "id": "p8w6",
+          "text": "and",
+          "start": 24.04,
+          "end": 24.6
+        },
+        {
+          "id": "p8w7",
+          "text": "gallops",
+          "start": 24.6,
+          "end": 25.0
+        },
+        {
+          "id": "p8w8",
+          "text": "through",
+          "start": 25.0,
+          "end": 25.14
+        },
+        {
+          "id": "p8w9",
+          "text": "the",
+          "start": 25.14,
+          "end": 25.28
+        },
+        {
+          "id": "p8w10",
+          "text": "canyon.",
+          "start": 25.28,
+          "end": 25.62
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 26.24,
+      "end": 27.94,
+      "text": "They think he's a ghost and they're scared.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "They",
+          "start": 26.24,
+          "end": 26.42
+        },
+        {
+          "id": "p9w2",
+          "text": "think",
+          "start": 26.42,
+          "end": 26.64
+        },
+        {
+          "id": "p9w3",
+          "text": "he's",
+          "start": 26.64,
+          "end": 26.92
+        },
+        {
+          "id": "p9w4",
+          "text": "a",
+          "start": 26.92,
+          "end": 27.0
+        },
+        {
+          "id": "p9w5",
+          "text": "ghost",
+          "start": 27.0,
+          "end": 27.28
+        },
+        {
+          "id": "p9w6",
+          "text": "and",
+          "start": 27.28,
+          "end": 27.5
+        },
+        {
+          "id": "p9w7",
+          "text": "they're",
+          "start": 27.5,
+          "end": 27.66
+        },
+        {
+          "id": "p9w8",
+          "text": "scared.",
+          "start": 27.66,
+          "end": 27.94
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 27.94,
+      "end": 30.86,
+      "text": "The ghost of an American Indian warrior?",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "The",
+          "start": 27.94,
+          "end": 29.0
+        },
+        {
+          "id": "p10w2",
+          "text": "ghost",
+          "start": 29.0,
+          "end": 29.3
+        },
+        {
+          "id": "p10w3",
+          "text": "of",
+          "start": 29.3,
+          "end": 29.56
+        },
+        {
+          "id": "p10w4",
+          "text": "an",
+          "start": 29.56,
+          "end": 29.64
+        },
+        {
+          "id": "p10w5",
+          "text": "American",
+          "start": 29.64,
+          "end": 29.92
+        },
+        {
+          "id": "p10w6",
+          "text": "Indian",
+          "start": 29.92,
+          "end": 30.38
+        },
+        {
+          "id": "p10w7",
+          "text": "warrior?",
+          "start": 30.38,
+          "end": 30.86
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 31.38,
+      "end": 32.5,
+      "text": "Ask Nick surprised?",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Ask",
+          "start": 31.38,
+          "end": 31.76
+        },
+        {
+          "id": "p11w2",
+          "text": "Nick",
+          "start": 31.76,
+          "end": 32.0
+        },
+        {
+          "id": "p11w3",
+          "text": "surprised?",
+          "start": 32.0,
+          "end": 32.5
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 33.38,
+      "end": 33.92,
+      "text": "Yeah.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Yeah.",
+          "start": 33.38,
+          "end": 33.92
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 34.36,
+      "end": 34.8,
+      "text": "Said Michel.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Said",
+          "start": 34.36,
+          "end": 34.66
+        },
+        {
+          "id": "p13w2",
+          "text": "Michel.",
+          "start": 34.66,
+          "end": 34.8
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 35.5,
+      "end": 37.84,
+      "text": "And some people want to sell their new homes.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "And",
+          "start": 35.5,
+          "end": 35.9
+        },
+        {
+          "id": "p14w2",
+          "text": "some",
+          "start": 35.9,
+          "end": 36.14
+        },
+        {
+          "id": "p14w3",
+          "text": "people",
+          "start": 36.14,
+          "end": 36.48
+        },
+        {
+          "id": "p14w4",
+          "text": "want",
+          "start": 36.48,
+          "end": 36.64
+        },
+        {
+          "id": "p14w5",
+          "text": "to",
+          "start": 36.64,
+          "end": 36.78
+        },
+        {
+          "id": "p14w6",
+          "text": "sell",
+          "start": 36.78,
+          "end": 37.0
+        },
+        {
+          "id": "p14w7",
+          "text": "their",
+          "start": 37.0,
+          "end": 37.22
+        },
+        {
+          "id": "p14w8",
+          "text": "new",
+          "start": 37.22,
+          "end": 37.4
+        },
+        {
+          "id": "p14w9",
+          "text": "homes.",
+          "start": 37.4,
+          "end": 37.84
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 38.86,
+      "end": 41.74,
+      "text": "I'm sure Mr. Richardson isn't very happy about that.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "I'm",
+          "start": 38.86,
+          "end": 39.34
+        },
+        {
+          "id": "p15w2",
+          "text": "sure",
+          "start": 39.34,
+          "end": 39.5
+        },
+        {
+          "id": "p15w3",
+          "text": "Mr.",
+          "start": 39.5,
+          "end": 39.66
+        },
+        {
+          "id": "p15w4",
+          "text": "Richardson",
+          "start": 40.12,
+          "end": 40.12
+        },
+        {
+          "id": "p15w5",
+          "text": "isn't",
+          "start": 40.12,
+          "end": 40.64
+        },
+        {
+          "id": "p15w6",
+          "text": "very",
+          "start": 40.64,
+          "end": 40.82
+        },
+        {
+          "id": "p15w7",
+          "text": "happy",
+          "start": 40.82,
+          "end": 41.12
+        },
+        {
+          "id": "p15w8",
+          "text": "about",
+          "start": 41.12,
+          "end": 41.46
+        },
+        {
+          "id": "p15w9",
+          "text": "that.",
+          "start": 41.46,
+          "end": 41.74
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 42.1,
+      "end": 42.64,
+      "text": "Said Nick.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "Said",
+          "start": 42.1,
+          "end": 42.38
+        },
+        {
+          "id": "p16w2",
+          "text": "Nick.",
+          "start": 42.38,
+          "end": 42.64
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 43.22,
+      "end": 44.46,
+      "text": "No, said Bill.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "No,",
+          "start": 43.22,
+          "end": 43.62
+        },
+        {
+          "id": "p17w2",
+          "text": "said",
+          "start": 43.96,
+          "end": 44.22
+        },
+        {
+          "id": "p17w3",
+          "text": "Bill.",
+          "start": 44.22,
+          "end": 44.46
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 45.26,
+      "end": 46.7,
+      "text": "But he continues building there.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "But",
+          "start": 45.26,
+          "end": 45.34
+        },
+        {
+          "id": "p18w2",
+          "text": "he",
+          "start": 45.34,
+          "end": 45.46
+        },
+        {
+          "id": "p18w3",
+          "text": "continues",
+          "start": 45.46,
+          "end": 45.68
+        },
+        {
+          "id": "p18w4",
+          "text": "building",
+          "start": 45.68,
+          "end": 46.36
+        },
+        {
+          "id": "p18w5",
+          "text": "there.",
+          "start": 46.36,
+          "end": 46.7
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 47.76,
+      "end": 49.92,
+      "text": "He and his wife live at Coyote Canyon.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "He",
+          "start": 47.76,
+          "end": 48.0
+        },
+        {
+          "id": "p19w2",
+          "text": "and",
+          "start": 48.0,
+          "end": 48.12
+        },
+        {
+          "id": "p19w3",
+          "text": "his",
+          "start": 48.12,
+          "end": 48.26
+        },
+        {
+          "id": "p19w4",
+          "text": "wife",
+          "start": 48.26,
+          "end": 48.56
+        },
+        {
+          "id": "p19w5",
+          "text": "live",
+          "start": 48.56,
+          "end": 48.92
+        },
+        {
+          "id": "p19w6",
+          "text": "at",
+          "start": 48.92,
+          "end": 49.14
+        },
+        {
+          "id": "p19w7",
+          "text": "Coyote",
+          "start": 49.14,
+          "end": 49.56
+        },
+        {
+          "id": "p19w8",
+          "text": "Canyon.",
+          "start": 49.56,
+          "end": 49.92
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 50.52,
+      "end": 51.0,
+      "text": "Said Michel.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "Said",
+          "start": 50.52,
+          "end": 50.84
+        },
+        {
+          "id": "p20w2",
+          "text": "Michel.",
+          "start": 50.84,
+          "end": 51.0
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 52.72,
+      "end": 55.0,
+      "text": "Have they ever seen the ghost of the warrior?",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "Have",
+          "start": 52.72,
+          "end": 53.18
+        },
+        {
+          "id": "p21w2",
+          "text": "they",
+          "start": 53.18,
+          "end": 53.48
+        },
+        {
+          "id": "p21w3",
+          "text": "ever",
+          "start": 53.48,
+          "end": 53.8
+        },
+        {
+          "id": "p21w4",
+          "text": "seen",
+          "start": 53.8,
+          "end": 54.12
+        },
+        {
+          "id": "p21w5",
+          "text": "the",
+          "start": 54.12,
+          "end": 54.28
+        },
+        {
+          "id": "p21w6",
+          "text": "ghost",
+          "start": 54.28,
+          "end": 54.5
+        },
+        {
+          "id": "p21w7",
+          "text": "of",
+          "start": 54.5,
+          "end": 54.68
+        },
+        {
+          "id": "p21w8",
+          "text": "the",
+          "start": 54.68,
+          "end": 54.78
+        },
+        {
+          "id": "p21w9",
+          "text": "warrior?",
+          "start": 54.78,
+          "end": 55.0
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 55.52,
+      "end": 56.36,
+      "text": "Ask Nick laughing.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "Ask",
+          "start": 55.52,
+          "end": 55.76
+        },
+        {
+          "id": "p22w2",
+          "text": "Nick",
+          "start": 55.76,
+          "end": 56.04
+        },
+        {
+          "id": "p22w3",
+          "text": "laughing.",
+          "start": 56.04,
+          "end": 56.36
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 57.14,
+      "end": 57.98,
+      "text": "No one knows.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "No",
+          "start": 57.14,
+          "end": 57.48
+        },
+        {
+          "id": "p23w2",
+          "text": "one",
+          "start": 57.48,
+          "end": 57.68
+        },
+        {
+          "id": "p23w3",
+          "text": "knows.",
+          "start": 57.68,
+          "end": 57.98
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 57.98,
+      "end": 59.12,
+      "text": "Said Michel.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "Said",
+          "start": 57.98,
+          "end": 59.0
+        },
+        {
+          "id": "p24w2",
+          "text": "Michel.",
+          "start": 59.0,
+          "end": 59.12
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 59.76,
+      "end": 63.8,
+      "text": "But I'm sure Luke Langley's happy that Wild Wolf spoke at the parade this morning.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "But",
+          "start": 59.76,
+          "end": 60.22
+        },
+        {
+          "id": "p25w2",
+          "text": "I'm",
+          "start": 60.22,
+          "end": 60.42
+        },
+        {
+          "id": "p25w3",
+          "text": "sure",
+          "start": 60.42,
+          "end": 60.6
+        },
+        {
+          "id": "p25w4",
+          "text": "Luke",
+          "start": 60.6,
+          "end": 60.92
+        },
+        {
+          "id": "p25w5",
+          "text": "Langley's",
+          "start": 60.92,
+          "end": 61.52
+        },
+        {
+          "id": "p25w6",
+          "text": "happy",
+          "start": 61.52,
+          "end": 61.7
+        },
+        {
+          "id": "p25w7",
+          "text": "that",
+          "start": 61.7,
+          "end": 62.0
+        },
+        {
+          "id": "p25w8",
+          "text": "Wild",
+          "start": 62.0,
+          "end": 62.18
+        },
+        {
+          "id": "p25w9",
+          "text": "Wolf",
+          "start": 62.18,
+          "end": 62.42
+        },
+        {
+          "id": "p25w10",
+          "text": "spoke",
+          "start": 62.42,
+          "end": 62.68
+        },
+        {
+          "id": "p25w11",
+          "text": "at",
+          "start": 62.68,
+          "end": 62.92
+        },
+        {
+          "id": "p25w12",
+          "text": "the",
+          "start": 62.92,
+          "end": 62.98
+        },
+        {
+          "id": "p25w13",
+          "text": "parade",
+          "start": 62.98,
+          "end": 63.24
+        },
+        {
+          "id": "p25w14",
+          "text": "this",
+          "start": 63.24,
+          "end": 63.48
+        },
+        {
+          "id": "p25w15",
+          "text": "morning.",
+          "start": 63.48,
+          "end": 63.8
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 64.4,
+      "end": 68.14,
+      "text": "He's the other builder in town and he isn't selling any of his new homes.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "He's",
+          "start": 64.4,
+          "end": 64.72
+        },
+        {
+          "id": "p26w2",
+          "text": "the",
+          "start": 64.72,
+          "end": 64.82
+        },
+        {
+          "id": "p26w3",
+          "text": "other",
+          "start": 64.82,
+          "end": 64.98
+        },
+        {
+          "id": "p26w4",
+          "text": "builder",
+          "start": 64.98,
+          "end": 65.24
+        },
+        {
+          "id": "p26w5",
+          "text": "in",
+          "start": 65.24,
+          "end": 65.5
+        },
+        {
+          "id": "p26w6",
+          "text": "town",
+          "start": 65.5,
+          "end": 65.72
+        },
+        {
+          "id": "p26w7",
+          "text": "and",
+          "start": 65.72,
+          "end": 66.28
+        },
+        {
+          "id": "p26w8",
+          "text": "he",
+          "start": 66.28,
+          "end": 66.5
+        },
+        {
+          "id": "p26w9",
+          "text": "isn't",
+          "start": 66.5,
+          "end": 66.74
+        },
+        {
+          "id": "p26w10",
+          "text": "selling",
+          "start": 66.74,
+          "end": 66.98
+        },
+        {
+          "id": "p26w11",
+          "text": "any",
+          "start": 66.98,
+          "end": 67.28
+        },
+        {
+          "id": "p26w12",
+          "text": "of",
+          "start": 67.28,
+          "end": 67.46
+        },
+        {
+          "id": "p26w13",
+          "text": "his",
+          "start": 67.46,
+          "end": 67.6
+        },
+        {
+          "id": "p26w14",
+          "text": "new",
+          "start": 67.6,
+          "end": 67.78
+        },
+        {
+          "id": "p26w15",
+          "text": "homes.",
+          "start": 67.78,
+          "end": 68.14
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 69.33,
+      "end": 74.39,
+      "text": "People prefer to buy in Coyote Canyon because there's a beautiful view of the Ventura Mountains.",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "People",
+          "start": 69.33,
+          "end": 69.83
+        },
+        {
+          "id": "p27w2",
+          "text": "prefer",
+          "start": 69.83,
+          "end": 70.01
+        },
+        {
+          "id": "p27w3",
+          "text": "to",
+          "start": 70.01,
+          "end": 70.01
+        },
+        {
+          "id": "p27w4",
+          "text": "buy",
+          "start": 70.01,
+          "end": 70.61
+        },
+        {
+          "id": "p27w5",
+          "text": "in",
+          "start": 70.61,
+          "end": 70.75
+        },
+        {
+          "id": "p27w6",
+          "text": "Coyote",
+          "start": 70.75,
+          "end": 71.13
+        },
+        {
+          "id": "p27w7",
+          "text": "Canyon",
+          "start": 71.13,
+          "end": 71.55
+        },
+        {
+          "id": "p27w8",
+          "text": "because",
+          "start": 71.55,
+          "end": 72.17
+        },
+        {
+          "id": "p27w9",
+          "text": "there's",
+          "start": 72.17,
+          "end": 72.51
+        },
+        {
+          "id": "p27w10",
+          "text": "a",
+          "start": 72.51,
+          "end": 72.59
+        },
+        {
+          "id": "p27w11",
+          "text": "beautiful",
+          "start": 72.59,
+          "end": 72.91
+        },
+        {
+          "id": "p27w12",
+          "text": "view",
+          "start": 72.91,
+          "end": 73.37
+        },
+        {
+          "id": "p27w13",
+          "text": "of",
+          "start": 73.37,
+          "end": 73.53
+        },
+        {
+          "id": "p27w14",
+          "text": "the",
+          "start": 73.53,
+          "end": 73.61
+        },
+        {
+          "id": "p27w15",
+          "text": "Ventura",
+          "start": 73.61,
+          "end": 73.87
+        },
+        {
+          "id": "p27w16",
+          "text": "Mountains.",
+          "start": 73.87,
+          "end": 74.39
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 75.27,
+      "end": 75.91,
+      "text": "Hi, guys.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "Hi,",
+          "start": 75.27,
+          "end": 75.43
+        },
+        {
+          "id": "p28w2",
+          "text": "guys.",
+          "start": 75.73,
+          "end": 75.91
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 76.47,
+      "end": 79.57,
+      "text": "Said it's all pretty girl with black hair, dark eyes and glasses.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "Said",
+          "start": 76.47,
+          "end": 76.75
+        },
+        {
+          "id": "p29w2",
+          "text": "it's",
+          "start": 76.75,
+          "end": 76.97
+        },
+        {
+          "id": "p29w3",
+          "text": "all",
+          "start": 76.97,
+          "end": 77.09
+        },
+        {
+          "id": "p29w4",
+          "text": "pretty",
+          "start": 77.09,
+          "end": 77.33
+        },
+        {
+          "id": "p29w5",
+          "text": "girl",
+          "start": 77.33,
+          "end": 77.63
+        },
+        {
+          "id": "p29w6",
+          "text": "with",
+          "start": 77.63,
+          "end": 77.85
+        },
+        {
+          "id": "p29w7",
+          "text": "black",
+          "start": 77.85,
+          "end": 78.11
+        },
+        {
+          "id": "p29w8",
+          "text": "hair,",
+          "start": 78.11,
+          "end": 78.43
+        },
+        {
+          "id": "p29w9",
+          "text": "dark",
+          "start": 78.65,
+          "end": 78.89
+        },
+        {
+          "id": "p29w10",
+          "text": "eyes",
+          "start": 78.89,
+          "end": 79.11
+        },
+        {
+          "id": "p29w11",
+          "text": "and",
+          "start": 79.11,
+          "end": 79.31
+        },
+        {
+          "id": "p29w12",
+          "text": "glasses.",
+          "start": 79.31,
+          "end": 79.57
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 80.29,
+      "end": 80.99,
+      "text": "Hi, Pam.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "Hi,",
+          "start": 80.29,
+          "end": 80.75
+        },
+        {
+          "id": "p30w2",
+          "text": "Pam.",
+          "start": 80.85,
+          "end": 80.99
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 81.55,
+      "end": 81.97,
+      "text": "Said Michel.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "Said",
+          "start": 81.55,
+          "end": 81.79
+        },
+        {
+          "id": "p31w2",
+          "text": "Michel.",
+          "start": 81.79,
+          "end": 81.97
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 83.04,
+      "end": 87.84,
+      "text": "Pam Rivers, this is Nick Chan, our best friend from Ontario Bay.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "Pam",
+          "start": 83.04,
+          "end": 83.4
+        },
+        {
+          "id": "p32w2",
+          "text": "Rivers,",
+          "start": 83.4,
+          "end": 83.64
+        },
+        {
+          "id": "p32w3",
+          "text": "this",
+          "start": 84.16,
+          "end": 84.28
+        },
+        {
+          "id": "p32w4",
+          "text": "is",
+          "start": 84.28,
+          "end": 84.42
+        },
+        {
+          "id": "p32w5",
+          "text": "Nick",
+          "start": 84.42,
+          "end": 84.74
+        },
+        {
+          "id": "p32w6",
+          "text": "Chan,",
+          "start": 84.74,
+          "end": 85.14
+        },
+        {
+          "id": "p32w7",
+          "text": "our",
+          "start": 85.7,
+          "end": 85.88
+        },
+        {
+          "id": "p32w8",
+          "text": "best",
+          "start": 85.88,
+          "end": 86.16
+        },
+        {
+          "id": "p32w9",
+          "text": "friend",
+          "start": 86.16,
+          "end": 86.56
+        },
+        {
+          "id": "p32w10",
+          "text": "from",
+          "start": 86.56,
+          "end": 86.88
+        },
+        {
+          "id": "p32w11",
+          "text": "Ontario",
+          "start": 86.88,
+          "end": 87.24
+        },
+        {
+          "id": "p32w12",
+          "text": "Bay.",
+          "start": 87.24,
+          "end": 87.84
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 87.84,
+      "end": 89.7,
+      "text": "Happy to meet you, Nick.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "Happy",
+          "start": 87.84,
+          "end": 88.82
+        },
+        {
+          "id": "p33w2",
+          "text": "to",
+          "start": 88.82,
+          "end": 89.1
+        },
+        {
+          "id": "p33w3",
+          "text": "meet",
+          "start": 89.1,
+          "end": 89.26
+        },
+        {
+          "id": "p33w4",
+          "text": "you,",
+          "start": 89.26,
+          "end": 89.48
+        },
+        {
+          "id": "p33w5",
+          "text": "Nick.",
+          "start": 89.54,
+          "end": 89.7
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 89.96,
+      "end": 91.14,
+      "text": "Said Pam, smiling.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "Said",
+          "start": 89.96,
+          "end": 90.24
+        },
+        {
+          "id": "p34w2",
+          "text": "Pam,",
+          "start": 90.24,
+          "end": 90.46
+        },
+        {
+          "id": "p34w3",
+          "text": "smiling.",
+          "start": 90.76,
+          "end": 91.14
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 91.92,
+      "end": 92.62,
+      "text": "Me too.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "Me",
+          "start": 91.92,
+          "end": 92.38
+        },
+        {
+          "id": "p35w2",
+          "text": "too.",
+          "start": 92.38,
+          "end": 92.62
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 93.08,
+      "end": 93.54,
+      "text": "Said Nick.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "Said",
+          "start": 93.08,
+          "end": 93.32
+        },
+        {
+          "id": "p36w2",
+          "text": "Nick.",
+          "start": 93.32,
+          "end": 93.54
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 94.14,
+      "end": 96.2,
+      "text": "Bill and Michelle said you're an American Indian.",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "Bill",
+          "start": 94.14,
+          "end": 94.7
+        },
+        {
+          "id": "p37w2",
+          "text": "and",
+          "start": 94.7,
+          "end": 94.82
+        },
+        {
+          "id": "p37w3",
+          "text": "Michelle",
+          "start": 94.82,
+          "end": 94.98
+        },
+        {
+          "id": "p37w4",
+          "text": "said",
+          "start": 94.98,
+          "end": 95.36
+        },
+        {
+          "id": "p37w5",
+          "text": "you're",
+          "start": 95.36,
+          "end": 95.5
+        },
+        {
+          "id": "p37w6",
+          "text": "an",
+          "start": 95.5,
+          "end": 95.58
+        },
+        {
+          "id": "p37w7",
+          "text": "American",
+          "start": 95.58,
+          "end": 95.76
+        },
+        {
+          "id": "p37w8",
+          "text": "Indian.",
+          "start": 95.76,
+          "end": 96.2
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 96.78,
+      "end": 97.72,
+      "text": "Yes, I am.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "Yes,",
+          "start": 96.78,
+          "end": 97.18
+        },
+        {
+          "id": "p38w2",
+          "text": "I",
+          "start": 97.24,
+          "end": 97.46
+        },
+        {
+          "id": "p38w3",
+          "text": "am.",
+          "start": 97.46,
+          "end": 97.72
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 98.0,
+      "end": 98.6,
+      "text": "Said Pam.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "Said",
+          "start": 98.0,
+          "end": 98.26
+        },
+        {
+          "id": "p39w2",
+          "text": "Pam.",
+          "start": 98.26,
+          "end": 98.6
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 99.3,
+      "end": 102.22,
+      "text": "My grandfather, grandmother and uncle live on the reservation.",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "My",
+          "start": 99.3,
+          "end": 99.78
+        },
+        {
+          "id": "p40w2",
+          "text": "grandfather,",
+          "start": 99.78,
+          "end": 100.24
+        },
+        {
+          "id": "p40w3",
+          "text": "grandmother",
+          "start": 100.32,
+          "end": 100.72
+        },
+        {
+          "id": "p40w4",
+          "text": "and",
+          "start": 100.72,
+          "end": 101.14
+        },
+        {
+          "id": "p40w5",
+          "text": "uncle",
+          "start": 101.14,
+          "end": 101.44
+        },
+        {
+          "id": "p40w6",
+          "text": "live",
+          "start": 101.44,
+          "end": 101.66
+        },
+        {
+          "id": "p40w7",
+          "text": "on",
+          "start": 101.66,
+          "end": 101.82
+        },
+        {
+          "id": "p40w8",
+          "text": "the",
+          "start": 101.82,
+          "end": 101.94
+        },
+        {
+          "id": "p40w9",
+          "text": "reservation.",
+          "start": 101.94,
+          "end": 102.22
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 103.24,
+      "end": 103.94,
+      "text": "But I don't.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "But",
+          "start": 103.24,
+          "end": 103.42
+        },
+        {
+          "id": "p41w2",
+          "text": "I",
+          "start": 103.42,
+          "end": 103.6
+        },
+        {
+          "id": "p41w3",
+          "text": "don't.",
+          "start": 103.6,
+          "end": 103.94
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 104.46,
+      "end": 108.3,
+      "text": "My uncle George has a riding stable with a lot of horses.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "My",
+          "start": 104.46,
+          "end": 104.76
+        },
+        {
+          "id": "p42w2",
+          "text": "uncle",
+          "start": 104.76,
+          "end": 104.92
+        },
+        {
+          "id": "p42w3",
+          "text": "George",
+          "start": 104.92,
+          "end": 105.26
+        },
+        {
+          "id": "p42w4",
+          "text": "has",
+          "start": 105.26,
+          "end": 105.68
+        },
+        {
+          "id": "p42w5",
+          "text": "a",
+          "start": 105.68,
+          "end": 105.8
+        },
+        {
+          "id": "p42w6",
+          "text": "riding",
+          "start": 105.8,
+          "end": 106.1
+        },
+        {
+          "id": "p42w7",
+          "text": "stable",
+          "start": 106.1,
+          "end": 106.5
+        },
+        {
+          "id": "p42w8",
+          "text": "with",
+          "start": 106.5,
+          "end": 107.36
+        },
+        {
+          "id": "p42w9",
+          "text": "a",
+          "start": 107.36,
+          "end": 107.58
+        },
+        {
+          "id": "p42w10",
+          "text": "lot",
+          "start": 107.58,
+          "end": 107.82
+        },
+        {
+          "id": "p42w11",
+          "text": "of",
+          "start": 107.82,
+          "end": 107.94
+        },
+        {
+          "id": "p42w12",
+          "text": "horses.",
+          "start": 107.94,
+          "end": 108.3
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 108.9,
+      "end": 111.86,
+      "text": "People go there to ride and he gives horseback riding lessons too.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "People",
+          "start": 108.9,
+          "end": 109.06
+        },
+        {
+          "id": "p43w2",
+          "text": "go",
+          "start": 109.06,
+          "end": 109.3
+        },
+        {
+          "id": "p43w3",
+          "text": "there",
+          "start": 109.3,
+          "end": 109.48
+        },
+        {
+          "id": "p43w4",
+          "text": "to",
+          "start": 109.48,
+          "end": 109.58
+        },
+        {
+          "id": "p43w5",
+          "text": "ride",
+          "start": 109.58,
+          "end": 109.8
+        },
+        {
+          "id": "p43w6",
+          "text": "and",
+          "start": 109.8,
+          "end": 109.96
+        },
+        {
+          "id": "p43w7",
+          "text": "he",
+          "start": 109.96,
+          "end": 110.08
+        },
+        {
+          "id": "p43w8",
+          "text": "gives",
+          "start": 110.08,
+          "end": 110.24
+        },
+        {
+          "id": "p43w9",
+          "text": "horseback",
+          "start": 110.24,
+          "end": 110.74
+        },
+        {
+          "id": "p43w10",
+          "text": "riding",
+          "start": 110.74,
+          "end": 111.06
+        },
+        {
+          "id": "p43w11",
+          "text": "lessons",
+          "start": 111.06,
+          "end": 111.38
+        },
+        {
+          "id": "p43w12",
+          "text": "too.",
+          "start": 111.38,
+          "end": 111.86
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 112.44,
+      "end": 116.36,
+      "text": "It's the only business on the reservation and a lot of two-mash work there.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "It's",
+          "start": 112.44,
+          "end": 112.74
+        },
+        {
+          "id": "p44w2",
+          "text": "the",
+          "start": 112.74,
+          "end": 112.84
+        },
+        {
+          "id": "p44w3",
+          "text": "only",
+          "start": 112.84,
+          "end": 113.16
+        },
+        {
+          "id": "p44w4",
+          "text": "business",
+          "start": 113.16,
+          "end": 113.44
+        },
+        {
+          "id": "p44w5",
+          "text": "on",
+          "start": 113.44,
+          "end": 113.74
+        },
+        {
+          "id": "p44w6",
+          "text": "the",
+          "start": 113.74,
+          "end": 113.86
+        },
+        {
+          "id": "p44w7",
+          "text": "reservation",
+          "start": 113.86,
+          "end": 114.3
+        },
+        {
+          "id": "p44w8",
+          "text": "and",
+          "start": 114.3,
+          "end": 114.86
+        },
+        {
+          "id": "p44w9",
+          "text": "a",
+          "start": 114.86,
+          "end": 115.0
+        },
+        {
+          "id": "p44w10",
+          "text": "lot",
+          "start": 115.0,
+          "end": 115.22
+        },
+        {
+          "id": "p44w11",
+          "text": "of",
+          "start": 115.22,
+          "end": 115.36
+        },
+        {
+          "id": "p44w12",
+          "text": "two",
+          "start": 115.36,
+          "end": 115.54
+        },
+        {
+          "id": "p44w13",
+          "text": "-mash",
+          "start": 115.54,
+          "end": 115.86
+        },
+        {
+          "id": "p44w14",
+          "text": "work",
+          "start": 115.86,
+          "end": 116.1
+        },
+        {
+          "id": "p44w15",
+          "text": "there.",
+          "start": 116.1,
+          "end": 116.36
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 116.36,
+      "end": 117.78,
+      "text": "A riding stable?",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "A",
+          "start": 116.36,
+          "end": 117.2
+        },
+        {
+          "id": "p45w2",
+          "text": "riding",
+          "start": 117.2,
+          "end": 117.44
+        },
+        {
+          "id": "p45w3",
+          "text": "stable?",
+          "start": 117.44,
+          "end": 117.78
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 118.34,
+      "end": 118.84,
+      "text": "Said Nick.",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "Said",
+          "start": 118.34,
+          "end": 118.64
+        },
+        {
+          "id": "p46w2",
+          "text": "Nick.",
+          "start": 118.64,
+          "end": 118.84
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 119.72,
+      "end": 120.68,
+      "text": "I love horses.",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "I",
+          "start": 119.72,
+          "end": 120.02
+        },
+        {
+          "id": "p47w2",
+          "text": "love",
+          "start": 120.02,
+          "end": 120.24
+        },
+        {
+          "id": "p47w3",
+          "text": "horses.",
+          "start": 120.24,
+          "end": 120.68
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 121.44,
+      "end": 122.36,
+      "text": "I'm glad you do.",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "I'm",
+          "start": 121.44,
+          "end": 121.7
+        },
+        {
+          "id": "p48w2",
+          "text": "glad",
+          "start": 121.7,
+          "end": 121.88
+        },
+        {
+          "id": "p48w3",
+          "text": "you",
+          "start": 121.88,
+          "end": 122.14
+        },
+        {
+          "id": "p48w4",
+          "text": "do.",
+          "start": 122.14,
+          "end": 122.36
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 122.82,
+      "end": 123.3,
+      "text": "Said Pam.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "Said",
+          "start": 122.82,
+          "end": 123.12
+        },
+        {
+          "id": "p49w2",
+          "text": "Pam.",
+          "start": 123.12,
+          "end": 123.3
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 123.86,
+      "end": 125.46,
+      "text": "You can come and visit one day.",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "You",
+          "start": 123.86,
+          "end": 124.16
+        },
+        {
+          "id": "p50w2",
+          "text": "can",
+          "start": 124.16,
+          "end": 124.32
+        },
+        {
+          "id": "p50w3",
+          "text": "come",
+          "start": 124.32,
+          "end": 124.56
+        },
+        {
+          "id": "p50w4",
+          "text": "and",
+          "start": 124.56,
+          "end": 124.7
+        },
+        {
+          "id": "p50w5",
+          "text": "visit",
+          "start": 124.7,
+          "end": 124.92
+        },
+        {
+          "id": "p50w6",
+          "text": "one",
+          "start": 124.92,
+          "end": 125.18
+        },
+        {
+          "id": "p50w7",
+          "text": "day.",
+          "start": 125.18,
+          "end": 125.46
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 125.92,
+      "end": 126.38,
+      "text": "Thanks.",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "Thanks.",
+          "start": 125.92,
+          "end": 126.38
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 126.86,
+      "end": 127.2,
+      "text": "I will.",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "I",
+          "start": 126.86,
+          "end": 127.0
+        },
+        {
+          "id": "p52w2",
+          "text": "will.",
+          "start": 127.0,
+          "end": 127.2
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 127.64,
+      "end": 128.02,
+      "text": "Said Nick.",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "Said",
+          "start": 127.64,
+          "end": 127.78
+        },
+        {
+          "id": "p53w2",
+          "text": "Nick.",
+          "start": 127.78,
+          "end": 128.02
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 128.86,
+      "end": 130.9,
+      "text": "Did you hear Wild Wolf speak at the parade?",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "Did",
+          "start": 128.86,
+          "end": 129.08
+        },
+        {
+          "id": "p54w2",
+          "text": "you",
+          "start": 129.08,
+          "end": 129.24
+        },
+        {
+          "id": "p54w3",
+          "text": "hear",
+          "start": 129.24,
+          "end": 129.46
+        },
+        {
+          "id": "p54w4",
+          "text": "Wild",
+          "start": 129.46,
+          "end": 129.78
+        },
+        {
+          "id": "p54w5",
+          "text": "Wolf",
+          "start": 129.78,
+          "end": 130.02
+        },
+        {
+          "id": "p54w6",
+          "text": "speak",
+          "start": 130.02,
+          "end": 130.34
+        },
+        {
+          "id": "p54w7",
+          "text": "at",
+          "start": 130.34,
+          "end": 130.54
+        },
+        {
+          "id": "p54w8",
+          "text": "the",
+          "start": 130.54,
+          "end": 130.6
+        },
+        {
+          "id": "p54w9",
+          "text": "parade?",
+          "start": 130.6,
+          "end": 130.9
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 131.32,
+      "end": 131.72,
+      "text": "Ask Bill.",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "Ask",
+          "start": 131.32,
+          "end": 131.5
+        },
+        {
+          "id": "p55w2",
+          "text": "Bill.",
+          "start": 131.5,
+          "end": 131.72
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 132.1,
+      "end": 133.18,
+      "text": "Yes, I did.",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "Yes,",
+          "start": 132.1,
+          "end": 132.62
+        },
+        {
+          "id": "p56w2",
+          "text": "I",
+          "start": 132.62,
+          "end": 132.9
+        },
+        {
+          "id": "p56w3",
+          "text": "did.",
+          "start": 132.9,
+          "end": 133.18
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 133.62,
+      "end": 134.56,
+      "text": "Said Pam, sadly.",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "Said",
+          "start": 133.62,
+          "end": 133.88
+        },
+        {
+          "id": "p57w2",
+          "text": "Pam,",
+          "start": 133.88,
+          "end": 134.22
+        },
+        {
+          "id": "p57w3",
+          "text": "sadly.",
+          "start": 134.48,
+          "end": 134.56
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 135.68,
+      "end": 139.32,
+      "text": "The older two-mash are very upset about the homes at Coyote Canyon.",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "The",
+          "start": 135.68,
+          "end": 135.86
+        },
+        {
+          "id": "p58w2",
+          "text": "older",
+          "start": 135.86,
+          "end": 136.12
+        },
+        {
+          "id": "p58w3",
+          "text": "two",
+          "start": 136.12,
+          "end": 136.44
+        },
+        {
+          "id": "p58w4",
+          "text": "-mash",
+          "start": 136.44,
+          "end": 136.72
+        },
+        {
+          "id": "p58w5",
+          "text": "are",
+          "start": 136.72,
+          "end": 136.92
+        },
+        {
+          "id": "p58w6",
+          "text": "very",
+          "start": 136.92,
+          "end": 137.18
+        },
+        {
+          "id": "p58w7",
+          "text": "upset",
+          "start": 137.18,
+          "end": 137.46
+        },
+        {
+          "id": "p58w8",
+          "text": "about",
+          "start": 137.46,
+          "end": 137.86
+        },
+        {
+          "id": "p58w9",
+          "text": "the",
+          "start": 137.86,
+          "end": 138.02
+        },
+        {
+          "id": "p58w10",
+          "text": "homes",
+          "start": 138.02,
+          "end": 138.26
+        },
+        {
+          "id": "p58w11",
+          "text": "at",
+          "start": 138.26,
+          "end": 138.54
+        },
+        {
+          "id": "p58w12",
+          "text": "Coyote",
+          "start": 138.54,
+          "end": 138.96
+        },
+        {
+          "id": "p58w13",
+          "text": "Canyon.",
+          "start": 138.96,
+          "end": 139.32
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 140.06,
+      "end": 142.84,
+      "text": "They believe the earthquakes are a sign from the great spirit.",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "They",
+          "start": 140.06,
+          "end": 140.46
+        },
+        {
+          "id": "p59w2",
+          "text": "believe",
+          "start": 140.46,
+          "end": 140.74
+        },
+        {
+          "id": "p59w3",
+          "text": "the",
+          "start": 140.74,
+          "end": 140.94
+        },
+        {
+          "id": "p59w4",
+          "text": "earthquakes",
+          "start": 140.94,
+          "end": 141.14
+        },
+        {
+          "id": "p59w5",
+          "text": "are",
+          "start": 141.14,
+          "end": 141.62
+        },
+        {
+          "id": "p59w6",
+          "text": "a",
+          "start": 141.62,
+          "end": 141.7
+        },
+        {
+          "id": "p59w7",
+          "text": "sign",
+          "start": 141.7,
+          "end": 142.0
+        },
+        {
+          "id": "p59w8",
+          "text": "from",
+          "start": 142.0,
+          "end": 142.18
+        },
+        {
+          "id": "p59w9",
+          "text": "the",
+          "start": 142.18,
+          "end": 142.32
+        },
+        {
+          "id": "p59w10",
+          "text": "great",
+          "start": 142.32,
+          "end": 142.5
+        },
+        {
+          "id": "p59w11",
+          "text": "spirit.",
+          "start": 142.5,
+          "end": 142.84
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 143.62,
+      "end": 147.06,
+      "text": "They are afraid there will be stronger earthquakes and other disasters.",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "They",
+          "start": 143.62,
+          "end": 144.18
+        },
+        {
+          "id": "p60w2",
+          "text": "are",
+          "start": 144.18,
+          "end": 144.3
+        },
+        {
+          "id": "p60w3",
+          "text": "afraid",
+          "start": 144.3,
+          "end": 144.62
+        },
+        {
+          "id": "p60w4",
+          "text": "there",
+          "start": 144.62,
+          "end": 144.8
+        },
+        {
+          "id": "p60w5",
+          "text": "will",
+          "start": 144.8,
+          "end": 144.92
+        },
+        {
+          "id": "p60w6",
+          "text": "be",
+          "start": 144.92,
+          "end": 145.04
+        },
+        {
+          "id": "p60w7",
+          "text": "stronger",
+          "start": 145.04,
+          "end": 145.32
+        },
+        {
+          "id": "p60w8",
+          "text": "earthquakes",
+          "start": 145.32,
+          "end": 145.84
+        },
+        {
+          "id": "p60w9",
+          "text": "and",
+          "start": 145.84,
+          "end": 146.32
+        },
+        {
+          "id": "p60w10",
+          "text": "other",
+          "start": 146.32,
+          "end": 146.5
+        },
+        {
+          "id": "p60w11",
+          "text": "disasters.",
+          "start": 146.5,
+          "end": 147.06
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 148.14,
+      "end": 150.42,
+      "text": "Our ancestors are buried at Coyote Canyon.",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "Our",
+          "start": 148.14,
+          "end": 148.26
+        },
+        {
+          "id": "p61w2",
+          "text": "ancestors",
+          "start": 148.26,
+          "end": 148.64
+        },
+        {
+          "id": "p61w3",
+          "text": "are",
+          "start": 148.64,
+          "end": 149.1
+        },
+        {
+          "id": "p61w4",
+          "text": "buried",
+          "start": 149.1,
+          "end": 149.48
+        },
+        {
+          "id": "p61w5",
+          "text": "at",
+          "start": 149.48,
+          "end": 149.68
+        },
+        {
+          "id": "p61w6",
+          "text": "Coyote",
+          "start": 149.68,
+          "end": 150.08
+        },
+        {
+          "id": "p61w7",
+          "text": "Canyon.",
+          "start": 150.08,
+          "end": 150.42
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 151.34,
+      "end": 152.58,
+      "text": "The two-mash are right.",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "The",
+          "start": 151.34,
+          "end": 151.58
+        },
+        {
+          "id": "p62w2",
+          "text": "two",
+          "start": 151.58,
+          "end": 151.78
+        },
+        {
+          "id": "p62w3",
+          "text": "-mash",
+          "start": 151.78,
+          "end": 152.08
+        },
+        {
+          "id": "p62w4",
+          "text": "are",
+          "start": 152.08,
+          "end": 152.24
+        },
+        {
+          "id": "p62w5",
+          "text": "right.",
+          "start": 152.24,
+          "end": 152.58
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 152.94,
+      "end": 153.36,
+      "text": "Said Michelle.",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "Said",
+          "start": 152.94,
+          "end": 153.2
+        },
+        {
+          "id": "p63w2",
+          "text": "Michelle.",
+          "start": 153.2,
+          "end": 153.36
+        }
+      ]
+    },
+    {
+      "id": "p64",
+      "start": 154.18,
+      "end": 156.14,
+      "text": "There's a lot of land behind the canyon.",
+      "words": [
+        {
+          "id": "p64w1",
+          "text": "There's",
+          "start": 154.18,
+          "end": 154.74
+        },
+        {
+          "id": "p64w2",
+          "text": "a",
+          "start": 154.74,
+          "end": 154.82
+        },
+        {
+          "id": "p64w3",
+          "text": "lot",
+          "start": 154.82,
+          "end": 155.02
+        },
+        {
+          "id": "p64w4",
+          "text": "of",
+          "start": 155.02,
+          "end": 155.14
+        },
+        {
+          "id": "p64w5",
+          "text": "land",
+          "start": 155.14,
+          "end": 155.34
+        },
+        {
+          "id": "p64w6",
+          "text": "behind",
+          "start": 155.34,
+          "end": 155.64
+        },
+        {
+          "id": "p64w7",
+          "text": "the",
+          "start": 155.64,
+          "end": 155.82
+        },
+        {
+          "id": "p64w8",
+          "text": "canyon.",
+          "start": 155.82,
+          "end": 156.14
+        }
+      ]
+    },
+    {
+      "id": "p65",
+      "start": 156.92,
+      "end": 158.92,
+      "text": "Mr. Richardson can go and build there.",
+      "words": [
+        {
+          "id": "p65w1",
+          "text": "Mr.",
+          "start": 156.92,
+          "end": 157.22
+        },
+        {
+          "id": "p65w2",
+          "text": "Richardson",
+          "start": 157.58,
+          "end": 157.58
+        },
+        {
+          "id": "p65w3",
+          "text": "can",
+          "start": 157.58,
+          "end": 157.98
+        },
+        {
+          "id": "p65w4",
+          "text": "go",
+          "start": 157.98,
+          "end": 158.24
+        },
+        {
+          "id": "p65w5",
+          "text": "and",
+          "start": 158.24,
+          "end": 158.36
+        },
+        {
+          "id": "p65w6",
+          "text": "build",
+          "start": 158.36,
+          "end": 158.56
+        },
+        {
+          "id": "p65w7",
+          "text": "there.",
+          "start": 158.56,
+          "end": 158.92
+        }
+      ]
+    },
+    {
+      "id": "p66",
+      "start": 159.84,
+      "end": 161.76,
+      "text": "Wild Wolf is chief of the reservation.",
+      "words": [
+        {
+          "id": "p66w1",
+          "text": "Wild",
+          "start": 159.84,
+          "end": 160.2
+        },
+        {
+          "id": "p66w2",
+          "text": "Wolf",
+          "start": 160.2,
+          "end": 160.46
+        },
+        {
+          "id": "p66w3",
+          "text": "is",
+          "start": 160.46,
+          "end": 160.78
+        },
+        {
+          "id": "p66w4",
+          "text": "chief",
+          "start": 160.78,
+          "end": 161.02
+        },
+        {
+          "id": "p66w5",
+          "text": "of",
+          "start": 161.02,
+          "end": 161.26
+        },
+        {
+          "id": "p66w6",
+          "text": "the",
+          "start": 161.26,
+          "end": 161.42
+        },
+        {
+          "id": "p66w7",
+          "text": "reservation.",
+          "start": 161.42,
+          "end": 161.76
+        }
+      ]
+    },
+    {
+      "id": "p67",
+      "start": 162.62,
+      "end": 163.08,
+      "text": "Said Pam.",
+      "words": [
+        {
+          "id": "p67w1",
+          "text": "Said",
+          "start": 162.62,
+          "end": 162.88
+        },
+        {
+          "id": "p67w2",
+          "text": "Pam.",
+          "start": 162.88,
+          "end": 163.08
+        }
+      ]
+    },
+    {
+      "id": "p68",
+      "start": 164.08,
+      "end": 168.02,
+      "text": "And two years ago he and my uncle George went to talk to the mayor about this problem.",
+      "words": [
+        {
+          "id": "p68w1",
+          "text": "And",
+          "start": 164.08,
+          "end": 164.08
+        },
+        {
+          "id": "p68w2",
+          "text": "two",
+          "start": 164.08,
+          "end": 164.32
+        },
+        {
+          "id": "p68w3",
+          "text": "years",
+          "start": 164.32,
+          "end": 164.6
+        },
+        {
+          "id": "p68w4",
+          "text": "ago",
+          "start": 164.6,
+          "end": 164.96
+        },
+        {
+          "id": "p68w5",
+          "text": "he",
+          "start": 164.96,
+          "end": 165.22
+        },
+        {
+          "id": "p68w6",
+          "text": "and",
+          "start": 165.22,
+          "end": 165.32
+        },
+        {
+          "id": "p68w7",
+          "text": "my",
+          "start": 165.32,
+          "end": 165.46
+        },
+        {
+          "id": "p68w8",
+          "text": "uncle",
+          "start": 165.46,
+          "end": 165.66
+        },
+        {
+          "id": "p68w9",
+          "text": "George",
+          "start": 165.66,
+          "end": 165.96
+        },
+        {
+          "id": "p68w10",
+          "text": "went",
+          "start": 165.96,
+          "end": 166.24
+        },
+        {
+          "id": "p68w11",
+          "text": "to",
+          "start": 166.24,
+          "end": 166.38
+        },
+        {
+          "id": "p68w12",
+          "text": "talk",
+          "start": 166.38,
+          "end": 166.58
+        },
+        {
+          "id": "p68w13",
+          "text": "to",
+          "start": 166.58,
+          "end": 166.76
+        },
+        {
+          "id": "p68w14",
+          "text": "the",
+          "start": 166.76,
+          "end": 166.84
+        },
+        {
+          "id": "p68w15",
+          "text": "mayor",
+          "start": 166.84,
+          "end": 167.04
+        },
+        {
+          "id": "p68w16",
+          "text": "about",
+          "start": 167.04,
+          "end": 167.42
+        },
+        {
+          "id": "p68w17",
+          "text": "this",
+          "start": 167.42,
+          "end": 167.72
+        },
+        {
+          "id": "p68w18",
+          "text": "problem.",
+          "start": 167.72,
+          "end": 168.02
+        }
+      ]
+    },
+    {
+      "id": "p69",
+      "start": 168.02,
+      "end": 172.06,
+      "text": "At that time Mr. Richardson wanted to buy the land at Coyote Canyon.",
+      "words": [
+        {
+          "id": "p69w1",
+          "text": "At",
+          "start": 168.02,
+          "end": 168.9
+        },
+        {
+          "id": "p69w2",
+          "text": "that",
+          "start": 168.9,
+          "end": 169.06
+        },
+        {
+          "id": "p69w3",
+          "text": "time",
+          "start": 169.06,
+          "end": 169.4
+        },
+        {
+          "id": "p69w4",
+          "text": "Mr.",
+          "start": 169.4,
+          "end": 169.66
+        },
+        {
+          "id": "p69w5",
+          "text": "Richardson",
+          "start": 170.02,
+          "end": 170.02
+        },
+        {
+          "id": "p69w6",
+          "text": "wanted",
+          "start": 170.02,
+          "end": 170.4
+        },
+        {
+          "id": "p69w7",
+          "text": "to",
+          "start": 170.4,
+          "end": 170.58
+        },
+        {
+          "id": "p69w8",
+          "text": "buy",
+          "start": 170.58,
+          "end": 170.76
+        },
+        {
+          "id": "p69w9",
+          "text": "the",
+          "start": 170.76,
+          "end": 170.92
+        },
+        {
+          "id": "p69w10",
+          "text": "land",
+          "start": 170.92,
+          "end": 171.16
+        },
+        {
+          "id": "p69w11",
+          "text": "at",
+          "start": 171.16,
+          "end": 171.32
+        },
+        {
+          "id": "p69w12",
+          "text": "Coyote",
+          "start": 171.32,
+          "end": 171.72
+        },
+        {
+          "id": "p69w13",
+          "text": "Canyon.",
+          "start": 171.72,
+          "end": 172.06
+        }
+      ]
+    },
+    {
+      "id": "p70",
+      "start": 173.09,
+      "end": 174.15,
+      "text": "What did the mayor say?",
+      "words": [
+        {
+          "id": "p70w1",
+          "text": "What",
+          "start": 173.09,
+          "end": 173.49
+        },
+        {
+          "id": "p70w2",
+          "text": "did",
+          "start": 173.49,
+          "end": 173.57
+        },
+        {
+          "id": "p70w3",
+          "text": "the",
+          "start": 173.57,
+          "end": 173.67
+        },
+        {
+          "id": "p70w4",
+          "text": "mayor",
+          "start": 173.67,
+          "end": 173.79
+        },
+        {
+          "id": "p70w5",
+          "text": "say?",
+          "start": 173.79,
+          "end": 174.15
+        }
+      ]
+    },
+    {
+      "id": "p71",
+      "start": 174.69,
+      "end": 175.13,
+      "text": "Ask Nick.",
+      "words": [
+        {
+          "id": "p71w1",
+          "text": "Ask",
+          "start": 174.69,
+          "end": 174.93
+        },
+        {
+          "id": "p71w2",
+          "text": "Nick.",
+          "start": 174.93,
+          "end": 175.13
+        }
+      ]
+    },
+    {
+      "id": "p72",
+      "start": 175.75,
+      "end": 177.97,
+      "text": "He listened, but he didn't do anything.",
+      "words": [
+        {
+          "id": "p72w1",
+          "text": "He",
+          "start": 175.75,
+          "end": 176.23
+        },
+        {
+          "id": "p72w2",
+          "text": "listened,",
+          "start": 176.23,
+          "end": 176.51
+        },
+        {
+          "id": "p72w3",
+          "text": "but",
+          "start": 176.97,
+          "end": 177.15
+        },
+        {
+          "id": "p72w4",
+          "text": "he",
+          "start": 177.15,
+          "end": 177.27
+        },
+        {
+          "id": "p72w5",
+          "text": "didn't",
+          "start": 177.27,
+          "end": 177.51
+        },
+        {
+          "id": "p72w6",
+          "text": "do",
+          "start": 177.51,
+          "end": 177.67
+        },
+        {
+          "id": "p72w7",
+          "text": "anything.",
+          "start": 177.67,
+          "end": 177.97
+        }
+      ]
+    },
+    {
+      "id": "p73",
+      "start": 178.45,
+      "end": 178.89,
+      "text": "Said Pam.",
+      "words": [
+        {
+          "id": "p73w1",
+          "text": "Said",
+          "start": 178.45,
+          "end": 178.71
+        },
+        {
+          "id": "p73w2",
+          "text": "Pam.",
+          "start": 178.71,
+          "end": 178.89
+        }
+      ]
+    },
+    {
+      "id": "p74",
+      "start": 179.88,
+      "end": 183.82,
+      "text": "The people on the reservation protested in front of the town hall several times.",
+      "words": [
+        {
+          "id": "p74w1",
+          "text": "The",
+          "start": 179.88,
+          "end": 180.14
+        },
+        {
+          "id": "p74w2",
+          "text": "people",
+          "start": 180.14,
+          "end": 180.42
+        },
+        {
+          "id": "p74w3",
+          "text": "on",
+          "start": 180.42,
+          "end": 180.6
+        },
+        {
+          "id": "p74w4",
+          "text": "the",
+          "start": 180.6,
+          "end": 180.68
+        },
+        {
+          "id": "p74w5",
+          "text": "reservation",
+          "start": 180.68,
+          "end": 181.2
+        },
+        {
+          "id": "p74w6",
+          "text": "protested",
+          "start": 181.2,
+          "end": 181.64
+        },
+        {
+          "id": "p74w7",
+          "text": "in",
+          "start": 181.64,
+          "end": 182.14
+        },
+        {
+          "id": "p74w8",
+          "text": "front",
+          "start": 182.14,
+          "end": 182.28
+        },
+        {
+          "id": "p74w9",
+          "text": "of",
+          "start": 182.28,
+          "end": 182.42
+        },
+        {
+          "id": "p74w10",
+          "text": "the",
+          "start": 182.42,
+          "end": 182.52
+        },
+        {
+          "id": "p74w11",
+          "text": "town",
+          "start": 182.52,
+          "end": 182.72
+        },
+        {
+          "id": "p74w12",
+          "text": "hall",
+          "start": 182.72,
+          "end": 182.98
+        },
+        {
+          "id": "p74w13",
+          "text": "several",
+          "start": 182.98,
+          "end": 183.3
+        },
+        {
+          "id": "p74w14",
+          "text": "times.",
+          "start": 183.3,
+          "end": 183.82
+        }
+      ]
+    },
+    {
+      "id": "p75",
+      "start": 184.54,
+      "end": 186.46,
+      "text": "The mayor and Mr. Richardson are good friends.",
+      "words": [
+        {
+          "id": "p75w1",
+          "text": "The",
+          "start": 184.54,
+          "end": 184.7
+        },
+        {
+          "id": "p75w2",
+          "text": "mayor",
+          "start": 184.7,
+          "end": 184.92
+        },
+        {
+          "id": "p75w3",
+          "text": "and",
+          "start": 184.92,
+          "end": 185.12
+        },
+        {
+          "id": "p75w4",
+          "text": "Mr.",
+          "start": 185.12,
+          "end": 185.32
+        },
+        {
+          "id": "p75w5",
+          "text": "Richardson",
+          "start": 185.66,
+          "end": 185.7
+        },
+        {
+          "id": "p75w6",
+          "text": "are",
+          "start": 185.7,
+          "end": 186.0
+        },
+        {
+          "id": "p75w7",
+          "text": "good",
+          "start": 186.0,
+          "end": 186.14
+        },
+        {
+          "id": "p75w8",
+          "text": "friends.",
+          "start": 186.14,
+          "end": 186.46
+        }
+      ]
+    },
+    {
+      "id": "p76",
+      "start": 187.55,
+      "end": 189.75,
+      "text": "Gee, I'm sorry about that.",
+      "words": [
+        {
+          "id": "p76w1",
+          "text": "Gee,",
+          "start": 187.55,
+          "end": 188.07
+        },
+        {
+          "id": "p76w2",
+          "text": "I'm",
+          "start": 188.75,
+          "end": 189.01
+        },
+        {
+          "id": "p76w3",
+          "text": "sorry",
+          "start": 189.01,
+          "end": 189.19
+        },
+        {
+          "id": "p76w4",
+          "text": "about",
+          "start": 189.19,
+          "end": 189.45
+        },
+        {
+          "id": "p76w5",
+          "text": "that.",
+          "start": 189.45,
+          "end": 189.75
+        }
+      ]
+    },
+    {
+      "id": "p77",
+      "start": 189.95,
+      "end": 190.37,
+      "text": "Said Nick.",
+      "words": [
+        {
+          "id": "p77w1",
+          "text": "Said",
+          "start": 189.95,
+          "end": 190.15
+        },
+        {
+          "id": "p77w2",
+          "text": "Nick.",
+          "start": 190.15,
+          "end": 190.37
+        }
+      ]
+    },
+    {
+      "id": "p78",
+      "start": 191.44,
+      "end": 192.7,
+      "text": "I can understand your people.",
+      "words": [
+        {
+          "id": "p78w1",
+          "text": "I",
+          "start": 191.44,
+          "end": 191.68
+        },
+        {
+          "id": "p78w2",
+          "text": "can",
+          "start": 191.68,
+          "end": 191.8
+        },
+        {
+          "id": "p78w3",
+          "text": "understand",
+          "start": 191.8,
+          "end": 191.92
+        },
+        {
+          "id": "p78w4",
+          "text": "your",
+          "start": 191.92,
+          "end": 192.4
+        },
+        {
+          "id": "p78w5",
+          "text": "people.",
+          "start": 192.4,
+          "end": 192.7
+        }
+      ]
+    },
+    {
+      "id": "p79",
+      "start": 193.67,
+      "end": 196.87,
+      "text": "My parents come from China and traditions are important to them.",
+      "words": [
+        {
+          "id": "p79w1",
+          "text": "My",
+          "start": 193.67,
+          "end": 193.79
+        },
+        {
+          "id": "p79w2",
+          "text": "parents",
+          "start": 193.79,
+          "end": 194.07
+        },
+        {
+          "id": "p79w3",
+          "text": "come",
+          "start": 194.07,
+          "end": 194.29
+        },
+        {
+          "id": "p79w4",
+          "text": "from",
+          "start": 194.29,
+          "end": 194.51
+        },
+        {
+          "id": "p79w5",
+          "text": "China",
+          "start": 194.51,
+          "end": 194.75
+        },
+        {
+          "id": "p79w6",
+          "text": "and",
+          "start": 194.75,
+          "end": 195.39
+        },
+        {
+          "id": "p79w7",
+          "text": "traditions",
+          "start": 195.39,
+          "end": 195.65
+        },
+        {
+          "id": "p79w8",
+          "text": "are",
+          "start": 195.65,
+          "end": 196.09
+        },
+        {
+          "id": "p79w9",
+          "text": "important",
+          "start": 196.09,
+          "end": 196.35
+        },
+        {
+          "id": "p79w10",
+          "text": "to",
+          "start": 196.35,
+          "end": 196.71
+        },
+        {
+          "id": "p79w11",
+          "text": "them.",
+          "start": 196.71,
+          "end": 196.87
+        }
+      ]
+    },
+    {
+      "id": "p80",
+      "start": 196.87,
+      "end": 199.01,
+      "text": "I'm glad you understand Nick.",
+      "words": [
+        {
+          "id": "p80w1",
+          "text": "I'm",
+          "start": 196.87,
+          "end": 196.99
+        },
+        {
+          "id": "p80w2",
+          "text": "glad",
+          "start": 196.99,
+          "end": 197.93
+        },
+        {
+          "id": "p80w3",
+          "text": "you",
+          "start": 197.93,
+          "end": 198.15
+        },
+        {
+          "id": "p80w4",
+          "text": "understand",
+          "start": 198.15,
+          "end": 198.43
+        },
+        {
+          "id": "p80w5",
+          "text": "Nick.",
+          "start": 198.43,
+          "end": 199.01
+        }
+      ]
+    },
+    {
+      "id": "p81",
+      "start": 199.47,
+      "end": 200.91,
+      "text": "She smiled at her new friend.",
+      "words": [
+        {
+          "id": "p81w1",
+          "text": "She",
+          "start": 199.47,
+          "end": 199.69
+        },
+        {
+          "id": "p81w2",
+          "text": "smiled",
+          "start": 199.69,
+          "end": 199.97
+        },
+        {
+          "id": "p81w3",
+          "text": "at",
+          "start": 199.97,
+          "end": 200.35
+        },
+        {
+          "id": "p81w4",
+          "text": "her",
+          "start": 200.35,
+          "end": 200.47
+        },
+        {
+          "id": "p81w5",
+          "text": "new",
+          "start": 200.47,
+          "end": 200.61
+        },
+        {
+          "id": "p81w6",
+          "text": "friend.",
+          "start": 200.61,
+          "end": 200.91
+        }
+      ]
+    },
+    {
+      "id": "p82",
+      "start": 201.85,
+      "end": 203.81,
+      "text": "Now let's go and get something to eat.",
+      "words": [
+        {
+          "id": "p82w1",
+          "text": "Now",
+          "start": 201.85,
+          "end": 202.19
+        },
+        {
+          "id": "p82w2",
+          "text": "let's",
+          "start": 202.19,
+          "end": 202.55
+        },
+        {
+          "id": "p82w3",
+          "text": "go",
+          "start": 202.55,
+          "end": 202.73
+        },
+        {
+          "id": "p82w4",
+          "text": "and",
+          "start": 202.73,
+          "end": 202.93
+        },
+        {
+          "id": "p82w5",
+          "text": "get",
+          "start": 202.93,
+          "end": 203.07
+        },
+        {
+          "id": "p82w6",
+          "text": "something",
+          "start": 203.07,
+          "end": 203.27
+        },
+        {
+          "id": "p82w7",
+          "text": "to",
+          "start": 203.27,
+          "end": 203.57
+        },
+        {
+          "id": "p82w8",
+          "text": "eat.",
+          "start": 203.57,
+          "end": 203.81
+        }
+      ]
+    },
+    {
+      "id": "p83",
+      "start": 204.11,
+      "end": 205.55,
+      "text": "Everything smells good at this barbecue.",
+      "words": [
+        {
+          "id": "p83w1",
+          "text": "Everything",
+          "start": 204.11,
+          "end": 204.27
+        },
+        {
+          "id": "p83w2",
+          "text": "smells",
+          "start": 204.27,
+          "end": 204.69
+        },
+        {
+          "id": "p83w3",
+          "text": "good",
+          "start": 204.69,
+          "end": 205.03
+        },
+        {
+          "id": "p83w4",
+          "text": "at",
+          "start": 205.03,
+          "end": 205.15
+        },
+        {
+          "id": "p83w5",
+          "text": "this",
+          "start": 205.15,
+          "end": 205.33
+        },
+        {
+          "id": "p83w6",
+          "text": "barbecue.",
+          "start": 205.33,
+          "end": 205.55
+        }
+      ]
+    },
+    {
+      "id": "p84",
+      "start": 206.47,
+      "end": 207.67,
+      "text": "Yeah, said Bill.",
+      "words": [
+        {
+          "id": "p84w1",
+          "text": "Yeah,",
+          "start": 206.47,
+          "end": 206.79
+        },
+        {
+          "id": "p84w2",
+          "text": "said",
+          "start": 207.15,
+          "end": 207.45
+        },
+        {
+          "id": "p84w3",
+          "text": "Bill.",
+          "start": 207.45,
+          "end": 207.67
+        }
+      ]
+    },
+    {
+      "id": "p85",
+      "start": 208.21,
+      "end": 209.33,
+      "text": "Look at those steaks.",
+      "words": [
+        {
+          "id": "p85w1",
+          "text": "Look",
+          "start": 208.21,
+          "end": 208.37
+        },
+        {
+          "id": "p85w2",
+          "text": "at",
+          "start": 208.37,
+          "end": 208.49
+        },
+        {
+          "id": "p85w3",
+          "text": "those",
+          "start": 208.49,
+          "end": 208.65
+        },
+        {
+          "id": "p85w4",
+          "text": "steaks.",
+          "start": 208.65,
+          "end": 209.33
+        }
+      ]
+    },
+    {
+      "id": "p86",
+      "start": 210.81,
+      "end": 214.25,
+      "text": "The four friends enjoyed the food and talked to other people they knew.",
+      "words": [
+        {
+          "id": "p86w1",
+          "text": "The",
+          "start": 210.81,
+          "end": 210.97
+        },
+        {
+          "id": "p86w2",
+          "text": "four",
+          "start": 210.97,
+          "end": 211.17
+        },
+        {
+          "id": "p86w3",
+          "text": "friends",
+          "start": 211.17,
+          "end": 211.57
+        },
+        {
+          "id": "p86w4",
+          "text": "enjoyed",
+          "start": 211.57,
+          "end": 211.89
+        },
+        {
+          "id": "p86w5",
+          "text": "the",
+          "start": 211.89,
+          "end": 212.15
+        },
+        {
+          "id": "p86w6",
+          "text": "food",
+          "start": 212.15,
+          "end": 212.41
+        },
+        {
+          "id": "p86w7",
+          "text": "and",
+          "start": 212.41,
+          "end": 212.69
+        },
+        {
+          "id": "p86w8",
+          "text": "talked",
+          "start": 212.69,
+          "end": 213.07
+        },
+        {
+          "id": "p86w9",
+          "text": "to",
+          "start": 213.07,
+          "end": 213.31
+        },
+        {
+          "id": "p86w10",
+          "text": "other",
+          "start": 213.31,
+          "end": 213.49
+        },
+        {
+          "id": "p86w11",
+          "text": "people",
+          "start": 213.49,
+          "end": 213.83
+        },
+        {
+          "id": "p86w12",
+          "text": "they",
+          "start": 213.83,
+          "end": 214.01
+        },
+        {
+          "id": "p86w13",
+          "text": "knew.",
+          "start": 214.01,
+          "end": 214.25
+        }
+      ]
+    },
+    {
+      "id": "p87",
+      "start": 215.6,
+      "end": 217.32,
+      "text": "The rodeo started late in the afternoon.",
+      "words": [
+        {
+          "id": "p87w1",
+          "text": "The",
+          "start": 215.6,
+          "end": 215.72
+        },
+        {
+          "id": "p87w2",
+          "text": "rodeo",
+          "start": 215.72,
+          "end": 216.16
+        },
+        {
+          "id": "p87w3",
+          "text": "started",
+          "start": 216.16,
+          "end": 216.4
+        },
+        {
+          "id": "p87w4",
+          "text": "late",
+          "start": 216.4,
+          "end": 216.74
+        },
+        {
+          "id": "p87w5",
+          "text": "in",
+          "start": 216.74,
+          "end": 216.88
+        },
+        {
+          "id": "p87w6",
+          "text": "the",
+          "start": 216.88,
+          "end": 216.98
+        },
+        {
+          "id": "p87w7",
+          "text": "afternoon.",
+          "start": 216.98,
+          "end": 217.32
+        }
+      ]
+    },
+    {
+      "id": "p88",
+      "start": 218.32,
+      "end": 219.76,
+      "text": "And it was an exciting show.",
+      "words": [
+        {
+          "id": "p88w1",
+          "text": "And",
+          "start": 218.32,
+          "end": 218.42
+        },
+        {
+          "id": "p88w2",
+          "text": "it",
+          "start": 218.42,
+          "end": 218.54
+        },
+        {
+          "id": "p88w3",
+          "text": "was",
+          "start": 218.54,
+          "end": 218.7
+        },
+        {
+          "id": "p88w4",
+          "text": "an",
+          "start": 218.7,
+          "end": 218.88
+        },
+        {
+          "id": "p88w5",
+          "text": "exciting",
+          "start": 218.88,
+          "end": 219.04
+        },
+        {
+          "id": "p88w6",
+          "text": "show.",
+          "start": 219.04,
+          "end": 219.76
+        }
+      ]
+    },
+    {
+      "id": "p89",
+      "start": 220.9,
+      "end": 224.46,
+      "text": "Cowboys from all over California rode bucking broncos and bulls.",
+      "words": [
+        {
+          "id": "p89w1",
+          "text": "Cowboys",
+          "start": 220.9,
+          "end": 220.9
+        },
+        {
+          "id": "p89w2",
+          "text": "from",
+          "start": 220.9,
+          "end": 221.42
+        },
+        {
+          "id": "p89w3",
+          "text": "all",
+          "start": 221.42,
+          "end": 221.76
+        },
+        {
+          "id": "p89w4",
+          "text": "over",
+          "start": 221.76,
+          "end": 222.08
+        },
+        {
+          "id": "p89w5",
+          "text": "California",
+          "start": 222.08,
+          "end": 222.54
+        },
+        {
+          "id": "p89w6",
+          "text": "rode",
+          "start": 222.54,
+          "end": 223.04
+        },
+        {
+          "id": "p89w7",
+          "text": "bucking",
+          "start": 223.04,
+          "end": 223.5
+        },
+        {
+          "id": "p89w8",
+          "text": "broncos",
+          "start": 223.5,
+          "end": 223.96
+        },
+        {
+          "id": "p89w9",
+          "text": "and",
+          "start": 223.96,
+          "end": 224.24
+        },
+        {
+          "id": "p89w10",
+          "text": "bulls.",
+          "start": 224.24,
+          "end": 224.46
+        }
+      ]
+    },
+    {
+      "id": "p90",
+      "start": 225.4,
+      "end": 228.44,
+      "text": "How can the Cowboys stay on those bucking broncos?",
+      "words": [
+        {
+          "id": "p90w1",
+          "text": "How",
+          "start": 225.4,
+          "end": 225.96
+        },
+        {
+          "id": "p90w2",
+          "text": "can",
+          "start": 225.96,
+          "end": 226.12
+        },
+        {
+          "id": "p90w3",
+          "text": "the",
+          "start": 226.12,
+          "end": 226.22
+        },
+        {
+          "id": "p90w4",
+          "text": "Cowboys",
+          "start": 226.22,
+          "end": 226.44
+        },
+        {
+          "id": "p90w5",
+          "text": "stay",
+          "start": 226.44,
+          "end": 226.94
+        },
+        {
+          "id": "p90w6",
+          "text": "on",
+          "start": 226.94,
+          "end": 227.08
+        },
+        {
+          "id": "p90w7",
+          "text": "those",
+          "start": 227.08,
+          "end": 227.22
+        },
+        {
+          "id": "p90w8",
+          "text": "bucking",
+          "start": 227.22,
+          "end": 227.66
+        },
+        {
+          "id": "p90w9",
+          "text": "broncos?",
+          "start": 227.66,
+          "end": 228.44
+        }
+      ]
+    },
+    {
+      "id": "p91",
+      "start": 228.64,
+      "end": 229.08,
+      "text": "asked Nick.",
+      "words": [
+        {
+          "id": "p91w1",
+          "text": "asked",
+          "start": 228.64,
+          "end": 228.88
+        },
+        {
+          "id": "p91w2",
+          "text": "Nick.",
+          "start": 228.88,
+          "end": 229.08
+        }
+      ]
+    },
+    {
+      "id": "p92",
+      "start": 229.88,
+      "end": 231.52,
+      "text": "It takes years of practice.",
+      "words": [
+        {
+          "id": "p92w1",
+          "text": "It",
+          "start": 229.88,
+          "end": 230.2
+        },
+        {
+          "id": "p92w2",
+          "text": "takes",
+          "start": 230.2,
+          "end": 230.44
+        },
+        {
+          "id": "p92w3",
+          "text": "years",
+          "start": 230.44,
+          "end": 230.78
+        },
+        {
+          "id": "p92w4",
+          "text": "of",
+          "start": 230.78,
+          "end": 231.08
+        },
+        {
+          "id": "p92w5",
+          "text": "practice.",
+          "start": 231.08,
+          "end": 231.52
+        }
+      ]
+    },
+    {
+      "id": "p93",
+      "start": 232.22,
+      "end": 232.74,
+      "text": "Said Pam.",
+      "words": [
+        {
+          "id": "p93w1",
+          "text": "Said",
+          "start": 232.22,
+          "end": 232.52
+        },
+        {
+          "id": "p93w2",
+          "text": "Pam.",
+          "start": 232.52,
+          "end": 232.74
+        }
+      ]
+    },
+    {
+      "id": "p94",
+      "start": 234.19,
+      "end": 240.95,
+      "text": "That evening, everyone went to Blue River Park to listen to live music, dance, and watch the beautiful fireworks.",
+      "words": [
+        {
+          "id": "p94w1",
+          "text": "That",
+          "start": 234.19,
+          "end": 234.41
+        },
+        {
+          "id": "p94w2",
+          "text": "evening,",
+          "start": 234.41,
+          "end": 234.67
+        },
+        {
+          "id": "p94w3",
+          "text": "everyone",
+          "start": 235.39,
+          "end": 235.77
+        },
+        {
+          "id": "p94w4",
+          "text": "went",
+          "start": 235.77,
+          "end": 236.11
+        },
+        {
+          "id": "p94w5",
+          "text": "to",
+          "start": 236.11,
+          "end": 236.33
+        },
+        {
+          "id": "p94w6",
+          "text": "Blue",
+          "start": 236.33,
+          "end": 236.53
+        },
+        {
+          "id": "p94w7",
+          "text": "River",
+          "start": 236.53,
+          "end": 236.77
+        },
+        {
+          "id": "p94w8",
+          "text": "Park",
+          "start": 236.77,
+          "end": 237.17
+        },
+        {
+          "id": "p94w9",
+          "text": "to",
+          "start": 237.17,
+          "end": 237.45
+        },
+        {
+          "id": "p94w10",
+          "text": "listen",
+          "start": 237.45,
+          "end": 237.63
+        },
+        {
+          "id": "p94w11",
+          "text": "to",
+          "start": 237.63,
+          "end": 237.83
+        },
+        {
+          "id": "p94w12",
+          "text": "live",
+          "start": 237.83,
+          "end": 238.15
+        },
+        {
+          "id": "p94w13",
+          "text": "music,",
+          "start": 238.15,
+          "end": 238.49
+        },
+        {
+          "id": "p94w14",
+          "text": "dance,",
+          "start": 238.79,
+          "end": 239.01
+        },
+        {
+          "id": "p94w15",
+          "text": "and",
+          "start": 239.53,
+          "end": 239.73
+        },
+        {
+          "id": "p94w16",
+          "text": "watch",
+          "start": 239.73,
+          "end": 239.95
+        },
+        {
+          "id": "p94w17",
+          "text": "the",
+          "start": 239.95,
+          "end": 240.19
+        },
+        {
+          "id": "p94w18",
+          "text": "beautiful",
+          "start": 240.19,
+          "end": 240.49
+        },
+        {
+          "id": "p94w19",
+          "text": "fireworks.",
+          "start": 240.49,
+          "end": 240.95
+        }
+      ]
+    },
+    {
+      "id": "p95",
+      "start": 242.07,
+      "end": 246.97,
+      "text": "Jacob Richardson did not go to the celebration at Blue River Park because he was angry.",
+      "words": [
+        {
+          "id": "p95w1",
+          "text": "Jacob",
+          "start": 242.07,
+          "end": 242.41
+        },
+        {
+          "id": "p95w2",
+          "text": "Richardson",
+          "start": 242.41,
+          "end": 242.83
+        },
+        {
+          "id": "p95w3",
+          "text": "did",
+          "start": 242.83,
+          "end": 243.21
+        },
+        {
+          "id": "p95w4",
+          "text": "not",
+          "start": 243.21,
+          "end": 243.41
+        },
+        {
+          "id": "p95w5",
+          "text": "go",
+          "start": 243.41,
+          "end": 243.73
+        },
+        {
+          "id": "p95w6",
+          "text": "to",
+          "start": 243.73,
+          "end": 243.97
+        },
+        {
+          "id": "p95w7",
+          "text": "the",
+          "start": 243.97,
+          "end": 244.07
+        },
+        {
+          "id": "p95w8",
+          "text": "celebration",
+          "start": 244.07,
+          "end": 244.47
+        },
+        {
+          "id": "p95w9",
+          "text": "at",
+          "start": 244.47,
+          "end": 244.83
+        },
+        {
+          "id": "p95w10",
+          "text": "Blue",
+          "start": 244.83,
+          "end": 245.01
+        },
+        {
+          "id": "p95w11",
+          "text": "River",
+          "start": 245.01,
+          "end": 245.23
+        },
+        {
+          "id": "p95w12",
+          "text": "Park",
+          "start": 245.23,
+          "end": 245.61
+        },
+        {
+          "id": "p95w13",
+          "text": "because",
+          "start": 245.61,
+          "end": 246.29
+        },
+        {
+          "id": "p95w14",
+          "text": "he",
+          "start": 246.29,
+          "end": 246.49
+        },
+        {
+          "id": "p95w15",
+          "text": "was",
+          "start": 246.49,
+          "end": 246.63
+        },
+        {
+          "id": "p95w16",
+          "text": "angry.",
+          "start": 246.63,
+          "end": 246.97
+        }
+      ]
+    },
+    {
+      "id": "p96",
+      "start": 247.65,
+      "end": 251.61,
+      "text": "He stayed at home with his wife and they had dinner in their big garden.",
+      "words": [
+        {
+          "id": "p96w1",
+          "text": "He",
+          "start": 247.65,
+          "end": 247.99
+        },
+        {
+          "id": "p96w2",
+          "text": "stayed",
+          "start": 247.99,
+          "end": 248.17
+        },
+        {
+          "id": "p96w3",
+          "text": "at",
+          "start": 248.17,
+          "end": 248.37
+        },
+        {
+          "id": "p96w4",
+          "text": "home",
+          "start": 248.37,
+          "end": 248.63
+        },
+        {
+          "id": "p96w5",
+          "text": "with",
+          "start": 248.63,
+          "end": 248.89
+        },
+        {
+          "id": "p96w6",
+          "text": "his",
+          "start": 248.89,
+          "end": 249.05
+        },
+        {
+          "id": "p96w7",
+          "text": "wife",
+          "start": 249.05,
+          "end": 249.33
+        },
+        {
+          "id": "p96w8",
+          "text": "and",
+          "start": 249.33,
+          "end": 249.99
+        },
+        {
+          "id": "p96w9",
+          "text": "they",
+          "start": 249.99,
+          "end": 250.13
+        },
+        {
+          "id": "p96w10",
+          "text": "had",
+          "start": 250.13,
+          "end": 250.27
+        },
+        {
+          "id": "p96w11",
+          "text": "dinner",
+          "start": 250.27,
+          "end": 250.51
+        },
+        {
+          "id": "p96w12",
+          "text": "in",
+          "start": 250.51,
+          "end": 250.93
+        },
+        {
+          "id": "p96w13",
+          "text": "their",
+          "start": 250.93,
+          "end": 251.05
+        },
+        {
+          "id": "p96w14",
+          "text": "big",
+          "start": 251.05,
+          "end": 251.25
+        },
+        {
+          "id": "p96w15",
+          "text": "garden.",
+          "start": 251.25,
+          "end": 251.61
+        }
+      ]
+    },
+    {
+      "id": "p97",
+      "start": 251.61,
+      "end": 257.61,
+      "text": "It was a warm, silent night and they talked together until about 11 o'clock.",
+      "words": [
+        {
+          "id": "p97w1",
+          "text": "It",
+          "start": 251.61,
+          "end": 251.69
+        },
+        {
+          "id": "p97w2",
+          "text": "was",
+          "start": 251.69,
+          "end": 252.81
+        },
+        {
+          "id": "p97w3",
+          "text": "a",
+          "start": 252.81,
+          "end": 252.93
+        },
+        {
+          "id": "p97w4",
+          "text": "warm,",
+          "start": 252.93,
+          "end": 253.23
+        },
+        {
+          "id": "p97w5",
+          "text": "silent",
+          "start": 253.23,
+          "end": 253.85
+        },
+        {
+          "id": "p97w6",
+          "text": "night",
+          "start": 253.85,
+          "end": 254.19
+        },
+        {
+          "id": "p97w7",
+          "text": "and",
+          "start": 254.19,
+          "end": 254.97
+        },
+        {
+          "id": "p97w8",
+          "text": "they",
+          "start": 254.97,
+          "end": 255.09
+        },
+        {
+          "id": "p97w9",
+          "text": "talked",
+          "start": 255.09,
+          "end": 255.29
+        },
+        {
+          "id": "p97w10",
+          "text": "together",
+          "start": 255.29,
+          "end": 255.71
+        },
+        {
+          "id": "p97w11",
+          "text": "until",
+          "start": 255.71,
+          "end": 256.31
+        },
+        {
+          "id": "p97w12",
+          "text": "about",
+          "start": 256.31,
+          "end": 256.67
+        },
+        {
+          "id": "p97w13",
+          "text": "11",
+          "start": 256.67,
+          "end": 257.15
+        },
+        {
+          "id": "p97w14",
+          "text": "o",
+          "start": 257.15,
+          "end": 257.29
+        },
+        {
+          "id": "p97w15",
+          "text": "'clock.",
+          "start": 257.29,
+          "end": 257.61
+        }
+      ]
+    },
+    {
+      "id": "p98",
+      "start": 258.33,
+      "end": 261.81,
+      "text": "Those two mashers are going to make a lot of trouble for me, Meg.",
+      "words": [
+        {
+          "id": "p98w1",
+          "text": "Those",
+          "start": 258.33,
+          "end": 258.77
+        },
+        {
+          "id": "p98w2",
+          "text": "two",
+          "start": 258.77,
+          "end": 259.11
+        },
+        {
+          "id": "p98w3",
+          "text": "mashers",
+          "start": 259.11,
+          "end": 259.61
+        },
+        {
+          "id": "p98w4",
+          "text": "are",
+          "start": 259.61,
+          "end": 259.69
+        },
+        {
+          "id": "p98w5",
+          "text": "going",
+          "start": 259.69,
+          "end": 259.79
+        },
+        {
+          "id": "p98w6",
+          "text": "to",
+          "start": 259.79,
+          "end": 259.89
+        },
+        {
+          "id": "p98w7",
+          "text": "make",
+          "start": 259.89,
+          "end": 260.09
+        },
+        {
+          "id": "p98w8",
+          "text": "a",
+          "start": 260.09,
+          "end": 260.21
+        },
+        {
+          "id": "p98w9",
+          "text": "lot",
+          "start": 260.21,
+          "end": 260.51
+        },
+        {
+          "id": "p98w10",
+          "text": "of",
+          "start": 260.51,
+          "end": 260.79
+        },
+        {
+          "id": "p98w11",
+          "text": "trouble",
+          "start": 260.79,
+          "end": 261.09
+        },
+        {
+          "id": "p98w12",
+          "text": "for",
+          "start": 261.09,
+          "end": 261.39
+        },
+        {
+          "id": "p98w13",
+          "text": "me,",
+          "start": 261.39,
+          "end": 261.53
+        },
+        {
+          "id": "p98w14",
+          "text": "Meg.",
+          "start": 261.59,
+          "end": 261.81
+        }
+      ]
+    },
+    {
+      "id": "p99",
+      "start": 262.35,
+      "end": 263.11,
+      "text": "He said nervously.",
+      "words": [
+        {
+          "id": "p99w1",
+          "text": "He",
+          "start": 262.35,
+          "end": 262.57
+        },
+        {
+          "id": "p99w2",
+          "text": "said",
+          "start": 262.57,
+          "end": 262.77
+        },
+        {
+          "id": "p99w3",
+          "text": "nervously.",
+          "start": 262.77,
+          "end": 263.11
+        }
+      ]
+    },
+    {
+      "id": "p100",
+      "start": 264.13,
+      "end": 265.23,
+      "text": "What are you going to do?",
+      "words": [
+        {
+          "id": "p100w1",
+          "text": "What",
+          "start": 264.13,
+          "end": 264.43
+        },
+        {
+          "id": "p100w2",
+          "text": "are",
+          "start": 264.43,
+          "end": 264.55
+        },
+        {
+          "id": "p100w3",
+          "text": "you",
+          "start": 264.55,
+          "end": 264.63
+        },
+        {
+          "id": "p100w4",
+          "text": "going",
+          "start": 264.63,
+          "end": 264.81
+        },
+        {
+          "id": "p100w5",
+          "text": "to",
+          "start": 264.81,
+          "end": 265.01
+        },
+        {
+          "id": "p100w6",
+          "text": "do?",
+          "start": 265.01,
+          "end": 265.23
+        }
+      ]
+    },
+    {
+      "id": "p101",
+      "start": 265.65,
+      "end": 266.59,
+      "text": "Ask Meg Richardson.",
+      "words": [
+        {
+          "id": "p101w1",
+          "text": "Ask",
+          "start": 265.65,
+          "end": 265.95
+        },
+        {
+          "id": "p101w2",
+          "text": "Meg",
+          "start": 265.95,
+          "end": 266.17
+        },
+        {
+          "id": "p101w3",
+          "text": "Richardson.",
+          "start": 266.17,
+          "end": 266.59
+        }
+      ]
+    },
+    {
+      "id": "p102",
+      "start": 267.37,
+      "end": 269.39,
+      "text": "I'm going to talk to Rodriguez on Monday.",
+      "words": [
+        {
+          "id": "p102w1",
+          "text": "I'm",
+          "start": 267.37,
+          "end": 267.65
+        },
+        {
+          "id": "p102w2",
+          "text": "going",
+          "start": 267.65,
+          "end": 267.77
+        },
+        {
+          "id": "p102w3",
+          "text": "to",
+          "start": 267.77,
+          "end": 267.87
+        },
+        {
+          "id": "p102w4",
+          "text": "talk",
+          "start": 267.87,
+          "end": 268.11
+        },
+        {
+          "id": "p102w5",
+          "text": "to",
+          "start": 268.11,
+          "end": 268.29
+        },
+        {
+          "id": "p102w6",
+          "text": "Rodriguez",
+          "start": 268.29,
+          "end": 268.63
+        },
+        {
+          "id": "p102w7",
+          "text": "on",
+          "start": 268.63,
+          "end": 269.19
+        },
+        {
+          "id": "p102w8",
+          "text": "Monday.",
+          "start": 269.19,
+          "end": 269.39
+        }
+      ]
+    },
+    {
+      "id": "p103",
+      "start": 270.21,
+      "end": 272.57,
+      "text": "He said, I have to stop them.",
+      "words": [
+        {
+          "id": "p103w1",
+          "text": "He",
+          "start": 270.21,
+          "end": 270.37
+        },
+        {
+          "id": "p103w2",
+          "text": "said,",
+          "start": 270.37,
+          "end": 270.61
+        },
+        {
+          "id": "p103w3",
+          "text": "I",
+          "start": 271.37,
+          "end": 271.53
+        },
+        {
+          "id": "p103w4",
+          "text": "have",
+          "start": 271.53,
+          "end": 271.73
+        },
+        {
+          "id": "p103w5",
+          "text": "to",
+          "start": 271.73,
+          "end": 271.99
+        },
+        {
+          "id": "p103w6",
+          "text": "stop",
+          "start": 271.99,
+          "end": 272.23
+        },
+        {
+          "id": "p103w7",
+          "text": "them.",
+          "start": 272.23,
+          "end": 272.57
+        }
+      ]
+    },
+    {
+      "id": "p104",
+      "start": 273.27,
+      "end": 274.01,
+      "text": "Oh, Jacob.",
+      "words": [
+        {
+          "id": "p104w1",
+          "text": "Oh,",
+          "start": 273.27,
+          "end": 273.47
+        },
+        {
+          "id": "p104w2",
+          "text": "Jacob.",
+          "start": 273.75,
+          "end": 274.01
+        }
+      ]
+    },
+    {
+      "id": "p105",
+      "start": 274.65,
+      "end": 274.99,
+      "text": "Said Meg.",
+      "words": [
+        {
+          "id": "p105w1",
+          "text": "Said",
+          "start": 274.65,
+          "end": 274.75
+        },
+        {
+          "id": "p105w2",
+          "text": "Meg.",
+          "start": 274.75,
+          "end": 274.99
+        }
+      ]
+    },
+    {
+      "id": "p106",
+      "start": 275.89,
+      "end": 277.69,
+      "text": "Please listen to my advice.",
+      "words": [
+        {
+          "id": "p106w1",
+          "text": "Please",
+          "start": 275.89,
+          "end": 276.45
+        },
+        {
+          "id": "p106w2",
+          "text": "listen",
+          "start": 276.45,
+          "end": 277.01
+        },
+        {
+          "id": "p106w3",
+          "text": "to",
+          "start": 277.01,
+          "end": 277.23
+        },
+        {
+          "id": "p106w4",
+          "text": "my",
+          "start": 277.23,
+          "end": 277.43
+        },
+        {
+          "id": "p106w5",
+          "text": "advice.",
+          "start": 277.43,
+          "end": 277.69
+        }
+      ]
+    },
+    {
+      "id": "p107",
+      "start": 278.39,
+      "end": 279.63,
+      "text": "Stop building there.",
+      "words": [
+        {
+          "id": "p107w1",
+          "text": "Stop",
+          "start": 278.39,
+          "end": 278.67
+        },
+        {
+          "id": "p107w2",
+          "text": "building",
+          "start": 278.67,
+          "end": 279.25
+        },
+        {
+          "id": "p107w3",
+          "text": "there.",
+          "start": 279.25,
+          "end": 279.63
+        }
+      ]
+    },
+    {
+      "id": "p108",
+      "start": 279.63,
+      "end": 282.01,
+      "text": "The two mashers are very angry.",
+      "words": [
+        {
+          "id": "p108w1",
+          "text": "The",
+          "start": 279.63,
+          "end": 280.31
+        },
+        {
+          "id": "p108w2",
+          "text": "two",
+          "start": 280.31,
+          "end": 280.59
+        },
+        {
+          "id": "p108w3",
+          "text": "mashers",
+          "start": 280.59,
+          "end": 281.07
+        },
+        {
+          "id": "p108w4",
+          "text": "are",
+          "start": 281.07,
+          "end": 281.23
+        },
+        {
+          "id": "p108w5",
+          "text": "very",
+          "start": 281.23,
+          "end": 281.37
+        },
+        {
+          "id": "p108w6",
+          "text": "angry.",
+          "start": 281.37,
+          "end": 282.01
+        }
+      ]
+    },
+    {
+      "id": "p109",
+      "start": 282.55,
+      "end": 283.97,
+      "text": "Try and understand them.",
+      "words": [
+        {
+          "id": "p109w1",
+          "text": "Try",
+          "start": 282.55,
+          "end": 282.75
+        },
+        {
+          "id": "p109w2",
+          "text": "and",
+          "start": 282.75,
+          "end": 283.09
+        },
+        {
+          "id": "p109w3",
+          "text": "understand",
+          "start": 283.09,
+          "end": 283.47
+        },
+        {
+          "id": "p109w4",
+          "text": "them.",
+          "start": 283.47,
+          "end": 283.97
+        }
+      ]
+    },
+    {
+      "id": "p110",
+      "start": 284.96,
+      "end": 287.76,
+      "text": "There's a lot of good land behind the canyon.",
+      "words": [
+        {
+          "id": "p110w1",
+          "text": "There's",
+          "start": 284.96,
+          "end": 285.32
+        },
+        {
+          "id": "p110w2",
+          "text": "a",
+          "start": 285.32,
+          "end": 285.42
+        },
+        {
+          "id": "p110w3",
+          "text": "lot",
+          "start": 285.42,
+          "end": 285.72
+        },
+        {
+          "id": "p110w4",
+          "text": "of",
+          "start": 285.72,
+          "end": 285.84
+        },
+        {
+          "id": "p110w5",
+          "text": "good",
+          "start": 285.84,
+          "end": 286.06
+        },
+        {
+          "id": "p110w6",
+          "text": "land",
+          "start": 286.06,
+          "end": 286.44
+        },
+        {
+          "id": "p110w7",
+          "text": "behind",
+          "start": 286.44,
+          "end": 286.98
+        },
+        {
+          "id": "p110w8",
+          "text": "the",
+          "start": 286.98,
+          "end": 287.4
+        },
+        {
+          "id": "p110w9",
+          "text": "canyon.",
+          "start": 287.4,
+          "end": 287.76
+        }
+      ]
+    },
+    {
+      "id": "p111",
+      "start": 288.56,
+      "end": 292.18,
+      "text": "Coyote Canyon is the best place, Meg, and I'm not stopping.",
+      "words": [
+        {
+          "id": "p111w1",
+          "text": "Coyote",
+          "start": 288.56,
+          "end": 289.02
+        },
+        {
+          "id": "p111w2",
+          "text": "Canyon",
+          "start": 289.02,
+          "end": 289.4
+        },
+        {
+          "id": "p111w3",
+          "text": "is",
+          "start": 289.4,
+          "end": 289.68
+        },
+        {
+          "id": "p111w4",
+          "text": "the",
+          "start": 289.68,
+          "end": 289.82
+        },
+        {
+          "id": "p111w5",
+          "text": "best",
+          "start": 289.82,
+          "end": 290.06
+        },
+        {
+          "id": "p111w6",
+          "text": "place,",
+          "start": 290.06,
+          "end": 290.54
+        },
+        {
+          "id": "p111w7",
+          "text": "Meg,",
+          "start": 290.54,
+          "end": 290.78
+        },
+        {
+          "id": "p111w8",
+          "text": "and",
+          "start": 291.16,
+          "end": 291.3
+        },
+        {
+          "id": "p111w9",
+          "text": "I'm",
+          "start": 291.3,
+          "end": 291.48
+        },
+        {
+          "id": "p111w10",
+          "text": "not",
+          "start": 291.48,
+          "end": 291.64
+        },
+        {
+          "id": "p111w11",
+          "text": "stopping.",
+          "start": 291.64,
+          "end": 292.18
+        }
+      ]
+    },
+    {
+      "id": "p112",
+      "start": 292.56,
+      "end": 293.62,
+      "text": "Said Jacob Richardson.",
+      "words": [
+        {
+          "id": "p112w1",
+          "text": "Said",
+          "start": 292.56,
+          "end": 292.98
+        },
+        {
+          "id": "p112w2",
+          "text": "Jacob",
+          "start": 292.98,
+          "end": 293.28
+        },
+        {
+          "id": "p112w3",
+          "text": "Richardson.",
+          "start": 293.28,
+          "end": 293.62
+        }
+      ]
+    },
+    {
+      "id": "p113",
+      "start": 294.38,
+      "end": 295.36,
+      "text": "What's that noise?",
+      "words": [
+        {
+          "id": "p113w1",
+          "text": "What's",
+          "start": 294.38,
+          "end": 294.9
+        },
+        {
+          "id": "p113w2",
+          "text": "that",
+          "start": 294.9,
+          "end": 295.02
+        },
+        {
+          "id": "p113w3",
+          "text": "noise?",
+          "start": 295.02,
+          "end": 295.36
+        }
+      ]
+    },
+    {
+      "id": "p114",
+      "start": 295.92,
+      "end": 299.98,
+      "text": "asked Meg, turning around to look at the tall trees at the back of the garden.",
+      "words": [
+        {
+          "id": "p114w1",
+          "text": "asked",
+          "start": 295.92,
+          "end": 296.2
+        },
+        {
+          "id": "p114w2",
+          "text": "Meg,",
+          "start": 296.2,
+          "end": 296.48
+        },
+        {
+          "id": "p114w3",
+          "text": "turning",
+          "start": 297.1,
+          "end": 297.22
+        },
+        {
+          "id": "p114w4",
+          "text": "around",
+          "start": 297.22,
+          "end": 297.58
+        },
+        {
+          "id": "p114w5",
+          "text": "to",
+          "start": 297.58,
+          "end": 297.82
+        },
+        {
+          "id": "p114w6",
+          "text": "look",
+          "start": 297.82,
+          "end": 298.04
+        },
+        {
+          "id": "p114w7",
+          "text": "at",
+          "start": 298.04,
+          "end": 298.12
+        },
+        {
+          "id": "p114w8",
+          "text": "the",
+          "start": 298.12,
+          "end": 298.22
+        },
+        {
+          "id": "p114w9",
+          "text": "tall",
+          "start": 298.22,
+          "end": 298.42
+        },
+        {
+          "id": "p114w10",
+          "text": "trees",
+          "start": 298.42,
+          "end": 298.88
+        },
+        {
+          "id": "p114w11",
+          "text": "at",
+          "start": 298.88,
+          "end": 299.18
+        },
+        {
+          "id": "p114w12",
+          "text": "the",
+          "start": 299.18,
+          "end": 299.28
+        },
+        {
+          "id": "p114w13",
+          "text": "back",
+          "start": 299.28,
+          "end": 299.5
+        },
+        {
+          "id": "p114w14",
+          "text": "of",
+          "start": 299.5,
+          "end": 299.64
+        },
+        {
+          "id": "p114w15",
+          "text": "the",
+          "start": 299.64,
+          "end": 299.74
+        },
+        {
+          "id": "p114w16",
+          "text": "garden.",
+          "start": 299.74,
+          "end": 299.98
+        }
+      ]
+    },
+    {
+      "id": "p115",
+      "start": 300.64,
+      "end": 302.18,
+      "text": "It sounds like a horse.",
+      "words": [
+        {
+          "id": "p115w1",
+          "text": "It",
+          "start": 300.64,
+          "end": 300.9
+        },
+        {
+          "id": "p115w2",
+          "text": "sounds",
+          "start": 300.9,
+          "end": 301.12
+        },
+        {
+          "id": "p115w3",
+          "text": "like",
+          "start": 301.12,
+          "end": 301.4
+        },
+        {
+          "id": "p115w4",
+          "text": "a",
+          "start": 301.4,
+          "end": 301.88
+        },
+        {
+          "id": "p115w5",
+          "text": "horse.",
+          "start": 301.88,
+          "end": 302.18
+        }
+      ]
+    },
+    {
+      "id": "p116",
+      "start": 302.78,
+      "end": 305.14,
+      "text": "Said Jacob, getting up and looking at the trees.",
+      "words": [
+        {
+          "id": "p116w1",
+          "text": "Said",
+          "start": 302.78,
+          "end": 303.0
+        },
+        {
+          "id": "p116w2",
+          "text": "Jacob,",
+          "start": 303.0,
+          "end": 303.36
+        },
+        {
+          "id": "p116w3",
+          "text": "getting",
+          "start": 303.66,
+          "end": 303.86
+        },
+        {
+          "id": "p116w4",
+          "text": "up",
+          "start": 303.86,
+          "end": 304.1
+        },
+        {
+          "id": "p116w5",
+          "text": "and",
+          "start": 304.1,
+          "end": 304.26
+        },
+        {
+          "id": "p116w6",
+          "text": "looking",
+          "start": 304.26,
+          "end": 304.48
+        },
+        {
+          "id": "p116w7",
+          "text": "at",
+          "start": 304.48,
+          "end": 304.76
+        },
+        {
+          "id": "p116w8",
+          "text": "the",
+          "start": 304.76,
+          "end": 304.86
+        },
+        {
+          "id": "p116w9",
+          "text": "trees.",
+          "start": 304.86,
+          "end": 305.14
+        }
+      ]
+    },
+    {
+      "id": "p117",
+      "start": 305.14,
+      "end": 309.98,
+      "text": "In the distance, he saw a rider on a black horse holding a spear.",
+      "words": [
+        {
+          "id": "p117w1",
+          "text": "In",
+          "start": 305.14,
+          "end": 305.78
+        },
+        {
+          "id": "p117w2",
+          "text": "the",
+          "start": 305.78,
+          "end": 306.42
+        },
+        {
+          "id": "p117w3",
+          "text": "distance,",
+          "start": 306.42,
+          "end": 306.68
+        },
+        {
+          "id": "p117w4",
+          "text": "he",
+          "start": 307.22,
+          "end": 307.42
+        },
+        {
+          "id": "p117w5",
+          "text": "saw",
+          "start": 307.42,
+          "end": 307.64
+        },
+        {
+          "id": "p117w6",
+          "text": "a",
+          "start": 307.64,
+          "end": 307.78
+        },
+        {
+          "id": "p117w7",
+          "text": "rider",
+          "start": 307.78,
+          "end": 308.04
+        },
+        {
+          "id": "p117w8",
+          "text": "on",
+          "start": 308.04,
+          "end": 308.3
+        },
+        {
+          "id": "p117w9",
+          "text": "a",
+          "start": 308.3,
+          "end": 308.4
+        },
+        {
+          "id": "p117w10",
+          "text": "black",
+          "start": 308.4,
+          "end": 308.58
+        },
+        {
+          "id": "p117w11",
+          "text": "horse",
+          "start": 308.58,
+          "end": 309.0
+        },
+        {
+          "id": "p117w12",
+          "text": "holding",
+          "start": 309.0,
+          "end": 309.54
+        },
+        {
+          "id": "p117w13",
+          "text": "a",
+          "start": 309.54,
+          "end": 309.72
+        },
+        {
+          "id": "p117w14",
+          "text": "spear.",
+          "start": 309.72,
+          "end": 309.98
+        }
+      ]
+    },
+    {
+      "id": "p118",
+      "start": 310.98,
+      "end": 315.1,
+      "text": "He had long black hair and his face and body had war paint.",
+      "words": [
+        {
+          "id": "p118w1",
+          "text": "He",
+          "start": 310.98,
+          "end": 311.2
+        },
+        {
+          "id": "p118w2",
+          "text": "had",
+          "start": 311.2,
+          "end": 311.38
+        },
+        {
+          "id": "p118w3",
+          "text": "long",
+          "start": 311.38,
+          "end": 311.56
+        },
+        {
+          "id": "p118w4",
+          "text": "black",
+          "start": 311.56,
+          "end": 311.98
+        },
+        {
+          "id": "p118w5",
+          "text": "hair",
+          "start": 311.98,
+          "end": 312.3
+        },
+        {
+          "id": "p118w6",
+          "text": "and",
+          "start": 312.3,
+          "end": 312.94
+        },
+        {
+          "id": "p118w7",
+          "text": "his",
+          "start": 312.94,
+          "end": 313.06
+        },
+        {
+          "id": "p118w8",
+          "text": "face",
+          "start": 313.06,
+          "end": 313.32
+        },
+        {
+          "id": "p118w9",
+          "text": "and",
+          "start": 313.32,
+          "end": 313.62
+        },
+        {
+          "id": "p118w10",
+          "text": "body",
+          "start": 313.62,
+          "end": 314.02
+        },
+        {
+          "id": "p118w11",
+          "text": "had",
+          "start": 314.02,
+          "end": 314.56
+        },
+        {
+          "id": "p118w12",
+          "text": "war",
+          "start": 314.56,
+          "end": 314.8
+        },
+        {
+          "id": "p118w13",
+          "text": "paint.",
+          "start": 314.8,
+          "end": 315.1
+        }
+      ]
+    },
+    {
+      "id": "p119",
+      "start": 315.9,
+      "end": 317.3,
+      "text": "His horse had war paint too.",
+      "words": [
+        {
+          "id": "p119w1",
+          "text": "His",
+          "start": 315.9,
+          "end": 316.0
+        },
+        {
+          "id": "p119w2",
+          "text": "horse",
+          "start": 316.0,
+          "end": 316.28
+        },
+        {
+          "id": "p119w3",
+          "text": "had",
+          "start": 316.28,
+          "end": 316.48
+        },
+        {
+          "id": "p119w4",
+          "text": "war",
+          "start": 316.48,
+          "end": 316.68
+        },
+        {
+          "id": "p119w5",
+          "text": "paint",
+          "start": 316.68,
+          "end": 316.98
+        },
+        {
+          "id": "p119w6",
+          "text": "too.",
+          "start": 316.98,
+          "end": 317.3
+        }
+      ]
+    },
+    {
+      "id": "p120",
+      "start": 318.08,
+      "end": 319.22,
+      "text": "Meg Richardson screamed.",
+      "words": [
+        {
+          "id": "p120w1",
+          "text": "Meg",
+          "start": 318.08,
+          "end": 318.3
+        },
+        {
+          "id": "p120w2",
+          "text": "Richardson",
+          "start": 318.3,
+          "end": 318.7
+        },
+        {
+          "id": "p120w3",
+          "text": "screamed.",
+          "start": 318.7,
+          "end": 319.22
+        }
+      ]
+    },
+    {
+      "id": "p121",
+      "start": 320.06,
+      "end": 320.96,
+      "text": "The ghost warrior.",
+      "words": [
+        {
+          "id": "p121w1",
+          "text": "The",
+          "start": 320.06,
+          "end": 320.08
+        },
+        {
+          "id": "p121w2",
+          "text": "ghost",
+          "start": 320.08,
+          "end": 320.48
+        },
+        {
+          "id": "p121w3",
+          "text": "warrior.",
+          "start": 320.48,
+          "end": 320.96
+        }
+      ]
+    },
+    {
+      "id": "p122",
+      "start": 321.9,
+      "end": 327.54,
+      "text": "The warrior galloped towards Jacob Richardson, lifted his long spear and threw it at him.",
+      "words": [
+        {
+          "id": "p122w1",
+          "text": "The",
+          "start": 321.9,
+          "end": 322.12
+        },
+        {
+          "id": "p122w2",
+          "text": "warrior",
+          "start": 322.12,
+          "end": 322.46
+        },
+        {
+          "id": "p122w3",
+          "text": "galloped",
+          "start": 322.46,
+          "end": 323.06
+        },
+        {
+          "id": "p122w4",
+          "text": "towards",
+          "start": 323.06,
+          "end": 323.32
+        },
+        {
+          "id": "p122w5",
+          "text": "Jacob",
+          "start": 323.32,
+          "end": 323.68
+        },
+        {
+          "id": "p122w6",
+          "text": "Richardson,",
+          "start": 323.68,
+          "end": 324.18
+        },
+        {
+          "id": "p122w7",
+          "text": "lifted",
+          "start": 325.0,
+          "end": 325.14
+        },
+        {
+          "id": "p122w8",
+          "text": "his",
+          "start": 325.14,
+          "end": 325.44
+        },
+        {
+          "id": "p122w9",
+          "text": "long",
+          "start": 325.44,
+          "end": 325.64
+        },
+        {
+          "id": "p122w10",
+          "text": "spear",
+          "start": 325.64,
+          "end": 326.14
+        },
+        {
+          "id": "p122w11",
+          "text": "and",
+          "start": 326.14,
+          "end": 326.7
+        },
+        {
+          "id": "p122w12",
+          "text": "threw",
+          "start": 326.7,
+          "end": 326.98
+        },
+        {
+          "id": "p122w13",
+          "text": "it",
+          "start": 326.98,
+          "end": 327.2
+        },
+        {
+          "id": "p122w14",
+          "text": "at",
+          "start": 327.2,
+          "end": 327.32
+        },
+        {
+          "id": "p122w15",
+          "text": "him.",
+          "start": 327.32,
+          "end": 327.54
+        }
+      ]
+    },
+    {
+      "id": "p123",
+      "start": 328.22,
+      "end": 331.64,
+      "text": "The spear hit him in the heart and he fell to the ground.",
+      "words": [
+        {
+          "id": "p123w1",
+          "text": "The",
+          "start": 328.22,
+          "end": 328.28
+        },
+        {
+          "id": "p123w2",
+          "text": "spear",
+          "start": 328.28,
+          "end": 328.62
+        },
+        {
+          "id": "p123w3",
+          "text": "hit",
+          "start": 328.62,
+          "end": 328.94
+        },
+        {
+          "id": "p123w4",
+          "text": "him",
+          "start": 328.94,
+          "end": 329.14
+        },
+        {
+          "id": "p123w5",
+          "text": "in",
+          "start": 329.14,
+          "end": 329.28
+        },
+        {
+          "id": "p123w6",
+          "text": "the",
+          "start": 329.28,
+          "end": 329.38
+        },
+        {
+          "id": "p123w7",
+          "text": "heart",
+          "start": 329.38,
+          "end": 329.68
+        },
+        {
+          "id": "p123w8",
+          "text": "and",
+          "start": 329.68,
+          "end": 330.68
+        },
+        {
+          "id": "p123w9",
+          "text": "he",
+          "start": 330.68,
+          "end": 330.8
+        },
+        {
+          "id": "p123w10",
+          "text": "fell",
+          "start": 330.8,
+          "end": 331.0
+        },
+        {
+          "id": "p123w11",
+          "text": "to",
+          "start": 331.0,
+          "end": 331.24
+        },
+        {
+          "id": "p123w12",
+          "text": "the",
+          "start": 331.24,
+          "end": 331.36
+        },
+        {
+          "id": "p123w13",
+          "text": "ground.",
+          "start": 331.36,
+          "end": 331.64
+        }
+      ]
+    },
+    {
+      "id": "p124",
+      "start": 332.14,
+      "end": 334.6,
+      "text": "The warrior galloped away into the night.",
+      "words": [
+        {
+          "id": "p124w1",
+          "text": "The",
+          "start": 332.14,
+          "end": 332.58
+        },
+        {
+          "id": "p124w2",
+          "text": "warrior",
+          "start": 332.58,
+          "end": 332.94
+        },
+        {
+          "id": "p124w3",
+          "text": "galloped",
+          "start": 332.94,
+          "end": 333.56
+        },
+        {
+          "id": "p124w4",
+          "text": "away",
+          "start": 333.56,
+          "end": 333.88
+        },
+        {
+          "id": "p124w5",
+          "text": "into",
+          "start": 333.88,
+          "end": 334.1
+        },
+        {
+          "id": "p124w6",
+          "text": "the",
+          "start": 334.1,
+          "end": 334.28
+        },
+        {
+          "id": "p124w7",
+          "text": "night.",
+          "start": 334.28,
+          "end": 334.6
+        }
+      ]
+    },
+    {
+      "id": "p125",
+      "start": 334.64,
+      "end": 342.45,
+      "text": "Jacob cried his wife, running to her husband, who was already dead.",
+      "words": [
+        {
+          "id": "p125w1",
+          "text": "Jacob",
+          "start": 334.64,
+          "end": 335.8
+        },
+        {
+          "id": "p125w2",
+          "text": "cried",
+          "start": 335.8,
+          "end": 336.96
+        },
+        {
+          "id": "p125w3",
+          "text": "his",
+          "start": 338.65,
+          "end": 338.99
+        },
+        {
+          "id": "p125w4",
+          "text": "wife,",
+          "start": 338.99,
+          "end": 339.27
+        },
+        {
+          "id": "p125w5",
+          "text": "running",
+          "start": 339.71,
+          "end": 340.03
+        },
+        {
+          "id": "p125w6",
+          "text": "to",
+          "start": 340.03,
+          "end": 340.25
+        },
+        {
+          "id": "p125w7",
+          "text": "her",
+          "start": 340.25,
+          "end": 340.43
+        },
+        {
+          "id": "p125w8",
+          "text": "husband,",
+          "start": 340.43,
+          "end": 340.79
+        },
+        {
+          "id": "p125w9",
+          "text": "who",
+          "start": 341.35,
+          "end": 341.47
+        },
+        {
+          "id": "p125w10",
+          "text": "was",
+          "start": 341.47,
+          "end": 341.61
+        },
+        {
+          "id": "p125w11",
+          "text": "already",
+          "start": 341.61,
+          "end": 342.01
+        },
+        {
+          "id": "p125w12",
+          "text": "dead.",
+          "start": 342.01,
+          "end": 342.45
+        }
+      ]
+    },
+    {
+      "id": "p126",
+      "start": 343.38,
+      "end": 346.76,
+      "text": "She was terrified, and for a moment she couldn't move.",
+      "words": [
+        {
+          "id": "p126w1",
+          "text": "She",
+          "start": 343.38,
+          "end": 343.58
+        },
+        {
+          "id": "p126w2",
+          "text": "was",
+          "start": 343.58,
+          "end": 343.72
+        },
+        {
+          "id": "p126w3",
+          "text": "terrified,",
+          "start": 343.72,
+          "end": 344.08
+        },
+        {
+          "id": "p126w4",
+          "text": "and",
+          "start": 344.96,
+          "end": 345.18
+        },
+        {
+          "id": "p126w5",
+          "text": "for",
+          "start": 345.18,
+          "end": 345.34
+        },
+        {
+          "id": "p126w6",
+          "text": "a",
+          "start": 345.34,
+          "end": 345.46
+        },
+        {
+          "id": "p126w7",
+          "text": "moment",
+          "start": 345.46,
+          "end": 345.76
+        },
+        {
+          "id": "p126w8",
+          "text": "she",
+          "start": 345.76,
+          "end": 346.14
+        },
+        {
+          "id": "p126w9",
+          "text": "couldn't",
+          "start": 346.14,
+          "end": 346.48
+        },
+        {
+          "id": "p126w10",
+          "text": "move.",
+          "start": 346.48,
+          "end": 346.76
+        }
+      ]
+    },
+    {
+      "id": "p127",
+      "start": 347.56,
+      "end": 350.76,
+      "text": "She stared at the long spear in her husband's heart.",
+      "words": [
+        {
+          "id": "p127w1",
+          "text": "She",
+          "start": 347.56,
+          "end": 347.78
+        },
+        {
+          "id": "p127w2",
+          "text": "stared",
+          "start": 347.78,
+          "end": 348.06
+        },
+        {
+          "id": "p127w3",
+          "text": "at",
+          "start": 348.06,
+          "end": 348.44
+        },
+        {
+          "id": "p127w4",
+          "text": "the",
+          "start": 348.44,
+          "end": 348.56
+        },
+        {
+          "id": "p127w5",
+          "text": "long",
+          "start": 348.56,
+          "end": 348.78
+        },
+        {
+          "id": "p127w6",
+          "text": "spear",
+          "start": 348.78,
+          "end": 349.22
+        },
+        {
+          "id": "p127w7",
+          "text": "in",
+          "start": 349.22,
+          "end": 349.82
+        },
+        {
+          "id": "p127w8",
+          "text": "her",
+          "start": 349.82,
+          "end": 349.96
+        },
+        {
+          "id": "p127w9",
+          "text": "husband's",
+          "start": 349.96,
+          "end": 350.5
+        },
+        {
+          "id": "p127w10",
+          "text": "heart.",
+          "start": 350.5,
+          "end": 350.76
+        }
+      ]
+    },
+    {
+      "id": "p128",
+      "start": 351.52,
+      "end": 354.02,
+      "text": "Jacob say something to you.",
+      "words": [
+        {
+          "id": "p128w1",
+          "text": "Jacob",
+          "start": 351.52,
+          "end": 351.82
+        },
+        {
+          "id": "p128w2",
+          "text": "say",
+          "start": 351.82,
+          "end": 352.44
+        },
+        {
+          "id": "p128w3",
+          "text": "something",
+          "start": 352.44,
+          "end": 352.96
+        },
+        {
+          "id": "p128w4",
+          "text": "to",
+          "start": 352.96,
+          "end": 353.36
+        },
+        {
+          "id": "p128w5",
+          "text": "you.",
+          "start": 353.88,
+          "end": 354.02
+        }
+      ]
+    },
+    {
+      "id": "p129",
+      "start": 354.14,
+      "end": 354.54,
+      "text": "She cried.",
+      "words": [
+        {
+          "id": "p129w1",
+          "text": "She",
+          "start": 354.14,
+          "end": 354.3
+        },
+        {
+          "id": "p129w2",
+          "text": "cried.",
+          "start": 354.3,
+          "end": 354.54
+        }
+      ]
+    },
+    {
+      "id": "p130",
+      "start": 355.36,
+      "end": 358.26,
+      "text": "She took her cell phone and immediately called an ambulance.",
+      "words": [
+        {
+          "id": "p130w1",
+          "text": "She",
+          "start": 355.36,
+          "end": 355.42
+        },
+        {
+          "id": "p130w2",
+          "text": "took",
+          "start": 355.42,
+          "end": 355.6
+        },
+        {
+          "id": "p130w3",
+          "text": "her",
+          "start": 355.6,
+          "end": 355.78
+        },
+        {
+          "id": "p130w4",
+          "text": "cell",
+          "start": 355.78,
+          "end": 356.02
+        },
+        {
+          "id": "p130w5",
+          "text": "phone",
+          "start": 356.02,
+          "end": 356.36
+        },
+        {
+          "id": "p130w6",
+          "text": "and",
+          "start": 356.36,
+          "end": 356.7
+        },
+        {
+          "id": "p130w7",
+          "text": "immediately",
+          "start": 356.7,
+          "end": 357.2
+        },
+        {
+          "id": "p130w8",
+          "text": "called",
+          "start": 357.2,
+          "end": 357.68
+        },
+        {
+          "id": "p130w9",
+          "text": "an",
+          "start": 357.68,
+          "end": 357.9
+        },
+        {
+          "id": "p130w10",
+          "text": "ambulance.",
+          "start": 357.9,
+          "end": 358.26
+        }
+      ]
+    }
+  ]
+}

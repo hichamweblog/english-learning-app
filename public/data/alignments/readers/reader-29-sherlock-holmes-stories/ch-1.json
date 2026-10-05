@@ -1,0 +1,89 @@
+{
+  "sectionId": "reader-29-sherlock-holmes-stories-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/220 (S1) Sherlock Holmes Stories/Track 01.mp3",
+  "totalDuration": 44.1991875,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 17.51,
+      "end": 25.39,
+      "text": "Sherlock Holmes stories by Sir Arthur Conan Doyle copyright black cat publishing",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Sherlock",
+          "start": 17.51,
+          "end": 18.51
+        },
+        {
+          "id": "p1w2",
+          "text": "Holmes",
+          "start": 18.51,
+          "end": 18.99
+        },
+        {
+          "id": "p1w3",
+          "text": "stories",
+          "start": 18.99,
+          "end": 19.51
+        },
+        {
+          "id": "p1w4",
+          "text": "by",
+          "start": 19.51,
+          "end": 20.61
+        },
+        {
+          "id": "p1w5",
+          "text": "Sir",
+          "start": 20.61,
+          "end": 21.25
+        },
+        {
+          "id": "p1w6",
+          "text": "Arthur",
+          "start": 21.25,
+          "end": 21.47
+        },
+        {
+          "id": "p1w7",
+          "text": "Conan",
+          "start": 21.47,
+          "end": 21.95
+        },
+        {
+          "id": "p1w8",
+          "text": "Doyle",
+          "start": 21.95,
+          "end": 22.37
+        },
+        {
+          "id": "p1w9",
+          "text": "copyright",
+          "start": 22.37,
+          "end": 23.59
+        },
+        {
+          "id": "p1w10",
+          "text": "black",
+          "start": 23.59,
+          "end": 24.61
+        },
+        {
+          "id": "p1w11",
+          "text": "cat",
+          "start": 24.61,
+          "end": 24.93
+        },
+        {
+          "id": "p1w12",
+          "text": "publishing",
+          "start": 24.93,
+          "end": 25.39
+        }
+      ]
+    }
+  ]
+}

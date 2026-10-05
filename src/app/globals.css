@@ -107,6 +107,39 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 639px) {
+  main {
+    overflow-x: hidden;
+  }
+}
+
+.reading-room-shell > main {
+  max-width: 1600px;
+}
+
+*:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
 /* ─── Prose Reading Mode ─── */
 .prose-reading {
   font-family: var(--font-serif);

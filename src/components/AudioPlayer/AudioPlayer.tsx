@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { useAudioStore, useProgressStore } from '@/lib/store';
 import { resolveMediaUrl, formatTime, cn } from '@/lib/utils';
+import { trackLearningEvent } from '@/lib/analytics';
 
 export function AudioPlayer() {
   const {
@@ -43,11 +44,27 @@ export function AudioPlayer() {
     closePlayer,
   } = useAudioStore();
 
-  const { toggleCompleted, completedItems, saveItemPosition } = useProgressStore();
+  const { toggleCompleted, completedItems, saveItemPosition, addExposureSeconds } = useProgressStore();
+  const savedPositions = useProgressStore((state) => state.savedPositions);
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const lastSavedSecondRef = useRef<number | null>(null);
+  const restoredTrackRef = useRef<string | null>(null);
+  const lastExposureSecondRef = useRef<number | null>(null);
   const [isLooping, setIsLooping] = useState(false);
+  const [sleepMinutes, setSleepMinutes] = useState(0);
   const [showVolume, setShowVolume] = useState(false);
+  const [mediaError, setMediaError] = useState(false);
+  const [justCompleted, setJustCompleted] = useState(false);
+
+  useEffect(() => {
+    if (!sleepMinutes || !isPlaying) return;
+    const timer = window.setTimeout(() => {
+      pause();
+      setSleepMinutes(0);
+    }, sleepMinutes * 60 * 1000);
+    return () => window.clearTimeout(timer);
+  }, [sleepMinutes, isPlaying, pause]);
 
   // Sync volume & rate
   useEffect(() => {
@@ -58,24 +75,38 @@ export function AudioPlayer() {
     }
   }, [volume, playbackRate, isLooping]);
 
-  // Load new track source
+  // Load a new source only when the selected track changes. Keeping this
+  // separate from play/pause avoids resetting the media element on every
+  // control click.
   useEffect(() => {
     if (audioRef.current && currentTrack) {
+      setMediaError(false);
+      setJustCompleted(false);
       const url = resolveMediaUrl(currentTrack.audioPath);
-      // Avoid reloading if it's the same URL
-      if (!audioRef.current.src.endsWith(url)) {
+      if (audioRef.current.dataset.trackUrl !== url) {
+        audioRef.current.dataset.trackUrl = url;
         audioRef.current.src = url;
         audioRef.current.load();
       }
-      
-      if (isPlaying) {
-        audioRef.current.play().catch((e) => {
-          console.error('Audio auto-play failed:', e);
-          pause();
-        });
-      } else {
-        audioRef.current.pause();
-      }
+    }
+    lastSavedSecondRef.current = null;
+    lastExposureSecondRef.current = null;
+    restoredTrackRef.current = null;
+  }, [currentTrack]);
+
+  // Reflect the store's transport state without changing the source.
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio || !currentTrack) return;
+
+    if (isPlaying) {
+      void audio.play().catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === 'AbortError') return;
+        console.error('Audio playback failed:', error);
+        pause();
+      });
+    } else {
+      audio.pause();
     }
   }, [currentTrack, isPlaying, pause]);
 
@@ -141,7 +172,23 @@ export function AudioPlayer() {
       setCurrentTime(audioRef.current.currentTime);
       
       // Save position every ~5 seconds to prevent hammering store
-      if (Math.floor(audioRef.current.currentTime) % 5 === 0 && currentTrack) {
+      const currentSecond = Math.floor(audioRef.current.currentTime);
+      if (
+        currentSecond > 0 &&
+        currentSecond !== lastExposureSecondRef.current &&
+        currentSecond % 5 === 0 &&
+        currentTrack
+      ) {
+        lastExposureSecondRef.current = currentSecond;
+        addExposureSeconds(5);
+      }
+      if (
+        currentSecond > 0 &&
+        currentSecond % 5 === 0 &&
+        currentSecond !== lastSavedSecondRef.current &&
+        currentTrack
+      ) {
+        lastSavedSecondRef.current = currentSecond;
         saveItemPosition(currentTrack.id, audioRef.current.currentTime);
       }
     }
@@ -150,6 +197,19 @@ export function AudioPlayer() {
   const handleLoadedMetadata = () => {
     if (audioRef.current) {
       setDuration(audioRef.current.duration);
+      const savedPosition = currentTrack ? savedPositions[currentTrack.id] : undefined;
+      if (
+        currentTrack &&
+        restoredTrackRef.current !== currentTrack.id &&
+        savedPosition !== undefined &&
+        Number.isFinite(savedPosition) &&
+        savedPosition > 0 &&
+        savedPosition < audioRef.current.duration
+      ) {
+        audioRef.current.currentTime = savedPosition;
+        setCurrentTime(savedPosition);
+        restoredTrackRef.current = currentTrack.id;
+      }
     }
   };
 
@@ -158,7 +218,34 @@ export function AudioPlayer() {
       if (!completedItems[currentTrack.id]) {
         toggleCompleted(currentTrack.id);
       }
+      setJustCompleted(true);
+      trackLearningEvent('session_completed', { itemId: currentTrack.id, source: currentTrack.itemUrl });
       pause();
+    }
+  };
+
+  const handleMediaError = () => {
+    setMediaError(true);
+    setJustCompleted(false);
+    if (currentTrack) trackLearningEvent('media_error', { itemId: currentTrack.id, source: currentTrack.itemUrl });
+    pause();
+  };
+
+  const retryAudio = () => {
+    const audio = audioRef.current;
+    if (!audio || !currentTrack) return;
+    setMediaError(false);
+    audio.load();
+    resume();
+  };
+
+  const handleCanPlay = () => {
+    if (isPlaying && audioRef.current?.paused) {
+      void audioRef.current.play().catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === 'AbortError') return;
+        console.error('Audio playback failed:', error);
+        pause();
+      });
     }
   };
 
@@ -183,7 +270,9 @@ export function AudioPlayer() {
         ref={audioRef}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
+        onCanPlay={handleCanPlay}
         onEnded={handleEnded}
+        onError={handleMediaError}
         preload="auto"
       />
       {currentTrack && (
@@ -193,7 +282,7 @@ export function AudioPlayer() {
           'fixed z-50 transition-all duration-300 ease-out left-1/2 -translate-x-1/2 frosted-glass rounded-2xl overflow-hidden',
           'w-[calc(100%-1.5rem)] sm:w-[calc(100%-3rem)]',
           isExpanded
-            ? 'bottom-6 md:bottom-8 max-w-3xl p-5 sm:p-6'
+            ? 'bottom-3 md:bottom-4 max-w-2xl p-3 sm:p-4'
             : 'bottom-4 md:bottom-6 max-w-xl py-2 px-3 sm:px-4 flex flex-col h-14'
         )}
       >
@@ -227,17 +316,19 @@ export function AudioPlayer() {
           </div>
         )}
 
-        <div className={cn("flex", isExpanded ? "flex-col gap-5" : "flex-row items-center justify-between h-full w-full gap-3")}>
+        <div className={cn("flex", isExpanded ? "flex-col gap-3" : "flex-row items-center justify-between h-full w-full gap-3")}>
           
           {/* Track Info */}
           <div className={cn("flex items-center min-w-0", isExpanded ? "justify-between" : "flex-1")}>
             <div className="flex items-center gap-3 min-w-0">
               <button 
                 onClick={togglePlay}
+                type="button"
+                aria-label={isPlaying ? 'Pause audio' : 'Play audio'}
                 className={cn(
                   "flex items-center justify-center shrink-0 transition-all",
                   isExpanded 
-                    ? "hidden" 
+                    ? "hidden"
                     : "w-8 h-8 rounded-lg hover:bg-[hsl(var(--foreground)/0.06)]"
                 )}
               >
@@ -251,6 +342,19 @@ export function AudioPlayer() {
                 >
                   {currentTrack.title}
                 </Link>
+                {mediaError && (
+                  <div role="alert" className="flex items-center gap-2 text-[10px] text-rose-700">
+                    <span>Audio unavailable.</span>
+                    <button type="button" onClick={retryAudio} className="font-bold underline underline-offset-2">
+                      Try again
+                    </button>
+                  </div>
+                )}
+                {justCompleted && !mediaError && (
+                  <span role="status" className="text-[10px] text-[hsl(var(--primary))]">
+                    Session complete · choose a review or continue from the lesson page.
+                  </span>
+                )}
                 {isExpanded && (
                   <span className="text-xs font-sans text-[hsl(var(--muted-foreground))] mt-0.5 truncate">
                     {currentTrack.seriesTitle} {currentTrack.levelLabel && `· ${currentTrack.levelLabel}`}
@@ -285,10 +389,10 @@ export function AudioPlayer() {
                   {formatTime(currentTime)}
                 </span>
                 
-                <div className="flex items-center justify-center gap-4 sm:gap-6">
+                <div className="flex items-center justify-center gap-2 sm:gap-4">
                   <button
                     onClick={() => seek(currentTime - 10)}
-                    className="p-2 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
+                    className="p-1.5 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
                     aria-label="Rewind 10 seconds"
                   >
                     <SkipBack className="w-5 h-5 fill-current" />
@@ -296,14 +400,14 @@ export function AudioPlayer() {
                   
                   <button
                     onClick={togglePlay}
-                    className="w-12 h-12 rounded-full bg-[hsl(var(--foreground))] text-[hsl(var(--background))] flex items-center justify-center shadow-md hover:scale-105 active:scale-95 transition-all"
+                    className="w-10 h-10 rounded-full bg-[hsl(var(--foreground))] text-[hsl(var(--background))] flex items-center justify-center shadow-md hover:scale-105 active:scale-95 transition-all"
                   >
                     {isPlaying ? <Pause className="w-5 h-5 fill-current" /> : <Play className="w-5 h-5 fill-current ml-1" />}
                   </button>
                   
                   <button
                     onClick={() => seek(currentTime + 10)}
-                    className="p-2 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
+                    className="p-1.5 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
                     aria-label="Skip forward 10 seconds"
                   >
                     <SkipForward className="w-5 h-5 fill-current" />
@@ -316,7 +420,7 @@ export function AudioPlayer() {
               </div>
 
               {/* Bottom toolbar */}
-              <div className="flex items-center justify-between pt-2 border-t border-[hsl(var(--border))]">
+              <div className="flex items-center justify-between pt-1 border-t border-[hsl(var(--border))]">
                 <div className="flex items-center gap-1">
                   <button
                     onClick={() => {
@@ -339,6 +443,20 @@ export function AudioPlayer() {
                   >
                     <Repeat className="w-4 h-4" />
                   </button>
+                  <label className="flex items-center gap-1.5 text-[11px] text-[hsl(var(--muted-foreground))]">
+                    <span className="hidden sm:inline">Sleep</span>
+                    <select
+                      aria-label="Sleep timer"
+                      value={sleepMinutes}
+                      onChange={(event) => setSleepMinutes(Number(event.target.value))}
+                      className="rounded border border-[hsl(var(--border))] bg-transparent px-1.5 py-1 text-[11px] text-[hsl(var(--foreground))]"
+                    >
+                      <option value={0}>Off</option>
+                      <option value={15}>15m</option>
+                      <option value={30}>30m</option>
+                      <option value={60}>60m</option>
+                    </select>
+                  </label>
                 </div>
 
                 <div className="flex items-center gap-2">

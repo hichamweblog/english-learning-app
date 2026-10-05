@@ -1,0 +1,91 @@
+{
+  "sectionId": "reader-31-tales-from-the-thousand-and-one-nights-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/221 (S1) Tales from The Thousand and One Nights/Track 01.mp3",
+  "totalDuration": 38.609,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 14.99,
+      "end": 18.41,
+      "text": "Tales from the Thousand and One Nights.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Tales",
+          "start": 14.99,
+          "end": 15.65
+        },
+        {
+          "id": "p1w2",
+          "text": "from",
+          "start": 15.65,
+          "end": 16.49
+        },
+        {
+          "id": "p1w3",
+          "text": "the",
+          "start": 16.49,
+          "end": 16.69
+        },
+        {
+          "id": "p1w4",
+          "text": "Thousand",
+          "start": 16.69,
+          "end": 17.27
+        },
+        {
+          "id": "p1w5",
+          "text": "and",
+          "start": 17.27,
+          "end": 17.63
+        },
+        {
+          "id": "p1w6",
+          "text": "One",
+          "start": 17.63,
+          "end": 17.99
+        },
+        {
+          "id": "p1w7",
+          "text": "Nights.",
+          "start": 17.99,
+          "end": 18.41
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 20.3,
+      "end": 22.4,
+      "text": "Copyright Black Cat Publishing.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Copyright",
+          "start": 20.3,
+          "end": 20.3
+        },
+        {
+          "id": "p2w2",
+          "text": "Black",
+          "start": 20.3,
+          "end": 21.44
+        },
+        {
+          "id": "p2w3",
+          "text": "Cat",
+          "start": 21.44,
+          "end": 21.86
+        },
+        {
+          "id": "p2w4",
+          "text": "Publishing.",
+          "start": 21.86,
+          "end": 22.4
+        }
+      ]
+    }
+  ]
+}

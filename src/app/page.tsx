@@ -9,6 +9,7 @@ import {
   Sparkles,
   Map,
   Compass,
+  ArrowUpRight,
 } from 'lucide-react';
 import { getManifest } from '@/lib/content/load';
 import { getDailyEnglishEpisodes, getGradedReaders } from '@/lib/content/load';
@@ -16,8 +17,11 @@ import { HomeClient } from '@/components/Home/HomeClient';
 
 export default function HomePage() {
   const manifest = getManifest();
-  const nextEpisode = getDailyEnglishEpisodes()[0];
-  const nextReader = getGradedReaders()[0];
+  const dailyEpisodes = getDailyEnglishEpisodes();
+  const nextEpisode = dailyEpisodes[0];
+  const recommendedEpisode = dailyEpisodes[1];
+  const readers = getGradedReaders();
+  const nextReader = readers[0];
 
   // Simple greeting logic for server component
   const getGreeting = () => {
@@ -25,24 +29,50 @@ export default function HomePage() {
   };
 
   return (
-    <div className="space-y-12 max-w-[800px] mx-auto pb-16">
+    <div className="space-y-14 max-w-[1040px] mx-auto pb-16">
       
       {/* 1. Greeting */}
-      <section className="pt-6 pb-2">
-        <h1 className="font-serif text-3xl sm:text-4xl font-normal tracking-tight text-[hsl(var(--foreground))]">
-          Good day. {getGreeting()}
-        </h1>
-        <p className="text-[hsl(var(--muted-foreground))] mt-2 text-sm">
-          "Mastery is not a function of genius, but of daily, unglamorous persistence."
-        </p>
+      <section className="relative overflow-hidden rounded-[2rem] border border-[hsl(var(--border))] bg-[hsl(var(--card))] px-6 py-8 sm:px-10 sm:py-10 shadow-[0_16px_50px_hsl(var(--foreground)/0.05)]">
+        <div className="absolute -right-20 -top-24 h-64 w-64 rounded-full bg-[hsl(var(--accent-warm)/0.12)] blur-3xl" />
+        <div className="absolute -bottom-32 left-1/3 h-56 w-56 rounded-full bg-[hsl(var(--reader-green)/0.08)] blur-3xl" />
+        <div className="relative flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+          <div className="max-w-2xl">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--accent-warm)/0.25)] bg-[hsl(var(--accent-warm)/0.08)] px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.16em] text-[hsl(var(--accent-warm))]">
+              <Sparkles className="h-3.5 w-3.5" />
+              Your reading room
+            </div>
+            <h1 className="font-serif text-4xl font-normal leading-[1.05] tracking-tight text-[hsl(var(--foreground))] sm:text-6xl">
+              Good day.
+              <span className="block italic text-[hsl(var(--primary))]">Ready for your next session?</span>
+            </h1>
+            <p className="mt-5 max-w-xl text-sm leading-6 text-[hsl(var(--muted-foreground))] sm:text-base">
+              Build fluency through a small, steady rhythm of authentic listening and reading.
+              Pick up where you left off, or let today&apos;s lesson choose the way.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:min-w-[280px]">
+            <div className="rounded-2xl border border-[hsl(var(--border))] bg-[hsl(var(--background)/0.7)] p-4">
+              <span className="block text-2xl font-semibold tracking-tight text-[hsl(var(--foreground))]">{manifest.counts.dailyEnglish.toLocaleString()}</span>
+              <span className="mt-1 block text-[10px] font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">audio lessons</span>
+            </div>
+            <div className="rounded-2xl border border-[hsl(var(--border))] bg-[hsl(var(--background)/0.7)] p-4">
+              <span className="block text-2xl font-semibold tracking-tight text-[hsl(var(--foreground))]">{readers.length.toLocaleString()}</span>
+              <span className="mt-1 block text-[10px] font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">graded readers</span>
+            </div>
+            <div className="col-span-2 flex items-center gap-2 px-1 text-xs text-[hsl(var(--muted-foreground))]">
+              <span className="h-2 w-2 rounded-full bg-[hsl(var(--reader-green))] shadow-[0_0_0_4px_hsl(var(--reader-green)/0.12)]" />
+              A quiet place to make progress every day
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* 2. Continue Where You Left Off */}
-      <HomeClient />
+      <HomeClient recommendedEpisode={recommendedEpisode} />
 
       {/* 3. Today's input */}
       <section aria-labelledby="today-heading" className="space-y-5">
-        <div className="flex items-end justify-between gap-4">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="text-[10px] font-sans font-bold uppercase tracking-[0.14em] text-[hsl(var(--accent-warm))]">
               Today
@@ -54,7 +84,7 @@ export default function HomePage() {
               Start with one piece. Stay with it for as long as it feels useful.
             </p>
           </div>
-          <span className="hidden sm:inline-flex items-center gap-1.5 text-xs text-[hsl(var(--muted-foreground))]">
+          <span className="hidden items-center gap-1.5 text-xs text-[hsl(var(--muted-foreground))] sm:inline-flex">
             <Compass className="w-3.5 h-3.5" />
             Chosen for steady progress
           </span>
@@ -63,10 +93,10 @@ export default function HomePage() {
         <div className="grid gap-4 sm:grid-cols-2">
           <Link
             href={`/podcasts/${nextEpisode.id}`}
-            className="group surface-elevated p-5 sm:p-6 flex flex-col min-h-[190px] justify-between hover:-translate-y-0.5 transition-transform"
+            className="group surface-elevated p-5 sm:p-6 flex flex-col min-h-[210px] justify-between hover:-translate-y-1 transition-all hover:shadow-[0_14px_30px_hsl(var(--podcast-sienna)/0.12)]"
           >
             <div className="flex items-start justify-between gap-3">
-              <div className="w-10 h-10 rounded-full bg-[hsl(var(--podcast-sienna)/0.1)] text-[hsl(var(--podcast-sienna))] flex items-center justify-center">
+              <div className="w-11 h-11 rounded-2xl bg-[hsl(var(--podcast-sienna)/0.1)] text-[hsl(var(--podcast-sienna))] flex items-center justify-center">
                 <Headphones className="w-5 h-5" />
               </div>
               <span className="text-[10px] font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
@@ -89,10 +119,10 @@ export default function HomePage() {
 
           <Link
             href={`/readers/${nextReader.id}`}
-            className="group surface-card p-5 sm:p-6 flex flex-col min-h-[190px] justify-between hover:-translate-y-0.5 transition-transform"
+            className="group surface-card p-5 sm:p-6 flex flex-col min-h-[210px] justify-between hover:-translate-y-1 transition-all hover:shadow-[0_14px_30px_hsl(var(--reader-green)/0.12)]"
           >
             <div className="flex items-start justify-between gap-3">
-              <div className="w-10 h-10 rounded-full bg-[hsl(var(--reader-green)/0.1)] text-[hsl(var(--reader-green))] flex items-center justify-center">
+              <div className="w-11 h-11 rounded-2xl bg-[hsl(var(--reader-green)/0.1)] text-[hsl(var(--reader-green))] flex items-center justify-center">
                 <BookOpen className="w-5 h-5" />
               </div>
               <span className="text-[10px] font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
@@ -150,10 +180,17 @@ export default function HomePage() {
       {/* 5. Explore the library */}
       <section aria-labelledby="map-heading">
         <div className="flex items-center justify-between mb-6">
-          <h2 id="map-heading" className="text-xl font-serif font-medium text-[hsl(var(--foreground))] flex items-center gap-2">
+          <div>
+            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--accent-warm))]">More ways to learn</span>
+            <h2 id="map-heading" className="mt-1 flex items-center gap-2 text-2xl font-serif font-medium text-[hsl(var(--foreground))]">
             <Map className="w-5 h-5 text-[hsl(var(--accent-warm))]" />
             Explore the library
-          </h2>
+            </h2>
+          </div>
+          <Link href="/search" className="hidden items-center gap-1 text-xs font-semibold text-[hsl(var(--muted-foreground))] transition-colors hover:text-[hsl(var(--foreground))] sm:inline-flex">
+            Browse all
+            <ArrowUpRight className="h-3.5 w-3.5" />
+          </Link>
         </div>
 
         <div className="surface-card overflow-hidden">

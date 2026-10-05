@@ -9,7 +9,7 @@ import { GlobalSearch } from '@/components/Search/GlobalSearch';
 export const metadata = {
   title: 'Omni-Search — ContentFirst English',
   description:
-    'Search across all 2,278 podcast episodes, 265 graded readers, and 43 reference books.',
+    'Search across all available podcast episodes, graded readers, and reference books.',
 };
 
 export default function SearchPage() {
@@ -24,7 +24,7 @@ export default function SearchPage() {
           Omni-Search & Lexical Index
         </h1>
         <p className="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-1">
-          Instant local index across all 2,278 spoken audio units, 265 graded readers, and 43 reference folios.
+          Find an idea, then return directly to listening or reading. Search across spoken audio, graded readers, and reference folios.
         </p>
       </div>
 

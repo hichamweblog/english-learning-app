@@ -1,0 +1,1985 @@
+{
+  "sectionId": "reader-32-the-canterville-ghost-ch-6",
+  "trackNumber": 6,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/235 (S2) The Canterville Ghost/06. The Canterville Ghost - Track 6.mp3",
+  "totalDuration": 144.1175625,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 7.1,
+      "end": 12.88,
+      "text": "Here are the twins. Do you mind if I ask you some questions?",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Here",
+          "start": 7.1,
+          "end": 7.74
+        },
+        {
+          "id": "p1w2",
+          "text": "are",
+          "start": 7.74,
+          "end": 8.06
+        },
+        {
+          "id": "p1w3",
+          "text": "the",
+          "start": 8.06,
+          "end": 8.26
+        },
+        {
+          "id": "p1w4",
+          "text": "twins.",
+          "start": 8.26,
+          "end": 8.5
+        },
+        {
+          "id": "p1w5",
+          "text": "Do",
+          "start": 10.2,
+          "end": 10.4
+        },
+        {
+          "id": "p1w6",
+          "text": "you",
+          "start": 10.4,
+          "end": 10.68
+        },
+        {
+          "id": "p1w7",
+          "text": "mind",
+          "start": 10.68,
+          "end": 11.04
+        },
+        {
+          "id": "p1w8",
+          "text": "if",
+          "start": 11.04,
+          "end": 11.46
+        },
+        {
+          "id": "p1w9",
+          "text": "I",
+          "start": 11.46,
+          "end": 11.58
+        },
+        {
+          "id": "p1w10",
+          "text": "ask",
+          "start": 11.58,
+          "end": 11.92
+        },
+        {
+          "id": "p1w11",
+          "text": "you",
+          "start": 11.92,
+          "end": 12.22
+        },
+        {
+          "id": "p1w12",
+          "text": "some",
+          "start": 12.22,
+          "end": 12.52
+        },
+        {
+          "id": "p1w13",
+          "text": "questions?",
+          "start": 12.52,
+          "end": 12.88
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 13.92,
+      "end": 17.0,
+      "text": "Go ahead. We've got no secrets, have we, Ricky?",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Go",
+          "start": 13.92,
+          "end": 14.24
+        },
+        {
+          "id": "p2w2",
+          "text": "ahead.",
+          "start": 14.24,
+          "end": 14.5
+        },
+        {
+          "id": "p2w3",
+          "text": "We've",
+          "start": 15.16,
+          "end": 15.28
+        },
+        {
+          "id": "p2w4",
+          "text": "got",
+          "start": 15.28,
+          "end": 15.38
+        },
+        {
+          "id": "p2w5",
+          "text": "no",
+          "start": 15.38,
+          "end": 15.62
+        },
+        {
+          "id": "p2w6",
+          "text": "secrets,",
+          "start": 15.62,
+          "end": 16.04
+        },
+        {
+          "id": "p2w7",
+          "text": "have",
+          "start": 16.36,
+          "end": 16.5
+        },
+        {
+          "id": "p2w8",
+          "text": "we,",
+          "start": 16.5,
+          "end": 16.76
+        },
+        {
+          "id": "p2w9",
+          "text": "Ricky?",
+          "start": 16.8,
+          "end": 17.0
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 17.44,
+      "end": 17.88,
+      "text": "No, sir.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "No,",
+          "start": 17.44,
+          "end": 17.56
+        },
+        {
+          "id": "p3w2",
+          "text": "sir.",
+          "start": 17.7,
+          "end": 17.88
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 18.99,
+      "end": 23.79,
+      "text": "Alright. First of all, how tall are you?",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Alright.",
+          "start": 18.99,
+          "end": 19.63
+        },
+        {
+          "id": "p4w2",
+          "text": "First",
+          "start": 20.73,
+          "end": 20.95
+        },
+        {
+          "id": "p4w3",
+          "text": "of",
+          "start": 20.95,
+          "end": 21.27
+        },
+        {
+          "id": "p4w4",
+          "text": "all,",
+          "start": 21.27,
+          "end": 21.59
+        },
+        {
+          "id": "p4w5",
+          "text": "how",
+          "start": 22.03,
+          "end": 22.35
+        },
+        {
+          "id": "p4w6",
+          "text": "tall",
+          "start": 22.35,
+          "end": 22.81
+        },
+        {
+          "id": "p4w7",
+          "text": "are",
+          "start": 22.81,
+          "end": 23.51
+        },
+        {
+          "id": "p4w8",
+          "text": "you?",
+          "start": 23.51,
+          "end": 23.79
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 24.21,
+      "end": 25.69,
+      "text": "I'm 1 meter 39.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "I'm",
+          "start": 24.21,
+          "end": 24.57
+        },
+        {
+          "id": "p5w2",
+          "text": "1",
+          "start": 24.57,
+          "end": 24.79
+        },
+        {
+          "id": "p5w3",
+          "text": "meter",
+          "start": 24.79,
+          "end": 25.05
+        },
+        {
+          "id": "p5w4",
+          "text": "39.",
+          "start": 25.05,
+          "end": 25.69
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 26.84,
+      "end": 28.94,
+      "text": "And what about you, Ricky?",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "And",
+          "start": 26.84,
+          "end": 27.26
+        },
+        {
+          "id": "p6w2",
+          "text": "what",
+          "start": 27.26,
+          "end": 27.52
+        },
+        {
+          "id": "p6w3",
+          "text": "about",
+          "start": 27.52,
+          "end": 27.88
+        },
+        {
+          "id": "p6w4",
+          "text": "you,",
+          "start": 27.88,
+          "end": 28.42
+        },
+        {
+          "id": "p6w5",
+          "text": "Ricky?",
+          "start": 28.72,
+          "end": 28.94
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 29.48,
+      "end": 32.2,
+      "text": "I'm 1 centimeter taller. I'm the best.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "I'm",
+          "start": 29.48,
+          "end": 29.76
+        },
+        {
+          "id": "p7w2",
+          "text": "1",
+          "start": 29.76,
+          "end": 29.96
+        },
+        {
+          "id": "p7w3",
+          "text": "centimeter",
+          "start": 29.96,
+          "end": 30.5
+        },
+        {
+          "id": "p7w4",
+          "text": "taller.",
+          "start": 30.5,
+          "end": 30.94
+        },
+        {
+          "id": "p7w5",
+          "text": "I'm",
+          "start": 31.6,
+          "end": 31.78
+        },
+        {
+          "id": "p7w6",
+          "text": "the",
+          "start": 31.78,
+          "end": 31.9
+        },
+        {
+          "id": "p7w7",
+          "text": "best.",
+          "start": 31.9,
+          "end": 32.2
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 33.8,
+      "end": 37.12,
+      "text": "And are there any other physical differences?",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "And",
+          "start": 33.8,
+          "end": 34.44
+        },
+        {
+          "id": "p8w2",
+          "text": "are",
+          "start": 34.44,
+          "end": 34.82
+        },
+        {
+          "id": "p8w3",
+          "text": "there",
+          "start": 34.82,
+          "end": 35.1
+        },
+        {
+          "id": "p8w4",
+          "text": "any",
+          "start": 35.1,
+          "end": 35.5
+        },
+        {
+          "id": "p8w5",
+          "text": "other",
+          "start": 35.5,
+          "end": 35.94
+        },
+        {
+          "id": "p8w6",
+          "text": "physical",
+          "start": 35.94,
+          "end": 36.28
+        },
+        {
+          "id": "p8w7",
+          "text": "differences?",
+          "start": 36.28,
+          "end": 37.12
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 37.12,
+      "end": 41.48,
+      "text": "Not really. I've got brown eyes, and so has Ricky.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "Not",
+          "start": 37.12,
+          "end": 37.98
+        },
+        {
+          "id": "p9w2",
+          "text": "really.",
+          "start": 37.98,
+          "end": 38.36
+        },
+        {
+          "id": "p9w3",
+          "text": "I've",
+          "start": 39.06,
+          "end": 39.4
+        },
+        {
+          "id": "p9w4",
+          "text": "got",
+          "start": 39.4,
+          "end": 39.52
+        },
+        {
+          "id": "p9w5",
+          "text": "brown",
+          "start": 39.52,
+          "end": 39.8
+        },
+        {
+          "id": "p9w6",
+          "text": "eyes,",
+          "start": 39.8,
+          "end": 40.16
+        },
+        {
+          "id": "p9w7",
+          "text": "and",
+          "start": 40.58,
+          "end": 40.78
+        },
+        {
+          "id": "p9w8",
+          "text": "so",
+          "start": 40.78,
+          "end": 40.98
+        },
+        {
+          "id": "p9w9",
+          "text": "has",
+          "start": 40.98,
+          "end": 41.22
+        },
+        {
+          "id": "p9w10",
+          "text": "Ricky.",
+          "start": 41.22,
+          "end": 41.48
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 42.77,
+      "end": 45.41,
+      "text": "I've got dark brown hair, and so has Robbie.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "I've",
+          "start": 42.77,
+          "end": 43.05
+        },
+        {
+          "id": "p10w2",
+          "text": "got",
+          "start": 43.05,
+          "end": 43.17
+        },
+        {
+          "id": "p10w3",
+          "text": "dark",
+          "start": 43.17,
+          "end": 43.41
+        },
+        {
+          "id": "p10w4",
+          "text": "brown",
+          "start": 43.41,
+          "end": 43.77
+        },
+        {
+          "id": "p10w5",
+          "text": "hair,",
+          "start": 43.77,
+          "end": 44.11
+        },
+        {
+          "id": "p10w6",
+          "text": "and",
+          "start": 44.11,
+          "end": 44.69
+        },
+        {
+          "id": "p10w7",
+          "text": "so",
+          "start": 44.69,
+          "end": 44.95
+        },
+        {
+          "id": "p10w8",
+          "text": "has",
+          "start": 44.95,
+          "end": 45.19
+        },
+        {
+          "id": "p10w9",
+          "text": "Robbie.",
+          "start": 45.19,
+          "end": 45.41
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 47.13,
+      "end": 49.41,
+      "text": "Do you like the same food?",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Do",
+          "start": 47.13,
+          "end": 47.55
+        },
+        {
+          "id": "p11w2",
+          "text": "you",
+          "start": 47.55,
+          "end": 47.81
+        },
+        {
+          "id": "p11w3",
+          "text": "like",
+          "start": 47.81,
+          "end": 48.15
+        },
+        {
+          "id": "p11w4",
+          "text": "the",
+          "start": 48.15,
+          "end": 48.51
+        },
+        {
+          "id": "p11w5",
+          "text": "same",
+          "start": 48.51,
+          "end": 48.83
+        },
+        {
+          "id": "p11w6",
+          "text": "food?",
+          "start": 48.83,
+          "end": 49.41
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 49.95,
+      "end": 53.97,
+      "text": "Yes, I love chocolate ice cream. And so do I.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Yes,",
+          "start": 49.95,
+          "end": 50.57
+        },
+        {
+          "id": "p12w2",
+          "text": "I",
+          "start": 50.57,
+          "end": 51.19
+        },
+        {
+          "id": "p12w3",
+          "text": "love",
+          "start": 51.19,
+          "end": 51.55
+        },
+        {
+          "id": "p12w4",
+          "text": "chocolate",
+          "start": 51.55,
+          "end": 51.97
+        },
+        {
+          "id": "p12w5",
+          "text": "ice",
+          "start": 51.97,
+          "end": 52.35
+        },
+        {
+          "id": "p12w6",
+          "text": "cream.",
+          "start": 52.35,
+          "end": 52.69
+        },
+        {
+          "id": "p12w7",
+          "text": "And",
+          "start": 53.03,
+          "end": 53.25
+        },
+        {
+          "id": "p12w8",
+          "text": "so",
+          "start": 53.25,
+          "end": 53.49
+        },
+        {
+          "id": "p12w9",
+          "text": "do",
+          "start": 53.49,
+          "end": 53.65
+        },
+        {
+          "id": "p12w10",
+          "text": "I.",
+          "start": 53.65,
+          "end": 53.97
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 54.47,
+      "end": 61.84,
+      "text": "I see. What about sports? Robbie, what's your favorite sport?",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "I",
+          "start": 54.47,
+          "end": 54.77
+        },
+        {
+          "id": "p13w2",
+          "text": "see.",
+          "start": 54.77,
+          "end": 55.05
+        },
+        {
+          "id": "p13w3",
+          "text": "What",
+          "start": 56.14,
+          "end": 56.64
+        },
+        {
+          "id": "p13w4",
+          "text": "about",
+          "start": 56.64,
+          "end": 57.04
+        },
+        {
+          "id": "p13w5",
+          "text": "sports?",
+          "start": 57.04,
+          "end": 57.72
+        },
+        {
+          "id": "p13w6",
+          "text": "Robbie,",
+          "start": 58.9,
+          "end": 59.4
+        },
+        {
+          "id": "p13w7",
+          "text": "what's",
+          "start": 59.84,
+          "end": 60.46
+        },
+        {
+          "id": "p13w8",
+          "text": "your",
+          "start": 60.46,
+          "end": 60.72
+        },
+        {
+          "id": "p13w9",
+          "text": "favorite",
+          "start": 60.72,
+          "end": 61.32
+        },
+        {
+          "id": "p13w10",
+          "text": "sport?",
+          "start": 61.32,
+          "end": 61.84
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 62.18,
+      "end": 67.62,
+      "text": "I love swimming. And I love riding. But we both love baseball as well.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "I",
+          "start": 62.18,
+          "end": 62.34
+        },
+        {
+          "id": "p14w2",
+          "text": "love",
+          "start": 62.34,
+          "end": 62.7
+        },
+        {
+          "id": "p14w3",
+          "text": "swimming.",
+          "start": 62.7,
+          "end": 63.22
+        },
+        {
+          "id": "p14w4",
+          "text": "And",
+          "start": 63.76,
+          "end": 64.04
+        },
+        {
+          "id": "p14w5",
+          "text": "I",
+          "start": 64.04,
+          "end": 64.28
+        },
+        {
+          "id": "p14w6",
+          "text": "love",
+          "start": 64.28,
+          "end": 64.62
+        },
+        {
+          "id": "p14w7",
+          "text": "riding.",
+          "start": 64.62,
+          "end": 65.08
+        },
+        {
+          "id": "p14w8",
+          "text": "But",
+          "start": 65.68,
+          "end": 65.94
+        },
+        {
+          "id": "p14w9",
+          "text": "we",
+          "start": 65.94,
+          "end": 66.1
+        },
+        {
+          "id": "p14w10",
+          "text": "both",
+          "start": 66.1,
+          "end": 66.36
+        },
+        {
+          "id": "p14w11",
+          "text": "love",
+          "start": 66.36,
+          "end": 66.72
+        },
+        {
+          "id": "p14w12",
+          "text": "baseball",
+          "start": 66.72,
+          "end": 66.94
+        },
+        {
+          "id": "p14w13",
+          "text": "as",
+          "start": 66.94,
+          "end": 67.42
+        },
+        {
+          "id": "p14w14",
+          "text": "well.",
+          "start": 67.42,
+          "end": 67.62
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 67.62,
+      "end": 72.12,
+      "text": "Do you like the same subjects at school?",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "Do",
+          "start": 67.62,
+          "end": 68.66
+        },
+        {
+          "id": "p15w2",
+          "text": "you",
+          "start": 69.46,
+          "end": 69.72
+        },
+        {
+          "id": "p15w3",
+          "text": "like",
+          "start": 69.72,
+          "end": 70.02
+        },
+        {
+          "id": "p15w4",
+          "text": "the",
+          "start": 70.02,
+          "end": 70.34
+        },
+        {
+          "id": "p15w5",
+          "text": "same",
+          "start": 70.34,
+          "end": 70.64
+        },
+        {
+          "id": "p15w6",
+          "text": "subjects",
+          "start": 70.64,
+          "end": 71.36
+        },
+        {
+          "id": "p15w7",
+          "text": "at",
+          "start": 71.36,
+          "end": 71.78
+        },
+        {
+          "id": "p15w8",
+          "text": "school?",
+          "start": 71.78,
+          "end": 72.12
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 72.94,
+      "end": 77.4,
+      "text": "I like mathematics very much. But Ricky isn't any good at it.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "I",
+          "start": 72.94,
+          "end": 73.12
+        },
+        {
+          "id": "p16w2",
+          "text": "like",
+          "start": 73.12,
+          "end": 73.32
+        },
+        {
+          "id": "p16w3",
+          "text": "mathematics",
+          "start": 73.32,
+          "end": 73.7
+        },
+        {
+          "id": "p16w4",
+          "text": "very",
+          "start": 73.7,
+          "end": 74.48
+        },
+        {
+          "id": "p16w5",
+          "text": "much.",
+          "start": 74.48,
+          "end": 74.88
+        },
+        {
+          "id": "p16w6",
+          "text": "But",
+          "start": 75.7,
+          "end": 75.9
+        },
+        {
+          "id": "p16w7",
+          "text": "Ricky",
+          "start": 75.9,
+          "end": 76.12
+        },
+        {
+          "id": "p16w8",
+          "text": "isn't",
+          "start": 76.12,
+          "end": 76.56
+        },
+        {
+          "id": "p16w9",
+          "text": "any",
+          "start": 76.56,
+          "end": 76.7
+        },
+        {
+          "id": "p16w10",
+          "text": "good",
+          "start": 76.7,
+          "end": 77.02
+        },
+        {
+          "id": "p16w11",
+          "text": "at",
+          "start": 77.02,
+          "end": 77.24
+        },
+        {
+          "id": "p16w12",
+          "text": "it.",
+          "start": 77.24,
+          "end": 77.4
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 77.54,
+      "end": 83.06,
+      "text": "That's not true. I love mathematics too. I'm the best. I also like geography.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "That's",
+          "start": 77.54,
+          "end": 77.82
+        },
+        {
+          "id": "p17w2",
+          "text": "not",
+          "start": 77.82,
+          "end": 77.96
+        },
+        {
+          "id": "p17w3",
+          "text": "true.",
+          "start": 77.96,
+          "end": 78.28
+        },
+        {
+          "id": "p17w4",
+          "text": "I",
+          "start": 78.88,
+          "end": 78.96
+        },
+        {
+          "id": "p17w5",
+          "text": "love",
+          "start": 78.96,
+          "end": 79.12
+        },
+        {
+          "id": "p17w6",
+          "text": "mathematics",
+          "start": 79.12,
+          "end": 79.46
+        },
+        {
+          "id": "p17w7",
+          "text": "too.",
+          "start": 79.46,
+          "end": 80.04
+        },
+        {
+          "id": "p17w8",
+          "text": "I'm",
+          "start": 80.56,
+          "end": 80.76
+        },
+        {
+          "id": "p17w9",
+          "text": "the",
+          "start": 80.76,
+          "end": 80.86
+        },
+        {
+          "id": "p17w10",
+          "text": "best.",
+          "start": 80.86,
+          "end": 81.12
+        },
+        {
+          "id": "p17w11",
+          "text": "I",
+          "start": 82.0,
+          "end": 82.12
+        },
+        {
+          "id": "p17w12",
+          "text": "also",
+          "start": 82.12,
+          "end": 82.34
+        },
+        {
+          "id": "p17w13",
+          "text": "like",
+          "start": 82.34,
+          "end": 82.64
+        },
+        {
+          "id": "p17w14",
+          "text": "geography.",
+          "start": 82.64,
+          "end": 83.06
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 83.88,
+      "end": 86.06,
+      "text": "I don't like that, but I love history.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "I",
+          "start": 83.88,
+          "end": 84.0
+        },
+        {
+          "id": "p18w2",
+          "text": "don't",
+          "start": 84.0,
+          "end": 84.18
+        },
+        {
+          "id": "p18w3",
+          "text": "like",
+          "start": 84.18,
+          "end": 84.42
+        },
+        {
+          "id": "p18w4",
+          "text": "that,",
+          "start": 84.42,
+          "end": 84.72
+        },
+        {
+          "id": "p18w5",
+          "text": "but",
+          "start": 85.0,
+          "end": 85.2
+        },
+        {
+          "id": "p18w6",
+          "text": "I",
+          "start": 85.2,
+          "end": 85.38
+        },
+        {
+          "id": "p18w7",
+          "text": "love",
+          "start": 85.38,
+          "end": 85.66
+        },
+        {
+          "id": "p18w8",
+          "text": "history.",
+          "start": 85.66,
+          "end": 86.06
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 87.46,
+      "end": 89.52,
+      "text": "What's your favorite color, Robbie?",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "What's",
+          "start": 87.46,
+          "end": 87.92
+        },
+        {
+          "id": "p19w2",
+          "text": "your",
+          "start": 87.92,
+          "end": 88.04
+        },
+        {
+          "id": "p19w3",
+          "text": "favorite",
+          "start": 88.04,
+          "end": 88.56
+        },
+        {
+          "id": "p19w4",
+          "text": "color,",
+          "start": 88.56,
+          "end": 89.18
+        },
+        {
+          "id": "p19w5",
+          "text": "Robbie?",
+          "start": 89.38,
+          "end": 89.52
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 90.22,
+      "end": 92.4,
+      "text": "Red. I like strong colors.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "Red.",
+          "start": 90.22,
+          "end": 90.46
+        },
+        {
+          "id": "p20w2",
+          "text": "I",
+          "start": 90.96,
+          "end": 91.1
+        },
+        {
+          "id": "p20w3",
+          "text": "like",
+          "start": 91.1,
+          "end": 91.36
+        },
+        {
+          "id": "p20w4",
+          "text": "strong",
+          "start": 91.36,
+          "end": 91.7
+        },
+        {
+          "id": "p20w5",
+          "text": "colors.",
+          "start": 91.7,
+          "end": 92.4
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 92.92,
+      "end": 96.98,
+      "text": "My favorite color is blue. And my lucky number is 13.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "My",
+          "start": 92.92,
+          "end": 93.1
+        },
+        {
+          "id": "p21w2",
+          "text": "favorite",
+          "start": 93.1,
+          "end": 93.44
+        },
+        {
+          "id": "p21w3",
+          "text": "color",
+          "start": 93.44,
+          "end": 93.9
+        },
+        {
+          "id": "p21w4",
+          "text": "is",
+          "start": 93.9,
+          "end": 94.16
+        },
+        {
+          "id": "p21w5",
+          "text": "blue.",
+          "start": 94.16,
+          "end": 94.38
+        },
+        {
+          "id": "p21w6",
+          "text": "And",
+          "start": 95.38,
+          "end": 95.52
+        },
+        {
+          "id": "p21w7",
+          "text": "my",
+          "start": 95.52,
+          "end": 95.7
+        },
+        {
+          "id": "p21w8",
+          "text": "lucky",
+          "start": 95.7,
+          "end": 95.92
+        },
+        {
+          "id": "p21w9",
+          "text": "number",
+          "start": 95.92,
+          "end": 96.32
+        },
+        {
+          "id": "p21w10",
+          "text": "is",
+          "start": 96.32,
+          "end": 96.68
+        },
+        {
+          "id": "p21w11",
+          "text": "13.",
+          "start": 96.68,
+          "end": 96.98
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 98.36,
+      "end": 102.94,
+      "text": "My lucky number is 1, because I'm always number 1.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "My",
+          "start": 98.36,
+          "end": 98.96
+        },
+        {
+          "id": "p22w2",
+          "text": "lucky",
+          "start": 98.96,
+          "end": 99.18
+        },
+        {
+          "id": "p22w3",
+          "text": "number",
+          "start": 99.18,
+          "end": 99.54
+        },
+        {
+          "id": "p22w4",
+          "text": "is",
+          "start": 99.54,
+          "end": 99.9
+        },
+        {
+          "id": "p22w5",
+          "text": "1,",
+          "start": 99.9,
+          "end": 100.26
+        },
+        {
+          "id": "p22w6",
+          "text": "because",
+          "start": 100.88,
+          "end": 101.24
+        },
+        {
+          "id": "p22w7",
+          "text": "I'm",
+          "start": 101.24,
+          "end": 101.64
+        },
+        {
+          "id": "p22w8",
+          "text": "always",
+          "start": 101.64,
+          "end": 101.96
+        },
+        {
+          "id": "p22w9",
+          "text": "number",
+          "start": 101.96,
+          "end": 102.34
+        },
+        {
+          "id": "p22w10",
+          "text": "1.",
+          "start": 102.34,
+          "end": 102.94
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 103.1,
+      "end": 106.14,
+      "text": "No, you're not. I'm number 1 in this family.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "No,",
+          "start": 103.1,
+          "end": 103.4
+        },
+        {
+          "id": "p23w2",
+          "text": "you're",
+          "start": 103.5,
+          "end": 103.68
+        },
+        {
+          "id": "p23w3",
+          "text": "not.",
+          "start": 103.68,
+          "end": 103.96
+        },
+        {
+          "id": "p23w4",
+          "text": "I'm",
+          "start": 104.46,
+          "end": 104.86
+        },
+        {
+          "id": "p23w5",
+          "text": "number",
+          "start": 104.86,
+          "end": 105.04
+        },
+        {
+          "id": "p23w6",
+          "text": "1",
+          "start": 105.04,
+          "end": 105.38
+        },
+        {
+          "id": "p23w7",
+          "text": "in",
+          "start": 105.38,
+          "end": 105.5
+        },
+        {
+          "id": "p23w8",
+          "text": "this",
+          "start": 105.5,
+          "end": 105.7
+        },
+        {
+          "id": "p23w9",
+          "text": "family.",
+          "start": 105.7,
+          "end": 106.14
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 106.46,
+      "end": 111.26,
+      "text": "Don't fight. But what do you want to do when you grow up?",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "Don't",
+          "start": 106.46,
+          "end": 107.02
+        },
+        {
+          "id": "p24w2",
+          "text": "fight.",
+          "start": 107.02,
+          "end": 107.36
+        },
+        {
+          "id": "p24w3",
+          "text": "But",
+          "start": 108.36,
+          "end": 108.7
+        },
+        {
+          "id": "p24w4",
+          "text": "what",
+          "start": 108.7,
+          "end": 109.0
+        },
+        {
+          "id": "p24w5",
+          "text": "do",
+          "start": 109.0,
+          "end": 109.24
+        },
+        {
+          "id": "p24w6",
+          "text": "you",
+          "start": 109.24,
+          "end": 109.36
+        },
+        {
+          "id": "p24w7",
+          "text": "want",
+          "start": 109.36,
+          "end": 109.58
+        },
+        {
+          "id": "p24w8",
+          "text": "to",
+          "start": 109.58,
+          "end": 109.82
+        },
+        {
+          "id": "p24w9",
+          "text": "do",
+          "start": 109.82,
+          "end": 110.02
+        },
+        {
+          "id": "p24w10",
+          "text": "when",
+          "start": 110.02,
+          "end": 110.42
+        },
+        {
+          "id": "p24w11",
+          "text": "you",
+          "start": 110.42,
+          "end": 110.64
+        },
+        {
+          "id": "p24w12",
+          "text": "grow",
+          "start": 110.64,
+          "end": 110.9
+        },
+        {
+          "id": "p24w13",
+          "text": "up?",
+          "start": 110.9,
+          "end": 111.26
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 111.82,
+      "end": 116.44,
+      "text": "I want to be a doctor. I want to help people. But Ricky's lazy.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "I",
+          "start": 111.82,
+          "end": 112.02
+        },
+        {
+          "id": "p25w2",
+          "text": "want",
+          "start": 112.02,
+          "end": 112.26
+        },
+        {
+          "id": "p25w3",
+          "text": "to",
+          "start": 112.26,
+          "end": 112.46
+        },
+        {
+          "id": "p25w4",
+          "text": "be",
+          "start": 112.46,
+          "end": 112.58
+        },
+        {
+          "id": "p25w5",
+          "text": "a",
+          "start": 112.58,
+          "end": 112.68
+        },
+        {
+          "id": "p25w6",
+          "text": "doctor.",
+          "start": 112.68,
+          "end": 112.96
+        },
+        {
+          "id": "p25w7",
+          "text": "I",
+          "start": 113.74,
+          "end": 113.86
+        },
+        {
+          "id": "p25w8",
+          "text": "want",
+          "start": 113.86,
+          "end": 114.1
+        },
+        {
+          "id": "p25w9",
+          "text": "to",
+          "start": 114.1,
+          "end": 114.3
+        },
+        {
+          "id": "p25w10",
+          "text": "help",
+          "start": 114.3,
+          "end": 114.54
+        },
+        {
+          "id": "p25w11",
+          "text": "people.",
+          "start": 114.54,
+          "end": 114.96
+        },
+        {
+          "id": "p25w12",
+          "text": "But",
+          "start": 115.56,
+          "end": 115.7
+        },
+        {
+          "id": "p25w13",
+          "text": "Ricky's",
+          "start": 115.7,
+          "end": 116.2
+        },
+        {
+          "id": "p25w14",
+          "text": "lazy.",
+          "start": 116.2,
+          "end": 116.44
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 117.36,
+      "end": 120.08,
+      "text": "He wants to be rich and do nothing all day.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "He",
+          "start": 117.36,
+          "end": 117.44
+        },
+        {
+          "id": "p26w2",
+          "text": "wants",
+          "start": 117.44,
+          "end": 117.64
+        },
+        {
+          "id": "p26w3",
+          "text": "to",
+          "start": 117.64,
+          "end": 117.86
+        },
+        {
+          "id": "p26w4",
+          "text": "be",
+          "start": 117.86,
+          "end": 118.0
+        },
+        {
+          "id": "p26w5",
+          "text": "rich",
+          "start": 118.0,
+          "end": 118.32
+        },
+        {
+          "id": "p26w6",
+          "text": "and",
+          "start": 118.32,
+          "end": 118.84
+        },
+        {
+          "id": "p26w7",
+          "text": "do",
+          "start": 118.84,
+          "end": 119.02
+        },
+        {
+          "id": "p26w8",
+          "text": "nothing",
+          "start": 119.02,
+          "end": 119.48
+        },
+        {
+          "id": "p26w9",
+          "text": "all",
+          "start": 119.48,
+          "end": 119.78
+        },
+        {
+          "id": "p26w10",
+          "text": "day.",
+          "start": 119.78,
+          "end": 120.08
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 120.44,
+      "end": 123.4,
+      "text": "Don't listen to him. I want to be a businessman.",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "Don't",
+          "start": 120.44,
+          "end": 120.82
+        },
+        {
+          "id": "p27w2",
+          "text": "listen",
+          "start": 120.82,
+          "end": 121.02
+        },
+        {
+          "id": "p27w3",
+          "text": "to",
+          "start": 121.02,
+          "end": 121.42
+        },
+        {
+          "id": "p27w4",
+          "text": "him.",
+          "start": 121.42,
+          "end": 121.68
+        },
+        {
+          "id": "p27w5",
+          "text": "I",
+          "start": 122.08,
+          "end": 122.38
+        },
+        {
+          "id": "p27w6",
+          "text": "want",
+          "start": 122.38,
+          "end": 122.58
+        },
+        {
+          "id": "p27w7",
+          "text": "to",
+          "start": 122.58,
+          "end": 122.76
+        },
+        {
+          "id": "p27w8",
+          "text": "be",
+          "start": 122.76,
+          "end": 122.92
+        },
+        {
+          "id": "p27w9",
+          "text": "a",
+          "start": 122.92,
+          "end": 123.06
+        },
+        {
+          "id": "p27w10",
+          "text": "businessman.",
+          "start": 123.06,
+          "end": 123.4
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 123.4,
+      "end": 126.72,
+      "text": "I know that I will have to work very hard.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "I",
+          "start": 123.4,
+          "end": 124.28
+        },
+        {
+          "id": "p28w2",
+          "text": "know",
+          "start": 124.28,
+          "end": 124.92
+        },
+        {
+          "id": "p28w3",
+          "text": "that",
+          "start": 124.92,
+          "end": 125.1
+        },
+        {
+          "id": "p28w4",
+          "text": "I",
+          "start": 125.1,
+          "end": 125.24
+        },
+        {
+          "id": "p28w5",
+          "text": "will",
+          "start": 125.24,
+          "end": 125.4
+        },
+        {
+          "id": "p28w6",
+          "text": "have",
+          "start": 125.4,
+          "end": 125.6
+        },
+        {
+          "id": "p28w7",
+          "text": "to",
+          "start": 125.6,
+          "end": 125.76
+        },
+        {
+          "id": "p28w8",
+          "text": "work",
+          "start": 125.76,
+          "end": 125.96
+        },
+        {
+          "id": "p28w9",
+          "text": "very",
+          "start": 125.96,
+          "end": 126.2
+        },
+        {
+          "id": "p28w10",
+          "text": "hard.",
+          "start": 126.2,
+          "end": 126.72
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 127.42,
+      "end": 130.92,
+      "text": "And when I'm rich, I'll use my money to help people too.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "And",
+          "start": 127.42,
+          "end": 127.52
+        },
+        {
+          "id": "p29w2",
+          "text": "when",
+          "start": 127.52,
+          "end": 127.68
+        },
+        {
+          "id": "p29w3",
+          "text": "I'm",
+          "start": 127.68,
+          "end": 127.98
+        },
+        {
+          "id": "p29w4",
+          "text": "rich,",
+          "start": 127.98,
+          "end": 128.34
+        },
+        {
+          "id": "p29w5",
+          "text": "I'll",
+          "start": 128.76,
+          "end": 128.92
+        },
+        {
+          "id": "p29w6",
+          "text": "use",
+          "start": 128.92,
+          "end": 129.2
+        },
+        {
+          "id": "p29w7",
+          "text": "my",
+          "start": 129.2,
+          "end": 129.42
+        },
+        {
+          "id": "p29w8",
+          "text": "money",
+          "start": 129.42,
+          "end": 129.72
+        },
+        {
+          "id": "p29w9",
+          "text": "to",
+          "start": 129.72,
+          "end": 129.96
+        },
+        {
+          "id": "p29w10",
+          "text": "help",
+          "start": 129.96,
+          "end": 130.24
+        },
+        {
+          "id": "p29w11",
+          "text": "people",
+          "start": 130.24,
+          "end": 130.54
+        },
+        {
+          "id": "p29w12",
+          "text": "too.",
+          "start": 130.54,
+          "end": 130.92
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 131.63,
+      "end": 135.65,
+      "text": "Well, thank you very much for answering my questions.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "Well,",
+          "start": 131.63,
+          "end": 132.15
+        },
+        {
+          "id": "p30w2",
+          "text": "thank",
+          "start": 132.63,
+          "end": 132.91
+        },
+        {
+          "id": "p30w3",
+          "text": "you",
+          "start": 132.91,
+          "end": 133.23
+        },
+        {
+          "id": "p30w4",
+          "text": "very",
+          "start": 133.23,
+          "end": 133.57
+        },
+        {
+          "id": "p30w5",
+          "text": "much",
+          "start": 133.57,
+          "end": 133.95
+        },
+        {
+          "id": "p30w6",
+          "text": "for",
+          "start": 133.95,
+          "end": 134.29
+        },
+        {
+          "id": "p30w7",
+          "text": "answering",
+          "start": 134.29,
+          "end": 134.83
+        },
+        {
+          "id": "p30w8",
+          "text": "my",
+          "start": 134.83,
+          "end": 135.15
+        },
+        {
+          "id": "p30w9",
+          "text": "questions.",
+          "start": 135.15,
+          "end": 135.65
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 136.71,
+      "end": 141.51,
+      "text": "In some ways you are similar. But in other ways, you are very different.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "In",
+          "start": 136.71,
+          "end": 136.89
+        },
+        {
+          "id": "p31w2",
+          "text": "some",
+          "start": 136.89,
+          "end": 137.17
+        },
+        {
+          "id": "p31w3",
+          "text": "ways",
+          "start": 137.17,
+          "end": 137.57
+        },
+        {
+          "id": "p31w4",
+          "text": "you",
+          "start": 137.57,
+          "end": 137.77
+        },
+        {
+          "id": "p31w5",
+          "text": "are",
+          "start": 137.77,
+          "end": 137.91
+        },
+        {
+          "id": "p31w6",
+          "text": "similar.",
+          "start": 137.91,
+          "end": 138.27
+        },
+        {
+          "id": "p31w7",
+          "text": "But",
+          "start": 139.09,
+          "end": 139.19
+        },
+        {
+          "id": "p31w8",
+          "text": "in",
+          "start": 139.19,
+          "end": 139.39
+        },
+        {
+          "id": "p31w9",
+          "text": "other",
+          "start": 139.39,
+          "end": 139.61
+        },
+        {
+          "id": "p31w10",
+          "text": "ways,",
+          "start": 139.61,
+          "end": 139.99
+        },
+        {
+          "id": "p31w11",
+          "text": "you",
+          "start": 140.35,
+          "end": 140.47
+        },
+        {
+          "id": "p31w12",
+          "text": "are",
+          "start": 140.47,
+          "end": 140.63
+        },
+        {
+          "id": "p31w13",
+          "text": "very",
+          "start": 140.63,
+          "end": 140.95
+        },
+        {
+          "id": "p31w14",
+          "text": "different.",
+          "start": 140.95,
+          "end": 141.51
+        }
+      ]
+    }
+  ]
+}

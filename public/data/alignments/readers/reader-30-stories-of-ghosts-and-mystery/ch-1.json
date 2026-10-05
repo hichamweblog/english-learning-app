@@ -1,0 +1,47 @@
+{
+  "sectionId": "reader-30-stories-of-ghosts-and-mystery-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/227 (S2) Stories of Ghosts and Mystery/Track 01.mp3",
+  "totalDuration": 31.94775,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 4.75,
+      "end": 6.95,
+      "text": "Stories of Ghosts and Mystery.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Stories",
+          "start": 4.75,
+          "end": 5.27
+        },
+        {
+          "id": "p1w2",
+          "text": "of",
+          "start": 5.27,
+          "end": 5.71
+        },
+        {
+          "id": "p1w3",
+          "text": "Ghosts",
+          "start": 5.71,
+          "end": 6.05
+        },
+        {
+          "id": "p1w4",
+          "text": "and",
+          "start": 6.05,
+          "end": 6.73
+        },
+        {
+          "id": "p1w5",
+          "text": "Mystery.",
+          "start": 6.73,
+          "end": 6.95
+        }
+      ]
+    }
+  ]
+}

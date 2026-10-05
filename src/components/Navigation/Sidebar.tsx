@@ -26,10 +26,16 @@ import { useAudioStore } from '@/lib/store';
 
 const NAV_SECTIONS = [
   {
+    label: 'Start here',
+    items: [
+      { href: '/', label: 'Today', icon: Compass, color: 'text-[hsl(var(--accent-warm))]' },
+    ],
+  },
+  {
     label: 'Learn',
     items: [
-      { href: '/podcasts', label: 'Podcasts', icon: Headphones, color: 'text-[hsl(var(--podcast-sienna))]' },
-      { href: '/readers', label: 'Readers', icon: BookOpen, color: 'text-[hsl(var(--reader-green))]' },
+      { href: '/podcasts', label: 'Listen', icon: Headphones, color: 'text-[hsl(var(--podcast-sienna))]' },
+      { href: '/readers', label: 'Read', icon: BookOpen, color: 'text-[hsl(var(--reader-green))]' },
       { href: '/courses', label: 'Courses', icon: GraduationCap, color: 'text-[hsl(var(--course-sapphire))]' },
       { href: '/accent', label: 'Accent', icon: Mic, color: 'text-[hsl(var(--accent-warm))]' },
     ],
@@ -37,7 +43,7 @@ const NAV_SECTIONS = [
   {
     label: 'Library',
     items: [
-      { href: '/library', label: 'Reference', icon: Library, color: 'text-[hsl(var(--muted-foreground))]' },
+      { href: '/library', label: 'Explore', icon: Library, color: 'text-[hsl(var(--muted-foreground))]' },
       { href: '/search', label: 'Search', icon: Search, color: 'text-[hsl(var(--muted-foreground))]' },
     ],
   },
@@ -51,6 +57,7 @@ const NAV_SECTIONS = [
 
 export function Sidebar() {
   const pathname = usePathname();
+  const isReadingRoom = pathname.startsWith('/readers/');
   const [mounted, setMounted] = useState(false);
   const [isDark, setIsDark] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
@@ -77,6 +84,20 @@ export function Sidebar() {
   useEffect(() => {
     setMobileOpen(false);
   }, [pathname]);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setMobileOpen(false);
+    };
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [mobileOpen]);
 
   // Global keyboard shortcut: '/' to go to search
   useEffect(() => {
@@ -281,6 +302,7 @@ export function Sidebar() {
           'hidden md:flex flex-col fixed left-0 top-0 bottom-0 z-40',
           'bg-[hsl(var(--sidebar-bg))] border-r border-[hsl(var(--sidebar-border))]',
           'sidebar-transition',
+          isReadingRoom && 'md:hidden',
           collapsed ? 'w-[68px]' : 'w-64'
         )}
       >
@@ -288,7 +310,10 @@ export function Sidebar() {
       </aside>
 
       {/* ── Mobile Top Bar ── */}
-      <header className="md:hidden sticky top-0 z-40 h-12 flex items-center justify-between px-3 bg-[hsl(var(--sidebar-bg)/0.95)] border-b border-[hsl(var(--sidebar-border))] backdrop-blur-md">
+      <header className={cn(
+        'md:hidden sticky top-0 z-40 h-12 flex items-center justify-between px-3 bg-[hsl(var(--sidebar-bg)/0.95)] border-b border-[hsl(var(--sidebar-border))] backdrop-blur-md',
+        isReadingRoom && 'hidden'
+      )}>
         <button
           type="button"
           onClick={() => setMobileOpen(true)}
@@ -341,7 +366,7 @@ export function Sidebar() {
             aria-hidden
           />
           {/* Panel */}
-          <div className="absolute left-0 top-0 bottom-0 w-72 bg-[hsl(var(--sidebar-bg))] shadow-2xl">
+          <div className="absolute left-0 top-0 bottom-0 w-[min(18rem,calc(100%-1rem))] overflow-y-auto bg-[hsl(var(--sidebar-bg))] shadow-2xl">
             <div className="absolute top-3 right-3">
               <button
                 type="button"

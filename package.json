@@ -10,6 +10,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "content:validate": "node scripts/validate-content.mjs",
+    "alignment:validate": "node scripts/validate-alignments.mjs",
     "content:index": "node scripts/index-content.mjs",
     "content:extract:anchor": "node scripts/extract/extract-daily-english.mjs && node scripts/extract/extract-cultural-english.mjs && node scripts/extract/extract-fluent-vip.mjs",
     "content:extract:4000": "node scripts/extract/extract-4000-words.mjs",

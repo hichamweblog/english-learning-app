@@ -1,11 +1,14 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { useProgressStore, useReadingSettingsStore } from '@/lib/store';
 
 export function ClientLayoutWrapper({ children }: { children: React.ReactNode }) {
   const [collapsed, setCollapsed] = useState(false);
+  const pathname = usePathname();
+  const isReadingRoom = pathname.startsWith('/readers/');
 
   useEffect(() => {
     void useProgressStore.persist.rehydrate();
@@ -38,7 +41,7 @@ export function ClientLayoutWrapper({ children }: { children: React.ReactNode })
     <div
       className={cn(
         'flex flex-col min-h-screen sidebar-transition pt-12 md:pt-0', // pt-12 for mobile top bar
-        collapsed ? 'md:ml-[68px]' : 'md:ml-64'
+        isReadingRoom ? 'reading-room-shell md:ml-0' : collapsed ? 'md:ml-[68px]' : 'md:ml-64'
       )}
     >
       {children}

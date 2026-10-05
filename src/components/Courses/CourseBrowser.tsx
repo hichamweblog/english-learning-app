@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Search,
   GraduationCap,
@@ -22,16 +23,29 @@ interface Props {
 }
 
 export function CourseBrowser({ initialCourses }: Props) {
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [selectedLevel, setSelectedLevel] = useState<string>('all');
-  const [searchQuery, setSearchQuery] = useState('');
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const [selectedCategory, setSelectedCategory] = useState<string>(searchParams.get('category') || 'all');
+  const [selectedLevel, setSelectedLevel] = useState<string>(searchParams.get('level') || 'all');
+  const [searchQuery, setSearchQuery] = useState(searchParams.get('q') || '');
   const [courseProgress, setCourseProgress] = useState<Record<string, number>>({});
+
+  const updateFilters = (next: { category?: string; level?: string; q?: string }) => {
+    const params = new URLSearchParams(searchParams.toString());
+    for (const [key, value] of Object.entries(next)) {
+      if (!value || value === 'all') params.delete(key);
+      else params.set(key, value);
+    }
+    router.replace(`/courses?${params.toString()}`, { scroll: false });
+  };
 
   React.useEffect(() => {
     const progress: Record<string, number> = {};
     initialCourses.forEach((c) => {
       try {
-        const saved = localStorage.getItem(`course_completed_lessons_${c.id}`);
+        const saved =
+          localStorage.getItem(`course_completed_${c.id}`) ||
+          localStorage.getItem(`course_completed_lessons_${c.id}`);
         if (saved) {
           const completed = JSON.parse(saved);
           const totalCompleted = Object.values(completed).filter(Boolean).length;
@@ -131,13 +145,38 @@ export function CourseBrowser({ initialCourses }: Props) {
         </div>
       </div>
 
+      {initialCourses.length > 0 && (
+        <Link
+          href={`/courses/${initialCourses.find((course) => (courseProgress[course.id] || 0) > 0)?.id || initialCourses[0].id}`}
+          className="group surface-elevated flex flex-col gap-4 rounded-2xl border-l-4 border-l-[hsl(var(--course-sapphire))] p-5 transition-transform hover:-translate-y-0.5 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div>
+            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--course-sapphire))]">
+              {Object.values(courseProgress).some((value) => value > 0) ? 'Continue your course' : 'Start a guided pathway'}
+            </span>
+            <h2 className="mt-1 font-serif text-xl text-[hsl(var(--foreground))]">
+              {initialCourses.find((course) => (courseProgress[course.id] || 0) > 0)?.title || initialCourses[0].title}
+            </h2>
+            <p className="mt-1 text-xs text-[hsl(var(--muted-foreground))]">
+              {Object.values(courseProgress).some((value) => value > 0) ? 'Return to the next useful lesson.' : 'Choose one lesson and build from there.'}
+            </p>
+          </div>
+          <span className="inline-flex items-center gap-2 text-sm font-bold text-[hsl(var(--course-sapphire))]">
+            Open course <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </span>
+        </Link>
+      )}
+
       {/* Category Pills */}
       <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar border-b border-stone-200 dark:border-stone-800">
         {categories.map((cat) => (
           <button
             key={cat}
             type="button"
-            onClick={() => setSelectedCategory(cat)}
+            onClick={() => {
+              setSelectedCategory(cat);
+              updateFilters({ category: cat });
+            }}
             className={cn(
               'px-3.5 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap transition-all capitalize',
               selectedCategory === cat
@@ -158,7 +197,10 @@ export function CourseBrowser({ initialCourses }: Props) {
             type="text"
             placeholder="Search courses or lesson topics..."
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              updateFilters({ q: e.target.value });
+            }}
             className="w-full pl-9 pr-8 py-2 text-xs sm:text-sm rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-colors"
           />
           {searchQuery && (
@@ -176,7 +218,10 @@ export function CourseBrowser({ initialCourses }: Props) {
           <span className="text-xs text-stone-500 hidden sm:inline">Level:</span>
           <select
             value={selectedLevel}
-            onChange={(e) => setSelectedLevel(e.target.value)}
+            onChange={(e) => {
+              setSelectedLevel(e.target.value);
+              updateFilters({ level: e.target.value });
+            }}
             className="px-3 py-1.5 text-xs font-medium rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] text-stone-700 dark:text-stone-300 focus:outline-none focus:ring-2 focus:ring-amber-500/20"
           >
             {levels.map((lvl) => (

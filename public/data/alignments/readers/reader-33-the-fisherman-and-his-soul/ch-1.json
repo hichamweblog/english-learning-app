@@ -1,0 +1,97 @@
+{
+  "sectionId": "reader-33-the-fisherman-and-his-soul-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/228 (S2) The Fisherman and his Soul/Track 01.mp3",
+  "totalDuration": 41.7436875,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 1.87,
+      "end": 19.81,
+      "text": "The Fisherman and His Soul by Oscar Wilde.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "The",
+          "start": 1.87,
+          "end": 3.17
+        },
+        {
+          "id": "p1w2",
+          "text": "Fisherman",
+          "start": 16.77,
+          "end": 17.29
+        },
+        {
+          "id": "p1w3",
+          "text": "and",
+          "start": 17.29,
+          "end": 17.55
+        },
+        {
+          "id": "p1w4",
+          "text": "His",
+          "start": 17.55,
+          "end": 17.79
+        },
+        {
+          "id": "p1w5",
+          "text": "Soul",
+          "start": 17.79,
+          "end": 18.15
+        },
+        {
+          "id": "p1w6",
+          "text": "by",
+          "start": 18.15,
+          "end": 18.89
+        },
+        {
+          "id": "p1w7",
+          "text": "Oscar",
+          "start": 18.89,
+          "end": 19.17
+        },
+        {
+          "id": "p1w8",
+          "text": "Wilde.",
+          "start": 19.17,
+          "end": 19.81
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 20.68,
+      "end": 22.78,
+      "text": "Copyright Black Cat Publishing",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Copyright",
+          "start": 20.68,
+          "end": 21.04
+        },
+        {
+          "id": "p2w2",
+          "text": "Black",
+          "start": 21.04,
+          "end": 21.94
+        },
+        {
+          "id": "p2w3",
+          "text": "Cat",
+          "start": 21.94,
+          "end": 22.24
+        },
+        {
+          "id": "p2w4",
+          "text": "Publishing",
+          "start": 22.24,
+          "end": 22.78
+        }
+      ]
+    }
+  ]
+}

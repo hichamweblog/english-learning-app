@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Search,
   Play,
@@ -14,10 +14,13 @@ import {
   SlidersHorizontal,
   ArrowUpDown,
   X,
+  Sparkles,
+  ArrowRight,
 } from 'lucide-react';
 import type { PodcastEpisode } from '@/types/content';
 import { useAudioStore, useProgressStore } from '@/lib/store';
 import { resolveMediaUrl, cn } from '@/lib/utils';
+import { AlignmentBadge } from '@/components/AudioPlayer/AlignmentBadge';
 
 interface Props {
   initialEpisodes: PodcastEpisode[];
@@ -25,6 +28,7 @@ interface Props {
 
 export function PodcastBrowser({ initialEpisodes }: Props) {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const initialSeries = searchParams.get('series') || 'all';
 
   const [selectedSeries, setSelectedSeries] = useState<string>(initialSeries);
@@ -33,8 +37,15 @@ export function PodcastBrowser({ initialEpisodes }: Props) {
   const [page, setPage] = useState(1);
   const pageSize = 48;
 
+  const updateSeries = (series: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (series === 'all') params.delete('series');
+    else params.set('series', series);
+    router.replace(`/podcasts?${params.toString()}`, { scroll: false });
+  };
+
   const { currentTrack, isPlaying, playTrack, togglePlay } = useAudioStore();
-  const { completedItems, toggleCompleted } = useProgressStore();
+  const { completedItems, toggleCompleted, recentItems, comfortRatings } = useProgressStore();
 
   const seriesTabs: { id: string; label: string; count: number }[] = [
     { id: 'all', label: 'All Series', count: initialEpisodes.length },
@@ -100,6 +111,17 @@ export function PodcastBrowser({ initialEpisodes }: Props) {
 
   const totalPages = Math.ceil(filtered.length / pageSize) || 1;
   const paginated = filtered.slice((page - 1) * pageSize, page * pageSize);
+  const continueItem = recentItems.find((item) => item.type === 'podcast');
+  const recommendedEpisode = initialEpisodes.find(
+    (episode) => episode.series === 'daily-english' && episode.id !== continueItem?.id
+  ) || initialEpisodes[0];
+  const recommendationLabel = continueItem
+    ? comfortRatings[continueItem.id] === 'too-hard'
+      ? 'A gentler next step'
+      : comfortRatings[continueItem.id] === 'easy'
+        ? 'A small step up'
+        : 'Close to your recent input'
+    : 'A good place to begin';
 
   const handlePlayEpisode = (ep: PodcastEpisode) => {
     if (currentTrack?.id === ep.id) {
@@ -119,13 +141,47 @@ export function PodcastBrowser({ initialEpisodes }: Props) {
 
   return (
     <div className="space-y-6">
+      <section className="grid gap-3 lg:grid-cols-2" aria-label="Listening recommendations">
+        {continueItem && (
+          <Link
+            href={continueItem.url}
+            className="group surface-elevated flex items-center justify-between gap-4 rounded-2xl border-l-4 border-l-[hsl(var(--podcast-sienna))] p-5 transition-transform hover:-translate-y-0.5"
+          >
+            <div className="min-w-0">
+              <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--podcast-sienna))]">Continue listening</span>
+              <h2 className="mt-1 truncate font-serif text-xl text-[hsl(var(--foreground))]">{continueItem.title}</h2>
+              <p className="mt-1 text-xs text-[hsl(var(--muted-foreground))]">Pick up where you left off</p>
+            </div>
+            <ArrowRight className="h-5 w-5 shrink-0 text-[hsl(var(--podcast-sienna))] transition-transform group-hover:translate-x-1" />
+          </Link>
+        )}
+        {recommendedEpisode && (
+          <Link
+            href={`/podcasts/${recommendedEpisode.id}`}
+            className="group surface-inset flex items-center justify-between gap-4 rounded-2xl p-5 transition-colors hover:bg-[hsl(var(--foreground)/0.06)]"
+          >
+            <div className="min-w-0">
+              <span className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--accent-warm))]">
+                <Sparkles className="h-3.5 w-3.5" /> For you
+              </span>
+              <h2 className="mt-1 truncate font-serif text-xl text-[hsl(var(--foreground))]">{recommendedEpisode.title}</h2>
+              <p className="mt-1 text-xs text-[hsl(var(--muted-foreground))]">{recommendedEpisode.levelLabel || 'B1'} · {recommendationLabel}</p>
+            </div>
+            <ArrowRight className="h-5 w-5 shrink-0 text-[hsl(var(--accent-warm))] transition-transform group-hover:translate-x-1" />
+          </Link>
+        )}
+      </section>
+
       {/* Series Filter Tabs */}
       <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar border-b border-[hsl(var(--border))]">
         {seriesTabs.map((tab) => (
           <button
             key={tab.id}
             type="button"
-            onClick={() => setSelectedSeries(tab.id)}
+            onClick={() => {
+              setSelectedSeries(tab.id);
+              updateSeries(tab.id);
+            }}
             className={cn(
               'px-3.5 py-2 text-xs font-semibold rounded-t-lg whitespace-nowrap transition-all flex items-center gap-1.5',
               selectedSeries === tab.id
@@ -230,6 +286,10 @@ export function PodcastBrowser({ initialEpisodes }: Props) {
                     <span className="text-[10px] uppercase font-bold tracking-wider text-[hsl(var(--muted-foreground))] truncate">
                       {ep.seriesTitle}
                     </span>
+                    <AlignmentBadge sources={[
+                      `/data/alignments/podcasts/${ep.series}/${ep.id}.json`,
+                      `/data/alignments/podcasts/${ep.series}/${ep.series === 'daily-english' ? `daily-${String(ep.number).padStart(4, '0')}` : ep.id}.json`,
+                    ]} />
                   </div>
 
                   <Link

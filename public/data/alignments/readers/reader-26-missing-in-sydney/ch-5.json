@@ -1,0 +1,319 @@
+{
+  "sectionId": "reader-26-missing-in-sydney-ch-5",
+  "trackNumber": 5,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/219 (S1) Missing in Sydney/Track 05.mp3",
+  "totalDuration": 28.2645,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.4,
+      "end": 1.58,
+      "text": "Listening activity.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Listening",
+          "start": 0.4,
+          "end": 1.2
+        },
+        {
+          "id": "p1w2",
+          "text": "activity.",
+          "start": 1.2,
+          "end": 1.58
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 3.93,
+      "end": 5.03,
+      "text": "What is happening?",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "What",
+          "start": 3.93,
+          "end": 4.37
+        },
+        {
+          "id": "p2w2",
+          "text": "is",
+          "start": 4.37,
+          "end": 4.59
+        },
+        {
+          "id": "p2w3",
+          "text": "happening?",
+          "start": 4.59,
+          "end": 5.03
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 6.94,
+      "end": 8.4,
+      "text": "When did you last see her?",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "When",
+          "start": 6.94,
+          "end": 7.02
+        },
+        {
+          "id": "p3w2",
+          "text": "did",
+          "start": 7.02,
+          "end": 7.3
+        },
+        {
+          "id": "p3w3",
+          "text": "you",
+          "start": 7.3,
+          "end": 7.48
+        },
+        {
+          "id": "p3w4",
+          "text": "last",
+          "start": 7.48,
+          "end": 7.68
+        },
+        {
+          "id": "p3w5",
+          "text": "see",
+          "start": 7.68,
+          "end": 8.12
+        },
+        {
+          "id": "p3w6",
+          "text": "her?",
+          "start": 8.12,
+          "end": 8.4
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 9.94,
+      "end": 10.9,
+      "text": "Where are you now?",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Where",
+          "start": 9.94,
+          "end": 10.22
+        },
+        {
+          "id": "p4w2",
+          "text": "are",
+          "start": 10.22,
+          "end": 10.42
+        },
+        {
+          "id": "p4w3",
+          "text": "you",
+          "start": 10.42,
+          "end": 10.6
+        },
+        {
+          "id": "p4w4",
+          "text": "now?",
+          "start": 10.6,
+          "end": 10.9
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 12.7,
+      "end": 14.14,
+      "text": "What time is it there?",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "What",
+          "start": 12.7,
+          "end": 13.0
+        },
+        {
+          "id": "p5w2",
+          "text": "time",
+          "start": 13.0,
+          "end": 13.44
+        },
+        {
+          "id": "p5w3",
+          "text": "is",
+          "start": 13.44,
+          "end": 13.66
+        },
+        {
+          "id": "p5w4",
+          "text": "it",
+          "start": 13.66,
+          "end": 13.82
+        },
+        {
+          "id": "p5w5",
+          "text": "there?",
+          "start": 13.82,
+          "end": 14.14
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 15.62,
+      "end": 16.58,
+      "text": "Did you call the police?",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "Did",
+          "start": 15.62,
+          "end": 15.7
+        },
+        {
+          "id": "p6w2",
+          "text": "you",
+          "start": 15.7,
+          "end": 15.9
+        },
+        {
+          "id": "p6w3",
+          "text": "call",
+          "start": 15.9,
+          "end": 16.14
+        },
+        {
+          "id": "p6w4",
+          "text": "the",
+          "start": 16.14,
+          "end": 16.32
+        },
+        {
+          "id": "p6w5",
+          "text": "police?",
+          "start": 16.32,
+          "end": 16.58
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 18.64,
+      "end": 20.96,
+      "text": "Did you try to ring her on her mobile?",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Did",
+          "start": 18.64,
+          "end": 18.78
+        },
+        {
+          "id": "p7w2",
+          "text": "you",
+          "start": 18.78,
+          "end": 19.04
+        },
+        {
+          "id": "p7w3",
+          "text": "try",
+          "start": 19.04,
+          "end": 19.28
+        },
+        {
+          "id": "p7w4",
+          "text": "to",
+          "start": 19.28,
+          "end": 19.5
+        },
+        {
+          "id": "p7w5",
+          "text": "ring",
+          "start": 19.5,
+          "end": 19.72
+        },
+        {
+          "id": "p7w6",
+          "text": "her",
+          "start": 19.72,
+          "end": 20.08
+        },
+        {
+          "id": "p7w7",
+          "text": "on",
+          "start": 20.08,
+          "end": 20.36
+        },
+        {
+          "id": "p7w8",
+          "text": "her",
+          "start": 20.36,
+          "end": 20.54
+        },
+        {
+          "id": "p7w9",
+          "text": "mobile?",
+          "start": 20.54,
+          "end": 20.96
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 22.58,
+      "end": 24.16,
+      "text": "What are you going to do now?",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "What",
+          "start": 22.58,
+          "end": 22.78
+        },
+        {
+          "id": "p8w2",
+          "text": "are",
+          "start": 22.78,
+          "end": 22.98
+        },
+        {
+          "id": "p8w3",
+          "text": "you",
+          "start": 22.98,
+          "end": 23.12
+        },
+        {
+          "id": "p8w4",
+          "text": "going",
+          "start": 23.12,
+          "end": 23.32
+        },
+        {
+          "id": "p8w5",
+          "text": "to",
+          "start": 23.32,
+          "end": 23.56
+        },
+        {
+          "id": "p8w6",
+          "text": "do",
+          "start": 23.56,
+          "end": 23.74
+        },
+        {
+          "id": "p8w7",
+          "text": "now?",
+          "start": 23.74,
+          "end": 24.16
+        }
+      ]
+    }
+  ]
+}

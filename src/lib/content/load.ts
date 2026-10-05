@@ -43,6 +43,25 @@ export function getAmericanAccentLessons(): PodcastEpisode[] {
   return readJsonFile<PodcastEpisode[]>('american-accent.json');
 }
 
+export function getAmericanAccentLessonById(id: string): PodcastEpisode | undefined {
+  return getAmericanAccentLessons().find((lesson) => lesson.id === id);
+}
+
+export function getAmericanAccentExtractedData(id: string) {
+  const unitNumber = id === 'accent-intro' ? 0 : Number(id.replace('accent-lesson-', ''));
+  const filename = Number.isFinite(unitNumber) ? `unit-${String(unitNumber).padStart(2, '0')}.json` : '';
+  const filePath = path.join(process.cwd(), 'public/data/extracted/accent', filename);
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as {
+      content?: string;
+      title?: string;
+    };
+  } catch {
+    return null;
+  }
+}
+
 export function getAllPodcastEpisodes(): PodcastEpisode[] {
   return [
     ...getDailyEnglishEpisodes(),
@@ -224,4 +243,3 @@ export function getCourseById(id: string): Course | undefined {
   const courses = getCourses();
   return courses.find((c) => c.id === id);
 }
-

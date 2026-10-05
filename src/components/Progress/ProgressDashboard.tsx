@@ -11,14 +11,24 @@ import {
   Calendar,
   ArrowRight,
 } from 'lucide-react';
-import { useProgressStore } from '@/lib/store';
+import { useProgressStore, type ComfortRating } from '@/lib/store';
 import { HeatmapCalendar } from '@/components/ui/HeatmapCalendar';
 import { MilestoneTimeline, type Milestone } from '@/components/ui/MilestoneTimeline';
 import { cn } from '@/lib/utils';
 
 export function ProgressDashboard() {
   const [mounted, setMounted] = useState(false);
-  const { completedItems, recentItems } = useProgressStore();
+  const {
+    completedItems,
+    recentItems,
+    exposureSecondsByDate,
+    comfortRatings,
+    setComfortRating,
+    savedNotes,
+    removeSavedNote,
+    dailyGoalMinutes,
+    setDailyGoalMinutes,
+  } = useProgressStore();
 
   useEffect(() => {
     setMounted(true);
@@ -27,26 +37,23 @@ export function ProgressDashboard() {
   if (!mounted) return null;
 
   const completedList = Object.entries(completedItems).filter(([_, isDone]) => isDone);
-  const podcastCompleted = completedList.filter(([id]) => !id.startsWith('reader')).length;
+  const podcastCompleted = completedList.filter(([id]) => !id.startsWith('reader-') && !id.startsWith('course-') && !id.startsWith('accent-')).length;
   const readersCompleted = completedList.filter(([id]) => id.startsWith('reader')).length;
 
-  // Estimate total listening immersion (approx 18 mins per podcast episode, 45 mins per reader)
-  const totalImmersionMinutes = (podcastCompleted * 18) + (readersCompleted * 45);
+  const totalImmersionMinutes = Math.floor(
+    Object.values(exposureSecondsByDate).reduce((sum, seconds) => sum + seconds, 0) / 60
+  );
   const immersionHours = (totalImmersionMinutes / 60).toFixed(1);
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const todayMinutes = Math.floor((exposureSecondsByDate[todayKey] || 0) / 60);
+  const activeDays = Object.values(exposureSecondsByDate).filter((seconds) => seconds > 0).length;
+  const latestSession = recentItems[0];
+  const nextHref = latestSession?.url || '/podcasts';
+  const nextTitle = latestSession ? `Continue ${latestSession.title}` : 'Start your first session';
 
-  // Generate fake heatmap data for the demo based on completed items count
-  const today = new Date();
-  const dummyHeatmapData: Record<string, number> = {};
-  for (let i = 0; i < 90; i++) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    const dateStr = d.toISOString().split('T')[0];
-    
-    // Fake some activity
-    if (Math.random() > 0.4) {
-      dummyHeatmapData[dateStr] = Math.floor(Math.random() * 5) + 1;
-    }
-  }
+  const heatmapData = Object.fromEntries(
+    Object.entries(exposureSecondsByDate).map(([date, seconds]) => [date, Math.ceil(seconds / 60)])
+  );
 
   // Milestones
   const milestones: Milestone[] = [
@@ -93,6 +100,72 @@ export function ProgressDashboard() {
         </div>
       </div>
 
+      <section className="surface-elevated flex flex-col gap-4 rounded-3xl border border-[hsl(var(--primary)/0.2)] bg-[hsl(var(--primary)/0.04)] p-6 sm:flex-row sm:items-center sm:justify-between" aria-labelledby="next-input-heading">
+        <div>
+          <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--primary))]">Next input</span>
+          <h2 id="next-input-heading" className="mt-1 font-serif text-2xl text-[hsl(var(--foreground))]">{nextTitle}</h2>
+          <p className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">Progress is most useful when it helps you choose what to do next.</p>
+        </div>
+        <Link href={nextHref} className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-[hsl(var(--foreground))] px-4 py-2.5 text-sm font-bold text-[hsl(var(--background))] transition-transform hover:-translate-y-0.5">
+          Continue
+          <ArrowRight className="h-4 w-4" />
+        </Link>
+      </section>
+
+      <section className="surface-elevated rounded-3xl p-6" aria-labelledby="goal-heading">
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+          <div className="min-w-0">
+            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--primary))]">Today&apos;s target</span>
+            <h2 id="goal-heading" className="mt-1 font-serif text-2xl text-[hsl(var(--foreground))]">
+              {todayMinutes} of {dailyGoalMinutes} minutes
+            </h2>
+            <p className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">
+              A small, repeatable session is enough to keep your learning habit moving.
+            </p>
+            <div className="mt-4 h-2 overflow-hidden rounded-full bg-[hsl(var(--secondary))]" role="progressbar" aria-valuenow={Math.min(todayMinutes, dailyGoalMinutes)} aria-valuemin={0} aria-valuemax={dailyGoalMinutes} aria-label="Today's learning target">
+              <div className="h-full rounded-full bg-[hsl(var(--primary))] transition-[width]" style={{ width: `${Math.min(100, (todayMinutes / dailyGoalMinutes) * 100)}%` }} />
+            </div>
+          </div>
+          <div className="shrink-0">
+            <label htmlFor="daily-goal" className="mb-2 block text-xs font-semibold text-[hsl(var(--muted-foreground))]">Daily goal</label>
+            <select
+              id="daily-goal"
+              value={dailyGoalMinutes}
+              onChange={(event) => setDailyGoalMinutes(Number(event.target.value))}
+              className="min-h-10 rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--background))] px-3 text-sm text-[hsl(var(--foreground))]"
+            >
+              {[5, 10, 20, 30, 45, 60].map((minutes) => <option key={minutes} value={minutes}>{minutes} minutes</option>)}
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section className="surface-elevated rounded-3xl p-6" aria-labelledby="saved-notes-heading">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--primary))]">Support layer</span>
+            <h2 id="saved-notes-heading" className="mt-1 font-serif text-2xl text-[hsl(var(--foreground))]">Words & notes</h2>
+            <p className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">Small observations worth carrying into your next input.</p>
+          </div>
+          <span className="rounded-full bg-[hsl(var(--secondary))] px-2.5 py-1 text-xs font-bold text-[hsl(var(--muted-foreground))]">{savedNotes.length}</span>
+        </div>
+        {savedNotes.length === 0 ? (
+          <p className="mt-5 rounded-xl bg-[hsl(var(--secondary))] p-4 text-sm text-[hsl(var(--muted-foreground))]">Save a note from an Accent unit or a future transcript study session and it will appear here.</p>
+        ) : (
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
+            {savedNotes.slice(0, 8).map((savedNote) => (
+              <article key={savedNote.id} className="rounded-xl border border-[hsl(var(--border))] p-4">
+                <p className="text-sm text-[hsl(var(--foreground))]">{savedNote.note}</p>
+                <div className="mt-3 flex items-center justify-between gap-2 text-xs text-[hsl(var(--muted-foreground))]">
+                  <Link href={savedNote.sourceUrl} className="truncate font-semibold hover:text-[hsl(var(--primary))]">{savedNote.sourceTitle}</Link>
+                  <button type="button" onClick={() => removeSavedNote(savedNote.id)} className="shrink-0 hover:text-red-600">Remove</button>
+                </div>
+              </article>
+            ))}
+          </div>
+        )}
+      </section>
+
       {/* Metrics Grid */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
         <div className="surface-card p-6 rounded-3xl shadow-sm border border-[hsl(var(--border))]">
@@ -100,6 +173,7 @@ export function ProgressDashboard() {
             <Clock className="w-4 h-4 text-[hsl(var(--accent-warm))]" />
             <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Time</span>
           </div>
+
           <span className="font-mono text-4xl font-normal text-[hsl(var(--foreground))]">
             {immersionHours}h
           </span>
@@ -134,11 +208,48 @@ export function ProgressDashboard() {
             <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Streak</span>
           </div>
           <span className="font-mono text-4xl font-normal text-[hsl(var(--foreground))]">
-            {completedList.length > 0 ? '12' : '0'}
+            {activeDays}
           </span>
           <span className="text-[11px] text-[hsl(var(--muted-foreground))] block mt-1.5 uppercase tracking-wide">Day Consistency</span>
         </div>
       </div>
+
+      {recentItems.length > 0 && (
+        <section className="surface-inset p-5 sm:p-6 rounded-2xl" aria-labelledby="comfort-heading">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h2 id="comfort-heading" className="font-serif text-xl text-[hsl(var(--foreground))]">
+                How did your last input feel?
+              </h2>
+              <p className="text-xs text-[hsl(var(--muted-foreground))] mt-1">
+                Your answer helps choose a better next piece. It is optional.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {([
+                ['too-hard', 'Too hard'],
+                ['challenging', 'Challenging'],
+                ['comfortable', 'Comfortable'],
+                ['easy', 'Easy'],
+              ] as [ComfortRating, string][]).map(([rating, label]) => (
+                <button
+                  key={rating}
+                  type="button"
+                  onClick={() => setComfortRating(recentItems[0].id, rating)}
+                  className={cn(
+                    'min-h-10 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors',
+                    comfortRatings[recentItems[0].id] === rating
+                      ? 'border-[hsl(var(--primary))] bg-[hsl(var(--primary)/0.12)] text-[hsl(var(--primary))]'
+                      : 'border-[hsl(var(--border))] text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]'
+                  )}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
         
@@ -151,7 +262,7 @@ export function ProgressDashboard() {
               Study Activity Map
             </h3>
             <div className="overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
-              <HeatmapCalendar data={dummyHeatmapData} />
+              <HeatmapCalendar data={heatmapData} />
             </div>
           </div>
 

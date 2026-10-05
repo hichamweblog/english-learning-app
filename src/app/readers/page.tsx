@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { getGradedReaders } from '@/lib/content/load';
 import { ReaderBrowser } from '@/components/Readers/ReaderBrowser';
 
 export const metadata = {
   title: 'Graded Readers Bookshelf — ContentFirst English',
   description:
-    'Extensive reading library with 265 classic & modern graded readers across 6 levels from Starter to Advanced, with chapter audio.',
+    'Extensive reading library with 218 available classic and modern graded readers across 6 levels from Starter to Advanced, with chapter audio.',
 };
 
 export default function ReadersPage() {
@@ -18,11 +18,13 @@ export default function ReadersPage() {
           Graded Readers Bookshelf
         </h1>
         <p className="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-1">
-          265 adapted classic and contemporary literary titles across 6 stages with native chapter audio.
+          {readers.length} adapted classic and contemporary literary titles across 6 stages with chapter audio.
         </p>
       </div>
 
-      <ReaderBrowser initialReaders={readers} />
+      <Suspense fallback={<div className="p-12 text-center text-sm text-stone-400 font-serif">Loading reader catalog...</div>}>
+        <ReaderBrowser initialReaders={readers} />
+      </Suspense>
     </div>
   );
 }

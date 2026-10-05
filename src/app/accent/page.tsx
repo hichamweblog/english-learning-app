@@ -21,6 +21,13 @@ export default function AccentPage() {
           Master acoustic rhythm, flapping, pitch contours, vowel shifts, and connected colloquial speech.
         </p>
       </div>
+      <div className="surface-inset flex flex-col gap-2 rounded-2xl p-5 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[hsl(var(--accent-warm))]">Practice loop</span>
+          <p className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">Listen first, repeat one small pattern, then return to meaningful input.</p>
+        </div>
+        <span className="text-xs font-semibold text-[hsl(var(--foreground))]">One drill at a time</span>
+      </div>
 
       <AccentBrowser lessons={lessons} />
     </div>
