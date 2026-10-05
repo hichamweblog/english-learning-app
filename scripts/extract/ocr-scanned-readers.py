@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Intelligent 1:1 Chapter-to-Track OCR Extractor for Scanned Graded Readers.
+Intelligent 1:1 Chapter-to-Track Hybrid Extractor for Graded Readers.
 Features:
-- Fast Tesseract CLI detection (10x faster) with automatic fallback to RapidOCR ONNX.
-- Chapter segmentation algorithm that maps book text 1:1 to each audio track.
-- Separation of story text and comprehension activities / exercises.
+- Hybrid digital/OCR extraction: instant digital text if available, high-speed PPM+Tesseract (PSM 3) if scanned.
+- Audio-duration-guided proportional segmentation with chapter marker snapping.
+- Continuous fractional page allocation for high-track density books (eliminates 0-word chapters).
+- Resilient separation of story text from activities and exercises.
 - Saves structured JSON to public/data/extracted/readers/<book-id>.json
 - Saves chapter transcripts to public/data/extracted/transcripts/readers/<book-id>/ch-<nn>.txt
+- Automatically rebuilds public/data/extracted/readers/index.json
 - Tracks progress in .ocr-progress.json to enable safe stopping and resumption.
 """
 
@@ -17,7 +19,14 @@ import re
 import shutil
 import subprocess
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 import pymupdf
+
+# Force unbuffered output for real-time background task monitoring
+try:
+    sys.stdout.reconfigure(line_buffering=True)
+except Exception:
+    pass
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent.parent
 MATERIALS_DIR = Path('/run/media/dzgeek/Disque local/Study English/English_Materials')
@@ -25,25 +34,18 @@ READERS_JSON = PROJECT_DIR / 'public/data/readers.json'
 OUT_DIR = PROJECT_DIR / 'public/data/extracted/readers'
 TXT_DIR = PROJECT_DIR / 'public/data/extracted/transcripts/readers'
 PROGRESS_FILE = OUT_DIR / '.ocr-progress.json'
+INDEX_FILE = OUT_DIR / 'index.json'
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 TXT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Detect if Tesseract is available
 HAS_TESSERACT = shutil.which('tesseract') is not None
-ocr_engine = None
-
 if HAS_TESSERACT:
     print("[OCR Engine] Using native Tesseract (High Speed C++ Engine)")
 else:
-    print("[OCR Engine] Tesseract not found in PATH. Initializing RapidOCR ONNX fallback...")
-    try:
-        from rapidocr_onnxruntime import RapidOCR
-        ocr_engine = RapidOCR()
-        print("[OCR Engine] RapidOCR initialized successfully.")
-    except ImportError:
-        print("Error: neither tesseract nor rapidocr-onnxruntime is available.")
-        sys.exit(1)
+    print("[OCR Engine] Tesseract not found in PATH! Falling back to RapidOCR.")
+    from rapidocr_onnxruntime import RapidOCR
+    ocr_engine = RapidOCR()
 
 def load_progress():
     if PROGRESS_FILE.exists():
@@ -58,189 +60,301 @@ def save_progress(progress):
     with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
         json.dump(progress, f, indent=2)
 
-from concurrent.futures import ThreadPoolExecutor
+def get_track_durations(audio_paths):
+    """Retrieve audio track durations using ffprobe."""
+    durs = []
+    for p in audio_paths:
+        full_p = MATERIALS_DIR / p.replace('materials/', '')
+        if not full_p.exists():
+            durs.append(300.0)
+            continue
+        try:
+            out = subprocess.check_output(
+                ['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', str(full_p)],
+                timeout=5
+            )
+            durs.append(max(10.0, float(out.strip())))
+        except Exception:
+            durs.append(300.0)
+    return durs
 
-def ocr_single_pix_bytes(img_bytes):
+def ocr_page_ppm(doc, p):
+    """Extract page text using digital stream or fast PPM Tesseract OCR."""
+    try:
+        dig_txt = doc[p].get_text().strip()
+        words = dig_txt.split()
+        if len(words) > 15 and len(set(words)) > 8:
+            return dig_txt
+    except Exception:
+        pass
+
     if HAS_TESSERACT:
         try:
+            pix = doc[p].get_pixmap(dpi=95)
+            # Check for totally white/blank page: sample across the whole page
+            samples = pix.samples
+            if len(samples) > 2000 and sum(1 for b in samples[::50] if b < 200) < 60:
+                return ""
+            pix_bytes = pix.tobytes('ppm')
             proc = subprocess.Popen(
                 ['tesseract', 'stdin', 'stdout', '-l', 'eng', '--psm', '3'],
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE
             )
-            stdout, _ = proc.communicate(input=img_bytes)
-            return stdout.decode('utf-8', errors='replace').strip()
+            out, _ = proc.communicate(input=pix_bytes, timeout=20)
+            return out.decode('utf-8', errors='replace').strip()
         except Exception:
             pass
-    if ocr_engine:
-        result, _ = ocr_engine(img_bytes)
-        lines = [item[1] for item in result] if result else []
-        return "\n".join(lines).strip()
+    elif 'ocr_engine' in globals():
+        try:
+            pix_bytes = doc[p].get_pixmap(dpi=95).tobytes('png')
+            result, _ = ocr_engine(pix_bytes)
+            return "\n".join([item[1] for item in result]).strip() if result else ""
+        except Exception:
+            pass
+
     return ""
 
-def clean_ocr_text(text):
-    # Normalize typography and remove watermarks
+def clean_text(text):
     t = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
     t = re.sub(r'www\.[a-z0-9.-]+\.[a-z]{2,}', '', t, flags=re.IGNORECASE)
     t = re.sub(r'http\S+', '', t)
     t = re.sub(r'[ \t]+', ' ', t)
     return t.strip()
 
-def process_scanned_book(reader_meta):
-    book_id = reader_meta['id']
+def segment_and_extract_reader(reader_meta):
+    b_id = reader_meta['id']
     pdf_rel = reader_meta['pdfPath'].replace('materials/', '')
-    full_pdf = MATERIALS_DIR / pdf_rel
+    pdf_p = MATERIALS_DIR / pdf_rel
 
-    if not full_pdf.exists():
-        print(f"[{book_id}] PDF not found: {full_pdf}")
+    if not pdf_p.exists():
+        print(f"[{b_id}] PDF file not found on disk: {pdf_p}. Skipping.")
         return False
 
-    audio_chapters = reader_meta.get('chapters', [])
-    total_tracks = len(audio_chapters)
-    if total_tracks == 0:
-        print(f"[{book_id}] No audio chapters found in metadata. Skipping.")
+    chapters_meta = reader_meta.get('chapters', [])
+    n_tracks = len(chapters_meta)
+    if n_tracks == 0:
+        print(f"[{b_id}] No audio chapters defined in metadata. Skipping.")
         return False
 
-    doc = pymupdf.open(str(full_pdf))
+    audio_paths = [c['audioPath'] for c in chapters_meta]
+    durs = get_track_durations(audio_paths)
+    total_dur = sum(durs)
+    weights = [d / total_dur for d in durs]
+
+    doc = pymupdf.open(str(pdf_p))
     total_pages = len(doc)
-    print(f"[{book_id}] Starting OCR on '{reader_meta['title']}' ({total_pages} pages, {total_tracks} tracks)...")
+    print(f"[{b_id}] Processing '{reader_meta['title']}' ({total_pages} pages, {n_tracks} audio tracks)...")
 
-    # Render pages and run parallel OCR across 4 CPU cores
-    dpi = 120
-    pix_bytes_list = [doc[i].get_pixmap(dpi=dpi).tobytes("png") for i in range(total_pages)]
+    # Parallel extraction across 4 threads
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        pages = list(ex.map(lambda p: clean_text(ocr_page_ppm(doc, p)), range(total_pages)))
 
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        raw_page_texts = list(executor.map(ocr_single_pix_bytes, pix_bytes_list))
+    # 1. Identify first page with real content (skip blank or unparsed initial pages)
+    first_real_page = 0
+    for p in range(total_pages):
+        if len(pages[p].strip()) > 30 and (any(len(pages[np].strip()) > 30 for np in range(p+1, min(p+4, total_pages))) or p >= total_pages - 3):
+            first_real_page = p
+            break
 
-    page_texts = [clean_ocr_text(t) for t in raw_page_texts]
-    full_text = "\n\n--- Page Break ---\n\n".join(page_texts)
+    story_start = first_real_page
+    for p in range(first_real_page, min(first_real_page + 20, total_pages)):
+        txt = pages[p]
+        if 'CONTENTS' in txt.upper() or 'TABLE OF' in txt.upper():
+            story_start = p + 1
+        elif re.search(r'\b(?:CHAPTER|PART)\s*(?:1|I|ONE)\b', txt, re.IGNORECASE) and p >= story_start:
+            story_start = p
+            break
 
-    # Check for chapter headings in OCR text
-    ch_regex = re.compile(r'(?:^|\n)\s*(?:CHAPTER|Chapter|Part|PART)\s+(?:[•·-]\s*)?([0-9IVXLCDM]+|[A-Za-z]+)\b(?:\s*[:–-]?\s*([^\n\r]+))?')
-    matches = []
-    for m in ch_regex.finditer(full_text):
-        m_str = m.group(0).lower()
-        if not any(k in m_str for k in ['exercise', 'activities', 'question', 'summary', 'again', 'table', 'quiz']):
-            matches.append({
-                'num': m.group(1),
-                'subtitle': (m.group(2) or '').strip(),
-                'start': m.start()
-            })
+    # 2. Identify story end (before back-matter)
+    story_end = total_pages
+    for p in range(total_pages - 1, max(story_start + 1, total_pages - 15), -1):
+        txt = pages[p]
+        if any(k in txt.upper() for k in ['WORD LIST', 'GLOSSARY', 'VOCABULARY', 'ANSWER KEY', 'ABOUT THE AUTHOR', 'ABOUT THE BOOKWORMS', 'ACTIVITIES: AFTER READING']):
+            story_end = p
 
-    body_matches = [m for m in matches if m['start'] > 1500]
-    active_matches = body_matches if len(body_matches) >= 2 else matches
+    if story_end <= story_start:
+        story_start = first_real_page
+        story_end = total_pages
 
-    chapters = []
-    book_txt_dir = TXT_DIR / book_id
+    total_story_pages = max(1, story_end - story_start)
+
+    # 3. Calculate chapter boundaries
+    use_discrete_boundaries = total_story_pages >= n_tracks
+    boundaries = [story_start]
+
+    if use_discrete_boundaries:
+        cum_w = 0.0
+        for c in range(n_tracks - 1):
+            cum_w += weights[c]
+            target = story_start + int(round(cum_w * total_story_pages))
+
+            best_p = target
+            found = False
+            ch_num = c + 2
+
+            for offset in [0, -1, 1, -2, 2, -3, 3, -4, 4]:
+                cand = target + offset
+                if boundaries[-1] < cand < story_end:
+                    txt = pages[cand]
+                    pat = rf'\b(?:CHAPTER|PART|GHAPTER|Track|STORY)\s*(?:[•·-]\s*)?(?:0?{ch_num}\b|[IVXLCDM]+\b)'
+                    if re.search(pat, txt, re.IGNORECASE):
+                        best_p = cand
+                        found = True
+                        break
+
+            if not found:
+                for offset in [0, -1, 1, -2, 2]:
+                    cand = target + offset
+                    if boundaries[-1] < cand < story_end:
+                        prev_txt = pages[cand - 1]
+                        if any(k in prev_txt.upper() for k in ['QUIZ', 'ACTIVITIES', 'EXERCISES', 'COMPREHENSION']):
+                            best_p = cand
+                            found = True
+                            break
+
+            boundaries.append(best_p)
+        boundaries.append(story_end)
+
+        # Ensure strictly monotonic boundaries
+        for i in range(1, len(boundaries)):
+            if boundaries[i] <= boundaries[i - 1]:
+                boundaries[i] = min(story_end, boundaries[i - 1] + 1)
+
+    book_txt_dir = TXT_DIR / b_id
     book_txt_dir.mkdir(parents=True, exist_ok=True)
 
-    if 0 < len(active_matches) <= total_tracks * 2:
-        # Detected chapter markers
-        for c in range(total_tracks):
-            track_meta = audio_chapters[c]
-            ch_num = c + 1
-            padded_ch = f"{ch_num:02d}"
-            ch_title = track_meta.get('title') or f"Chapter {ch_num}"
+    extracted_chapters = []
+    has_any_activities = False
 
-            if c < len(active_matches):
-                cur_m = active_matches[c]
-                next_start = active_matches[c + 1]['start'] if (c + 1 < len(active_matches)) else len(full_text)
-                ch_text = full_text[cur_m['start']:next_start].strip()
-                if cur_m['subtitle']:
-                    ch_title = f"Chapter {ch_num}: {cur_m['subtitle']}"
+    for c in range(n_tracks):
+        track_meta = chapters_meta[c]
+        ch_num = c + 1
+        padded_ch = f"{ch_num:02d}"
+
+        if use_discrete_boundaries:
+            p_from = boundaries[c]
+            p_to = boundaries[c + 1]
+            if p_to <= p_from:
+                p_to = min(total_pages, p_from + 1)
+            ch_pages = [p for p in pages[p_from:p_to] if p.strip()]
+        else:
+            # Continuous fractional page allocation for dense multi-track books
+            f_start = story_start + (c / n_tracks) * total_story_pages
+            f_end = story_start + ((c + 1) / n_tracks) * total_story_pages
+            p_from = int(f_start)
+            p_to = min(total_pages, int(f_end) + (1 if f_end > int(f_end) else 0))
+            if p_to <= p_from:
+                p_to = min(total_pages, p_from + 1)
+            ch_pages = [pages[p] for p in range(p_from, p_to) if pages[p].strip()]
+
+        # Separate story from activities
+        story_pages = []
+        act_pages = []
+        in_activities = False
+
+        for p_idx, p_txt in enumerate(ch_pages):
+            act_match = re.search(r'\b[A-Za-z]?(?:omprehension|ctivit|exercis|quiz)\b', p_txt, re.IGNORECASE)
+            if act_match and p_idx > 0:
+                in_activities = True
+
+            if in_activities:
+                act_pages.append(p_txt)
             else:
-                ch_text = f"[Audio Track {ch_num}] Narration continues."
+                story_pages.append(p_txt)
 
-            act_match = re.search(r'(?:^|\n)\s*(?:ACTIVITIES|Activities|EXERCISES|Exercises|Comprehension Quiz|BEFORE READING|AFTER READING)\b', ch_text, re.IGNORECASE)
-            story_text = ch_text
-            activities_text = ""
-            if act_match and act_match.start() > 50:
-                story_text = ch_text[:act_match.start()].strip()
-                activities_text = ch_text[act_match.start():].strip()
+        story_text = "\n\n".join(story_pages).strip()
+        act_text = "\n\n".join(act_pages).strip()
 
-            ch_txt_path = book_txt_dir / f"ch-{padded_ch}.txt"
-            with open(ch_txt_path, 'w', encoding='utf-8') as f:
-                f.write(ch_text)
+        if not story_text and act_text:
+            story_text = act_text
+            act_text = ""
 
-            words = len(ch_text.split())
-            chapters.append({
-                "chapterNumber": ch_num,
-                "title": ch_title,
-                "audioPath": track_meta['audioPath'],
-                "hasAudio": True,
-                "storyText": story_text,
-                "activitiesText": activities_text,
-                "hasActivities": len(activities_text) > 20,
-                "wordCount": words
-            })
-    else:
-        # Proportionally segment pages across audio tracks
-        # Exclude initial 2-3 cover/catalog pages if book has > 10 pages
-        content_pages = page_texts
-        start_p = 2 if total_pages > 10 else 0
-        usable_pages = content_pages[start_p:]
-        pages_per_track = max(1, len(usable_pages) // total_tracks)
+        # Fallback to prevent 0-word chapters: if still empty, use nearest non-empty story page
+        if not story_text:
+            for p in range(p_from, min(total_pages, p_from + 3)):
+                if pages[p].strip():
+                    story_text = pages[p].strip()
+                    break
 
-        for c in range(total_tracks):
-            track_meta = audio_chapters[c]
-            ch_num = c + 1
-            padded_ch = f"{ch_num:02d}"
+        # Write transcript text file
+        ch_txt_path = book_txt_dir / f"ch-{padded_ch}.txt"
+        with open(ch_txt_path, 'w', encoding='utf-8') as f:
+            f.write(f"--- Chapter {ch_num}: {track_meta.get('title', f'Chapter {ch_num}')} ---\n\n")
+            f.write(story_text)
+            if act_text:
+                f.write(f"\n\n--- Activities & Exercises ---\n\n{act_text}")
 
-            p_start = c * pages_per_track
-            p_end = len(usable_pages) if (c == total_tracks - 1) else min(len(usable_pages), (c + 1) * pages_per_track)
-            track_pages = usable_pages[p_start:p_end]
-            ch_text = "\n\n".join(p for p in track_pages if p.strip()).strip()
-            if not ch_text:
-                ch_text = f"[Audio Track {ch_num}] Narration continues."
+        w_count = len(story_text.split())
+        has_act = len(act_text) > 20
+        if has_act:
+            has_any_activities = True
 
-            act_match = re.search(r'(?:^|\n)\s*(?:ACTIVITIES|Activities|EXERCISES|Exercises|Comprehension Quiz)\b', ch_text, re.IGNORECASE)
-            story_text = ch_text
-            activities_text = ""
-            if act_match and act_match.start() > 50:
-                story_text = ch_text[:act_match.start()].strip()
-                activities_text = ch_text[act_match.start():].strip()
+        extracted_chapters.append({
+            "chapterNumber": ch_num,
+            "title": track_meta.get('title') or f"Chapter {ch_num}",
+            "audioPath": track_meta['audioPath'],
+            "hasAudio": True,
+            "storyText": story_text,
+            "activitiesText": act_text,
+            "hasActivities": has_act,
+            "wordCount": w_count
+        })
 
-            ch_txt_path = book_txt_dir / f"ch-{padded_ch}.txt"
-            with open(ch_txt_path, 'w', encoding='utf-8') as f:
-                f.write(ch_text)
-
-            words = len(ch_text.split())
-            chapters.append({
-                "chapterNumber": ch_num,
-                "title": track_meta.get('title') or f"Chapter {ch_num}",
-                "audioPath": track_meta['audioPath'],
-                "hasAudio": True,
-                "storyText": story_text,
-                "activitiesText": activities_text,
-                "hasActivities": len(activities_text) > 20,
-                "wordCount": words
-            })
-
-    has_exercises = any(c['hasActivities'] for c in chapters) or ('EXERCISE' in full_text.upper()) or ('QUIZ' in full_text.upper())
-    total_words = sum(c['wordCount'] for c in chapters)
+    total_words = sum(c['wordCount'] for c in extracted_chapters)
 
     book_record = {
-        "id": book_id,
+        "id": b_id,
         "title": reader_meta["title"],
         "level": reader_meta.get("level", "starter"),
         "levelLabel": reader_meta.get("levelLabel", "Starter"),
+        "seriesCode": reader_meta.get("seriesCode", "General"),
         "pdfPath": reader_meta["pdfPath"],
         "hasAudio": True,
-        "audioTracksCount": len(chapters),
-        "totalChapters": len(chapters),
-        "hasExercises": has_exercises,
+        "audioTracksCount": len(extracted_chapters),
+        "totalChapters": len(extracted_chapters),
+        "hasExercises": has_any_activities,
         "ocrExtracted": True,
-        "chapters": chapters,
+        "chapters": extracted_chapters,
         "totalWordCount": total_words
     }
 
-    out_json = OUT_DIR / f"{book_id}.json"
+    out_json = OUT_DIR / f"{b_id}.json"
     with open(out_json, 'w', encoding='utf-8') as f:
         json.dump(book_record, f, indent=2)
 
-    print(f"[{book_id}] Extracted {len(chapters)} chapters ({total_words} words). Saved to {out_json.name}")
+    min_words = min((c['wordCount'] for c in extracted_chapters), default=0)
+    print(f"[{b_id}] Extracted {len(extracted_chapters)} chapters ({total_words} words, min chapter: {min_words} words). Saved to {out_json.name}")
     return True
+
+def rebuild_index():
+    """Generate index.json catalog of all extracted readers."""
+    json_files = sorted(OUT_DIR.glob('*.json'))
+    catalog = []
+    for jf in json_files:
+        if jf.name in ('index.json', '.ocr-progress.json'):
+            continue
+        try:
+            with open(jf, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                catalog.append({
+                    "id": data["id"],
+                    "title": data["title"],
+                    "level": data.get("level", "starter"),
+                    "levelLabel": data.get("levelLabel", "Starter"),
+                    "audioTracksCount": data.get("audioTracksCount", len(data.get("chapters", []))),
+                    "totalChapters": data.get("totalChapters", len(data.get("chapters", []))),
+                    "totalWordCount": data.get("totalWordCount", 0),
+                    "hasExercises": data.get("hasExercises", False),
+                    "file": jf.name
+                })
+        except Exception:
+            pass
+
+    with open(INDEX_FILE, 'w', encoding='utf-8') as f:
+        json.dump(catalog, f, indent=2)
+    print(f"[Index] Built catalog index with {len(catalog)} readers in {INDEX_FILE.name}")
 
 def main():
     with open(READERS_JSON, 'r', encoding='utf-8') as f:
@@ -248,39 +362,73 @@ def main():
 
     progress = load_progress()
 
-    pending = []
-    for r in readers:
-        book_id = r['id']
-        json_file = OUT_DIR / f"{book_id}.json"
-        if not json_file.exists() and r.get('hasAudio'):
-            pending.append(r)
+    run_all = '--all' in sys.argv
+    force = '--force' in sys.argv
+    recheck_flagged = '--recheck-flagged' in sys.argv
 
-    print(f"Pending Scanned Graded Readers to extract: {len(pending)} books.")
-    if not pending:
-        print("All Graded Readers have already been extracted!")
+    specific_book = None
+    if '--book' in sys.argv:
+        specific_book = sys.argv[sys.argv.index('--book') + 1]
+
+    limit = None
+    if '--limit' in sys.argv:
+        limit = int(sys.argv[sys.argv.index('--limit') + 1])
+
+    queue = []
+    if specific_book:
+        target = next((r for r in readers if r['id'] == specific_book), None)
+        if target:
+            queue.append(target)
+        else:
+            print(f"Book '{specific_book}' not found in readers.json!")
+            return
+    elif recheck_flagged:
+        for r in readers:
+            b_id = r['id']
+            json_file = OUT_DIR / f"{b_id}.json"
+            if json_file.exists():
+                try:
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        d = json.load(f)
+                    min_w = min((c.get('wordCount', 0) for c in d.get('chapters', [])), default=0)
+                    tot_w = d.get('totalWordCount', 0)
+                    if min_w < 50 or tot_w == 0:
+                        print(f"Flagged for re-extraction: {b_id} (min: {min_w}w, total: {tot_w}w)")
+                        queue.append(r)
+                except Exception:
+                    queue.append(r)
+    else:
+        for r in readers:
+            b_id = r['id']
+            json_file = OUT_DIR / f"{b_id}.json"
+            if force or (not json_file.exists()) or progress.get(b_id) != 'done':
+                queue.append(r)
+
+    print(f"Pending readers to extract: {len(queue)} books.")
+    if not queue:
+        print("All Graded Readers up to date! Rebuilding catalog index...")
+        rebuild_index()
         return
 
-    # Process one book as validation or pass --all
-    run_all = '--all' in sys.argv
-    limit = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else (len(pending) if run_all else 1)
+    if limit:
+        queue = queue[:limit]
 
     processed = 0
-    for r in pending[:limit]:
-        book_id = r['id']
-        if progress.get(book_id) == 'done':
-            continue
+    for r in queue:
+        b_id = r['id']
         try:
-            success = process_scanned_book(r)
+            success = segment_and_extract_reader(r)
             if success:
-                progress[book_id] = 'done'
+                progress[b_id] = 'done'
                 save_progress(progress)
                 processed += 1
         except Exception as e:
-            print(f"[{book_id}] Error: {e}")
-            progress[book_id] = f"error: {str(e)}"
+            print(f"[{b_id}] Extraction Error: {e}")
+            progress[b_id] = f"error: {str(e)}"
             save_progress(progress)
 
-    print(f"\nDone batch: processed {processed} books.")
+    print(f"\nBatch complete: successfully extracted {processed} books.")
+    rebuild_index()
 
 if __name__ == '__main__':
     main()

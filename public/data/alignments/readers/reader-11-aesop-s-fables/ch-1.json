@@ -1,0 +1,5639 @@
+{
+  "sectionId": "reader-11-aesop-s-fables-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/297 (S2) Aesop's Fables/Track 01.mp3",
+  "totalDuration": 553.4040625,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 39.12,
+      "end": 41.3,
+      "text": "Qing Song Yung Yui, Mingsou A Sing Sha.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Qing",
+          "start": 39.12,
+          "end": 39.24
+        },
+        {
+          "id": "p1w2",
+          "text": "Song",
+          "start": 39.24,
+          "end": 39.5
+        },
+        {
+          "id": "p1w3",
+          "text": "Yung",
+          "start": 39.5,
+          "end": 39.8
+        },
+        {
+          "id": "p1w4",
+          "text": "Yui,",
+          "start": 39.8,
+          "end": 40.06
+        },
+        {
+          "id": "p1w5",
+          "text": "Mingsou",
+          "start": 40.36,
+          "end": 40.76
+        },
+        {
+          "id": "p1w6",
+          "text": "A",
+          "start": 40.76,
+          "end": 40.88
+        },
+        {
+          "id": "p1w7",
+          "text": "Sing",
+          "start": 40.88,
+          "end": 41.1
+        },
+        {
+          "id": "p1w8",
+          "text": "Sha.",
+          "start": 41.1,
+          "end": 41.3
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 42.26,
+      "end": 43.3,
+      "text": "Yisou Yu Yil.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Yisou",
+          "start": 42.26,
+          "end": 42.64
+        },
+        {
+          "id": "p2w2",
+          "text": "Yu",
+          "start": 42.64,
+          "end": 42.88
+        },
+        {
+          "id": "p2w3",
+          "text": "Yil.",
+          "start": 42.88,
+          "end": 43.3
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 45.82,
+      "end": 46.96,
+      "text": "ASOP's Fables.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "ASOP's",
+          "start": 45.82,
+          "end": 46.5
+        },
+        {
+          "id": "p3w2",
+          "text": "Fables.",
+          "start": 46.5,
+          "end": 46.96
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 49.96,
+      "end": 50.62,
+      "text": "Chapter 1.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Chapter",
+          "start": 49.96,
+          "end": 50.22
+        },
+        {
+          "id": "p4w2",
+          "text": "1.",
+          "start": 50.22,
+          "end": 50.62
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 53.26,
+      "end": 56.0,
+      "text": "The Fox and the Grapes.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "The",
+          "start": 53.26,
+          "end": 53.6
+        },
+        {
+          "id": "p5w2",
+          "text": "Fox",
+          "start": 53.6,
+          "end": 53.9
+        },
+        {
+          "id": "p5w3",
+          "text": "and",
+          "start": 53.9,
+          "end": 54.48
+        },
+        {
+          "id": "p5w4",
+          "text": "the",
+          "start": 54.48,
+          "end": 54.7
+        },
+        {
+          "id": "p5w5",
+          "text": "Grapes.",
+          "start": 54.7,
+          "end": 56.0
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 66.84,
+      "end": 72.64,
+      "text": "One very hot day, a thirsty fox saw some ripe grapes in a garden.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "One",
+          "start": 66.84,
+          "end": 67.12
+        },
+        {
+          "id": "p6w2",
+          "text": "very",
+          "start": 67.12,
+          "end": 67.64
+        },
+        {
+          "id": "p6w3",
+          "text": "hot",
+          "start": 67.64,
+          "end": 68.04
+        },
+        {
+          "id": "p6w4",
+          "text": "day,",
+          "start": 68.04,
+          "end": 68.42
+        },
+        {
+          "id": "p6w5",
+          "text": "a",
+          "start": 68.98,
+          "end": 69.08
+        },
+        {
+          "id": "p6w6",
+          "text": "thirsty",
+          "start": 69.08,
+          "end": 69.5
+        },
+        {
+          "id": "p6w7",
+          "text": "fox",
+          "start": 69.5,
+          "end": 70.08
+        },
+        {
+          "id": "p6w8",
+          "text": "saw",
+          "start": 70.08,
+          "end": 70.6
+        },
+        {
+          "id": "p6w9",
+          "text": "some",
+          "start": 70.6,
+          "end": 71.02
+        },
+        {
+          "id": "p6w10",
+          "text": "ripe",
+          "start": 71.02,
+          "end": 71.3
+        },
+        {
+          "id": "p6w11",
+          "text": "grapes",
+          "start": 71.3,
+          "end": 71.72
+        },
+        {
+          "id": "p6w12",
+          "text": "in",
+          "start": 71.72,
+          "end": 72.22
+        },
+        {
+          "id": "p6w13",
+          "text": "a",
+          "start": 72.22,
+          "end": 72.34
+        },
+        {
+          "id": "p6w14",
+          "text": "garden.",
+          "start": 72.34,
+          "end": 72.64
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 73.64,
+      "end": 74.82,
+      "text": "He said to himself,",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "He",
+          "start": 73.64,
+          "end": 73.94
+        },
+        {
+          "id": "p7w2",
+          "text": "said",
+          "start": 73.94,
+          "end": 74.24
+        },
+        {
+          "id": "p7w3",
+          "text": "to",
+          "start": 74.24,
+          "end": 74.48
+        },
+        {
+          "id": "p7w4",
+          "text": "himself,",
+          "start": 74.48,
+          "end": 74.82
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 76.3,
+      "end": 78.14,
+      "text": "How lucky I am!",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "How",
+          "start": 76.3,
+          "end": 76.62
+        },
+        {
+          "id": "p8w2",
+          "text": "lucky",
+          "start": 76.62,
+          "end": 77.14
+        },
+        {
+          "id": "p8w3",
+          "text": "I",
+          "start": 77.14,
+          "end": 77.7
+        },
+        {
+          "id": "p8w4",
+          "text": "am!",
+          "start": 77.7,
+          "end": 78.14
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 78.78,
+      "end": 80.58,
+      "text": "On a hot day like this,",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "On",
+          "start": 78.78,
+          "end": 78.9
+        },
+        {
+          "id": "p9w2",
+          "text": "a",
+          "start": 78.9,
+          "end": 79.1
+        },
+        {
+          "id": "p9w3",
+          "text": "hot",
+          "start": 79.1,
+          "end": 79.34
+        },
+        {
+          "id": "p9w4",
+          "text": "day",
+          "start": 79.34,
+          "end": 79.78
+        },
+        {
+          "id": "p9w5",
+          "text": "like",
+          "start": 79.78,
+          "end": 80.12
+        },
+        {
+          "id": "p9w6",
+          "text": "this,",
+          "start": 80.12,
+          "end": 80.58
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 81.04,
+      "end": 85.6,
+      "text": "ripe grapes will be much nicer than cool water.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "ripe",
+          "start": 81.04,
+          "end": 81.42
+        },
+        {
+          "id": "p10w2",
+          "text": "grapes",
+          "start": 81.42,
+          "end": 82.02
+        },
+        {
+          "id": "p10w3",
+          "text": "will",
+          "start": 82.02,
+          "end": 82.5
+        },
+        {
+          "id": "p10w4",
+          "text": "be",
+          "start": 82.5,
+          "end": 82.76
+        },
+        {
+          "id": "p10w5",
+          "text": "much",
+          "start": 82.76,
+          "end": 83.12
+        },
+        {
+          "id": "p10w6",
+          "text": "nicer",
+          "start": 83.12,
+          "end": 83.84
+        },
+        {
+          "id": "p10w7",
+          "text": "than",
+          "start": 83.84,
+          "end": 84.54
+        },
+        {
+          "id": "p10w8",
+          "text": "cool",
+          "start": 84.54,
+          "end": 84.94
+        },
+        {
+          "id": "p10w9",
+          "text": "water.",
+          "start": 84.94,
+          "end": 85.6
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 89.24,
+      "end": 95.16,
+      "text": "Then he walked quietly into the garden and jumped up at the grapes.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Then",
+          "start": 89.24,
+          "end": 89.74
+        },
+        {
+          "id": "p11w2",
+          "text": "he",
+          "start": 89.74,
+          "end": 89.98
+        },
+        {
+          "id": "p11w3",
+          "text": "walked",
+          "start": 89.98,
+          "end": 90.32
+        },
+        {
+          "id": "p11w4",
+          "text": "quietly",
+          "start": 90.32,
+          "end": 90.88
+        },
+        {
+          "id": "p11w5",
+          "text": "into",
+          "start": 90.88,
+          "end": 91.62
+        },
+        {
+          "id": "p11w6",
+          "text": "the",
+          "start": 91.62,
+          "end": 91.94
+        },
+        {
+          "id": "p11w7",
+          "text": "garden",
+          "start": 91.94,
+          "end": 92.3
+        },
+        {
+          "id": "p11w8",
+          "text": "and",
+          "start": 92.3,
+          "end": 93.32
+        },
+        {
+          "id": "p11w9",
+          "text": "jumped",
+          "start": 93.32,
+          "end": 93.7
+        },
+        {
+          "id": "p11w10",
+          "text": "up",
+          "start": 93.7,
+          "end": 94.22
+        },
+        {
+          "id": "p11w11",
+          "text": "at",
+          "start": 94.22,
+          "end": 94.62
+        },
+        {
+          "id": "p11w12",
+          "text": "the",
+          "start": 94.62,
+          "end": 94.84
+        },
+        {
+          "id": "p11w13",
+          "text": "grapes.",
+          "start": 94.84,
+          "end": 95.16
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 96.47,
+      "end": 98.79,
+      "text": "But the fox just missed them.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "But",
+          "start": 96.47,
+          "end": 96.73
+        },
+        {
+          "id": "p12w2",
+          "text": "the",
+          "start": 96.73,
+          "end": 96.97
+        },
+        {
+          "id": "p12w3",
+          "text": "fox",
+          "start": 96.97,
+          "end": 97.25
+        },
+        {
+          "id": "p12w4",
+          "text": "just",
+          "start": 97.25,
+          "end": 98.01
+        },
+        {
+          "id": "p12w5",
+          "text": "missed",
+          "start": 98.01,
+          "end": 98.33
+        },
+        {
+          "id": "p12w6",
+          "text": "them.",
+          "start": 98.33,
+          "end": 98.79
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 100.11,
+      "end": 102.71,
+      "text": "He tried again and again,",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "He",
+          "start": 100.11,
+          "end": 100.53
+        },
+        {
+          "id": "p13w2",
+          "text": "tried",
+          "start": 100.53,
+          "end": 100.87
+        },
+        {
+          "id": "p13w3",
+          "text": "again",
+          "start": 100.87,
+          "end": 101.55
+        },
+        {
+          "id": "p13w4",
+          "text": "and",
+          "start": 101.55,
+          "end": 102.09
+        },
+        {
+          "id": "p13w5",
+          "text": "again,",
+          "start": 102.09,
+          "end": 102.71
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 103.43,
+      "end": 107.07,
+      "text": "but every time he couldn't get the grapes.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "but",
+          "start": 103.43,
+          "end": 103.71
+        },
+        {
+          "id": "p14w2",
+          "text": "every",
+          "start": 103.71,
+          "end": 104.29
+        },
+        {
+          "id": "p14w3",
+          "text": "time",
+          "start": 104.29,
+          "end": 104.85
+        },
+        {
+          "id": "p14w4",
+          "text": "he",
+          "start": 104.85,
+          "end": 105.57
+        },
+        {
+          "id": "p14w5",
+          "text": "couldn't",
+          "start": 105.57,
+          "end": 106.19
+        },
+        {
+          "id": "p14w6",
+          "text": "get",
+          "start": 106.19,
+          "end": 106.49
+        },
+        {
+          "id": "p14w7",
+          "text": "the",
+          "start": 106.49,
+          "end": 106.75
+        },
+        {
+          "id": "p14w8",
+          "text": "grapes.",
+          "start": 106.75,
+          "end": 107.07
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 108.56,
+      "end": 111.38,
+      "text": "Finally, the fox stopped trying.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "Finally,",
+          "start": 108.56,
+          "end": 109.34
+        },
+        {
+          "id": "p15w2",
+          "text": "the",
+          "start": 109.82,
+          "end": 110.02
+        },
+        {
+          "id": "p15w3",
+          "text": "fox",
+          "start": 110.02,
+          "end": 110.28
+        },
+        {
+          "id": "p15w4",
+          "text": "stopped",
+          "start": 110.28,
+          "end": 110.8
+        },
+        {
+          "id": "p15w5",
+          "text": "trying.",
+          "start": 110.8,
+          "end": 111.38
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 112.14,
+      "end": 115.42,
+      "text": "He said, I won't try anymore.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "He",
+          "start": 112.14,
+          "end": 112.38
+        },
+        {
+          "id": "p16w2",
+          "text": "said,",
+          "start": 112.38,
+          "end": 112.76
+        },
+        {
+          "id": "p16w3",
+          "text": "I",
+          "start": 113.74,
+          "end": 113.94
+        },
+        {
+          "id": "p16w4",
+          "text": "won't",
+          "start": 113.94,
+          "end": 114.36
+        },
+        {
+          "id": "p16w5",
+          "text": "try",
+          "start": 114.36,
+          "end": 114.68
+        },
+        {
+          "id": "p16w6",
+          "text": "anymore.",
+          "start": 114.68,
+          "end": 115.42
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 116.3,
+      "end": 118.4,
+      "text": "The grapes are probably sour.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "The",
+          "start": 116.3,
+          "end": 116.38
+        },
+        {
+          "id": "p17w2",
+          "text": "grapes",
+          "start": 116.38,
+          "end": 116.74
+        },
+        {
+          "id": "p17w3",
+          "text": "are",
+          "start": 116.74,
+          "end": 117.14
+        },
+        {
+          "id": "p17w4",
+          "text": "probably",
+          "start": 117.14,
+          "end": 117.88
+        },
+        {
+          "id": "p17w5",
+          "text": "sour.",
+          "start": 117.88,
+          "end": 118.4
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 122.32,
+      "end": 125.88,
+      "text": "It is easy to hate what you cannot have.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "It",
+          "start": 122.32,
+          "end": 122.52
+        },
+        {
+          "id": "p18w2",
+          "text": "is",
+          "start": 122.52,
+          "end": 122.68
+        },
+        {
+          "id": "p18w3",
+          "text": "easy",
+          "start": 122.68,
+          "end": 123.1
+        },
+        {
+          "id": "p18w4",
+          "text": "to",
+          "start": 123.1,
+          "end": 123.64
+        },
+        {
+          "id": "p18w5",
+          "text": "hate",
+          "start": 123.64,
+          "end": 124.02
+        },
+        {
+          "id": "p18w6",
+          "text": "what",
+          "start": 124.02,
+          "end": 124.66
+        },
+        {
+          "id": "p18w7",
+          "text": "you",
+          "start": 124.66,
+          "end": 124.94
+        },
+        {
+          "id": "p18w8",
+          "text": "cannot",
+          "start": 124.94,
+          "end": 125.26
+        },
+        {
+          "id": "p18w9",
+          "text": "have.",
+          "start": 125.26,
+          "end": 125.88
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 131.34,
+      "end": 132.92,
+      "text": "The fox and the crow.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "The",
+          "start": 131.34,
+          "end": 131.5
+        },
+        {
+          "id": "p19w2",
+          "text": "fox",
+          "start": 131.5,
+          "end": 131.84
+        },
+        {
+          "id": "p19w3",
+          "text": "and",
+          "start": 131.84,
+          "end": 132.42
+        },
+        {
+          "id": "p19w4",
+          "text": "the",
+          "start": 132.42,
+          "end": 132.68
+        },
+        {
+          "id": "p19w5",
+          "text": "crow.",
+          "start": 132.68,
+          "end": 132.92
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 138.02,
+      "end": 140.44,
+      "text": "A crow was sitting on a tree branch.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "A",
+          "start": 138.02,
+          "end": 138.1
+        },
+        {
+          "id": "p20w2",
+          "text": "crow",
+          "start": 138.1,
+          "end": 138.42
+        },
+        {
+          "id": "p20w3",
+          "text": "was",
+          "start": 138.42,
+          "end": 138.74
+        },
+        {
+          "id": "p20w4",
+          "text": "sitting",
+          "start": 138.74,
+          "end": 139.04
+        },
+        {
+          "id": "p20w5",
+          "text": "on",
+          "start": 139.04,
+          "end": 139.5
+        },
+        {
+          "id": "p20w6",
+          "text": "a",
+          "start": 139.5,
+          "end": 139.64
+        },
+        {
+          "id": "p20w7",
+          "text": "tree",
+          "start": 139.64,
+          "end": 139.96
+        },
+        {
+          "id": "p20w8",
+          "text": "branch.",
+          "start": 139.96,
+          "end": 140.44
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 141.24,
+      "end": 144.78,
+      "text": "With a piece of delicious cheese in its mouth.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "With",
+          "start": 141.24,
+          "end": 141.58
+        },
+        {
+          "id": "p21w2",
+          "text": "a",
+          "start": 141.58,
+          "end": 141.76
+        },
+        {
+          "id": "p21w3",
+          "text": "piece",
+          "start": 141.76,
+          "end": 142.08
+        },
+        {
+          "id": "p21w4",
+          "text": "of",
+          "start": 142.08,
+          "end": 142.38
+        },
+        {
+          "id": "p21w5",
+          "text": "delicious",
+          "start": 142.38,
+          "end": 142.94
+        },
+        {
+          "id": "p21w6",
+          "text": "cheese",
+          "start": 142.94,
+          "end": 143.64
+        },
+        {
+          "id": "p21w7",
+          "text": "in",
+          "start": 143.64,
+          "end": 144.28
+        },
+        {
+          "id": "p21w8",
+          "text": "its",
+          "start": 144.28,
+          "end": 144.44
+        },
+        {
+          "id": "p21w9",
+          "text": "mouth.",
+          "start": 144.44,
+          "end": 144.78
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 146.74,
+      "end": 149.88,
+      "text": "A fox saw the crow and wanted the cheese.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "A",
+          "start": 146.74,
+          "end": 146.82
+        },
+        {
+          "id": "p22w2",
+          "text": "fox",
+          "start": 146.82,
+          "end": 147.14
+        },
+        {
+          "id": "p22w3",
+          "text": "saw",
+          "start": 147.14,
+          "end": 147.66
+        },
+        {
+          "id": "p22w4",
+          "text": "the",
+          "start": 147.66,
+          "end": 147.84
+        },
+        {
+          "id": "p22w5",
+          "text": "crow",
+          "start": 147.84,
+          "end": 148.16
+        },
+        {
+          "id": "p22w6",
+          "text": "and",
+          "start": 148.16,
+          "end": 148.84
+        },
+        {
+          "id": "p22w7",
+          "text": "wanted",
+          "start": 148.84,
+          "end": 149.3
+        },
+        {
+          "id": "p22w8",
+          "text": "the",
+          "start": 149.3,
+          "end": 149.6
+        },
+        {
+          "id": "p22w9",
+          "text": "cheese.",
+          "start": 149.6,
+          "end": 149.88
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 151.5,
+      "end": 155.8,
+      "text": "The fox thought and thought about how it could get the cheese.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "The",
+          "start": 151.5,
+          "end": 151.62
+        },
+        {
+          "id": "p23w2",
+          "text": "fox",
+          "start": 151.62,
+          "end": 151.9
+        },
+        {
+          "id": "p23w3",
+          "text": "thought",
+          "start": 151.9,
+          "end": 152.52
+        },
+        {
+          "id": "p23w4",
+          "text": "and",
+          "start": 152.52,
+          "end": 152.98
+        },
+        {
+          "id": "p23w5",
+          "text": "thought",
+          "start": 152.98,
+          "end": 153.48
+        },
+        {
+          "id": "p23w6",
+          "text": "about",
+          "start": 153.48,
+          "end": 154.1
+        },
+        {
+          "id": "p23w7",
+          "text": "how",
+          "start": 154.1,
+          "end": 154.52
+        },
+        {
+          "id": "p23w8",
+          "text": "it",
+          "start": 154.52,
+          "end": 154.8
+        },
+        {
+          "id": "p23w9",
+          "text": "could",
+          "start": 154.8,
+          "end": 154.98
+        },
+        {
+          "id": "p23w10",
+          "text": "get",
+          "start": 154.98,
+          "end": 155.26
+        },
+        {
+          "id": "p23w11",
+          "text": "the",
+          "start": 155.26,
+          "end": 155.5
+        },
+        {
+          "id": "p23w12",
+          "text": "cheese.",
+          "start": 155.5,
+          "end": 155.8
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 158.25,
+      "end": 160.77,
+      "text": "Finally the fox had an idea.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "Finally",
+          "start": 158.25,
+          "end": 158.75
+        },
+        {
+          "id": "p24w2",
+          "text": "the",
+          "start": 158.75,
+          "end": 159.09
+        },
+        {
+          "id": "p24w3",
+          "text": "fox",
+          "start": 159.09,
+          "end": 159.41
+        },
+        {
+          "id": "p24w4",
+          "text": "had",
+          "start": 159.41,
+          "end": 159.91
+        },
+        {
+          "id": "p24w5",
+          "text": "an",
+          "start": 159.91,
+          "end": 160.23
+        },
+        {
+          "id": "p24w6",
+          "text": "idea.",
+          "start": 160.23,
+          "end": 160.77
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 164.78,
+      "end": 167.84,
+      "text": "The fox said, What a special bird!",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "The",
+          "start": 164.78,
+          "end": 164.86
+        },
+        {
+          "id": "p25w2",
+          "text": "fox",
+          "start": 164.86,
+          "end": 165.14
+        },
+        {
+          "id": "p25w3",
+          "text": "said,",
+          "start": 165.14,
+          "end": 165.58
+        },
+        {
+          "id": "p25w4",
+          "text": "What",
+          "start": 166.3,
+          "end": 166.54
+        },
+        {
+          "id": "p25w5",
+          "text": "a",
+          "start": 166.54,
+          "end": 166.76
+        },
+        {
+          "id": "p25w6",
+          "text": "special",
+          "start": 166.76,
+          "end": 167.36
+        },
+        {
+          "id": "p25w7",
+          "text": "bird!",
+          "start": 167.36,
+          "end": 167.84
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 168.88,
+      "end": 171.98,
+      "text": "It is the most beautiful bird in the world.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "It",
+          "start": 168.88,
+          "end": 168.96
+        },
+        {
+          "id": "p26w2",
+          "text": "is",
+          "start": 168.96,
+          "end": 169.16
+        },
+        {
+          "id": "p26w3",
+          "text": "the",
+          "start": 169.16,
+          "end": 169.36
+        },
+        {
+          "id": "p26w4",
+          "text": "most",
+          "start": 169.36,
+          "end": 169.76
+        },
+        {
+          "id": "p26w5",
+          "text": "beautiful",
+          "start": 169.76,
+          "end": 170.36
+        },
+        {
+          "id": "p26w6",
+          "text": "bird",
+          "start": 170.36,
+          "end": 171.22
+        },
+        {
+          "id": "p26w7",
+          "text": "in",
+          "start": 171.22,
+          "end": 171.44
+        },
+        {
+          "id": "p26w8",
+          "text": "the",
+          "start": 171.44,
+          "end": 171.6
+        },
+        {
+          "id": "p26w9",
+          "text": "world.",
+          "start": 171.6,
+          "end": 171.98
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 173.08,
+      "end": 176.38,
+      "text": "Are its songs as beautiful as its face?",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "Are",
+          "start": 173.08,
+          "end": 173.44
+        },
+        {
+          "id": "p27w2",
+          "text": "its",
+          "start": 173.44,
+          "end": 173.66
+        },
+        {
+          "id": "p27w3",
+          "text": "songs",
+          "start": 173.66,
+          "end": 174.02
+        },
+        {
+          "id": "p27w4",
+          "text": "as",
+          "start": 174.02,
+          "end": 174.42
+        },
+        {
+          "id": "p27w5",
+          "text": "beautiful",
+          "start": 174.42,
+          "end": 174.9
+        },
+        {
+          "id": "p27w6",
+          "text": "as",
+          "start": 174.9,
+          "end": 175.74
+        },
+        {
+          "id": "p27w7",
+          "text": "its",
+          "start": 175.74,
+          "end": 176.0
+        },
+        {
+          "id": "p27w8",
+          "text": "face?",
+          "start": 176.0,
+          "end": 176.38
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 177.75,
+      "end": 181.11,
+      "text": "These kind words made the crow very happy.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "These",
+          "start": 177.75,
+          "end": 178.05
+        },
+        {
+          "id": "p28w2",
+          "text": "kind",
+          "start": 178.05,
+          "end": 178.37
+        },
+        {
+          "id": "p28w3",
+          "text": "words",
+          "start": 178.37,
+          "end": 178.91
+        },
+        {
+          "id": "p28w4",
+          "text": "made",
+          "start": 178.91,
+          "end": 179.39
+        },
+        {
+          "id": "p28w5",
+          "text": "the",
+          "start": 179.39,
+          "end": 179.63
+        },
+        {
+          "id": "p28w6",
+          "text": "crow",
+          "start": 179.63,
+          "end": 179.93
+        },
+        {
+          "id": "p28w7",
+          "text": "very",
+          "start": 179.93,
+          "end": 180.53
+        },
+        {
+          "id": "p28w8",
+          "text": "happy.",
+          "start": 180.53,
+          "end": 181.11
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 182.11,
+      "end": 185.45,
+      "text": "And the crow wanted to sing a song for the fox.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "And",
+          "start": 182.11,
+          "end": 182.39
+        },
+        {
+          "id": "p29w2",
+          "text": "the",
+          "start": 182.39,
+          "end": 182.53
+        },
+        {
+          "id": "p29w3",
+          "text": "crow",
+          "start": 182.53,
+          "end": 182.81
+        },
+        {
+          "id": "p29w4",
+          "text": "wanted",
+          "start": 182.81,
+          "end": 183.35
+        },
+        {
+          "id": "p29w5",
+          "text": "to",
+          "start": 183.35,
+          "end": 183.61
+        },
+        {
+          "id": "p29w6",
+          "text": "sing",
+          "start": 183.61,
+          "end": 183.99
+        },
+        {
+          "id": "p29w7",
+          "text": "a",
+          "start": 183.99,
+          "end": 184.17
+        },
+        {
+          "id": "p29w8",
+          "text": "song",
+          "start": 184.17,
+          "end": 184.57
+        },
+        {
+          "id": "p29w9",
+          "text": "for",
+          "start": 184.57,
+          "end": 185.01
+        },
+        {
+          "id": "p29w10",
+          "text": "the",
+          "start": 185.01,
+          "end": 185.19
+        },
+        {
+          "id": "p29w11",
+          "text": "fox.",
+          "start": 185.19,
+          "end": 185.45
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 187.45,
+      "end": 190.35,
+      "text": "But when the crow opened its mouth to sing,",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "But",
+          "start": 187.45,
+          "end": 187.71
+        },
+        {
+          "id": "p30w2",
+          "text": "when",
+          "start": 187.71,
+          "end": 187.97
+        },
+        {
+          "id": "p30w3",
+          "text": "the",
+          "start": 187.97,
+          "end": 188.25
+        },
+        {
+          "id": "p30w4",
+          "text": "crow",
+          "start": 188.25,
+          "end": 188.55
+        },
+        {
+          "id": "p30w5",
+          "text": "opened",
+          "start": 188.55,
+          "end": 189.13
+        },
+        {
+          "id": "p30w6",
+          "text": "its",
+          "start": 189.13,
+          "end": 189.41
+        },
+        {
+          "id": "p30w7",
+          "text": "mouth",
+          "start": 189.41,
+          "end": 189.65
+        },
+        {
+          "id": "p30w8",
+          "text": "to",
+          "start": 189.65,
+          "end": 189.99
+        },
+        {
+          "id": "p30w9",
+          "text": "sing,",
+          "start": 189.99,
+          "end": 190.35
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 191.15,
+      "end": 192.83,
+      "text": "the cheese fell down.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "the",
+          "start": 191.15,
+          "end": 191.37
+        },
+        {
+          "id": "p31w2",
+          "text": "cheese",
+          "start": 191.37,
+          "end": 191.67
+        },
+        {
+          "id": "p31w3",
+          "text": "fell",
+          "start": 191.67,
+          "end": 192.29
+        },
+        {
+          "id": "p31w4",
+          "text": "down.",
+          "start": 192.29,
+          "end": 192.83
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 194.09,
+      "end": 197.71,
+      "text": "The smart fox quickly ran and got the cheese.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "The",
+          "start": 194.09,
+          "end": 194.17
+        },
+        {
+          "id": "p32w2",
+          "text": "smart",
+          "start": 194.17,
+          "end": 194.55
+        },
+        {
+          "id": "p32w3",
+          "text": "fox",
+          "start": 194.55,
+          "end": 194.95
+        },
+        {
+          "id": "p32w4",
+          "text": "quickly",
+          "start": 194.95,
+          "end": 195.49
+        },
+        {
+          "id": "p32w5",
+          "text": "ran",
+          "start": 195.49,
+          "end": 196.11
+        },
+        {
+          "id": "p32w6",
+          "text": "and",
+          "start": 196.11,
+          "end": 196.79
+        },
+        {
+          "id": "p32w7",
+          "text": "got",
+          "start": 196.79,
+          "end": 197.15
+        },
+        {
+          "id": "p32w8",
+          "text": "the",
+          "start": 197.15,
+          "end": 197.43
+        },
+        {
+          "id": "p32w9",
+          "text": "cheese.",
+          "start": 197.43,
+          "end": 197.71
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 199.19,
+      "end": 201.15,
+      "text": "Then the fox said to the crow,",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "Then",
+          "start": 199.19,
+          "end": 199.47
+        },
+        {
+          "id": "p33w2",
+          "text": "the",
+          "start": 199.47,
+          "end": 199.69
+        },
+        {
+          "id": "p33w3",
+          "text": "fox",
+          "start": 199.69,
+          "end": 199.99
+        },
+        {
+          "id": "p33w4",
+          "text": "said",
+          "start": 199.99,
+          "end": 200.47
+        },
+        {
+          "id": "p33w5",
+          "text": "to",
+          "start": 200.47,
+          "end": 200.73
+        },
+        {
+          "id": "p33w6",
+          "text": "the",
+          "start": 200.73,
+          "end": 200.89
+        },
+        {
+          "id": "p33w7",
+          "text": "crow,",
+          "start": 200.89,
+          "end": 201.15
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 202.18,
+      "end": 206.4,
+      "text": "You are very beautiful, but not very smart.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "You",
+          "start": 202.18,
+          "end": 202.6
+        },
+        {
+          "id": "p34w2",
+          "text": "are",
+          "start": 202.6,
+          "end": 202.9
+        },
+        {
+          "id": "p34w3",
+          "text": "very",
+          "start": 202.9,
+          "end": 203.24
+        },
+        {
+          "id": "p34w4",
+          "text": "beautiful,",
+          "start": 203.24,
+          "end": 203.9
+        },
+        {
+          "id": "p34w5",
+          "text": "but",
+          "start": 204.56,
+          "end": 204.94
+        },
+        {
+          "id": "p34w6",
+          "text": "not",
+          "start": 204.94,
+          "end": 205.26
+        },
+        {
+          "id": "p34w7",
+          "text": "very",
+          "start": 205.26,
+          "end": 205.84
+        },
+        {
+          "id": "p34w8",
+          "text": "smart.",
+          "start": 205.84,
+          "end": 206.4
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 212.06,
+      "end": 216.08,
+      "text": "Don't always believe people who tell you kind things.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "Don't",
+          "start": 212.06,
+          "end": 212.56
+        },
+        {
+          "id": "p35w2",
+          "text": "always",
+          "start": 212.56,
+          "end": 212.8
+        },
+        {
+          "id": "p35w3",
+          "text": "believe",
+          "start": 212.8,
+          "end": 213.46
+        },
+        {
+          "id": "p35w4",
+          "text": "people",
+          "start": 213.46,
+          "end": 213.96
+        },
+        {
+          "id": "p35w5",
+          "text": "who",
+          "start": 213.96,
+          "end": 214.5
+        },
+        {
+          "id": "p35w6",
+          "text": "tell",
+          "start": 214.5,
+          "end": 214.84
+        },
+        {
+          "id": "p35w7",
+          "text": "you",
+          "start": 214.84,
+          "end": 215.14
+        },
+        {
+          "id": "p35w8",
+          "text": "kind",
+          "start": 215.14,
+          "end": 215.58
+        },
+        {
+          "id": "p35w9",
+          "text": "things.",
+          "start": 215.58,
+          "end": 216.08
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 221.91,
+      "end": 223.83,
+      "text": "The fox and the woodcutter.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "The",
+          "start": 221.91,
+          "end": 221.99
+        },
+        {
+          "id": "p36w2",
+          "text": "fox",
+          "start": 221.99,
+          "end": 222.27
+        },
+        {
+          "id": "p36w3",
+          "text": "and",
+          "start": 222.27,
+          "end": 222.89
+        },
+        {
+          "id": "p36w4",
+          "text": "the",
+          "start": 222.89,
+          "end": 223.13
+        },
+        {
+          "id": "p36w5",
+          "text": "woodcutter.",
+          "start": 223.13,
+          "end": 223.83
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 225.83,
+      "end": 228.41,
+      "text": "Some hunters were chasing a fox.",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "Some",
+          "start": 225.83,
+          "end": 226.51
+        },
+        {
+          "id": "p37w2",
+          "text": "hunters",
+          "start": 226.51,
+          "end": 226.93
+        },
+        {
+          "id": "p37w3",
+          "text": "were",
+          "start": 226.93,
+          "end": 227.33
+        },
+        {
+          "id": "p37w4",
+          "text": "chasing",
+          "start": 227.33,
+          "end": 227.73
+        },
+        {
+          "id": "p37w5",
+          "text": "a",
+          "start": 227.73,
+          "end": 228.13
+        },
+        {
+          "id": "p37w6",
+          "text": "fox.",
+          "start": 228.13,
+          "end": 228.41
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 229.6,
+      "end": 233.48,
+      "text": "The fox saw a woodcutter and asked him for help.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "The",
+          "start": 229.6,
+          "end": 229.82
+        },
+        {
+          "id": "p38w2",
+          "text": "fox",
+          "start": 229.82,
+          "end": 230.08
+        },
+        {
+          "id": "p38w3",
+          "text": "saw",
+          "start": 230.08,
+          "end": 230.64
+        },
+        {
+          "id": "p38w4",
+          "text": "a",
+          "start": 230.64,
+          "end": 230.86
+        },
+        {
+          "id": "p38w5",
+          "text": "woodcutter",
+          "start": 230.86,
+          "end": 231.54
+        },
+        {
+          "id": "p38w6",
+          "text": "and",
+          "start": 231.54,
+          "end": 232.12
+        },
+        {
+          "id": "p38w7",
+          "text": "asked",
+          "start": 232.12,
+          "end": 232.52
+        },
+        {
+          "id": "p38w8",
+          "text": "him",
+          "start": 232.52,
+          "end": 232.86
+        },
+        {
+          "id": "p38w9",
+          "text": "for",
+          "start": 232.86,
+          "end": 233.22
+        },
+        {
+          "id": "p38w10",
+          "text": "help.",
+          "start": 233.22,
+          "end": 233.48
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 234.77,
+      "end": 237.07,
+      "text": "Please hide me, kind woodcutter.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "Please",
+          "start": 234.77,
+          "end": 234.97
+        },
+        {
+          "id": "p39w2",
+          "text": "hide",
+          "start": 234.97,
+          "end": 235.35
+        },
+        {
+          "id": "p39w3",
+          "text": "me,",
+          "start": 235.35,
+          "end": 235.69
+        },
+        {
+          "id": "p39w4",
+          "text": "kind",
+          "start": 236.13,
+          "end": 236.23
+        },
+        {
+          "id": "p39w5",
+          "text": "woodcutter.",
+          "start": 236.23,
+          "end": 237.07
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 237.55,
+      "end": 238.67,
+      "text": "The fox said.",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "The",
+          "start": 237.55,
+          "end": 237.95
+        },
+        {
+          "id": "p40w2",
+          "text": "fox",
+          "start": 237.95,
+          "end": 238.17
+        },
+        {
+          "id": "p40w3",
+          "text": "said.",
+          "start": 238.17,
+          "end": 238.67
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 238.67,
+      "end": 243.44,
+      "text": "The woodcutter told the fox to go into his house.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "The",
+          "start": 238.67,
+          "end": 239.79
+        },
+        {
+          "id": "p41w2",
+          "text": "woodcutter",
+          "start": 239.92,
+          "end": 240.54
+        },
+        {
+          "id": "p41w3",
+          "text": "told",
+          "start": 240.54,
+          "end": 240.92
+        },
+        {
+          "id": "p41w4",
+          "text": "the",
+          "start": 240.92,
+          "end": 241.16
+        },
+        {
+          "id": "p41w5",
+          "text": "fox",
+          "start": 241.16,
+          "end": 241.44
+        },
+        {
+          "id": "p41w6",
+          "text": "to",
+          "start": 241.44,
+          "end": 241.84
+        },
+        {
+          "id": "p41w7",
+          "text": "go",
+          "start": 241.84,
+          "end": 242.18
+        },
+        {
+          "id": "p41w8",
+          "text": "into",
+          "start": 242.18,
+          "end": 242.62
+        },
+        {
+          "id": "p41w9",
+          "text": "his",
+          "start": 242.62,
+          "end": 243.14
+        },
+        {
+          "id": "p41w10",
+          "text": "house.",
+          "start": 243.14,
+          "end": 243.44
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 247.39,
+      "end": 248.73,
+      "text": "Soon the hunters came.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "Soon",
+          "start": 247.39,
+          "end": 247.79
+        },
+        {
+          "id": "p42w2",
+          "text": "the",
+          "start": 247.79,
+          "end": 248.05
+        },
+        {
+          "id": "p42w3",
+          "text": "hunters",
+          "start": 248.05,
+          "end": 248.31
+        },
+        {
+          "id": "p42w4",
+          "text": "came.",
+          "start": 248.31,
+          "end": 248.73
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 249.68,
+      "end": 253.08,
+      "text": "They asked the woodcutter, Did you see a fox?",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "They",
+          "start": 249.68,
+          "end": 249.9
+        },
+        {
+          "id": "p43w2",
+          "text": "asked",
+          "start": 249.9,
+          "end": 250.24
+        },
+        {
+          "id": "p43w3",
+          "text": "the",
+          "start": 250.24,
+          "end": 250.48
+        },
+        {
+          "id": "p43w4",
+          "text": "woodcutter,",
+          "start": 250.48,
+          "end": 251.08
+        },
+        {
+          "id": "p43w5",
+          "text": "Did",
+          "start": 251.4,
+          "end": 252.0
+        },
+        {
+          "id": "p43w6",
+          "text": "you",
+          "start": 252.0,
+          "end": 252.28
+        },
+        {
+          "id": "p43w7",
+          "text": "see",
+          "start": 252.28,
+          "end": 252.64
+        },
+        {
+          "id": "p43w8",
+          "text": "a",
+          "start": 252.64,
+          "end": 252.8
+        },
+        {
+          "id": "p43w9",
+          "text": "fox?",
+          "start": 252.8,
+          "end": 253.08
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 254.38,
+      "end": 259.2,
+      "text": "The woodcutter said, No, but pointed to his house.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "The",
+          "start": 254.38,
+          "end": 254.56
+        },
+        {
+          "id": "p44w2",
+          "text": "woodcutter",
+          "start": 254.56,
+          "end": 255.1
+        },
+        {
+          "id": "p44w3",
+          "text": "said,",
+          "start": 255.1,
+          "end": 255.4
+        },
+        {
+          "id": "p44w4",
+          "text": "No,",
+          "start": 256.38,
+          "end": 256.7
+        },
+        {
+          "id": "p44w5",
+          "text": "but",
+          "start": 257.42,
+          "end": 257.88
+        },
+        {
+          "id": "p44w6",
+          "text": "pointed",
+          "start": 257.88,
+          "end": 258.26
+        },
+        {
+          "id": "p44w7",
+          "text": "to",
+          "start": 258.26,
+          "end": 258.7
+        },
+        {
+          "id": "p44w8",
+          "text": "his",
+          "start": 258.7,
+          "end": 258.9
+        },
+        {
+          "id": "p44w9",
+          "text": "house.",
+          "start": 258.9,
+          "end": 259.2
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 260.67,
+      "end": 263.73,
+      "text": "The hunters didn't know why the woodcutter pointed.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "The",
+          "start": 260.67,
+          "end": 260.85
+        },
+        {
+          "id": "p45w2",
+          "text": "hunters",
+          "start": 260.85,
+          "end": 261.11
+        },
+        {
+          "id": "p45w3",
+          "text": "didn't",
+          "start": 261.11,
+          "end": 261.77
+        },
+        {
+          "id": "p45w4",
+          "text": "know",
+          "start": 261.77,
+          "end": 262.07
+        },
+        {
+          "id": "p45w5",
+          "text": "why",
+          "start": 262.07,
+          "end": 262.59
+        },
+        {
+          "id": "p45w6",
+          "text": "the",
+          "start": 262.59,
+          "end": 262.79
+        },
+        {
+          "id": "p45w7",
+          "text": "woodcutter",
+          "start": 262.79,
+          "end": 263.41
+        },
+        {
+          "id": "p45w8",
+          "text": "pointed.",
+          "start": 263.41,
+          "end": 263.73
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 264.86,
+      "end": 265.94,
+      "text": "They went away.",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "They",
+          "start": 264.86,
+          "end": 265.18
+        },
+        {
+          "id": "p46w2",
+          "text": "went",
+          "start": 265.18,
+          "end": 265.48
+        },
+        {
+          "id": "p46w3",
+          "text": "away.",
+          "start": 265.48,
+          "end": 265.94
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 269.84,
+      "end": 273.0,
+      "text": "After a while the fox came out of the house.",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "After",
+          "start": 269.84,
+          "end": 270.18
+        },
+        {
+          "id": "p47w2",
+          "text": "a",
+          "start": 270.18,
+          "end": 270.4
+        },
+        {
+          "id": "p47w3",
+          "text": "while",
+          "start": 270.4,
+          "end": 270.72
+        },
+        {
+          "id": "p47w4",
+          "text": "the",
+          "start": 270.72,
+          "end": 271.26
+        },
+        {
+          "id": "p47w5",
+          "text": "fox",
+          "start": 271.26,
+          "end": 271.54
+        },
+        {
+          "id": "p47w6",
+          "text": "came",
+          "start": 271.54,
+          "end": 271.96
+        },
+        {
+          "id": "p47w7",
+          "text": "out",
+          "start": 271.96,
+          "end": 272.36
+        },
+        {
+          "id": "p47w8",
+          "text": "of",
+          "start": 272.36,
+          "end": 272.52
+        },
+        {
+          "id": "p47w9",
+          "text": "the",
+          "start": 272.52,
+          "end": 272.66
+        },
+        {
+          "id": "p47w10",
+          "text": "house.",
+          "start": 272.66,
+          "end": 273.0
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 274.06,
+      "end": 276.86,
+      "text": "The fox didn't say, Thank you.",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "The",
+          "start": 274.06,
+          "end": 274.46
+        },
+        {
+          "id": "p48w2",
+          "text": "fox",
+          "start": 274.46,
+          "end": 274.76
+        },
+        {
+          "id": "p48w3",
+          "text": "didn't",
+          "start": 274.76,
+          "end": 275.38
+        },
+        {
+          "id": "p48w4",
+          "text": "say,",
+          "start": 275.38,
+          "end": 275.66
+        },
+        {
+          "id": "p48w5",
+          "text": "Thank",
+          "start": 276.04,
+          "end": 276.5
+        },
+        {
+          "id": "p48w6",
+          "text": "you.",
+          "start": 276.5,
+          "end": 276.86
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 277.54,
+      "end": 280.26,
+      "text": "The woodcutter got angry at the fox.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "The",
+          "start": 277.54,
+          "end": 277.86
+        },
+        {
+          "id": "p49w2",
+          "text": "woodcutter",
+          "start": 277.86,
+          "end": 278.52
+        },
+        {
+          "id": "p49w3",
+          "text": "got",
+          "start": 278.52,
+          "end": 278.72
+        },
+        {
+          "id": "p49w4",
+          "text": "angry",
+          "start": 278.72,
+          "end": 279.3
+        },
+        {
+          "id": "p49w5",
+          "text": "at",
+          "start": 279.3,
+          "end": 279.8
+        },
+        {
+          "id": "p49w6",
+          "text": "the",
+          "start": 279.8,
+          "end": 280.0
+        },
+        {
+          "id": "p49w7",
+          "text": "fox.",
+          "start": 280.0,
+          "end": 280.26
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 281.9,
+      "end": 284.18,
+      "text": "Why don't you say Thank you?",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "Why",
+          "start": 281.9,
+          "end": 282.6
+        },
+        {
+          "id": "p50w2",
+          "text": "don't",
+          "start": 282.6,
+          "end": 282.98
+        },
+        {
+          "id": "p50w3",
+          "text": "you",
+          "start": 282.98,
+          "end": 283.14
+        },
+        {
+          "id": "p50w4",
+          "text": "say",
+          "start": 283.14,
+          "end": 283.46
+        },
+        {
+          "id": "p50w5",
+          "text": "Thank",
+          "start": 283.46,
+          "end": 283.82
+        },
+        {
+          "id": "p50w6",
+          "text": "you?",
+          "start": 283.82,
+          "end": 284.18
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 284.66,
+      "end": 285.16,
+      "text": "He asked.",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "He",
+          "start": 284.66,
+          "end": 284.9
+        },
+        {
+          "id": "p51w2",
+          "text": "asked.",
+          "start": 284.9,
+          "end": 285.16
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 286.27,
+      "end": 288.17,
+      "text": "I wanted to thank you.",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "I",
+          "start": 286.27,
+          "end": 286.75
+        },
+        {
+          "id": "p52w2",
+          "text": "wanted",
+          "start": 286.75,
+          "end": 287.15
+        },
+        {
+          "id": "p52w3",
+          "text": "to",
+          "start": 287.15,
+          "end": 287.45
+        },
+        {
+          "id": "p52w4",
+          "text": "thank",
+          "start": 287.45,
+          "end": 287.73
+        },
+        {
+          "id": "p52w5",
+          "text": "you.",
+          "start": 287.73,
+          "end": 288.17
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 288.65,
+      "end": 289.51,
+      "text": "The fox said.",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "The",
+          "start": 288.65,
+          "end": 288.85
+        },
+        {
+          "id": "p53w2",
+          "text": "fox",
+          "start": 288.85,
+          "end": 289.11
+        },
+        {
+          "id": "p53w3",
+          "text": "said.",
+          "start": 289.11,
+          "end": 289.51
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 290.19,
+      "end": 292.63,
+      "text": "But I saw you signal to the hunters.",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "But",
+          "start": 290.19,
+          "end": 290.39
+        },
+        {
+          "id": "p54w2",
+          "text": "I",
+          "start": 290.39,
+          "end": 290.71
+        },
+        {
+          "id": "p54w3",
+          "text": "saw",
+          "start": 290.71,
+          "end": 291.15
+        },
+        {
+          "id": "p54w4",
+          "text": "you",
+          "start": 291.15,
+          "end": 291.45
+        },
+        {
+          "id": "p54w5",
+          "text": "signal",
+          "start": 291.45,
+          "end": 291.85
+        },
+        {
+          "id": "p54w6",
+          "text": "to",
+          "start": 291.85,
+          "end": 292.21
+        },
+        {
+          "id": "p54w7",
+          "text": "the",
+          "start": 292.21,
+          "end": 292.37
+        },
+        {
+          "id": "p54w8",
+          "text": "hunters.",
+          "start": 292.37,
+          "end": 292.63
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 293.53,
+      "end": 296.31,
+      "text": "Your words did not match your actions.",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "Your",
+          "start": 293.53,
+          "end": 294.09
+        },
+        {
+          "id": "p55w2",
+          "text": "words",
+          "start": 294.09,
+          "end": 294.49
+        },
+        {
+          "id": "p55w3",
+          "text": "did",
+          "start": 294.49,
+          "end": 294.81
+        },
+        {
+          "id": "p55w4",
+          "text": "not",
+          "start": 294.81,
+          "end": 295.03
+        },
+        {
+          "id": "p55w5",
+          "text": "match",
+          "start": 295.03,
+          "end": 295.47
+        },
+        {
+          "id": "p55w6",
+          "text": "your",
+          "start": 295.47,
+          "end": 295.81
+        },
+        {
+          "id": "p55w7",
+          "text": "actions.",
+          "start": 295.81,
+          "end": 296.31
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 301.49,
+      "end": 304.69,
+      "text": "You should act and speak the same.",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "You",
+          "start": 301.49,
+          "end": 302.09
+        },
+        {
+          "id": "p56w2",
+          "text": "should",
+          "start": 302.09,
+          "end": 302.37
+        },
+        {
+          "id": "p56w3",
+          "text": "act",
+          "start": 302.37,
+          "end": 302.77
+        },
+        {
+          "id": "p56w4",
+          "text": "and",
+          "start": 302.77,
+          "end": 303.27
+        },
+        {
+          "id": "p56w5",
+          "text": "speak",
+          "start": 303.27,
+          "end": 303.73
+        },
+        {
+          "id": "p56w6",
+          "text": "the",
+          "start": 303.73,
+          "end": 304.29
+        },
+        {
+          "id": "p56w7",
+          "text": "same.",
+          "start": 304.29,
+          "end": 304.69
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 305.65,
+      "end": 306.19,
+      "text": "Kindly.",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "Kindly.",
+          "start": 305.65,
+          "end": 306.19
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 306.19,
+      "end": 313.08,
+      "text": "The lion and the mouse.",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "The",
+          "start": 306.19,
+          "end": 307.29
+        },
+        {
+          "id": "p58w2",
+          "text": "lion",
+          "start": 311.48,
+          "end": 311.9
+        },
+        {
+          "id": "p58w3",
+          "text": "and",
+          "start": 311.9,
+          "end": 312.42
+        },
+        {
+          "id": "p58w4",
+          "text": "the",
+          "start": 312.42,
+          "end": 312.74
+        },
+        {
+          "id": "p58w5",
+          "text": "mouse.",
+          "start": 312.74,
+          "end": 313.08
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 315.41,
+      "end": 320.67,
+      "text": "A lion was sleeping happily when a mouse ran over its face.",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "A",
+          "start": 315.41,
+          "end": 315.87
+        },
+        {
+          "id": "p59w2",
+          "text": "lion",
+          "start": 315.87,
+          "end": 316.25
+        },
+        {
+          "id": "p59w3",
+          "text": "was",
+          "start": 316.25,
+          "end": 316.57
+        },
+        {
+          "id": "p59w4",
+          "text": "sleeping",
+          "start": 316.57,
+          "end": 316.99
+        },
+        {
+          "id": "p59w5",
+          "text": "happily",
+          "start": 316.99,
+          "end": 317.61
+        },
+        {
+          "id": "p59w6",
+          "text": "when",
+          "start": 317.61,
+          "end": 318.49
+        },
+        {
+          "id": "p59w7",
+          "text": "a",
+          "start": 318.49,
+          "end": 318.65
+        },
+        {
+          "id": "p59w8",
+          "text": "mouse",
+          "start": 318.65,
+          "end": 319.11
+        },
+        {
+          "id": "p59w9",
+          "text": "ran",
+          "start": 319.11,
+          "end": 319.37
+        },
+        {
+          "id": "p59w10",
+          "text": "over",
+          "start": 319.37,
+          "end": 320.03
+        },
+        {
+          "id": "p59w11",
+          "text": "its",
+          "start": 320.03,
+          "end": 320.37
+        },
+        {
+          "id": "p59w12",
+          "text": "face.",
+          "start": 320.37,
+          "end": 320.67
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 322.44,
+      "end": 325.34,
+      "text": "The lion woke up and was very angry.",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "The",
+          "start": 322.44,
+          "end": 322.56
+        },
+        {
+          "id": "p60w2",
+          "text": "lion",
+          "start": 322.56,
+          "end": 322.88
+        },
+        {
+          "id": "p60w3",
+          "text": "woke",
+          "start": 322.88,
+          "end": 323.28
+        },
+        {
+          "id": "p60w4",
+          "text": "up",
+          "start": 323.28,
+          "end": 323.6
+        },
+        {
+          "id": "p60w5",
+          "text": "and",
+          "start": 323.6,
+          "end": 324.08
+        },
+        {
+          "id": "p60w6",
+          "text": "was",
+          "start": 324.08,
+          "end": 324.26
+        },
+        {
+          "id": "p60w7",
+          "text": "very",
+          "start": 324.26,
+          "end": 324.72
+        },
+        {
+          "id": "p60w8",
+          "text": "angry.",
+          "start": 324.72,
+          "end": 325.34
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 326.52,
+      "end": 329.58,
+      "text": "The big lion caught the little mouse to kill it.",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "The",
+          "start": 326.52,
+          "end": 326.74
+        },
+        {
+          "id": "p61w2",
+          "text": "big",
+          "start": 326.74,
+          "end": 326.96
+        },
+        {
+          "id": "p61w3",
+          "text": "lion",
+          "start": 326.96,
+          "end": 327.34
+        },
+        {
+          "id": "p61w4",
+          "text": "caught",
+          "start": 327.34,
+          "end": 327.86
+        },
+        {
+          "id": "p61w5",
+          "text": "the",
+          "start": 327.86,
+          "end": 328.18
+        },
+        {
+          "id": "p61w6",
+          "text": "little",
+          "start": 328.18,
+          "end": 328.38
+        },
+        {
+          "id": "p61w7",
+          "text": "mouse",
+          "start": 328.38,
+          "end": 328.76
+        },
+        {
+          "id": "p61w8",
+          "text": "to",
+          "start": 328.76,
+          "end": 329.06
+        },
+        {
+          "id": "p61w9",
+          "text": "kill",
+          "start": 329.06,
+          "end": 329.4
+        },
+        {
+          "id": "p61w10",
+          "text": "it.",
+          "start": 329.4,
+          "end": 329.58
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 331.06,
+      "end": 333.02,
+      "text": "The mouse cried to the lion.",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "The",
+          "start": 331.06,
+          "end": 331.26
+        },
+        {
+          "id": "p62w2",
+          "text": "mouse",
+          "start": 331.26,
+          "end": 331.58
+        },
+        {
+          "id": "p62w3",
+          "text": "cried",
+          "start": 331.58,
+          "end": 332.04
+        },
+        {
+          "id": "p62w4",
+          "text": "to",
+          "start": 332.04,
+          "end": 332.5
+        },
+        {
+          "id": "p62w5",
+          "text": "the",
+          "start": 332.5,
+          "end": 332.68
+        },
+        {
+          "id": "p62w6",
+          "text": "lion.",
+          "start": 332.68,
+          "end": 333.02
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 334.34,
+      "end": 337.72,
+      "text": "If you don't kill me, someday I will help you.",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "If",
+          "start": 334.34,
+          "end": 334.42
+        },
+        {
+          "id": "p63w2",
+          "text": "you",
+          "start": 334.42,
+          "end": 334.68
+        },
+        {
+          "id": "p63w3",
+          "text": "don't",
+          "start": 334.68,
+          "end": 335.04
+        },
+        {
+          "id": "p63w4",
+          "text": "kill",
+          "start": 335.04,
+          "end": 335.26
+        },
+        {
+          "id": "p63w5",
+          "text": "me,",
+          "start": 335.26,
+          "end": 335.54
+        },
+        {
+          "id": "p63w6",
+          "text": "someday",
+          "start": 335.78,
+          "end": 336.24
+        },
+        {
+          "id": "p63w7",
+          "text": "I",
+          "start": 336.24,
+          "end": 336.8
+        },
+        {
+          "id": "p63w8",
+          "text": "will",
+          "start": 336.8,
+          "end": 337.14
+        },
+        {
+          "id": "p63w9",
+          "text": "help",
+          "start": 337.14,
+          "end": 337.44
+        },
+        {
+          "id": "p63w10",
+          "text": "you.",
+          "start": 337.44,
+          "end": 337.72
+        }
+      ]
+    },
+    {
+      "id": "p64",
+      "start": 339.06,
+      "end": 341.92,
+      "text": "Suddenly the lion started to laugh.",
+      "words": [
+        {
+          "id": "p64w1",
+          "text": "Suddenly",
+          "start": 339.06,
+          "end": 339.6
+        },
+        {
+          "id": "p64w2",
+          "text": "the",
+          "start": 339.6,
+          "end": 340.26
+        },
+        {
+          "id": "p64w3",
+          "text": "lion",
+          "start": 340.26,
+          "end": 340.6
+        },
+        {
+          "id": "p64w4",
+          "text": "started",
+          "start": 340.6,
+          "end": 341.08
+        },
+        {
+          "id": "p64w5",
+          "text": "to",
+          "start": 341.08,
+          "end": 341.54
+        },
+        {
+          "id": "p64w6",
+          "text": "laugh.",
+          "start": 341.54,
+          "end": 341.92
+        }
+      ]
+    },
+    {
+      "id": "p65",
+      "start": 343.13,
+      "end": 347.55,
+      "text": "A little mouse can help a big lion like me.",
+      "words": [
+        {
+          "id": "p65w1",
+          "text": "A",
+          "start": 343.13,
+          "end": 343.53
+        },
+        {
+          "id": "p65w2",
+          "text": "little",
+          "start": 343.53,
+          "end": 343.91
+        },
+        {
+          "id": "p65w3",
+          "text": "mouse",
+          "start": 343.91,
+          "end": 344.45
+        },
+        {
+          "id": "p65w4",
+          "text": "can",
+          "start": 344.45,
+          "end": 344.95
+        },
+        {
+          "id": "p65w5",
+          "text": "help",
+          "start": 344.95,
+          "end": 345.29
+        },
+        {
+          "id": "p65w6",
+          "text": "a",
+          "start": 345.29,
+          "end": 345.59
+        },
+        {
+          "id": "p65w7",
+          "text": "big",
+          "start": 345.59,
+          "end": 346.01
+        },
+        {
+          "id": "p65w8",
+          "text": "lion",
+          "start": 346.01,
+          "end": 346.45
+        },
+        {
+          "id": "p65w9",
+          "text": "like",
+          "start": 346.45,
+          "end": 347.13
+        },
+        {
+          "id": "p65w10",
+          "text": "me.",
+          "start": 347.13,
+          "end": 347.55
+        }
+      ]
+    },
+    {
+      "id": "p66",
+      "start": 349.24,
+      "end": 352.94,
+      "text": "The lion thought it was funny and let it go.",
+      "words": [
+        {
+          "id": "p66w1",
+          "text": "The",
+          "start": 349.24,
+          "end": 349.6
+        },
+        {
+          "id": "p66w2",
+          "text": "lion",
+          "start": 349.6,
+          "end": 349.94
+        },
+        {
+          "id": "p66w3",
+          "text": "thought",
+          "start": 349.94,
+          "end": 350.4
+        },
+        {
+          "id": "p66w4",
+          "text": "it",
+          "start": 350.4,
+          "end": 350.62
+        },
+        {
+          "id": "p66w5",
+          "text": "was",
+          "start": 350.62,
+          "end": 350.84
+        },
+        {
+          "id": "p66w6",
+          "text": "funny",
+          "start": 350.84,
+          "end": 351.26
+        },
+        {
+          "id": "p66w7",
+          "text": "and",
+          "start": 351.26,
+          "end": 352.08
+        },
+        {
+          "id": "p66w8",
+          "text": "let",
+          "start": 352.08,
+          "end": 352.4
+        },
+        {
+          "id": "p66w9",
+          "text": "it",
+          "start": 352.4,
+          "end": 352.54
+        },
+        {
+          "id": "p66w10",
+          "text": "go.",
+          "start": 352.54,
+          "end": 352.94
+        }
+      ]
+    },
+    {
+      "id": "p67",
+      "start": 356.8,
+      "end": 360.86,
+      "text": "Soon after that day, the lion was walking in the forest.",
+      "words": [
+        {
+          "id": "p67w1",
+          "text": "Soon",
+          "start": 356.8,
+          "end": 357.16
+        },
+        {
+          "id": "p67w2",
+          "text": "after",
+          "start": 357.16,
+          "end": 357.62
+        },
+        {
+          "id": "p67w3",
+          "text": "that",
+          "start": 357.62,
+          "end": 357.9
+        },
+        {
+          "id": "p67w4",
+          "text": "day,",
+          "start": 357.9,
+          "end": 358.2
+        },
+        {
+          "id": "p67w5",
+          "text": "the",
+          "start": 358.78,
+          "end": 358.96
+        },
+        {
+          "id": "p67w6",
+          "text": "lion",
+          "start": 358.96,
+          "end": 359.3
+        },
+        {
+          "id": "p67w7",
+          "text": "was",
+          "start": 359.3,
+          "end": 359.56
+        },
+        {
+          "id": "p67w8",
+          "text": "walking",
+          "start": 359.56,
+          "end": 360.08
+        },
+        {
+          "id": "p67w9",
+          "text": "in",
+          "start": 360.08,
+          "end": 360.34
+        },
+        {
+          "id": "p67w10",
+          "text": "the",
+          "start": 360.34,
+          "end": 360.5
+        },
+        {
+          "id": "p67w11",
+          "text": "forest.",
+          "start": 360.5,
+          "end": 360.86
+        }
+      ]
+    },
+    {
+      "id": "p68",
+      "start": 361.87,
+      "end": 364.63,
+      "text": "Suddenly it got caught in a net.",
+      "words": [
+        {
+          "id": "p68w1",
+          "text": "Suddenly",
+          "start": 361.87,
+          "end": 362.47
+        },
+        {
+          "id": "p68w2",
+          "text": "it",
+          "start": 362.47,
+          "end": 362.95
+        },
+        {
+          "id": "p68w3",
+          "text": "got",
+          "start": 362.95,
+          "end": 363.31
+        },
+        {
+          "id": "p68w4",
+          "text": "caught",
+          "start": 363.31,
+          "end": 363.79
+        },
+        {
+          "id": "p68w5",
+          "text": "in",
+          "start": 363.79,
+          "end": 364.29
+        },
+        {
+          "id": "p68w6",
+          "text": "a",
+          "start": 364.29,
+          "end": 364.39
+        },
+        {
+          "id": "p68w7",
+          "text": "net.",
+          "start": 364.39,
+          "end": 364.63
+        }
+      ]
+    },
+    {
+      "id": "p69",
+      "start": 365.92,
+      "end": 368.92,
+      "text": "The lion was very angry and roar.",
+      "words": [
+        {
+          "id": "p69w1",
+          "text": "The",
+          "start": 365.92,
+          "end": 365.98
+        },
+        {
+          "id": "p69w2",
+          "text": "lion",
+          "start": 365.98,
+          "end": 366.24
+        },
+        {
+          "id": "p69w3",
+          "text": "was",
+          "start": 366.24,
+          "end": 366.62
+        },
+        {
+          "id": "p69w4",
+          "text": "very",
+          "start": 366.62,
+          "end": 367.06
+        },
+        {
+          "id": "p69w5",
+          "text": "angry",
+          "start": 367.06,
+          "end": 367.64
+        },
+        {
+          "id": "p69w6",
+          "text": "and",
+          "start": 367.64,
+          "end": 368.56
+        },
+        {
+          "id": "p69w7",
+          "text": "roar.",
+          "start": 368.56,
+          "end": 368.92
+        }
+      ]
+    },
+    {
+      "id": "p70",
+      "start": 370.11,
+      "end": 373.83,
+      "text": "The mouse heard the lion and ran to help.",
+      "words": [
+        {
+          "id": "p70w1",
+          "text": "The",
+          "start": 370.11,
+          "end": 370.59
+        },
+        {
+          "id": "p70w2",
+          "text": "mouse",
+          "start": 370.59,
+          "end": 370.85
+        },
+        {
+          "id": "p70w3",
+          "text": "heard",
+          "start": 370.85,
+          "end": 371.27
+        },
+        {
+          "id": "p70w4",
+          "text": "the",
+          "start": 371.27,
+          "end": 371.61
+        },
+        {
+          "id": "p70w5",
+          "text": "lion",
+          "start": 371.61,
+          "end": 371.91
+        },
+        {
+          "id": "p70w6",
+          "text": "and",
+          "start": 371.91,
+          "end": 372.81
+        },
+        {
+          "id": "p70w7",
+          "text": "ran",
+          "start": 372.81,
+          "end": 373.09
+        },
+        {
+          "id": "p70w8",
+          "text": "to",
+          "start": 373.09,
+          "end": 373.53
+        },
+        {
+          "id": "p70w9",
+          "text": "help.",
+          "start": 373.53,
+          "end": 373.83
+        }
+      ]
+    },
+    {
+      "id": "p71",
+      "start": 374.62,
+      "end": 378.52,
+      "text": "The mouse saw the net and started chewing on it.",
+      "words": [
+        {
+          "id": "p71w1",
+          "text": "The",
+          "start": 374.62,
+          "end": 375.0
+        },
+        {
+          "id": "p71w2",
+          "text": "mouse",
+          "start": 375.0,
+          "end": 375.28
+        },
+        {
+          "id": "p71w3",
+          "text": "saw",
+          "start": 375.28,
+          "end": 375.8
+        },
+        {
+          "id": "p71w4",
+          "text": "the",
+          "start": 375.8,
+          "end": 376.04
+        },
+        {
+          "id": "p71w5",
+          "text": "net",
+          "start": 376.04,
+          "end": 376.32
+        },
+        {
+          "id": "p71w6",
+          "text": "and",
+          "start": 376.32,
+          "end": 377.04
+        },
+        {
+          "id": "p71w7",
+          "text": "started",
+          "start": 377.04,
+          "end": 377.5
+        },
+        {
+          "id": "p71w8",
+          "text": "chewing",
+          "start": 377.5,
+          "end": 377.9
+        },
+        {
+          "id": "p71w9",
+          "text": "on",
+          "start": 377.9,
+          "end": 378.32
+        },
+        {
+          "id": "p71w10",
+          "text": "it.",
+          "start": 378.32,
+          "end": 378.52
+        }
+      ]
+    },
+    {
+      "id": "p72",
+      "start": 379.68,
+      "end": 383.06,
+      "text": "Soon the mouse chewed a big hole in the net.",
+      "words": [
+        {
+          "id": "p72w1",
+          "text": "Soon",
+          "start": 379.68,
+          "end": 380.04
+        },
+        {
+          "id": "p72w2",
+          "text": "the",
+          "start": 380.04,
+          "end": 380.42
+        },
+        {
+          "id": "p72w3",
+          "text": "mouse",
+          "start": 380.42,
+          "end": 380.74
+        },
+        {
+          "id": "p72w4",
+          "text": "chewed",
+          "start": 380.74,
+          "end": 381.28
+        },
+        {
+          "id": "p72w5",
+          "text": "a",
+          "start": 381.28,
+          "end": 381.38
+        },
+        {
+          "id": "p72w6",
+          "text": "big",
+          "start": 381.38,
+          "end": 381.72
+        },
+        {
+          "id": "p72w7",
+          "text": "hole",
+          "start": 381.72,
+          "end": 382.28
+        },
+        {
+          "id": "p72w8",
+          "text": "in",
+          "start": 382.28,
+          "end": 382.62
+        },
+        {
+          "id": "p72w9",
+          "text": "the",
+          "start": 382.62,
+          "end": 382.76
+        },
+        {
+          "id": "p72w10",
+          "text": "net.",
+          "start": 382.76,
+          "end": 383.06
+        }
+      ]
+    },
+    {
+      "id": "p73",
+      "start": 383.8,
+      "end": 385.36,
+      "text": "And the lion was free.",
+      "words": [
+        {
+          "id": "p73w1",
+          "text": "And",
+          "start": 383.8,
+          "end": 383.9
+        },
+        {
+          "id": "p73w2",
+          "text": "the",
+          "start": 383.9,
+          "end": 384.08
+        },
+        {
+          "id": "p73w3",
+          "text": "lion",
+          "start": 384.08,
+          "end": 384.46
+        },
+        {
+          "id": "p73w4",
+          "text": "was",
+          "start": 384.46,
+          "end": 384.92
+        },
+        {
+          "id": "p73w5",
+          "text": "free.",
+          "start": 384.92,
+          "end": 385.36
+        }
+      ]
+    },
+    {
+      "id": "p74",
+      "start": 386.68,
+      "end": 387.08,
+      "text": "See?",
+      "words": [
+        {
+          "id": "p74w1",
+          "text": "See?",
+          "start": 386.68,
+          "end": 387.08
+        }
+      ]
+    },
+    {
+      "id": "p75",
+      "start": 387.88,
+      "end": 388.54,
+      "text": "The mouse said.",
+      "words": [
+        {
+          "id": "p75w1",
+          "text": "The",
+          "start": 387.88,
+          "end": 387.9
+        },
+        {
+          "id": "p75w2",
+          "text": "mouse",
+          "start": 387.9,
+          "end": 388.14
+        },
+        {
+          "id": "p75w3",
+          "text": "said.",
+          "start": 388.14,
+          "end": 388.54
+        }
+      ]
+    },
+    {
+      "id": "p76",
+      "start": 389.6,
+      "end": 394.52,
+      "text": "You laughed at me, but even a little mouse can help a big lion.",
+      "words": [
+        {
+          "id": "p76w1",
+          "text": "You",
+          "start": 389.6,
+          "end": 389.62
+        },
+        {
+          "id": "p76w2",
+          "text": "laughed",
+          "start": 389.62,
+          "end": 389.96
+        },
+        {
+          "id": "p76w3",
+          "text": "at",
+          "start": 389.96,
+          "end": 390.36
+        },
+        {
+          "id": "p76w4",
+          "text": "me,",
+          "start": 390.36,
+          "end": 390.66
+        },
+        {
+          "id": "p76w5",
+          "text": "but",
+          "start": 391.04,
+          "end": 391.28
+        },
+        {
+          "id": "p76w6",
+          "text": "even",
+          "start": 391.28,
+          "end": 391.62
+        },
+        {
+          "id": "p76w7",
+          "text": "a",
+          "start": 391.62,
+          "end": 391.92
+        },
+        {
+          "id": "p76w8",
+          "text": "little",
+          "start": 391.92,
+          "end": 392.2
+        },
+        {
+          "id": "p76w9",
+          "text": "mouse",
+          "start": 392.2,
+          "end": 392.64
+        },
+        {
+          "id": "p76w10",
+          "text": "can",
+          "start": 392.64,
+          "end": 393.0
+        },
+        {
+          "id": "p76w11",
+          "text": "help",
+          "start": 393.0,
+          "end": 393.34
+        },
+        {
+          "id": "p76w12",
+          "text": "a",
+          "start": 393.34,
+          "end": 393.68
+        },
+        {
+          "id": "p76w13",
+          "text": "big",
+          "start": 393.68,
+          "end": 394.12
+        },
+        {
+          "id": "p76w14",
+          "text": "lion.",
+          "start": 394.12,
+          "end": 394.52
+        }
+      ]
+    },
+    {
+      "id": "p77",
+      "start": 399.07,
+      "end": 402.57,
+      "text": "Being kind to someone is never a waste.",
+      "words": [
+        {
+          "id": "p77w1",
+          "text": "Being",
+          "start": 399.07,
+          "end": 399.71
+        },
+        {
+          "id": "p77w2",
+          "text": "kind",
+          "start": 399.71,
+          "end": 400.07
+        },
+        {
+          "id": "p77w3",
+          "text": "to",
+          "start": 400.07,
+          "end": 400.39
+        },
+        {
+          "id": "p77w4",
+          "text": "someone",
+          "start": 400.39,
+          "end": 400.85
+        },
+        {
+          "id": "p77w5",
+          "text": "is",
+          "start": 400.85,
+          "end": 401.41
+        },
+        {
+          "id": "p77w6",
+          "text": "never",
+          "start": 401.41,
+          "end": 401.91
+        },
+        {
+          "id": "p77w7",
+          "text": "a",
+          "start": 401.91,
+          "end": 402.27
+        },
+        {
+          "id": "p77w8",
+          "text": "waste.",
+          "start": 402.27,
+          "end": 402.57
+        }
+      ]
+    },
+    {
+      "id": "p78",
+      "start": 407.93,
+      "end": 409.15,
+      "text": "The sick lion.",
+      "words": [
+        {
+          "id": "p78w1",
+          "text": "The",
+          "start": 407.93,
+          "end": 408.33
+        },
+        {
+          "id": "p78w2",
+          "text": "sick",
+          "start": 408.33,
+          "end": 408.73
+        },
+        {
+          "id": "p78w3",
+          "text": "lion.",
+          "start": 408.73,
+          "end": 409.15
+        }
+      ]
+    },
+    {
+      "id": "p79",
+      "start": 412.01,
+      "end": 419.27,
+      "text": "One day an old, old lion realized that he was too old to hunt for food.",
+      "words": [
+        {
+          "id": "p79w1",
+          "text": "One",
+          "start": 412.01,
+          "end": 412.61
+        },
+        {
+          "id": "p79w2",
+          "text": "day",
+          "start": 412.61,
+          "end": 412.95
+        },
+        {
+          "id": "p79w3",
+          "text": "an",
+          "start": 412.95,
+          "end": 413.37
+        },
+        {
+          "id": "p79w4",
+          "text": "old,",
+          "start": 413.37,
+          "end": 413.77
+        },
+        {
+          "id": "p79w5",
+          "text": "old",
+          "start": 413.77,
+          "end": 414.47
+        },
+        {
+          "id": "p79w6",
+          "text": "lion",
+          "start": 414.47,
+          "end": 414.93
+        },
+        {
+          "id": "p79w7",
+          "text": "realized",
+          "start": 414.93,
+          "end": 415.83
+        },
+        {
+          "id": "p79w8",
+          "text": "that",
+          "start": 415.83,
+          "end": 416.55
+        },
+        {
+          "id": "p79w9",
+          "text": "he",
+          "start": 416.55,
+          "end": 416.77
+        },
+        {
+          "id": "p79w10",
+          "text": "was",
+          "start": 416.77,
+          "end": 416.97
+        },
+        {
+          "id": "p79w11",
+          "text": "too",
+          "start": 416.97,
+          "end": 417.33
+        },
+        {
+          "id": "p79w12",
+          "text": "old",
+          "start": 417.33,
+          "end": 417.99
+        },
+        {
+          "id": "p79w13",
+          "text": "to",
+          "start": 417.99,
+          "end": 418.29
+        },
+        {
+          "id": "p79w14",
+          "text": "hunt",
+          "start": 418.29,
+          "end": 418.57
+        },
+        {
+          "id": "p79w15",
+          "text": "for",
+          "start": 418.57,
+          "end": 418.93
+        },
+        {
+          "id": "p79w16",
+          "text": "food.",
+          "start": 418.93,
+          "end": 419.27
+        }
+      ]
+    },
+    {
+      "id": "p80",
+      "start": 421.19,
+      "end": 423.75,
+      "text": "The lion was sure he would soon die.",
+      "words": [
+        {
+          "id": "p80w1",
+          "text": "The",
+          "start": 421.19,
+          "end": 421.31
+        },
+        {
+          "id": "p80w2",
+          "text": "lion",
+          "start": 421.31,
+          "end": 421.61
+        },
+        {
+          "id": "p80w3",
+          "text": "was",
+          "start": 421.61,
+          "end": 421.89
+        },
+        {
+          "id": "p80w4",
+          "text": "sure",
+          "start": 421.89,
+          "end": 422.25
+        },
+        {
+          "id": "p80w5",
+          "text": "he",
+          "start": 422.25,
+          "end": 422.73
+        },
+        {
+          "id": "p80w6",
+          "text": "would",
+          "start": 422.73,
+          "end": 422.93
+        },
+        {
+          "id": "p80w7",
+          "text": "soon",
+          "start": 422.93,
+          "end": 423.23
+        },
+        {
+          "id": "p80w8",
+          "text": "die.",
+          "start": 423.23,
+          "end": 423.75
+        }
+      ]
+    },
+    {
+      "id": "p81",
+      "start": 424.86,
+      "end": 427.64,
+      "text": "He was very sad and went home.",
+      "words": [
+        {
+          "id": "p81w1",
+          "text": "He",
+          "start": 424.86,
+          "end": 425.06
+        },
+        {
+          "id": "p81w2",
+          "text": "was",
+          "start": 425.06,
+          "end": 425.26
+        },
+        {
+          "id": "p81w3",
+          "text": "very",
+          "start": 425.26,
+          "end": 425.68
+        },
+        {
+          "id": "p81w4",
+          "text": "sad",
+          "start": 425.68,
+          "end": 426.24
+        },
+        {
+          "id": "p81w5",
+          "text": "and",
+          "start": 426.24,
+          "end": 426.94
+        },
+        {
+          "id": "p81w6",
+          "text": "went",
+          "start": 426.94,
+          "end": 427.22
+        },
+        {
+          "id": "p81w7",
+          "text": "home.",
+          "start": 427.22,
+          "end": 427.64
+        }
+      ]
+    },
+    {
+      "id": "p82",
+      "start": 429.54,
+      "end": 435.08,
+      "text": "As he walked slowly home, the lion told a bird about his sad situation.",
+      "words": [
+        {
+          "id": "p82w1",
+          "text": "As",
+          "start": 429.54,
+          "end": 429.72
+        },
+        {
+          "id": "p82w2",
+          "text": "he",
+          "start": 429.72,
+          "end": 429.88
+        },
+        {
+          "id": "p82w3",
+          "text": "walked",
+          "start": 429.88,
+          "end": 430.16
+        },
+        {
+          "id": "p82w4",
+          "text": "slowly",
+          "start": 430.16,
+          "end": 430.7
+        },
+        {
+          "id": "p82w5",
+          "text": "home,",
+          "start": 430.7,
+          "end": 431.24
+        },
+        {
+          "id": "p82w6",
+          "text": "the",
+          "start": 432.02,
+          "end": 432.14
+        },
+        {
+          "id": "p82w7",
+          "text": "lion",
+          "start": 432.14,
+          "end": 432.44
+        },
+        {
+          "id": "p82w8",
+          "text": "told",
+          "start": 432.44,
+          "end": 432.84
+        },
+        {
+          "id": "p82w9",
+          "text": "a",
+          "start": 432.84,
+          "end": 433.06
+        },
+        {
+          "id": "p82w10",
+          "text": "bird",
+          "start": 433.06,
+          "end": 433.4
+        },
+        {
+          "id": "p82w11",
+          "text": "about",
+          "start": 433.4,
+          "end": 433.86
+        },
+        {
+          "id": "p82w12",
+          "text": "his",
+          "start": 433.86,
+          "end": 434.16
+        },
+        {
+          "id": "p82w13",
+          "text": "sad",
+          "start": 434.16,
+          "end": 434.64
+        },
+        {
+          "id": "p82w14",
+          "text": "situation.",
+          "start": 434.64,
+          "end": 435.08
+        }
+      ]
+    },
+    {
+      "id": "p83",
+      "start": 435.82,
+      "end": 441.9,
+      "text": "Soon everyone in the forest heard about the lion's sad situation.",
+      "words": [
+        {
+          "id": "p83w1",
+          "text": "Soon",
+          "start": 435.82,
+          "end": 436.18
+        },
+        {
+          "id": "p83w2",
+          "text": "everyone",
+          "start": 436.76,
+          "end": 438.02
+        },
+        {
+          "id": "p83w3",
+          "text": "in",
+          "start": 438.02,
+          "end": 438.62
+        },
+        {
+          "id": "p83w4",
+          "text": "the",
+          "start": 438.62,
+          "end": 438.78
+        },
+        {
+          "id": "p83w5",
+          "text": "forest",
+          "start": 438.78,
+          "end": 439.14
+        },
+        {
+          "id": "p83w6",
+          "text": "heard",
+          "start": 439.14,
+          "end": 439.82
+        },
+        {
+          "id": "p83w7",
+          "text": "about",
+          "start": 439.82,
+          "end": 440.26
+        },
+        {
+          "id": "p83w8",
+          "text": "the",
+          "start": 440.26,
+          "end": 440.44
+        },
+        {
+          "id": "p83w9",
+          "text": "lion's",
+          "start": 440.44,
+          "end": 441.1
+        },
+        {
+          "id": "p83w10",
+          "text": "sad",
+          "start": 441.1,
+          "end": 441.38
+        },
+        {
+          "id": "p83w11",
+          "text": "situation.",
+          "start": 441.38,
+          "end": 441.9
+        }
+      ]
+    },
+    {
+      "id": "p84",
+      "start": 446.07,
+      "end": 449.09,
+      "text": "The other animals all felt sorry for the lion.",
+      "words": [
+        {
+          "id": "p84w1",
+          "text": "The",
+          "start": 446.07,
+          "end": 446.23
+        },
+        {
+          "id": "p84w2",
+          "text": "other",
+          "start": 446.23,
+          "end": 446.53
+        },
+        {
+          "id": "p84w3",
+          "text": "animals",
+          "start": 446.53,
+          "end": 447.07
+        },
+        {
+          "id": "p84w4",
+          "text": "all",
+          "start": 447.07,
+          "end": 447.43
+        },
+        {
+          "id": "p84w5",
+          "text": "felt",
+          "start": 447.43,
+          "end": 447.71
+        },
+        {
+          "id": "p84w6",
+          "text": "sorry",
+          "start": 447.71,
+          "end": 448.31
+        },
+        {
+          "id": "p84w7",
+          "text": "for",
+          "start": 448.31,
+          "end": 448.67
+        },
+        {
+          "id": "p84w8",
+          "text": "the",
+          "start": 448.67,
+          "end": 448.81
+        },
+        {
+          "id": "p84w9",
+          "text": "lion.",
+          "start": 448.81,
+          "end": 449.09
+        }
+      ]
+    },
+    {
+      "id": "p85",
+      "start": 450.08,
+      "end": 454.0,
+      "text": "So one by one they came to visit the lion.",
+      "words": [
+        {
+          "id": "p85w1",
+          "text": "So",
+          "start": 450.08,
+          "end": 450.48
+        },
+        {
+          "id": "p85w2",
+          "text": "one",
+          "start": 450.48,
+          "end": 451.08
+        },
+        {
+          "id": "p85w3",
+          "text": "by",
+          "start": 451.08,
+          "end": 451.38
+        },
+        {
+          "id": "p85w4",
+          "text": "one",
+          "start": 451.38,
+          "end": 451.76
+        },
+        {
+          "id": "p85w5",
+          "text": "they",
+          "start": 451.76,
+          "end": 452.34
+        },
+        {
+          "id": "p85w6",
+          "text": "came",
+          "start": 452.34,
+          "end": 452.66
+        },
+        {
+          "id": "p85w7",
+          "text": "to",
+          "start": 452.66,
+          "end": 453.0
+        },
+        {
+          "id": "p85w8",
+          "text": "visit",
+          "start": 453.0,
+          "end": 453.4
+        },
+        {
+          "id": "p85w9",
+          "text": "the",
+          "start": 453.4,
+          "end": 453.7
+        },
+        {
+          "id": "p85w10",
+          "text": "lion.",
+          "start": 453.7,
+          "end": 454.0
+        }
+      ]
+    },
+    {
+      "id": "p86",
+      "start": 455.24,
+      "end": 458.6,
+      "text": "The lion was old and weak, but very wise.",
+      "words": [
+        {
+          "id": "p86w1",
+          "text": "The",
+          "start": 455.24,
+          "end": 455.42
+        },
+        {
+          "id": "p86w2",
+          "text": "lion",
+          "start": 455.42,
+          "end": 455.72
+        },
+        {
+          "id": "p86w3",
+          "text": "was",
+          "start": 455.72,
+          "end": 456.02
+        },
+        {
+          "id": "p86w4",
+          "text": "old",
+          "start": 456.02,
+          "end": 456.42
+        },
+        {
+          "id": "p86w5",
+          "text": "and",
+          "start": 456.42,
+          "end": 456.82
+        },
+        {
+          "id": "p86w6",
+          "text": "weak,",
+          "start": 456.82,
+          "end": 457.08
+        },
+        {
+          "id": "p86w7",
+          "text": "but",
+          "start": 457.74,
+          "end": 457.86
+        },
+        {
+          "id": "p86w8",
+          "text": "very",
+          "start": 457.86,
+          "end": 458.14
+        },
+        {
+          "id": "p86w9",
+          "text": "wise.",
+          "start": 458.14,
+          "end": 458.6
+        }
+      ]
+    },
+    {
+      "id": "p87",
+      "start": 459.64,
+      "end": 464.84,
+      "text": "As each animal came into his home, they were easy to catch and eat.",
+      "words": [
+        {
+          "id": "p87w1",
+          "text": "As",
+          "start": 459.64,
+          "end": 459.96
+        },
+        {
+          "id": "p87w2",
+          "text": "each",
+          "start": 459.96,
+          "end": 460.2
+        },
+        {
+          "id": "p87w3",
+          "text": "animal",
+          "start": 460.2,
+          "end": 460.62
+        },
+        {
+          "id": "p87w4",
+          "text": "came",
+          "start": 460.62,
+          "end": 461.04
+        },
+        {
+          "id": "p87w5",
+          "text": "into",
+          "start": 461.04,
+          "end": 461.38
+        },
+        {
+          "id": "p87w6",
+          "text": "his",
+          "start": 461.38,
+          "end": 461.68
+        },
+        {
+          "id": "p87w7",
+          "text": "home,",
+          "start": 461.68,
+          "end": 461.94
+        },
+        {
+          "id": "p87w8",
+          "text": "they",
+          "start": 462.68,
+          "end": 462.78
+        },
+        {
+          "id": "p87w9",
+          "text": "were",
+          "start": 462.78,
+          "end": 462.96
+        },
+        {
+          "id": "p87w10",
+          "text": "easy",
+          "start": 462.96,
+          "end": 463.34
+        },
+        {
+          "id": "p87w11",
+          "text": "to",
+          "start": 463.34,
+          "end": 463.78
+        },
+        {
+          "id": "p87w12",
+          "text": "catch",
+          "start": 463.78,
+          "end": 464.08
+        },
+        {
+          "id": "p87w13",
+          "text": "and",
+          "start": 464.08,
+          "end": 464.64
+        },
+        {
+          "id": "p87w14",
+          "text": "eat.",
+          "start": 464.64,
+          "end": 464.84
+        }
+      ]
+    },
+    {
+      "id": "p88",
+      "start": 465.68,
+      "end": 469.9,
+      "text": "Soon the old lion became happy and fat.",
+      "words": [
+        {
+          "id": "p88w1",
+          "text": "Soon",
+          "start": 465.68,
+          "end": 466.08
+        },
+        {
+          "id": "p88w2",
+          "text": "the",
+          "start": 466.08,
+          "end": 466.48
+        },
+        {
+          "id": "p88w3",
+          "text": "old",
+          "start": 466.48,
+          "end": 466.84
+        },
+        {
+          "id": "p88w4",
+          "text": "lion",
+          "start": 466.84,
+          "end": 467.28
+        },
+        {
+          "id": "p88w5",
+          "text": "became",
+          "start": 467.28,
+          "end": 467.86
+        },
+        {
+          "id": "p88w6",
+          "text": "happy",
+          "start": 467.86,
+          "end": 468.68
+        },
+        {
+          "id": "p88w7",
+          "text": "and",
+          "start": 468.68,
+          "end": 469.44
+        },
+        {
+          "id": "p88w8",
+          "text": "fat.",
+          "start": 469.44,
+          "end": 469.9
+        }
+      ]
+    },
+    {
+      "id": "p89",
+      "start": 473.6,
+      "end": 477.08,
+      "text": "One day early in the morning the fox came.",
+      "words": [
+        {
+          "id": "p89w1",
+          "text": "One",
+          "start": 473.6,
+          "end": 474.0
+        },
+        {
+          "id": "p89w2",
+          "text": "day",
+          "start": 474.0,
+          "end": 474.34
+        },
+        {
+          "id": "p89w3",
+          "text": "early",
+          "start": 474.34,
+          "end": 475.06
+        },
+        {
+          "id": "p89w4",
+          "text": "in",
+          "start": 475.06,
+          "end": 475.36
+        },
+        {
+          "id": "p89w5",
+          "text": "the",
+          "start": 475.36,
+          "end": 475.46
+        },
+        {
+          "id": "p89w6",
+          "text": "morning",
+          "start": 475.46,
+          "end": 475.8
+        },
+        {
+          "id": "p89w7",
+          "text": "the",
+          "start": 475.8,
+          "end": 476.4
+        },
+        {
+          "id": "p89w8",
+          "text": "fox",
+          "start": 476.4,
+          "end": 476.62
+        },
+        {
+          "id": "p89w9",
+          "text": "came.",
+          "start": 476.62,
+          "end": 477.08
+        }
+      ]
+    },
+    {
+      "id": "p90",
+      "start": 478.14,
+      "end": 480.38,
+      "text": "The fox was very wise too.",
+      "words": [
+        {
+          "id": "p90w1",
+          "text": "The",
+          "start": 478.14,
+          "end": 478.34
+        },
+        {
+          "id": "p90w2",
+          "text": "fox",
+          "start": 478.34,
+          "end": 478.58
+        },
+        {
+          "id": "p90w3",
+          "text": "was",
+          "start": 478.58,
+          "end": 479.0
+        },
+        {
+          "id": "p90w4",
+          "text": "very",
+          "start": 479.0,
+          "end": 479.44
+        },
+        {
+          "id": "p90w5",
+          "text": "wise",
+          "start": 479.44,
+          "end": 479.92
+        },
+        {
+          "id": "p90w6",
+          "text": "too.",
+          "start": 479.92,
+          "end": 480.38
+        }
+      ]
+    },
+    {
+      "id": "p91",
+      "start": 481.58,
+      "end": 484.08,
+      "text": "He slowly came close to the lion's home.",
+      "words": [
+        {
+          "id": "p91w1",
+          "text": "He",
+          "start": 481.58,
+          "end": 481.72
+        },
+        {
+          "id": "p91w2",
+          "text": "slowly",
+          "start": 481.72,
+          "end": 482.02
+        },
+        {
+          "id": "p91w3",
+          "text": "came",
+          "start": 482.02,
+          "end": 482.5
+        },
+        {
+          "id": "p91w4",
+          "text": "close",
+          "start": 482.5,
+          "end": 482.88
+        },
+        {
+          "id": "p91w5",
+          "text": "to",
+          "start": 482.88,
+          "end": 483.18
+        },
+        {
+          "id": "p91w6",
+          "text": "the",
+          "start": 483.18,
+          "end": 483.32
+        },
+        {
+          "id": "p91w7",
+          "text": "lion's",
+          "start": 483.32,
+          "end": 483.88
+        },
+        {
+          "id": "p91w8",
+          "text": "home.",
+          "start": 483.88,
+          "end": 484.08
+        }
+      ]
+    },
+    {
+      "id": "p92",
+      "start": 485.1,
+      "end": 488.98,
+      "text": "Standing outside, he asked if the lion was feeling better.",
+      "words": [
+        {
+          "id": "p92w1",
+          "text": "Standing",
+          "start": 485.1,
+          "end": 485.34
+        },
+        {
+          "id": "p92w2",
+          "text": "outside,",
+          "start": 485.34,
+          "end": 485.92
+        },
+        {
+          "id": "p92w3",
+          "text": "he",
+          "start": 486.84,
+          "end": 486.86
+        },
+        {
+          "id": "p92w4",
+          "text": "asked",
+          "start": 486.86,
+          "end": 487.26
+        },
+        {
+          "id": "p92w5",
+          "text": "if",
+          "start": 487.26,
+          "end": 487.48
+        },
+        {
+          "id": "p92w6",
+          "text": "the",
+          "start": 487.48,
+          "end": 487.64
+        },
+        {
+          "id": "p92w7",
+          "text": "lion",
+          "start": 487.64,
+          "end": 487.98
+        },
+        {
+          "id": "p92w8",
+          "text": "was",
+          "start": 487.98,
+          "end": 488.26
+        },
+        {
+          "id": "p92w9",
+          "text": "feeling",
+          "start": 488.26,
+          "end": 488.64
+        },
+        {
+          "id": "p92w10",
+          "text": "better.",
+          "start": 488.64,
+          "end": 488.98
+        }
+      ]
+    },
+    {
+      "id": "p93",
+      "start": 490.16,
+      "end": 492.08,
+      "text": "Hello my best friend.",
+      "words": [
+        {
+          "id": "p93w1",
+          "text": "Hello",
+          "start": 490.16,
+          "end": 490.74
+        },
+        {
+          "id": "p93w2",
+          "text": "my",
+          "start": 490.74,
+          "end": 491.18
+        },
+        {
+          "id": "p93w3",
+          "text": "best",
+          "start": 491.18,
+          "end": 491.52
+        },
+        {
+          "id": "p93w4",
+          "text": "friend.",
+          "start": 491.52,
+          "end": 492.08
+        }
+      ]
+    },
+    {
+      "id": "p94",
+      "start": 492.9,
+      "end": 493.58,
+      "text": "Said the lion.",
+      "words": [
+        {
+          "id": "p94w1",
+          "text": "Said",
+          "start": 492.9,
+          "end": 493.16
+        },
+        {
+          "id": "p94w2",
+          "text": "the",
+          "start": 493.16,
+          "end": 493.36
+        },
+        {
+          "id": "p94w3",
+          "text": "lion.",
+          "start": 493.36,
+          "end": 493.58
+        }
+      ]
+    },
+    {
+      "id": "p95",
+      "start": 494.58,
+      "end": 495.5,
+      "text": "Is it you?",
+      "words": [
+        {
+          "id": "p95w1",
+          "text": "Is",
+          "start": 494.58,
+          "end": 495.04
+        },
+        {
+          "id": "p95w2",
+          "text": "it",
+          "start": 495.04,
+          "end": 495.18
+        },
+        {
+          "id": "p95w3",
+          "text": "you?",
+          "start": 495.18,
+          "end": 495.5
+        }
+      ]
+    },
+    {
+      "id": "p96",
+      "start": 496.2,
+      "end": 497.9,
+      "text": "I can't see you very well.",
+      "words": [
+        {
+          "id": "p96w1",
+          "text": "I",
+          "start": 496.2,
+          "end": 496.44
+        },
+        {
+          "id": "p96w2",
+          "text": "can't",
+          "start": 496.44,
+          "end": 496.76
+        },
+        {
+          "id": "p96w3",
+          "text": "see",
+          "start": 496.76,
+          "end": 496.96
+        },
+        {
+          "id": "p96w4",
+          "text": "you",
+          "start": 496.96,
+          "end": 497.16
+        },
+        {
+          "id": "p96w5",
+          "text": "very",
+          "start": 497.16,
+          "end": 497.42
+        },
+        {
+          "id": "p96w6",
+          "text": "well.",
+          "start": 497.42,
+          "end": 497.9
+        }
+      ]
+    },
+    {
+      "id": "p97",
+      "start": 497.9,
+      "end": 499.86,
+      "text": "You're so far away.",
+      "words": [
+        {
+          "id": "p97w1",
+          "text": "You're",
+          "start": 497.9,
+          "end": 498.86
+        },
+        {
+          "id": "p97w2",
+          "text": "so",
+          "start": 498.86,
+          "end": 499.08
+        },
+        {
+          "id": "p97w3",
+          "text": "far",
+          "start": 499.08,
+          "end": 499.48
+        },
+        {
+          "id": "p97w4",
+          "text": "away.",
+          "start": 499.48,
+          "end": 499.86
+        }
+      ]
+    },
+    {
+      "id": "p98",
+      "start": 500.52,
+      "end": 505.06,
+      "text": "Come closer please and tell me some kind words.",
+      "words": [
+        {
+          "id": "p98w1",
+          "text": "Come",
+          "start": 500.52,
+          "end": 500.86
+        },
+        {
+          "id": "p98w2",
+          "text": "closer",
+          "start": 500.86,
+          "end": 501.3
+        },
+        {
+          "id": "p98w3",
+          "text": "please",
+          "start": 501.3,
+          "end": 502.12
+        },
+        {
+          "id": "p98w4",
+          "text": "and",
+          "start": 502.12,
+          "end": 503.18
+        },
+        {
+          "id": "p98w5",
+          "text": "tell",
+          "start": 503.18,
+          "end": 503.52
+        },
+        {
+          "id": "p98w6",
+          "text": "me",
+          "start": 503.52,
+          "end": 503.76
+        },
+        {
+          "id": "p98w7",
+          "text": "some",
+          "start": 503.76,
+          "end": 504.02
+        },
+        {
+          "id": "p98w8",
+          "text": "kind",
+          "start": 504.02,
+          "end": 504.38
+        },
+        {
+          "id": "p98w9",
+          "text": "words.",
+          "start": 504.38,
+          "end": 505.06
+        }
+      ]
+    },
+    {
+      "id": "p99",
+      "start": 505.82,
+      "end": 509.3,
+      "text": "Because I am old and will die soon.",
+      "words": [
+        {
+          "id": "p99w1",
+          "text": "Because",
+          "start": 505.82,
+          "end": 506.2
+        },
+        {
+          "id": "p99w2",
+          "text": "I",
+          "start": 506.2,
+          "end": 506.62
+        },
+        {
+          "id": "p99w3",
+          "text": "am",
+          "start": 506.62,
+          "end": 506.8
+        },
+        {
+          "id": "p99w4",
+          "text": "old",
+          "start": 506.8,
+          "end": 507.08
+        },
+        {
+          "id": "p99w5",
+          "text": "and",
+          "start": 507.08,
+          "end": 507.84
+        },
+        {
+          "id": "p99w6",
+          "text": "will",
+          "start": 507.84,
+          "end": 508.16
+        },
+        {
+          "id": "p99w7",
+          "text": "die",
+          "start": 508.16,
+          "end": 508.6
+        },
+        {
+          "id": "p99w8",
+          "text": "soon.",
+          "start": 508.6,
+          "end": 509.3
+        }
+      ]
+    },
+    {
+      "id": "p100",
+      "start": 512.86,
+      "end": 520.38,
+      "text": "While the lion was talking, the fox was looking closely at the ground in front of the lion's",
+      "words": [
+        {
+          "id": "p100w1",
+          "text": "While",
+          "start": 512.86,
+          "end": 513.34
+        },
+        {
+          "id": "p100w2",
+          "text": "the",
+          "start": 513.34,
+          "end": 513.6
+        },
+        {
+          "id": "p100w3",
+          "text": "lion",
+          "start": 513.6,
+          "end": 513.88
+        },
+        {
+          "id": "p100w4",
+          "text": "was",
+          "start": 513.88,
+          "end": 514.2
+        },
+        {
+          "id": "p100w5",
+          "text": "talking,",
+          "start": 514.2,
+          "end": 514.72
+        },
+        {
+          "id": "p100w6",
+          "text": "the",
+          "start": 515.36,
+          "end": 515.56
+        },
+        {
+          "id": "p100w7",
+          "text": "fox",
+          "start": 515.56,
+          "end": 515.82
+        },
+        {
+          "id": "p100w8",
+          "text": "was",
+          "start": 515.82,
+          "end": 516.16
+        },
+        {
+          "id": "p100w9",
+          "text": "looking",
+          "start": 516.16,
+          "end": 516.54
+        },
+        {
+          "id": "p100w10",
+          "text": "closely",
+          "start": 516.54,
+          "end": 517.04
+        },
+        {
+          "id": "p100w11",
+          "text": "at",
+          "start": 517.04,
+          "end": 517.68
+        },
+        {
+          "id": "p100w12",
+          "text": "the",
+          "start": 517.68,
+          "end": 517.86
+        },
+        {
+          "id": "p100w13",
+          "text": "ground",
+          "start": 517.86,
+          "end": 518.24
+        },
+        {
+          "id": "p100w14",
+          "text": "in",
+          "start": 518.24,
+          "end": 518.92
+        },
+        {
+          "id": "p100w15",
+          "text": "front",
+          "start": 518.92,
+          "end": 519.3
+        },
+        {
+          "id": "p100w16",
+          "text": "of",
+          "start": 519.3,
+          "end": 519.58
+        },
+        {
+          "id": "p100w17",
+          "text": "the",
+          "start": 519.58,
+          "end": 519.72
+        },
+        {
+          "id": "p100w18",
+          "text": "lion's",
+          "start": 519.72,
+          "end": 520.38
+        }
+      ]
+    },
+    {
+      "id": "p101",
+      "start": 520.38,
+      "end": 520.56,
+      "text": "home.",
+      "words": [
+        {
+          "id": "p101w1",
+          "text": "home.",
+          "start": 520.38,
+          "end": 520.56
+        }
+      ]
+    },
+    {
+      "id": "p102",
+      "start": 522.73,
+      "end": 526.25,
+      "text": "Finally the fox looked up and said to the lion,",
+      "words": [
+        {
+          "id": "p102w1",
+          "text": "Finally",
+          "start": 522.73,
+          "end": 523.11
+        },
+        {
+          "id": "p102w2",
+          "text": "the",
+          "start": 523.11,
+          "end": 523.69
+        },
+        {
+          "id": "p102w3",
+          "text": "fox",
+          "start": 523.69,
+          "end": 523.97
+        },
+        {
+          "id": "p102w4",
+          "text": "looked",
+          "start": 523.97,
+          "end": 524.33
+        },
+        {
+          "id": "p102w5",
+          "text": "up",
+          "start": 524.33,
+          "end": 524.65
+        },
+        {
+          "id": "p102w6",
+          "text": "and",
+          "start": 524.65,
+          "end": 525.15
+        },
+        {
+          "id": "p102w7",
+          "text": "said",
+          "start": 525.15,
+          "end": 525.51
+        },
+        {
+          "id": "p102w8",
+          "text": "to",
+          "start": 525.51,
+          "end": 525.83
+        },
+        {
+          "id": "p102w9",
+          "text": "the",
+          "start": 525.83,
+          "end": 525.99
+        },
+        {
+          "id": "p102w10",
+          "text": "lion,",
+          "start": 525.99,
+          "end": 526.25
+        }
+      ]
+    },
+    {
+      "id": "p103",
+      "start": 527.54,
+      "end": 530.44,
+      "text": "I am sorry but I must go.",
+      "words": [
+        {
+          "id": "p103w1",
+          "text": "I",
+          "start": 527.54,
+          "end": 528.2
+        },
+        {
+          "id": "p103w2",
+          "text": "am",
+          "start": 528.2,
+          "end": 528.4
+        },
+        {
+          "id": "p103w3",
+          "text": "sorry",
+          "start": 528.4,
+          "end": 528.82
+        },
+        {
+          "id": "p103w4",
+          "text": "but",
+          "start": 528.82,
+          "end": 529.42
+        },
+        {
+          "id": "p103w5",
+          "text": "I",
+          "start": 529.42,
+          "end": 529.74
+        },
+        {
+          "id": "p103w6",
+          "text": "must",
+          "start": 529.74,
+          "end": 530.0
+        },
+        {
+          "id": "p103w7",
+          "text": "go.",
+          "start": 530.0,
+          "end": 530.44
+        }
+      ]
+    },
+    {
+      "id": "p104",
+      "start": 530.44,
+      "end": 538.3,
+      "text": "I am very nervous because I see the footsteps of many animals going into your home.",
+      "words": [
+        {
+          "id": "p104w1",
+          "text": "I",
+          "start": 530.44,
+          "end": 531.56
+        },
+        {
+          "id": "p104w2",
+          "text": "am",
+          "start": 531.56,
+          "end": 531.74
+        },
+        {
+          "id": "p104w3",
+          "text": "very",
+          "start": 531.74,
+          "end": 532.04
+        },
+        {
+          "id": "p104w4",
+          "text": "nervous",
+          "start": 532.04,
+          "end": 532.7
+        },
+        {
+          "id": "p104w5",
+          "text": "because",
+          "start": 532.7,
+          "end": 533.46
+        },
+        {
+          "id": "p104w6",
+          "text": "I",
+          "start": 533.46,
+          "end": 533.82
+        },
+        {
+          "id": "p104w7",
+          "text": "see",
+          "start": 533.82,
+          "end": 534.12
+        },
+        {
+          "id": "p104w8",
+          "text": "the",
+          "start": 534.12,
+          "end": 534.34
+        },
+        {
+          "id": "p104w9",
+          "text": "footsteps",
+          "start": 534.34,
+          "end": 534.8
+        },
+        {
+          "id": "p104w10",
+          "text": "of",
+          "start": 534.8,
+          "end": 535.32
+        },
+        {
+          "id": "p104w11",
+          "text": "many",
+          "start": 535.32,
+          "end": 535.6
+        },
+        {
+          "id": "p104w12",
+          "text": "animals",
+          "start": 535.6,
+          "end": 536.32
+        },
+        {
+          "id": "p104w13",
+          "text": "going",
+          "start": 536.32,
+          "end": 536.94
+        },
+        {
+          "id": "p104w14",
+          "text": "into",
+          "start": 536.94,
+          "end": 537.46
+        },
+        {
+          "id": "p104w15",
+          "text": "your",
+          "start": 537.46,
+          "end": 537.9
+        },
+        {
+          "id": "p104w16",
+          "text": "home.",
+          "start": 537.9,
+          "end": 538.3
+        }
+      ]
+    },
+    {
+      "id": "p105",
+      "start": 539.1,
+      "end": 541.46,
+      "text": "But I see none coming out again.",
+      "words": [
+        {
+          "id": "p105w1",
+          "text": "But",
+          "start": 539.1,
+          "end": 539.2
+        },
+        {
+          "id": "p105w2",
+          "text": "I",
+          "start": 539.2,
+          "end": 539.46
+        },
+        {
+          "id": "p105w3",
+          "text": "see",
+          "start": 539.46,
+          "end": 539.76
+        },
+        {
+          "id": "p105w4",
+          "text": "none",
+          "start": 539.76,
+          "end": 540.1
+        },
+        {
+          "id": "p105w5",
+          "text": "coming",
+          "start": 540.1,
+          "end": 540.68
+        },
+        {
+          "id": "p105w6",
+          "text": "out",
+          "start": 540.68,
+          "end": 541.06
+        },
+        {
+          "id": "p105w7",
+          "text": "again.",
+          "start": 541.06,
+          "end": 541.46
+        }
+      ]
+    },
+    {
+      "id": "p106",
+      "start": 545.74,
+      "end": 549.94,
+      "text": "He is wise who is warned by the misfortunes of others.",
+      "words": [
+        {
+          "id": "p106w1",
+          "text": "He",
+          "start": 545.74,
+          "end": 546.16
+        },
+        {
+          "id": "p106w2",
+          "text": "is",
+          "start": 546.16,
+          "end": 546.38
+        },
+        {
+          "id": "p106w3",
+          "text": "wise",
+          "start": 546.38,
+          "end": 546.62
+        },
+        {
+          "id": "p106w4",
+          "text": "who",
+          "start": 546.62,
+          "end": 547.06
+        },
+        {
+          "id": "p106w5",
+          "text": "is",
+          "start": 547.06,
+          "end": 547.24
+        },
+        {
+          "id": "p106w6",
+          "text": "warned",
+          "start": 547.24,
+          "end": 547.62
+        },
+        {
+          "id": "p106w7",
+          "text": "by",
+          "start": 547.62,
+          "end": 548.04
+        },
+        {
+          "id": "p106w8",
+          "text": "the",
+          "start": 548.04,
+          "end": 548.2
+        },
+        {
+          "id": "p106w9",
+          "text": "misfortunes",
+          "start": 548.2,
+          "end": 549.26
+        },
+        {
+          "id": "p106w10",
+          "text": "of",
+          "start": 549.26,
+          "end": 549.48
+        },
+        {
+          "id": "p106w11",
+          "text": "others.",
+          "start": 549.48,
+          "end": 549.94
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4041 @@
+{
+  "sectionId": "reader-9-uncle-tom-s-cabin-ch-2",
+  "trackNumber": 2,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/295 (S1) Uncle Tom's Cabin/Track 02.mp3",
+  "totalDuration": 281.6,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 2.74,
+      "end": 5.51,
+      "text": "Chapter 2 Leaving home",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Chapter",
+          "start": 2.74,
+          "end": 3.3
+        },
+        {
+          "id": "p1w2",
+          "text": "2",
+          "start": 3.3,
+          "end": 3.84
+        },
+        {
+          "id": "p1w3",
+          "text": "Leaving",
+          "start": 3.84,
+          "end": 4.98
+        },
+        {
+          "id": "p1w4",
+          "text": "home",
+          "start": 5.07,
+          "end": 5.51
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 5.93,
+      "end": 15.26,
+      "text": "The next morning Mrs. Shelby knew that Eliza had run away with Henry.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "The",
+          "start": 5.93,
+          "end": 6.25
+        },
+        {
+          "id": "p2w2",
+          "text": "next",
+          "start": 11.08,
+          "end": 11.64
+        },
+        {
+          "id": "p2w3",
+          "text": "morning",
+          "start": 11.64,
+          "end": 12.14
+        },
+        {
+          "id": "p2w4",
+          "text": "Mrs.",
+          "start": 12.14,
+          "end": 12.5
+        },
+        {
+          "id": "p2w5",
+          "text": "Shelby",
+          "start": 12.84,
+          "end": 12.84
+        },
+        {
+          "id": "p2w6",
+          "text": "knew",
+          "start": 12.84,
+          "end": 13.34
+        },
+        {
+          "id": "p2w7",
+          "text": "that",
+          "start": 13.34,
+          "end": 13.62
+        },
+        {
+          "id": "p2w8",
+          "text": "Eliza",
+          "start": 13.62,
+          "end": 14.06
+        },
+        {
+          "id": "p2w9",
+          "text": "had",
+          "start": 14.06,
+          "end": 14.38
+        },
+        {
+          "id": "p2w10",
+          "text": "run",
+          "start": 14.38,
+          "end": 14.54
+        },
+        {
+          "id": "p2w11",
+          "text": "away",
+          "start": 14.54,
+          "end": 14.74
+        },
+        {
+          "id": "p2w12",
+          "text": "with",
+          "start": 14.74,
+          "end": 15.08
+        },
+        {
+          "id": "p2w13",
+          "text": "Henry.",
+          "start": 15.08,
+          "end": 15.26
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 16.06,
+      "end": 18.76,
+      "text": "Oh, dear! thought Mrs. Shelby.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Oh,",
+          "start": 16.06,
+          "end": 16.7
+        },
+        {
+          "id": "p3w2",
+          "text": "dear!",
+          "start": 16.9,
+          "end": 17.12
+        },
+        {
+          "id": "p3w3",
+          "text": "thought",
+          "start": 17.86,
+          "end": 18.18
+        },
+        {
+          "id": "p3w4",
+          "text": "Mrs.",
+          "start": 18.18,
+          "end": 18.38
+        },
+        {
+          "id": "p3w5",
+          "text": "Shelby.",
+          "start": 18.76,
+          "end": 18.76
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 19.71,
+      "end": 22.89,
+      "text": "Mr. Haley will kill Eliza if he catches her.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Mr.",
+          "start": 19.71,
+          "end": 20.35
+        },
+        {
+          "id": "p4w2",
+          "text": "Haley",
+          "start": 20.61,
+          "end": 20.73
+        },
+        {
+          "id": "p4w3",
+          "text": "will",
+          "start": 20.73,
+          "end": 21.09
+        },
+        {
+          "id": "p4w4",
+          "text": "kill",
+          "start": 21.09,
+          "end": 21.37
+        },
+        {
+          "id": "p4w5",
+          "text": "Eliza",
+          "start": 21.37,
+          "end": 21.95
+        },
+        {
+          "id": "p4w6",
+          "text": "if",
+          "start": 21.95,
+          "end": 22.19
+        },
+        {
+          "id": "p4w7",
+          "text": "he",
+          "start": 22.19,
+          "end": 22.31
+        },
+        {
+          "id": "p4w8",
+          "text": "catches",
+          "start": 22.31,
+          "end": 22.59
+        },
+        {
+          "id": "p4w9",
+          "text": "her.",
+          "start": 22.59,
+          "end": 22.89
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 23.72,
+      "end": 28.22,
+      "text": "Mr. Haley was very angry when he heard Eliza had run away.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "Mr.",
+          "start": 23.72,
+          "end": 24.24
+        },
+        {
+          "id": "p5w2",
+          "text": "Haley",
+          "start": 24.56,
+          "end": 24.76
+        },
+        {
+          "id": "p5w3",
+          "text": "was",
+          "start": 24.76,
+          "end": 24.98
+        },
+        {
+          "id": "p5w4",
+          "text": "very",
+          "start": 24.98,
+          "end": 25.32
+        },
+        {
+          "id": "p5w5",
+          "text": "angry",
+          "start": 25.32,
+          "end": 25.86
+        },
+        {
+          "id": "p5w6",
+          "text": "when",
+          "start": 25.86,
+          "end": 26.14
+        },
+        {
+          "id": "p5w7",
+          "text": "he",
+          "start": 26.14,
+          "end": 26.28
+        },
+        {
+          "id": "p5w8",
+          "text": "heard",
+          "start": 26.28,
+          "end": 26.56
+        },
+        {
+          "id": "p5w9",
+          "text": "Eliza",
+          "start": 26.56,
+          "end": 27.6
+        },
+        {
+          "id": "p5w10",
+          "text": "had",
+          "start": 27.6,
+          "end": 27.82
+        },
+        {
+          "id": "p5w11",
+          "text": "run",
+          "start": 27.82,
+          "end": 27.98
+        },
+        {
+          "id": "p5w12",
+          "text": "away.",
+          "start": 27.98,
+          "end": 28.22
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 29.42,
+      "end": 32.86,
+      "text": "Mrs. Shelby decided to slow Mr. Haley down.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "Mrs.",
+          "start": 29.42,
+          "end": 30.02
+        },
+        {
+          "id": "p6w2",
+          "text": "Shelby",
+          "start": 30.4,
+          "end": 30.4
+        },
+        {
+          "id": "p6w3",
+          "text": "decided",
+          "start": 30.4,
+          "end": 31.16
+        },
+        {
+          "id": "p6w4",
+          "text": "to",
+          "start": 31.16,
+          "end": 31.56
+        },
+        {
+          "id": "p6w5",
+          "text": "slow",
+          "start": 31.56,
+          "end": 31.8
+        },
+        {
+          "id": "p6w6",
+          "text": "Mr.",
+          "start": 31.8,
+          "end": 32.14
+        },
+        {
+          "id": "p6w7",
+          "text": "Haley",
+          "start": 32.46,
+          "end": 32.52
+        },
+        {
+          "id": "p6w8",
+          "text": "down.",
+          "start": 32.52,
+          "end": 32.86
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 33.64,
+      "end": 35.66,
+      "text": "This would give Eliza a chance to escape.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "This",
+          "start": 33.64,
+          "end": 33.8
+        },
+        {
+          "id": "p7w2",
+          "text": "would",
+          "start": 33.8,
+          "end": 33.96
+        },
+        {
+          "id": "p7w3",
+          "text": "give",
+          "start": 33.96,
+          "end": 34.16
+        },
+        {
+          "id": "p7w4",
+          "text": "Eliza",
+          "start": 34.16,
+          "end": 34.74
+        },
+        {
+          "id": "p7w5",
+          "text": "a",
+          "start": 34.74,
+          "end": 34.9
+        },
+        {
+          "id": "p7w6",
+          "text": "chance",
+          "start": 34.9,
+          "end": 35.12
+        },
+        {
+          "id": "p7w7",
+          "text": "to",
+          "start": 35.12,
+          "end": 35.44
+        },
+        {
+          "id": "p7w8",
+          "text": "escape.",
+          "start": 35.44,
+          "end": 35.66
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 36.52,
+      "end": 37.38,
+      "text": "She had an idea.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "She",
+          "start": 36.52,
+          "end": 36.68
+        },
+        {
+          "id": "p8w2",
+          "text": "had",
+          "start": 36.68,
+          "end": 36.9
+        },
+        {
+          "id": "p8w3",
+          "text": "an",
+          "start": 36.9,
+          "end": 37.04
+        },
+        {
+          "id": "p8w4",
+          "text": "idea.",
+          "start": 37.04,
+          "end": 37.38
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 38.05,
+      "end": 42.83,
+      "text": "One of her slaves put a small stone under the saddle on Mr. Haley's horse.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "One",
+          "start": 38.05,
+          "end": 38.57
+        },
+        {
+          "id": "p9w2",
+          "text": "of",
+          "start": 38.57,
+          "end": 38.75
+        },
+        {
+          "id": "p9w3",
+          "text": "her",
+          "start": 38.75,
+          "end": 38.87
+        },
+        {
+          "id": "p9w4",
+          "text": "slaves",
+          "start": 38.87,
+          "end": 39.11
+        },
+        {
+          "id": "p9w5",
+          "text": "put",
+          "start": 39.11,
+          "end": 39.55
+        },
+        {
+          "id": "p9w6",
+          "text": "a",
+          "start": 39.55,
+          "end": 39.65
+        },
+        {
+          "id": "p9w7",
+          "text": "small",
+          "start": 39.65,
+          "end": 39.91
+        },
+        {
+          "id": "p9w8",
+          "text": "stone",
+          "start": 39.91,
+          "end": 40.47
+        },
+        {
+          "id": "p9w9",
+          "text": "under",
+          "start": 40.47,
+          "end": 40.83
+        },
+        {
+          "id": "p9w10",
+          "text": "the",
+          "start": 40.83,
+          "end": 40.99
+        },
+        {
+          "id": "p9w11",
+          "text": "saddle",
+          "start": 40.99,
+          "end": 41.37
+        },
+        {
+          "id": "p9w12",
+          "text": "on",
+          "start": 41.37,
+          "end": 41.87
+        },
+        {
+          "id": "p9w13",
+          "text": "Mr.",
+          "start": 41.87,
+          "end": 42.07
+        },
+        {
+          "id": "p9w14",
+          "text": "Haley's",
+          "start": 42.43,
+          "end": 42.61
+        },
+        {
+          "id": "p9w15",
+          "text": "horse.",
+          "start": 42.61,
+          "end": 42.83
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 44.38,
+      "end": 45.92,
+      "text": "This made the horse very upset.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "This",
+          "start": 44.38,
+          "end": 44.54
+        },
+        {
+          "id": "p10w2",
+          "text": "made",
+          "start": 44.54,
+          "end": 44.82
+        },
+        {
+          "id": "p10w3",
+          "text": "the",
+          "start": 44.82,
+          "end": 45.0
+        },
+        {
+          "id": "p10w4",
+          "text": "horse",
+          "start": 45.0,
+          "end": 45.24
+        },
+        {
+          "id": "p10w5",
+          "text": "very",
+          "start": 45.24,
+          "end": 45.66
+        },
+        {
+          "id": "p10w6",
+          "text": "upset.",
+          "start": 45.66,
+          "end": 45.92
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 46.86,
+      "end": 50.16,
+      "text": "Mr. Haley was unable to ride the horse for a long time.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Mr.",
+          "start": 46.86,
+          "end": 47.02
+        },
+        {
+          "id": "p11w2",
+          "text": "Haley",
+          "start": 47.4,
+          "end": 47.4
+        },
+        {
+          "id": "p11w3",
+          "text": "was",
+          "start": 47.4,
+          "end": 47.6
+        },
+        {
+          "id": "p11w4",
+          "text": "unable",
+          "start": 47.6,
+          "end": 47.98
+        },
+        {
+          "id": "p11w5",
+          "text": "to",
+          "start": 47.98,
+          "end": 48.28
+        },
+        {
+          "id": "p11w6",
+          "text": "ride",
+          "start": 48.28,
+          "end": 48.5
+        },
+        {
+          "id": "p11w7",
+          "text": "the",
+          "start": 48.5,
+          "end": 48.76
+        },
+        {
+          "id": "p11w8",
+          "text": "horse",
+          "start": 48.76,
+          "end": 49.0
+        },
+        {
+          "id": "p11w9",
+          "text": "for",
+          "start": 49.0,
+          "end": 49.26
+        },
+        {
+          "id": "p11w10",
+          "text": "a",
+          "start": 49.26,
+          "end": 49.38
+        },
+        {
+          "id": "p11w11",
+          "text": "long",
+          "start": 49.38,
+          "end": 49.6
+        },
+        {
+          "id": "p11w12",
+          "text": "time.",
+          "start": 49.6,
+          "end": 50.16
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 51.04,
+      "end": 54.9,
+      "text": "Finally, he got on his horse and went to look for Eliza.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Finally,",
+          "start": 51.04,
+          "end": 51.56
+        },
+        {
+          "id": "p12w2",
+          "text": "he",
+          "start": 51.96,
+          "end": 52.2
+        },
+        {
+          "id": "p12w3",
+          "text": "got",
+          "start": 52.2,
+          "end": 52.38
+        },
+        {
+          "id": "p12w4",
+          "text": "on",
+          "start": 52.38,
+          "end": 52.62
+        },
+        {
+          "id": "p12w5",
+          "text": "his",
+          "start": 52.62,
+          "end": 52.76
+        },
+        {
+          "id": "p12w6",
+          "text": "horse",
+          "start": 52.76,
+          "end": 53.02
+        },
+        {
+          "id": "p12w7",
+          "text": "and",
+          "start": 53.02,
+          "end": 53.62
+        },
+        {
+          "id": "p12w8",
+          "text": "went",
+          "start": 53.62,
+          "end": 53.84
+        },
+        {
+          "id": "p12w9",
+          "text": "to",
+          "start": 53.84,
+          "end": 54.06
+        },
+        {
+          "id": "p12w10",
+          "text": "look",
+          "start": 54.06,
+          "end": 54.2
+        },
+        {
+          "id": "p12w11",
+          "text": "for",
+          "start": 54.2,
+          "end": 54.42
+        },
+        {
+          "id": "p12w12",
+          "text": "Eliza.",
+          "start": 54.42,
+          "end": 54.9
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 57.32,
+      "end": 61.64,
+      "text": "Mr. Haley knew that runaway slaves always went to the Ohio River.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Mr.",
+          "start": 57.32,
+          "end": 57.52
+        },
+        {
+          "id": "p13w2",
+          "text": "Haley",
+          "start": 57.94,
+          "end": 57.98
+        },
+        {
+          "id": "p13w3",
+          "text": "knew",
+          "start": 57.98,
+          "end": 58.44
+        },
+        {
+          "id": "p13w4",
+          "text": "that",
+          "start": 58.44,
+          "end": 58.68
+        },
+        {
+          "id": "p13w5",
+          "text": "runaway",
+          "start": 58.68,
+          "end": 58.98
+        },
+        {
+          "id": "p13w6",
+          "text": "slaves",
+          "start": 58.98,
+          "end": 59.48
+        },
+        {
+          "id": "p13w7",
+          "text": "always",
+          "start": 59.48,
+          "end": 60.14
+        },
+        {
+          "id": "p13w8",
+          "text": "went",
+          "start": 60.14,
+          "end": 60.54
+        },
+        {
+          "id": "p13w9",
+          "text": "to",
+          "start": 60.54,
+          "end": 60.8
+        },
+        {
+          "id": "p13w10",
+          "text": "the",
+          "start": 60.8,
+          "end": 60.92
+        },
+        {
+          "id": "p13w11",
+          "text": "Ohio",
+          "start": 60.92,
+          "end": 61.12
+        },
+        {
+          "id": "p13w12",
+          "text": "River.",
+          "start": 61.12,
+          "end": 61.64
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 62.74,
+      "end": 66.5,
+      "text": "If they could cross the river, people in Ohio would help them.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "If",
+          "start": 62.74,
+          "end": 62.96
+        },
+        {
+          "id": "p14w2",
+          "text": "they",
+          "start": 62.96,
+          "end": 63.18
+        },
+        {
+          "id": "p14w3",
+          "text": "could",
+          "start": 63.18,
+          "end": 63.44
+        },
+        {
+          "id": "p14w4",
+          "text": "cross",
+          "start": 63.44,
+          "end": 63.74
+        },
+        {
+          "id": "p14w5",
+          "text": "the",
+          "start": 63.74,
+          "end": 64.02
+        },
+        {
+          "id": "p14w6",
+          "text": "river,",
+          "start": 64.02,
+          "end": 64.22
+        },
+        {
+          "id": "p14w7",
+          "text": "people",
+          "start": 64.46,
+          "end": 64.7
+        },
+        {
+          "id": "p14w8",
+          "text": "in",
+          "start": 64.7,
+          "end": 64.96
+        },
+        {
+          "id": "p14w9",
+          "text": "Ohio",
+          "start": 64.96,
+          "end": 65.16
+        },
+        {
+          "id": "p14w10",
+          "text": "would",
+          "start": 65.16,
+          "end": 65.98
+        },
+        {
+          "id": "p14w11",
+          "text": "help",
+          "start": 65.98,
+          "end": 66.2
+        },
+        {
+          "id": "p14w12",
+          "text": "them.",
+          "start": 66.2,
+          "end": 66.5
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 67.81,
+      "end": 70.53,
+      "text": "Eliza was also desperate to get across the river.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "Eliza",
+          "start": 67.81,
+          "end": 68.37
+        },
+        {
+          "id": "p15w2",
+          "text": "was",
+          "start": 68.37,
+          "end": 68.53
+        },
+        {
+          "id": "p15w3",
+          "text": "also",
+          "start": 68.53,
+          "end": 68.99
+        },
+        {
+          "id": "p15w4",
+          "text": "desperate",
+          "start": 68.99,
+          "end": 69.39
+        },
+        {
+          "id": "p15w5",
+          "text": "to",
+          "start": 69.39,
+          "end": 69.65
+        },
+        {
+          "id": "p15w6",
+          "text": "get",
+          "start": 69.65,
+          "end": 69.79
+        },
+        {
+          "id": "p15w7",
+          "text": "across",
+          "start": 69.79,
+          "end": 70.09
+        },
+        {
+          "id": "p15w8",
+          "text": "the",
+          "start": 70.09,
+          "end": 70.33
+        },
+        {
+          "id": "p15w9",
+          "text": "river.",
+          "start": 70.33,
+          "end": 70.53
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 71.41,
+      "end": 74.67,
+      "text": "But when she reached the river, it was full of ice.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "But",
+          "start": 71.41,
+          "end": 71.53
+        },
+        {
+          "id": "p16w2",
+          "text": "when",
+          "start": 71.53,
+          "end": 71.73
+        },
+        {
+          "id": "p16w3",
+          "text": "she",
+          "start": 71.73,
+          "end": 72.05
+        },
+        {
+          "id": "p16w4",
+          "text": "reached",
+          "start": 72.05,
+          "end": 72.25
+        },
+        {
+          "id": "p16w5",
+          "text": "the",
+          "start": 72.25,
+          "end": 72.51
+        },
+        {
+          "id": "p16w6",
+          "text": "river,",
+          "start": 72.51,
+          "end": 72.75
+        },
+        {
+          "id": "p16w7",
+          "text": "it",
+          "start": 73.55,
+          "end": 73.79
+        },
+        {
+          "id": "p16w8",
+          "text": "was",
+          "start": 73.79,
+          "end": 73.91
+        },
+        {
+          "id": "p16w9",
+          "text": "full",
+          "start": 73.91,
+          "end": 74.25
+        },
+        {
+          "id": "p16w10",
+          "text": "of",
+          "start": 74.25,
+          "end": 74.41
+        },
+        {
+          "id": "p16w11",
+          "text": "ice.",
+          "start": 74.41,
+          "end": 74.67
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 75.76,
+      "end": 77.88,
+      "text": "No boats could cross the icy river.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "No",
+          "start": 75.76,
+          "end": 76.02
+        },
+        {
+          "id": "p17w2",
+          "text": "boats",
+          "start": 76.02,
+          "end": 76.34
+        },
+        {
+          "id": "p17w3",
+          "text": "could",
+          "start": 76.34,
+          "end": 76.76
+        },
+        {
+          "id": "p17w4",
+          "text": "cross",
+          "start": 76.76,
+          "end": 77.06
+        },
+        {
+          "id": "p17w5",
+          "text": "the",
+          "start": 77.06,
+          "end": 77.34
+        },
+        {
+          "id": "p17w6",
+          "text": "icy",
+          "start": 77.34,
+          "end": 77.52
+        },
+        {
+          "id": "p17w7",
+          "text": "river.",
+          "start": 77.52,
+          "end": 77.88
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 78.92,
+      "end": 81.38,
+      "text": "Eliza prayed to God to help her cross.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "Eliza",
+          "start": 78.92,
+          "end": 79.48
+        },
+        {
+          "id": "p18w2",
+          "text": "prayed",
+          "start": 79.48,
+          "end": 79.76
+        },
+        {
+          "id": "p18w3",
+          "text": "to",
+          "start": 79.76,
+          "end": 80.12
+        },
+        {
+          "id": "p18w4",
+          "text": "God",
+          "start": 80.12,
+          "end": 80.36
+        },
+        {
+          "id": "p18w5",
+          "text": "to",
+          "start": 80.36,
+          "end": 80.64
+        },
+        {
+          "id": "p18w6",
+          "text": "help",
+          "start": 80.64,
+          "end": 80.84
+        },
+        {
+          "id": "p18w7",
+          "text": "her",
+          "start": 80.84,
+          "end": 81.0
+        },
+        {
+          "id": "p18w8",
+          "text": "cross.",
+          "start": 81.0,
+          "end": 81.38
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 82.3,
+      "end": 84.2,
+      "text": "Mr. Haley saw Eliza and Henry.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "Mr.",
+          "start": 82.3,
+          "end": 82.72
+        },
+        {
+          "id": "p19w2",
+          "text": "Haley",
+          "start": 82.92,
+          "end": 82.94
+        },
+        {
+          "id": "p19w3",
+          "text": "saw",
+          "start": 82.94,
+          "end": 83.32
+        },
+        {
+          "id": "p19w4",
+          "text": "Eliza",
+          "start": 83.32,
+          "end": 83.88
+        },
+        {
+          "id": "p19w5",
+          "text": "and",
+          "start": 83.88,
+          "end": 84.02
+        },
+        {
+          "id": "p19w6",
+          "text": "Henry.",
+          "start": 84.02,
+          "end": 84.2
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 85.0,
+      "end": 85.4,
+      "text": "Stop!",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "Stop!",
+          "start": 85.0,
+          "end": 85.4
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 86.16,
+      "end": 86.56,
+      "text": "He yelled.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "He",
+          "start": 86.16,
+          "end": 86.28
+        },
+        {
+          "id": "p21w2",
+          "text": "yelled.",
+          "start": 86.28,
+          "end": 86.56
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 87.18,
+      "end": 88.22,
+      "text": "That boy is mine.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "That",
+          "start": 87.18,
+          "end": 87.42
+        },
+        {
+          "id": "p22w2",
+          "text": "boy",
+          "start": 87.42,
+          "end": 87.7
+        },
+        {
+          "id": "p22w3",
+          "text": "is",
+          "start": 87.7,
+          "end": 88.02
+        },
+        {
+          "id": "p22w4",
+          "text": "mine.",
+          "start": 88.02,
+          "end": 88.22
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 88.94,
+      "end": 92.36,
+      "text": "Eliza was trapped between Mr. Haley and the icy river.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "Eliza",
+          "start": 88.94,
+          "end": 89.4
+        },
+        {
+          "id": "p23w2",
+          "text": "was",
+          "start": 89.4,
+          "end": 89.56
+        },
+        {
+          "id": "p23w3",
+          "text": "trapped",
+          "start": 89.56,
+          "end": 89.84
+        },
+        {
+          "id": "p23w4",
+          "text": "between",
+          "start": 89.84,
+          "end": 90.36
+        },
+        {
+          "id": "p23w5",
+          "text": "Mr.",
+          "start": 90.36,
+          "end": 90.7
+        },
+        {
+          "id": "p23w6",
+          "text": "Haley",
+          "start": 90.98,
+          "end": 91.04
+        },
+        {
+          "id": "p23w7",
+          "text": "and",
+          "start": 91.04,
+          "end": 91.6
+        },
+        {
+          "id": "p23w8",
+          "text": "the",
+          "start": 91.6,
+          "end": 91.72
+        },
+        {
+          "id": "p23w9",
+          "text": "icy",
+          "start": 91.72,
+          "end": 91.96
+        },
+        {
+          "id": "p23w10",
+          "text": "river.",
+          "start": 91.96,
+          "end": 92.36
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 93.1,
+      "end": 95.54,
+      "text": "So she jumped on a chunk of ice in the river.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "So",
+          "start": 93.1,
+          "end": 93.66
+        },
+        {
+          "id": "p24w2",
+          "text": "she",
+          "start": 93.66,
+          "end": 93.82
+        },
+        {
+          "id": "p24w3",
+          "text": "jumped",
+          "start": 93.82,
+          "end": 94.1
+        },
+        {
+          "id": "p24w4",
+          "text": "on",
+          "start": 94.1,
+          "end": 94.42
+        },
+        {
+          "id": "p24w5",
+          "text": "a",
+          "start": 94.42,
+          "end": 94.5
+        },
+        {
+          "id": "p24w6",
+          "text": "chunk",
+          "start": 94.5,
+          "end": 94.62
+        },
+        {
+          "id": "p24w7",
+          "text": "of",
+          "start": 94.62,
+          "end": 94.86
+        },
+        {
+          "id": "p24w8",
+          "text": "ice",
+          "start": 94.86,
+          "end": 95.06
+        },
+        {
+          "id": "p24w9",
+          "text": "in",
+          "start": 95.06,
+          "end": 95.28
+        },
+        {
+          "id": "p24w10",
+          "text": "the",
+          "start": 95.28,
+          "end": 95.36
+        },
+        {
+          "id": "p24w11",
+          "text": "river.",
+          "start": 95.36,
+          "end": 95.54
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 97.83,
+      "end": 100.11,
+      "text": "Then she jumped onto another piece of ice.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "Then",
+          "start": 97.83,
+          "end": 98.11
+        },
+        {
+          "id": "p25w2",
+          "text": "she",
+          "start": 98.11,
+          "end": 98.37
+        },
+        {
+          "id": "p25w3",
+          "text": "jumped",
+          "start": 98.37,
+          "end": 98.63
+        },
+        {
+          "id": "p25w4",
+          "text": "onto",
+          "start": 98.63,
+          "end": 98.89
+        },
+        {
+          "id": "p25w5",
+          "text": "another",
+          "start": 98.89,
+          "end": 99.41
+        },
+        {
+          "id": "p25w6",
+          "text": "piece",
+          "start": 99.41,
+          "end": 99.67
+        },
+        {
+          "id": "p25w7",
+          "text": "of",
+          "start": 99.67,
+          "end": 99.87
+        },
+        {
+          "id": "p25w8",
+          "text": "ice.",
+          "start": 99.87,
+          "end": 100.11
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 100.71,
+      "end": 103.91,
+      "text": "She wasn't wearing any shoes and her feet were bleeding.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "She",
+          "start": 100.71,
+          "end": 100.97
+        },
+        {
+          "id": "p26w2",
+          "text": "wasn't",
+          "start": 100.97,
+          "end": 101.33
+        },
+        {
+          "id": "p26w3",
+          "text": "wearing",
+          "start": 101.33,
+          "end": 101.59
+        },
+        {
+          "id": "p26w4",
+          "text": "any",
+          "start": 101.59,
+          "end": 101.89
+        },
+        {
+          "id": "p26w5",
+          "text": "shoes",
+          "start": 101.89,
+          "end": 102.27
+        },
+        {
+          "id": "p26w6",
+          "text": "and",
+          "start": 102.27,
+          "end": 103.07
+        },
+        {
+          "id": "p26w7",
+          "text": "her",
+          "start": 103.07,
+          "end": 103.21
+        },
+        {
+          "id": "p26w8",
+          "text": "feet",
+          "start": 103.21,
+          "end": 103.43
+        },
+        {
+          "id": "p26w9",
+          "text": "were",
+          "start": 103.43,
+          "end": 103.63
+        },
+        {
+          "id": "p26w10",
+          "text": "bleeding.",
+          "start": 103.63,
+          "end": 103.91
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 104.73,
+      "end": 106.87,
+      "text": "But at last, she crossed the river.",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "But",
+          "start": 104.73,
+          "end": 104.95
+        },
+        {
+          "id": "p27w2",
+          "text": "at",
+          "start": 104.95,
+          "end": 105.07
+        },
+        {
+          "id": "p27w3",
+          "text": "last,",
+          "start": 105.07,
+          "end": 105.37
+        },
+        {
+          "id": "p27w4",
+          "text": "she",
+          "start": 105.91,
+          "end": 106.05
+        },
+        {
+          "id": "p27w5",
+          "text": "crossed",
+          "start": 106.05,
+          "end": 106.33
+        },
+        {
+          "id": "p27w6",
+          "text": "the",
+          "start": 106.33,
+          "end": 106.65
+        },
+        {
+          "id": "p27w7",
+          "text": "river.",
+          "start": 106.65,
+          "end": 106.87
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 108.76,
+      "end": 112.76,
+      "text": "On the other side of the Ohio River, Eliza saw a man she knew.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "On",
+          "start": 108.76,
+          "end": 108.94
+        },
+        {
+          "id": "p28w2",
+          "text": "the",
+          "start": 108.94,
+          "end": 109.06
+        },
+        {
+          "id": "p28w3",
+          "text": "other",
+          "start": 109.06,
+          "end": 109.24
+        },
+        {
+          "id": "p28w4",
+          "text": "side",
+          "start": 109.24,
+          "end": 109.68
+        },
+        {
+          "id": "p28w5",
+          "text": "of",
+          "start": 109.68,
+          "end": 109.82
+        },
+        {
+          "id": "p28w6",
+          "text": "the",
+          "start": 109.82,
+          "end": 109.96
+        },
+        {
+          "id": "p28w7",
+          "text": "Ohio",
+          "start": 109.96,
+          "end": 110.12
+        },
+        {
+          "id": "p28w8",
+          "text": "River,",
+          "start": 110.12,
+          "end": 110.72
+        },
+        {
+          "id": "p28w9",
+          "text": "Eliza",
+          "start": 111.16,
+          "end": 111.46
+        },
+        {
+          "id": "p28w10",
+          "text": "saw",
+          "start": 111.46,
+          "end": 111.86
+        },
+        {
+          "id": "p28w11",
+          "text": "a",
+          "start": 111.86,
+          "end": 111.86
+        },
+        {
+          "id": "p28w12",
+          "text": "man",
+          "start": 111.86,
+          "end": 112.22
+        },
+        {
+          "id": "p28w13",
+          "text": "she",
+          "start": 112.22,
+          "end": 112.48
+        },
+        {
+          "id": "p28w14",
+          "text": "knew.",
+          "start": 112.48,
+          "end": 112.76
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 113.67,
+      "end": 116.65,
+      "text": "He was one of the Shelby's friends, Mr. Sims.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "He",
+          "start": 113.67,
+          "end": 114.01
+        },
+        {
+          "id": "p29w2",
+          "text": "was",
+          "start": 114.01,
+          "end": 114.15
+        },
+        {
+          "id": "p29w3",
+          "text": "one",
+          "start": 114.15,
+          "end": 114.45
+        },
+        {
+          "id": "p29w4",
+          "text": "of",
+          "start": 114.45,
+          "end": 114.59
+        },
+        {
+          "id": "p29w5",
+          "text": "the",
+          "start": 114.59,
+          "end": 114.71
+        },
+        {
+          "id": "p29w6",
+          "text": "Shelby's",
+          "start": 114.71,
+          "end": 115.23
+        },
+        {
+          "id": "p29w7",
+          "text": "friends,",
+          "start": 115.23,
+          "end": 115.41
+        },
+        {
+          "id": "p29w8",
+          "text": "Mr.",
+          "start": 116.11,
+          "end": 116.35
+        },
+        {
+          "id": "p29w9",
+          "text": "Sims.",
+          "start": 116.65,
+          "end": 116.65
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 117.8,
+      "end": 120.4,
+      "text": "Mr. Sims, please help me.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "Mr.",
+          "start": 117.8,
+          "end": 118.36
+        },
+        {
+          "id": "p30w2",
+          "text": "Sims,",
+          "start": 118.72,
+          "end": 118.94
+        },
+        {
+          "id": "p30w3",
+          "text": "please",
+          "start": 119.26,
+          "end": 119.84
+        },
+        {
+          "id": "p30w4",
+          "text": "help",
+          "start": 119.84,
+          "end": 120.12
+        },
+        {
+          "id": "p30w5",
+          "text": "me.",
+          "start": 120.12,
+          "end": 120.4
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 120.96,
+      "end": 121.82,
+      "text": "cried Eliza.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "cried",
+          "start": 120.96,
+          "end": 121.32
+        },
+        {
+          "id": "p31w2",
+          "text": "Eliza.",
+          "start": 121.32,
+          "end": 121.82
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 122.32,
+      "end": 124.98,
+      "text": "I know a powerful man who hates slavery.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "I",
+          "start": 122.32,
+          "end": 122.82
+        },
+        {
+          "id": "p32w2",
+          "text": "know",
+          "start": 122.82,
+          "end": 123.04
+        },
+        {
+          "id": "p32w3",
+          "text": "a",
+          "start": 123.04,
+          "end": 123.2
+        },
+        {
+          "id": "p32w4",
+          "text": "powerful",
+          "start": 123.2,
+          "end": 123.58
+        },
+        {
+          "id": "p32w5",
+          "text": "man",
+          "start": 123.58,
+          "end": 124.08
+        },
+        {
+          "id": "p32w6",
+          "text": "who",
+          "start": 124.08,
+          "end": 124.28
+        },
+        {
+          "id": "p32w7",
+          "text": "hates",
+          "start": 124.28,
+          "end": 124.6
+        },
+        {
+          "id": "p32w8",
+          "text": "slavery.",
+          "start": 124.6,
+          "end": 124.98
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 125.72,
+      "end": 127.74,
+      "text": "He said, he will help you.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "He",
+          "start": 125.72,
+          "end": 125.94
+        },
+        {
+          "id": "p33w2",
+          "text": "said,",
+          "start": 125.94,
+          "end": 126.22
+        },
+        {
+          "id": "p33w3",
+          "text": "he",
+          "start": 126.92,
+          "end": 127.04
+        },
+        {
+          "id": "p33w4",
+          "text": "will",
+          "start": 127.04,
+          "end": 127.28
+        },
+        {
+          "id": "p33w5",
+          "text": "help",
+          "start": 127.28,
+          "end": 127.52
+        },
+        {
+          "id": "p33w6",
+          "text": "you.",
+          "start": 127.52,
+          "end": 127.74
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 127.74,
+      "end": 129.68,
+      "text": "His name is Senator Bird.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "His",
+          "start": 127.74,
+          "end": 128.4
+        },
+        {
+          "id": "p34w2",
+          "text": "name",
+          "start": 128.4,
+          "end": 128.66
+        },
+        {
+          "id": "p34w3",
+          "text": "is",
+          "start": 128.66,
+          "end": 128.94
+        },
+        {
+          "id": "p34w4",
+          "text": "Senator",
+          "start": 128.94,
+          "end": 129.24
+        },
+        {
+          "id": "p34w5",
+          "text": "Bird.",
+          "start": 129.24,
+          "end": 129.68
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 130.58,
+      "end": 134.12,
+      "text": "Mr. Sims pointed to a nice big house across the street.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "Mr.",
+          "start": 130.58,
+          "end": 130.88
+        },
+        {
+          "id": "p35w2",
+          "text": "Sims",
+          "start": 131.18,
+          "end": 131.18
+        },
+        {
+          "id": "p35w3",
+          "text": "pointed",
+          "start": 131.18,
+          "end": 131.68
+        },
+        {
+          "id": "p35w4",
+          "text": "to",
+          "start": 131.68,
+          "end": 131.94
+        },
+        {
+          "id": "p35w5",
+          "text": "a",
+          "start": 131.94,
+          "end": 132.04
+        },
+        {
+          "id": "p35w6",
+          "text": "nice",
+          "start": 132.04,
+          "end": 132.38
+        },
+        {
+          "id": "p35w7",
+          "text": "big",
+          "start": 132.38,
+          "end": 132.76
+        },
+        {
+          "id": "p35w8",
+          "text": "house",
+          "start": 132.76,
+          "end": 133.08
+        },
+        {
+          "id": "p35w9",
+          "text": "across",
+          "start": 133.08,
+          "end": 133.4
+        },
+        {
+          "id": "p35w10",
+          "text": "the",
+          "start": 133.4,
+          "end": 133.78
+        },
+        {
+          "id": "p35w11",
+          "text": "street.",
+          "start": 133.78,
+          "end": 134.12
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 135.05,
+      "end": 137.43,
+      "text": "Eliza went to the house and knocked on the door.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "Eliza",
+          "start": 135.05,
+          "end": 135.65
+        },
+        {
+          "id": "p36w2",
+          "text": "went",
+          "start": 135.65,
+          "end": 135.87
+        },
+        {
+          "id": "p36w3",
+          "text": "to",
+          "start": 135.87,
+          "end": 136.05
+        },
+        {
+          "id": "p36w4",
+          "text": "the",
+          "start": 136.05,
+          "end": 136.15
+        },
+        {
+          "id": "p36w5",
+          "text": "house",
+          "start": 136.15,
+          "end": 136.39
+        },
+        {
+          "id": "p36w6",
+          "text": "and",
+          "start": 136.39,
+          "end": 136.65
+        },
+        {
+          "id": "p36w7",
+          "text": "knocked",
+          "start": 136.65,
+          "end": 136.85
+        },
+        {
+          "id": "p36w8",
+          "text": "on",
+          "start": 136.85,
+          "end": 137.09
+        },
+        {
+          "id": "p36w9",
+          "text": "the",
+          "start": 137.09,
+          "end": 137.19
+        },
+        {
+          "id": "p36w10",
+          "text": "door.",
+          "start": 137.19,
+          "end": 137.43
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 143.27,
+      "end": 144.83,
+      "text": "Mrs. Bird let Eliza in.",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "Mrs.",
+          "start": 143.27,
+          "end": 143.43
+        },
+        {
+          "id": "p37w2",
+          "text": "Bird",
+          "start": 143.53,
+          "end": 143.77
+        },
+        {
+          "id": "p37w3",
+          "text": "let",
+          "start": 143.77,
+          "end": 144.07
+        },
+        {
+          "id": "p37w4",
+          "text": "Eliza",
+          "start": 144.07,
+          "end": 144.55
+        },
+        {
+          "id": "p37w5",
+          "text": "in.",
+          "start": 144.55,
+          "end": 144.83
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 145.7,
+      "end": 148.74,
+      "text": "Senator and Mrs. Bird heard Eliza's story.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "Senator",
+          "start": 145.7,
+          "end": 146.22
+        },
+        {
+          "id": "p38w2",
+          "text": "and",
+          "start": 146.22,
+          "end": 146.7
+        },
+        {
+          "id": "p38w3",
+          "text": "Mrs.",
+          "start": 146.7,
+          "end": 146.86
+        },
+        {
+          "id": "p38w4",
+          "text": "Bird",
+          "start": 147.06,
+          "end": 147.32
+        },
+        {
+          "id": "p38w5",
+          "text": "heard",
+          "start": 147.32,
+          "end": 147.7
+        },
+        {
+          "id": "p38w6",
+          "text": "Eliza's",
+          "start": 147.7,
+          "end": 148.32
+        },
+        {
+          "id": "p38w7",
+          "text": "story.",
+          "start": 148.32,
+          "end": 148.74
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 149.48,
+      "end": 151.28,
+      "text": "They agreed to help her reach Canada.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "They",
+          "start": 149.48,
+          "end": 149.56
+        },
+        {
+          "id": "p39w2",
+          "text": "agreed",
+          "start": 149.56,
+          "end": 149.84
+        },
+        {
+          "id": "p39w3",
+          "text": "to",
+          "start": 149.84,
+          "end": 150.22
+        },
+        {
+          "id": "p39w4",
+          "text": "help",
+          "start": 150.22,
+          "end": 150.46
+        },
+        {
+          "id": "p39w5",
+          "text": "her",
+          "start": 150.46,
+          "end": 150.66
+        },
+        {
+          "id": "p39w6",
+          "text": "reach",
+          "start": 150.66,
+          "end": 150.88
+        },
+        {
+          "id": "p39w7",
+          "text": "Canada.",
+          "start": 150.88,
+          "end": 151.28
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 153.04,
+      "end": 155.02,
+      "text": "Mr. Haley was on the other side of the river.",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "Mr.",
+          "start": 153.04,
+          "end": 153.32
+        },
+        {
+          "id": "p40w2",
+          "text": "Haley",
+          "start": 153.58,
+          "end": 153.58
+        },
+        {
+          "id": "p40w3",
+          "text": "was",
+          "start": 153.58,
+          "end": 153.88
+        },
+        {
+          "id": "p40w4",
+          "text": "on",
+          "start": 153.88,
+          "end": 154.04
+        },
+        {
+          "id": "p40w5",
+          "text": "the",
+          "start": 154.04,
+          "end": 154.16
+        },
+        {
+          "id": "p40w6",
+          "text": "other",
+          "start": 154.16,
+          "end": 154.28
+        },
+        {
+          "id": "p40w7",
+          "text": "side",
+          "start": 154.28,
+          "end": 154.62
+        },
+        {
+          "id": "p40w8",
+          "text": "of",
+          "start": 154.62,
+          "end": 154.7
+        },
+        {
+          "id": "p40w9",
+          "text": "the",
+          "start": 154.7,
+          "end": 154.8
+        },
+        {
+          "id": "p40w10",
+          "text": "river.",
+          "start": 154.8,
+          "end": 155.02
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 155.7,
+      "end": 156.88,
+      "text": "He was very angry.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "He",
+          "start": 155.7,
+          "end": 155.86
+        },
+        {
+          "id": "p41w2",
+          "text": "was",
+          "start": 155.86,
+          "end": 155.98
+        },
+        {
+          "id": "p41w3",
+          "text": "very",
+          "start": 155.98,
+          "end": 156.34
+        },
+        {
+          "id": "p41w4",
+          "text": "angry.",
+          "start": 156.34,
+          "end": 156.88
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 157.78,
+      "end": 160.46,
+      "text": "He hired a slave catcher to chase Eliza.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "He",
+          "start": 157.78,
+          "end": 157.9
+        },
+        {
+          "id": "p42w2",
+          "text": "hired",
+          "start": 157.9,
+          "end": 158.2
+        },
+        {
+          "id": "p42w3",
+          "text": "a",
+          "start": 158.2,
+          "end": 158.42
+        },
+        {
+          "id": "p42w4",
+          "text": "slave",
+          "start": 158.42,
+          "end": 158.68
+        },
+        {
+          "id": "p42w5",
+          "text": "catcher",
+          "start": 158.68,
+          "end": 159.02
+        },
+        {
+          "id": "p42w6",
+          "text": "to",
+          "start": 159.02,
+          "end": 159.6
+        },
+        {
+          "id": "p42w7",
+          "text": "chase",
+          "start": 159.6,
+          "end": 159.9
+        },
+        {
+          "id": "p42w8",
+          "text": "Eliza.",
+          "start": 159.9,
+          "end": 160.46
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 160.46,
+      "end": 163.94,
+      "text": "Then he went back to the Shelby's farm to get Tom.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "Then",
+          "start": 160.46,
+          "end": 160.68
+        },
+        {
+          "id": "p43w2",
+          "text": "he",
+          "start": 160.68,
+          "end": 161.68
+        },
+        {
+          "id": "p43w3",
+          "text": "went",
+          "start": 161.68,
+          "end": 161.88
+        },
+        {
+          "id": "p43w4",
+          "text": "back",
+          "start": 161.88,
+          "end": 162.14
+        },
+        {
+          "id": "p43w5",
+          "text": "to",
+          "start": 162.14,
+          "end": 162.4
+        },
+        {
+          "id": "p43w6",
+          "text": "the",
+          "start": 162.4,
+          "end": 162.48
+        },
+        {
+          "id": "p43w7",
+          "text": "Shelby's",
+          "start": 162.48,
+          "end": 162.98
+        },
+        {
+          "id": "p43w8",
+          "text": "farm",
+          "start": 162.98,
+          "end": 163.16
+        },
+        {
+          "id": "p43w9",
+          "text": "to",
+          "start": 163.16,
+          "end": 163.5
+        },
+        {
+          "id": "p43w10",
+          "text": "get",
+          "start": 163.5,
+          "end": 163.66
+        },
+        {
+          "id": "p43w11",
+          "text": "Tom.",
+          "start": 163.66,
+          "end": 163.94
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 174.93,
+      "end": 178.59,
+      "text": "Back at the Shelby's farm, Uncle Tom sat in his cabin.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "Back",
+          "start": 174.93,
+          "end": 175.31
+        },
+        {
+          "id": "p44w2",
+          "text": "at",
+          "start": 175.31,
+          "end": 175.47
+        },
+        {
+          "id": "p44w3",
+          "text": "the",
+          "start": 175.47,
+          "end": 175.57
+        },
+        {
+          "id": "p44w4",
+          "text": "Shelby's",
+          "start": 175.57,
+          "end": 176.09
+        },
+        {
+          "id": "p44w5",
+          "text": "farm,",
+          "start": 176.09,
+          "end": 176.33
+        },
+        {
+          "id": "p44w6",
+          "text": "Uncle",
+          "start": 176.79,
+          "end": 177.01
+        },
+        {
+          "id": "p44w7",
+          "text": "Tom",
+          "start": 177.01,
+          "end": 177.43
+        },
+        {
+          "id": "p44w8",
+          "text": "sat",
+          "start": 177.43,
+          "end": 177.83
+        },
+        {
+          "id": "p44w9",
+          "text": "in",
+          "start": 177.83,
+          "end": 178.19
+        },
+        {
+          "id": "p44w10",
+          "text": "his",
+          "start": 178.19,
+          "end": 178.31
+        },
+        {
+          "id": "p44w11",
+          "text": "cabin.",
+          "start": 178.31,
+          "end": 178.59
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 179.54,
+      "end": 182.3,
+      "text": "He was reading the Bible and Chloe cried.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "He",
+          "start": 179.54,
+          "end": 179.8
+        },
+        {
+          "id": "p45w2",
+          "text": "was",
+          "start": 179.8,
+          "end": 179.92
+        },
+        {
+          "id": "p45w3",
+          "text": "reading",
+          "start": 179.92,
+          "end": 180.14
+        },
+        {
+          "id": "p45w4",
+          "text": "the",
+          "start": 180.14,
+          "end": 180.42
+        },
+        {
+          "id": "p45w5",
+          "text": "Bible",
+          "start": 180.42,
+          "end": 180.76
+        },
+        {
+          "id": "p45w6",
+          "text": "and",
+          "start": 180.76,
+          "end": 181.6
+        },
+        {
+          "id": "p45w7",
+          "text": "Chloe",
+          "start": 181.6,
+          "end": 181.92
+        },
+        {
+          "id": "p45w8",
+          "text": "cried.",
+          "start": 181.92,
+          "end": 182.3
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 183.26,
+      "end": 185.54,
+      "text": "If only they weren't selling you down south.",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "If",
+          "start": 183.26,
+          "end": 183.44
+        },
+        {
+          "id": "p46w2",
+          "text": "only",
+          "start": 183.44,
+          "end": 183.78
+        },
+        {
+          "id": "p46w3",
+          "text": "they",
+          "start": 183.78,
+          "end": 184.22
+        },
+        {
+          "id": "p46w4",
+          "text": "weren't",
+          "start": 184.22,
+          "end": 184.58
+        },
+        {
+          "id": "p46w5",
+          "text": "selling",
+          "start": 184.58,
+          "end": 184.78
+        },
+        {
+          "id": "p46w6",
+          "text": "you",
+          "start": 184.78,
+          "end": 185.06
+        },
+        {
+          "id": "p46w7",
+          "text": "down",
+          "start": 185.06,
+          "end": 185.24
+        },
+        {
+          "id": "p46w8",
+          "text": "south.",
+          "start": 185.24,
+          "end": 185.54
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 186.26,
+      "end": 188.14,
+      "text": "Nobody comes back from there.",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "Nobody",
+          "start": 186.26,
+          "end": 186.58
+        },
+        {
+          "id": "p47w2",
+          "text": "comes",
+          "start": 186.58,
+          "end": 187.1
+        },
+        {
+          "id": "p47w3",
+          "text": "back",
+          "start": 187.1,
+          "end": 187.48
+        },
+        {
+          "id": "p47w4",
+          "text": "from",
+          "start": 187.48,
+          "end": 187.72
+        },
+        {
+          "id": "p47w5",
+          "text": "there.",
+          "start": 187.72,
+          "end": 188.14
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 188.66,
+      "end": 190.3,
+      "text": "They kill slaves down there.",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "They",
+          "start": 188.66,
+          "end": 188.82
+        },
+        {
+          "id": "p48w2",
+          "text": "kill",
+          "start": 188.82,
+          "end": 189.08
+        },
+        {
+          "id": "p48w3",
+          "text": "slaves",
+          "start": 189.08,
+          "end": 189.44
+        },
+        {
+          "id": "p48w4",
+          "text": "down",
+          "start": 189.44,
+          "end": 189.94
+        },
+        {
+          "id": "p48w5",
+          "text": "there.",
+          "start": 189.94,
+          "end": 190.3
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 190.86,
+      "end": 192.46,
+      "text": "It's in God's hands now.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "It's",
+          "start": 190.86,
+          "end": 191.26
+        },
+        {
+          "id": "p49w2",
+          "text": "in",
+          "start": 191.26,
+          "end": 191.38
+        },
+        {
+          "id": "p49w3",
+          "text": "God's",
+          "start": 191.38,
+          "end": 191.88
+        },
+        {
+          "id": "p49w4",
+          "text": "hands",
+          "start": 191.88,
+          "end": 192.12
+        },
+        {
+          "id": "p49w5",
+          "text": "now.",
+          "start": 192.12,
+          "end": 192.46
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 193.02,
+      "end": 193.92,
+      "text": "Said Uncle Tom.",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "Said",
+          "start": 193.02,
+          "end": 193.36
+        },
+        {
+          "id": "p50w2",
+          "text": "Uncle",
+          "start": 193.36,
+          "end": 193.54
+        },
+        {
+          "id": "p50w3",
+          "text": "Tom.",
+          "start": 193.54,
+          "end": 193.92
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 194.62,
+      "end": 197.74,
+      "text": "I'm thankful that they sold me and not the little ones.",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "I'm",
+          "start": 194.62,
+          "end": 194.92
+        },
+        {
+          "id": "p51w2",
+          "text": "thankful",
+          "start": 194.92,
+          "end": 195.32
+        },
+        {
+          "id": "p51w3",
+          "text": "that",
+          "start": 195.32,
+          "end": 195.6
+        },
+        {
+          "id": "p51w4",
+          "text": "they",
+          "start": 195.6,
+          "end": 195.78
+        },
+        {
+          "id": "p51w5",
+          "text": "sold",
+          "start": 195.78,
+          "end": 196.06
+        },
+        {
+          "id": "p51w6",
+          "text": "me",
+          "start": 196.06,
+          "end": 196.38
+        },
+        {
+          "id": "p51w7",
+          "text": "and",
+          "start": 196.38,
+          "end": 196.8
+        },
+        {
+          "id": "p51w8",
+          "text": "not",
+          "start": 196.8,
+          "end": 197.0
+        },
+        {
+          "id": "p51w9",
+          "text": "the",
+          "start": 197.0,
+          "end": 197.18
+        },
+        {
+          "id": "p51w10",
+          "text": "little",
+          "start": 197.18,
+          "end": 197.44
+        },
+        {
+          "id": "p51w11",
+          "text": "ones.",
+          "start": 197.44,
+          "end": 197.74
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 199.91,
+      "end": 202.49,
+      "text": "He looked lovingly at his sleeping children.",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "He",
+          "start": 199.91,
+          "end": 200.43
+        },
+        {
+          "id": "p52w2",
+          "text": "looked",
+          "start": 200.43,
+          "end": 200.71
+        },
+        {
+          "id": "p52w3",
+          "text": "lovingly",
+          "start": 200.71,
+          "end": 201.33
+        },
+        {
+          "id": "p52w4",
+          "text": "at",
+          "start": 201.33,
+          "end": 201.59
+        },
+        {
+          "id": "p52w5",
+          "text": "his",
+          "start": 201.59,
+          "end": 201.69
+        },
+        {
+          "id": "p52w6",
+          "text": "sleeping",
+          "start": 201.69,
+          "end": 201.95
+        },
+        {
+          "id": "p52w7",
+          "text": "children.",
+          "start": 201.95,
+          "end": 202.49
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 203.17,
+      "end": 204.87,
+      "text": "There was a knock on the door of the cabin.",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "There",
+          "start": 203.17,
+          "end": 203.47
+        },
+        {
+          "id": "p53w2",
+          "text": "was",
+          "start": 203.47,
+          "end": 203.61
+        },
+        {
+          "id": "p53w3",
+          "text": "a",
+          "start": 203.61,
+          "end": 203.73
+        },
+        {
+          "id": "p53w4",
+          "text": "knock",
+          "start": 203.73,
+          "end": 203.93
+        },
+        {
+          "id": "p53w5",
+          "text": "on",
+          "start": 203.93,
+          "end": 204.13
+        },
+        {
+          "id": "p53w6",
+          "text": "the",
+          "start": 204.13,
+          "end": 204.21
+        },
+        {
+          "id": "p53w7",
+          "text": "door",
+          "start": 204.21,
+          "end": 204.43
+        },
+        {
+          "id": "p53w8",
+          "text": "of",
+          "start": 204.43,
+          "end": 204.59
+        },
+        {
+          "id": "p53w9",
+          "text": "the",
+          "start": 204.59,
+          "end": 204.67
+        },
+        {
+          "id": "p53w10",
+          "text": "cabin.",
+          "start": 204.67,
+          "end": 204.87
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 205.69,
+      "end": 206.55,
+      "text": "It was Mrs. Shelby.",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "It",
+          "start": 205.69,
+          "end": 205.83
+        },
+        {
+          "id": "p54w2",
+          "text": "was",
+          "start": 205.83,
+          "end": 205.95
+        },
+        {
+          "id": "p54w3",
+          "text": "Mrs.",
+          "start": 205.95,
+          "end": 206.15
+        },
+        {
+          "id": "p54w4",
+          "text": "Shelby.",
+          "start": 206.55,
+          "end": 206.55
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 207.27,
+      "end": 209.31,
+      "text": "Mrs. Shelby stood there crying.",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "Mrs.",
+          "start": 207.27,
+          "end": 207.79
+        },
+        {
+          "id": "p55w2",
+          "text": "Shelby",
+          "start": 207.95,
+          "end": 208.21
+        },
+        {
+          "id": "p55w3",
+          "text": "stood",
+          "start": 208.21,
+          "end": 208.65
+        },
+        {
+          "id": "p55w4",
+          "text": "there",
+          "start": 208.65,
+          "end": 208.99
+        },
+        {
+          "id": "p55w5",
+          "text": "crying.",
+          "start": 208.99,
+          "end": 209.31
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 210.19,
+      "end": 212.01,
+      "text": "It's time to go, my dear man.",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "It's",
+          "start": 210.19,
+          "end": 210.63
+        },
+        {
+          "id": "p56w2",
+          "text": "time",
+          "start": 210.63,
+          "end": 210.87
+        },
+        {
+          "id": "p56w3",
+          "text": "to",
+          "start": 210.87,
+          "end": 211.05
+        },
+        {
+          "id": "p56w4",
+          "text": "go,",
+          "start": 211.05,
+          "end": 211.25
+        },
+        {
+          "id": "p56w5",
+          "text": "my",
+          "start": 211.35,
+          "end": 211.51
+        },
+        {
+          "id": "p56w6",
+          "text": "dear",
+          "start": 211.51,
+          "end": 211.75
+        },
+        {
+          "id": "p56w7",
+          "text": "man.",
+          "start": 211.75,
+          "end": 212.01
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 212.65,
+      "end": 216.03,
+      "text": "She said, but I promise to find out where you are.",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "She",
+          "start": 212.65,
+          "end": 213.03
+        },
+        {
+          "id": "p57w2",
+          "text": "said,",
+          "start": 213.03,
+          "end": 213.37
+        },
+        {
+          "id": "p57w3",
+          "text": "but",
+          "start": 213.89,
+          "end": 213.95
+        },
+        {
+          "id": "p57w4",
+          "text": "I",
+          "start": 213.95,
+          "end": 214.09
+        },
+        {
+          "id": "p57w5",
+          "text": "promise",
+          "start": 214.09,
+          "end": 214.51
+        },
+        {
+          "id": "p57w6",
+          "text": "to",
+          "start": 214.51,
+          "end": 214.73
+        },
+        {
+          "id": "p57w7",
+          "text": "find",
+          "start": 214.73,
+          "end": 215.07
+        },
+        {
+          "id": "p57w8",
+          "text": "out",
+          "start": 215.07,
+          "end": 215.29
+        },
+        {
+          "id": "p57w9",
+          "text": "where",
+          "start": 215.29,
+          "end": 215.59
+        },
+        {
+          "id": "p57w10",
+          "text": "you",
+          "start": 215.59,
+          "end": 215.79
+        },
+        {
+          "id": "p57w11",
+          "text": "are.",
+          "start": 215.79,
+          "end": 216.03
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 216.67,
+      "end": 218.55,
+      "text": "We will get the money and buy you back.",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "We",
+          "start": 216.67,
+          "end": 216.95
+        },
+        {
+          "id": "p58w2",
+          "text": "will",
+          "start": 216.95,
+          "end": 217.09
+        },
+        {
+          "id": "p58w3",
+          "text": "get",
+          "start": 217.09,
+          "end": 217.29
+        },
+        {
+          "id": "p58w4",
+          "text": "the",
+          "start": 217.29,
+          "end": 217.45
+        },
+        {
+          "id": "p58w5",
+          "text": "money",
+          "start": 217.45,
+          "end": 217.71
+        },
+        {
+          "id": "p58w6",
+          "text": "and",
+          "start": 217.71,
+          "end": 217.85
+        },
+        {
+          "id": "p58w7",
+          "text": "buy",
+          "start": 217.85,
+          "end": 218.05
+        },
+        {
+          "id": "p58w8",
+          "text": "you",
+          "start": 218.05,
+          "end": 218.27
+        },
+        {
+          "id": "p58w9",
+          "text": "back.",
+          "start": 218.27,
+          "end": 218.55
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 224.76,
+      "end": 227.14,
+      "text": "Suddenly Mr. Haley burst into the room.",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "Suddenly",
+          "start": 224.76,
+          "end": 225.24
+        },
+        {
+          "id": "p59w2",
+          "text": "Mr.",
+          "start": 225.24,
+          "end": 225.72
+        },
+        {
+          "id": "p59w3",
+          "text": "Haley",
+          "start": 225.96,
+          "end": 225.98
+        },
+        {
+          "id": "p59w4",
+          "text": "burst",
+          "start": 225.98,
+          "end": 226.38
+        },
+        {
+          "id": "p59w5",
+          "text": "into",
+          "start": 226.38,
+          "end": 226.68
+        },
+        {
+          "id": "p59w6",
+          "text": "the",
+          "start": 226.68,
+          "end": 226.88
+        },
+        {
+          "id": "p59w7",
+          "text": "room.",
+          "start": 226.88,
+          "end": 227.14
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 228.35,
+      "end": 230.95,
+      "text": "He said to Tom, it's time for you to go.",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "He",
+          "start": 228.35,
+          "end": 228.51
+        },
+        {
+          "id": "p60w2",
+          "text": "said",
+          "start": 228.51,
+          "end": 228.73
+        },
+        {
+          "id": "p60w3",
+          "text": "to",
+          "start": 228.73,
+          "end": 228.89
+        },
+        {
+          "id": "p60w4",
+          "text": "Tom,",
+          "start": 228.89,
+          "end": 229.19
+        },
+        {
+          "id": "p60w5",
+          "text": "it's",
+          "start": 229.49,
+          "end": 229.87
+        },
+        {
+          "id": "p60w6",
+          "text": "time",
+          "start": 229.87,
+          "end": 230.17
+        },
+        {
+          "id": "p60w7",
+          "text": "for",
+          "start": 230.17,
+          "end": 230.39
+        },
+        {
+          "id": "p60w8",
+          "text": "you",
+          "start": 230.39,
+          "end": 230.59
+        },
+        {
+          "id": "p60w9",
+          "text": "to",
+          "start": 230.59,
+          "end": 230.69
+        },
+        {
+          "id": "p60w10",
+          "text": "go.",
+          "start": 230.69,
+          "end": 230.95
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 231.55,
+      "end": 233.71,
+      "text": "He put Uncle Tom in heavy chains.",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "He",
+          "start": 231.55,
+          "end": 232.07
+        },
+        {
+          "id": "p61w2",
+          "text": "put",
+          "start": 232.07,
+          "end": 232.29
+        },
+        {
+          "id": "p61w3",
+          "text": "Uncle",
+          "start": 232.29,
+          "end": 232.43
+        },
+        {
+          "id": "p61w4",
+          "text": "Tom",
+          "start": 232.43,
+          "end": 232.87
+        },
+        {
+          "id": "p61w5",
+          "text": "in",
+          "start": 232.87,
+          "end": 233.09
+        },
+        {
+          "id": "p61w6",
+          "text": "heavy",
+          "start": 233.09,
+          "end": 233.35
+        },
+        {
+          "id": "p61w7",
+          "text": "chains.",
+          "start": 233.35,
+          "end": 233.71
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 233.71,
+      "end": 235.85,
+      "text": "Then they drove away in a wagon.",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "Then",
+          "start": 233.71,
+          "end": 233.89
+        },
+        {
+          "id": "p62w2",
+          "text": "they",
+          "start": 233.89,
+          "end": 234.67
+        },
+        {
+          "id": "p62w3",
+          "text": "drove",
+          "start": 234.67,
+          "end": 234.89
+        },
+        {
+          "id": "p62w4",
+          "text": "away",
+          "start": 234.89,
+          "end": 235.35
+        },
+        {
+          "id": "p62w5",
+          "text": "in",
+          "start": 235.35,
+          "end": 235.55
+        },
+        {
+          "id": "p62w6",
+          "text": "a",
+          "start": 235.55,
+          "end": 235.61
+        },
+        {
+          "id": "p62w7",
+          "text": "wagon.",
+          "start": 235.61,
+          "end": 235.85
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 236.54,
+      "end": 239.88,
+      "text": "On the way out of town Mr. Haley stopped at a store.",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "On",
+          "start": 236.54,
+          "end": 237.14
+        },
+        {
+          "id": "p63w2",
+          "text": "the",
+          "start": 237.14,
+          "end": 237.26
+        },
+        {
+          "id": "p63w3",
+          "text": "way",
+          "start": 237.26,
+          "end": 237.44
+        },
+        {
+          "id": "p63w4",
+          "text": "out",
+          "start": 237.44,
+          "end": 237.7
+        },
+        {
+          "id": "p63w5",
+          "text": "of",
+          "start": 237.7,
+          "end": 237.8
+        },
+        {
+          "id": "p63w6",
+          "text": "town",
+          "start": 237.8,
+          "end": 238.0
+        },
+        {
+          "id": "p63w7",
+          "text": "Mr.",
+          "start": 238.0,
+          "end": 238.36
+        },
+        {
+          "id": "p63w8",
+          "text": "Haley",
+          "start": 238.78,
+          "end": 238.78
+        },
+        {
+          "id": "p63w9",
+          "text": "stopped",
+          "start": 238.78,
+          "end": 239.1
+        },
+        {
+          "id": "p63w10",
+          "text": "at",
+          "start": 239.1,
+          "end": 239.44
+        },
+        {
+          "id": "p63w11",
+          "text": "a",
+          "start": 239.44,
+          "end": 239.54
+        },
+        {
+          "id": "p63w12",
+          "text": "store.",
+          "start": 239.54,
+          "end": 239.88
+        }
+      ]
+    },
+    {
+      "id": "p64",
+      "start": 240.84,
+      "end": 242.94,
+      "text": "Tom waited outside in the wagon.",
+      "words": [
+        {
+          "id": "p64w1",
+          "text": "Tom",
+          "start": 240.84,
+          "end": 241.44
+        },
+        {
+          "id": "p64w2",
+          "text": "waited",
+          "start": 241.44,
+          "end": 241.74
+        },
+        {
+          "id": "p64w3",
+          "text": "outside",
+          "start": 241.74,
+          "end": 242.08
+        },
+        {
+          "id": "p64w4",
+          "text": "in",
+          "start": 242.08,
+          "end": 242.54
+        },
+        {
+          "id": "p64w5",
+          "text": "the",
+          "start": 242.54,
+          "end": 242.64
+        },
+        {
+          "id": "p64w6",
+          "text": "wagon.",
+          "start": 242.64,
+          "end": 242.94
+        }
+      ]
+    },
+    {
+      "id": "p65",
+      "start": 243.77,
+      "end": 246.59,
+      "text": "Young Johnny Shelby followed them on his horse.",
+      "words": [
+        {
+          "id": "p65w1",
+          "text": "Young",
+          "start": 243.77,
+          "end": 244.37
+        },
+        {
+          "id": "p65w2",
+          "text": "Johnny",
+          "start": 244.37,
+          "end": 244.73
+        },
+        {
+          "id": "p65w3",
+          "text": "Shelby",
+          "start": 244.73,
+          "end": 245.09
+        },
+        {
+          "id": "p65w4",
+          "text": "followed",
+          "start": 245.09,
+          "end": 245.71
+        },
+        {
+          "id": "p65w5",
+          "text": "them",
+          "start": 245.71,
+          "end": 245.99
+        },
+        {
+          "id": "p65w6",
+          "text": "on",
+          "start": 245.99,
+          "end": 246.17
+        },
+        {
+          "id": "p65w7",
+          "text": "his",
+          "start": 246.17,
+          "end": 246.33
+        },
+        {
+          "id": "p65w8",
+          "text": "horse.",
+          "start": 246.33,
+          "end": 246.59
+        }
+      ]
+    },
+    {
+      "id": "p66",
+      "start": 247.37,
+      "end": 249.35,
+      "text": "He jumped in the wagon and hugged Tom.",
+      "words": [
+        {
+          "id": "p66w1",
+          "text": "He",
+          "start": 247.37,
+          "end": 247.59
+        },
+        {
+          "id": "p66w2",
+          "text": "jumped",
+          "start": 247.59,
+          "end": 247.81
+        },
+        {
+          "id": "p66w3",
+          "text": "in",
+          "start": 247.81,
+          "end": 248.11
+        },
+        {
+          "id": "p66w4",
+          "text": "the",
+          "start": 248.11,
+          "end": 248.19
+        },
+        {
+          "id": "p66w5",
+          "text": "wagon",
+          "start": 248.19,
+          "end": 248.51
+        },
+        {
+          "id": "p66w6",
+          "text": "and",
+          "start": 248.51,
+          "end": 248.71
+        },
+        {
+          "id": "p66w7",
+          "text": "hugged",
+          "start": 248.71,
+          "end": 248.95
+        },
+        {
+          "id": "p66w8",
+          "text": "Tom.",
+          "start": 248.95,
+          "end": 249.35
+        }
+      ]
+    },
+    {
+      "id": "p67",
+      "start": 249.81,
+      "end": 251.95,
+      "text": "I hate slavery, Uncle Tom.",
+      "words": [
+        {
+          "id": "p67w1",
+          "text": "I",
+          "start": 249.81,
+          "end": 250.27
+        },
+        {
+          "id": "p67w2",
+          "text": "hate",
+          "start": 250.27,
+          "end": 250.53
+        },
+        {
+          "id": "p67w3",
+          "text": "slavery,",
+          "start": 250.53,
+          "end": 250.89
+        },
+        {
+          "id": "p67w4",
+          "text": "Uncle",
+          "start": 251.01,
+          "end": 251.49
+        },
+        {
+          "id": "p67w5",
+          "text": "Tom.",
+          "start": 251.49,
+          "end": 251.95
+        }
+      ]
+    },
+    {
+      "id": "p68",
+      "start": 252.41,
+      "end": 253.17,
+      "text": "Cried Johnny.",
+      "words": [
+        {
+          "id": "p68w1",
+          "text": "Cried",
+          "start": 252.41,
+          "end": 252.89
+        },
+        {
+          "id": "p68w2",
+          "text": "Johnny.",
+          "start": 252.89,
+          "end": 253.17
+        }
+      ]
+    },
+    {
+      "id": "p69",
+      "start": 254.65,
+      "end": 256.33,
+      "text": "Uncle Tom hugged the boy and said,",
+      "words": [
+        {
+          "id": "p69w1",
+          "text": "Uncle",
+          "start": 254.65,
+          "end": 254.65
+        },
+        {
+          "id": "p69w2",
+          "text": "Tom",
+          "start": 254.65,
+          "end": 255.05
+        },
+        {
+          "id": "p69w3",
+          "text": "hugged",
+          "start": 255.05,
+          "end": 255.41
+        },
+        {
+          "id": "p69w4",
+          "text": "the",
+          "start": 255.41,
+          "end": 255.61
+        },
+        {
+          "id": "p69w5",
+          "text": "boy",
+          "start": 255.61,
+          "end": 255.87
+        },
+        {
+          "id": "p69w6",
+          "text": "and",
+          "start": 255.87,
+          "end": 256.05
+        },
+        {
+          "id": "p69w7",
+          "text": "said,",
+          "start": 256.05,
+          "end": 256.33
+        }
+      ]
+    },
+    {
+      "id": "p70",
+      "start": 257.15,
+      "end": 260.13,
+      "text": "Now, Master Johnny, you be good to your mother.",
+      "words": [
+        {
+          "id": "p70w1",
+          "text": "Now,",
+          "start": 257.15,
+          "end": 257.43
+        },
+        {
+          "id": "p70w2",
+          "text": "Master",
+          "start": 257.63,
+          "end": 257.95
+        },
+        {
+          "id": "p70w3",
+          "text": "Johnny,",
+          "start": 257.95,
+          "end": 258.17
+        },
+        {
+          "id": "p70w4",
+          "text": "you",
+          "start": 258.75,
+          "end": 259.05
+        },
+        {
+          "id": "p70w5",
+          "text": "be",
+          "start": 259.05,
+          "end": 259.25
+        },
+        {
+          "id": "p70w6",
+          "text": "good",
+          "start": 259.25,
+          "end": 259.55
+        },
+        {
+          "id": "p70w7",
+          "text": "to",
+          "start": 259.55,
+          "end": 259.71
+        },
+        {
+          "id": "p70w8",
+          "text": "your",
+          "start": 259.71,
+          "end": 259.85
+        },
+        {
+          "id": "p70w9",
+          "text": "mother.",
+          "start": 259.85,
+          "end": 260.13
+        }
+      ]
+    },
+    {
+      "id": "p71",
+      "start": 260.99,
+      "end": 263.21,
+      "text": "God only gives you one mother.",
+      "words": [
+        {
+          "id": "p71w1",
+          "text": "God",
+          "start": 260.99,
+          "end": 261.21
+        },
+        {
+          "id": "p71w2",
+          "text": "only",
+          "start": 261.21,
+          "end": 261.51
+        },
+        {
+          "id": "p71w3",
+          "text": "gives",
+          "start": 261.51,
+          "end": 261.89
+        },
+        {
+          "id": "p71w4",
+          "text": "you",
+          "start": 261.89,
+          "end": 262.39
+        },
+        {
+          "id": "p71w5",
+          "text": "one",
+          "start": 262.39,
+          "end": 262.75
+        },
+        {
+          "id": "p71w6",
+          "text": "mother.",
+          "start": 262.75,
+          "end": 263.21
+        }
+      ]
+    },
+    {
+      "id": "p72",
+      "start": 263.94,
+      "end": 265.36,
+      "text": "I will, Uncle Tom.",
+      "words": [
+        {
+          "id": "p72w1",
+          "text": "I",
+          "start": 263.94,
+          "end": 264.46
+        },
+        {
+          "id": "p72w2",
+          "text": "will,",
+          "start": 264.46,
+          "end": 264.7
+        },
+        {
+          "id": "p72w3",
+          "text": "Uncle",
+          "start": 264.94,
+          "end": 265.08
+        },
+        {
+          "id": "p72w4",
+          "text": "Tom.",
+          "start": 265.08,
+          "end": 265.36
+        }
+      ]
+    },
+    {
+      "id": "p73",
+      "start": 266.64,
+      "end": 266.9,
+      "text": "Promise Johnny.",
+      "words": [
+        {
+          "id": "p73w1",
+          "text": "Promise",
+          "start": 266.64,
+          "end": 266.64
+        },
+        {
+          "id": "p73w2",
+          "text": "Johnny.",
+          "start": 266.64,
+          "end": 266.9
+        }
+      ]
+    },
+    {
+      "id": "p74",
+      "start": 268.64,
+      "end": 271.62,
+      "text": "He also promised to come down south and buy Uncle Tom.",
+      "words": [
+        {
+          "id": "p74w1",
+          "text": "He",
+          "start": 268.64,
+          "end": 268.74
+        },
+        {
+          "id": "p74w2",
+          "text": "also",
+          "start": 268.74,
+          "end": 268.92
+        },
+        {
+          "id": "p74w3",
+          "text": "promised",
+          "start": 268.92,
+          "end": 269.48
+        },
+        {
+          "id": "p74w4",
+          "text": "to",
+          "start": 269.48,
+          "end": 269.74
+        },
+        {
+          "id": "p74w5",
+          "text": "come",
+          "start": 269.74,
+          "end": 269.92
+        },
+        {
+          "id": "p74w6",
+          "text": "down",
+          "start": 269.92,
+          "end": 270.16
+        },
+        {
+          "id": "p74w7",
+          "text": "south",
+          "start": 270.16,
+          "end": 270.48
+        },
+        {
+          "id": "p74w8",
+          "text": "and",
+          "start": 270.48,
+          "end": 270.74
+        },
+        {
+          "id": "p74w9",
+          "text": "buy",
+          "start": 270.74,
+          "end": 270.96
+        },
+        {
+          "id": "p74w10",
+          "text": "Uncle",
+          "start": 270.96,
+          "end": 271.18
+        },
+        {
+          "id": "p74w11",
+          "text": "Tom.",
+          "start": 271.18,
+          "end": 271.62
+        }
+      ]
+    },
+    {
+      "id": "p75",
+      "start": 272.42,
+      "end": 273.4,
+      "text": "Then they said goodbye.",
+      "words": [
+        {
+          "id": "p75w1",
+          "text": "Then",
+          "start": 272.42,
+          "end": 272.58
+        },
+        {
+          "id": "p75w2",
+          "text": "they",
+          "start": 272.58,
+          "end": 272.86
+        },
+        {
+          "id": "p75w3",
+          "text": "said",
+          "start": 272.86,
+          "end": 273.14
+        },
+        {
+          "id": "p75w4",
+          "text": "goodbye.",
+          "start": 273.14,
+          "end": 273.4
+        }
+      ]
+    }
+  ]
+}

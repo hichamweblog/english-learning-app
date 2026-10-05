@@ -120,26 +120,26 @@ export function PodcastBrowser({ initialEpisodes }: Props) {
   return (
     <div className="space-y-6">
       {/* Series Filter Tabs */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar border-b border-stone-200 dark:border-stone-800">
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar border-b border-[hsl(var(--border))]">
         {seriesTabs.map((tab) => (
           <button
             key={tab.id}
             type="button"
             onClick={() => setSelectedSeries(tab.id)}
             className={cn(
-              'px-3.5 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap transition-all flex items-center gap-1.5',
+              'px-3.5 py-2 text-xs font-semibold rounded-t-lg whitespace-nowrap transition-all flex items-center gap-1.5',
               selectedSeries === tab.id
-                ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-xs'
-                : 'text-stone-600 dark:text-stone-400 hover:text-stone-950 dark:hover:text-stone-100 hover:bg-stone-200/50 dark:hover:bg-stone-800/60'
+                ? 'border-b-2 border-[hsl(var(--primary))] text-[hsl(var(--foreground))]'
+                : 'text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:bg-[hsl(var(--foreground)/0.04)] border-b-2 border-transparent'
             )}
           >
             <span>{tab.label}</span>
             <span
               className={cn(
-                'text-[10px] px-1.5 py-0.2 rounded-full font-mono',
+                'text-[10px] px-1.5 py-0.5 rounded-full font-mono',
                 selectedSeries === tab.id
-                  ? 'bg-stone-800 text-stone-200 dark:bg-stone-200 dark:text-stone-800'
-                  : 'bg-stone-200/70 dark:bg-stone-800 text-stone-600 dark:text-stone-400'
+                  ? 'bg-[hsl(var(--primary)/0.15)] text-[hsl(var(--primary))]'
+                  : 'bg-[hsl(var(--foreground)/0.06)]'
               )}
             >
               {tab.count}
@@ -151,43 +151,43 @@ export function PodcastBrowser({ initialEpisodes }: Props) {
       {/* Search Bar, Sorting, & Result Count */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
         <div className="relative w-full sm:w-96">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-400" />
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[hsl(var(--muted-foreground))]" />
           <input
             type="text"
             placeholder="Search by topic or number (e.g. 42, job, phone)..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-9 pr-8 py-2 text-xs sm:text-sm rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-colors"
+            className="w-full pl-9 pr-8 py-2 text-xs sm:text-sm rounded-xl border border-[hsl(var(--border))] bg-transparent focus:outline-none focus:ring-2 focus:ring-[hsl(var(--primary))] transition-colors"
           />
           {searchQuery && (
             <button
               type="button"
               onClick={() => setSearchQuery('')}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 dark:hover:text-stone-200"
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]"
             >
               <X className="w-3.5 h-3.5" />
             </button>
           )}
         </div>
 
-        <div className="flex items-center gap-3 self-start sm:self-auto text-xs text-stone-500">
+        <div className="flex items-center gap-3 self-start sm:self-auto text-xs text-[hsl(var(--muted-foreground))]">
           <button
             type="button"
             onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
-            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors font-medium"
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-[hsl(var(--border))] bg-transparent hover:bg-[hsl(var(--foreground)/0.04)] transition-colors font-medium"
           >
             <ArrowUpDown className="w-3.5 h-3.5" />
             <span>{sortOrder === 'asc' ? 'Number: 1 → End' : 'Number: End → 1'}</span>
           </button>
 
           <span>
-            Showing <strong className="text-stone-900 dark:text-stone-100">{paginated.length}</strong> of {filtered.length}
+            Showing <strong className="text-[hsl(var(--foreground))]">{paginated.length}</strong> of {filtered.length}
           </span>
         </div>
       </div>
 
-      {/* Episode Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      {/* Episode Linear List */}
+      <div className="flex flex-col gap-2">
         {paginated.map((ep) => {
           const isCurrentlyPlaying = currentTrack?.id === ep.id && isPlaying;
           const isCurrentActive = currentTrack?.id === ep.id;
@@ -197,118 +197,98 @@ export function PodcastBrowser({ initialEpisodes }: Props) {
             <div
               key={ep.id}
               className={cn(
-                'group p-4 rounded-xl border bg-white dark:bg-[#14161C] transition-all flex flex-col justify-between gap-3 shadow-2xs hover:shadow-xs',
+                'group p-3 sm:p-4 rounded-xl border transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm hover:shadow-md',
                 isCurrentActive
-                  ? 'border-amber-500/80 ring-1 ring-amber-500/30 dark:border-amber-400/80'
-                  : 'border-stone-200 dark:border-stone-800 hover:border-stone-300 dark:hover:border-stone-700'
+                  ? 'border-[hsl(var(--podcast-sienna))] bg-[hsl(var(--podcast-sienna)/0.03)] ring-1 ring-[hsl(var(--podcast-sienna)/0.3)]'
+                  : 'bg-[hsl(var(--card))] border-[hsl(var(--border))] hover:border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.02)]'
               )}
             >
-              <div className="flex items-start justify-between gap-3">
+              <div className="flex items-center gap-4 min-w-0 flex-1">
+                {/* Play Button */}
+                <button
+                  type="button"
+                  onClick={() => handlePlayEpisode(ep)}
+                  className={cn(
+                    'w-10 h-10 rounded-full flex items-center justify-center shrink-0 transition-transform shadow-sm',
+                    isCurrentlyPlaying
+                      ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] scale-95'
+                      : 'bg-[hsl(var(--foreground)/0.05)] text-[hsl(var(--foreground))] hover:bg-[hsl(var(--foreground)/0.1)] hover:scale-105'
+                  )}
+                >
+                  {isCurrentlyPlaying ? (
+                    <Pause className="w-4 h-4 fill-current" />
+                  ) : (
+                    <Play className="w-4 h-4 fill-current ml-0.5" />
+                  )}
+                </button>
+
                 <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2 mb-1.5">
-                    <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-stone-100 dark:bg-stone-800 text-amber-800 dark:text-amber-400">
+                  <div className="flex items-center gap-2 mb-0.5">
+                    <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-[hsl(var(--podcast-sienna)/0.15)] text-[hsl(var(--podcast-sienna))]">
                       #{ep.number}
                     </span>
-                    <span className="text-[10px] uppercase font-semibold text-stone-400 dark:text-stone-500 truncate">
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-[hsl(var(--muted-foreground))] truncate">
                       {ep.seriesTitle}
                     </span>
                   </div>
 
                   <Link
                     href={`/podcasts/${ep.id}`}
-                    className="block font-serif text-base font-normal text-stone-900 dark:text-stone-100 group-hover:text-amber-800 dark:group-hover:text-amber-400 transition-colors line-clamp-2"
+                    className="block font-serif text-base sm:text-lg font-medium text-[hsl(var(--foreground))] hover:text-[hsl(var(--podcast-sienna))] transition-colors truncate"
                   >
                     {ep.title}
                   </Link>
                 </div>
+              </div>
 
-                {/* Mark as Complete Checkmark */}
+              {/* Action Buttons Row */}
+              <div className="flex items-center gap-3 shrink-0 pl-14 sm:pl-0">
+                <Link
+                  href={`/podcasts/${ep.id}`}
+                  className="px-3 py-1.5 rounded-lg text-xs font-semibold text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:bg-[hsl(var(--foreground)/0.06)] transition-colors flex items-center gap-1.5"
+                >
+                  <FileText className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Study Notes</span>
+                </Link>
+
                 <button
                   type="button"
                   onClick={() => toggleCompleted(ep.id)}
                   aria-label={isCompleted ? 'Mark incomplete' : 'Mark complete'}
                   className={cn(
-                    'p-1 rounded-full transition-colors shrink-0',
+                    'p-1.5 rounded-lg transition-colors',
                     isCompleted
-                      ? 'text-emerald-600 bg-emerald-50 dark:bg-emerald-950/40'
-                      : 'text-stone-300 dark:text-stone-700 hover:text-stone-500'
+                      ? 'text-[hsl(var(--primary))] bg-[hsl(var(--primary)/0.15)]'
+                      : 'text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--foreground)/0.06)] hover:text-[hsl(var(--foreground))]'
                   )}
                 >
                   <CheckCircle2 className="w-4 h-4" />
                 </button>
-              </div>
-
-              {/* Action Buttons Row */}
-              <div className="pt-2 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between text-xs">
-                {/* Inline Play/Pause Trigger */}
-                <button
-                  type="button"
-                  onClick={() => handlePlayEpisode(ep)}
-                  className={cn(
-                    'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all',
-                    isCurrentlyPlaying
-                      ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-xs'
-                      : 'bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700'
-                  )}
-                >
-                  {isCurrentlyPlaying ? (
-                    <>
-                      <Pause className="w-3.5 h-3.5 fill-current" />
-                      <span>Pause</span>
-                    </>
-                  ) : (
-                    <>
-                      <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
-                      <span>Listen</span>
-                    </>
-                  )}
-                </button>
-
-                <div className="flex items-center gap-2">
-                  {ep.pdfPath && (
-                    <a
-                      href={resolveMediaUrl(ep.pdfPath)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="Open Study Guide PDF"
-                      className="p-1.5 text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-lg transition-colors"
-                    >
-                      <FileText className="w-4 h-4" />
-                    </a>
-                  )}
-
-                  <Link
-                    href={`/podcasts/${ep.id}`}
-                    className="font-semibold text-stone-700 dark:text-stone-300 hover:underline"
-                  >
-                    Study Unit →
-                  </Link>
-                </div>
               </div>
             </div>
           );
         })}
       </div>
 
-      {/* Pagination Controls */}
+      {/* Pagination */}
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-2 pt-6">
           <button
             type="button"
             disabled={page === 1}
             onClick={() => setPage((p) => Math.max(1, p - 1))}
-            className="px-3.5 py-1.5 rounded-lg border border-stone-200 dark:border-stone-800 text-xs font-semibold disabled:opacity-40 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
+            className="px-3.5 py-1.5 rounded-lg border border-[hsl(var(--border))] text-xs font-semibold disabled:opacity-40 hover:bg-[hsl(var(--foreground)/0.04)] transition-colors"
           >
             Previous
           </button>
-          <span className="text-xs text-stone-500 px-3 font-mono">
+          <span className="text-xs text-[hsl(var(--muted-foreground))] px-2 font-medium">
             Page {page} of {totalPages}
           </span>
           <button
             type="button"
             disabled={page === totalPages}
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-            className="px-3.5 py-1.5 rounded-lg border border-stone-200 dark:border-stone-800 text-xs font-semibold disabled:opacity-40 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
+            className="px-3.5 py-1.5 rounded-lg border border-[hsl(var(--border))] text-xs font-semibold disabled:opacity-40 hover:bg-[hsl(var(--foreground)/0.04)] transition-colors"
           >
             Next
           </button>

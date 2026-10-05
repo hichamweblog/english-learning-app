@@ -4,335 +4,262 @@ import {
   Headphones,
   BookOpen,
   Mic,
-  Library,
   ArrowRight,
-  Play,
-  CheckCircle2,
-  Clock,
-  Compass,
-  Sparkles,
   Quote,
-  Flame,
+  Sparkles,
+  Map,
+  Compass,
 } from 'lucide-react';
-import {
-  getManifest,
-  getDailyEnglishEpisodes,
-  getGradedReaders,
-  getCulturalEnglishEpisodes,
-} from '@/lib/content/load';
+import { getManifest } from '@/lib/content/load';
+import { getDailyEnglishEpisodes, getGradedReaders } from '@/lib/content/load';
 import { HomeClient } from '@/components/Home/HomeClient';
 
 export default function HomePage() {
   const manifest = getManifest();
-  const dailyEpisodes = getDailyEnglishEpisodes().slice(0, 6);
-  const sampleReaders = getGradedReaders()
-    .filter((r) => r.hasAudio)
-    .slice(0, 6);
+  const nextEpisode = getDailyEnglishEpisodes()[0];
+  const nextReader = getGradedReaders()[0];
+
+  // Simple greeting logic for server component
+  const getGreeting = () => {
+    return "Ready for your next session?";
+  };
 
   return (
-    <div className="space-y-12">
-      {/* Editorial Masthead */}
-      <section className="relative overflow-hidden rounded-3xl bg-stone-900 text-stone-100 dark:bg-[#14161C] dark:border dark:border-stone-800 p-8 sm:p-12 shadow-md">
-        <div className="relative z-10 max-w-3xl space-y-5">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-800/80 dark:bg-stone-800 border border-stone-700/60 text-xs font-semibold tracking-wide text-amber-300">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            <span>Curated Authentic Corpus · 4,320+ Audio Lessons & Chapters</span>
-          </div>
-
-          <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal tracking-tight text-white leading-[1.12]">
-            Master English through real speech and timeless literature.
-          </h1>
-
-          <p className="text-base sm:text-lg text-stone-300 font-sans leading-relaxed max-w-2xl font-normal">
-            No synthetic robot dialogues or gamified flashcard gimmicks. Immerse in structured
-            conversations, complete graded audiobooks, authentic colloquial idioms, and natural rhythm.
-          </p>
-
-          {/* Catalog Index Metrics */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3">
-            <div className="p-3.5 rounded-xl bg-stone-800/60 dark:bg-stone-900/80 border border-stone-700/50">
-              <span className="block font-mono text-2xl font-bold text-amber-400">
-                {manifest.counts.dailyEnglish.toLocaleString()}
-              </span>
-              <span className="text-xs text-stone-300 font-medium">Daily Lessons</span>
-            </div>
-            <div className="p-3.5 rounded-xl bg-stone-800/60 dark:bg-stone-900/80 border border-stone-700/50">
-              <span className="block font-mono text-2xl font-bold text-amber-400">
-                {manifest.counts.culturalEnglish.toLocaleString()}
-              </span>
-              <span className="text-xs text-stone-300 font-medium">Cultural Insights</span>
-            </div>
-            <div className="p-3.5 rounded-xl bg-stone-800/60 dark:bg-stone-900/80 border border-stone-700/50">
-              <span className="block font-mono text-2xl font-bold text-emerald-400">
-                {manifest.counts.readers.toLocaleString()}
-              </span>
-              <span className="text-xs text-stone-300 font-medium">Graded Audiobooks</span>
-            </div>
-            <div className="p-3.5 rounded-xl bg-stone-800/60 dark:bg-stone-900/80 border border-stone-700/50">
-              <span className="block font-mono text-2xl font-bold text-sky-400">
-                {manifest.counts.referenceBooks.toLocaleString()}
-              </span>
-              <span className="text-xs text-stone-300 font-medium">Reference Folios</span>
-            </div>
-          </div>
-        </div>
+    <div className="space-y-12 max-w-[800px] mx-auto pb-16">
+      
+      {/* 1. Greeting */}
+      <section className="pt-6 pb-2">
+        <h1 className="font-serif text-3xl sm:text-4xl font-normal tracking-tight text-[hsl(var(--foreground))]">
+          Good day. {getGreeting()}
+        </h1>
+        <p className="text-[hsl(var(--muted-foreground))] mt-2 text-sm">
+          "Mastery is not a function of genius, but of daily, unglamorous persistence."
+        </p>
       </section>
 
-      {/* Daily Expression Spotlight (Authentic Linguistic Context) */}
-      <section className="p-6 rounded-2xl border border-stone-300/80 dark:border-stone-800 bg-[#F4F1EA]/80 dark:bg-[#16181F] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div className="flex items-start gap-3.5">
-          <div className="w-10 h-10 rounded-xl bg-amber-500/15 text-amber-700 dark:text-amber-400 flex items-center justify-center shrink-0 border border-amber-500/25">
-            <Quote className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-amber-800 dark:text-amber-400">
-                Expression Spotlight
-              </span>
-              <span className="text-xs text-stone-400 font-mono">/tuː lɜːn ðə roʊps/</span>
-            </div>
-            <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100">
-              &ldquo;To learn the ropes&rdquo;
-            </h3>
-            <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
-              Meaning: To understand how a particular job or task is organized. Originates from sailing ships where sailors had to learn how to tie and handle miles of complex ropes.
-            </p>
-          </div>
-        </div>
-        <Link
-          href="/podcasts/daily-1"
-          className="shrink-0 px-3.5 py-1.5 rounded-lg border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-semibold text-stone-800 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors flex items-center gap-1.5 self-end sm:self-auto"
-        >
-          <span>Listen in Episode #1</span>
-          <ArrowRight className="w-3.5 h-3.5" />
-        </Link>
-      </section>
-
-      {/* Recent Activity Resume */}
+      {/* 2. Continue Where You Left Off */}
       <HomeClient />
 
-      {/* Primary Learning Tracks */}
-      <section className="space-y-5" aria-labelledby="tracks-heading">
-        <div className="flex items-center justify-between">
+      {/* 3. Today's input */}
+      <section aria-labelledby="today-heading" className="space-y-5">
+        <div className="flex items-end justify-between gap-4">
           <div>
-            <h2 id="tracks-heading" className="text-xl sm:text-2xl font-serif font-medium tracking-tight text-stone-900 dark:text-stone-50 flex items-center gap-2.5">
-              <Compass className="w-5 h-5 text-amber-700 dark:text-amber-400" />
-              Four Systematic Pathways
+            <span className="text-[10px] font-sans font-bold uppercase tracking-[0.14em] text-[hsl(var(--accent-warm))]">
+              Today
+            </span>
+            <h2 id="today-heading" className="font-serif text-2xl sm:text-3xl text-[hsl(var(--foreground))] mt-1">
+              A little understandable English
             </h2>
-            <p className="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-0.5">
-              Organized by linguistic discipline: conversational ease, extensive reading, cultural depth, and vocal clarity.
+            <p className="text-sm text-[hsl(var(--muted-foreground))] mt-1">
+              Start with one piece. Stay with it for as long as it feels useful.
             </p>
           </div>
+          <span className="hidden sm:inline-flex items-center gap-1.5 text-xs text-[hsl(var(--muted-foreground))]">
+            <Compass className="w-3.5 h-3.5" />
+            Chosen for steady progress
+          </span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {/* Pathway 1: Daily English */}
+        <div className="grid gap-4 sm:grid-cols-2">
           <Link
-            href="/podcasts?series=daily-english"
-            className="group p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] hover:border-amber-600/60 dark:hover:border-amber-400/60 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
+            href={`/podcasts/${nextEpisode.id}`}
+            className="group surface-elevated p-5 sm:p-6 flex flex-col min-h-[190px] justify-between hover:-translate-y-0.5 transition-transform"
           >
-            <div>
-              <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-800 dark:text-amber-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-amber-500/20">
+            <div className="flex items-start justify-between gap-3">
+              <div className="w-10 h-10 rounded-full bg-[hsl(var(--podcast-sienna)/0.1)] text-[hsl(var(--podcast-sienna))] flex items-center justify-center">
                 <Headphones className="w-5 h-5" />
               </div>
-              <div className="flex items-center gap-2 mb-1">
-                <span className="text-[10px] font-bold font-mono uppercase text-amber-700 dark:text-amber-400">
-                  CEFR A2 → B2
-                </span>
-              </div>
-              <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100 mb-1.5">
-                Daily English
+              <span className="text-[10px] font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+                Listen · 10 min
+              </span>
+            </div>
+            <div className="mt-6">
+              <h3 className="font-serif text-xl text-[hsl(var(--foreground))] group-hover:text-[hsl(var(--podcast-sienna))] transition-colors">
+                {nextEpisode.title}
               </h3>
-              <p className="text-xs text-stone-500 dark:text-stone-400 leading-relaxed">
-                1,305 sequential audio lessons exploring workplace scenarios, daily routines, social nuances, and real-life dialogues.
+              <p className="text-xs text-[hsl(var(--muted-foreground))] mt-1">
+                {nextEpisode.seriesTitle} · {nextEpisode.levelLabel || 'A2–B2'}
               </p>
             </div>
-            <div className="mt-5 pt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between text-xs font-semibold text-stone-800 dark:text-stone-200">
-              <span>Browse 1,305 lessons</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-            </div>
+            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[hsl(var(--podcast-sienna))] mt-5">
+              Listen now
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </span>
           </Link>
 
-          {/* Pathway 2: Graded Readers */}
           <Link
-            href="/readers"
-            className="group p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] hover:border-emerald-600/60 dark:hover:border-emerald-400/60 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
+            href={`/readers/${nextReader.id}`}
+            className="group surface-card p-5 sm:p-6 flex flex-col min-h-[190px] justify-between hover:-translate-y-0.5 transition-transform"
           >
-            <div>
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-800 dark:text-emerald-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-emerald-500/20">
+            <div className="flex items-start justify-between gap-3">
+              <div className="w-10 h-10 rounded-full bg-[hsl(var(--reader-green)/0.1)] text-[hsl(var(--reader-green))] flex items-center justify-center">
                 <BookOpen className="w-5 h-5" />
               </div>
-              <div className="flex items-center gap-2 mb-1">
-                <span className="text-[10px] font-bold font-mono uppercase text-emerald-700 dark:text-emerald-400">
-                  6 Graded Stages
-                </span>
-              </div>
-              <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100 mb-1.5">
-                Graded Readers
+              <span className="text-[10px] font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+                Read · 15 min
+              </span>
+            </div>
+            <div className="mt-6">
+              <h3 className="font-serif text-xl text-[hsl(var(--foreground))] group-hover:text-[hsl(var(--reader-green))] transition-colors">
+                {nextReader.title}
               </h3>
-              <p className="text-xs text-stone-500 dark:text-stone-400 leading-relaxed">
-                265 classic & modern books with chapter-by-chapter audio narration, from Starter (300 headwords) to Advanced.
+              <p className="text-xs text-[hsl(var(--muted-foreground))] mt-1">
+                {nextReader.levelLabel} · Audio-supported reader
               </p>
             </div>
-            <div className="mt-5 pt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between text-xs font-semibold text-emerald-700 dark:text-emerald-400">
-              <span>Explore Bookshelf</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-            </div>
-          </Link>
-
-          {/* Pathway 3: Cultural & VIP */}
-          <Link
-            href="/podcasts?series=cultural-english"
-            className="group p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] hover:border-indigo-600/60 dark:hover:border-indigo-400/60 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
-          >
-            <div>
-              <div className="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-800 dark:text-indigo-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-indigo-500/20">
-                <Compass className="w-5 h-5" />
-              </div>
-              <div className="flex items-center gap-2 mb-1">
-                <span className="text-[10px] font-bold font-mono uppercase text-indigo-700 dark:text-indigo-400">
-                  CEFR B2 → C1
-                </span>
-              </div>
-              <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100 mb-1.5">
-                Cultural & VIP Slang
-              </h3>
-              <p className="text-xs text-stone-500 dark:text-stone-400 leading-relaxed">
-                850+ episodes decoding American humor, historical context, colloquial expressions, and conversational idioms.
-              </p>
-            </div>
-            <div className="mt-5 pt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between text-xs font-semibold text-indigo-700 dark:text-indigo-400">
-              <span>Deep Nuance</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-            </div>
-          </Link>
-
-          {/* Pathway 4: Accent Studio */}
-          <Link
-            href="/accent"
-            className="group p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] hover:border-amber-600/60 dark:hover:border-amber-400/60 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
-          >
-            <div>
-              <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-800 dark:text-amber-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-amber-500/20">
-                <Mic className="w-5 h-5" />
-              </div>
-              <div className="flex items-center gap-2 mb-1">
-                <span className="text-[10px] font-bold font-mono uppercase text-amber-700 dark:text-amber-400">
-                  Acoustic Drills
-                </span>
-              </div>
-              <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100 mb-1.5">
-                Accent & Intonation
-              </h3>
-              <p className="text-xs text-stone-500 dark:text-stone-400 leading-relaxed">
-                19 systematic acoustic modules on flap T, glottal stops, vowel shifts, pitch peaks, and connected speech.
-              </p>
-            </div>
-            <div className="mt-5 pt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between text-xs font-semibold text-amber-700 dark:text-amber-400">
-              <span>Phonetics Studio</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-            </div>
+            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[hsl(var(--reader-green))] mt-5">
+              Read a chapter
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </span>
           </Link>
         </div>
       </section>
 
-      {/* Featured Graded Readers Showcase (Crafted Book Aesthetic) */}
-      <section className="space-y-5" aria-labelledby="readers-heading">
-        <div className="flex items-center justify-between">
-          <div>
-            <h2 id="readers-heading" className="text-xl sm:text-2xl font-serif font-medium tracking-tight text-stone-900 dark:text-stone-50 flex items-center gap-2.5">
-              <BookOpen className="w-5 h-5 text-emerald-700 dark:text-emerald-400" />
-              Graded Readers Library
-            </h2>
-            <p className="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-0.5">
-              Experience the power of extensive reading with full audiobook narration.
-            </p>
+      {/* 4. Today's Expression */}
+      <section className="surface-inset p-8 relative overflow-hidden">
+        <div className="absolute top-0 right-0 p-8 opacity-5">
+          <Quote className="w-32 h-32" />
+        </div>
+        <div className="relative z-10 flex flex-col items-start gap-4">
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-[hsl(var(--muted-foreground))]">
+              Expression Spotlight
+            </span>
           </div>
+          <div>
+            <h3 className="font-serif text-2xl sm:text-3xl text-[hsl(var(--foreground))] leading-tight">
+              To learn the ropes
+            </h3>
+            <span className="text-sm font-mono text-[hsl(var(--muted-foreground))] mt-1 block">
+              /tuː lɜːn ðə roʊps/
+            </span>
+          </div>
+          <p className="text-base text-[hsl(var(--foreground))] leading-relaxed max-w-lg mt-2">
+            Meaning: To understand how a particular job or task is organized. Originates from sailing ships where sailors had to learn how to tie and handle miles of complex rigging.
+          </p>
           <Link
-            href="/readers"
-            className="text-xs font-semibold text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1"
+            href="/podcasts/daily-1"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[hsl(var(--primary))] hover:underline mt-2"
           >
-            All 265 titles <ArrowRight className="w-3.5 h-3.5" />
+            <span>Listen in context</span>
+            <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
+      </section>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {sampleReaders.map((reader) => (
-            <Link
-              key={reader.id}
-              href={`/readers/${reader.id}`}
-              className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] hover:border-emerald-600/70 dark:hover:border-emerald-500/70 transition-all flex flex-col justify-between group shadow-2xs hover:shadow-sm"
-            >
-              <div>
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-[10px] font-sans font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">
-                    {reader.levelLabel}
-                  </span>
-                  <span className="text-xs text-stone-500 dark:text-stone-400 flex items-center gap-1 font-mono">
-                    <Headphones className="w-3.5 h-3.5" />
-                    {reader.audioTracksCount} Chapters
-                  </span>
+      {/* 5. Explore the library */}
+      <section aria-labelledby="map-heading">
+        <div className="flex items-center justify-between mb-6">
+          <h2 id="map-heading" className="text-xl font-serif font-medium text-[hsl(var(--foreground))] flex items-center gap-2">
+            <Map className="w-5 h-5 text-[hsl(var(--accent-warm))]" />
+            Explore the library
+          </h2>
+        </div>
+
+        <div className="surface-card overflow-hidden">
+          {/* Pathway 1: Listening */}
+          <Link href="/podcasts?series=daily-english" className="group block p-5 border-b border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.02)] transition-colors">
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-[hsl(var(--podcast-sienna)/0.1)] text-[hsl(var(--podcast-sienna))] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                  <Headphones className="w-5 h-5" />
                 </div>
-
-                <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100 line-clamp-1 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">
-                  {reader.title}
-                </h3>
-                <span className="text-xs text-stone-400 block mt-1">
-                  Series Code: {reader.seriesCode}
-                </span>
+                <div>
+                  <h3 className="font-serif text-lg text-[hsl(var(--foreground))] group-hover:text-[hsl(var(--podcast-sienna))] transition-colors">
+                    Daily Spoken English
+                  </h3>
+                  <p className="text-xs text-[hsl(var(--muted-foreground))] mt-0.5">
+                    {manifest.counts.dailyEnglish.toLocaleString()} episodes · A2-B2 level
+                  </p>
+                </div>
               </div>
-
-              <div className="mt-4 pt-3 border-t border-stone-100 dark:border-stone-800/80 text-xs text-stone-500 flex items-center justify-between">
-                <span>Adapted Prose + Audio</span>
-                <span className="text-emerald-700 dark:text-emerald-400 font-semibold group-hover:underline">
-                  Read & Listen →
-                </span>
+              <div className="flex items-center gap-4 hidden sm:flex">
+                <div className="text-right">
+                  <div className="text-xs font-semibold text-[hsl(var(--foreground))]">Start Unit 1</div>
+                  <div className="text-[10px] text-[hsl(var(--muted-foreground))]">Introducing Yourself</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-[hsl(var(--muted-foreground))] group-hover:translate-x-1 transition-transform" />
               </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Daily English Starting Lessons */}
-      <section className="space-y-5" aria-labelledby="daily-heading">
-        <div className="flex items-center justify-between">
-          <div>
-            <h2 id="daily-heading" className="text-xl sm:text-2xl font-serif font-medium tracking-tight text-stone-900 dark:text-stone-50 flex items-center gap-2.5">
-              <Headphones className="w-5 h-5 text-amber-700 dark:text-amber-400" />
-              Foundational Daily Dialogues
-            </h2>
-            <p className="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-0.5">
-              Natural spoken expressions spoken at accessible speed with complete transcripts.
-            </p>
-          </div>
-          <Link
-            href="/podcasts?series=daily-english"
-            className="text-xs font-semibold text-stone-700 dark:text-stone-300 hover:underline flex items-center gap-1"
-          >
-            All 1,305 episodes <ArrowRight className="w-3.5 h-3.5" />
+            </div>
           </Link>
-        </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {dailyEpisodes.map((ep) => (
-            <Link
-              key={ep.id}
-              href={`/podcasts/${ep.id}`}
-              className="p-4 rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] hover:border-stone-400 dark:hover:border-stone-600 transition-all flex items-center justify-between gap-3 group shadow-2xs"
-            >
-              <div className="min-w-0">
-                <span className="text-[10px] font-mono font-bold text-amber-700 dark:text-amber-400">
-                  Episode #{ep.number}
-                </span>
-                <h4 className="font-serif text-base font-normal text-stone-900 dark:text-stone-100 truncate group-hover:text-amber-700 dark:group-hover:text-amber-400 transition-colors">
-                  {ep.title}
-                </h4>
+          {/* Pathway 2: Reading */}
+          <Link href="/readers" className="group block p-5 border-b border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.02)] transition-colors">
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-[hsl(var(--reader-green)/0.1)] text-[hsl(var(--reader-green))] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                  <BookOpen className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-lg text-[hsl(var(--foreground))] group-hover:text-[hsl(var(--reader-green))] transition-colors">
+                    Extensive Reading
+                  </h3>
+                  <p className="text-xs text-[hsl(var(--muted-foreground))] mt-0.5">
+                    {manifest.counts.readers.toLocaleString()} graded books · Audio synced
+                  </p>
+                </div>
               </div>
-              <div className="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
+              <div className="flex items-center gap-4 hidden sm:flex">
+                <div className="text-right">
+                  <div className="text-xs font-semibold text-[hsl(var(--foreground))]">Start Book 1</div>
+                  <div className="text-[10px] text-[hsl(var(--muted-foreground))]">Andersen's Fairy Tales</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-[hsl(var(--muted-foreground))] group-hover:translate-x-1 transition-transform" />
               </div>
-            </Link>
-          ))}
+            </div>
+          </Link>
+
+          {/* Pathway 3: Culture & Nuance */}
+          <Link href="/podcasts?series=cultural-english" className="group block p-5 border-b border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.02)] transition-colors">
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-[hsl(var(--course-sapphire)/0.1)] text-[hsl(var(--course-sapphire))] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                  <Sparkles className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-lg text-[hsl(var(--foreground))] group-hover:text-[hsl(var(--course-sapphire))] transition-colors">
+                    Cultural Nuance & Idioms
+                  </h3>
+                  <p className="text-xs text-[hsl(var(--muted-foreground))] mt-0.5">
+                    {manifest.counts.culturalEnglish.toLocaleString()} episodes · B2-C1 level
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 hidden sm:flex">
+                <div className="text-right">
+                  <div className="text-xs font-semibold text-[hsl(var(--foreground))]">Start Unit 1</div>
+                  <div className="text-[10px] text-[hsl(var(--muted-foreground))]">Thanksgiving Traditions</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-[hsl(var(--muted-foreground))] group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
+          </Link>
+
+          {/* Pathway 4: Accent */}
+          <Link href="/accent" className="group block p-5 hover:bg-[hsl(var(--foreground)/0.02)] transition-colors">
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-[hsl(var(--accent-warm)/0.1)] text-[hsl(var(--accent-warm))] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                  <Mic className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-lg text-[hsl(var(--foreground))] group-hover:text-[hsl(var(--accent-warm))] transition-colors">
+                    American Accent Studio
+                  </h3>
+                  <p className="text-xs text-[hsl(var(--muted-foreground))] mt-0.5">
+                    {manifest.counts.americanAccent.toLocaleString()} phonetic drill units
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 hidden sm:flex">
+                <div className="text-right">
+                  <div className="text-xs font-semibold text-[hsl(var(--foreground))]">Start Unit 1</div>
+                  <div className="text-[10px] text-[hsl(var(--muted-foreground))]">Flap T Mechanics</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-[hsl(var(--muted-foreground))] group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
     </div>

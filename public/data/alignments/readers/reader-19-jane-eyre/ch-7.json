@@ -1,0 +1,133 @@
+{
+  "sectionId": "reader-19-jane-eyre-ch-7",
+  "trackNumber": 7,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/234 (S2) Jane Eyre/486 Jane Eyre Audio/07 Track 7.mp3",
+  "totalDuration": 38.5045,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 0.5,
+      "text": "Part 4.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Part",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "id": "p1w2",
+          "text": "4.",
+          "start": 0.2,
+          "end": 0.5
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 1.68,
+      "end": 2.28,
+      "text": "Listening exercise.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Listening",
+          "start": 1.68,
+          "end": 1.86
+        },
+        {
+          "id": "p2w2",
+          "text": "exercise.",
+          "start": 1.86,
+          "end": 2.28
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 4.65,
+      "end": 5.15,
+      "text": "Chitchister.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Chitchister.",
+          "start": 4.65,
+          "end": 5.15
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 8.18,
+      "end": 8.24,
+      "text": "Leicester.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Leicester.",
+          "start": 8.18,
+          "end": 8.24
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 19.88,
+      "end": 20.16,
+      "text": "Coldchester.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "Coldchester.",
+          "start": 19.88,
+          "end": 20.16
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 23.54,
+      "end": 24.14,
+      "text": "Gloucester.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "Gloucester.",
+          "start": 23.54,
+          "end": 24.14
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 27.74,
+      "end": 27.82,
+      "text": "Worcester.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Worcester.",
+          "start": 27.74,
+          "end": 27.82
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 30.99,
+      "end": 31.29,
+      "text": "Doorchester.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "Doorchester.",
+          "start": 30.99,
+          "end": 31.29
+        }
+      ]
+    }
+  ]
+}

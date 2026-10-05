@@ -76,12 +76,62 @@ export interface GradedReaderBook {
   hasExercises?: boolean;
 }
 
+export interface ReferenceBookChapter {
+  id?: string;
+  chapterNumber?: number;
+  title: string;
+  storyText?: string;
+  explanation?: string;
+  exercises?: string;
+  dialogue?: any;
+  content?: string;
+  openingConversation?: any;
+  wordCount?: number;
+  raw?: string;
+  hasAudio?: boolean;
+  audioPath?: string;
+}
+
+export interface ReferenceBookLesson {
+  id?: string;
+  lessonNumber?: number;
+  title: string;
+  content: string;
+  quiz?: any;
+  hasAudio?: boolean;
+  audioPath?: string;
+}
+
+export interface ReferenceBookEntry {
+  id?: string;
+  entryNumber?: number;
+  title: string;
+  words?: string[];
+  explanation: string;
+  hasAudio?: boolean;
+  audioPath?: string;
+}
+
 export interface ReferenceBook {
   id: string;
   title: string;
   category: string;
   pdfPath: string;
   sizeBytes: number;
+  hasAudio?: boolean;
+  hasExtractedContent?: boolean;
+  extractedId?: string;
+  author?: string;
+  publisher?: string;
+  volume?: number;
+  totalChapters?: number;
+  totalLessons?: number;
+  totalEntries?: number;
+  totalWordCount?: number;
+  hasExercises?: boolean;
+  chapters?: ReferenceBookChapter[];
+  lessons?: ReferenceBookLesson[];
+  entries?: ReferenceBookEntry[];
 }
 
 export interface LibraryManifest {
@@ -172,5 +222,73 @@ export interface ExtractedVipData {
   usefulPhrases?: GlossaryEntry[];
   transcript?: EpisodeTranscript | null;
   extractedAt: string;
+}
+
+export interface CourseLessonDialogueTurn {
+  speaker: string;
+  text: string;
+}
+
+export interface CourseLessonVocabItem {
+  term: string;
+  definition: string;
+  example?: string;
+}
+
+export interface CourseLessonPhraseItem {
+  category?: string;
+  phrase: string;
+  explanation?: string;
+}
+
+export interface CourseLessonQuizQuestion {
+  id: number;
+  question: string;
+  options: string[];
+  correctAnswer?: string;
+}
+
+export interface CourseLessonQuiz {
+  title: string;
+  questions: CourseLessonQuizQuestion[];
+  answersRaw?: string;
+}
+
+export interface CourseLesson {
+  lessonNumber: number;
+  title: string;
+  audioPath?: string | null;
+  videoPath?: string | null;
+  pdfPath?: string | null;
+  transcriptPath?: string | null;
+  hasAudio?: boolean;
+  hasVideo?: boolean;
+  wordCount?: number;
+  fullText?: string;
+  dialogue?: CourseLessonDialogueTurn[] | null;
+  vocabulary?: CourseLessonVocabItem[] | null;
+  phrases?: CourseLessonPhraseItem[] | null;
+  quiz?: CourseLessonQuiz | null;
+  writingTask?: string | null;
+  hasDialogue?: boolean;
+  hasQuiz?: boolean;
+  hasVocab?: boolean;
+  hasPhrases?: boolean;
+}
+
+export interface Course {
+  id: string;
+  title: string;
+  author: string;
+  category: string;
+  level: ReaderLevel;
+  levelLabel: string;
+  totalLessons: number;
+  totalWordCount?: number;
+  audioLessonsCount?: number;
+  videoLessonsCount?: number;
+  quizzesCount?: number;
+  masterPdfPath?: string | null;
+  lessons: CourseLesson[];
 }
 

@@ -23,7 +23,8 @@ import {
   MessageSquare,
   File,
   Type,
-  Plus
+  Plus,
+  Settings
 } from 'lucide-react';
 import type {
   PodcastEpisode,
@@ -31,7 +32,10 @@ import type {
   ExtractedVipData,
   GlossaryEntry
 } from '@/types/content';
-import { useAudioStore, useProgressStore } from '@/lib/store';
+import type { SectionAlignment } from '@/types/alignment';
+import { SyncedReadAlong } from '@/components/AudioPlayer/SyncedReadAlong';
+import { useAudioStore, useProgressStore, useReadingSettingsStore } from '@/lib/store';
+import { ReadingSettingsPanel } from '@/components/ui/ReadingSettingsPanel';
 import { resolveMediaUrl, cn } from '@/lib/utils';
 
 interface Props {
@@ -52,6 +56,12 @@ export function EpisodeStudyView({
   const { currentTrack, isPlaying, playTrack, togglePlay } = useAudioStore();
   const { completedItems, toggleCompleted, addRecentItem } = useProgressStore();
 
+  const { 
+    fontSize, lineHeight, theme, marginWidth,
+    setFontSize, setLineHeight, setTheme, setMarginWidth
+  } = useReadingSettingsStore();
+  const [showSettings, setShowSettings] = useState(false);
+
   // Tab State
   const defaultTab = extractedData?.glossary?.length
     ? 'glossary'
@@ -70,8 +80,30 @@ export function EpisodeStudyView({
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
   const [quizSubmitted, setQuizSubmitted] = useState<Record<number, boolean>>({});
 
-  // Transcript Reader Settings
-  const [fontSize, setFontSize] = useState<'normal' | 'large' | 'xlarge'>('normal');
+  // Dynamic Word Alignment State
+  const [podcastAlignment, setPodcastAlignment] = useState<SectionAlignment | null>(null);
+
+  // Fetch alignment JSON if available for episode
+  useEffect(() => {
+    let isMounted = true;
+    const fetchAlignment = async () => {
+      try {
+        const res = await fetch(`/data/alignments/podcasts/${episode.series}/${episode.id}.json`);
+        if (res.ok) {
+          const data = await res.json();
+          if (isMounted) setPodcastAlignment(data);
+        } else {
+          if (isMounted) setPodcastAlignment(null);
+        }
+      } catch {
+        if (isMounted) setPodcastAlignment(null);
+      }
+    };
+    fetchAlignment();
+    return () => {
+      isMounted = false;
+    };
+  }, [episode.series, episode.id]);
 
   // Personal Notes State
   const [noteText, setNoteText] = useState('');
@@ -258,254 +290,268 @@ export function EpisodeStudyView({
         </div>
       </div>
 
-      {/* Main Episode Masthead */}
-      <div className="p-6 sm:p-8 rounded-3xl border border-stone-200/90 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs space-y-5">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
-              Episode #{episode.number}
-            </span>
-            <span className="text-xs font-semibold uppercase tracking-wider text-amber-800 dark:text-amber-400">
-              {episode.seriesTitle}
-            </span>
-            {episode.levelLabel && (
-              <span className="text-xs px-2 py-0.5 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300">
-                {episode.levelLabel}
+      {/* Main Layout Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_340px] gap-6">
+        {/* Main Episode Masthead (Left) */}
+        <div className="surface-card p-6 sm:p-8 rounded-3xl border border-[hsl(var(--border))] space-y-5">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-2">
+              <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]">
+                Episode #{episode.number}
               </span>
-            )}
-            {extractedData && (
-              <span className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20">
-                <Sparkles className="w-3 h-3" />
-                <span>Extracted Unit</span>
+              <span className="text-xs font-semibold uppercase tracking-wider text-[hsl(var(--primary))]">
+                {episode.seriesTitle}
               </span>
-            )}
+              {episode.levelLabel && (
+                <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]">
+                  {episode.levelLabel}
+                </span>
+              )}
+              {extractedData && (
+                <span className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded-full bg-[hsl(var(--primary)/0.1)] text-[hsl(var(--primary))] border border-[hsl(var(--primary)/0.2)]">
+                  <Sparkles className="w-3 h-3" />
+                  <span>Extracted Unit</span>
+                </span>
+              )}
+            </div>
+
+            <button
+              type="button"
+              onClick={() => toggleCompleted(episode.id)}
+              className={cn(
+                'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-colors border',
+                isCompleted
+                  ? 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20'
+                  : 'text-[hsl(var(--muted-foreground))] border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.04)]'
+              )}
+            >
+              <CheckCircle2 className="w-4 h-4" />
+              <span>{isCompleted ? 'Marked Complete' : 'Mark as Complete'}</span>
+            </button>
           </div>
 
-          <button
-            type="button"
-            onClick={() => toggleCompleted(episode.id)}
-            className={cn(
-              'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-colors border',
-              isCompleted
-                ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border-emerald-300 dark:border-emerald-800'
-                : 'text-stone-600 dark:text-stone-400 border-stone-200 dark:border-stone-800 hover:bg-stone-50 dark:hover:bg-stone-800'
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal tracking-tight text-[hsl(var(--foreground))]">
+            {extractedData?.title || episode.title}
+          </h1>
+
+          {/* Primary Action Buttons */}
+          <div className="pt-2 flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              onClick={handlePlay}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[hsl(var(--foreground))] text-[hsl(var(--background))] font-semibold text-sm shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all"
+            >
+              {isCurrentActive ? (
+                <>
+                  <Pause className="w-4 h-4 fill-current" />
+                  <span>Pause Lesson Audio</span>
+                </>
+              ) : (
+                <>
+                  <Play className="w-4 h-4 fill-current ml-0.5" />
+                  <span>Play Lesson Audio</span>
+                </>
+              )}
+            </button>
+
+            {pdfUrl && (
+              <a
+                href={pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.04)] font-semibold text-xs transition-colors"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span>Original PDF Guide</span>
+              </a>
             )}
-          >
-            <CheckCircle2 className="w-4 h-4" />
-            <span>{isCompleted ? 'Marked Complete' : 'Mark as Complete'}</span>
-          </button>
+          </div>
         </div>
 
-        <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal tracking-tight text-stone-900 dark:text-stone-50">
-          {extractedData?.title || episode.title}
-        </h1>
-
-        {/* Primary Action Buttons */}
-        <div className="pt-2 flex flex-wrap items-center gap-3">
-          <button
-            type="button"
-            onClick={handlePlay}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-950 font-semibold text-sm shadow-md hover:scale-102 active:scale-98 transition-all"
-          >
-            {isCurrentActive ? (
-              <>
-                <Pause className="w-4 h-4 fill-current" />
-                <span>Pause Lesson Audio</span>
-              </>
-            ) : (
-              <>
-                <Play className="w-4 h-4 fill-current ml-0.5" />
-                <span>Play Lesson Audio</span>
-              </>
+        {/* Contents Card (Right) */}
+        <div className="surface-card rounded-3xl border border-[hsl(var(--border))] overflow-hidden flex flex-col max-h-[400px]">
+          <div className="p-6 bg-[hsl(var(--foreground)/0.02)] border-b border-[hsl(var(--border))] flex items-center gap-3 shrink-0">
+            <BookOpen className="w-5 h-5 text-[hsl(var(--muted-foreground))]" />
+            <h3 className="text-xl font-serif font-medium">Contents</h3>
+          </div>
+          
+          <div className="p-3 space-y-1 overflow-y-auto flex flex-col">
+            {extractedData?.transcript && (
+              <button
+                type="button"
+                onClick={() => setActiveTab('transcript')}
+                className={cn(
+                  'w-full flex items-center gap-3 p-4 rounded-2xl transition-all text-left group',
+                  activeTab === 'transcript'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+                )}
+              >
+                <FileText className="w-4 h-4 opacity-70" />
+                <span className={cn('font-medium', activeTab === 'transcript' ? 'font-bold' : '')}>Transcript</span>
+              </button>
             )}
-          </button>
 
-          {pdfUrl && (
-            <a
-              href={pdfUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 font-semibold text-xs transition-colors"
-            >
-              <ExternalLink className="w-4 h-4" />
-              <span>Original PDF Guide</span>
-            </a>
-          )}
-        </div>
-      </div>
+            {extractedData && extractedData.glossary && extractedData.glossary.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setActiveTab('glossary')}
+                className={cn(
+                  'w-full flex items-center justify-between p-4 rounded-2xl transition-all text-left group',
+                  activeTab === 'glossary'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+                )}
+              >
+                <div className="flex items-center gap-3">
+                  <BookOpen className="w-4 h-4 opacity-70" />
+                  <span className={cn('font-medium', activeTab === 'glossary' ? 'font-bold' : '')}>Glossary</span>
+                </div>
+                <span className="text-xs font-mono opacity-50">{extractedData.glossary.length}</span>
+              </button>
+            )}
 
-      {/* Structured Navigation Tabs */}
-      <div className="space-y-6">
-        <div className="flex items-center gap-2 border-b border-stone-200 dark:border-stone-800 overflow-x-auto pb-px">
-          {/* Glossary Tab (Daily / Cultural) */}
-          {extractedData && extractedData.glossary.length > 0 && (
-            <button
-              type="button"
-              onClick={() => setActiveTab('glossary')}
-              className={cn(
-                'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-                activeTab === 'glossary'
-                  ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                  : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-              )}
-            >
-              <BookOpen className="w-4 h-4" />
-              <span>Glossary ({extractedData.glossary.length})</span>
-            </button>
-          )}
+            {extractedData && extractedData.questions && extractedData.questions.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setActiveTab('quiz')}
+                className={cn(
+                  'w-full flex items-center justify-between p-4 rounded-2xl transition-all text-left group',
+                  activeTab === 'quiz'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+                )}
+              >
+                <div className="flex items-center gap-3">
+                  <HelpCircle className="w-4 h-4 opacity-70" />
+                  <span className={cn('font-medium', activeTab === 'quiz' ? 'font-bold' : '')}>Quiz</span>
+                </div>
+                <span className="text-xs font-mono opacity-50">{extractedData.questions.length}</span>
+              </button>
+            )}
 
-          {/* Comprehension Quiz Tab (Daily) */}
-          {extractedData && extractedData.questions.length > 0 && (
-            <button
-              type="button"
-              onClick={() => setActiveTab('quiz')}
-              className={cn(
-                'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-                activeTab === 'quiz'
-                  ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                  : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-              )}
-            >
-              <HelpCircle className="w-4 h-4" />
-              <span>Quiz ({extractedData.questions.length})</span>
-            </button>
-          )}
+            {extractedData?.cultureNote && (
+              <button
+                type="button"
+                onClick={() => setActiveTab('culture')}
+                className={cn(
+                  'w-full flex items-center gap-3 p-4 rounded-2xl transition-all text-left group',
+                  activeTab === 'culture'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+                )}
+              >
+                <Sparkles className="w-4 h-4 opacity-70" />
+                <span className={cn('font-medium', activeTab === 'culture' ? 'font-bold' : '')}>Culture Note</span>
+              </button>
+            )}
 
-          {/* Culture Note Tab (Daily) */}
-          {extractedData?.cultureNote && (
-            <button
-              type="button"
-              onClick={() => setActiveTab('culture')}
-              className={cn(
-                'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-                activeTab === 'culture'
-                  ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                  : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-              )}
-            >
-              <Sparkles className="w-4 h-4" />
-              <span>Culture Note</span>
-            </button>
-          )}
+            {extractedData?.insidersKnow && (
+              <button
+                type="button"
+                onClick={() => setActiveTab('insiders')}
+                className={cn(
+                  'w-full flex items-center gap-3 p-4 rounded-2xl transition-all text-left group',
+                  activeTab === 'insiders'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+                )}
+              >
+                <Sparkles className="w-4 h-4 opacity-70" />
+                <span className={cn('font-medium', activeTab === 'insiders' ? 'font-bold' : '')}>Insiders Know</span>
+              </button>
+            )}
 
-          {/* Insiders Know Tab (Cultural English) */}
-          {extractedData?.insidersKnow && (
-            <button
-              type="button"
-              onClick={() => setActiveTab('insiders')}
-              className={cn(
-                'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-                activeTab === 'insiders'
-                  ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                  : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-              )}
-            >
-              <Sparkles className="w-4 h-4" />
-              <span>What Insiders Know</span>
-            </button>
-          )}
+            {extractedVip && extractedVip.dialog && extractedVip.dialog.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setActiveTab('vip-dialog')}
+                className={cn(
+                  'w-full flex items-center justify-between p-4 rounded-2xl transition-all text-left group',
+                  activeTab === 'vip-dialog'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+                )}
+              >
+                <div className="flex items-center gap-3">
+                  <MessageSquare className="w-4 h-4 opacity-70" />
+                  <span className={cn('font-medium', activeTab === 'vip-dialog' ? 'font-bold' : '')}>Dialogue</span>
+                </div>
+                <span className="text-xs font-mono opacity-50">{extractedVip.dialog.length} turns</span>
+              </button>
+            )}
 
-          {/* Transcript Tab */}
-          {extractedData?.transcript && (
-            <button
-              type="button"
-              onClick={() => setActiveTab('transcript')}
-              className={cn(
-                'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-                activeTab === 'transcript'
-                  ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                  : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-              )}
-            >
-              <FileText className="w-4 h-4" />
-              <span>Transcript</span>
-            </button>
-          )}
+            {extractedVip?.readingPassage && (
+              <button
+                type="button"
+                onClick={() => setActiveTab('vip-reading')}
+                className={cn(
+                  'w-full flex items-center gap-3 p-4 rounded-2xl transition-all text-left group',
+                  activeTab === 'vip-reading'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+                )}
+              >
+                <FileText className="w-4 h-4 opacity-70" />
+                <span className={cn('font-medium', activeTab === 'vip-reading' ? 'font-bold' : '')}>Reading Passage</span>
+              </button>
+            )}
 
-          {/* VIP Dialogue Tab */}
-          {extractedVip && (
-            <>
-              {extractedVip.dialog.length > 0 && (
-                <button
-                  type="button"
-                  onClick={() => setActiveTab('vip-dialog')}
-                  className={cn(
-                    'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-                    activeTab === 'vip-dialog'
-                      ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                      : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-                  )}
-                >
-                  <MessageSquare className="w-4 h-4" />
-                  <span>Dialogue ({extractedVip.dialog.length} turns)</span>
-                </button>
-              )}
-
-              {extractedVip.readingPassage && (
-                <button
-                  type="button"
-                  onClick={() => setActiveTab('vip-reading')}
-                  className={cn(
-                    'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-                    activeTab === 'vip-reading'
-                      ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                      : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-                  )}
-                >
-                  <FileText className="w-4 h-4" />
-                  <span>Reading Passage</span>
-                </button>
-              )}
-
+            {extractedVip && extractedVip.vocabulary && extractedVip.vocabulary.length > 0 && (
               <button
                 type="button"
                 onClick={() => setActiveTab('vip-vocab')}
                 className={cn(
-                  'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
+                  'w-full flex items-center justify-between p-4 rounded-2xl transition-all text-left group',
                   activeTab === 'vip-vocab'
-                    ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                    : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
+                    ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                    : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
                 )}
               >
-                <BookOpen className="w-4 h-4" />
-                <span>Slang & Phrases ({extractedVip.vocabulary.length})</span>
+                <div className="flex items-center gap-3">
+                  <BookOpen className="w-4 h-4 opacity-70" />
+                  <span className={cn('font-medium', activeTab === 'vip-vocab' ? 'font-bold' : '')}>Slang & Phrases</span>
+                </div>
+                <span className="text-xs font-mono opacity-50">{extractedVip.vocabulary.length}</span>
               </button>
-            </>
-          )}
+            )}
 
-          {/* Original PDF Guide Tab */}
-          <button
-            type="button"
-            onClick={() => setActiveTab('guide')}
-            className={cn(
-              'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-              activeTab === 'guide'
-                ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-            )}
-          >
-            <File className="w-4 h-4" />
-            <span>PDF Guide</span>
-          </button>
-
-          {/* Personal Notebook Tab */}
-          <button
-            type="button"
-            onClick={() => setActiveTab('notes')}
-            className={cn(
-              'px-4 py-2.5 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2 shrink-0',
-              activeTab === 'notes'
-                ? 'border-stone-900 text-stone-950 dark:border-amber-400 dark:text-amber-400'
-                : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-            )}
-          >
-            <Edit3 className="w-4 h-4" />
-            <span>Notebook</span>
-            {noteText.trim() && (
-              <span className="w-2 h-2 rounded-full bg-amber-600 dark:bg-amber-400" />
-            )}
-          </button>
+            <button
+              type="button"
+              onClick={() => setActiveTab('notes')}
+              className={cn(
+                'w-full flex items-center gap-3 p-4 rounded-2xl transition-all text-left group',
+                activeTab === 'notes'
+                  ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                  : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+              )}
+            >
+              <Edit3 className="w-4 h-4 opacity-70" />
+              <span className={cn('font-medium flex-1', activeTab === 'notes' ? 'font-bold' : '')}>Notebook</span>
+              {noteText.trim() && (
+                <span className="w-2 h-2 rounded-full bg-amber-600 dark:bg-amber-400" />
+              )}
+            </button>
+            
+            <button
+              type="button"
+              onClick={() => setActiveTab('guide')}
+              className={cn(
+                'w-full flex items-center gap-3 p-4 rounded-2xl transition-all text-left group',
+                activeTab === 'guide'
+                  ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                  : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
+              )}
+            >
+              <File className="w-4 h-4 opacity-70" />
+              <span className={cn('font-medium', activeTab === 'guide' ? 'font-bold' : '')}>PDF Guide</span>
+            </button>
+          </div>
         </div>
+      </div>
+      
+      {/* Full Width Bottom - Active Tab Content */}
+      <div className="w-full space-y-6 pt-4">
 
         {/* TAB 1: INTERACTIVE GLOSSARY */}
         {activeTab === 'glossary' && extractedData && (
@@ -794,39 +840,21 @@ export function EpisodeStudyView({
 
         {/* TAB 5: VERBATIM TRANSCRIPT */}
         {activeTab === 'transcript' && extractedData?.transcript && (
-          <div className="max-w-3xl space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-3 p-4 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C]">
+          <div className="max-w-[1400px] mx-auto space-y-4">
+            <div className="flex flex-wrap items-center justify-between gap-3 p-4 rounded-2xl border border-[hsl(var(--border))] surface-card sticky top-0 z-20 backdrop-blur-sm bg-opacity-95">
               <div className="flex items-center gap-3">
                 {extractedData.transcript.wordCount && (
-                  <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-lg bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
+                  <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-lg bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]">
                     {extractedData.transcript.wordCount.toLocaleString()} words
                   </span>
                 )}
-                <div className="flex items-center gap-1.5">
-                  <span className="text-xs text-stone-500 font-medium">Size:</span>
-                  {(['normal', 'large', 'xlarge'] as const).map((size) => (
-                    <button
-                      key={size}
-                      type="button"
-                      onClick={() => setFontSize(size)}
-                      className={cn(
-                        'px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors border',
-                        fontSize === size
-                          ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-950 border-transparent'
-                          : 'border-stone-200 dark:border-stone-800 text-stone-600 dark:text-stone-400'
-                      )}
-                    >
-                      {size === 'normal' ? 'A' : size === 'large' ? 'A+' : 'A++'}
-                    </button>
-                  ))}
-                </div>
               </div>
 
               <div className="flex items-center gap-2">
                 <button
                   type="button"
                   onClick={copyTranscript}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-stone-200 dark:border-stone-800 hover:bg-stone-100 dark:hover:bg-stone-800 text-xs font-semibold text-stone-700 dark:text-stone-300 transition-colors"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.04)] text-xs font-semibold transition-colors"
                 >
                   {copiedTranscript ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
                   <span>{copiedTranscript ? 'Copied' : 'Copy'}</span>
@@ -835,30 +863,52 @@ export function EpisodeStudyView({
                 <button
                   type="button"
                   onClick={downloadTranscript}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-stone-200 dark:border-stone-800 hover:bg-stone-100 dark:hover:bg-stone-800 text-xs font-semibold text-stone-700 dark:text-stone-300 transition-colors"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.04)] text-xs font-semibold transition-colors"
                 >
                   <Download className="w-3.5 h-3.5" />
                   <span>Export .txt</span>
                 </button>
+                
+                <div className="relative">
+                  <button
+                    onClick={() => setShowSettings(!showSettings)}
+                    className="p-1.5 rounded-lg hover:bg-[hsl(var(--foreground)/0.04)] transition-colors opacity-70 hover:opacity-100 flex items-center gap-1.5 font-bold text-xs"
+                  >
+                    <Settings className="w-4 h-4" />
+                    <span>Settings</span>
+                  </button>
+                  
+                  {showSettings && (
+                    <div className="absolute right-0 top-10 z-50">
+                      <div className="fixed inset-0 z-40" onClick={() => setShowSettings(false)} />
+                      <div className="relative z-50">
+                        <ReadingSettingsPanel 
+                          fontSize={fontSize}
+                          lineHeight={lineHeight}
+                          theme={theme}
+                          marginWidth={marginWidth}
+                          onFontSizeChange={setFontSize}
+                          onLineHeightChange={setLineHeight}
+                          onThemeChange={setTheme}
+                          onMarginWidthChange={setMarginWidth}
+                        />
+                      </div>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
 
             {/* Standout Dialogue Card */}
             {extractedData.transcript.dialogue && (
-              <div className="p-6 rounded-2xl border border-amber-300/80 dark:border-amber-900/60 bg-amber-50/40 dark:bg-amber-950/20 space-y-3">
+              <div className="p-6 sm:p-10 rounded-2xl border border-amber-300/80 dark:border-amber-900/60 bg-amber-50/40 dark:bg-amber-950/20 space-y-4">
                 <div className="flex items-center gap-2 text-amber-900 dark:text-amber-300">
-                  <MessageSquare className="w-4 h-4" />
-                  <span className="text-xs font-bold uppercase tracking-wider">Story / Dialogue</span>
+                  <MessageSquare className="w-5 h-5" />
+                  <span className="text-sm font-bold uppercase tracking-widest">Story / Dialogue</span>
                 </div>
                 <div
-                  className={cn(
-                    'font-serif text-stone-900 dark:text-stone-100 whitespace-pre-line leading-relaxed',
-                    fontSize === 'normal'
-                      ? 'text-base'
-                      : fontSize === 'large'
-                      ? 'text-lg'
-                      : 'text-xl'
-                  )}
+                  className="font-serif text-stone-900 dark:text-stone-100 whitespace-pre-line leading-relaxed"
+                  style={{ fontSize: `${Math.max(16, fontSize - 2)}px` }}
                 >
                   {extractedData.transcript.dialogue}
                 </div>
@@ -866,22 +916,27 @@ export function EpisodeStudyView({
             )}
 
             {/* Complete Spoken Script */}
-            <div className="p-6 sm:p-8 rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs space-y-4">
-              <h4 className="font-serif text-lg font-bold text-stone-900 dark:text-stone-100">
+            <div className={cn(
+              "p-6 sm:p-12 rounded-3xl transition-colors duration-500",
+              theme === 'default' && 'bg-white border border-[hsl(var(--border))]',
+              theme === 'sepia' && 'bg-[#F4E9D5] text-[#433422] border border-[#E3D6BC]',
+              theme === 'ocean' && 'bg-[#F0F4F8] dark:bg-[#0A192F] text-[#0A192F] dark:text-[#E6F1FF] border border-[#112240]',
+              theme === 'night' && 'bg-[#161821] text-[#E8E4DC] border border-[#2B2F3D]'
+            )}>
+              <h4 className="font-serif text-lg font-bold opacity-80 mb-6">
                 Full Audio Narration & Explanation
               </h4>
-              <div
+              <SyncedReadAlong
+                alignment={podcastAlignment}
+                fallbackText={extractedData.transcript.fullText}
+                trackId={episode.id}
+                fontSize={fontSize}
+                lineHeight={lineHeight}
+                readingTheme={theme}
                 className={cn(
-                  'text-stone-700 dark:text-stone-300 whitespace-pre-line font-serif leading-relaxed',
-                  fontSize === 'normal'
-                    ? 'text-sm sm:text-base'
-                    : fontSize === 'large'
-                    ? 'text-base sm:text-lg'
-                    : 'text-lg sm:text-xl'
+                  marginWidth === 'narrow' ? 'max-w-2xl' : marginWidth === 'wide' ? 'max-w-5xl' : 'max-w-4xl'
                 )}
-              >
-                {extractedData.transcript.fullText}
-              </div>
+              />
             </div>
           </div>
         )}

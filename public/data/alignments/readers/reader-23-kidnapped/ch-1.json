@@ -1,0 +1,71 @@
+{
+  "sectionId": "reader-23-kidnapped-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/224 (S2) Kidnapped/Track 01.mp3",
+  "totalDuration": 40.04575,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 15.18,
+      "end": 24.78,
+      "text": "Kidnapped by Robert Louis Stevenson copyright black cat publishing",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Kidnapped",
+          "start": 15.18,
+          "end": 15.88
+        },
+        {
+          "id": "p1w2",
+          "text": "by",
+          "start": 15.88,
+          "end": 16.98
+        },
+        {
+          "id": "p1w3",
+          "text": "Robert",
+          "start": 18.3,
+          "end": 18.48
+        },
+        {
+          "id": "p1w4",
+          "text": "Louis",
+          "start": 18.48,
+          "end": 18.82
+        },
+        {
+          "id": "p1w5",
+          "text": "Stevenson",
+          "start": 18.82,
+          "end": 19.32
+        },
+        {
+          "id": "p1w6",
+          "text": "copyright",
+          "start": 19.32,
+          "end": 20.66
+        },
+        {
+          "id": "p1w7",
+          "text": "black",
+          "start": 22.7,
+          "end": 23.84
+        },
+        {
+          "id": "p1w8",
+          "text": "cat",
+          "start": 23.84,
+          "end": 24.24
+        },
+        {
+          "id": "p1w9",
+          "text": "publishing",
+          "start": 24.24,
+          "end": 24.78
+        }
+      ]
+    }
+  ]
+}

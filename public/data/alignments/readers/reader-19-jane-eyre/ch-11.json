@@ -1,0 +1,8967 @@
+{
+  "sectionId": "reader-19-jane-eyre-ch-11",
+  "trackNumber": 11,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/234 (S2) Jane Eyre/486 Jane Eyre Audio/11 Track 11.mp3",
+  "totalDuration": 565.2114375,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 9.29,
+      "text": "Part eight. Jane makes a choice. One evening, St John came to my house to see me when I was",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Part",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "id": "p1w2",
+          "text": "eight.",
+          "start": 0.22,
+          "end": 0.6
+        },
+        {
+          "id": "p1w3",
+          "text": "Jane",
+          "start": 1.87,
+          "end": 2.29
+        },
+        {
+          "id": "p1w4",
+          "text": "makes",
+          "start": 2.29,
+          "end": 2.63
+        },
+        {
+          "id": "p1w5",
+          "text": "a",
+          "start": 2.63,
+          "end": 2.87
+        },
+        {
+          "id": "p1w6",
+          "text": "choice.",
+          "start": 2.87,
+          "end": 3.15
+        },
+        {
+          "id": "p1w7",
+          "text": "One",
+          "start": 5.53,
+          "end": 5.75
+        },
+        {
+          "id": "p1w8",
+          "text": "evening,",
+          "start": 5.75,
+          "end": 6.05
+        },
+        {
+          "id": "p1w9",
+          "text": "St",
+          "start": 6.83,
+          "end": 7.07
+        },
+        {
+          "id": "p1w10",
+          "text": "John",
+          "start": 7.07,
+          "end": 7.35
+        },
+        {
+          "id": "p1w11",
+          "text": "came",
+          "start": 7.35,
+          "end": 7.67
+        },
+        {
+          "id": "p1w12",
+          "text": "to",
+          "start": 7.67,
+          "end": 7.87
+        },
+        {
+          "id": "p1w13",
+          "text": "my",
+          "start": 7.87,
+          "end": 7.99
+        },
+        {
+          "id": "p1w14",
+          "text": "house",
+          "start": 7.99,
+          "end": 8.25
+        },
+        {
+          "id": "p1w15",
+          "text": "to",
+          "start": 8.25,
+          "end": 8.49
+        },
+        {
+          "id": "p1w16",
+          "text": "see",
+          "start": 8.49,
+          "end": 8.69
+        },
+        {
+          "id": "p1w17",
+          "text": "me",
+          "start": 8.69,
+          "end": 8.87
+        },
+        {
+          "id": "p1w18",
+          "text": "when",
+          "start": 8.87,
+          "end": 9.03
+        },
+        {
+          "id": "p1w19",
+          "text": "I",
+          "start": 9.03,
+          "end": 9.15
+        },
+        {
+          "id": "p1w20",
+          "text": "was",
+          "start": 9.15,
+          "end": 9.29
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 9.29,
+      "end": 16.31,
+      "text": "just finishing painting a picture. He looked closely at some of my other pictures. Then",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "just",
+          "start": 9.29,
+          "end": 9.51
+        },
+        {
+          "id": "p2w2",
+          "text": "finishing",
+          "start": 9.51,
+          "end": 9.83
+        },
+        {
+          "id": "p2w3",
+          "text": "painting",
+          "start": 9.83,
+          "end": 10.27
+        },
+        {
+          "id": "p2w4",
+          "text": "a",
+          "start": 10.27,
+          "end": 10.55
+        },
+        {
+          "id": "p2w5",
+          "text": "picture.",
+          "start": 10.55,
+          "end": 10.89
+        },
+        {
+          "id": "p2w6",
+          "text": "He",
+          "start": 12.25,
+          "end": 12.55
+        },
+        {
+          "id": "p2w7",
+          "text": "looked",
+          "start": 12.55,
+          "end": 12.73
+        },
+        {
+          "id": "p2w8",
+          "text": "closely",
+          "start": 12.73,
+          "end": 13.03
+        },
+        {
+          "id": "p2w9",
+          "text": "at",
+          "start": 13.03,
+          "end": 13.39
+        },
+        {
+          "id": "p2w10",
+          "text": "some",
+          "start": 13.39,
+          "end": 13.55
+        },
+        {
+          "id": "p2w11",
+          "text": "of",
+          "start": 13.55,
+          "end": 13.65
+        },
+        {
+          "id": "p2w12",
+          "text": "my",
+          "start": 13.65,
+          "end": 13.83
+        },
+        {
+          "id": "p2w13",
+          "text": "other",
+          "start": 13.83,
+          "end": 13.99
+        },
+        {
+          "id": "p2w14",
+          "text": "pictures.",
+          "start": 13.99,
+          "end": 14.33
+        },
+        {
+          "id": "p2w15",
+          "text": "Then",
+          "start": 16.03,
+          "end": 16.31
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 16.31,
+      "end": 22.98,
+      "text": "he tore a piece of paper off the bottom of one of the pictures, and put it in his pocket.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "he",
+          "start": 16.31,
+          "end": 16.53
+        },
+        {
+          "id": "p3w2",
+          "text": "tore",
+          "start": 16.53,
+          "end": 16.69
+        },
+        {
+          "id": "p3w3",
+          "text": "a",
+          "start": 16.69,
+          "end": 16.93
+        },
+        {
+          "id": "p3w4",
+          "text": "piece",
+          "start": 16.93,
+          "end": 17.13
+        },
+        {
+          "id": "p3w5",
+          "text": "of",
+          "start": 17.13,
+          "end": 17.29
+        },
+        {
+          "id": "p3w6",
+          "text": "paper",
+          "start": 17.29,
+          "end": 17.69
+        },
+        {
+          "id": "p3w7",
+          "text": "off",
+          "start": 17.69,
+          "end": 17.95
+        },
+        {
+          "id": "p3w8",
+          "text": "the",
+          "start": 17.95,
+          "end": 18.13
+        },
+        {
+          "id": "p3w9",
+          "text": "bottom",
+          "start": 18.13,
+          "end": 18.43
+        },
+        {
+          "id": "p3w10",
+          "text": "of",
+          "start": 18.43,
+          "end": 18.57
+        },
+        {
+          "id": "p3w11",
+          "text": "one",
+          "start": 18.57,
+          "end": 18.79
+        },
+        {
+          "id": "p3w12",
+          "text": "of",
+          "start": 18.79,
+          "end": 18.89
+        },
+        {
+          "id": "p3w13",
+          "text": "the",
+          "start": 18.89,
+          "end": 18.99
+        },
+        {
+          "id": "p3w14",
+          "text": "pictures,",
+          "start": 18.99,
+          "end": 19.31
+        },
+        {
+          "id": "p3w15",
+          "text": "and",
+          "start": 21.3,
+          "end": 22.0
+        },
+        {
+          "id": "p3w16",
+          "text": "put",
+          "start": 22.0,
+          "end": 22.28
+        },
+        {
+          "id": "p3w17",
+          "text": "it",
+          "start": 22.28,
+          "end": 22.42
+        },
+        {
+          "id": "p3w18",
+          "text": "in",
+          "start": 22.42,
+          "end": 22.54
+        },
+        {
+          "id": "p3w19",
+          "text": "his",
+          "start": 22.54,
+          "end": 22.66
+        },
+        {
+          "id": "p3w20",
+          "text": "pocket.",
+          "start": 22.66,
+          "end": 22.98
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 24.8,
+      "end": 34.05,
+      "text": "I waited for him to say something, but he remained silent. How strange he is, I thought. Even",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "I",
+          "start": 24.8,
+          "end": 25.3
+        },
+        {
+          "id": "p4w2",
+          "text": "waited",
+          "start": 25.3,
+          "end": 25.46
+        },
+        {
+          "id": "p4w3",
+          "text": "for",
+          "start": 25.46,
+          "end": 25.74
+        },
+        {
+          "id": "p4w4",
+          "text": "him",
+          "start": 25.74,
+          "end": 25.84
+        },
+        {
+          "id": "p4w5",
+          "text": "to",
+          "start": 25.84,
+          "end": 25.98
+        },
+        {
+          "id": "p4w6",
+          "text": "say",
+          "start": 25.98,
+          "end": 26.16
+        },
+        {
+          "id": "p4w7",
+          "text": "something,",
+          "start": 26.16,
+          "end": 26.5
+        },
+        {
+          "id": "p4w8",
+          "text": "but",
+          "start": 26.82,
+          "end": 26.92
+        },
+        {
+          "id": "p4w9",
+          "text": "he",
+          "start": 26.92,
+          "end": 27.22
+        },
+        {
+          "id": "p4w10",
+          "text": "remained",
+          "start": 27.22,
+          "end": 27.38
+        },
+        {
+          "id": "p4w11",
+          "text": "silent.",
+          "start": 27.38,
+          "end": 27.84
+        },
+        {
+          "id": "p4w12",
+          "text": "How",
+          "start": 29.72,
+          "end": 29.98
+        },
+        {
+          "id": "p4w13",
+          "text": "strange",
+          "start": 29.98,
+          "end": 30.26
+        },
+        {
+          "id": "p4w14",
+          "text": "he",
+          "start": 30.26,
+          "end": 30.7
+        },
+        {
+          "id": "p4w15",
+          "text": "is,",
+          "start": 30.7,
+          "end": 31.02
+        },
+        {
+          "id": "p4w16",
+          "text": "I",
+          "start": 31.24,
+          "end": 31.46
+        },
+        {
+          "id": "p4w17",
+          "text": "thought.",
+          "start": 31.46,
+          "end": 31.76
+        },
+        {
+          "id": "p4w18",
+          "text": "Even",
+          "start": 33.69,
+          "end": 34.05
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 34.05,
+      "end": 39.03,
+      "text": "though it snowed next day, and the weather was very cold, St John came to see me again.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "though",
+          "start": 34.05,
+          "end": 34.05
+        },
+        {
+          "id": "p5w2",
+          "text": "it",
+          "start": 34.05,
+          "end": 34.39
+        },
+        {
+          "id": "p5w3",
+          "text": "snowed",
+          "start": 34.39,
+          "end": 34.83
+        },
+        {
+          "id": "p5w4",
+          "text": "next",
+          "start": 34.83,
+          "end": 34.97
+        },
+        {
+          "id": "p5w5",
+          "text": "day,",
+          "start": 34.97,
+          "end": 35.29
+        },
+        {
+          "id": "p5w6",
+          "text": "and",
+          "start": 35.69,
+          "end": 35.79
+        },
+        {
+          "id": "p5w7",
+          "text": "the",
+          "start": 35.79,
+          "end": 35.89
+        },
+        {
+          "id": "p5w8",
+          "text": "weather",
+          "start": 35.89,
+          "end": 36.07
+        },
+        {
+          "id": "p5w9",
+          "text": "was",
+          "start": 36.07,
+          "end": 36.25
+        },
+        {
+          "id": "p5w10",
+          "text": "very",
+          "start": 36.25,
+          "end": 36.51
+        },
+        {
+          "id": "p5w11",
+          "text": "cold,",
+          "start": 36.51,
+          "end": 36.93
+        },
+        {
+          "id": "p5w12",
+          "text": "St",
+          "start": 37.73,
+          "end": 37.81
+        },
+        {
+          "id": "p5w13",
+          "text": "John",
+          "start": 37.81,
+          "end": 38.05
+        },
+        {
+          "id": "p5w14",
+          "text": "came",
+          "start": 38.05,
+          "end": 38.31
+        },
+        {
+          "id": "p5w15",
+          "text": "to",
+          "start": 38.31,
+          "end": 38.51
+        },
+        {
+          "id": "p5w16",
+          "text": "see",
+          "start": 38.51,
+          "end": 38.67
+        },
+        {
+          "id": "p5w17",
+          "text": "me",
+          "start": 38.67,
+          "end": 38.83
+        },
+        {
+          "id": "p5w18",
+          "text": "again.",
+          "start": 38.83,
+          "end": 39.03
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 40.32,
+      "end": 47.49,
+      "text": "I was very surprised to see him. Why are you here? I asked him. Has something bad happened?",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "I",
+          "start": 40.32,
+          "end": 40.48
+        },
+        {
+          "id": "p6w2",
+          "text": "was",
+          "start": 40.48,
+          "end": 40.56
+        },
+        {
+          "id": "p6w3",
+          "text": "very",
+          "start": 40.56,
+          "end": 40.74
+        },
+        {
+          "id": "p6w4",
+          "text": "surprised",
+          "start": 40.74,
+          "end": 41.06
+        },
+        {
+          "id": "p6w5",
+          "text": "to",
+          "start": 41.06,
+          "end": 41.54
+        },
+        {
+          "id": "p6w6",
+          "text": "see",
+          "start": 41.54,
+          "end": 41.76
+        },
+        {
+          "id": "p6w7",
+          "text": "him.",
+          "start": 41.76,
+          "end": 41.96
+        },
+        {
+          "id": "p6w8",
+          "text": "Why",
+          "start": 43.72,
+          "end": 44.24
+        },
+        {
+          "id": "p6w9",
+          "text": "are",
+          "start": 44.24,
+          "end": 44.38
+        },
+        {
+          "id": "p6w10",
+          "text": "you",
+          "start": 44.38,
+          "end": 44.5
+        },
+        {
+          "id": "p6w11",
+          "text": "here?",
+          "start": 44.5,
+          "end": 44.76
+        },
+        {
+          "id": "p6w12",
+          "text": "I",
+          "start": 45.06,
+          "end": 45.06
+        },
+        {
+          "id": "p6w13",
+          "text": "asked",
+          "start": 45.06,
+          "end": 45.24
+        },
+        {
+          "id": "p6w14",
+          "text": "him.",
+          "start": 45.24,
+          "end": 45.54
+        },
+        {
+          "id": "p6w15",
+          "text": "Has",
+          "start": 46.35,
+          "end": 46.59
+        },
+        {
+          "id": "p6w16",
+          "text": "something",
+          "start": 46.59,
+          "end": 46.81
+        },
+        {
+          "id": "p6w17",
+          "text": "bad",
+          "start": 46.81,
+          "end": 47.11
+        },
+        {
+          "id": "p6w18",
+          "text": "happened?",
+          "start": 47.11,
+          "end": 47.49
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 48.52,
+      "end": 49.62,
+      "text": "Are your sisters all right?",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Are",
+          "start": 48.52,
+          "end": 48.72
+        },
+        {
+          "id": "p7w2",
+          "text": "your",
+          "start": 48.72,
+          "end": 48.82
+        },
+        {
+          "id": "p7w3",
+          "text": "sisters",
+          "start": 48.82,
+          "end": 49.08
+        },
+        {
+          "id": "p7w4",
+          "text": "all",
+          "start": 49.08,
+          "end": 49.36
+        },
+        {
+          "id": "p7w5",
+          "text": "right?",
+          "start": 49.36,
+          "end": 49.62
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 51.41,
+      "end": 58.63,
+      "text": "Don't worry. He said. Diana and Mary are both well. St John sat down beside the fire,",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "Don't",
+          "start": 51.41,
+          "end": 51.93
+        },
+        {
+          "id": "p8w2",
+          "text": "worry.",
+          "start": 51.93,
+          "end": 52.19
+        },
+        {
+          "id": "p8w3",
+          "text": "He",
+          "start": 52.53,
+          "end": 52.59
+        },
+        {
+          "id": "p8w4",
+          "text": "said.",
+          "start": 52.59,
+          "end": 52.87
+        },
+        {
+          "id": "p8w5",
+          "text": "Diana",
+          "start": 53.49,
+          "end": 53.83
+        },
+        {
+          "id": "p8w6",
+          "text": "and",
+          "start": 53.83,
+          "end": 54.09
+        },
+        {
+          "id": "p8w7",
+          "text": "Mary",
+          "start": 54.09,
+          "end": 54.29
+        },
+        {
+          "id": "p8w8",
+          "text": "are",
+          "start": 54.29,
+          "end": 54.49
+        },
+        {
+          "id": "p8w9",
+          "text": "both",
+          "start": 54.49,
+          "end": 54.73
+        },
+        {
+          "id": "p8w10",
+          "text": "well.",
+          "start": 54.73,
+          "end": 55.01
+        },
+        {
+          "id": "p8w11",
+          "text": "St",
+          "start": 56.33,
+          "end": 56.75
+        },
+        {
+          "id": "p8w12",
+          "text": "John",
+          "start": 56.75,
+          "end": 57.09
+        },
+        {
+          "id": "p8w13",
+          "text": "sat",
+          "start": 57.09,
+          "end": 57.43
+        },
+        {
+          "id": "p8w14",
+          "text": "down",
+          "start": 57.43,
+          "end": 57.75
+        },
+        {
+          "id": "p8w15",
+          "text": "beside",
+          "start": 57.75,
+          "end": 57.93
+        },
+        {
+          "id": "p8w16",
+          "text": "the",
+          "start": 57.93,
+          "end": 58.27
+        },
+        {
+          "id": "p8w17",
+          "text": "fire,",
+          "start": 58.27,
+          "end": 58.63
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 59.35,
+      "end": 65.33,
+      "text": "and said nothing for a long time. I wondered what had made him come to see me on such a cold,",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "and",
+          "start": 59.35,
+          "end": 59.53
+        },
+        {
+          "id": "p9w2",
+          "text": "said",
+          "start": 59.53,
+          "end": 59.75
+        },
+        {
+          "id": "p9w3",
+          "text": "nothing",
+          "start": 59.75,
+          "end": 60.07
+        },
+        {
+          "id": "p9w4",
+          "text": "for",
+          "start": 60.07,
+          "end": 60.47
+        },
+        {
+          "id": "p9w5",
+          "text": "a",
+          "start": 60.47,
+          "end": 60.57
+        },
+        {
+          "id": "p9w6",
+          "text": "long",
+          "start": 60.57,
+          "end": 60.81
+        },
+        {
+          "id": "p9w7",
+          "text": "time.",
+          "start": 60.81,
+          "end": 61.27
+        },
+        {
+          "id": "p9w8",
+          "text": "I",
+          "start": 62.39,
+          "end": 62.75
+        },
+        {
+          "id": "p9w9",
+          "text": "wondered",
+          "start": 62.75,
+          "end": 63.01
+        },
+        {
+          "id": "p9w10",
+          "text": "what",
+          "start": 63.01,
+          "end": 63.33
+        },
+        {
+          "id": "p9w11",
+          "text": "had",
+          "start": 63.33,
+          "end": 63.41
+        },
+        {
+          "id": "p9w12",
+          "text": "made",
+          "start": 63.41,
+          "end": 63.57
+        },
+        {
+          "id": "p9w13",
+          "text": "him",
+          "start": 63.57,
+          "end": 63.75
+        },
+        {
+          "id": "p9w14",
+          "text": "come",
+          "start": 63.75,
+          "end": 63.87
+        },
+        {
+          "id": "p9w15",
+          "text": "to",
+          "start": 63.87,
+          "end": 64.05
+        },
+        {
+          "id": "p9w16",
+          "text": "see",
+          "start": 64.05,
+          "end": 64.23
+        },
+        {
+          "id": "p9w17",
+          "text": "me",
+          "start": 64.23,
+          "end": 64.43
+        },
+        {
+          "id": "p9w18",
+          "text": "on",
+          "start": 64.43,
+          "end": 64.53
+        },
+        {
+          "id": "p9w19",
+          "text": "such",
+          "start": 64.53,
+          "end": 64.73
+        },
+        {
+          "id": "p9w20",
+          "text": "a",
+          "start": 64.73,
+          "end": 64.99
+        },
+        {
+          "id": "p9w21",
+          "text": "cold,",
+          "start": 64.99,
+          "end": 65.33
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 65.33,
+      "end": 68.92,
+      "text": "dark night. At last he spoke.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "dark",
+          "start": 65.33,
+          "end": 65.79
+        },
+        {
+          "id": "p10w2",
+          "text": "night.",
+          "start": 65.79,
+          "end": 66.11
+        },
+        {
+          "id": "p10w3",
+          "text": "At",
+          "start": 67.66,
+          "end": 68.1
+        },
+        {
+          "id": "p10w4",
+          "text": "last",
+          "start": 68.1,
+          "end": 68.3
+        },
+        {
+          "id": "p10w5",
+          "text": "he",
+          "start": 68.3,
+          "end": 68.64
+        },
+        {
+          "id": "p10w6",
+          "text": "spoke.",
+          "start": 68.64,
+          "end": 68.92
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 70.32,
+      "end": 76.68,
+      "text": "Jane, I know your story. He told me. I know about your parents and Mrs. Reed. I know about",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Jane,",
+          "start": 70.32,
+          "end": 70.78
+        },
+        {
+          "id": "p11w2",
+          "text": "I",
+          "start": 70.78,
+          "end": 71.24
+        },
+        {
+          "id": "p11w3",
+          "text": "know",
+          "start": 71.24,
+          "end": 71.42
+        },
+        {
+          "id": "p11w4",
+          "text": "your",
+          "start": 71.42,
+          "end": 71.58
+        },
+        {
+          "id": "p11w5",
+          "text": "story.",
+          "start": 71.58,
+          "end": 72.04
+        },
+        {
+          "id": "p11w6",
+          "text": "He",
+          "start": 72.32,
+          "end": 72.44
+        },
+        {
+          "id": "p11w7",
+          "text": "told",
+          "start": 72.44,
+          "end": 72.62
+        },
+        {
+          "id": "p11w8",
+          "text": "me.",
+          "start": 72.62,
+          "end": 72.94
+        },
+        {
+          "id": "p11w9",
+          "text": "I",
+          "start": 73.34,
+          "end": 73.52
+        },
+        {
+          "id": "p11w10",
+          "text": "know",
+          "start": 73.52,
+          "end": 73.7
+        },
+        {
+          "id": "p11w11",
+          "text": "about",
+          "start": 73.7,
+          "end": 73.9
+        },
+        {
+          "id": "p11w12",
+          "text": "your",
+          "start": 73.9,
+          "end": 74.1
+        },
+        {
+          "id": "p11w13",
+          "text": "parents",
+          "start": 74.1,
+          "end": 74.48
+        },
+        {
+          "id": "p11w14",
+          "text": "and",
+          "start": 74.48,
+          "end": 74.82
+        },
+        {
+          "id": "p11w15",
+          "text": "Mrs.",
+          "start": 74.82,
+          "end": 75.08
+        },
+        {
+          "id": "p11w16",
+          "text": "Reed.",
+          "start": 75.28,
+          "end": 75.34
+        },
+        {
+          "id": "p11w17",
+          "text": "I",
+          "start": 76.14,
+          "end": 76.34
+        },
+        {
+          "id": "p11w18",
+          "text": "know",
+          "start": 76.34,
+          "end": 76.5
+        },
+        {
+          "id": "p11w19",
+          "text": "about",
+          "start": 76.5,
+          "end": 76.68
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 76.68,
+      "end": 83.14,
+      "text": "your time at Lowwood and about Mr. Rochester. I also know about Mr. Rochester's wife. I know",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "your",
+          "start": 76.68,
+          "end": 76.82
+        },
+        {
+          "id": "p12w2",
+          "text": "time",
+          "start": 76.82,
+          "end": 77.08
+        },
+        {
+          "id": "p12w3",
+          "text": "at",
+          "start": 77.08,
+          "end": 77.24
+        },
+        {
+          "id": "p12w4",
+          "text": "Lowwood",
+          "start": 77.24,
+          "end": 77.68
+        },
+        {
+          "id": "p12w5",
+          "text": "and",
+          "start": 77.68,
+          "end": 77.82
+        },
+        {
+          "id": "p12w6",
+          "text": "about",
+          "start": 77.82,
+          "end": 77.98
+        },
+        {
+          "id": "p12w7",
+          "text": "Mr.",
+          "start": 77.98,
+          "end": 78.24
+        },
+        {
+          "id": "p12w8",
+          "text": "Rochester.",
+          "start": 78.52,
+          "end": 78.54
+        },
+        {
+          "id": "p12w9",
+          "text": "I",
+          "start": 79.54,
+          "end": 79.98
+        },
+        {
+          "id": "p12w10",
+          "text": "also",
+          "start": 79.98,
+          "end": 80.12
+        },
+        {
+          "id": "p12w11",
+          "text": "know",
+          "start": 80.12,
+          "end": 80.44
+        },
+        {
+          "id": "p12w12",
+          "text": "about",
+          "start": 80.44,
+          "end": 80.64
+        },
+        {
+          "id": "p12w13",
+          "text": "Mr.",
+          "start": 80.64,
+          "end": 80.78
+        },
+        {
+          "id": "p12w14",
+          "text": "Rochester's",
+          "start": 81.4,
+          "end": 81.4
+        },
+        {
+          "id": "p12w15",
+          "text": "wife.",
+          "start": 81.4,
+          "end": 81.64
+        },
+        {
+          "id": "p12w16",
+          "text": "I",
+          "start": 82.78,
+          "end": 82.98
+        },
+        {
+          "id": "p12w17",
+          "text": "know",
+          "start": 82.98,
+          "end": 83.14
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 83.14,
+      "end": 90.36,
+      "text": "why you came here with no money. Mr. Rochester must be a very bad man. He said, no, no, I",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "why",
+          "start": 83.14,
+          "end": 83.34
+        },
+        {
+          "id": "p13w2",
+          "text": "you",
+          "start": 83.34,
+          "end": 83.46
+        },
+        {
+          "id": "p13w3",
+          "text": "came",
+          "start": 83.46,
+          "end": 83.62
+        },
+        {
+          "id": "p13w4",
+          "text": "here",
+          "start": 83.62,
+          "end": 83.8
+        },
+        {
+          "id": "p13w5",
+          "text": "with",
+          "start": 83.8,
+          "end": 83.94
+        },
+        {
+          "id": "p13w6",
+          "text": "no",
+          "start": 83.94,
+          "end": 84.08
+        },
+        {
+          "id": "p13w7",
+          "text": "money.",
+          "start": 84.08,
+          "end": 84.3
+        },
+        {
+          "id": "p13w8",
+          "text": "Mr.",
+          "start": 85.16,
+          "end": 85.56
+        },
+        {
+          "id": "p13w9",
+          "text": "Rochester",
+          "start": 85.88,
+          "end": 85.88
+        },
+        {
+          "id": "p13w10",
+          "text": "must",
+          "start": 85.88,
+          "end": 85.88
+        },
+        {
+          "id": "p13w11",
+          "text": "be",
+          "start": 85.88,
+          "end": 86.5
+        },
+        {
+          "id": "p13w12",
+          "text": "a",
+          "start": 86.5,
+          "end": 86.6
+        },
+        {
+          "id": "p13w13",
+          "text": "very",
+          "start": 86.6,
+          "end": 86.8
+        },
+        {
+          "id": "p13w14",
+          "text": "bad",
+          "start": 86.8,
+          "end": 87.12
+        },
+        {
+          "id": "p13w15",
+          "text": "man.",
+          "start": 87.12,
+          "end": 87.4
+        },
+        {
+          "id": "p13w16",
+          "text": "He",
+          "start": 87.66,
+          "end": 87.78
+        },
+        {
+          "id": "p13w17",
+          "text": "said,",
+          "start": 87.78,
+          "end": 88.08
+        },
+        {
+          "id": "p13w18",
+          "text": "no,",
+          "start": 88.82,
+          "end": 89.34
+        },
+        {
+          "id": "p13w19",
+          "text": "no,",
+          "start": 89.54,
+          "end": 89.9
+        },
+        {
+          "id": "p13w20",
+          "text": "I",
+          "start": 90.22,
+          "end": 90.36
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 90.36,
+      "end": 95.76,
+      "text": "cried. He isn't bad. I have had a letter from a man in London called Mr. Briggs, who is",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "cried.",
+          "start": 90.36,
+          "end": 90.56
+        },
+        {
+          "id": "p14w2",
+          "text": "He",
+          "start": 90.98,
+          "end": 91.12
+        },
+        {
+          "id": "p14w3",
+          "text": "isn't",
+          "start": 91.12,
+          "end": 91.42
+        },
+        {
+          "id": "p14w4",
+          "text": "bad.",
+          "start": 91.42,
+          "end": 91.66
+        },
+        {
+          "id": "p14w5",
+          "text": "I",
+          "start": 92.18,
+          "end": 92.38
+        },
+        {
+          "id": "p14w6",
+          "text": "have",
+          "start": 92.38,
+          "end": 92.54
+        },
+        {
+          "id": "p14w7",
+          "text": "had",
+          "start": 92.54,
+          "end": 92.68
+        },
+        {
+          "id": "p14w8",
+          "text": "a",
+          "start": 92.68,
+          "end": 92.78
+        },
+        {
+          "id": "p14w9",
+          "text": "letter",
+          "start": 92.78,
+          "end": 92.94
+        },
+        {
+          "id": "p14w10",
+          "text": "from",
+          "start": 92.94,
+          "end": 93.28
+        },
+        {
+          "id": "p14w11",
+          "text": "a",
+          "start": 93.28,
+          "end": 93.4
+        },
+        {
+          "id": "p14w12",
+          "text": "man",
+          "start": 93.4,
+          "end": 93.56
+        },
+        {
+          "id": "p14w13",
+          "text": "in",
+          "start": 93.56,
+          "end": 93.72
+        },
+        {
+          "id": "p14w14",
+          "text": "London",
+          "start": 93.72,
+          "end": 93.92
+        },
+        {
+          "id": "p14w15",
+          "text": "called",
+          "start": 93.92,
+          "end": 94.36
+        },
+        {
+          "id": "p14w16",
+          "text": "Mr.",
+          "start": 94.36,
+          "end": 94.64
+        },
+        {
+          "id": "p14w17",
+          "text": "Briggs,",
+          "start": 94.92,
+          "end": 94.92
+        },
+        {
+          "id": "p14w18",
+          "text": "who",
+          "start": 95.44,
+          "end": 95.66
+        },
+        {
+          "id": "p14w19",
+          "text": "is",
+          "start": 95.66,
+          "end": 95.76
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 95.76,
+      "end": 101.42,
+      "text": "looking for someone called Jane Eyre. St John said, you say that your name is Jane",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "looking",
+          "start": 95.76,
+          "end": 95.92
+        },
+        {
+          "id": "p15w2",
+          "text": "for",
+          "start": 95.92,
+          "end": 96.24
+        },
+        {
+          "id": "p15w3",
+          "text": "someone",
+          "start": 96.24,
+          "end": 96.46
+        },
+        {
+          "id": "p15w4",
+          "text": "called",
+          "start": 96.46,
+          "end": 96.86
+        },
+        {
+          "id": "p15w5",
+          "text": "Jane",
+          "start": 96.86,
+          "end": 97.2
+        },
+        {
+          "id": "p15w6",
+          "text": "Eyre.",
+          "start": 97.2,
+          "end": 97.62
+        },
+        {
+          "id": "p15w7",
+          "text": "St",
+          "start": 98.18,
+          "end": 98.5
+        },
+        {
+          "id": "p15w8",
+          "text": "John",
+          "start": 98.5,
+          "end": 98.78
+        },
+        {
+          "id": "p15w9",
+          "text": "said,",
+          "start": 98.78,
+          "end": 99.16
+        },
+        {
+          "id": "p15w10",
+          "text": "you",
+          "start": 100.1,
+          "end": 100.26
+        },
+        {
+          "id": "p15w11",
+          "text": "say",
+          "start": 100.26,
+          "end": 100.48
+        },
+        {
+          "id": "p15w12",
+          "text": "that",
+          "start": 100.48,
+          "end": 100.7
+        },
+        {
+          "id": "p15w13",
+          "text": "your",
+          "start": 100.7,
+          "end": 100.8
+        },
+        {
+          "id": "p15w14",
+          "text": "name",
+          "start": 100.8,
+          "end": 101.02
+        },
+        {
+          "id": "p15w15",
+          "text": "is",
+          "start": 101.02,
+          "end": 101.2
+        },
+        {
+          "id": "p15w16",
+          "text": "Jane",
+          "start": 101.2,
+          "end": 101.42
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 101.42,
+      "end": 108.45,
+      "text": "Elliott, but I know that you are Jane Eyre. Look. He showed me the piece of paper from the",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "Elliott,",
+          "start": 101.42,
+          "end": 101.64
+        },
+        {
+          "id": "p16w2",
+          "text": "but",
+          "start": 102.52,
+          "end": 103.08
+        },
+        {
+          "id": "p16w3",
+          "text": "I",
+          "start": 103.08,
+          "end": 103.22
+        },
+        {
+          "id": "p16w4",
+          "text": "know",
+          "start": 103.22,
+          "end": 103.42
+        },
+        {
+          "id": "p16w5",
+          "text": "that",
+          "start": 103.42,
+          "end": 103.58
+        },
+        {
+          "id": "p16w6",
+          "text": "you",
+          "start": 103.58,
+          "end": 103.76
+        },
+        {
+          "id": "p16w7",
+          "text": "are",
+          "start": 103.76,
+          "end": 103.84
+        },
+        {
+          "id": "p16w8",
+          "text": "Jane",
+          "start": 103.84,
+          "end": 104.04
+        },
+        {
+          "id": "p16w9",
+          "text": "Eyre.",
+          "start": 104.04,
+          "end": 104.68
+        },
+        {
+          "id": "p16w10",
+          "text": "Look.",
+          "start": 104.72,
+          "end": 104.96
+        },
+        {
+          "id": "p16w11",
+          "text": "He",
+          "start": 106.63,
+          "end": 106.97
+        },
+        {
+          "id": "p16w12",
+          "text": "showed",
+          "start": 106.97,
+          "end": 107.17
+        },
+        {
+          "id": "p16w13",
+          "text": "me",
+          "start": 107.17,
+          "end": 107.37
+        },
+        {
+          "id": "p16w14",
+          "text": "the",
+          "start": 107.37,
+          "end": 107.47
+        },
+        {
+          "id": "p16w15",
+          "text": "piece",
+          "start": 107.47,
+          "end": 107.65
+        },
+        {
+          "id": "p16w16",
+          "text": "of",
+          "start": 107.65,
+          "end": 107.81
+        },
+        {
+          "id": "p16w17",
+          "text": "paper",
+          "start": 107.81,
+          "end": 108.03
+        },
+        {
+          "id": "p16w18",
+          "text": "from",
+          "start": 108.03,
+          "end": 108.31
+        },
+        {
+          "id": "p16w19",
+          "text": "the",
+          "start": 108.31,
+          "end": 108.45
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 108.45,
+      "end": 116.53,
+      "text": "bottom of my painting. My real name, Jane Eyre, was on it. Does Mr. Briggs know anything about",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "bottom",
+          "start": 108.45,
+          "end": 108.65
+        },
+        {
+          "id": "p17w2",
+          "text": "of",
+          "start": 108.65,
+          "end": 108.83
+        },
+        {
+          "id": "p17w3",
+          "text": "my",
+          "start": 108.83,
+          "end": 108.99
+        },
+        {
+          "id": "p17w4",
+          "text": "painting.",
+          "start": 108.99,
+          "end": 109.37
+        },
+        {
+          "id": "p17w5",
+          "text": "My",
+          "start": 110.36,
+          "end": 110.68
+        },
+        {
+          "id": "p17w6",
+          "text": "real",
+          "start": 110.68,
+          "end": 110.86
+        },
+        {
+          "id": "p17w7",
+          "text": "name,",
+          "start": 110.86,
+          "end": 111.2
+        },
+        {
+          "id": "p17w8",
+          "text": "Jane",
+          "start": 111.2,
+          "end": 111.96
+        },
+        {
+          "id": "p17w9",
+          "text": "Eyre,",
+          "start": 111.96,
+          "end": 112.38
+        },
+        {
+          "id": "p17w10",
+          "text": "was",
+          "start": 112.46,
+          "end": 112.56
+        },
+        {
+          "id": "p17w11",
+          "text": "on",
+          "start": 112.56,
+          "end": 112.74
+        },
+        {
+          "id": "p17w12",
+          "text": "it.",
+          "start": 112.74,
+          "end": 112.9
+        },
+        {
+          "id": "p17w13",
+          "text": "Does",
+          "start": 114.91,
+          "end": 115.17
+        },
+        {
+          "id": "p17w14",
+          "text": "Mr.",
+          "start": 115.17,
+          "end": 115.33
+        },
+        {
+          "id": "p17w15",
+          "text": "Briggs",
+          "start": 115.67,
+          "end": 115.67
+        },
+        {
+          "id": "p17w16",
+          "text": "know",
+          "start": 115.67,
+          "end": 115.99
+        },
+        {
+          "id": "p17w17",
+          "text": "anything",
+          "start": 115.99,
+          "end": 116.21
+        },
+        {
+          "id": "p17w18",
+          "text": "about",
+          "start": 116.21,
+          "end": 116.53
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 116.53,
+      "end": 123.63,
+      "text": "Mr. Rochester? I asked. Does he know how Mr. Rochester is? I could only think about Mr.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "Mr.",
+          "start": 116.53,
+          "end": 116.85
+        },
+        {
+          "id": "p18w2",
+          "text": "Rochester?",
+          "start": 117.29,
+          "end": 117.29
+        },
+        {
+          "id": "p18w3",
+          "text": "I",
+          "start": 117.81,
+          "end": 117.81
+        },
+        {
+          "id": "p18w4",
+          "text": "asked.",
+          "start": 117.81,
+          "end": 118.03
+        },
+        {
+          "id": "p18w5",
+          "text": "Does",
+          "start": 119.41,
+          "end": 119.67
+        },
+        {
+          "id": "p18w6",
+          "text": "he",
+          "start": 119.67,
+          "end": 119.79
+        },
+        {
+          "id": "p18w7",
+          "text": "know",
+          "start": 119.79,
+          "end": 119.93
+        },
+        {
+          "id": "p18w8",
+          "text": "how",
+          "start": 119.93,
+          "end": 120.03
+        },
+        {
+          "id": "p18w9",
+          "text": "Mr.",
+          "start": 120.03,
+          "end": 120.17
+        },
+        {
+          "id": "p18w10",
+          "text": "Rochester",
+          "start": 120.59,
+          "end": 120.59
+        },
+        {
+          "id": "p18w11",
+          "text": "is?",
+          "start": 120.59,
+          "end": 120.97
+        },
+        {
+          "id": "p18w12",
+          "text": "I",
+          "start": 122.57,
+          "end": 122.71
+        },
+        {
+          "id": "p18w13",
+          "text": "could",
+          "start": 122.71,
+          "end": 122.81
+        },
+        {
+          "id": "p18w14",
+          "text": "only",
+          "start": 122.81,
+          "end": 122.91
+        },
+        {
+          "id": "p18w15",
+          "text": "think",
+          "start": 122.91,
+          "end": 123.19
+        },
+        {
+          "id": "p18w16",
+          "text": "about",
+          "start": 123.19,
+          "end": 123.39
+        },
+        {
+          "id": "p18w17",
+          "text": "Mr.",
+          "start": 123.39,
+          "end": 123.63
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 124.11,
+      "end": 128.91,
+      "text": "Rochester because I still loved him. Mr. Briggs said nothing about Mr. Rochester. Said St.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "Rochester",
+          "start": 124.11,
+          "end": 124.11
+        },
+        {
+          "id": "p19w2",
+          "text": "because",
+          "start": 124.11,
+          "end": 124.53
+        },
+        {
+          "id": "p19w3",
+          "text": "I",
+          "start": 124.53,
+          "end": 124.75
+        },
+        {
+          "id": "p19w4",
+          "text": "still",
+          "start": 124.75,
+          "end": 124.99
+        },
+        {
+          "id": "p19w5",
+          "text": "loved",
+          "start": 124.99,
+          "end": 125.23
+        },
+        {
+          "id": "p19w6",
+          "text": "him.",
+          "start": 125.23,
+          "end": 125.49
+        },
+        {
+          "id": "p19w7",
+          "text": "Mr.",
+          "start": 126.01,
+          "end": 126.23
+        },
+        {
+          "id": "p19w8",
+          "text": "Briggs",
+          "start": 126.37,
+          "end": 126.49
+        },
+        {
+          "id": "p19w9",
+          "text": "said",
+          "start": 126.49,
+          "end": 126.77
+        },
+        {
+          "id": "p19w10",
+          "text": "nothing",
+          "start": 126.77,
+          "end": 127.05
+        },
+        {
+          "id": "p19w11",
+          "text": "about",
+          "start": 127.05,
+          "end": 127.41
+        },
+        {
+          "id": "p19w12",
+          "text": "Mr.",
+          "start": 127.41,
+          "end": 127.61
+        },
+        {
+          "id": "p19w13",
+          "text": "Rochester.",
+          "start": 128.15,
+          "end": 128.15
+        },
+        {
+          "id": "p19w14",
+          "text": "Said",
+          "start": 128.55,
+          "end": 128.71
+        },
+        {
+          "id": "p19w15",
+          "text": "St.",
+          "start": 128.71,
+          "end": 128.91
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 128.91,
+      "end": 136.03,
+      "text": "John. His letter was about your uncle, Mr. Eyre of Madeira. Mr. Eyre is dead. He left you",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "John.",
+          "start": 128.91,
+          "end": 129.25
+        },
+        {
+          "id": "p20w2",
+          "text": "His",
+          "start": 129.83,
+          "end": 130.31
+        },
+        {
+          "id": "p20w3",
+          "text": "letter",
+          "start": 130.31,
+          "end": 130.49
+        },
+        {
+          "id": "p20w4",
+          "text": "was",
+          "start": 130.49,
+          "end": 130.71
+        },
+        {
+          "id": "p20w5",
+          "text": "about",
+          "start": 130.71,
+          "end": 130.91
+        },
+        {
+          "id": "p20w6",
+          "text": "your",
+          "start": 130.91,
+          "end": 131.09
+        },
+        {
+          "id": "p20w7",
+          "text": "uncle,",
+          "start": 131.09,
+          "end": 131.43
+        },
+        {
+          "id": "p20w8",
+          "text": "Mr.",
+          "start": 131.69,
+          "end": 131.75
+        },
+        {
+          "id": "p20w9",
+          "text": "Eyre",
+          "start": 131.97,
+          "end": 132.19
+        },
+        {
+          "id": "p20w10",
+          "text": "of",
+          "start": 132.19,
+          "end": 132.35
+        },
+        {
+          "id": "p20w11",
+          "text": "Madeira.",
+          "start": 132.35,
+          "end": 132.77
+        },
+        {
+          "id": "p20w12",
+          "text": "Mr.",
+          "start": 133.57,
+          "end": 133.89
+        },
+        {
+          "id": "p20w13",
+          "text": "Eyre",
+          "start": 134.05,
+          "end": 134.31
+        },
+        {
+          "id": "p20w14",
+          "text": "is",
+          "start": 134.31,
+          "end": 134.47
+        },
+        {
+          "id": "p20w15",
+          "text": "dead.",
+          "start": 134.47,
+          "end": 134.71
+        },
+        {
+          "id": "p20w16",
+          "text": "He",
+          "start": 135.49,
+          "end": 135.71
+        },
+        {
+          "id": "p20w17",
+          "text": "left",
+          "start": 135.71,
+          "end": 135.85
+        },
+        {
+          "id": "p20w18",
+          "text": "you",
+          "start": 135.85,
+          "end": 136.03
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 136.03,
+      "end": 142.23,
+      "text": "all his money. You were very rich, Jane. I was so surprised that I was unable to speak",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "all",
+          "start": 136.03,
+          "end": 136.17
+        },
+        {
+          "id": "p21w2",
+          "text": "his",
+          "start": 136.17,
+          "end": 136.29
+        },
+        {
+          "id": "p21w3",
+          "text": "money.",
+          "start": 136.29,
+          "end": 136.51
+        },
+        {
+          "id": "p21w4",
+          "text": "You",
+          "start": 137.11,
+          "end": 137.37
+        },
+        {
+          "id": "p21w5",
+          "text": "were",
+          "start": 137.37,
+          "end": 137.45
+        },
+        {
+          "id": "p21w6",
+          "text": "very",
+          "start": 137.45,
+          "end": 137.65
+        },
+        {
+          "id": "p21w7",
+          "text": "rich,",
+          "start": 137.65,
+          "end": 138.01
+        },
+        {
+          "id": "p21w8",
+          "text": "Jane.",
+          "start": 138.09,
+          "end": 138.23
+        },
+        {
+          "id": "p21w9",
+          "text": "I",
+          "start": 139.27,
+          "end": 139.75
+        },
+        {
+          "id": "p21w10",
+          "text": "was",
+          "start": 139.75,
+          "end": 139.91
+        },
+        {
+          "id": "p21w11",
+          "text": "so",
+          "start": 139.91,
+          "end": 140.17
+        },
+        {
+          "id": "p21w12",
+          "text": "surprised",
+          "start": 140.17,
+          "end": 140.73
+        },
+        {
+          "id": "p21w13",
+          "text": "that",
+          "start": 140.73,
+          "end": 141.25
+        },
+        {
+          "id": "p21w14",
+          "text": "I",
+          "start": 141.25,
+          "end": 141.39
+        },
+        {
+          "id": "p21w15",
+          "text": "was",
+          "start": 141.39,
+          "end": 141.51
+        },
+        {
+          "id": "p21w16",
+          "text": "unable",
+          "start": 141.51,
+          "end": 141.73
+        },
+        {
+          "id": "p21w17",
+          "text": "to",
+          "start": 141.73,
+          "end": 141.97
+        },
+        {
+          "id": "p21w18",
+          "text": "speak",
+          "start": 141.97,
+          "end": 142.23
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 142.23,
+      "end": 149.88,
+      "text": "for a long time. I did not feel excited or happy. Instead, I wondered what it would mean",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "for",
+          "start": 142.23,
+          "end": 142.51
+        },
+        {
+          "id": "p22w2",
+          "text": "a",
+          "start": 142.51,
+          "end": 142.59
+        },
+        {
+          "id": "p22w3",
+          "text": "long",
+          "start": 142.59,
+          "end": 142.75
+        },
+        {
+          "id": "p22w4",
+          "text": "time.",
+          "start": 142.75,
+          "end": 143.19
+        },
+        {
+          "id": "p22w5",
+          "text": "I",
+          "start": 144.14,
+          "end": 144.62
+        },
+        {
+          "id": "p22w6",
+          "text": "did",
+          "start": 144.62,
+          "end": 144.74
+        },
+        {
+          "id": "p22w7",
+          "text": "not",
+          "start": 144.74,
+          "end": 144.88
+        },
+        {
+          "id": "p22w8",
+          "text": "feel",
+          "start": 144.88,
+          "end": 145.16
+        },
+        {
+          "id": "p22w9",
+          "text": "excited",
+          "start": 145.16,
+          "end": 145.68
+        },
+        {
+          "id": "p22w10",
+          "text": "or",
+          "start": 145.68,
+          "end": 146.02
+        },
+        {
+          "id": "p22w11",
+          "text": "happy.",
+          "start": 146.02,
+          "end": 146.3
+        },
+        {
+          "id": "p22w12",
+          "text": "Instead,",
+          "start": 147.48,
+          "end": 147.78
+        },
+        {
+          "id": "p22w13",
+          "text": "I",
+          "start": 148.28,
+          "end": 148.94
+        },
+        {
+          "id": "p22w14",
+          "text": "wondered",
+          "start": 148.94,
+          "end": 149.12
+        },
+        {
+          "id": "p22w15",
+          "text": "what",
+          "start": 149.12,
+          "end": 149.42
+        },
+        {
+          "id": "p22w16",
+          "text": "it",
+          "start": 149.42,
+          "end": 149.54
+        },
+        {
+          "id": "p22w17",
+          "text": "would",
+          "start": 149.54,
+          "end": 149.68
+        },
+        {
+          "id": "p22w18",
+          "text": "mean",
+          "start": 149.68,
+          "end": 149.88
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 149.88,
+      "end": 157.29,
+      "text": "to be rich. I don't understand, I said, when I was able to speak again. Why did Mr. Briggs",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "to",
+          "start": 149.88,
+          "end": 150.14
+        },
+        {
+          "id": "p23w2",
+          "text": "be",
+          "start": 150.14,
+          "end": 150.26
+        },
+        {
+          "id": "p23w3",
+          "text": "rich.",
+          "start": 150.26,
+          "end": 150.44
+        },
+        {
+          "id": "p23w4",
+          "text": "I",
+          "start": 151.99,
+          "end": 152.43
+        },
+        {
+          "id": "p23w5",
+          "text": "don't",
+          "start": 152.43,
+          "end": 152.67
+        },
+        {
+          "id": "p23w6",
+          "text": "understand,",
+          "start": 152.67,
+          "end": 152.97
+        },
+        {
+          "id": "p23w7",
+          "text": "I",
+          "start": 153.37,
+          "end": 153.51
+        },
+        {
+          "id": "p23w8",
+          "text": "said,",
+          "start": 153.51,
+          "end": 153.75
+        },
+        {
+          "id": "p23w9",
+          "text": "when",
+          "start": 154.21,
+          "end": 154.35
+        },
+        {
+          "id": "p23w10",
+          "text": "I",
+          "start": 154.35,
+          "end": 154.47
+        },
+        {
+          "id": "p23w11",
+          "text": "was",
+          "start": 154.47,
+          "end": 154.55
+        },
+        {
+          "id": "p23w12",
+          "text": "able",
+          "start": 154.55,
+          "end": 154.71
+        },
+        {
+          "id": "p23w13",
+          "text": "to",
+          "start": 154.71,
+          "end": 154.89
+        },
+        {
+          "id": "p23w14",
+          "text": "speak",
+          "start": 154.89,
+          "end": 155.07
+        },
+        {
+          "id": "p23w15",
+          "text": "again.",
+          "start": 155.07,
+          "end": 155.35
+        },
+        {
+          "id": "p23w16",
+          "text": "Why",
+          "start": 156.13,
+          "end": 156.61
+        },
+        {
+          "id": "p23w17",
+          "text": "did",
+          "start": 156.61,
+          "end": 156.77
+        },
+        {
+          "id": "p23w18",
+          "text": "Mr.",
+          "start": 156.77,
+          "end": 157.01
+        },
+        {
+          "id": "p23w19",
+          "text": "Briggs",
+          "start": 157.29,
+          "end": 157.29
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 157.29,
+      "end": 164.09,
+      "text": "write to you? Because? Said St. John. Mr. Eyre of Madeira was my mother's brother, which",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "write",
+          "start": 157.29,
+          "end": 157.65
+        },
+        {
+          "id": "p24w2",
+          "text": "to",
+          "start": 157.65,
+          "end": 157.89
+        },
+        {
+          "id": "p24w3",
+          "text": "you?",
+          "start": 157.89,
+          "end": 158.09
+        },
+        {
+          "id": "p24w4",
+          "text": "Because?",
+          "start": 158.73,
+          "end": 159.15
+        },
+        {
+          "id": "p24w5",
+          "text": "Said",
+          "start": 159.61,
+          "end": 159.81
+        },
+        {
+          "id": "p24w6",
+          "text": "St.",
+          "start": 159.81,
+          "end": 159.97
+        },
+        {
+          "id": "p24w7",
+          "text": "John.",
+          "start": 160.19,
+          "end": 160.31
+        },
+        {
+          "id": "p24w8",
+          "text": "Mr.",
+          "start": 160.75,
+          "end": 161.13
+        },
+        {
+          "id": "p24w9",
+          "text": "Eyre",
+          "start": 161.23,
+          "end": 161.51
+        },
+        {
+          "id": "p24w10",
+          "text": "of",
+          "start": 161.51,
+          "end": 161.63
+        },
+        {
+          "id": "p24w11",
+          "text": "Madeira",
+          "start": 161.63,
+          "end": 162.05
+        },
+        {
+          "id": "p24w12",
+          "text": "was",
+          "start": 162.05,
+          "end": 162.29
+        },
+        {
+          "id": "p24w13",
+          "text": "my",
+          "start": 162.29,
+          "end": 162.47
+        },
+        {
+          "id": "p24w14",
+          "text": "mother's",
+          "start": 162.47,
+          "end": 162.87
+        },
+        {
+          "id": "p24w15",
+          "text": "brother,",
+          "start": 162.87,
+          "end": 163.17
+        },
+        {
+          "id": "p24w16",
+          "text": "which",
+          "start": 163.87,
+          "end": 164.09
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 164.09,
+      "end": 170.28,
+      "text": "means that he is also our uncle. Then you and your sisters are my cousins, I said, feeling",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "means",
+          "start": 164.09,
+          "end": 164.33
+        },
+        {
+          "id": "p25w2",
+          "text": "that",
+          "start": 164.33,
+          "end": 164.61
+        },
+        {
+          "id": "p25w3",
+          "text": "he",
+          "start": 164.61,
+          "end": 164.75
+        },
+        {
+          "id": "p25w4",
+          "text": "is",
+          "start": 164.75,
+          "end": 164.85
+        },
+        {
+          "id": "p25w5",
+          "text": "also",
+          "start": 164.85,
+          "end": 165.09
+        },
+        {
+          "id": "p25w6",
+          "text": "our",
+          "start": 165.09,
+          "end": 165.43
+        },
+        {
+          "id": "p25w7",
+          "text": "uncle.",
+          "start": 165.43,
+          "end": 165.77
+        },
+        {
+          "id": "p25w8",
+          "text": "Then",
+          "start": 166.84,
+          "end": 167.22
+        },
+        {
+          "id": "p25w9",
+          "text": "you",
+          "start": 167.22,
+          "end": 167.4
+        },
+        {
+          "id": "p25w10",
+          "text": "and",
+          "start": 167.4,
+          "end": 167.54
+        },
+        {
+          "id": "p25w11",
+          "text": "your",
+          "start": 167.54,
+          "end": 167.68
+        },
+        {
+          "id": "p25w12",
+          "text": "sisters",
+          "start": 167.68,
+          "end": 167.94
+        },
+        {
+          "id": "p25w13",
+          "text": "are",
+          "start": 167.94,
+          "end": 168.24
+        },
+        {
+          "id": "p25w14",
+          "text": "my",
+          "start": 168.24,
+          "end": 168.36
+        },
+        {
+          "id": "p25w15",
+          "text": "cousins,",
+          "start": 168.36,
+          "end": 168.8
+        },
+        {
+          "id": "p25w16",
+          "text": "I",
+          "start": 169.34,
+          "end": 169.54
+        },
+        {
+          "id": "p25w17",
+          "text": "said,",
+          "start": 169.54,
+          "end": 169.78
+        },
+        {
+          "id": "p25w18",
+          "text": "feeling",
+          "start": 170.02,
+          "end": 170.28
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 170.28,
+      "end": 176.22,
+      "text": "happy now. We can share the money between the four of us. Diana and Mary can come home and",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "happy",
+          "start": 170.28,
+          "end": 170.54
+        },
+        {
+          "id": "p26w2",
+          "text": "now.",
+          "start": 170.54,
+          "end": 170.88
+        },
+        {
+          "id": "p26w3",
+          "text": "We",
+          "start": 171.32,
+          "end": 171.74
+        },
+        {
+          "id": "p26w4",
+          "text": "can",
+          "start": 171.74,
+          "end": 171.86
+        },
+        {
+          "id": "p26w5",
+          "text": "share",
+          "start": 171.86,
+          "end": 172.08
+        },
+        {
+          "id": "p26w6",
+          "text": "the",
+          "start": 172.08,
+          "end": 172.22
+        },
+        {
+          "id": "p26w7",
+          "text": "money",
+          "start": 172.22,
+          "end": 172.42
+        },
+        {
+          "id": "p26w8",
+          "text": "between",
+          "start": 172.42,
+          "end": 172.64
+        },
+        {
+          "id": "p26w9",
+          "text": "the",
+          "start": 172.64,
+          "end": 172.82
+        },
+        {
+          "id": "p26w10",
+          "text": "four",
+          "start": 172.82,
+          "end": 173.0
+        },
+        {
+          "id": "p26w11",
+          "text": "of",
+          "start": 173.0,
+          "end": 173.18
+        },
+        {
+          "id": "p26w12",
+          "text": "us.",
+          "start": 173.18,
+          "end": 173.34
+        },
+        {
+          "id": "p26w13",
+          "text": "Diana",
+          "start": 173.88,
+          "end": 174.1
+        },
+        {
+          "id": "p26w14",
+          "text": "and",
+          "start": 174.1,
+          "end": 174.42
+        },
+        {
+          "id": "p26w15",
+          "text": "Mary",
+          "start": 174.42,
+          "end": 174.66
+        },
+        {
+          "id": "p26w16",
+          "text": "can",
+          "start": 174.66,
+          "end": 174.98
+        },
+        {
+          "id": "p26w17",
+          "text": "come",
+          "start": 174.98,
+          "end": 175.2
+        },
+        {
+          "id": "p26w18",
+          "text": "home",
+          "start": 175.2,
+          "end": 175.48
+        },
+        {
+          "id": "p26w19",
+          "text": "and",
+          "start": 175.48,
+          "end": 176.22
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 176.22,
+      "end": 183.28,
+      "text": "we can all live together. It was good to have money after being poor for all of my life,",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "we",
+          "start": 176.22,
+          "end": 176.32
+        },
+        {
+          "id": "p27w2",
+          "text": "can",
+          "start": 176.32,
+          "end": 176.46
+        },
+        {
+          "id": "p27w3",
+          "text": "all",
+          "start": 176.46,
+          "end": 176.74
+        },
+        {
+          "id": "p27w4",
+          "text": "live",
+          "start": 176.74,
+          "end": 177.02
+        },
+        {
+          "id": "p27w5",
+          "text": "together.",
+          "start": 177.02,
+          "end": 177.34
+        },
+        {
+          "id": "p27w6",
+          "text": "It",
+          "start": 180.02,
+          "end": 180.24
+        },
+        {
+          "id": "p27w7",
+          "text": "was",
+          "start": 180.24,
+          "end": 180.34
+        },
+        {
+          "id": "p27w8",
+          "text": "good",
+          "start": 180.34,
+          "end": 180.56
+        },
+        {
+          "id": "p27w9",
+          "text": "to",
+          "start": 180.56,
+          "end": 180.7
+        },
+        {
+          "id": "p27w10",
+          "text": "have",
+          "start": 180.7,
+          "end": 180.86
+        },
+        {
+          "id": "p27w11",
+          "text": "money",
+          "start": 180.86,
+          "end": 181.12
+        },
+        {
+          "id": "p27w12",
+          "text": "after",
+          "start": 181.12,
+          "end": 181.68
+        },
+        {
+          "id": "p27w13",
+          "text": "being",
+          "start": 181.68,
+          "end": 181.98
+        },
+        {
+          "id": "p27w14",
+          "text": "poor",
+          "start": 181.98,
+          "end": 182.3
+        },
+        {
+          "id": "p27w15",
+          "text": "for",
+          "start": 182.3,
+          "end": 182.58
+        },
+        {
+          "id": "p27w16",
+          "text": "all",
+          "start": 182.58,
+          "end": 182.72
+        },
+        {
+          "id": "p27w17",
+          "text": "of",
+          "start": 182.72,
+          "end": 182.82
+        },
+        {
+          "id": "p27w18",
+          "text": "my",
+          "start": 182.82,
+          "end": 182.96
+        },
+        {
+          "id": "p27w19",
+          "text": "life,",
+          "start": 182.96,
+          "end": 183.28
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 183.28,
+      "end": 189.99,
+      "text": "but it was even better to know that I had three cousins. Diana and Mary came home just",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "but",
+          "start": 183.28,
+          "end": 183.64
+        },
+        {
+          "id": "p28w2",
+          "text": "it",
+          "start": 183.64,
+          "end": 184.32
+        },
+        {
+          "id": "p28w3",
+          "text": "was",
+          "start": 184.32,
+          "end": 184.46
+        },
+        {
+          "id": "p28w4",
+          "text": "even",
+          "start": 184.46,
+          "end": 184.78
+        },
+        {
+          "id": "p28w5",
+          "text": "better",
+          "start": 184.78,
+          "end": 185.18
+        },
+        {
+          "id": "p28w6",
+          "text": "to",
+          "start": 185.18,
+          "end": 185.4
+        },
+        {
+          "id": "p28w7",
+          "text": "know",
+          "start": 185.4,
+          "end": 185.56
+        },
+        {
+          "id": "p28w8",
+          "text": "that",
+          "start": 185.56,
+          "end": 185.72
+        },
+        {
+          "id": "p28w9",
+          "text": "I",
+          "start": 185.72,
+          "end": 185.84
+        },
+        {
+          "id": "p28w10",
+          "text": "had",
+          "start": 185.84,
+          "end": 185.98
+        },
+        {
+          "id": "p28w11",
+          "text": "three",
+          "start": 185.98,
+          "end": 186.24
+        },
+        {
+          "id": "p28w12",
+          "text": "cousins.",
+          "start": 186.24,
+          "end": 186.6
+        },
+        {
+          "id": "p28w13",
+          "text": "Diana",
+          "start": 188.37,
+          "end": 188.69
+        },
+        {
+          "id": "p28w14",
+          "text": "and",
+          "start": 188.69,
+          "end": 188.99
+        },
+        {
+          "id": "p28w15",
+          "text": "Mary",
+          "start": 188.99,
+          "end": 189.21
+        },
+        {
+          "id": "p28w16",
+          "text": "came",
+          "start": 189.21,
+          "end": 189.51
+        },
+        {
+          "id": "p28w17",
+          "text": "home",
+          "start": 189.51,
+          "end": 189.73
+        },
+        {
+          "id": "p28w18",
+          "text": "just",
+          "start": 189.73,
+          "end": 189.99
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 189.99,
+      "end": 196.9,
+      "text": "before Christmas. I worked happily to make their old house comfortable. I know that Diana",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "before",
+          "start": 189.99,
+          "end": 190.31
+        },
+        {
+          "id": "p29w2",
+          "text": "Christmas.",
+          "start": 190.31,
+          "end": 190.63
+        },
+        {
+          "id": "p29w3",
+          "text": "I",
+          "start": 191.78,
+          "end": 192.02
+        },
+        {
+          "id": "p29w4",
+          "text": "worked",
+          "start": 192.02,
+          "end": 192.22
+        },
+        {
+          "id": "p29w5",
+          "text": "happily",
+          "start": 192.22,
+          "end": 192.76
+        },
+        {
+          "id": "p29w6",
+          "text": "to",
+          "start": 192.76,
+          "end": 193.02
+        },
+        {
+          "id": "p29w7",
+          "text": "make",
+          "start": 193.02,
+          "end": 193.2
+        },
+        {
+          "id": "p29w8",
+          "text": "their",
+          "start": 193.2,
+          "end": 193.46
+        },
+        {
+          "id": "p29w9",
+          "text": "old",
+          "start": 193.46,
+          "end": 193.7
+        },
+        {
+          "id": "p29w10",
+          "text": "house",
+          "start": 193.7,
+          "end": 194.08
+        },
+        {
+          "id": "p29w11",
+          "text": "comfortable.",
+          "start": 194.08,
+          "end": 194.6
+        },
+        {
+          "id": "p29w12",
+          "text": "I",
+          "start": 196.02,
+          "end": 196.3
+        },
+        {
+          "id": "p29w13",
+          "text": "know",
+          "start": 196.3,
+          "end": 196.46
+        },
+        {
+          "id": "p29w14",
+          "text": "that",
+          "start": 196.46,
+          "end": 196.66
+        },
+        {
+          "id": "p29w15",
+          "text": "Diana",
+          "start": 196.66,
+          "end": 196.9
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 196.9,
+      "end": 203.63,
+      "text": "and Mary will like it, I thought. But what will St. John think? He's such a strange man.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "and",
+          "start": 196.9,
+          "end": 197.18
+        },
+        {
+          "id": "p30w2",
+          "text": "Mary",
+          "start": 197.18,
+          "end": 197.34
+        },
+        {
+          "id": "p30w3",
+          "text": "will",
+          "start": 197.34,
+          "end": 197.58
+        },
+        {
+          "id": "p30w4",
+          "text": "like",
+          "start": 197.58,
+          "end": 197.8
+        },
+        {
+          "id": "p30w5",
+          "text": "it,",
+          "start": 197.8,
+          "end": 198.04
+        },
+        {
+          "id": "p30w6",
+          "text": "I",
+          "start": 198.3,
+          "end": 198.44
+        },
+        {
+          "id": "p30w7",
+          "text": "thought.",
+          "start": 198.44,
+          "end": 198.74
+        },
+        {
+          "id": "p30w8",
+          "text": "But",
+          "start": 199.93,
+          "end": 200.19
+        },
+        {
+          "id": "p30w9",
+          "text": "what",
+          "start": 200.19,
+          "end": 200.39
+        },
+        {
+          "id": "p30w10",
+          "text": "will",
+          "start": 200.39,
+          "end": 200.59
+        },
+        {
+          "id": "p30w11",
+          "text": "St.",
+          "start": 200.59,
+          "end": 200.77
+        },
+        {
+          "id": "p30w12",
+          "text": "John",
+          "start": 200.95,
+          "end": 200.99
+        },
+        {
+          "id": "p30w13",
+          "text": "think?",
+          "start": 200.99,
+          "end": 201.31
+        },
+        {
+          "id": "p30w14",
+          "text": "He's",
+          "start": 202.13,
+          "end": 202.47
+        },
+        {
+          "id": "p30w15",
+          "text": "such",
+          "start": 202.47,
+          "end": 202.63
+        },
+        {
+          "id": "p30w16",
+          "text": "a",
+          "start": 202.63,
+          "end": 202.81
+        },
+        {
+          "id": "p30w17",
+          "text": "strange",
+          "start": 202.81,
+          "end": 203.19
+        },
+        {
+          "id": "p30w18",
+          "text": "man.",
+          "start": 203.19,
+          "end": 203.63
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 204.81,
+      "end": 211.18,
+      "text": "He's hard and cold like a stone. Even though he's pleased to see his sisters, it does not",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "He's",
+          "start": 204.81,
+          "end": 205.13
+        },
+        {
+          "id": "p31w2",
+          "text": "hard",
+          "start": 205.13,
+          "end": 205.37
+        },
+        {
+          "id": "p31w3",
+          "text": "and",
+          "start": 205.37,
+          "end": 205.63
+        },
+        {
+          "id": "p31w4",
+          "text": "cold",
+          "start": 205.63,
+          "end": 205.91
+        },
+        {
+          "id": "p31w5",
+          "text": "like",
+          "start": 205.91,
+          "end": 206.29
+        },
+        {
+          "id": "p31w6",
+          "text": "a",
+          "start": 206.29,
+          "end": 206.43
+        },
+        {
+          "id": "p31w7",
+          "text": "stone.",
+          "start": 206.43,
+          "end": 206.71
+        },
+        {
+          "id": "p31w8",
+          "text": "Even",
+          "start": 208.04,
+          "end": 208.42
+        },
+        {
+          "id": "p31w9",
+          "text": "though",
+          "start": 208.42,
+          "end": 208.56
+        },
+        {
+          "id": "p31w10",
+          "text": "he's",
+          "start": 208.56,
+          "end": 208.74
+        },
+        {
+          "id": "p31w11",
+          "text": "pleased",
+          "start": 208.74,
+          "end": 208.96
+        },
+        {
+          "id": "p31w12",
+          "text": "to",
+          "start": 208.96,
+          "end": 209.3
+        },
+        {
+          "id": "p31w13",
+          "text": "see",
+          "start": 209.3,
+          "end": 209.44
+        },
+        {
+          "id": "p31w14",
+          "text": "his",
+          "start": 209.44,
+          "end": 209.58
+        },
+        {
+          "id": "p31w15",
+          "text": "sisters,",
+          "start": 209.58,
+          "end": 209.96
+        },
+        {
+          "id": "p31w16",
+          "text": "it",
+          "start": 210.78,
+          "end": 210.94
+        },
+        {
+          "id": "p31w17",
+          "text": "does",
+          "start": 210.94,
+          "end": 211.02
+        },
+        {
+          "id": "p31w18",
+          "text": "not",
+          "start": 211.02,
+          "end": 211.18
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 211.18,
+      "end": 217.26,
+      "text": "look really happy. I soon realized that St. John was not content with just having money.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "look",
+          "start": 211.18,
+          "end": 211.4
+        },
+        {
+          "id": "p32w2",
+          "text": "really",
+          "start": 211.4,
+          "end": 211.82
+        },
+        {
+          "id": "p32w3",
+          "text": "happy.",
+          "start": 211.82,
+          "end": 212.2
+        },
+        {
+          "id": "p32w4",
+          "text": "I",
+          "start": 213.64,
+          "end": 213.76
+        },
+        {
+          "id": "p32w5",
+          "text": "soon",
+          "start": 213.76,
+          "end": 213.94
+        },
+        {
+          "id": "p32w6",
+          "text": "realized",
+          "start": 213.94,
+          "end": 214.4
+        },
+        {
+          "id": "p32w7",
+          "text": "that",
+          "start": 214.4,
+          "end": 214.74
+        },
+        {
+          "id": "p32w8",
+          "text": "St.",
+          "start": 214.74,
+          "end": 214.96
+        },
+        {
+          "id": "p32w9",
+          "text": "John",
+          "start": 215.1,
+          "end": 215.24
+        },
+        {
+          "id": "p32w10",
+          "text": "was",
+          "start": 215.24,
+          "end": 215.48
+        },
+        {
+          "id": "p32w11",
+          "text": "not",
+          "start": 215.48,
+          "end": 215.68
+        },
+        {
+          "id": "p32w12",
+          "text": "content",
+          "start": 215.68,
+          "end": 215.96
+        },
+        {
+          "id": "p32w13",
+          "text": "with",
+          "start": 215.96,
+          "end": 216.46
+        },
+        {
+          "id": "p32w14",
+          "text": "just",
+          "start": 216.46,
+          "end": 216.64
+        },
+        {
+          "id": "p32w15",
+          "text": "having",
+          "start": 216.64,
+          "end": 217.0
+        },
+        {
+          "id": "p32w16",
+          "text": "money.",
+          "start": 217.0,
+          "end": 217.26
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 218.24,
+      "end": 225.0,
+      "text": "He still wanted to go to India. I was happy living with Diana and Mary, but I still thought",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "He",
+          "start": 218.24,
+          "end": 218.4
+        },
+        {
+          "id": "p33w2",
+          "text": "still",
+          "start": 218.4,
+          "end": 218.58
+        },
+        {
+          "id": "p33w3",
+          "text": "wanted",
+          "start": 218.58,
+          "end": 218.92
+        },
+        {
+          "id": "p33w4",
+          "text": "to",
+          "start": 218.92,
+          "end": 219.14
+        },
+        {
+          "id": "p33w5",
+          "text": "go",
+          "start": 219.14,
+          "end": 219.28
+        },
+        {
+          "id": "p33w6",
+          "text": "to",
+          "start": 219.28,
+          "end": 219.42
+        },
+        {
+          "id": "p33w7",
+          "text": "India.",
+          "start": 219.42,
+          "end": 219.64
+        },
+        {
+          "id": "p33w8",
+          "text": "I",
+          "start": 221.24,
+          "end": 221.42
+        },
+        {
+          "id": "p33w9",
+          "text": "was",
+          "start": 221.42,
+          "end": 221.56
+        },
+        {
+          "id": "p33w10",
+          "text": "happy",
+          "start": 221.56,
+          "end": 221.76
+        },
+        {
+          "id": "p33w11",
+          "text": "living",
+          "start": 221.76,
+          "end": 222.16
+        },
+        {
+          "id": "p33w12",
+          "text": "with",
+          "start": 222.16,
+          "end": 222.32
+        },
+        {
+          "id": "p33w13",
+          "text": "Diana",
+          "start": 222.32,
+          "end": 222.56
+        },
+        {
+          "id": "p33w14",
+          "text": "and",
+          "start": 222.56,
+          "end": 222.9
+        },
+        {
+          "id": "p33w15",
+          "text": "Mary,",
+          "start": 222.9,
+          "end": 223.16
+        },
+        {
+          "id": "p33w16",
+          "text": "but",
+          "start": 223.72,
+          "end": 224.26
+        },
+        {
+          "id": "p33w17",
+          "text": "I",
+          "start": 224.26,
+          "end": 224.38
+        },
+        {
+          "id": "p33w18",
+          "text": "still",
+          "start": 224.38,
+          "end": 224.62
+        },
+        {
+          "id": "p33w19",
+          "text": "thought",
+          "start": 224.62,
+          "end": 225.0
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 225.0,
+      "end": 234.82,
+      "text": "about Mr. Rochester every day. Was he still at Thornfield? Was he happy? I had to know. So",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "about",
+          "start": 225.0,
+          "end": 225.34
+        },
+        {
+          "id": "p34w2",
+          "text": "Mr.",
+          "start": 225.34,
+          "end": 225.7
+        },
+        {
+          "id": "p34w3",
+          "text": "Rochester",
+          "start": 225.9,
+          "end": 225.94
+        },
+        {
+          "id": "p34w4",
+          "text": "every",
+          "start": 225.94,
+          "end": 226.78
+        },
+        {
+          "id": "p34w5",
+          "text": "day.",
+          "start": 226.78,
+          "end": 227.28
+        },
+        {
+          "id": "p34w6",
+          "text": "Was",
+          "start": 228.49,
+          "end": 228.83
+        },
+        {
+          "id": "p34w7",
+          "text": "he",
+          "start": 228.83,
+          "end": 228.99
+        },
+        {
+          "id": "p34w8",
+          "text": "still",
+          "start": 228.99,
+          "end": 229.17
+        },
+        {
+          "id": "p34w9",
+          "text": "at",
+          "start": 229.17,
+          "end": 229.31
+        },
+        {
+          "id": "p34w10",
+          "text": "Thornfield?",
+          "start": 229.31,
+          "end": 229.81
+        },
+        {
+          "id": "p34w11",
+          "text": "Was",
+          "start": 230.73,
+          "end": 231.19
+        },
+        {
+          "id": "p34w12",
+          "text": "he",
+          "start": 231.19,
+          "end": 231.33
+        },
+        {
+          "id": "p34w13",
+          "text": "happy?",
+          "start": 231.33,
+          "end": 231.57
+        },
+        {
+          "id": "p34w14",
+          "text": "I",
+          "start": 232.82,
+          "end": 233.24
+        },
+        {
+          "id": "p34w15",
+          "text": "had",
+          "start": 233.24,
+          "end": 233.5
+        },
+        {
+          "id": "p34w16",
+          "text": "to",
+          "start": 233.5,
+          "end": 233.7
+        },
+        {
+          "id": "p34w17",
+          "text": "know.",
+          "start": 233.7,
+          "end": 233.94
+        },
+        {
+          "id": "p34w18",
+          "text": "So",
+          "start": 234.6,
+          "end": 234.82
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 234.82,
+      "end": 240.54,
+      "text": "I wrote to the lawyer, Mr. Briggs. Mr. Briggs replied that he knew nothing about Mr. Rochester.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "I",
+          "start": 234.82,
+          "end": 234.94
+        },
+        {
+          "id": "p35w2",
+          "text": "wrote",
+          "start": 234.94,
+          "end": 235.08
+        },
+        {
+          "id": "p35w3",
+          "text": "to",
+          "start": 235.08,
+          "end": 235.26
+        },
+        {
+          "id": "p35w4",
+          "text": "the",
+          "start": 235.26,
+          "end": 235.36
+        },
+        {
+          "id": "p35w5",
+          "text": "lawyer,",
+          "start": 235.36,
+          "end": 235.6
+        },
+        {
+          "id": "p35w6",
+          "text": "Mr.",
+          "start": 235.74,
+          "end": 235.92
+        },
+        {
+          "id": "p35w7",
+          "text": "Briggs.",
+          "start": 236.16,
+          "end": 236.16
+        },
+        {
+          "id": "p35w8",
+          "text": "Mr.",
+          "start": 237.44,
+          "end": 237.74
+        },
+        {
+          "id": "p35w9",
+          "text": "Briggs",
+          "start": 238.08,
+          "end": 238.1
+        },
+        {
+          "id": "p35w10",
+          "text": "replied",
+          "start": 238.1,
+          "end": 238.48
+        },
+        {
+          "id": "p35w11",
+          "text": "that",
+          "start": 238.48,
+          "end": 238.82
+        },
+        {
+          "id": "p35w12",
+          "text": "he",
+          "start": 238.82,
+          "end": 238.96
+        },
+        {
+          "id": "p35w13",
+          "text": "knew",
+          "start": 238.96,
+          "end": 239.16
+        },
+        {
+          "id": "p35w14",
+          "text": "nothing",
+          "start": 239.16,
+          "end": 239.54
+        },
+        {
+          "id": "p35w15",
+          "text": "about",
+          "start": 239.54,
+          "end": 239.82
+        },
+        {
+          "id": "p35w16",
+          "text": "Mr.",
+          "start": 239.82,
+          "end": 240.08
+        },
+        {
+          "id": "p35w17",
+          "text": "Rochester.",
+          "start": 240.54,
+          "end": 240.54
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 240.54,
+      "end": 249.62,
+      "text": "I wrote to Mrs. Fairfax at Thornfield Hall, but there was no reply. When a letter came for",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "I",
+          "start": 240.54,
+          "end": 241.08
+        },
+        {
+          "id": "p36w2",
+          "text": "wrote",
+          "start": 241.78,
+          "end": 242.54
+        },
+        {
+          "id": "p36w3",
+          "text": "to",
+          "start": 242.54,
+          "end": 242.74
+        },
+        {
+          "id": "p36w4",
+          "text": "Mrs.",
+          "start": 242.74,
+          "end": 242.9
+        },
+        {
+          "id": "p36w5",
+          "text": "Fairfax",
+          "start": 243.16,
+          "end": 243.2
+        },
+        {
+          "id": "p36w6",
+          "text": "at",
+          "start": 243.2,
+          "end": 243.7
+        },
+        {
+          "id": "p36w7",
+          "text": "Thornfield",
+          "start": 243.7,
+          "end": 244.12
+        },
+        {
+          "id": "p36w8",
+          "text": "Hall,",
+          "start": 244.12,
+          "end": 244.5
+        },
+        {
+          "id": "p36w9",
+          "text": "but",
+          "start": 245.47,
+          "end": 245.63
+        },
+        {
+          "id": "p36w10",
+          "text": "there",
+          "start": 245.63,
+          "end": 245.77
+        },
+        {
+          "id": "p36w11",
+          "text": "was",
+          "start": 245.77,
+          "end": 245.87
+        },
+        {
+          "id": "p36w12",
+          "text": "no",
+          "start": 245.87,
+          "end": 246.05
+        },
+        {
+          "id": "p36w13",
+          "text": "reply.",
+          "start": 246.05,
+          "end": 246.39
+        },
+        {
+          "id": "p36w14",
+          "text": "When",
+          "start": 248.64,
+          "end": 248.86
+        },
+        {
+          "id": "p36w15",
+          "text": "a",
+          "start": 248.86,
+          "end": 248.98
+        },
+        {
+          "id": "p36w16",
+          "text": "letter",
+          "start": 248.98,
+          "end": 249.14
+        },
+        {
+          "id": "p36w17",
+          "text": "came",
+          "start": 249.14,
+          "end": 249.42
+        },
+        {
+          "id": "p36w18",
+          "text": "for",
+          "start": 249.42,
+          "end": 249.62
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 249.62,
+      "end": 256.34,
+      "text": "me at last, it was from Mr. Briggs about the money. I was so disappointed that I started",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "me",
+          "start": 249.62,
+          "end": 249.7
+        },
+        {
+          "id": "p37w2",
+          "text": "at",
+          "start": 249.7,
+          "end": 249.84
+        },
+        {
+          "id": "p37w3",
+          "text": "last,",
+          "start": 249.84,
+          "end": 250.02
+        },
+        {
+          "id": "p37w4",
+          "text": "it",
+          "start": 250.7,
+          "end": 250.86
+        },
+        {
+          "id": "p37w5",
+          "text": "was",
+          "start": 250.86,
+          "end": 251.02
+        },
+        {
+          "id": "p37w6",
+          "text": "from",
+          "start": 251.02,
+          "end": 251.22
+        },
+        {
+          "id": "p37w7",
+          "text": "Mr.",
+          "start": 251.22,
+          "end": 251.52
+        },
+        {
+          "id": "p37w8",
+          "text": "Briggs",
+          "start": 251.78,
+          "end": 251.78
+        },
+        {
+          "id": "p37w9",
+          "text": "about",
+          "start": 251.78,
+          "end": 252.18
+        },
+        {
+          "id": "p37w10",
+          "text": "the",
+          "start": 252.18,
+          "end": 252.36
+        },
+        {
+          "id": "p37w11",
+          "text": "money.",
+          "start": 252.36,
+          "end": 252.58
+        },
+        {
+          "id": "p37w12",
+          "text": "I",
+          "start": 254.06,
+          "end": 254.24
+        },
+        {
+          "id": "p37w13",
+          "text": "was",
+          "start": 254.24,
+          "end": 254.34
+        },
+        {
+          "id": "p37w14",
+          "text": "so",
+          "start": 254.34,
+          "end": 254.6
+        },
+        {
+          "id": "p37w15",
+          "text": "disappointed",
+          "start": 254.6,
+          "end": 255.26
+        },
+        {
+          "id": "p37w16",
+          "text": "that",
+          "start": 255.26,
+          "end": 256.02
+        },
+        {
+          "id": "p37w17",
+          "text": "I",
+          "start": 256.02,
+          "end": 256.16
+        },
+        {
+          "id": "p37w18",
+          "text": "started",
+          "start": 256.16,
+          "end": 256.34
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 256.34,
+      "end": 260.48,
+      "text": "to cry. St. John came into the room while I was crying.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "to",
+          "start": 256.34,
+          "end": 256.68
+        },
+        {
+          "id": "p38w2",
+          "text": "cry.",
+          "start": 256.68,
+          "end": 256.96
+        },
+        {
+          "id": "p38w3",
+          "text": "St.",
+          "start": 258.54,
+          "end": 258.66
+        },
+        {
+          "id": "p38w4",
+          "text": "John",
+          "start": 258.82,
+          "end": 258.94
+        },
+        {
+          "id": "p38w5",
+          "text": "came",
+          "start": 258.94,
+          "end": 259.22
+        },
+        {
+          "id": "p38w6",
+          "text": "into",
+          "start": 259.22,
+          "end": 259.42
+        },
+        {
+          "id": "p38w7",
+          "text": "the",
+          "start": 259.42,
+          "end": 259.6
+        },
+        {
+          "id": "p38w8",
+          "text": "room",
+          "start": 259.6,
+          "end": 259.8
+        },
+        {
+          "id": "p38w9",
+          "text": "while",
+          "start": 259.8,
+          "end": 259.96
+        },
+        {
+          "id": "p38w10",
+          "text": "I",
+          "start": 259.96,
+          "end": 260.1
+        },
+        {
+          "id": "p38w11",
+          "text": "was",
+          "start": 260.1,
+          "end": 260.24
+        },
+        {
+          "id": "p38w12",
+          "text": "crying.",
+          "start": 260.24,
+          "end": 260.48
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 261.82,
+      "end": 266.5,
+      "text": "Jane, come for a walk with me. He said, I want to talk to you.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "Jane,",
+          "start": 261.82,
+          "end": 262.26
+        },
+        {
+          "id": "p39w2",
+          "text": "come",
+          "start": 262.88,
+          "end": 263.32
+        },
+        {
+          "id": "p39w3",
+          "text": "for",
+          "start": 263.32,
+          "end": 263.54
+        },
+        {
+          "id": "p39w4",
+          "text": "a",
+          "start": 263.54,
+          "end": 263.58
+        },
+        {
+          "id": "p39w5",
+          "text": "walk",
+          "start": 263.58,
+          "end": 263.86
+        },
+        {
+          "id": "p39w6",
+          "text": "with",
+          "start": 263.86,
+          "end": 263.98
+        },
+        {
+          "id": "p39w7",
+          "text": "me.",
+          "start": 263.98,
+          "end": 264.18
+        },
+        {
+          "id": "p39w8",
+          "text": "He",
+          "start": 264.42,
+          "end": 264.6
+        },
+        {
+          "id": "p39w9",
+          "text": "said,",
+          "start": 264.6,
+          "end": 264.82
+        },
+        {
+          "id": "p39w10",
+          "text": "I",
+          "start": 265.52,
+          "end": 265.62
+        },
+        {
+          "id": "p39w11",
+          "text": "want",
+          "start": 265.62,
+          "end": 265.78
+        },
+        {
+          "id": "p39w12",
+          "text": "to",
+          "start": 265.78,
+          "end": 265.94
+        },
+        {
+          "id": "p39w13",
+          "text": "talk",
+          "start": 265.94,
+          "end": 266.14
+        },
+        {
+          "id": "p39w14",
+          "text": "to",
+          "start": 266.14,
+          "end": 266.36
+        },
+        {
+          "id": "p39w15",
+          "text": "you.",
+          "start": 266.36,
+          "end": 266.5
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 269.04,
+      "end": 275.91,
+      "text": "We walked together beside the river. St. John was very quiet at first, but then he turned",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "We",
+          "start": 269.04,
+          "end": 269.44
+        },
+        {
+          "id": "p40w2",
+          "text": "walked",
+          "start": 269.44,
+          "end": 269.64
+        },
+        {
+          "id": "p40w3",
+          "text": "together",
+          "start": 269.64,
+          "end": 269.98
+        },
+        {
+          "id": "p40w4",
+          "text": "beside",
+          "start": 269.98,
+          "end": 270.3
+        },
+        {
+          "id": "p40w5",
+          "text": "the",
+          "start": 270.3,
+          "end": 270.6
+        },
+        {
+          "id": "p40w6",
+          "text": "river.",
+          "start": 270.6,
+          "end": 270.76
+        },
+        {
+          "id": "p40w7",
+          "text": "St.",
+          "start": 272.04,
+          "end": 272.44
+        },
+        {
+          "id": "p40w8",
+          "text": "John",
+          "start": 272.56,
+          "end": 272.72
+        },
+        {
+          "id": "p40w9",
+          "text": "was",
+          "start": 272.72,
+          "end": 272.88
+        },
+        {
+          "id": "p40w10",
+          "text": "very",
+          "start": 272.88,
+          "end": 273.1
+        },
+        {
+          "id": "p40w11",
+          "text": "quiet",
+          "start": 273.1,
+          "end": 273.42
+        },
+        {
+          "id": "p40w12",
+          "text": "at",
+          "start": 273.42,
+          "end": 273.68
+        },
+        {
+          "id": "p40w13",
+          "text": "first,",
+          "start": 273.68,
+          "end": 273.92
+        },
+        {
+          "id": "p40w14",
+          "text": "but",
+          "start": 274.67,
+          "end": 275.29
+        },
+        {
+          "id": "p40w15",
+          "text": "then",
+          "start": 275.29,
+          "end": 275.47
+        },
+        {
+          "id": "p40w16",
+          "text": "he",
+          "start": 275.47,
+          "end": 275.61
+        },
+        {
+          "id": "p40w17",
+          "text": "turned",
+          "start": 275.61,
+          "end": 275.91
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 275.91,
+      "end": 283.26,
+      "text": "and said to me. Jane, I'm going to India soon, and I want you to come with me. I was",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "and",
+          "start": 275.91,
+          "end": 276.07
+        },
+        {
+          "id": "p41w2",
+          "text": "said",
+          "start": 276.07,
+          "end": 276.41
+        },
+        {
+          "id": "p41w3",
+          "text": "to",
+          "start": 276.41,
+          "end": 276.63
+        },
+        {
+          "id": "p41w4",
+          "text": "me.",
+          "start": 276.63,
+          "end": 276.79
+        },
+        {
+          "id": "p41w5",
+          "text": "Jane,",
+          "start": 277.37,
+          "end": 277.69
+        },
+        {
+          "id": "p41w6",
+          "text": "I'm",
+          "start": 278.19,
+          "end": 278.77
+        },
+        {
+          "id": "p41w7",
+          "text": "going",
+          "start": 278.77,
+          "end": 278.93
+        },
+        {
+          "id": "p41w8",
+          "text": "to",
+          "start": 278.93,
+          "end": 279.13
+        },
+        {
+          "id": "p41w9",
+          "text": "India",
+          "start": 279.13,
+          "end": 279.41
+        },
+        {
+          "id": "p41w10",
+          "text": "soon,",
+          "start": 279.41,
+          "end": 279.71
+        },
+        {
+          "id": "p41w11",
+          "text": "and",
+          "start": 280.61,
+          "end": 280.85
+        },
+        {
+          "id": "p41w12",
+          "text": "I",
+          "start": 280.85,
+          "end": 280.95
+        },
+        {
+          "id": "p41w13",
+          "text": "want",
+          "start": 280.95,
+          "end": 281.13
+        },
+        {
+          "id": "p41w14",
+          "text": "you",
+          "start": 281.13,
+          "end": 281.25
+        },
+        {
+          "id": "p41w15",
+          "text": "to",
+          "start": 281.25,
+          "end": 281.35
+        },
+        {
+          "id": "p41w16",
+          "text": "come",
+          "start": 281.35,
+          "end": 281.51
+        },
+        {
+          "id": "p41w17",
+          "text": "with",
+          "start": 281.51,
+          "end": 281.71
+        },
+        {
+          "id": "p41w18",
+          "text": "me.",
+          "start": 281.71,
+          "end": 281.89
+        },
+        {
+          "id": "p41w19",
+          "text": "I",
+          "start": 282.94,
+          "end": 283.16
+        },
+        {
+          "id": "p41w20",
+          "text": "was",
+          "start": 283.16,
+          "end": 283.26
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 283.26,
+      "end": 289.67,
+      "text": "very surprised by what he said. Why did he want me to go to India with him? How could",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "very",
+          "start": 283.26,
+          "end": 283.44
+        },
+        {
+          "id": "p42w2",
+          "text": "surprised",
+          "start": 283.44,
+          "end": 283.76
+        },
+        {
+          "id": "p42w3",
+          "text": "by",
+          "start": 283.76,
+          "end": 284.28
+        },
+        {
+          "id": "p42w4",
+          "text": "what",
+          "start": 284.28,
+          "end": 284.46
+        },
+        {
+          "id": "p42w5",
+          "text": "he",
+          "start": 284.46,
+          "end": 284.58
+        },
+        {
+          "id": "p42w6",
+          "text": "said.",
+          "start": 284.58,
+          "end": 284.84
+        },
+        {
+          "id": "p42w7",
+          "text": "Why",
+          "start": 286.18,
+          "end": 286.58
+        },
+        {
+          "id": "p42w8",
+          "text": "did",
+          "start": 286.58,
+          "end": 286.76
+        },
+        {
+          "id": "p42w9",
+          "text": "he",
+          "start": 286.76,
+          "end": 286.88
+        },
+        {
+          "id": "p42w10",
+          "text": "want",
+          "start": 286.88,
+          "end": 287.04
+        },
+        {
+          "id": "p42w11",
+          "text": "me",
+          "start": 287.04,
+          "end": 287.2
+        },
+        {
+          "id": "p42w12",
+          "text": "to",
+          "start": 287.2,
+          "end": 287.3
+        },
+        {
+          "id": "p42w13",
+          "text": "go",
+          "start": 287.3,
+          "end": 287.44
+        },
+        {
+          "id": "p42w14",
+          "text": "to",
+          "start": 287.44,
+          "end": 287.6
+        },
+        {
+          "id": "p42w15",
+          "text": "India",
+          "start": 287.6,
+          "end": 287.86
+        },
+        {
+          "id": "p42w16",
+          "text": "with",
+          "start": 287.86,
+          "end": 288.06
+        },
+        {
+          "id": "p42w17",
+          "text": "him?",
+          "start": 288.06,
+          "end": 288.28
+        },
+        {
+          "id": "p42w18",
+          "text": "How",
+          "start": 289.25,
+          "end": 289.51
+        },
+        {
+          "id": "p42w19",
+          "text": "could",
+          "start": 289.51,
+          "end": 289.67
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 289.67,
+      "end": 295.63,
+      "text": "I help him? I was not strong like he was. I don't think I would be a very good helper",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "I",
+          "start": 289.67,
+          "end": 289.81
+        },
+        {
+          "id": "p43w2",
+          "text": "help",
+          "start": 289.81,
+          "end": 290.03
+        },
+        {
+          "id": "p43w3",
+          "text": "him?",
+          "start": 290.03,
+          "end": 290.29
+        },
+        {
+          "id": "p43w4",
+          "text": "I",
+          "start": 290.71,
+          "end": 290.81
+        },
+        {
+          "id": "p43w5",
+          "text": "was",
+          "start": 290.81,
+          "end": 290.91
+        },
+        {
+          "id": "p43w6",
+          "text": "not",
+          "start": 290.91,
+          "end": 291.11
+        },
+        {
+          "id": "p43w7",
+          "text": "strong",
+          "start": 291.11,
+          "end": 291.37
+        },
+        {
+          "id": "p43w8",
+          "text": "like",
+          "start": 291.37,
+          "end": 291.63
+        },
+        {
+          "id": "p43w9",
+          "text": "he",
+          "start": 291.63,
+          "end": 291.83
+        },
+        {
+          "id": "p43w10",
+          "text": "was.",
+          "start": 291.83,
+          "end": 292.09
+        },
+        {
+          "id": "p43w11",
+          "text": "I",
+          "start": 293.79,
+          "end": 293.97
+        },
+        {
+          "id": "p43w12",
+          "text": "don't",
+          "start": 293.97,
+          "end": 294.25
+        },
+        {
+          "id": "p43w13",
+          "text": "think",
+          "start": 294.25,
+          "end": 294.43
+        },
+        {
+          "id": "p43w14",
+          "text": "I",
+          "start": 294.43,
+          "end": 294.61
+        },
+        {
+          "id": "p43w15",
+          "text": "would",
+          "start": 294.61,
+          "end": 294.73
+        },
+        {
+          "id": "p43w16",
+          "text": "be",
+          "start": 294.73,
+          "end": 294.87
+        },
+        {
+          "id": "p43w17",
+          "text": "a",
+          "start": 294.87,
+          "end": 294.97
+        },
+        {
+          "id": "p43w18",
+          "text": "very",
+          "start": 294.97,
+          "end": 295.15
+        },
+        {
+          "id": "p43w19",
+          "text": "good",
+          "start": 295.15,
+          "end": 295.39
+        },
+        {
+          "id": "p43w20",
+          "text": "helper",
+          "start": 295.39,
+          "end": 295.63
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 295.63,
+      "end": 302.59,
+      "text": "for you, St. John, I began to say. No, not as a helper. I want you to be my wife. If we get",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "for",
+          "start": 295.63,
+          "end": 295.93
+        },
+        {
+          "id": "p44w2",
+          "text": "you,",
+          "start": 295.93,
+          "end": 296.11
+        },
+        {
+          "id": "p44w3",
+          "text": "St.",
+          "start": 296.11,
+          "end": 296.25
+        },
+        {
+          "id": "p44w4",
+          "text": "John,",
+          "start": 296.41,
+          "end": 296.53
+        },
+        {
+          "id": "p44w5",
+          "text": "I",
+          "start": 296.77,
+          "end": 296.85
+        },
+        {
+          "id": "p44w6",
+          "text": "began",
+          "start": 296.85,
+          "end": 297.03
+        },
+        {
+          "id": "p44w7",
+          "text": "to",
+          "start": 297.03,
+          "end": 297.29
+        },
+        {
+          "id": "p44w8",
+          "text": "say.",
+          "start": 297.29,
+          "end": 297.55
+        },
+        {
+          "id": "p44w9",
+          "text": "No,",
+          "start": 297.75,
+          "end": 298.01
+        },
+        {
+          "id": "p44w10",
+          "text": "not",
+          "start": 298.25,
+          "end": 298.39
+        },
+        {
+          "id": "p44w11",
+          "text": "as",
+          "start": 298.39,
+          "end": 298.57
+        },
+        {
+          "id": "p44w12",
+          "text": "a",
+          "start": 298.57,
+          "end": 298.65
+        },
+        {
+          "id": "p44w13",
+          "text": "helper.",
+          "start": 298.65,
+          "end": 298.81
+        },
+        {
+          "id": "p44w14",
+          "text": "I",
+          "start": 299.96,
+          "end": 300.16
+        },
+        {
+          "id": "p44w15",
+          "text": "want",
+          "start": 300.16,
+          "end": 300.32
+        },
+        {
+          "id": "p44w16",
+          "text": "you",
+          "start": 300.32,
+          "end": 300.44
+        },
+        {
+          "id": "p44w17",
+          "text": "to",
+          "start": 300.44,
+          "end": 300.54
+        },
+        {
+          "id": "p44w18",
+          "text": "be",
+          "start": 300.54,
+          "end": 300.64
+        },
+        {
+          "id": "p44w19",
+          "text": "my",
+          "start": 300.64,
+          "end": 300.78
+        },
+        {
+          "id": "p44w20",
+          "text": "wife.",
+          "start": 300.78,
+          "end": 301.0
+        },
+        {
+          "id": "p44w21",
+          "text": "If",
+          "start": 302.07,
+          "end": 302.35
+        },
+        {
+          "id": "p44w22",
+          "text": "we",
+          "start": 302.35,
+          "end": 302.47
+        },
+        {
+          "id": "p44w23",
+          "text": "get",
+          "start": 302.47,
+          "end": 302.59
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 302.59,
+      "end": 307.53,
+      "text": "married, we can work together in India. There are many poor people there who need our help.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "married,",
+          "start": 302.59,
+          "end": 302.93
+        },
+        {
+          "id": "p45w2",
+          "text": "we",
+          "start": 302.93,
+          "end": 303.17
+        },
+        {
+          "id": "p45w3",
+          "text": "can",
+          "start": 303.17,
+          "end": 303.25
+        },
+        {
+          "id": "p45w4",
+          "text": "work",
+          "start": 303.25,
+          "end": 303.45
+        },
+        {
+          "id": "p45w5",
+          "text": "together",
+          "start": 303.45,
+          "end": 303.79
+        },
+        {
+          "id": "p45w6",
+          "text": "in",
+          "start": 303.79,
+          "end": 303.97
+        },
+        {
+          "id": "p45w7",
+          "text": "India.",
+          "start": 303.97,
+          "end": 304.25
+        },
+        {
+          "id": "p45w8",
+          "text": "There",
+          "start": 305.07,
+          "end": 305.47
+        },
+        {
+          "id": "p45w9",
+          "text": "are",
+          "start": 305.47,
+          "end": 305.59
+        },
+        {
+          "id": "p45w10",
+          "text": "many",
+          "start": 305.59,
+          "end": 305.77
+        },
+        {
+          "id": "p45w11",
+          "text": "poor",
+          "start": 305.77,
+          "end": 306.11
+        },
+        {
+          "id": "p45w12",
+          "text": "people",
+          "start": 306.11,
+          "end": 306.47
+        },
+        {
+          "id": "p45w13",
+          "text": "there",
+          "start": 306.47,
+          "end": 306.67
+        },
+        {
+          "id": "p45w14",
+          "text": "who",
+          "start": 306.67,
+          "end": 306.89
+        },
+        {
+          "id": "p45w15",
+          "text": "need",
+          "start": 306.89,
+          "end": 307.11
+        },
+        {
+          "id": "p45w16",
+          "text": "our",
+          "start": 307.11,
+          "end": 307.25
+        },
+        {
+          "id": "p45w17",
+          "text": "help.",
+          "start": 307.25,
+          "end": 307.53
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 307.53,
+      "end": 315.57,
+      "text": "It was hard to believe what St. John was saying to me. I felt sure that he did not love me. I",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "It",
+          "start": 307.53,
+          "end": 307.65
+        },
+        {
+          "id": "p46w2",
+          "text": "was",
+          "start": 307.97,
+          "end": 309.03
+        },
+        {
+          "id": "p46w3",
+          "text": "hard",
+          "start": 309.03,
+          "end": 309.43
+        },
+        {
+          "id": "p46w4",
+          "text": "to",
+          "start": 309.43,
+          "end": 309.69
+        },
+        {
+          "id": "p46w5",
+          "text": "believe",
+          "start": 309.69,
+          "end": 310.05
+        },
+        {
+          "id": "p46w6",
+          "text": "what",
+          "start": 310.05,
+          "end": 310.35
+        },
+        {
+          "id": "p46w7",
+          "text": "St.",
+          "start": 310.35,
+          "end": 310.53
+        },
+        {
+          "id": "p46w8",
+          "text": "John",
+          "start": 310.77,
+          "end": 310.83
+        },
+        {
+          "id": "p46w9",
+          "text": "was",
+          "start": 310.83,
+          "end": 311.01
+        },
+        {
+          "id": "p46w10",
+          "text": "saying",
+          "start": 311.01,
+          "end": 311.29
+        },
+        {
+          "id": "p46w11",
+          "text": "to",
+          "start": 311.29,
+          "end": 311.51
+        },
+        {
+          "id": "p46w12",
+          "text": "me.",
+          "start": 311.51,
+          "end": 311.63
+        },
+        {
+          "id": "p46w13",
+          "text": "I",
+          "start": 312.63,
+          "end": 312.85
+        },
+        {
+          "id": "p46w14",
+          "text": "felt",
+          "start": 312.85,
+          "end": 313.03
+        },
+        {
+          "id": "p46w15",
+          "text": "sure",
+          "start": 313.03,
+          "end": 313.33
+        },
+        {
+          "id": "p46w16",
+          "text": "that",
+          "start": 313.33,
+          "end": 313.57
+        },
+        {
+          "id": "p46w17",
+          "text": "he",
+          "start": 313.57,
+          "end": 313.67
+        },
+        {
+          "id": "p46w18",
+          "text": "did",
+          "start": 313.67,
+          "end": 313.79
+        },
+        {
+          "id": "p46w19",
+          "text": "not",
+          "start": 313.79,
+          "end": 314.01
+        },
+        {
+          "id": "p46w20",
+          "text": "love",
+          "start": 314.01,
+          "end": 314.31
+        },
+        {
+          "id": "p46w21",
+          "text": "me.",
+          "start": 314.31,
+          "end": 314.63
+        },
+        {
+          "id": "p46w22",
+          "text": "I",
+          "start": 315.23,
+          "end": 315.57
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 315.57,
+      "end": 320.69,
+      "text": "knew that I did not love him, that I could not marry him. I still loved Mr. Rochester.",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "knew",
+          "start": 315.57,
+          "end": 315.77
+        },
+        {
+          "id": "p47w2",
+          "text": "that",
+          "start": 315.77,
+          "end": 315.93
+        },
+        {
+          "id": "p47w3",
+          "text": "I",
+          "start": 315.93,
+          "end": 316.07
+        },
+        {
+          "id": "p47w4",
+          "text": "did",
+          "start": 316.07,
+          "end": 316.21
+        },
+        {
+          "id": "p47w5",
+          "text": "not",
+          "start": 316.21,
+          "end": 316.35
+        },
+        {
+          "id": "p47w6",
+          "text": "love",
+          "start": 316.35,
+          "end": 316.59
+        },
+        {
+          "id": "p47w7",
+          "text": "him,",
+          "start": 316.59,
+          "end": 316.83
+        },
+        {
+          "id": "p47w8",
+          "text": "that",
+          "start": 317.25,
+          "end": 317.77
+        },
+        {
+          "id": "p47w9",
+          "text": "I",
+          "start": 317.77,
+          "end": 317.89
+        },
+        {
+          "id": "p47w10",
+          "text": "could",
+          "start": 317.89,
+          "end": 318.01
+        },
+        {
+          "id": "p47w11",
+          "text": "not",
+          "start": 318.01,
+          "end": 318.13
+        },
+        {
+          "id": "p47w12",
+          "text": "marry",
+          "start": 318.13,
+          "end": 318.47
+        },
+        {
+          "id": "p47w13",
+          "text": "him.",
+          "start": 318.47,
+          "end": 318.75
+        },
+        {
+          "id": "p47w14",
+          "text": "I",
+          "start": 319.41,
+          "end": 319.75
+        },
+        {
+          "id": "p47w15",
+          "text": "still",
+          "start": 319.75,
+          "end": 319.93
+        },
+        {
+          "id": "p47w16",
+          "text": "loved",
+          "start": 319.93,
+          "end": 320.19
+        },
+        {
+          "id": "p47w17",
+          "text": "Mr.",
+          "start": 320.19,
+          "end": 320.41
+        },
+        {
+          "id": "p47w18",
+          "text": "Rochester.",
+          "start": 320.63,
+          "end": 320.69
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 322.8,
+      "end": 328.08,
+      "text": "I can't work in India. I don't know how to help the poor people there. I'm not like you,",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "I",
+          "start": 322.8,
+          "end": 323.06
+        },
+        {
+          "id": "p48w2",
+          "text": "can't",
+          "start": 323.06,
+          "end": 323.38
+        },
+        {
+          "id": "p48w3",
+          "text": "work",
+          "start": 323.38,
+          "end": 323.56
+        },
+        {
+          "id": "p48w4",
+          "text": "in",
+          "start": 323.56,
+          "end": 323.72
+        },
+        {
+          "id": "p48w5",
+          "text": "India.",
+          "start": 323.72,
+          "end": 324.06
+        },
+        {
+          "id": "p48w6",
+          "text": "I",
+          "start": 324.68,
+          "end": 324.88
+        },
+        {
+          "id": "p48w7",
+          "text": "don't",
+          "start": 324.88,
+          "end": 325.12
+        },
+        {
+          "id": "p48w8",
+          "text": "know",
+          "start": 325.12,
+          "end": 325.26
+        },
+        {
+          "id": "p48w9",
+          "text": "how",
+          "start": 325.26,
+          "end": 325.44
+        },
+        {
+          "id": "p48w10",
+          "text": "to",
+          "start": 325.44,
+          "end": 325.58
+        },
+        {
+          "id": "p48w11",
+          "text": "help",
+          "start": 325.58,
+          "end": 325.74
+        },
+        {
+          "id": "p48w12",
+          "text": "the",
+          "start": 325.74,
+          "end": 325.9
+        },
+        {
+          "id": "p48w13",
+          "text": "poor",
+          "start": 325.9,
+          "end": 326.12
+        },
+        {
+          "id": "p48w14",
+          "text": "people",
+          "start": 326.12,
+          "end": 326.46
+        },
+        {
+          "id": "p48w15",
+          "text": "there.",
+          "start": 326.46,
+          "end": 326.72
+        },
+        {
+          "id": "p48w16",
+          "text": "I'm",
+          "start": 327.1,
+          "end": 327.38
+        },
+        {
+          "id": "p48w17",
+          "text": "not",
+          "start": 327.38,
+          "end": 327.48
+        },
+        {
+          "id": "p48w18",
+          "text": "like",
+          "start": 327.48,
+          "end": 327.76
+        },
+        {
+          "id": "p48w19",
+          "text": "you,",
+          "start": 327.76,
+          "end": 328.08
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 328.14,
+      "end": 333.88,
+      "text": "St. John. That doesn't matter, St. John replied. I shall tell you what to do. You will",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "St.",
+          "start": 328.14,
+          "end": 328.28
+        },
+        {
+          "id": "p49w2",
+          "text": "John.",
+          "start": 328.44,
+          "end": 328.62
+        },
+        {
+          "id": "p49w3",
+          "text": "That",
+          "start": 329.02,
+          "end": 329.32
+        },
+        {
+          "id": "p49w4",
+          "text": "doesn't",
+          "start": 329.32,
+          "end": 329.74
+        },
+        {
+          "id": "p49w5",
+          "text": "matter,",
+          "start": 329.74,
+          "end": 329.98
+        },
+        {
+          "id": "p49w6",
+          "text": "St.",
+          "start": 329.98,
+          "end": 330.38
+        },
+        {
+          "id": "p49w7",
+          "text": "John",
+          "start": 330.6,
+          "end": 330.66
+        },
+        {
+          "id": "p49w8",
+          "text": "replied.",
+          "start": 330.66,
+          "end": 330.86
+        },
+        {
+          "id": "p49w9",
+          "text": "I",
+          "start": 331.7,
+          "end": 331.84
+        },
+        {
+          "id": "p49w10",
+          "text": "shall",
+          "start": 331.84,
+          "end": 332.0
+        },
+        {
+          "id": "p49w11",
+          "text": "tell",
+          "start": 332.0,
+          "end": 332.2
+        },
+        {
+          "id": "p49w12",
+          "text": "you",
+          "start": 332.2,
+          "end": 332.34
+        },
+        {
+          "id": "p49w13",
+          "text": "what",
+          "start": 332.34,
+          "end": 332.5
+        },
+        {
+          "id": "p49w14",
+          "text": "to",
+          "start": 332.5,
+          "end": 332.64
+        },
+        {
+          "id": "p49w15",
+          "text": "do.",
+          "start": 332.64,
+          "end": 332.8
+        },
+        {
+          "id": "p49w16",
+          "text": "You",
+          "start": 333.52,
+          "end": 333.76
+        },
+        {
+          "id": "p49w17",
+          "text": "will",
+          "start": 333.76,
+          "end": 333.88
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 333.88,
+      "end": 339.68,
+      "text": "soon learn. I saw how hard you worked in the village school. I know that you will work",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "soon",
+          "start": 333.88,
+          "end": 334.02
+        },
+        {
+          "id": "p50w2",
+          "text": "learn.",
+          "start": 334.02,
+          "end": 334.38
+        },
+        {
+          "id": "p50w3",
+          "text": "I",
+          "start": 335.06,
+          "end": 335.32
+        },
+        {
+          "id": "p50w4",
+          "text": "saw",
+          "start": 335.32,
+          "end": 335.46
+        },
+        {
+          "id": "p50w5",
+          "text": "how",
+          "start": 335.46,
+          "end": 335.7
+        },
+        {
+          "id": "p50w6",
+          "text": "hard",
+          "start": 335.7,
+          "end": 336.0
+        },
+        {
+          "id": "p50w7",
+          "text": "you",
+          "start": 336.0,
+          "end": 336.1
+        },
+        {
+          "id": "p50w8",
+          "text": "worked",
+          "start": 336.1,
+          "end": 336.32
+        },
+        {
+          "id": "p50w9",
+          "text": "in",
+          "start": 336.32,
+          "end": 336.52
+        },
+        {
+          "id": "p50w10",
+          "text": "the",
+          "start": 336.52,
+          "end": 336.6
+        },
+        {
+          "id": "p50w11",
+          "text": "village",
+          "start": 336.6,
+          "end": 336.84
+        },
+        {
+          "id": "p50w12",
+          "text": "school.",
+          "start": 336.84,
+          "end": 337.14
+        },
+        {
+          "id": "p50w13",
+          "text": "I",
+          "start": 338.36,
+          "end": 338.8
+        },
+        {
+          "id": "p50w14",
+          "text": "know",
+          "start": 338.8,
+          "end": 338.98
+        },
+        {
+          "id": "p50w15",
+          "text": "that",
+          "start": 338.98,
+          "end": 339.14
+        },
+        {
+          "id": "p50w16",
+          "text": "you",
+          "start": 339.14,
+          "end": 339.28
+        },
+        {
+          "id": "p50w17",
+          "text": "will",
+          "start": 339.28,
+          "end": 339.42
+        },
+        {
+          "id": "p50w18",
+          "text": "work",
+          "start": 339.42,
+          "end": 339.68
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 339.68,
+      "end": 346.94,
+      "text": "hard in India too. I said nothing while I thought about what St. John had said. He",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "hard",
+          "start": 339.68,
+          "end": 339.9
+        },
+        {
+          "id": "p51w2",
+          "text": "in",
+          "start": 339.9,
+          "end": 340.04
+        },
+        {
+          "id": "p51w3",
+          "text": "India",
+          "start": 340.04,
+          "end": 340.3
+        },
+        {
+          "id": "p51w4",
+          "text": "too.",
+          "start": 340.3,
+          "end": 340.64
+        },
+        {
+          "id": "p51w5",
+          "text": "I",
+          "start": 342.37,
+          "end": 342.49
+        },
+        {
+          "id": "p51w6",
+          "text": "said",
+          "start": 342.49,
+          "end": 342.69
+        },
+        {
+          "id": "p51w7",
+          "text": "nothing",
+          "start": 342.69,
+          "end": 342.89
+        },
+        {
+          "id": "p51w8",
+          "text": "while",
+          "start": 342.89,
+          "end": 343.45
+        },
+        {
+          "id": "p51w9",
+          "text": "I",
+          "start": 343.45,
+          "end": 343.63
+        },
+        {
+          "id": "p51w10",
+          "text": "thought",
+          "start": 343.63,
+          "end": 343.87
+        },
+        {
+          "id": "p51w11",
+          "text": "about",
+          "start": 343.87,
+          "end": 344.23
+        },
+        {
+          "id": "p51w12",
+          "text": "what",
+          "start": 344.23,
+          "end": 344.57
+        },
+        {
+          "id": "p51w13",
+          "text": "St.",
+          "start": 344.57,
+          "end": 344.83
+        },
+        {
+          "id": "p51w14",
+          "text": "John",
+          "start": 345.01,
+          "end": 345.11
+        },
+        {
+          "id": "p51w15",
+          "text": "had",
+          "start": 345.11,
+          "end": 345.29
+        },
+        {
+          "id": "p51w16",
+          "text": "said.",
+          "start": 345.29,
+          "end": 345.53
+        },
+        {
+          "id": "p51w17",
+          "text": "He",
+          "start": 346.58,
+          "end": 346.94
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 346.94,
+      "end": 352.71,
+      "text": "was my cousin and he needed my help. He was going to do good and useful work in India.",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "was",
+          "start": 346.94,
+          "end": 347.08
+        },
+        {
+          "id": "p52w2",
+          "text": "my",
+          "start": 347.08,
+          "end": 347.26
+        },
+        {
+          "id": "p52w3",
+          "text": "cousin",
+          "start": 347.26,
+          "end": 347.62
+        },
+        {
+          "id": "p52w4",
+          "text": "and",
+          "start": 347.62,
+          "end": 347.86
+        },
+        {
+          "id": "p52w5",
+          "text": "he",
+          "start": 347.86,
+          "end": 348.04
+        },
+        {
+          "id": "p52w6",
+          "text": "needed",
+          "start": 348.04,
+          "end": 348.26
+        },
+        {
+          "id": "p52w7",
+          "text": "my",
+          "start": 348.26,
+          "end": 348.46
+        },
+        {
+          "id": "p52w8",
+          "text": "help.",
+          "start": 348.46,
+          "end": 348.74
+        },
+        {
+          "id": "p52w9",
+          "text": "He",
+          "start": 350.13,
+          "end": 350.19
+        },
+        {
+          "id": "p52w10",
+          "text": "was",
+          "start": 350.19,
+          "end": 350.31
+        },
+        {
+          "id": "p52w11",
+          "text": "going",
+          "start": 350.31,
+          "end": 350.53
+        },
+        {
+          "id": "p52w12",
+          "text": "to",
+          "start": 350.53,
+          "end": 350.73
+        },
+        {
+          "id": "p52w13",
+          "text": "do",
+          "start": 350.73,
+          "end": 350.87
+        },
+        {
+          "id": "p52w14",
+          "text": "good",
+          "start": 350.87,
+          "end": 351.29
+        },
+        {
+          "id": "p52w15",
+          "text": "and",
+          "start": 351.29,
+          "end": 351.47
+        },
+        {
+          "id": "p52w16",
+          "text": "useful",
+          "start": 351.47,
+          "end": 351.79
+        },
+        {
+          "id": "p52w17",
+          "text": "work",
+          "start": 351.79,
+          "end": 352.27
+        },
+        {
+          "id": "p52w18",
+          "text": "in",
+          "start": 352.27,
+          "end": 352.43
+        },
+        {
+          "id": "p52w19",
+          "text": "India.",
+          "start": 352.43,
+          "end": 352.71
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 354.15,
+      "end": 362.81,
+      "text": "Maybe I should do as he asked. If I help you, then I must be free, I said. You are like",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "Maybe",
+          "start": 354.15,
+          "end": 354.55
+        },
+        {
+          "id": "p53w2",
+          "text": "I",
+          "start": 354.55,
+          "end": 354.87
+        },
+        {
+          "id": "p53w3",
+          "text": "should",
+          "start": 354.87,
+          "end": 355.07
+        },
+        {
+          "id": "p53w4",
+          "text": "do",
+          "start": 355.07,
+          "end": 355.27
+        },
+        {
+          "id": "p53w5",
+          "text": "as",
+          "start": 355.27,
+          "end": 355.45
+        },
+        {
+          "id": "p53w6",
+          "text": "he",
+          "start": 355.45,
+          "end": 355.59
+        },
+        {
+          "id": "p53w7",
+          "text": "asked.",
+          "start": 355.59,
+          "end": 355.85
+        },
+        {
+          "id": "p53w8",
+          "text": "If",
+          "start": 358.16,
+          "end": 358.6
+        },
+        {
+          "id": "p53w9",
+          "text": "I",
+          "start": 358.6,
+          "end": 358.78
+        },
+        {
+          "id": "p53w10",
+          "text": "help",
+          "start": 358.78,
+          "end": 358.98
+        },
+        {
+          "id": "p53w11",
+          "text": "you,",
+          "start": 358.98,
+          "end": 359.28
+        },
+        {
+          "id": "p53w12",
+          "text": "then",
+          "start": 359.68,
+          "end": 359.88
+        },
+        {
+          "id": "p53w13",
+          "text": "I",
+          "start": 359.88,
+          "end": 360.02
+        },
+        {
+          "id": "p53w14",
+          "text": "must",
+          "start": 360.02,
+          "end": 360.18
+        },
+        {
+          "id": "p53w15",
+          "text": "be",
+          "start": 360.18,
+          "end": 360.38
+        },
+        {
+          "id": "p53w16",
+          "text": "free,",
+          "start": 360.38,
+          "end": 360.72
+        },
+        {
+          "id": "p53w17",
+          "text": "I",
+          "start": 360.84,
+          "end": 361.18
+        },
+        {
+          "id": "p53w18",
+          "text": "said.",
+          "start": 361.18,
+          "end": 361.42
+        },
+        {
+          "id": "p53w19",
+          "text": "You",
+          "start": 362.25,
+          "end": 362.59
+        },
+        {
+          "id": "p53w20",
+          "text": "are",
+          "start": 362.59,
+          "end": 362.67
+        },
+        {
+          "id": "p53w21",
+          "text": "like",
+          "start": 362.67,
+          "end": 362.81
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 362.81,
+      "end": 371.92,
+      "text": "a brother to me. I can't marry you. St. John's face looked like stone. No, Jane. You must",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "a",
+          "start": 362.81,
+          "end": 362.93
+        },
+        {
+          "id": "p54w2",
+          "text": "brother",
+          "start": 362.93,
+          "end": 363.15
+        },
+        {
+          "id": "p54w3",
+          "text": "to",
+          "start": 363.15,
+          "end": 363.39
+        },
+        {
+          "id": "p54w4",
+          "text": "me.",
+          "start": 363.39,
+          "end": 363.55
+        },
+        {
+          "id": "p54w5",
+          "text": "I",
+          "start": 363.85,
+          "end": 363.99
+        },
+        {
+          "id": "p54w6",
+          "text": "can't",
+          "start": 363.99,
+          "end": 364.29
+        },
+        {
+          "id": "p54w7",
+          "text": "marry",
+          "start": 364.29,
+          "end": 364.47
+        },
+        {
+          "id": "p54w8",
+          "text": "you.",
+          "start": 364.47,
+          "end": 364.81
+        },
+        {
+          "id": "p54w9",
+          "text": "St.",
+          "start": 367.06,
+          "end": 367.18
+        },
+        {
+          "id": "p54w10",
+          "text": "John's",
+          "start": 367.3,
+          "end": 367.62
+        },
+        {
+          "id": "p54w11",
+          "text": "face",
+          "start": 367.62,
+          "end": 367.84
+        },
+        {
+          "id": "p54w12",
+          "text": "looked",
+          "start": 367.84,
+          "end": 368.14
+        },
+        {
+          "id": "p54w13",
+          "text": "like",
+          "start": 368.14,
+          "end": 368.42
+        },
+        {
+          "id": "p54w14",
+          "text": "stone.",
+          "start": 368.42,
+          "end": 368.7
+        },
+        {
+          "id": "p54w15",
+          "text": "No,",
+          "start": 370.22,
+          "end": 370.68
+        },
+        {
+          "id": "p54w16",
+          "text": "Jane.",
+          "start": 370.82,
+          "end": 370.92
+        },
+        {
+          "id": "p54w17",
+          "text": "You",
+          "start": 371.56,
+          "end": 371.8
+        },
+        {
+          "id": "p54w18",
+          "text": "must",
+          "start": 371.8,
+          "end": 371.92
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 371.92,
+      "end": 378.75,
+      "text": "be my wife. He said. I don't want a sister. I don't want you to marry another man. I want",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "be",
+          "start": 371.92,
+          "end": 372.06
+        },
+        {
+          "id": "p55w2",
+          "text": "my",
+          "start": 372.06,
+          "end": 372.24
+        },
+        {
+          "id": "p55w3",
+          "text": "wife.",
+          "start": 372.24,
+          "end": 372.54
+        },
+        {
+          "id": "p55w4",
+          "text": "He",
+          "start": 372.76,
+          "end": 372.84
+        },
+        {
+          "id": "p55w5",
+          "text": "said.",
+          "start": 372.84,
+          "end": 373.1
+        },
+        {
+          "id": "p55w6",
+          "text": "I",
+          "start": 373.94,
+          "end": 374.24
+        },
+        {
+          "id": "p55w7",
+          "text": "don't",
+          "start": 374.24,
+          "end": 374.44
+        },
+        {
+          "id": "p55w8",
+          "text": "want",
+          "start": 374.44,
+          "end": 374.56
+        },
+        {
+          "id": "p55w9",
+          "text": "a",
+          "start": 374.56,
+          "end": 374.72
+        },
+        {
+          "id": "p55w10",
+          "text": "sister.",
+          "start": 374.72,
+          "end": 374.9
+        },
+        {
+          "id": "p55w11",
+          "text": "I",
+          "start": 375.66,
+          "end": 376.1
+        },
+        {
+          "id": "p55w12",
+          "text": "don't",
+          "start": 376.1,
+          "end": 376.28
+        },
+        {
+          "id": "p55w13",
+          "text": "want",
+          "start": 376.28,
+          "end": 376.4
+        },
+        {
+          "id": "p55w14",
+          "text": "you",
+          "start": 376.4,
+          "end": 376.5
+        },
+        {
+          "id": "p55w15",
+          "text": "to",
+          "start": 376.5,
+          "end": 376.6
+        },
+        {
+          "id": "p55w16",
+          "text": "marry",
+          "start": 376.6,
+          "end": 376.84
+        },
+        {
+          "id": "p55w17",
+          "text": "another",
+          "start": 376.84,
+          "end": 377.06
+        },
+        {
+          "id": "p55w18",
+          "text": "man.",
+          "start": 377.06,
+          "end": 377.38
+        },
+        {
+          "id": "p55w19",
+          "text": "I",
+          "start": 378.19,
+          "end": 378.61
+        },
+        {
+          "id": "p55w20",
+          "text": "want",
+          "start": 378.61,
+          "end": 378.75
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 378.75,
+      "end": 385.66,
+      "text": "us to stay together and work together until we die. I turned away from St. John so that",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "us",
+          "start": 378.75,
+          "end": 378.89
+        },
+        {
+          "id": "p56w2",
+          "text": "to",
+          "start": 378.89,
+          "end": 379.01
+        },
+        {
+          "id": "p56w3",
+          "text": "stay",
+          "start": 379.01,
+          "end": 379.21
+        },
+        {
+          "id": "p56w4",
+          "text": "together",
+          "start": 379.21,
+          "end": 379.41
+        },
+        {
+          "id": "p56w5",
+          "text": "and",
+          "start": 379.41,
+          "end": 380.07
+        },
+        {
+          "id": "p56w6",
+          "text": "work",
+          "start": 380.07,
+          "end": 380.29
+        },
+        {
+          "id": "p56w7",
+          "text": "together",
+          "start": 380.29,
+          "end": 380.61
+        },
+        {
+          "id": "p56w8",
+          "text": "until",
+          "start": 380.61,
+          "end": 381.33
+        },
+        {
+          "id": "p56w9",
+          "text": "we",
+          "start": 381.33,
+          "end": 381.65
+        },
+        {
+          "id": "p56w10",
+          "text": "die.",
+          "start": 381.65,
+          "end": 381.87
+        },
+        {
+          "id": "p56w11",
+          "text": "I",
+          "start": 383.74,
+          "end": 383.96
+        },
+        {
+          "id": "p56w12",
+          "text": "turned",
+          "start": 383.96,
+          "end": 384.16
+        },
+        {
+          "id": "p56w13",
+          "text": "away",
+          "start": 384.16,
+          "end": 384.46
+        },
+        {
+          "id": "p56w14",
+          "text": "from",
+          "start": 384.46,
+          "end": 384.76
+        },
+        {
+          "id": "p56w15",
+          "text": "St.",
+          "start": 384.76,
+          "end": 384.92
+        },
+        {
+          "id": "p56w16",
+          "text": "John",
+          "start": 385.1,
+          "end": 385.22
+        },
+        {
+          "id": "p56w17",
+          "text": "so",
+          "start": 385.22,
+          "end": 385.5
+        },
+        {
+          "id": "p56w18",
+          "text": "that",
+          "start": 385.5,
+          "end": 385.66
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 385.66,
+      "end": 392.75,
+      "text": "he could not see how upset I was. I remembered my love for Mr. Rochester. He had always been",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "he",
+          "start": 385.66,
+          "end": 385.78
+        },
+        {
+          "id": "p57w2",
+          "text": "could",
+          "start": 385.78,
+          "end": 385.9
+        },
+        {
+          "id": "p57w3",
+          "text": "not",
+          "start": 385.9,
+          "end": 386.04
+        },
+        {
+          "id": "p57w4",
+          "text": "see",
+          "start": 386.04,
+          "end": 386.3
+        },
+        {
+          "id": "p57w5",
+          "text": "how",
+          "start": 386.3,
+          "end": 386.48
+        },
+        {
+          "id": "p57w6",
+          "text": "upset",
+          "start": 386.48,
+          "end": 386.8
+        },
+        {
+          "id": "p57w7",
+          "text": "I",
+          "start": 386.8,
+          "end": 387.14
+        },
+        {
+          "id": "p57w8",
+          "text": "was.",
+          "start": 387.14,
+          "end": 387.36
+        },
+        {
+          "id": "p57w9",
+          "text": "I",
+          "start": 389.0,
+          "end": 389.16
+        },
+        {
+          "id": "p57w10",
+          "text": "remembered",
+          "start": 389.16,
+          "end": 389.38
+        },
+        {
+          "id": "p57w11",
+          "text": "my",
+          "start": 389.38,
+          "end": 389.68
+        },
+        {
+          "id": "p57w12",
+          "text": "love",
+          "start": 389.68,
+          "end": 389.88
+        },
+        {
+          "id": "p57w13",
+          "text": "for",
+          "start": 389.88,
+          "end": 390.06
+        },
+        {
+          "id": "p57w14",
+          "text": "Mr.",
+          "start": 390.06,
+          "end": 390.26
+        },
+        {
+          "id": "p57w15",
+          "text": "Rochester.",
+          "start": 390.44,
+          "end": 390.54
+        },
+        {
+          "id": "p57w16",
+          "text": "He",
+          "start": 391.89,
+          "end": 392.17
+        },
+        {
+          "id": "p57w17",
+          "text": "had",
+          "start": 392.17,
+          "end": 392.27
+        },
+        {
+          "id": "p57w18",
+          "text": "always",
+          "start": 392.27,
+          "end": 392.51
+        },
+        {
+          "id": "p57w19",
+          "text": "been",
+          "start": 392.51,
+          "end": 392.75
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 392.75,
+      "end": 400.73,
+      "text": "so kind and gentle when he spoke to me. St. John spoke coldly to me and I knew that he did",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "so",
+          "start": 392.75,
+          "end": 393.13
+        },
+        {
+          "id": "p58w2",
+          "text": "kind",
+          "start": 393.13,
+          "end": 393.55
+        },
+        {
+          "id": "p58w3",
+          "text": "and",
+          "start": 393.55,
+          "end": 393.89
+        },
+        {
+          "id": "p58w4",
+          "text": "gentle",
+          "start": 393.89,
+          "end": 394.41
+        },
+        {
+          "id": "p58w5",
+          "text": "when",
+          "start": 394.41,
+          "end": 394.59
+        },
+        {
+          "id": "p58w6",
+          "text": "he",
+          "start": 394.59,
+          "end": 394.73
+        },
+        {
+          "id": "p58w7",
+          "text": "spoke",
+          "start": 394.73,
+          "end": 394.95
+        },
+        {
+          "id": "p58w8",
+          "text": "to",
+          "start": 394.95,
+          "end": 395.17
+        },
+        {
+          "id": "p58w9",
+          "text": "me.",
+          "start": 395.17,
+          "end": 395.33
+        },
+        {
+          "id": "p58w10",
+          "text": "St.",
+          "start": 396.86,
+          "end": 397.12
+        },
+        {
+          "id": "p58w11",
+          "text": "John",
+          "start": 397.24,
+          "end": 397.42
+        },
+        {
+          "id": "p58w12",
+          "text": "spoke",
+          "start": 397.42,
+          "end": 397.72
+        },
+        {
+          "id": "p58w13",
+          "text": "coldly",
+          "start": 397.72,
+          "end": 398.48
+        },
+        {
+          "id": "p58w14",
+          "text": "to",
+          "start": 398.48,
+          "end": 398.62
+        },
+        {
+          "id": "p58w15",
+          "text": "me",
+          "start": 398.62,
+          "end": 398.8
+        },
+        {
+          "id": "p58w16",
+          "text": "and",
+          "start": 398.8,
+          "end": 399.74
+        },
+        {
+          "id": "p58w17",
+          "text": "I",
+          "start": 399.87,
+          "end": 400.03
+        },
+        {
+          "id": "p58w18",
+          "text": "knew",
+          "start": 400.03,
+          "end": 400.25
+        },
+        {
+          "id": "p58w19",
+          "text": "that",
+          "start": 400.25,
+          "end": 400.47
+        },
+        {
+          "id": "p58w20",
+          "text": "he",
+          "start": 400.47,
+          "end": 400.59
+        },
+        {
+          "id": "p58w21",
+          "text": "did",
+          "start": 400.59,
+          "end": 400.73
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 400.73,
+      "end": 409.2,
+      "text": "not love me at all. He was a good man, but I knew that I would never love him. What could",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "not",
+          "start": 400.73,
+          "end": 400.89
+        },
+        {
+          "id": "p59w2",
+          "text": "love",
+          "start": 400.89,
+          "end": 401.33
+        },
+        {
+          "id": "p59w3",
+          "text": "me",
+          "start": 401.33,
+          "end": 401.55
+        },
+        {
+          "id": "p59w4",
+          "text": "at",
+          "start": 401.55,
+          "end": 401.73
+        },
+        {
+          "id": "p59w5",
+          "text": "all.",
+          "start": 401.73,
+          "end": 401.91
+        },
+        {
+          "id": "p59w6",
+          "text": "He",
+          "start": 403.46,
+          "end": 403.64
+        },
+        {
+          "id": "p59w7",
+          "text": "was",
+          "start": 403.64,
+          "end": 403.74
+        },
+        {
+          "id": "p59w8",
+          "text": "a",
+          "start": 403.74,
+          "end": 403.86
+        },
+        {
+          "id": "p59w9",
+          "text": "good",
+          "start": 403.86,
+          "end": 404.02
+        },
+        {
+          "id": "p59w10",
+          "text": "man,",
+          "start": 404.02,
+          "end": 404.28
+        },
+        {
+          "id": "p59w11",
+          "text": "but",
+          "start": 405.26,
+          "end": 405.48
+        },
+        {
+          "id": "p59w12",
+          "text": "I",
+          "start": 405.48,
+          "end": 405.62
+        },
+        {
+          "id": "p59w13",
+          "text": "knew",
+          "start": 405.62,
+          "end": 405.78
+        },
+        {
+          "id": "p59w14",
+          "text": "that",
+          "start": 405.78,
+          "end": 405.96
+        },
+        {
+          "id": "p59w15",
+          "text": "I",
+          "start": 405.96,
+          "end": 406.08
+        },
+        {
+          "id": "p59w16",
+          "text": "would",
+          "start": 406.08,
+          "end": 406.2
+        },
+        {
+          "id": "p59w17",
+          "text": "never",
+          "start": 406.2,
+          "end": 406.46
+        },
+        {
+          "id": "p59w18",
+          "text": "love",
+          "start": 406.46,
+          "end": 406.84
+        },
+        {
+          "id": "p59w19",
+          "text": "him.",
+          "start": 406.84,
+          "end": 407.02
+        },
+        {
+          "id": "p59w20",
+          "text": "What",
+          "start": 408.76,
+          "end": 409.0
+        },
+        {
+          "id": "p59w21",
+          "text": "could",
+          "start": 409.0,
+          "end": 409.2
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 409.2,
+      "end": 414.09,
+      "text": "I say to him? I am going away for two weeks to visit friends.",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "I",
+          "start": 409.2,
+          "end": 409.36
+        },
+        {
+          "id": "p60w2",
+          "text": "say",
+          "start": 409.36,
+          "end": 409.66
+        },
+        {
+          "id": "p60w3",
+          "text": "to",
+          "start": 409.66,
+          "end": 409.9
+        },
+        {
+          "id": "p60w4",
+          "text": "him?",
+          "start": 409.9,
+          "end": 410.12
+        },
+        {
+          "id": "p60w5",
+          "text": "I",
+          "start": 411.47,
+          "end": 411.79
+        },
+        {
+          "id": "p60w6",
+          "text": "am",
+          "start": 411.79,
+          "end": 411.89
+        },
+        {
+          "id": "p60w7",
+          "text": "going",
+          "start": 411.89,
+          "end": 412.07
+        },
+        {
+          "id": "p60w8",
+          "text": "away",
+          "start": 412.07,
+          "end": 412.35
+        },
+        {
+          "id": "p60w9",
+          "text": "for",
+          "start": 412.35,
+          "end": 412.59
+        },
+        {
+          "id": "p60w10",
+          "text": "two",
+          "start": 412.59,
+          "end": 412.77
+        },
+        {
+          "id": "p60w11",
+          "text": "weeks",
+          "start": 412.77,
+          "end": 413.07
+        },
+        {
+          "id": "p60w12",
+          "text": "to",
+          "start": 413.07,
+          "end": 413.41
+        },
+        {
+          "id": "p60w13",
+          "text": "visit",
+          "start": 413.41,
+          "end": 413.65
+        },
+        {
+          "id": "p60w14",
+          "text": "friends.",
+          "start": 413.65,
+          "end": 414.09
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 415.23,
+      "end": 421.72,
+      "text": "St. John. When I return, I will want to know your answer. I hope that you will agree to",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "St.",
+          "start": 415.23,
+          "end": 415.67
+        },
+        {
+          "id": "p61w2",
+          "text": "John.",
+          "start": 415.87,
+          "end": 416.19
+        },
+        {
+          "id": "p61w3",
+          "text": "When",
+          "start": 416.73,
+          "end": 417.17
+        },
+        {
+          "id": "p61w4",
+          "text": "I",
+          "start": 417.17,
+          "end": 417.31
+        },
+        {
+          "id": "p61w5",
+          "text": "return,",
+          "start": 417.31,
+          "end": 417.55
+        },
+        {
+          "id": "p61w6",
+          "text": "I",
+          "start": 417.85,
+          "end": 417.99
+        },
+        {
+          "id": "p61w7",
+          "text": "will",
+          "start": 417.99,
+          "end": 418.29
+        },
+        {
+          "id": "p61w8",
+          "text": "want",
+          "start": 418.29,
+          "end": 418.51
+        },
+        {
+          "id": "p61w9",
+          "text": "to",
+          "start": 418.51,
+          "end": 418.69
+        },
+        {
+          "id": "p61w10",
+          "text": "know",
+          "start": 418.69,
+          "end": 418.83
+        },
+        {
+          "id": "p61w11",
+          "text": "your",
+          "start": 418.83,
+          "end": 419.01
+        },
+        {
+          "id": "p61w12",
+          "text": "answer.",
+          "start": 419.01,
+          "end": 419.35
+        },
+        {
+          "id": "p61w13",
+          "text": "I",
+          "start": 420.62,
+          "end": 420.76
+        },
+        {
+          "id": "p61w14",
+          "text": "hope",
+          "start": 420.76,
+          "end": 420.94
+        },
+        {
+          "id": "p61w15",
+          "text": "that",
+          "start": 420.94,
+          "end": 421.14
+        },
+        {
+          "id": "p61w16",
+          "text": "you",
+          "start": 421.14,
+          "end": 421.26
+        },
+        {
+          "id": "p61w17",
+          "text": "will",
+          "start": 421.26,
+          "end": 421.4
+        },
+        {
+          "id": "p61w18",
+          "text": "agree",
+          "start": 421.4,
+          "end": 421.6
+        },
+        {
+          "id": "p61w19",
+          "text": "to",
+          "start": 421.6,
+          "end": 421.72
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 421.72,
+      "end": 428.82,
+      "text": "marry me. It is the right thing for you to do, Jane. You can't stay here forever, doing",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "marry",
+          "start": 421.72,
+          "end": 421.92
+        },
+        {
+          "id": "p62w2",
+          "text": "me.",
+          "start": 421.92,
+          "end": 422.14
+        },
+        {
+          "id": "p62w3",
+          "text": "It",
+          "start": 423.75,
+          "end": 423.99
+        },
+        {
+          "id": "p62w4",
+          "text": "is",
+          "start": 423.99,
+          "end": 424.07
+        },
+        {
+          "id": "p62w5",
+          "text": "the",
+          "start": 424.07,
+          "end": 424.21
+        },
+        {
+          "id": "p62w6",
+          "text": "right",
+          "start": 424.21,
+          "end": 424.35
+        },
+        {
+          "id": "p62w7",
+          "text": "thing",
+          "start": 424.35,
+          "end": 424.63
+        },
+        {
+          "id": "p62w8",
+          "text": "for",
+          "start": 424.63,
+          "end": 424.89
+        },
+        {
+          "id": "p62w9",
+          "text": "you",
+          "start": 424.89,
+          "end": 425.01
+        },
+        {
+          "id": "p62w10",
+          "text": "to",
+          "start": 425.01,
+          "end": 425.13
+        },
+        {
+          "id": "p62w11",
+          "text": "do,",
+          "start": 425.13,
+          "end": 425.29
+        },
+        {
+          "id": "p62w12",
+          "text": "Jane.",
+          "start": 425.37,
+          "end": 425.55
+        },
+        {
+          "id": "p62w13",
+          "text": "You",
+          "start": 426.54,
+          "end": 426.98
+        },
+        {
+          "id": "p62w14",
+          "text": "can't",
+          "start": 426.98,
+          "end": 427.24
+        },
+        {
+          "id": "p62w15",
+          "text": "stay",
+          "start": 427.24,
+          "end": 427.46
+        },
+        {
+          "id": "p62w16",
+          "text": "here",
+          "start": 427.46,
+          "end": 427.68
+        },
+        {
+          "id": "p62w17",
+          "text": "forever,",
+          "start": 427.68,
+          "end": 427.98
+        },
+        {
+          "id": "p62w18",
+          "text": "doing",
+          "start": 428.52,
+          "end": 428.82
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 428.82,
+      "end": 438.61,
+      "text": "nothing. I saw Diana when I went back to the house. When she saw my unhappy face, she",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "nothing.",
+          "start": 428.82,
+          "end": 429.24
+        },
+        {
+          "id": "p63w2",
+          "text": "I",
+          "start": 432.86,
+          "end": 433.3
+        },
+        {
+          "id": "p63w3",
+          "text": "saw",
+          "start": 433.3,
+          "end": 433.52
+        },
+        {
+          "id": "p63w4",
+          "text": "Diana",
+          "start": 433.52,
+          "end": 433.72
+        },
+        {
+          "id": "p63w5",
+          "text": "when",
+          "start": 433.72,
+          "end": 434.08
+        },
+        {
+          "id": "p63w6",
+          "text": "I",
+          "start": 434.08,
+          "end": 434.2
+        },
+        {
+          "id": "p63w7",
+          "text": "went",
+          "start": 434.2,
+          "end": 434.34
+        },
+        {
+          "id": "p63w8",
+          "text": "back",
+          "start": 434.34,
+          "end": 434.56
+        },
+        {
+          "id": "p63w9",
+          "text": "to",
+          "start": 434.56,
+          "end": 434.74
+        },
+        {
+          "id": "p63w10",
+          "text": "the",
+          "start": 434.74,
+          "end": 434.84
+        },
+        {
+          "id": "p63w11",
+          "text": "house.",
+          "start": 434.84,
+          "end": 435.08
+        },
+        {
+          "id": "p63w12",
+          "text": "When",
+          "start": 436.03,
+          "end": 436.47
+        },
+        {
+          "id": "p63w13",
+          "text": "she",
+          "start": 436.47,
+          "end": 436.67
+        },
+        {
+          "id": "p63w14",
+          "text": "saw",
+          "start": 436.67,
+          "end": 436.91
+        },
+        {
+          "id": "p63w15",
+          "text": "my",
+          "start": 436.91,
+          "end": 437.13
+        },
+        {
+          "id": "p63w16",
+          "text": "unhappy",
+          "start": 437.13,
+          "end": 437.61
+        },
+        {
+          "id": "p63w17",
+          "text": "face,",
+          "start": 437.61,
+          "end": 438.21
+        },
+        {
+          "id": "p63w18",
+          "text": "she",
+          "start": 438.47,
+          "end": 438.61
+        }
+      ]
+    },
+    {
+      "id": "p64",
+      "start": 438.61,
+      "end": 447.11,
+      "text": "asked. What is wrong, Jane? You look so pale and upset. What has happened to you? St. John",
+      "words": [
+        {
+          "id": "p64w1",
+          "text": "asked.",
+          "start": 438.61,
+          "end": 438.85
+        },
+        {
+          "id": "p64w2",
+          "text": "What",
+          "start": 439.43,
+          "end": 439.83
+        },
+        {
+          "id": "p64w3",
+          "text": "is",
+          "start": 439.83,
+          "end": 440.01
+        },
+        {
+          "id": "p64w4",
+          "text": "wrong,",
+          "start": 440.01,
+          "end": 440.21
+        },
+        {
+          "id": "p64w5",
+          "text": "Jane?",
+          "start": 440.49,
+          "end": 440.65
+        },
+        {
+          "id": "p64w6",
+          "text": "You",
+          "start": 441.27,
+          "end": 441.55
+        },
+        {
+          "id": "p64w7",
+          "text": "look",
+          "start": 441.55,
+          "end": 441.69
+        },
+        {
+          "id": "p64w8",
+          "text": "so",
+          "start": 441.69,
+          "end": 442.01
+        },
+        {
+          "id": "p64w9",
+          "text": "pale",
+          "start": 442.01,
+          "end": 442.47
+        },
+        {
+          "id": "p64w10",
+          "text": "and",
+          "start": 442.47,
+          "end": 442.79
+        },
+        {
+          "id": "p64w11",
+          "text": "upset.",
+          "start": 442.79,
+          "end": 443.07
+        },
+        {
+          "id": "p64w12",
+          "text": "What",
+          "start": 443.89,
+          "end": 444.27
+        },
+        {
+          "id": "p64w13",
+          "text": "has",
+          "start": 444.27,
+          "end": 444.43
+        },
+        {
+          "id": "p64w14",
+          "text": "happened",
+          "start": 444.43,
+          "end": 444.81
+        },
+        {
+          "id": "p64w15",
+          "text": "to",
+          "start": 444.81,
+          "end": 445.09
+        },
+        {
+          "id": "p64w16",
+          "text": "you?",
+          "start": 445.09,
+          "end": 445.35
+        },
+        {
+          "id": "p64w17",
+          "text": "St.",
+          "start": 446.47,
+          "end": 446.81
+        },
+        {
+          "id": "p64w18",
+          "text": "John",
+          "start": 446.91,
+          "end": 447.11
+        }
+      ]
+    },
+    {
+      "id": "p65",
+      "start": 447.11,
+      "end": 454.04,
+      "text": "has asked me to marry him, I said miserably. That is wonderful. Diana cried. If you marry",
+      "words": [
+        {
+          "id": "p65w1",
+          "text": "has",
+          "start": 447.11,
+          "end": 447.29
+        },
+        {
+          "id": "p65w2",
+          "text": "asked",
+          "start": 447.29,
+          "end": 447.47
+        },
+        {
+          "id": "p65w3",
+          "text": "me",
+          "start": 447.47,
+          "end": 447.67
+        },
+        {
+          "id": "p65w4",
+          "text": "to",
+          "start": 447.67,
+          "end": 447.77
+        },
+        {
+          "id": "p65w5",
+          "text": "marry",
+          "start": 447.77,
+          "end": 448.05
+        },
+        {
+          "id": "p65w6",
+          "text": "him,",
+          "start": 448.05,
+          "end": 448.33
+        },
+        {
+          "id": "p65w7",
+          "text": "I",
+          "start": 448.85,
+          "end": 448.95
+        },
+        {
+          "id": "p65w8",
+          "text": "said",
+          "start": 448.95,
+          "end": 449.19
+        },
+        {
+          "id": "p65w9",
+          "text": "miserably.",
+          "start": 449.19,
+          "end": 449.77
+        },
+        {
+          "id": "p65w10",
+          "text": "That",
+          "start": 450.48,
+          "end": 450.82
+        },
+        {
+          "id": "p65w11",
+          "text": "is",
+          "start": 450.82,
+          "end": 450.92
+        },
+        {
+          "id": "p65w12",
+          "text": "wonderful.",
+          "start": 450.92,
+          "end": 451.32
+        },
+        {
+          "id": "p65w13",
+          "text": "Diana",
+          "start": 452.14,
+          "end": 452.3
+        },
+        {
+          "id": "p65w14",
+          "text": "cried.",
+          "start": 452.3,
+          "end": 452.76
+        },
+        {
+          "id": "p65w15",
+          "text": "If",
+          "start": 453.32,
+          "end": 453.46
+        },
+        {
+          "id": "p65w16",
+          "text": "you",
+          "start": 453.46,
+          "end": 453.72
+        },
+        {
+          "id": "p65w17",
+          "text": "marry",
+          "start": 453.72,
+          "end": 454.04
+        }
+      ]
+    },
+    {
+      "id": "p66",
+      "start": 454.04,
+      "end": 462.18,
+      "text": "him, he will stay here in England with us instead of going to India. No, I said. He wants me",
+      "words": [
+        {
+          "id": "p66w1",
+          "text": "him,",
+          "start": 454.04,
+          "end": 454.48
+        },
+        {
+          "id": "p66w2",
+          "text": "he",
+          "start": 454.82,
+          "end": 454.98
+        },
+        {
+          "id": "p66w3",
+          "text": "will",
+          "start": 454.98,
+          "end": 455.12
+        },
+        {
+          "id": "p66w4",
+          "text": "stay",
+          "start": 455.12,
+          "end": 455.4
+        },
+        {
+          "id": "p66w5",
+          "text": "here",
+          "start": 455.4,
+          "end": 455.82
+        },
+        {
+          "id": "p66w6",
+          "text": "in",
+          "start": 455.82,
+          "end": 455.98
+        },
+        {
+          "id": "p66w7",
+          "text": "England",
+          "start": 455.98,
+          "end": 456.22
+        },
+        {
+          "id": "p66w8",
+          "text": "with",
+          "start": 456.22,
+          "end": 456.56
+        },
+        {
+          "id": "p66w9",
+          "text": "us",
+          "start": 456.56,
+          "end": 456.84
+        },
+        {
+          "id": "p66w10",
+          "text": "instead",
+          "start": 456.84,
+          "end": 457.4
+        },
+        {
+          "id": "p66w11",
+          "text": "of",
+          "start": 457.4,
+          "end": 457.68
+        },
+        {
+          "id": "p66w12",
+          "text": "going",
+          "start": 457.68,
+          "end": 457.94
+        },
+        {
+          "id": "p66w13",
+          "text": "to",
+          "start": 457.94,
+          "end": 458.16
+        },
+        {
+          "id": "p66w14",
+          "text": "India.",
+          "start": 458.16,
+          "end": 458.52
+        },
+        {
+          "id": "p66w15",
+          "text": "No,",
+          "start": 459.46,
+          "end": 460.02
+        },
+        {
+          "id": "p66w16",
+          "text": "I",
+          "start": 460.42,
+          "end": 460.58
+        },
+        {
+          "id": "p66w17",
+          "text": "said.",
+          "start": 460.58,
+          "end": 460.84
+        },
+        {
+          "id": "p66w18",
+          "text": "He",
+          "start": 461.52,
+          "end": 461.78
+        },
+        {
+          "id": "p66w19",
+          "text": "wants",
+          "start": 461.78,
+          "end": 461.94
+        },
+        {
+          "id": "p66w20",
+          "text": "me",
+          "start": 461.94,
+          "end": 462.18
+        }
+      ]
+    },
+    {
+      "id": "p67",
+      "start": 462.18,
+      "end": 469.55,
+      "text": "to go to India with him. Diana looks surprised. But you can't go to India, she said. You're",
+      "words": [
+        {
+          "id": "p67w1",
+          "text": "to",
+          "start": 462.18,
+          "end": 462.32
+        },
+        {
+          "id": "p67w2",
+          "text": "go",
+          "start": 462.32,
+          "end": 462.46
+        },
+        {
+          "id": "p67w3",
+          "text": "to",
+          "start": 462.46,
+          "end": 462.58
+        },
+        {
+          "id": "p67w4",
+          "text": "India",
+          "start": 462.58,
+          "end": 462.84
+        },
+        {
+          "id": "p67w5",
+          "text": "with",
+          "start": 462.84,
+          "end": 463.06
+        },
+        {
+          "id": "p67w6",
+          "text": "him.",
+          "start": 463.06,
+          "end": 463.32
+        },
+        {
+          "id": "p67w7",
+          "text": "Diana",
+          "start": 464.57,
+          "end": 464.97
+        },
+        {
+          "id": "p67w8",
+          "text": "looks",
+          "start": 464.97,
+          "end": 465.27
+        },
+        {
+          "id": "p67w9",
+          "text": "surprised.",
+          "start": 465.27,
+          "end": 465.65
+        },
+        {
+          "id": "p67w10",
+          "text": "But",
+          "start": 466.37,
+          "end": 466.67
+        },
+        {
+          "id": "p67w11",
+          "text": "you",
+          "start": 466.67,
+          "end": 466.87
+        },
+        {
+          "id": "p67w12",
+          "text": "can't",
+          "start": 466.87,
+          "end": 467.39
+        },
+        {
+          "id": "p67w13",
+          "text": "go",
+          "start": 467.39,
+          "end": 467.59
+        },
+        {
+          "id": "p67w14",
+          "text": "to",
+          "start": 467.59,
+          "end": 467.81
+        },
+        {
+          "id": "p67w15",
+          "text": "India,",
+          "start": 467.81,
+          "end": 468.19
+        },
+        {
+          "id": "p67w16",
+          "text": "she",
+          "start": 468.19,
+          "end": 468.65
+        },
+        {
+          "id": "p67w17",
+          "text": "said.",
+          "start": 468.65,
+          "end": 468.93
+        },
+        {
+          "id": "p67w18",
+          "text": "You're",
+          "start": 469.27,
+          "end": 469.55
+        }
+      ]
+    },
+    {
+      "id": "p68",
+      "start": 469.55,
+      "end": 476.41,
+      "text": "not strong enough. I won't go because I can't marry him, I told her. I'm afraid that he's",
+      "words": [
+        {
+          "id": "p68w1",
+          "text": "not",
+          "start": 469.55,
+          "end": 469.71
+        },
+        {
+          "id": "p68w2",
+          "text": "strong",
+          "start": 469.71,
+          "end": 470.17
+        },
+        {
+          "id": "p68w3",
+          "text": "enough.",
+          "start": 470.17,
+          "end": 470.57
+        },
+        {
+          "id": "p68w4",
+          "text": "I",
+          "start": 471.33,
+          "end": 471.63
+        },
+        {
+          "id": "p68w5",
+          "text": "won't",
+          "start": 471.63,
+          "end": 472.03
+        },
+        {
+          "id": "p68w6",
+          "text": "go",
+          "start": 472.03,
+          "end": 472.19
+        },
+        {
+          "id": "p68w7",
+          "text": "because",
+          "start": 472.19,
+          "end": 472.47
+        },
+        {
+          "id": "p68w8",
+          "text": "I",
+          "start": 472.47,
+          "end": 472.67
+        },
+        {
+          "id": "p68w9",
+          "text": "can't",
+          "start": 472.67,
+          "end": 473.07
+        },
+        {
+          "id": "p68w10",
+          "text": "marry",
+          "start": 473.07,
+          "end": 473.37
+        },
+        {
+          "id": "p68w11",
+          "text": "him,",
+          "start": 473.37,
+          "end": 473.75
+        },
+        {
+          "id": "p68w12",
+          "text": "I",
+          "start": 473.93,
+          "end": 474.05
+        },
+        {
+          "id": "p68w13",
+          "text": "told",
+          "start": 474.05,
+          "end": 474.29
+        },
+        {
+          "id": "p68w14",
+          "text": "her.",
+          "start": 474.29,
+          "end": 474.59
+        },
+        {
+          "id": "p68w15",
+          "text": "I'm",
+          "start": 475.59,
+          "end": 475.81
+        },
+        {
+          "id": "p68w16",
+          "text": "afraid",
+          "start": 475.81,
+          "end": 476.05
+        },
+        {
+          "id": "p68w17",
+          "text": "that",
+          "start": 476.05,
+          "end": 476.23
+        },
+        {
+          "id": "p68w18",
+          "text": "he's",
+          "start": 476.23,
+          "end": 476.41
+        }
+      ]
+    },
+    {
+      "id": "p69",
+      "start": 476.41,
+      "end": 481.53,
+      "text": "angry with me, Diana. I know that he's a good man, but I don't think that he understands",
+      "words": [
+        {
+          "id": "p69w1",
+          "text": "angry",
+          "start": 476.41,
+          "end": 476.67
+        },
+        {
+          "id": "p69w2",
+          "text": "with",
+          "start": 476.67,
+          "end": 476.89
+        },
+        {
+          "id": "p69w3",
+          "text": "me,",
+          "start": 476.89,
+          "end": 477.07
+        },
+        {
+          "id": "p69w4",
+          "text": "Diana.",
+          "start": 477.09,
+          "end": 477.27
+        },
+        {
+          "id": "p69w5",
+          "text": "I",
+          "start": 477.87,
+          "end": 478.43
+        },
+        {
+          "id": "p69w6",
+          "text": "know",
+          "start": 478.43,
+          "end": 478.57
+        },
+        {
+          "id": "p69w7",
+          "text": "that",
+          "start": 478.57,
+          "end": 478.71
+        },
+        {
+          "id": "p69w8",
+          "text": "he's",
+          "start": 478.71,
+          "end": 478.87
+        },
+        {
+          "id": "p69w9",
+          "text": "a",
+          "start": 478.87,
+          "end": 478.99
+        },
+        {
+          "id": "p69w10",
+          "text": "good",
+          "start": 478.99,
+          "end": 479.15
+        },
+        {
+          "id": "p69w11",
+          "text": "man,",
+          "start": 479.15,
+          "end": 479.43
+        },
+        {
+          "id": "p69w12",
+          "text": "but",
+          "start": 480.09,
+          "end": 480.43
+        },
+        {
+          "id": "p69w13",
+          "text": "I",
+          "start": 480.43,
+          "end": 480.57
+        },
+        {
+          "id": "p69w14",
+          "text": "don't",
+          "start": 480.57,
+          "end": 480.83
+        },
+        {
+          "id": "p69w15",
+          "text": "think",
+          "start": 480.83,
+          "end": 481.01
+        },
+        {
+          "id": "p69w16",
+          "text": "that",
+          "start": 481.01,
+          "end": 481.17
+        },
+        {
+          "id": "p69w17",
+          "text": "he",
+          "start": 481.17,
+          "end": 481.27
+        },
+        {
+          "id": "p69w18",
+          "text": "understands",
+          "start": 481.27,
+          "end": 481.53
+        }
+      ]
+    },
+    {
+      "id": "p70",
+      "start": 481.53,
+      "end": 490.33,
+      "text": "how ordinary people feel. Yes, Diana said seriously. My brother is a very good man, but",
+      "words": [
+        {
+          "id": "p70w1",
+          "text": "how",
+          "start": 481.53,
+          "end": 482.03
+        },
+        {
+          "id": "p70w2",
+          "text": "ordinary",
+          "start": 482.03,
+          "end": 482.51
+        },
+        {
+          "id": "p70w3",
+          "text": "people",
+          "start": 482.51,
+          "end": 483.01
+        },
+        {
+          "id": "p70w4",
+          "text": "feel.",
+          "start": 483.01,
+          "end": 483.45
+        },
+        {
+          "id": "p70w5",
+          "text": "Yes,",
+          "start": 484.17,
+          "end": 484.77
+        },
+        {
+          "id": "p70w6",
+          "text": "Diana",
+          "start": 485.25,
+          "end": 485.57
+        },
+        {
+          "id": "p70w7",
+          "text": "said",
+          "start": 485.57,
+          "end": 485.95
+        },
+        {
+          "id": "p70w8",
+          "text": "seriously.",
+          "start": 485.95,
+          "end": 486.53
+        },
+        {
+          "id": "p70w9",
+          "text": "My",
+          "start": 487.15,
+          "end": 487.43
+        },
+        {
+          "id": "p70w10",
+          "text": "brother",
+          "start": 487.43,
+          "end": 487.75
+        },
+        {
+          "id": "p70w11",
+          "text": "is",
+          "start": 487.75,
+          "end": 487.95
+        },
+        {
+          "id": "p70w12",
+          "text": "a",
+          "start": 487.95,
+          "end": 488.07
+        },
+        {
+          "id": "p70w13",
+          "text": "very",
+          "start": 488.07,
+          "end": 488.69
+        },
+        {
+          "id": "p70w14",
+          "text": "good",
+          "start": 488.69,
+          "end": 489.13
+        },
+        {
+          "id": "p70w15",
+          "text": "man,",
+          "start": 489.13,
+          "end": 489.59
+        },
+        {
+          "id": "p70w16",
+          "text": "but",
+          "start": 490.07,
+          "end": 490.33
+        }
+      ]
+    },
+    {
+      "id": "p71",
+      "start": 490.33,
+      "end": 498.3,
+      "text": "sometimes he appears to be hard and cold. I lay awake in my bed that night, and I thought",
+      "words": [
+        {
+          "id": "p71w1",
+          "text": "sometimes",
+          "start": 490.33,
+          "end": 490.77
+        },
+        {
+          "id": "p71w2",
+          "text": "he",
+          "start": 490.77,
+          "end": 491.41
+        },
+        {
+          "id": "p71w3",
+          "text": "appears",
+          "start": 491.41,
+          "end": 491.81
+        },
+        {
+          "id": "p71w4",
+          "text": "to",
+          "start": 491.81,
+          "end": 492.19
+        },
+        {
+          "id": "p71w5",
+          "text": "be",
+          "start": 492.19,
+          "end": 492.31
+        },
+        {
+          "id": "p71w6",
+          "text": "hard",
+          "start": 492.31,
+          "end": 492.67
+        },
+        {
+          "id": "p71w7",
+          "text": "and",
+          "start": 492.67,
+          "end": 492.99
+        },
+        {
+          "id": "p71w8",
+          "text": "cold.",
+          "start": 492.99,
+          "end": 493.35
+        },
+        {
+          "id": "p71w9",
+          "text": "I",
+          "start": 495.22,
+          "end": 495.66
+        },
+        {
+          "id": "p71w10",
+          "text": "lay",
+          "start": 495.66,
+          "end": 495.78
+        },
+        {
+          "id": "p71w11",
+          "text": "awake",
+          "start": 495.78,
+          "end": 496.22
+        },
+        {
+          "id": "p71w12",
+          "text": "in",
+          "start": 496.22,
+          "end": 496.3
+        },
+        {
+          "id": "p71w13",
+          "text": "my",
+          "start": 496.3,
+          "end": 496.42
+        },
+        {
+          "id": "p71w14",
+          "text": "bed",
+          "start": 496.42,
+          "end": 496.64
+        },
+        {
+          "id": "p71w15",
+          "text": "that",
+          "start": 496.64,
+          "end": 496.86
+        },
+        {
+          "id": "p71w16",
+          "text": "night,",
+          "start": 496.86,
+          "end": 497.18
+        },
+        {
+          "id": "p71w17",
+          "text": "and",
+          "start": 497.8,
+          "end": 498.0
+        },
+        {
+          "id": "p71w18",
+          "text": "I",
+          "start": 498.0,
+          "end": 498.14
+        },
+        {
+          "id": "p71w19",
+          "text": "thought",
+          "start": 498.14,
+          "end": 498.3
+        }
+      ]
+    },
+    {
+      "id": "p72",
+      "start": 498.3,
+      "end": 506.41,
+      "text": "about St. John. I could not decide what I should do. I knew that I did not love him, and I was",
+      "words": [
+        {
+          "id": "p72w1",
+          "text": "about",
+          "start": 498.3,
+          "end": 498.64
+        },
+        {
+          "id": "p72w2",
+          "text": "St.",
+          "start": 498.64,
+          "end": 498.9
+        },
+        {
+          "id": "p72w3",
+          "text": "John.",
+          "start": 499.06,
+          "end": 499.16
+        },
+        {
+          "id": "p72w4",
+          "text": "I",
+          "start": 500.58,
+          "end": 500.76
+        },
+        {
+          "id": "p72w5",
+          "text": "could",
+          "start": 500.76,
+          "end": 500.9
+        },
+        {
+          "id": "p72w6",
+          "text": "not",
+          "start": 500.9,
+          "end": 501.02
+        },
+        {
+          "id": "p72w7",
+          "text": "decide",
+          "start": 501.02,
+          "end": 501.42
+        },
+        {
+          "id": "p72w8",
+          "text": "what",
+          "start": 501.42,
+          "end": 501.7
+        },
+        {
+          "id": "p72w9",
+          "text": "I",
+          "start": 501.7,
+          "end": 501.86
+        },
+        {
+          "id": "p72w10",
+          "text": "should",
+          "start": 501.86,
+          "end": 502.02
+        },
+        {
+          "id": "p72w11",
+          "text": "do.",
+          "start": 502.02,
+          "end": 502.24
+        },
+        {
+          "id": "p72w12",
+          "text": "I",
+          "start": 503.75,
+          "end": 503.91
+        },
+        {
+          "id": "p72w13",
+          "text": "knew",
+          "start": 503.91,
+          "end": 504.05
+        },
+        {
+          "id": "p72w14",
+          "text": "that",
+          "start": 504.05,
+          "end": 504.17
+        },
+        {
+          "id": "p72w15",
+          "text": "I",
+          "start": 504.17,
+          "end": 504.31
+        },
+        {
+          "id": "p72w16",
+          "text": "did",
+          "start": 504.31,
+          "end": 504.45
+        },
+        {
+          "id": "p72w17",
+          "text": "not",
+          "start": 504.45,
+          "end": 504.59
+        },
+        {
+          "id": "p72w18",
+          "text": "love",
+          "start": 504.59,
+          "end": 504.89
+        },
+        {
+          "id": "p72w19",
+          "text": "him,",
+          "start": 504.89,
+          "end": 505.15
+        },
+        {
+          "id": "p72w20",
+          "text": "and",
+          "start": 505.87,
+          "end": 506.15
+        },
+        {
+          "id": "p72w21",
+          "text": "I",
+          "start": 506.15,
+          "end": 506.31
+        },
+        {
+          "id": "p72w22",
+          "text": "was",
+          "start": 506.31,
+          "end": 506.41
+        }
+      ]
+    },
+    {
+      "id": "p73",
+      "start": 506.41,
+      "end": 514.2,
+      "text": "sure that he did not love me. But maybe I should go to India. The night was very quiet.",
+      "words": [
+        {
+          "id": "p73w1",
+          "text": "sure",
+          "start": 506.41,
+          "end": 506.73
+        },
+        {
+          "id": "p73w2",
+          "text": "that",
+          "start": 506.73,
+          "end": 506.95
+        },
+        {
+          "id": "p73w3",
+          "text": "he",
+          "start": 506.95,
+          "end": 507.13
+        },
+        {
+          "id": "p73w4",
+          "text": "did",
+          "start": 507.13,
+          "end": 507.31
+        },
+        {
+          "id": "p73w5",
+          "text": "not",
+          "start": 507.31,
+          "end": 507.45
+        },
+        {
+          "id": "p73w6",
+          "text": "love",
+          "start": 507.45,
+          "end": 507.71
+        },
+        {
+          "id": "p73w7",
+          "text": "me.",
+          "start": 507.71,
+          "end": 507.99
+        },
+        {
+          "id": "p73w8",
+          "text": "But",
+          "start": 509.18,
+          "end": 509.62
+        },
+        {
+          "id": "p73w9",
+          "text": "maybe",
+          "start": 509.62,
+          "end": 509.84
+        },
+        {
+          "id": "p73w10",
+          "text": "I",
+          "start": 509.84,
+          "end": 510.14
+        },
+        {
+          "id": "p73w11",
+          "text": "should",
+          "start": 510.14,
+          "end": 510.32
+        },
+        {
+          "id": "p73w12",
+          "text": "go",
+          "start": 510.32,
+          "end": 510.5
+        },
+        {
+          "id": "p73w13",
+          "text": "to",
+          "start": 510.5,
+          "end": 510.66
+        },
+        {
+          "id": "p73w14",
+          "text": "India.",
+          "start": 510.66,
+          "end": 510.96
+        },
+        {
+          "id": "p73w15",
+          "text": "The",
+          "start": 512.88,
+          "end": 513.1
+        },
+        {
+          "id": "p73w16",
+          "text": "night",
+          "start": 513.1,
+          "end": 513.28
+        },
+        {
+          "id": "p73w17",
+          "text": "was",
+          "start": 513.28,
+          "end": 513.54
+        },
+        {
+          "id": "p73w18",
+          "text": "very",
+          "start": 513.54,
+          "end": 513.8
+        },
+        {
+          "id": "p73w19",
+          "text": "quiet.",
+          "start": 513.8,
+          "end": 514.2
+        }
+      ]
+    },
+    {
+      "id": "p74",
+      "start": 515.99,
+      "end": 521.62,
+      "text": "I could hear nothing in the darkness. Suddenly, I thought that I heard a voice.",
+      "words": [
+        {
+          "id": "p74w1",
+          "text": "I",
+          "start": 515.99,
+          "end": 516.11
+        },
+        {
+          "id": "p74w2",
+          "text": "could",
+          "start": 516.11,
+          "end": 516.25
+        },
+        {
+          "id": "p74w3",
+          "text": "hear",
+          "start": 516.25,
+          "end": 516.41
+        },
+        {
+          "id": "p74w4",
+          "text": "nothing",
+          "start": 516.41,
+          "end": 516.77
+        },
+        {
+          "id": "p74w5",
+          "text": "in",
+          "start": 516.77,
+          "end": 516.93
+        },
+        {
+          "id": "p74w6",
+          "text": "the",
+          "start": 516.93,
+          "end": 517.03
+        },
+        {
+          "id": "p74w7",
+          "text": "darkness.",
+          "start": 517.03,
+          "end": 517.29
+        },
+        {
+          "id": "p74w8",
+          "text": "Suddenly,",
+          "start": 518.84,
+          "end": 519.28
+        },
+        {
+          "id": "p74w9",
+          "text": "I",
+          "start": 519.98,
+          "end": 520.24
+        },
+        {
+          "id": "p74w10",
+          "text": "thought",
+          "start": 520.24,
+          "end": 520.58
+        },
+        {
+          "id": "p74w11",
+          "text": "that",
+          "start": 520.58,
+          "end": 520.8
+        },
+        {
+          "id": "p74w12",
+          "text": "I",
+          "start": 520.8,
+          "end": 520.96
+        },
+        {
+          "id": "p74w13",
+          "text": "heard",
+          "start": 520.96,
+          "end": 521.18
+        },
+        {
+          "id": "p74w14",
+          "text": "a",
+          "start": 521.18,
+          "end": 521.32
+        },
+        {
+          "id": "p74w15",
+          "text": "voice.",
+          "start": 521.32,
+          "end": 521.62
+        }
+      ]
+    },
+    {
+      "id": "p75",
+      "start": 522.56,
+      "end": 534.02,
+      "text": "Jane. It called. Jane. Jane. I am here, Mr. Rochester. I cried. Where are you? What is wrong?",
+      "words": [
+        {
+          "id": "p75w1",
+          "text": "Jane.",
+          "start": 522.56,
+          "end": 523.0
+        },
+        {
+          "id": "p75w2",
+          "text": "It",
+          "start": 523.64,
+          "end": 523.78
+        },
+        {
+          "id": "p75w3",
+          "text": "called.",
+          "start": 523.78,
+          "end": 524.04
+        },
+        {
+          "id": "p75w4",
+          "text": "Jane.",
+          "start": 525.33,
+          "end": 525.67
+        },
+        {
+          "id": "p75w5",
+          "text": "Jane.",
+          "start": 527.3,
+          "end": 527.52
+        },
+        {
+          "id": "p75w6",
+          "text": "I",
+          "start": 529.56,
+          "end": 529.92
+        },
+        {
+          "id": "p75w7",
+          "text": "am",
+          "start": 529.92,
+          "end": 530.02
+        },
+        {
+          "id": "p75w8",
+          "text": "here,",
+          "start": 530.02,
+          "end": 530.22
+        },
+        {
+          "id": "p75w9",
+          "text": "Mr.",
+          "start": 530.3,
+          "end": 530.44
+        },
+        {
+          "id": "p75w10",
+          "text": "Rochester.",
+          "start": 530.86,
+          "end": 530.86
+        },
+        {
+          "id": "p75w11",
+          "text": "I",
+          "start": 531.58,
+          "end": 531.62
+        },
+        {
+          "id": "p75w12",
+          "text": "cried.",
+          "start": 531.62,
+          "end": 531.74
+        },
+        {
+          "id": "p75w13",
+          "text": "Where",
+          "start": 532.56,
+          "end": 532.78
+        },
+        {
+          "id": "p75w14",
+          "text": "are",
+          "start": 532.78,
+          "end": 532.96
+        },
+        {
+          "id": "p75w15",
+          "text": "you?",
+          "start": 532.96,
+          "end": 533.2
+        },
+        {
+          "id": "p75w16",
+          "text": "What",
+          "start": 533.56,
+          "end": 533.68
+        },
+        {
+          "id": "p75w17",
+          "text": "is",
+          "start": 533.68,
+          "end": 533.82
+        },
+        {
+          "id": "p75w18",
+          "text": "wrong?",
+          "start": 533.82,
+          "end": 534.02
+        }
+      ]
+    },
+    {
+      "id": "p76",
+      "start": 534.02,
+      "end": 544.31,
+      "text": "Was I dreaming? Perhaps. But it didn't matter. Somehow, I knew that Mr. Rochester needed me.",
+      "words": [
+        {
+          "id": "p76w1",
+          "text": "Was",
+          "start": 534.02,
+          "end": 534.14
+        },
+        {
+          "id": "p76w2",
+          "text": "I",
+          "start": 534.14,
+          "end": 535.4
+        },
+        {
+          "id": "p76w3",
+          "text": "dreaming?",
+          "start": 536.33,
+          "end": 536.57
+        },
+        {
+          "id": "p76w4",
+          "text": "Perhaps.",
+          "start": 537.98,
+          "end": 538.2
+        },
+        {
+          "id": "p76w5",
+          "text": "But",
+          "start": 539.66,
+          "end": 539.88
+        },
+        {
+          "id": "p76w6",
+          "text": "it",
+          "start": 539.88,
+          "end": 539.98
+        },
+        {
+          "id": "p76w7",
+          "text": "didn't",
+          "start": 539.98,
+          "end": 540.24
+        },
+        {
+          "id": "p76w8",
+          "text": "matter.",
+          "start": 540.24,
+          "end": 540.52
+        },
+        {
+          "id": "p76w9",
+          "text": "Somehow,",
+          "start": 541.47,
+          "end": 541.79
+        },
+        {
+          "id": "p76w10",
+          "text": "I",
+          "start": 542.25,
+          "end": 542.41
+        },
+        {
+          "id": "p76w11",
+          "text": "knew",
+          "start": 542.41,
+          "end": 542.69
+        },
+        {
+          "id": "p76w12",
+          "text": "that",
+          "start": 542.69,
+          "end": 542.89
+        },
+        {
+          "id": "p76w13",
+          "text": "Mr.",
+          "start": 542.89,
+          "end": 543.17
+        },
+        {
+          "id": "p76w14",
+          "text": "Rochester",
+          "start": 543.39,
+          "end": 543.41
+        },
+        {
+          "id": "p76w15",
+          "text": "needed",
+          "start": 543.41,
+          "end": 543.95
+        },
+        {
+          "id": "p76w16",
+          "text": "me.",
+          "start": 543.95,
+          "end": 544.31
+        }
+      ]
+    },
+    {
+      "id": "p77",
+      "start": 545.39,
+      "end": 551.71,
+      "text": "I must go to him at once, I thought. The next day, I left once more for Thornfield Hall.",
+      "words": [
+        {
+          "id": "p77w1",
+          "text": "I",
+          "start": 545.39,
+          "end": 545.65
+        },
+        {
+          "id": "p77w2",
+          "text": "must",
+          "start": 545.65,
+          "end": 545.73
+        },
+        {
+          "id": "p77w3",
+          "text": "go",
+          "start": 545.73,
+          "end": 545.97
+        },
+        {
+          "id": "p77w4",
+          "text": "to",
+          "start": 545.97,
+          "end": 546.09
+        },
+        {
+          "id": "p77w5",
+          "text": "him",
+          "start": 546.09,
+          "end": 546.19
+        },
+        {
+          "id": "p77w6",
+          "text": "at",
+          "start": 546.19,
+          "end": 546.29
+        },
+        {
+          "id": "p77w7",
+          "text": "once,",
+          "start": 546.29,
+          "end": 546.47
+        },
+        {
+          "id": "p77w8",
+          "text": "I",
+          "start": 546.47,
+          "end": 546.77
+        },
+        {
+          "id": "p77w9",
+          "text": "thought.",
+          "start": 546.77,
+          "end": 547.01
+        },
+        {
+          "id": "p77w10",
+          "text": "The",
+          "start": 548.83,
+          "end": 548.95
+        },
+        {
+          "id": "p77w11",
+          "text": "next",
+          "start": 548.95,
+          "end": 549.09
+        },
+        {
+          "id": "p77w12",
+          "text": "day,",
+          "start": 549.09,
+          "end": 549.39
+        },
+        {
+          "id": "p77w13",
+          "text": "I",
+          "start": 549.79,
+          "end": 550.05
+        },
+        {
+          "id": "p77w14",
+          "text": "left",
+          "start": 550.05,
+          "end": 550.17
+        },
+        {
+          "id": "p77w15",
+          "text": "once",
+          "start": 550.17,
+          "end": 550.47
+        },
+        {
+          "id": "p77w16",
+          "text": "more",
+          "start": 550.47,
+          "end": 550.75
+        },
+        {
+          "id": "p77w17",
+          "text": "for",
+          "start": 550.75,
+          "end": 550.91
+        },
+        {
+          "id": "p77w18",
+          "text": "Thornfield",
+          "start": 550.91,
+          "end": 551.37
+        },
+        {
+          "id": "p77w19",
+          "text": "Hall.",
+          "start": 551.37,
+          "end": 551.71
+        }
+      ]
+    },
+    {
+      "id": "p78",
+      "start": 553.1,
+      "end": 557.94,
+      "text": "It was a long journey, and I decided to walk for the last two miles to the house.",
+      "words": [
+        {
+          "id": "p78w1",
+          "text": "It",
+          "start": 553.1,
+          "end": 553.24
+        },
+        {
+          "id": "p78w2",
+          "text": "was",
+          "start": 553.24,
+          "end": 553.36
+        },
+        {
+          "id": "p78w3",
+          "text": "a",
+          "start": 553.36,
+          "end": 553.48
+        },
+        {
+          "id": "p78w4",
+          "text": "long",
+          "start": 553.48,
+          "end": 553.64
+        },
+        {
+          "id": "p78w5",
+          "text": "journey,",
+          "start": 553.64,
+          "end": 554.1
+        },
+        {
+          "id": "p78w6",
+          "text": "and",
+          "start": 554.62,
+          "end": 555.04
+        },
+        {
+          "id": "p78w7",
+          "text": "I",
+          "start": 555.04,
+          "end": 555.16
+        },
+        {
+          "id": "p78w8",
+          "text": "decided",
+          "start": 555.16,
+          "end": 555.36
+        },
+        {
+          "id": "p78w9",
+          "text": "to",
+          "start": 555.36,
+          "end": 555.72
+        },
+        {
+          "id": "p78w10",
+          "text": "walk",
+          "start": 555.72,
+          "end": 556.0
+        },
+        {
+          "id": "p78w11",
+          "text": "for",
+          "start": 556.0,
+          "end": 556.28
+        },
+        {
+          "id": "p78w12",
+          "text": "the",
+          "start": 556.28,
+          "end": 556.36
+        },
+        {
+          "id": "p78w13",
+          "text": "last",
+          "start": 556.36,
+          "end": 556.64
+        },
+        {
+          "id": "p78w14",
+          "text": "two",
+          "start": 556.64,
+          "end": 556.96
+        },
+        {
+          "id": "p78w15",
+          "text": "miles",
+          "start": 556.96,
+          "end": 557.28
+        },
+        {
+          "id": "p78w16",
+          "text": "to",
+          "start": 557.28,
+          "end": 557.58
+        },
+        {
+          "id": "p78w17",
+          "text": "the",
+          "start": 557.58,
+          "end": 557.68
+        },
+        {
+          "id": "p78w18",
+          "text": "house.",
+          "start": 557.68,
+          "end": 557.94
+        }
+      ]
+    }
+  ]
+}

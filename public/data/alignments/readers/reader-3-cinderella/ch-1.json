@@ -1,0 +1,3555 @@
+{
+  "sectionId": "reader-3-cinderella-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/289 (S1) Cinderella/Track 01.mp3",
+  "totalDuration": 390.582875,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 68.82,
+      "end": 70.24,
+      "text": "The Evil Stepmother",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "The",
+          "start": 68.82,
+          "end": 70.22
+        },
+        {
+          "id": "p1w2",
+          "text": "Evil",
+          "start": 70.22,
+          "end": 70.24
+        },
+        {
+          "id": "p1w3",
+          "text": "Stepmother",
+          "start": 70.24,
+          "end": 70.24
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 70.24,
+      "end": 72.96,
+      "text": "Chapter 1 The Evil Stepmother",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Chapter",
+          "start": 70.24,
+          "end": 70.24
+        },
+        {
+          "id": "p2w2",
+          "text": "1",
+          "start": 70.24,
+          "end": 70.8
+        },
+        {
+          "id": "p2w3",
+          "text": "The",
+          "start": 70.8,
+          "end": 71.68
+        },
+        {
+          "id": "p2w4",
+          "text": "Evil",
+          "start": 71.68,
+          "end": 72.02
+        },
+        {
+          "id": "p2w5",
+          "text": "Stepmother",
+          "start": 72.02,
+          "end": 72.96
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 76.28,
+      "end": 79.2,
+      "text": "One's a man lived happily with his wife",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "One's",
+          "start": 76.28,
+          "end": 77.0
+        },
+        {
+          "id": "p3w2",
+          "text": "a",
+          "start": 77.0,
+          "end": 77.1
+        },
+        {
+          "id": "p3w3",
+          "text": "man",
+          "start": 77.1,
+          "end": 77.4
+        },
+        {
+          "id": "p3w4",
+          "text": "lived",
+          "start": 77.4,
+          "end": 77.72
+        },
+        {
+          "id": "p3w5",
+          "text": "happily",
+          "start": 77.72,
+          "end": 78.24
+        },
+        {
+          "id": "p3w6",
+          "text": "with",
+          "start": 78.24,
+          "end": 78.64
+        },
+        {
+          "id": "p3w7",
+          "text": "his",
+          "start": 78.64,
+          "end": 78.88
+        },
+        {
+          "id": "p3w8",
+          "text": "wife",
+          "start": 78.88,
+          "end": 79.2
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 82.64,
+      "end": 86.72,
+      "text": "They had a wonderful daughter, her name was Cinderella",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "They",
+          "start": 82.64,
+          "end": 83.36
+        },
+        {
+          "id": "p4w2",
+          "text": "had",
+          "start": 83.36,
+          "end": 83.68
+        },
+        {
+          "id": "p4w3",
+          "text": "a",
+          "start": 83.68,
+          "end": 83.82
+        },
+        {
+          "id": "p4w4",
+          "text": "wonderful",
+          "start": 83.82,
+          "end": 84.18
+        },
+        {
+          "id": "p4w5",
+          "text": "daughter,",
+          "start": 84.18,
+          "end": 84.9
+        },
+        {
+          "id": "p4w6",
+          "text": "her",
+          "start": 85.5,
+          "end": 85.72
+        },
+        {
+          "id": "p4w7",
+          "text": "name",
+          "start": 85.72,
+          "end": 86.08
+        },
+        {
+          "id": "p4w8",
+          "text": "was",
+          "start": 86.08,
+          "end": 86.32
+        },
+        {
+          "id": "p4w9",
+          "text": "Cinderella",
+          "start": 86.32,
+          "end": 86.72
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 87.48,
+      "end": 90.82,
+      "text": "She was the sweetest girl in the land",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "She",
+          "start": 87.48,
+          "end": 88.2
+        },
+        {
+          "id": "p5w2",
+          "text": "was",
+          "start": 88.2,
+          "end": 88.56
+        },
+        {
+          "id": "p5w3",
+          "text": "the",
+          "start": 88.56,
+          "end": 88.8
+        },
+        {
+          "id": "p5w4",
+          "text": "sweetest",
+          "start": 88.8,
+          "end": 89.3
+        },
+        {
+          "id": "p5w5",
+          "text": "girl",
+          "start": 89.3,
+          "end": 89.68
+        },
+        {
+          "id": "p5w6",
+          "text": "in",
+          "start": 89.68,
+          "end": 90.24
+        },
+        {
+          "id": "p5w7",
+          "text": "the",
+          "start": 90.24,
+          "end": 90.4
+        },
+        {
+          "id": "p5w8",
+          "text": "land",
+          "start": 90.4,
+          "end": 90.82
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 92.36,
+      "end": 96.52,
+      "text": "You are the best daughter, her mother always said",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "You",
+          "start": 92.36,
+          "end": 93.08
+        },
+        {
+          "id": "p6w2",
+          "text": "are",
+          "start": 93.08,
+          "end": 93.32
+        },
+        {
+          "id": "p6w3",
+          "text": "the",
+          "start": 93.32,
+          "end": 93.46
+        },
+        {
+          "id": "p6w4",
+          "text": "best",
+          "start": 93.46,
+          "end": 93.8
+        },
+        {
+          "id": "p6w5",
+          "text": "daughter,",
+          "start": 93.8,
+          "end": 94.42
+        },
+        {
+          "id": "p6w6",
+          "text": "her",
+          "start": 95.0,
+          "end": 95.26
+        },
+        {
+          "id": "p6w7",
+          "text": "mother",
+          "start": 95.26,
+          "end": 95.6
+        },
+        {
+          "id": "p6w8",
+          "text": "always",
+          "start": 95.6,
+          "end": 96.02
+        },
+        {
+          "id": "p6w9",
+          "text": "said",
+          "start": 96.02,
+          "end": 96.52
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 99.84,
+      "end": 103.38,
+      "text": "Unfortunately, her mother became very ill",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Unfortunately,",
+          "start": 99.84,
+          "end": 100.62
+        },
+        {
+          "id": "p7w2",
+          "text": "her",
+          "start": 101.36,
+          "end": 101.5
+        },
+        {
+          "id": "p7w3",
+          "text": "mother",
+          "start": 101.5,
+          "end": 101.84
+        },
+        {
+          "id": "p7w4",
+          "text": "became",
+          "start": 101.84,
+          "end": 102.26
+        },
+        {
+          "id": "p7w5",
+          "text": "very",
+          "start": 102.26,
+          "end": 102.86
+        },
+        {
+          "id": "p7w6",
+          "text": "ill",
+          "start": 102.86,
+          "end": 103.38
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 103.38,
+      "end": 107.48,
+      "text": "She asked Cinderella to come to her deathbed",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "She",
+          "start": 103.38,
+          "end": 104.52
+        },
+        {
+          "id": "p8w2",
+          "text": "asked",
+          "start": 104.52,
+          "end": 104.84
+        },
+        {
+          "id": "p8w3",
+          "text": "Cinderella",
+          "start": 104.84,
+          "end": 105.24
+        },
+        {
+          "id": "p8w4",
+          "text": "to",
+          "start": 105.24,
+          "end": 106.12
+        },
+        {
+          "id": "p8w5",
+          "text": "come",
+          "start": 106.12,
+          "end": 106.4
+        },
+        {
+          "id": "p8w6",
+          "text": "to",
+          "start": 106.4,
+          "end": 106.66
+        },
+        {
+          "id": "p8w7",
+          "text": "her",
+          "start": 106.66,
+          "end": 106.84
+        },
+        {
+          "id": "p8w8",
+          "text": "deathbed",
+          "start": 106.84,
+          "end": 107.48
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 108.64,
+      "end": 115.58,
+      "text": "She told Cinderella, always be kind and true, and good things will happen to you",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "She",
+          "start": 108.64,
+          "end": 109.42
+        },
+        {
+          "id": "p9w2",
+          "text": "told",
+          "start": 109.42,
+          "end": 109.8
+        },
+        {
+          "id": "p9w3",
+          "text": "Cinderella,",
+          "start": 109.8,
+          "end": 110.3
+        },
+        {
+          "id": "p9w4",
+          "text": "always",
+          "start": 111.1,
+          "end": 111.76
+        },
+        {
+          "id": "p9w5",
+          "text": "be",
+          "start": 111.76,
+          "end": 112.02
+        },
+        {
+          "id": "p9w6",
+          "text": "kind",
+          "start": 112.02,
+          "end": 112.42
+        },
+        {
+          "id": "p9w7",
+          "text": "and",
+          "start": 112.42,
+          "end": 112.68
+        },
+        {
+          "id": "p9w8",
+          "text": "true,",
+          "start": 112.68,
+          "end": 113.04
+        },
+        {
+          "id": "p9w9",
+          "text": "and",
+          "start": 113.5,
+          "end": 113.84
+        },
+        {
+          "id": "p9w10",
+          "text": "good",
+          "start": 113.84,
+          "end": 114.08
+        },
+        {
+          "id": "p9w11",
+          "text": "things",
+          "start": 114.08,
+          "end": 114.5
+        },
+        {
+          "id": "p9w12",
+          "text": "will",
+          "start": 114.5,
+          "end": 114.7
+        },
+        {
+          "id": "p9w13",
+          "text": "happen",
+          "start": 114.7,
+          "end": 115.1
+        },
+        {
+          "id": "p9w14",
+          "text": "to",
+          "start": 115.1,
+          "end": 115.32
+        },
+        {
+          "id": "p9w15",
+          "text": "you",
+          "start": 115.32,
+          "end": 115.58
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 116.42,
+      "end": 124.52,
+      "text": "She then closed her eyes and passed away",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "She",
+          "start": 116.42,
+          "end": 117.2
+        },
+        {
+          "id": "p10w2",
+          "text": "then",
+          "start": 117.2,
+          "end": 117.48
+        },
+        {
+          "id": "p10w3",
+          "text": "closed",
+          "start": 117.48,
+          "end": 117.86
+        },
+        {
+          "id": "p10w4",
+          "text": "her",
+          "start": 117.86,
+          "end": 118.22
+        },
+        {
+          "id": "p10w5",
+          "text": "eyes",
+          "start": 118.22,
+          "end": 118.56
+        },
+        {
+          "id": "p10w6",
+          "text": "and",
+          "start": 118.56,
+          "end": 119.2
+        },
+        {
+          "id": "p10w7",
+          "text": "passed",
+          "start": 119.2,
+          "end": 119.48
+        },
+        {
+          "id": "p10w8",
+          "text": "away",
+          "start": 119.48,
+          "end": 124.52
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 124.52,
+      "end": 127.52,
+      "text": "Cinderella cried for several days",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Cinderella",
+          "start": 124.52,
+          "end": 125.54
+        },
+        {
+          "id": "p11w2",
+          "text": "cried",
+          "start": 125.54,
+          "end": 126.2
+        },
+        {
+          "id": "p11w3",
+          "text": "for",
+          "start": 126.2,
+          "end": 126.58
+        },
+        {
+          "id": "p11w4",
+          "text": "several",
+          "start": 126.58,
+          "end": 126.84
+        },
+        {
+          "id": "p11w5",
+          "text": "days",
+          "start": 126.84,
+          "end": 127.52
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 127.52,
+      "end": 131.9,
+      "text": "The father was also sad for his dead wife",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "The",
+          "start": 127.52,
+          "end": 128.58
+        },
+        {
+          "id": "p12w2",
+          "text": "father",
+          "start": 128.58,
+          "end": 128.98
+        },
+        {
+          "id": "p12w3",
+          "text": "was",
+          "start": 128.98,
+          "end": 129.28
+        },
+        {
+          "id": "p12w4",
+          "text": "also",
+          "start": 129.28,
+          "end": 129.94
+        },
+        {
+          "id": "p12w5",
+          "text": "sad",
+          "start": 129.94,
+          "end": 130.32
+        },
+        {
+          "id": "p12w6",
+          "text": "for",
+          "start": 130.32,
+          "end": 130.58
+        },
+        {
+          "id": "p12w7",
+          "text": "his",
+          "start": 130.58,
+          "end": 130.8
+        },
+        {
+          "id": "p12w8",
+          "text": "dead",
+          "start": 130.8,
+          "end": 131.04
+        },
+        {
+          "id": "p12w9",
+          "text": "wife",
+          "start": 131.04,
+          "end": 131.9
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 139.8,
+      "end": 145.02,
+      "text": "After four years, Cinderella's father meant another woman",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "After",
+          "start": 139.8,
+          "end": 140.76
+        },
+        {
+          "id": "p13w2",
+          "text": "four",
+          "start": 140.76,
+          "end": 141.14
+        },
+        {
+          "id": "p13w3",
+          "text": "years,",
+          "start": 141.14,
+          "end": 141.54
+        },
+        {
+          "id": "p13w4",
+          "text": "Cinderella's",
+          "start": 141.54,
+          "end": 142.94
+        },
+        {
+          "id": "p13w5",
+          "text": "father",
+          "start": 142.94,
+          "end": 143.38
+        },
+        {
+          "id": "p13w6",
+          "text": "meant",
+          "start": 143.38,
+          "end": 143.98
+        },
+        {
+          "id": "p13w7",
+          "text": "another",
+          "start": 143.98,
+          "end": 144.5
+        },
+        {
+          "id": "p13w8",
+          "text": "woman",
+          "start": 144.5,
+          "end": 145.02
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 145.02,
+      "end": 148.38,
+      "text": "She pretended to be nice and gentle",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "She",
+          "start": 145.02,
+          "end": 146.02
+        },
+        {
+          "id": "p14w2",
+          "text": "pretended",
+          "start": 146.02,
+          "end": 146.5
+        },
+        {
+          "id": "p14w3",
+          "text": "to",
+          "start": 146.5,
+          "end": 146.9
+        },
+        {
+          "id": "p14w4",
+          "text": "be",
+          "start": 146.9,
+          "end": 147.06
+        },
+        {
+          "id": "p14w5",
+          "text": "nice",
+          "start": 147.06,
+          "end": 147.4
+        },
+        {
+          "id": "p14w6",
+          "text": "and",
+          "start": 147.4,
+          "end": 147.9
+        },
+        {
+          "id": "p14w7",
+          "text": "gentle",
+          "start": 147.9,
+          "end": 148.38
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 148.38,
+      "end": 153.66,
+      "text": "In reality, she was the most arrogant woman around",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "In",
+          "start": 148.38,
+          "end": 149.52
+        },
+        {
+          "id": "p15w2",
+          "text": "reality,",
+          "start": 149.52,
+          "end": 149.92
+        },
+        {
+          "id": "p15w3",
+          "text": "she",
+          "start": 150.92,
+          "end": 151.04
+        },
+        {
+          "id": "p15w4",
+          "text": "was",
+          "start": 151.04,
+          "end": 151.32
+        },
+        {
+          "id": "p15w5",
+          "text": "the",
+          "start": 151.32,
+          "end": 151.56
+        },
+        {
+          "id": "p15w6",
+          "text": "most",
+          "start": 151.56,
+          "end": 151.92
+        },
+        {
+          "id": "p15w7",
+          "text": "arrogant",
+          "start": 151.92,
+          "end": 152.52
+        },
+        {
+          "id": "p15w8",
+          "text": "woman",
+          "start": 152.52,
+          "end": 153.1
+        },
+        {
+          "id": "p15w9",
+          "text": "around",
+          "start": 153.1,
+          "end": 153.66
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 155.66,
+      "end": 159.54,
+      "text": "She had two daughters from her previous marriage",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "She",
+          "start": 155.66,
+          "end": 156.5
+        },
+        {
+          "id": "p16w2",
+          "text": "had",
+          "start": 156.5,
+          "end": 156.88
+        },
+        {
+          "id": "p16w3",
+          "text": "two",
+          "start": 156.88,
+          "end": 157.14
+        },
+        {
+          "id": "p16w4",
+          "text": "daughters",
+          "start": 157.14,
+          "end": 157.72
+        },
+        {
+          "id": "p16w5",
+          "text": "from",
+          "start": 157.72,
+          "end": 158.34
+        },
+        {
+          "id": "p16w6",
+          "text": "her",
+          "start": 158.34,
+          "end": 158.54
+        },
+        {
+          "id": "p16w7",
+          "text": "previous",
+          "start": 158.54,
+          "end": 159.04
+        },
+        {
+          "id": "p16w8",
+          "text": "marriage",
+          "start": 159.04,
+          "end": 159.54
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 159.54,
+      "end": 164.1,
+      "text": "They were just like her, arrogant and proud",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "They",
+          "start": 159.54,
+          "end": 160.94
+        },
+        {
+          "id": "p17w2",
+          "text": "were",
+          "start": 160.94,
+          "end": 161.18
+        },
+        {
+          "id": "p17w3",
+          "text": "just",
+          "start": 161.18,
+          "end": 161.5
+        },
+        {
+          "id": "p17w4",
+          "text": "like",
+          "start": 161.5,
+          "end": 161.92
+        },
+        {
+          "id": "p17w5",
+          "text": "her,",
+          "start": 161.92,
+          "end": 162.2
+        },
+        {
+          "id": "p17w6",
+          "text": "arrogant",
+          "start": 162.64,
+          "end": 163.02
+        },
+        {
+          "id": "p17w7",
+          "text": "and",
+          "start": 163.02,
+          "end": 163.72
+        },
+        {
+          "id": "p17w8",
+          "text": "proud",
+          "start": 163.72,
+          "end": 164.1
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 164.1,
+      "end": 168.22,
+      "text": "The woman really fooled Cinderella's father",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "The",
+          "start": 164.1,
+          "end": 165.4
+        },
+        {
+          "id": "p18w2",
+          "text": "woman",
+          "start": 165.4,
+          "end": 165.78
+        },
+        {
+          "id": "p18w3",
+          "text": "really",
+          "start": 165.78,
+          "end": 166.22
+        },
+        {
+          "id": "p18w4",
+          "text": "fooled",
+          "start": 166.22,
+          "end": 166.72
+        },
+        {
+          "id": "p18w5",
+          "text": "Cinderella's",
+          "start": 166.72,
+          "end": 167.84
+        },
+        {
+          "id": "p18w6",
+          "text": "father",
+          "start": 167.84,
+          "end": 168.22
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 169.18,
+      "end": 172.74,
+      "text": "At last, he asked her to marry him",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "At",
+          "start": 169.18,
+          "end": 170.02
+        },
+        {
+          "id": "p19w2",
+          "text": "last,",
+          "start": 170.02,
+          "end": 170.38
+        },
+        {
+          "id": "p19w3",
+          "text": "he",
+          "start": 170.96,
+          "end": 171.2
+        },
+        {
+          "id": "p19w4",
+          "text": "asked",
+          "start": 171.2,
+          "end": 171.6
+        },
+        {
+          "id": "p19w5",
+          "text": "her",
+          "start": 171.6,
+          "end": 171.84
+        },
+        {
+          "id": "p19w6",
+          "text": "to",
+          "start": 171.84,
+          "end": 172.0
+        },
+        {
+          "id": "p19w7",
+          "text": "marry",
+          "start": 172.0,
+          "end": 172.32
+        },
+        {
+          "id": "p19w8",
+          "text": "him",
+          "start": 172.32,
+          "end": 172.74
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 172.74,
+      "end": 178.48,
+      "text": "The stepmother was kind, but only until the wedding was over",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "The",
+          "start": 172.74,
+          "end": 173.96
+        },
+        {
+          "id": "p20w2",
+          "text": "stepmother",
+          "start": 173.96,
+          "end": 174.58
+        },
+        {
+          "id": "p20w3",
+          "text": "was",
+          "start": 174.58,
+          "end": 174.84
+        },
+        {
+          "id": "p20w4",
+          "text": "kind,",
+          "start": 174.84,
+          "end": 175.2
+        },
+        {
+          "id": "p20w5",
+          "text": "but",
+          "start": 175.2,
+          "end": 176.16
+        },
+        {
+          "id": "p20w6",
+          "text": "only",
+          "start": 176.16,
+          "end": 176.62
+        },
+        {
+          "id": "p20w7",
+          "text": "until",
+          "start": 176.62,
+          "end": 177.14
+        },
+        {
+          "id": "p20w8",
+          "text": "the",
+          "start": 177.14,
+          "end": 177.44
+        },
+        {
+          "id": "p20w9",
+          "text": "wedding",
+          "start": 177.44,
+          "end": 177.74
+        },
+        {
+          "id": "p20w10",
+          "text": "was",
+          "start": 177.74,
+          "end": 178.04
+        },
+        {
+          "id": "p20w11",
+          "text": "over",
+          "start": 178.04,
+          "end": 178.48
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 179.48,
+      "end": 182.66,
+      "text": "She began to be mean and bossy",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "She",
+          "start": 179.4,
+          "end": 179.8
+        },
+        {
+          "id": "p21w2",
+          "text": "began",
+          "start": 179.8,
+          "end": 180.16
+        },
+        {
+          "id": "p21w3",
+          "text": "to",
+          "start": 180.16,
+          "end": 180.58
+        },
+        {
+          "id": "p21w4",
+          "text": "be",
+          "start": 180.58,
+          "end": 180.78
+        },
+        {
+          "id": "p21w5",
+          "text": "mean",
+          "start": 180.78,
+          "end": 181.16
+        },
+        {
+          "id": "p21w6",
+          "text": "and",
+          "start": 181.16,
+          "end": 181.96
+        },
+        {
+          "id": "p21w7",
+          "text": "bossy",
+          "start": 181.96,
+          "end": 182.66
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 183.48,
+      "end": 186.1,
+      "text": "She hated everything about pretty Cinderella",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "She",
+          "start": 183.2,
+          "end": 183.6
+        },
+        {
+          "id": "p22w2",
+          "text": "hated",
+          "start": 183.6,
+          "end": 184.14
+        },
+        {
+          "id": "p22w3",
+          "text": "everything",
+          "start": 184.14,
+          "end": 184.74
+        },
+        {
+          "id": "p22w4",
+          "text": "about",
+          "start": 184.74,
+          "end": 185.24
+        },
+        {
+          "id": "p22w5",
+          "text": "pretty",
+          "start": 185.24,
+          "end": 185.64
+        },
+        {
+          "id": "p22w6",
+          "text": "Cinderella",
+          "start": 185.64,
+          "end": 186.1
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 188.98,
+      "end": 193.52,
+      "text": "The stepmother gave Cinderella all the work in the house",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "The",
+          "start": 188.98,
+          "end": 189.78
+        },
+        {
+          "id": "p23w2",
+          "text": "stepmother",
+          "start": 189.78,
+          "end": 190.44
+        },
+        {
+          "id": "p23w3",
+          "text": "gave",
+          "start": 190.44,
+          "end": 190.8
+        },
+        {
+          "id": "p23w4",
+          "text": "Cinderella",
+          "start": 190.8,
+          "end": 191.24
+        },
+        {
+          "id": "p23w5",
+          "text": "all",
+          "start": 191.24,
+          "end": 192.18
+        },
+        {
+          "id": "p23w6",
+          "text": "the",
+          "start": 192.18,
+          "end": 192.42
+        },
+        {
+          "id": "p23w7",
+          "text": "work",
+          "start": 192.42,
+          "end": 192.78
+        },
+        {
+          "id": "p23w8",
+          "text": "in",
+          "start": 192.78,
+          "end": 192.98
+        },
+        {
+          "id": "p23w9",
+          "text": "the",
+          "start": 192.98,
+          "end": 193.1
+        },
+        {
+          "id": "p23w10",
+          "text": "house",
+          "start": 193.1,
+          "end": 193.52
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 193.52,
+      "end": 199.78,
+      "text": "She had to wash the dishes, scrub the tables and clean all the rooms",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "She",
+          "start": 193.52,
+          "end": 194.46
+        },
+        {
+          "id": "p24w2",
+          "text": "had",
+          "start": 194.46,
+          "end": 194.78
+        },
+        {
+          "id": "p24w3",
+          "text": "to",
+          "start": 194.78,
+          "end": 195.04
+        },
+        {
+          "id": "p24w4",
+          "text": "wash",
+          "start": 195.04,
+          "end": 195.34
+        },
+        {
+          "id": "p24w5",
+          "text": "the",
+          "start": 195.34,
+          "end": 195.62
+        },
+        {
+          "id": "p24w6",
+          "text": "dishes,",
+          "start": 195.62,
+          "end": 196.0
+        },
+        {
+          "id": "p24w7",
+          "text": "scrub",
+          "start": 196.04,
+          "end": 196.88
+        },
+        {
+          "id": "p24w8",
+          "text": "the",
+          "start": 196.88,
+          "end": 197.2
+        },
+        {
+          "id": "p24w9",
+          "text": "tables",
+          "start": 197.2,
+          "end": 197.58
+        },
+        {
+          "id": "p24w10",
+          "text": "and",
+          "start": 197.58,
+          "end": 198.48
+        },
+        {
+          "id": "p24w11",
+          "text": "clean",
+          "start": 198.48,
+          "end": 198.78
+        },
+        {
+          "id": "p24w12",
+          "text": "all",
+          "start": 198.78,
+          "end": 199.18
+        },
+        {
+          "id": "p24w13",
+          "text": "the",
+          "start": 199.18,
+          "end": 199.36
+        },
+        {
+          "id": "p24w14",
+          "text": "rooms",
+          "start": 199.36,
+          "end": 199.78
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 201.14,
+      "end": 204.92,
+      "text": "Cinderella had to work from morning till night",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "Cinderella",
+          "start": 201.14,
+          "end": 201.94
+        },
+        {
+          "id": "p25w2",
+          "text": "had",
+          "start": 201.94,
+          "end": 202.62
+        },
+        {
+          "id": "p25w3",
+          "text": "to",
+          "start": 202.62,
+          "end": 202.84
+        },
+        {
+          "id": "p25w4",
+          "text": "work",
+          "start": 202.84,
+          "end": 203.16
+        },
+        {
+          "id": "p25w5",
+          "text": "from",
+          "start": 203.16,
+          "end": 203.5
+        },
+        {
+          "id": "p25w6",
+          "text": "morning",
+          "start": 203.5,
+          "end": 203.88
+        },
+        {
+          "id": "p25w7",
+          "text": "till",
+          "start": 203.88,
+          "end": 204.44
+        },
+        {
+          "id": "p25w8",
+          "text": "night",
+          "start": 204.44,
+          "end": 204.92
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 205.92,
+      "end": 208.72,
+      "text": "She had to live in a dirty attic room",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "She",
+          "start": 205.68,
+          "end": 206.1
+        },
+        {
+          "id": "p26w2",
+          "text": "had",
+          "start": 206.1,
+          "end": 206.42
+        },
+        {
+          "id": "p26w3",
+          "text": "to",
+          "start": 206.42,
+          "end": 206.66
+        },
+        {
+          "id": "p26w4",
+          "text": "live",
+          "start": 206.66,
+          "end": 206.92
+        },
+        {
+          "id": "p26w5",
+          "text": "in",
+          "start": 206.92,
+          "end": 207.36
+        },
+        {
+          "id": "p26w6",
+          "text": "a",
+          "start": 207.36,
+          "end": 207.46
+        },
+        {
+          "id": "p26w7",
+          "text": "dirty",
+          "start": 207.46,
+          "end": 207.74
+        },
+        {
+          "id": "p26w8",
+          "text": "attic",
+          "start": 207.74,
+          "end": 208.22
+        },
+        {
+          "id": "p26w9",
+          "text": "room",
+          "start": 208.22,
+          "end": 208.72
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 209.92,
+      "end": 212.78,
+      "text": "She had to sleep on an old straw bed",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "She",
+          "start": 209.68,
+          "end": 210.1
+        },
+        {
+          "id": "p27w2",
+          "text": "had",
+          "start": 210.1,
+          "end": 210.42
+        },
+        {
+          "id": "p27w3",
+          "text": "to",
+          "start": 210.42,
+          "end": 210.64
+        },
+        {
+          "id": "p27w4",
+          "text": "sleep",
+          "start": 210.64,
+          "end": 210.98
+        },
+        {
+          "id": "p27w5",
+          "text": "on",
+          "start": 210.98,
+          "end": 211.36
+        },
+        {
+          "id": "p27w6",
+          "text": "an",
+          "start": 211.36,
+          "end": 211.5
+        },
+        {
+          "id": "p27w7",
+          "text": "old",
+          "start": 211.5,
+          "end": 211.84
+        },
+        {
+          "id": "p27w8",
+          "text": "straw",
+          "start": 211.84,
+          "end": 212.24
+        },
+        {
+          "id": "p27w9",
+          "text": "bed",
+          "start": 212.24,
+          "end": 212.78
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 213.92,
+      "end": 217.48,
+      "text": "However, her sisters had the most wonderful beds",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "However,",
+          "start": 213.58,
+          "end": 214.0
+        },
+        {
+          "id": "p28w2",
+          "text": "her",
+          "start": 214.56,
+          "end": 214.92
+        },
+        {
+          "id": "p28w3",
+          "text": "sisters",
+          "start": 214.92,
+          "end": 215.38
+        },
+        {
+          "id": "p28w4",
+          "text": "had",
+          "start": 215.38,
+          "end": 215.78
+        },
+        {
+          "id": "p28w5",
+          "text": "the",
+          "start": 215.78,
+          "end": 215.92
+        },
+        {
+          "id": "p28w6",
+          "text": "most",
+          "start": 215.92,
+          "end": 216.26
+        },
+        {
+          "id": "p28w7",
+          "text": "wonderful",
+          "start": 216.26,
+          "end": 216.74
+        },
+        {
+          "id": "p28w8",
+          "text": "beds",
+          "start": 216.74,
+          "end": 217.48
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 217.48,
+      "end": 222.38,
+      "text": "They had everything, while Cinderella had nothing",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "They",
+          "start": 217.48,
+          "end": 218.48
+        },
+        {
+          "id": "p29w2",
+          "text": "had",
+          "start": 218.48,
+          "end": 218.86
+        },
+        {
+          "id": "p29w3",
+          "text": "everything,",
+          "start": 218.86,
+          "end": 219.58
+        },
+        {
+          "id": "p29w4",
+          "text": "while",
+          "start": 220.24,
+          "end": 220.52
+        },
+        {
+          "id": "p29w5",
+          "text": "Cinderella",
+          "start": 220.52,
+          "end": 220.92
+        },
+        {
+          "id": "p29w6",
+          "text": "had",
+          "start": 220.92,
+          "end": 221.88
+        },
+        {
+          "id": "p29w7",
+          "text": "nothing",
+          "start": 221.88,
+          "end": 222.38
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 225.92,
+      "end": 229.26,
+      "text": "The stepsisters always made fun of Cinderella",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "The",
+          "start": 225.84,
+          "end": 226.26
+        },
+        {
+          "id": "p30w2",
+          "text": "stepsisters",
+          "start": 226.26,
+          "end": 227.08
+        },
+        {
+          "id": "p30w3",
+          "text": "always",
+          "start": 227.08,
+          "end": 227.68
+        },
+        {
+          "id": "p30w4",
+          "text": "made",
+          "start": 227.68,
+          "end": 228.24
+        },
+        {
+          "id": "p30w5",
+          "text": "fun",
+          "start": 228.24,
+          "end": 228.64
+        },
+        {
+          "id": "p30w6",
+          "text": "of",
+          "start": 228.64,
+          "end": 228.8
+        },
+        {
+          "id": "p30w7",
+          "text": "Cinderella",
+          "start": 228.8,
+          "end": 229.26
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 231.4,
+      "end": 236.72,
+      "text": "You stupid goose, you are so dirty and ugly",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "You",
+          "start": 231.4,
+          "end": 232.22
+        },
+        {
+          "id": "p31w2",
+          "text": "stupid",
+          "start": 232.22,
+          "end": 232.72
+        },
+        {
+          "id": "p31w3",
+          "text": "goose,",
+          "start": 232.72,
+          "end": 233.54
+        },
+        {
+          "id": "p31w4",
+          "text": "you",
+          "start": 234.32,
+          "end": 234.6
+        },
+        {
+          "id": "p31w5",
+          "text": "are",
+          "start": 234.6,
+          "end": 234.86
+        },
+        {
+          "id": "p31w6",
+          "text": "so",
+          "start": 234.86,
+          "end": 235.26
+        },
+        {
+          "id": "p31w7",
+          "text": "dirty",
+          "start": 235.26,
+          "end": 235.82
+        },
+        {
+          "id": "p31w8",
+          "text": "and",
+          "start": 235.82,
+          "end": 236.18
+        },
+        {
+          "id": "p31w9",
+          "text": "ugly",
+          "start": 236.18,
+          "end": 236.72
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 237.26,
+      "end": 242.3,
+      "text": "Cinderella was always very tired, but she didn't complain",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "Cinderella",
+          "start": 237.26,
+          "end": 238.18
+        },
+        {
+          "id": "p32w2",
+          "text": "was",
+          "start": 238.18,
+          "end": 238.86
+        },
+        {
+          "id": "p32w3",
+          "text": "always",
+          "start": 238.86,
+          "end": 239.52
+        },
+        {
+          "id": "p32w4",
+          "text": "very",
+          "start": 239.52,
+          "end": 239.84
+        },
+        {
+          "id": "p32w5",
+          "text": "tired,",
+          "start": 239.84,
+          "end": 240.46
+        },
+        {
+          "id": "p32w6",
+          "text": "but",
+          "start": 240.9,
+          "end": 241.16
+        },
+        {
+          "id": "p32w7",
+          "text": "she",
+          "start": 241.16,
+          "end": 241.38
+        },
+        {
+          "id": "p32w8",
+          "text": "didn't",
+          "start": 241.38,
+          "end": 241.82
+        },
+        {
+          "id": "p32w9",
+          "text": "complain",
+          "start": 241.82,
+          "end": 242.3
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 246.2,
+      "end": 252.56,
+      "text": "Cinderella could not tell her father, because he was controlled by the stepmother",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "Cinderella",
+          "start": 246.2,
+          "end": 247.02
+        },
+        {
+          "id": "p33w2",
+          "text": "could",
+          "start": 247.02,
+          "end": 247.62
+        },
+        {
+          "id": "p33w3",
+          "text": "not",
+          "start": 247.62,
+          "end": 247.96
+        },
+        {
+          "id": "p33w4",
+          "text": "tell",
+          "start": 247.96,
+          "end": 248.3
+        },
+        {
+          "id": "p33w5",
+          "text": "her",
+          "start": 248.3,
+          "end": 248.52
+        },
+        {
+          "id": "p33w6",
+          "text": "father,",
+          "start": 248.52,
+          "end": 249.04
+        },
+        {
+          "id": "p33w7",
+          "text": "because",
+          "start": 249.04,
+          "end": 250.12
+        },
+        {
+          "id": "p33w8",
+          "text": "he",
+          "start": 250.12,
+          "end": 250.48
+        },
+        {
+          "id": "p33w9",
+          "text": "was",
+          "start": 250.48,
+          "end": 250.68
+        },
+        {
+          "id": "p33w10",
+          "text": "controlled",
+          "start": 250.68,
+          "end": 251.1
+        },
+        {
+          "id": "p33w11",
+          "text": "by",
+          "start": 251.1,
+          "end": 251.68
+        },
+        {
+          "id": "p33w12",
+          "text": "the",
+          "start": 251.68,
+          "end": 251.86
+        },
+        {
+          "id": "p33w13",
+          "text": "stepmother",
+          "start": 251.86,
+          "end": 252.56
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 253.26,
+      "end": 257.9,
+      "text": "When Cinderella finished her work, she used to sit in the corner",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "When",
+          "start": 253.26,
+          "end": 253.7
+        },
+        {
+          "id": "p34w2",
+          "text": "Cinderella",
+          "start": 253.7,
+          "end": 254.14
+        },
+        {
+          "id": "p34w3",
+          "text": "finished",
+          "start": 254.14,
+          "end": 254.9
+        },
+        {
+          "id": "p34w4",
+          "text": "her",
+          "start": 254.9,
+          "end": 255.26
+        },
+        {
+          "id": "p34w5",
+          "text": "work,",
+          "start": 255.26,
+          "end": 255.66
+        },
+        {
+          "id": "p34w6",
+          "text": "she",
+          "start": 256.0,
+          "end": 256.4
+        },
+        {
+          "id": "p34w7",
+          "text": "used",
+          "start": 256.4,
+          "end": 256.72
+        },
+        {
+          "id": "p34w8",
+          "text": "to",
+          "start": 256.72,
+          "end": 256.98
+        },
+        {
+          "id": "p34w9",
+          "text": "sit",
+          "start": 256.98,
+          "end": 257.22
+        },
+        {
+          "id": "p34w10",
+          "text": "in",
+          "start": 257.22,
+          "end": 257.46
+        },
+        {
+          "id": "p34w11",
+          "text": "the",
+          "start": 257.46,
+          "end": 257.56
+        },
+        {
+          "id": "p34w12",
+          "text": "corner",
+          "start": 257.56,
+          "end": 257.9
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 257.9,
+      "end": 259.24,
+      "text": "by the chimney",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "by",
+          "start": 257.9,
+          "end": 258.56
+        },
+        {
+          "id": "p35w2",
+          "text": "the",
+          "start": 258.56,
+          "end": 258.74
+        },
+        {
+          "id": "p35w3",
+          "text": "chimney",
+          "start": 258.74,
+          "end": 259.24
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 260.78,
+      "end": 265.54,
+      "text": "There were always a lot of ashes, and she would get very dirty",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "There",
+          "start": 260.78,
+          "end": 261.5
+        },
+        {
+          "id": "p36w2",
+          "text": "were",
+          "start": 261.5,
+          "end": 261.66
+        },
+        {
+          "id": "p36w3",
+          "text": "always",
+          "start": 261.66,
+          "end": 262.18
+        },
+        {
+          "id": "p36w4",
+          "text": "a",
+          "start": 262.18,
+          "end": 262.38
+        },
+        {
+          "id": "p36w5",
+          "text": "lot",
+          "start": 262.38,
+          "end": 262.68
+        },
+        {
+          "id": "p36w6",
+          "text": "of",
+          "start": 262.68,
+          "end": 262.8
+        },
+        {
+          "id": "p36w7",
+          "text": "ashes,",
+          "start": 262.8,
+          "end": 263.16
+        },
+        {
+          "id": "p36w8",
+          "text": "and",
+          "start": 263.9,
+          "end": 264.06
+        },
+        {
+          "id": "p36w9",
+          "text": "she",
+          "start": 264.06,
+          "end": 264.3
+        },
+        {
+          "id": "p36w10",
+          "text": "would",
+          "start": 264.3,
+          "end": 264.5
+        },
+        {
+          "id": "p36w11",
+          "text": "get",
+          "start": 264.5,
+          "end": 264.74
+        },
+        {
+          "id": "p36w12",
+          "text": "very",
+          "start": 264.74,
+          "end": 265.04
+        },
+        {
+          "id": "p36w13",
+          "text": "dirty",
+          "start": 265.04,
+          "end": 265.54
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 265.54,
+      "end": 271.34,
+      "text": "Because of her dirty appearance, her sisters called her cinder rags",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "Because",
+          "start": 265.54,
+          "end": 266.84
+        },
+        {
+          "id": "p37w2",
+          "text": "of",
+          "start": 266.84,
+          "end": 267.26
+        },
+        {
+          "id": "p37w3",
+          "text": "her",
+          "start": 267.26,
+          "end": 267.42
+        },
+        {
+          "id": "p37w4",
+          "text": "dirty",
+          "start": 267.42,
+          "end": 267.68
+        },
+        {
+          "id": "p37w5",
+          "text": "appearance,",
+          "start": 267.68,
+          "end": 268.42
+        },
+        {
+          "id": "p37w6",
+          "text": "her",
+          "start": 268.98,
+          "end": 269.22
+        },
+        {
+          "id": "p37w7",
+          "text": "sisters",
+          "start": 269.22,
+          "end": 269.72
+        },
+        {
+          "id": "p37w8",
+          "text": "called",
+          "start": 269.72,
+          "end": 270.12
+        },
+        {
+          "id": "p37w9",
+          "text": "her",
+          "start": 270.12,
+          "end": 270.44
+        },
+        {
+          "id": "p37w10",
+          "text": "cinder",
+          "start": 270.44,
+          "end": 270.86
+        },
+        {
+          "id": "p37w11",
+          "text": "rags",
+          "start": 270.86,
+          "end": 271.34
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 272.18,
+      "end": 277.98,
+      "text": "Cinder rags, cinder rags as dirty and ugly as an old hag",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "Cinder",
+          "start": 272.18,
+          "end": 272.9
+        },
+        {
+          "id": "p38w2",
+          "text": "rags,",
+          "start": 272.9,
+          "end": 273.38
+        },
+        {
+          "id": "p38w3",
+          "text": "cinder",
+          "start": 273.88,
+          "end": 274.12
+        },
+        {
+          "id": "p38w4",
+          "text": "rags",
+          "start": 274.12,
+          "end": 274.52
+        },
+        {
+          "id": "p38w5",
+          "text": "as",
+          "start": 274.52,
+          "end": 274.96
+        },
+        {
+          "id": "p38w6",
+          "text": "dirty",
+          "start": 274.96,
+          "end": 275.3
+        },
+        {
+          "id": "p38w7",
+          "text": "and",
+          "start": 275.3,
+          "end": 275.88
+        },
+        {
+          "id": "p38w8",
+          "text": "ugly",
+          "start": 275.88,
+          "end": 276.34
+        },
+        {
+          "id": "p38w9",
+          "text": "as",
+          "start": 276.34,
+          "end": 276.78
+        },
+        {
+          "id": "p38w10",
+          "text": "an",
+          "start": 276.78,
+          "end": 276.94
+        },
+        {
+          "id": "p38w11",
+          "text": "old",
+          "start": 276.94,
+          "end": 277.26
+        },
+        {
+          "id": "p38w12",
+          "text": "hag",
+          "start": 277.26,
+          "end": 277.98
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 277.98,
+      "end": 279.58,
+      "text": "They would tease her",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "They",
+          "start": 277.98,
+          "end": 278.76
+        },
+        {
+          "id": "p39w2",
+          "text": "would",
+          "start": 278.76,
+          "end": 278.96
+        },
+        {
+          "id": "p39w3",
+          "text": "tease",
+          "start": 278.96,
+          "end": 279.28
+        },
+        {
+          "id": "p39w4",
+          "text": "her",
+          "start": 279.28,
+          "end": 279.58
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 279.58,
+      "end": 285.54,
+      "text": "Even though she looked dirty, she was much more beautiful than her sisters",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "Even",
+          "start": 279.58,
+          "end": 280.82
+        },
+        {
+          "id": "p40w2",
+          "text": "though",
+          "start": 280.82,
+          "end": 281.16
+        },
+        {
+          "id": "p40w3",
+          "text": "she",
+          "start": 281.16,
+          "end": 281.52
+        },
+        {
+          "id": "p40w4",
+          "text": "looked",
+          "start": 281.52,
+          "end": 281.78
+        },
+        {
+          "id": "p40w5",
+          "text": "dirty,",
+          "start": 281.78,
+          "end": 282.14
+        },
+        {
+          "id": "p40w6",
+          "text": "she",
+          "start": 282.5,
+          "end": 283.16
+        },
+        {
+          "id": "p40w7",
+          "text": "was",
+          "start": 283.16,
+          "end": 283.32
+        },
+        {
+          "id": "p40w8",
+          "text": "much",
+          "start": 283.32,
+          "end": 283.72
+        },
+        {
+          "id": "p40w9",
+          "text": "more",
+          "start": 283.72,
+          "end": 284.02
+        },
+        {
+          "id": "p40w10",
+          "text": "beautiful",
+          "start": 284.02,
+          "end": 284.34
+        },
+        {
+          "id": "p40w11",
+          "text": "than",
+          "start": 284.34,
+          "end": 285.0
+        },
+        {
+          "id": "p40w12",
+          "text": "her",
+          "start": 285.0,
+          "end": 285.16
+        },
+        {
+          "id": "p40w13",
+          "text": "sisters",
+          "start": 285.16,
+          "end": 285.54
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 296.22,
+      "end": 300.88,
+      "text": "One day, the king's son decided to have a party",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "One",
+          "start": 296.22,
+          "end": 297.04
+        },
+        {
+          "id": "p41w2",
+          "text": "day,",
+          "start": 297.04,
+          "end": 297.48
+        },
+        {
+          "id": "p41w3",
+          "text": "the",
+          "start": 297.96,
+          "end": 298.18
+        },
+        {
+          "id": "p41w4",
+          "text": "king's",
+          "start": 298.18,
+          "end": 298.68
+        },
+        {
+          "id": "p41w5",
+          "text": "son",
+          "start": 298.68,
+          "end": 298.96
+        },
+        {
+          "id": "p41w6",
+          "text": "decided",
+          "start": 298.96,
+          "end": 299.7
+        },
+        {
+          "id": "p41w7",
+          "text": "to",
+          "start": 299.7,
+          "end": 300.0
+        },
+        {
+          "id": "p41w8",
+          "text": "have",
+          "start": 300.0,
+          "end": 300.36
+        },
+        {
+          "id": "p41w9",
+          "text": "a",
+          "start": 300.36,
+          "end": 300.48
+        },
+        {
+          "id": "p41w10",
+          "text": "party",
+          "start": 300.48,
+          "end": 300.88
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 301.54,
+      "end": 305.32,
+      "text": "It would be the grandest party of all time",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "It",
+          "start": 301.54,
+          "end": 302.24
+        },
+        {
+          "id": "p42w2",
+          "text": "would",
+          "start": 302.24,
+          "end": 302.46
+        },
+        {
+          "id": "p42w3",
+          "text": "be",
+          "start": 302.46,
+          "end": 302.7
+        },
+        {
+          "id": "p42w4",
+          "text": "the",
+          "start": 302.7,
+          "end": 302.9
+        },
+        {
+          "id": "p42w5",
+          "text": "grandest",
+          "start": 302.9,
+          "end": 303.58
+        },
+        {
+          "id": "p42w6",
+          "text": "party",
+          "start": 303.58,
+          "end": 304.08
+        },
+        {
+          "id": "p42w7",
+          "text": "of",
+          "start": 304.08,
+          "end": 304.36
+        },
+        {
+          "id": "p42w8",
+          "text": "all",
+          "start": 304.36,
+          "end": 304.78
+        },
+        {
+          "id": "p42w9",
+          "text": "time",
+          "start": 304.78,
+          "end": 305.32
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 305.32,
+      "end": 312.9,
+      "text": "It would last for three days, there would be dancing, food and plenty to drink",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "It",
+          "start": 305.32,
+          "end": 306.3
+        },
+        {
+          "id": "p43w2",
+          "text": "would",
+          "start": 306.3,
+          "end": 306.46
+        },
+        {
+          "id": "p43w3",
+          "text": "last",
+          "start": 306.46,
+          "end": 306.78
+        },
+        {
+          "id": "p43w4",
+          "text": "for",
+          "start": 306.78,
+          "end": 307.24
+        },
+        {
+          "id": "p43w5",
+          "text": "three",
+          "start": 307.24,
+          "end": 307.64
+        },
+        {
+          "id": "p43w6",
+          "text": "days,",
+          "start": 307.64,
+          "end": 308.08
+        },
+        {
+          "id": "p43w7",
+          "text": "there",
+          "start": 308.08,
+          "end": 309.2
+        },
+        {
+          "id": "p43w8",
+          "text": "would",
+          "start": 309.2,
+          "end": 309.42
+        },
+        {
+          "id": "p43w9",
+          "text": "be",
+          "start": 309.42,
+          "end": 309.6
+        },
+        {
+          "id": "p43w10",
+          "text": "dancing,",
+          "start": 309.6,
+          "end": 310.08
+        },
+        {
+          "id": "p43w11",
+          "text": "food",
+          "start": 310.78,
+          "end": 311.0
+        },
+        {
+          "id": "p43w12",
+          "text": "and",
+          "start": 311.0,
+          "end": 311.9
+        },
+        {
+          "id": "p43w13",
+          "text": "plenty",
+          "start": 311.9,
+          "end": 312.16
+        },
+        {
+          "id": "p43w14",
+          "text": "to",
+          "start": 312.16,
+          "end": 312.58
+        },
+        {
+          "id": "p43w15",
+          "text": "drink",
+          "start": 312.58,
+          "end": 312.9
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 313.9,
+      "end": 318.08,
+      "text": "The young stepsisters were invited to the party",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "The",
+          "start": 313.9,
+          "end": 314.4
+        },
+        {
+          "id": "p44w2",
+          "text": "young",
+          "start": 314.4,
+          "end": 315.38
+        },
+        {
+          "id": "p44w3",
+          "text": "stepsisters",
+          "start": 315.38,
+          "end": 316.2
+        },
+        {
+          "id": "p44w4",
+          "text": "were",
+          "start": 316.2,
+          "end": 316.82
+        },
+        {
+          "id": "p44w5",
+          "text": "invited",
+          "start": 316.82,
+          "end": 317.34
+        },
+        {
+          "id": "p44w6",
+          "text": "to",
+          "start": 317.34,
+          "end": 317.64
+        },
+        {
+          "id": "p44w7",
+          "text": "the",
+          "start": 317.64,
+          "end": 317.74
+        },
+        {
+          "id": "p44w8",
+          "text": "party",
+          "start": 317.74,
+          "end": 318.08
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 318.9,
+      "end": 322.32,
+      "text": "They were both so very happy to be going",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "They",
+          "start": 318.78,
+          "end": 319.24
+        },
+        {
+          "id": "p45w2",
+          "text": "were",
+          "start": 319.24,
+          "end": 319.44
+        },
+        {
+          "id": "p45w3",
+          "text": "both",
+          "start": 319.44,
+          "end": 319.92
+        },
+        {
+          "id": "p45w4",
+          "text": "so",
+          "start": 319.92,
+          "end": 320.42
+        },
+        {
+          "id": "p45w5",
+          "text": "very",
+          "start": 320.42,
+          "end": 320.9
+        },
+        {
+          "id": "p45w6",
+          "text": "happy",
+          "start": 320.9,
+          "end": 321.36
+        },
+        {
+          "id": "p45w7",
+          "text": "to",
+          "start": 321.36,
+          "end": 321.72
+        },
+        {
+          "id": "p45w8",
+          "text": "be",
+          "start": 321.72,
+          "end": 321.86
+        },
+        {
+          "id": "p45w9",
+          "text": "going",
+          "start": 321.86,
+          "end": 322.32
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 322.9,
+      "end": 325.4,
+      "text": "They wanted to look their best",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "They",
+          "start": 322.9,
+          "end": 323.44
+        },
+        {
+          "id": "p46w2",
+          "text": "wanted",
+          "start": 323.44,
+          "end": 323.76
+        },
+        {
+          "id": "p46w3",
+          "text": "to",
+          "start": 323.76,
+          "end": 324.1
+        },
+        {
+          "id": "p46w4",
+          "text": "look",
+          "start": 324.1,
+          "end": 324.46
+        },
+        {
+          "id": "p46w5",
+          "text": "their",
+          "start": 324.46,
+          "end": 324.78
+        },
+        {
+          "id": "p46w6",
+          "text": "best",
+          "start": 324.78,
+          "end": 325.4
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 325.9,
+      "end": 328.18,
+      "text": "They called Cinderella",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "They",
+          "start": 325.9,
+          "end": 327.14
+        },
+        {
+          "id": "p47w2",
+          "text": "called",
+          "start": 327.14,
+          "end": 327.54
+        },
+        {
+          "id": "p47w3",
+          "text": "Cinderella",
+          "start": 327.54,
+          "end": 328.18
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 329.9,
+      "end": 333.32,
+      "text": "Come our hair for us, shine our shoes",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "Come",
+          "start": 329.8,
+          "end": 330.26
+        },
+        {
+          "id": "p48w2",
+          "text": "our",
+          "start": 330.26,
+          "end": 330.62
+        },
+        {
+          "id": "p48w3",
+          "text": "hair",
+          "start": 330.62,
+          "end": 330.98
+        },
+        {
+          "id": "p48w4",
+          "text": "for",
+          "start": 330.98,
+          "end": 331.28
+        },
+        {
+          "id": "p48w5",
+          "text": "us,",
+          "start": 331.28,
+          "end": 331.58
+        },
+        {
+          "id": "p48w6",
+          "text": "shine",
+          "start": 332.14,
+          "end": 332.44
+        },
+        {
+          "id": "p48w7",
+          "text": "our",
+          "start": 332.44,
+          "end": 332.82
+        },
+        {
+          "id": "p48w8",
+          "text": "shoes",
+          "start": 332.82,
+          "end": 333.32
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 333.9,
+      "end": 334.72,
+      "text": "They ordered",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "They",
+          "start": 333.8,
+          "end": 334.26
+        },
+        {
+          "id": "p49w2",
+          "text": "ordered",
+          "start": 334.26,
+          "end": 334.72
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 335.9,
+      "end": 340.46,
+      "text": "Cinderella diligently helped them prepare for this important event",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "Cinderella",
+          "start": 335.9,
+          "end": 336.42
+        },
+        {
+          "id": "p50w2",
+          "text": "diligently",
+          "start": 336.42,
+          "end": 337.36
+        },
+        {
+          "id": "p50w3",
+          "text": "helped",
+          "start": 337.36,
+          "end": 337.78
+        },
+        {
+          "id": "p50w4",
+          "text": "them",
+          "start": 337.78,
+          "end": 338.12
+        },
+        {
+          "id": "p50w5",
+          "text": "prepare",
+          "start": 338.12,
+          "end": 338.46
+        },
+        {
+          "id": "p50w6",
+          "text": "for",
+          "start": 338.46,
+          "end": 338.92
+        },
+        {
+          "id": "p50w7",
+          "text": "this",
+          "start": 338.92,
+          "end": 339.16
+        },
+        {
+          "id": "p50w8",
+          "text": "important",
+          "start": 339.16,
+          "end": 339.7
+        },
+        {
+          "id": "p50w9",
+          "text": "event",
+          "start": 339.7,
+          "end": 340.46
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 342.46,
+      "end": 346.18,
+      "text": "Cinderella, don't you want to go to the party?",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "Cinderella,",
+          "start": 342.46,
+          "end": 343.18
+        },
+        {
+          "id": "p51w2",
+          "text": "don't",
+          "start": 343.9,
+          "end": 344.48
+        },
+        {
+          "id": "p51w3",
+          "text": "you",
+          "start": 344.48,
+          "end": 344.64
+        },
+        {
+          "id": "p51w4",
+          "text": "want",
+          "start": 344.64,
+          "end": 344.96
+        },
+        {
+          "id": "p51w5",
+          "text": "to",
+          "start": 344.96,
+          "end": 345.22
+        },
+        {
+          "id": "p51w6",
+          "text": "go",
+          "start": 345.22,
+          "end": 345.46
+        },
+        {
+          "id": "p51w7",
+          "text": "to",
+          "start": 345.46,
+          "end": 345.68
+        },
+        {
+          "id": "p51w8",
+          "text": "the",
+          "start": 345.68,
+          "end": 345.82
+        },
+        {
+          "id": "p51w9",
+          "text": "party?",
+          "start": 345.82,
+          "end": 346.18
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 347.04,
+      "end": 348.36,
+      "text": "The sisters asked her",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "The",
+          "start": 347.04,
+          "end": 347.18
+        },
+        {
+          "id": "p52w2",
+          "text": "sisters",
+          "start": 347.18,
+          "end": 347.56
+        },
+        {
+          "id": "p52w3",
+          "text": "asked",
+          "start": 347.56,
+          "end": 348.04
+        },
+        {
+          "id": "p52w4",
+          "text": "her",
+          "start": 348.04,
+          "end": 348.36
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 348.36,
+      "end": 351.1,
+      "text": "You are only joking with me",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "You",
+          "start": 348.36,
+          "end": 349.3
+        },
+        {
+          "id": "p53w2",
+          "text": "are",
+          "start": 349.3,
+          "end": 349.52
+        },
+        {
+          "id": "p53w3",
+          "text": "only",
+          "start": 349.52,
+          "end": 349.86
+        },
+        {
+          "id": "p53w4",
+          "text": "joking",
+          "start": 349.86,
+          "end": 350.44
+        },
+        {
+          "id": "p53w5",
+          "text": "with",
+          "start": 350.44,
+          "end": 350.8
+        },
+        {
+          "id": "p53w6",
+          "text": "me",
+          "start": 350.8,
+          "end": 351.1
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 351.1,
+      "end": 352.48,
+      "text": "She said",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "She",
+          "start": 351.1,
+          "end": 352.02
+        },
+        {
+          "id": "p54w2",
+          "text": "said",
+          "start": 352.02,
+          "end": 352.48
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 352.48,
+      "end": 356.08,
+      "text": "I should not go to such a fancy place",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "I",
+          "start": 352.48,
+          "end": 353.54
+        },
+        {
+          "id": "p55w2",
+          "text": "should",
+          "start": 353.54,
+          "end": 353.76
+        },
+        {
+          "id": "p55w3",
+          "text": "not",
+          "start": 353.76,
+          "end": 354.06
+        },
+        {
+          "id": "p55w4",
+          "text": "go",
+          "start": 354.06,
+          "end": 354.38
+        },
+        {
+          "id": "p55w5",
+          "text": "to",
+          "start": 354.38,
+          "end": 354.64
+        },
+        {
+          "id": "p55w6",
+          "text": "such",
+          "start": 354.64,
+          "end": 354.9
+        },
+        {
+          "id": "p55w7",
+          "text": "a",
+          "start": 354.9,
+          "end": 355.16
+        },
+        {
+          "id": "p55w8",
+          "text": "fancy",
+          "start": 355.16,
+          "end": 355.4
+        },
+        {
+          "id": "p55w9",
+          "text": "place",
+          "start": 355.4,
+          "end": 356.08
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 356.08,
+      "end": 358.56,
+      "text": "You are quite right",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "You",
+          "start": 356.08,
+          "end": 357.26
+        },
+        {
+          "id": "p56w2",
+          "text": "are",
+          "start": 357.26,
+          "end": 357.54
+        },
+        {
+          "id": "p56w3",
+          "text": "quite",
+          "start": 357.54,
+          "end": 357.86
+        },
+        {
+          "id": "p56w4",
+          "text": "right",
+          "start": 357.86,
+          "end": 358.56
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 358.56,
+      "end": 359.8,
+      "text": "They replied",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "They",
+          "start": 358.56,
+          "end": 359.42
+        },
+        {
+          "id": "p57w2",
+          "text": "replied",
+          "start": 359.42,
+          "end": 359.8
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 360.46,
+      "end": 364.72,
+      "text": "People would laugh if they saw a dirty girl at the party",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "People",
+          "start": 360.46,
+          "end": 361.0
+        },
+        {
+          "id": "p58w2",
+          "text": "would",
+          "start": 361.0,
+          "end": 361.26
+        },
+        {
+          "id": "p58w3",
+          "text": "laugh",
+          "start": 361.26,
+          "end": 361.7
+        },
+        {
+          "id": "p58w4",
+          "text": "if",
+          "start": 361.7,
+          "end": 361.96
+        },
+        {
+          "id": "p58w5",
+          "text": "they",
+          "start": 361.96,
+          "end": 362.22
+        },
+        {
+          "id": "p58w6",
+          "text": "saw",
+          "start": 362.22,
+          "end": 362.66
+        },
+        {
+          "id": "p58w7",
+          "text": "a",
+          "start": 362.66,
+          "end": 362.92
+        },
+        {
+          "id": "p58w8",
+          "text": "dirty",
+          "start": 362.92,
+          "end": 363.28
+        },
+        {
+          "id": "p58w9",
+          "text": "girl",
+          "start": 363.28,
+          "end": 363.86
+        },
+        {
+          "id": "p58w10",
+          "text": "at",
+          "start": 363.86,
+          "end": 364.08
+        },
+        {
+          "id": "p58w11",
+          "text": "the",
+          "start": 364.08,
+          "end": 364.22
+        },
+        {
+          "id": "p58w12",
+          "text": "party",
+          "start": 364.22,
+          "end": 364.72
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 365.6,
+      "end": 368.32,
+      "text": "The stepsisters were so mean",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "The",
+          "start": 365.6,
+          "end": 366.32
+        },
+        {
+          "id": "p59w2",
+          "text": "stepsisters",
+          "start": 366.32,
+          "end": 367.04
+        },
+        {
+          "id": "p59w3",
+          "text": "were",
+          "start": 367.04,
+          "end": 367.42
+        },
+        {
+          "id": "p59w4",
+          "text": "so",
+          "start": 367.42,
+          "end": 367.84
+        },
+        {
+          "id": "p59w5",
+          "text": "mean",
+          "start": 367.84,
+          "end": 368.32
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 369.32,
+      "end": 371.2,
+      "text": "They enjoyed making fun of Cinderella",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "They",
+          "start": 368.96,
+          "end": 369.34
+        },
+        {
+          "id": "p60w2",
+          "text": "enjoyed",
+          "start": 369.34,
+          "end": 369.68
+        },
+        {
+          "id": "p60w3",
+          "text": "making",
+          "start": 369.68,
+          "end": 370.34
+        },
+        {
+          "id": "p60w4",
+          "text": "fun",
+          "start": 370.34,
+          "end": 370.7
+        },
+        {
+          "id": "p60w5",
+          "text": "of",
+          "start": 370.7,
+          "end": 370.9
+        },
+        {
+          "id": "p60w6",
+          "text": "Cinderella",
+          "start": 370.9,
+          "end": 371.2
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 372.32,
+      "end": 375.64,
+      "text": "They finally left for their party with their mother",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "They",
+          "start": 372.24,
+          "end": 372.62
+        },
+        {
+          "id": "p61w2",
+          "text": "finally",
+          "start": 372.62,
+          "end": 373.12
+        },
+        {
+          "id": "p61w3",
+          "text": "left",
+          "start": 373.12,
+          "end": 373.6
+        },
+        {
+          "id": "p61w4",
+          "text": "for",
+          "start": 373.6,
+          "end": 373.9
+        },
+        {
+          "id": "p61w5",
+          "text": "their",
+          "start": 373.9,
+          "end": 374.04
+        },
+        {
+          "id": "p61w6",
+          "text": "party",
+          "start": 374.04,
+          "end": 374.48
+        },
+        {
+          "id": "p61w7",
+          "text": "with",
+          "start": 374.48,
+          "end": 375.04
+        },
+        {
+          "id": "p61w8",
+          "text": "their",
+          "start": 375.04,
+          "end": 375.28
+        },
+        {
+          "id": "p61w9",
+          "text": "mother",
+          "start": 375.28,
+          "end": 375.64
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 376.96,
+      "end": 380.88,
+      "text": "Cinderella watched them for as long as possible",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "Cinderella",
+          "start": 376.96,
+          "end": 377.72
+        },
+        {
+          "id": "p62w2",
+          "text": "watched",
+          "start": 377.72,
+          "end": 378.46
+        },
+        {
+          "id": "p62w3",
+          "text": "them",
+          "start": 378.46,
+          "end": 378.88
+        },
+        {
+          "id": "p62w4",
+          "text": "for",
+          "start": 378.88,
+          "end": 379.46
+        },
+        {
+          "id": "p62w5",
+          "text": "as",
+          "start": 379.46,
+          "end": 379.7
+        },
+        {
+          "id": "p62w6",
+          "text": "long",
+          "start": 379.7,
+          "end": 379.94
+        },
+        {
+          "id": "p62w7",
+          "text": "as",
+          "start": 379.94,
+          "end": 380.26
+        },
+        {
+          "id": "p62w8",
+          "text": "possible",
+          "start": 380.26,
+          "end": 380.88
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 380.88,
+      "end": 385.76,
+      "text": "When she couldn't see them anymore, she started to cry",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "When",
+          "start": 380.88,
+          "end": 382.06
+        },
+        {
+          "id": "p63w2",
+          "text": "she",
+          "start": 382.06,
+          "end": 382.34
+        },
+        {
+          "id": "p63w3",
+          "text": "couldn't",
+          "start": 382.34,
+          "end": 382.76
+        },
+        {
+          "id": "p63w4",
+          "text": "see",
+          "start": 382.76,
+          "end": 383.02
+        },
+        {
+          "id": "p63w5",
+          "text": "them",
+          "start": 383.02,
+          "end": 383.3
+        },
+        {
+          "id": "p63w6",
+          "text": "anymore,",
+          "start": 383.3,
+          "end": 383.94
+        },
+        {
+          "id": "p63w7",
+          "text": "she",
+          "start": 384.44,
+          "end": 384.74
+        },
+        {
+          "id": "p63w8",
+          "text": "started",
+          "start": 384.74,
+          "end": 385.14
+        },
+        {
+          "id": "p63w9",
+          "text": "to",
+          "start": 385.14,
+          "end": 385.44
+        },
+        {
+          "id": "p63w10",
+          "text": "cry",
+          "start": 385.44,
+          "end": 385.76
+        }
+      ]
+    }
+  ]
+}

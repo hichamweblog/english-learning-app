@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {
   Play,
@@ -13,14 +13,14 @@ import {
   Headphones,
   BookOpen,
   Copy,
-  Download,
-  Check,
-  Sun,
-  Moon,
-  Maximize2,
+  Settings,
+  List,
 } from 'lucide-react';
 import type { GradedReaderBook, GradedReaderChapter } from '@/types/content';
-import { useAudioStore, useProgressStore } from '@/lib/store';
+import type { SectionAlignment } from '@/types/alignment';
+import { SyncedReadAlong } from '@/components/AudioPlayer/SyncedReadAlong';
+import { useAudioStore, useProgressStore, useReadingSettingsStore } from '@/lib/store';
+import { ReadingSettingsPanel } from '@/components/ui/ReadingSettingsPanel';
 import { resolveMediaUrl, cn } from '@/lib/utils';
 
 interface Props {
@@ -33,17 +33,32 @@ export function ReaderDetailView({ reader }: Props) {
 
   const [selectedChapterIdx, setSelectedChapterIdx] = useState(0);
   const [viewMode, setViewMode] = useState<'interactive' | 'pdf'>('interactive');
-  const [fontSize, setFontSize] = useState<'sm' | 'base' | 'lg' | 'xl'>('base');
-  const [readingTheme, setReadingTheme] = useState<'default' | 'sepia' | 'night'>('default');
+  
+  // Global Reading Settings
+  const { 
+    fontSize, lineHeight, theme, marginWidth,
+    setFontSize, setLineHeight, setTheme, setMarginWidth
+  } = useReadingSettingsStore();
+  
+  const [showSettings, setShowSettings] = useState(false);
   const [noteText, setNoteText] = useState('');
-  const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState<'reader' | 'notes'>('reader');
+  const [alignment, setAlignment] = useState<SectionAlignment | null>(null);
 
   const isCompleted = completedItems[reader.id] || false;
   const pdfUrl = resolveMediaUrl(reader.pdfPath);
 
   const currentChapter = reader.chapters[selectedChapterIdx] || reader.chapters[0];
   const hasExtractedText = !!(currentChapter && currentChapter.storyText && currentChapter.storyText.length > 50);
+
+  useEffect(() => {
+    if (!reader || !currentChapter) return;
+    const url = `/data/alignments/readers/${reader.id}/ch-${currentChapter.chapterNumber}.json`;
+    fetch(url)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => setAlignment(data))
+      .catch(() => setAlignment(null));
+  }, [reader.id, currentChapter?.chapterNumber]);
 
   useEffect(() => {
     const saved = localStorage.getItem(`notes_${reader.id}`);
@@ -62,22 +77,6 @@ export function ReaderDetailView({ reader }: Props) {
     const text = e.target.value;
     setNoteText(text);
     localStorage.setItem(`notes_${reader.id}`, text);
-  };
-
-  const copyNotes = () => {
-    navigator.clipboard.writeText(noteText);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  const downloadNotes = () => {
-    const blob = new Blob([noteText], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `${reader.title.replace(/[^a-zA-Z0-9]/g, '_')}_notes.txt`;
-    a.click();
-    URL.revokeObjectURL(url);
   };
 
   const handlePlayChapter = (chapter: GradedReaderChapter, index: number) => {
@@ -99,453 +98,277 @@ export function ReaderDetailView({ reader }: Props) {
   };
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 pb-32 max-w-[1600px] mx-auto w-full px-4 lg:px-8">
       {/* Top Breadcrumb */}
-      <div>
+      <div className="w-full">
         <Link
           href="/readers"
-          className="text-xs text-stone-500 hover:text-stone-900 dark:hover:text-stone-100 flex items-center gap-1 font-semibold transition-colors"
+          className="text-sm text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] flex items-center gap-1 font-semibold transition-colors w-fit"
         >
-          <ChevronLeft className="w-4 h-4" />
-          <span>Back to Readers Library</span>
+          <ChevronLeft className="w-5 h-5" />
+          <span>Library</span>
         </Link>
       </div>
 
-      {/* Book Header Masthead */}
-      <div className="p-6 sm:p-8 rounded-3xl border border-stone-200/90 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs space-y-5">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="text-[10px] font-sans font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">
-              {reader.levelLabel}
-            </span>
-            <span className="text-xs text-stone-400 font-mono">
-              {reader.seriesCode}
-            </span>
-            {reader.hasAudio && (
-              <span className="text-xs text-emerald-700 dark:text-emerald-400 font-mono font-medium flex items-center gap-1">
-                <Headphones className="w-3.5 h-3.5" />
-                {reader.audioTracksCount} Audio Chapters
+      {/* TOP ROW: Book Meta (Left) & Contents (Right) */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
+        {/* Book Meta Card */}
+        <div className="surface-card p-8 rounded-3xl shadow-sm border border-[hsl(var(--border))] flex flex-col justify-between">
+          <div className="space-y-4">
+            <div className="flex items-center gap-2">
+              <span className="text-[11px] font-sans font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-[hsl(var(--reader-green)/0.15)] text-[hsl(var(--reader-green))]">
+                {reader.levelLabel}
               </span>
-            )}
-            {reader.hasExercises && (
-              <span className="text-xs text-amber-700 dark:text-amber-400 font-mono font-medium px-2 py-0.5 rounded bg-amber-50 dark:bg-amber-950/40">
-                Exercises & Activities
+              <span className="text-sm font-mono text-[hsl(var(--muted-foreground))]">
+                {reader.seriesCode}
               </span>
-            )}
+            </div>
+            <h1 className="font-serif text-3xl sm:text-5xl font-medium tracking-tight text-[hsl(var(--foreground))] leading-snug">
+              {reader.title}
+            </h1>
           </div>
 
-          <button
-            type="button"
-            onClick={() => toggleCompleted(reader.id)}
-            className={cn(
-              'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-colors border',
-              isCompleted
-                ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border-emerald-300 dark:border-emerald-800'
-                : 'text-stone-600 dark:text-stone-400 border-stone-200 dark:border-stone-800 hover:bg-stone-50 dark:hover:bg-stone-800'
-            )}
-          >
-            <CheckCircle2 className="w-4 h-4" />
-            <span>{isCompleted ? 'Book Finished' : 'Mark as Finished'}</span>
-          </button>
-        </div>
-
-        <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal tracking-tight text-stone-900 dark:text-stone-50">
-          {reader.title}
-        </h1>
-
-        <div className="pt-2 flex flex-wrap items-center gap-3">
-          {reader.chapters.length > 0 && (
+          <div className="flex flex-wrap items-center gap-3 mt-8">
             <button
               type="button"
-              onClick={() => handlePlayChapter(reader.chapters[0], 0)}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-white font-semibold text-sm shadow-md hover:scale-102 active:scale-98 transition-all"
+              onClick={() => handlePlayChapter(currentChapter, selectedChapterIdx)}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[hsl(var(--foreground))] text-[hsl(var(--background))] font-semibold text-sm shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all"
             >
-              <Play className="w-4 h-4 fill-current ml-0.5" />
-              <span>Begin Chapter 1</span>
+              {currentTrack?.id === `${reader.id}-ch-${currentChapter.chapterNumber}` && isPlaying ? (
+                <>
+                  <Pause className="w-4 h-4 fill-current" />
+                  <span>Pause Reading</span>
+                </>
+              ) : (
+                <>
+                  <Play className="w-4 h-4 fill-current ml-0.5" />
+                  <span>Play Chapter {currentChapter.chapterNumber}</span>
+                </>
+              )}
             </button>
-          )}
-
-          {pdfUrl && (
-            <a
-              href={pdfUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 font-semibold text-xs transition-colors"
+            <button
+              type="button"
+              onClick={() => toggleCompleted(reader.id)}
+              className={cn(
+                'inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-bold transition-colors border',
+                isCompleted
+                  ? 'bg-[hsl(var(--primary)/0.15)] text-[hsl(var(--primary))] border-[hsl(var(--primary)/0.3)]'
+                  : 'text-[hsl(var(--foreground))] border-[hsl(var(--border))] hover:bg-[hsl(var(--foreground)/0.04)]'
+              )}
             >
-              <ExternalLink className="w-4 h-4" />
-              <span>Open PDF in New Window</span>
-            </a>
-          )}
-        </div>
-      </div>
-
-      {/* Chapters Audio Playlist */}
-      {reader.chapters.length > 0 && (
-        <div className="p-6 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] space-y-4 shadow-2xs">
-          <div className="flex items-center justify-between">
-            <h2 className="text-xs font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 flex items-center gap-2">
-              <Headphones className="w-4 h-4 text-emerald-700 dark:text-emerald-400" />
-              Audio Chapters Playlist ({reader.chapters.length})
-            </h2>
-            <span className="text-xs text-stone-400">Click any chapter to listen & read along</span>
+              <CheckCircle2 className="w-5 h-5" />
+              <span>{isCompleted ? 'Finished' : 'Mark Finished'}</span>
+            </button>
+            
+            {pdfUrl && (
+              <a
+                href={pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:bg-[hsl(var(--foreground)/0.04)] font-bold text-sm transition-colors border border-[hsl(var(--border))]"
+              >
+                <ExternalLink className="w-5 h-5" />
+                <span>PDF</span>
+              </a>
+            )}
           </div>
+        </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
-            {reader.chapters.map((ch, idx) => {
-              const trackId = `${reader.id}-ch-${ch.chapterNumber}`;
-              const isChPlaying = currentTrack?.id === trackId && isPlaying;
-              const isChActive = selectedChapterIdx === idx;
+        {/* Contents (Fihris) Card */}
+        <div className="surface-card rounded-3xl border border-[hsl(var(--border))] overflow-hidden flex flex-col max-h-[350px]">
+          <div className="p-6 bg-[hsl(var(--foreground)/0.02)] border-b border-[hsl(var(--border))] flex items-center gap-3 text-[hsl(var(--foreground))] shrink-0">
+            <List className="w-5 h-5 text-[hsl(var(--muted-foreground))]" />
+            <h3 className="text-xl font-serif font-medium">Contents (فهرس)</h3>
+          </div>
+          
+          <div className="p-3 space-y-1 overflow-y-auto">
+            {reader.chapters.map((chapter, idx) => {
+              const isSelected = selectedChapterIdx === idx;
+              const isChapterPlaying = currentTrack?.id === `${reader.id}-ch-${chapter.chapterNumber}` && isPlaying;
 
               return (
                 <button
-                  key={ch.id}
-                  type="button"
-                  onClick={() => handlePlayChapter(ch, idx)}
+                  key={chapter.chapterNumber}
+                  onClick={() => {
+                    setSelectedChapterIdx(idx);
+                    if (viewMode !== 'interactive') setViewMode('interactive');
+                    setActiveTab('reader');
+                  }}
                   className={cn(
-                    'p-3 rounded-xl border text-left flex items-center justify-between gap-2 transition-all',
-                    isChActive
-                      ? 'border-emerald-600 bg-emerald-50/60 dark:bg-emerald-950/40 ring-1 ring-emerald-500/20'
-                      : 'border-stone-200 dark:border-stone-800 hover:border-stone-300 dark:hover:border-stone-700 bg-stone-50/60 dark:bg-stone-900/50'
+                    'w-full flex items-center justify-between p-4 rounded-2xl transition-all text-left group',
+                    isSelected
+                      ? 'bg-[hsl(var(--foreground))] text-[hsl(var(--background))] shadow-md'
+                      : 'hover:bg-[hsl(var(--foreground)/0.04)] text-[hsl(var(--foreground))]'
                   )}
                 >
-                  <div className="min-w-0">
-                    <span className="text-[10px] text-stone-400 font-mono block">
-                      Track #{ch.chapterNumber} {ch.wordCount ? `• ${ch.wordCount} words` : ''}
+                  <div className="flex items-center gap-4 min-w-0 pr-4">
+                    <span className={cn(
+                      'text-sm font-mono font-medium opacity-60 w-6 shrink-0',
+                      isSelected && 'opacity-90'
+                    )}>
+                      {chapter.chapterNumber}
                     </span>
-                    <h4 className="font-serif text-sm font-medium text-stone-900 dark:text-stone-100 truncate">
-                      {ch.title}
-                    </h4>
+                    <span className={cn(
+                      'font-medium text-base truncate',
+                      isSelected ? 'font-bold' : ''
+                    )}>
+                      {chapter.title}
+                    </span>
                   </div>
-                  <div
-                    className={cn(
-                      'w-7 h-7 rounded-full flex items-center justify-center shrink-0 transition-all',
-                      isChPlaying
-                        ? 'bg-emerald-800 text-white dark:bg-emerald-600'
-                        : isChActive
-                        ? 'bg-emerald-700 text-white dark:bg-emerald-700'
-                        : 'bg-stone-200 dark:bg-stone-800 text-stone-700 dark:text-stone-300'
-                    )}
-                  >
-                    {isChPlaying ? (
-                      <Pause className="w-3.5 h-3.5 fill-current" />
-                    ) : (
-                      <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
-                    )}
-                  </div>
+                  
+                  {isSelected ? (
+                    <div className="w-8 h-8 rounded-full bg-[hsl(var(--background)/0.2)] flex items-center justify-center shrink-0">
+                      {isChapterPlaying ? <Pause className="w-4 h-4 fill-current" /> : <Play className="w-4 h-4 fill-current ml-0.5" />}
+                    </div>
+                  ) : (
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity text-[hsl(var(--muted-foreground))]">
+                      <Play className="w-4 h-4 fill-current" />
+                    </div>
+                  )}
                 </button>
               );
             })}
           </div>
         </div>
-      )}
+      </div>
 
-      {/* Workspace Tabs: Book Reader vs Story Notebook */}
-      <div className="space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-stone-200 dark:border-stone-800 pb-1">
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={() => setActiveTab('reader')}
-              className={cn(
-                'px-4 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2',
-                activeTab === 'reader'
-                  ? 'border-emerald-800 text-emerald-900 dark:border-emerald-400 dark:text-emerald-400'
-                  : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-              )}
-            >
-              <BookOpen className="w-4 h-4" />
-              <span>Chapter Reader</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setActiveTab('notes')}
-              className={cn(
-                'px-4 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors flex items-center gap-2',
-                activeTab === 'notes'
-                  ? 'border-emerald-800 text-emerald-900 dark:border-emerald-400 dark:text-emerald-400'
-                  : 'border-transparent text-stone-500 hover:text-stone-900 dark:hover:text-stone-100'
-              )}
-            >
-              <Edit3 className="w-4 h-4" />
-              <span>Story Notebook & Vocabulary</span>
-              {noteText.trim() && (
-                <span className="w-2 h-2 rounded-full bg-emerald-600" />
-              )}
-            </button>
-          </div>
-
-          {/* Reading Controls */}
-          {activeTab === 'reader' && (
-            <div className="flex items-center gap-3">
-              {/* Toggle view between Interactive Text and Original PDF */}
-              {hasExtractedText && pdfUrl && (
-                <div className="flex items-center rounded-lg border border-stone-200 dark:border-stone-800 p-0.5 bg-stone-100 dark:bg-stone-900 text-[11px] font-semibold">
-                  <button
-                    type="button"
-                    onClick={() => setViewMode('interactive')}
-                    className={cn(
-                      'px-2.5 py-1 rounded-md transition-all',
-                      viewMode === 'interactive'
-                        ? 'bg-white dark:bg-stone-800 text-emerald-800 dark:text-emerald-400 shadow-xs'
-                        : 'text-stone-500 hover:text-stone-800'
-                    )}
-                  >
-                    Interactive Text
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setViewMode('pdf')}
-                    className={cn(
-                      'px-2.5 py-1 rounded-md transition-all',
-                      viewMode === 'pdf'
-                        ? 'bg-white dark:bg-stone-800 text-emerald-800 dark:text-emerald-400 shadow-xs'
-                        : 'text-stone-500 hover:text-stone-800'
-                    )}
-                  >
-                    Original PDF
-                  </button>
-                </div>
-              )}
-
-              {/* Font Size Selector (for Interactive Text) */}
-              {viewMode === 'interactive' && hasExtractedText && (
-                <div className="hidden sm:flex items-center gap-1 border border-stone-200 dark:border-stone-800 rounded-lg p-0.5 text-xs">
-                  <button
-                    type="button"
-                    onClick={() => setFontSize('sm')}
-                    className={cn('px-2 py-0.5 rounded', fontSize === 'sm' && 'bg-stone-200 dark:bg-stone-800 font-bold')}
-                  >
-                    A-
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setFontSize('base')}
-                    className={cn('px-2 py-0.5 rounded', fontSize === 'base' && 'bg-stone-200 dark:bg-stone-800 font-bold')}
-                  >
-                    A
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setFontSize('lg')}
-                    className={cn('px-2 py-0.5 rounded', fontSize === 'lg' && 'bg-stone-200 dark:bg-stone-800 font-bold')}
-                  >
-                    A+
-                  </button>
-                </div>
-              )}
-
-              {/* Reading Theme Selector */}
-              <div className="flex items-center gap-1 text-xs text-stone-500">
-                <button
-                  type="button"
-                  onClick={() => setReadingTheme('default')}
-                  className={cn(
-                    'px-2 py-1 rounded-md text-[11px] font-semibold border transition-all',
-                    readingTheme === 'default'
-                      ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 border-stone-900'
-                      : 'border-stone-200 dark:border-stone-800 hover:bg-stone-100 dark:hover:bg-stone-800'
-                  )}
-                >
-                  Paper
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setReadingTheme('sepia')}
-                  className={cn(
-                    'px-2 py-1 rounded-md text-[11px] font-semibold border transition-all',
-                    readingTheme === 'sepia'
-                      ? 'bg-amber-200 text-amber-950 border-amber-300 font-bold'
-                      : 'border-stone-200 dark:border-stone-800 hover:bg-stone-100 dark:hover:bg-stone-800'
-                  )}
-                >
-                  Sepia
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setReadingTheme('night')}
-                  className={cn(
-                    'px-2 py-1 rounded-md text-[11px] font-semibold border transition-all',
-                    readingTheme === 'night'
-                      ? 'bg-stone-800 text-stone-100 border-stone-700'
-                      : 'border-stone-200 dark:border-stone-800 hover:bg-stone-100 dark:hover:bg-stone-800'
-                  )}
-                >
-                  Night
-                </button>
-              </div>
-            </div>
-          )}
+      {/* FULL WIDTH BOTTOM: Main Reading Area */}
+      <div className="w-full space-y-6 pt-4">
+        <div className="flex border-b border-[hsl(var(--border))]">
+          <button
+            onClick={() => setActiveTab('reader')}
+            className={cn(
+              'px-8 py-4 text-base font-bold border-b-[3px] transition-colors',
+              activeTab === 'reader'
+                ? 'border-[hsl(var(--primary))] text-[hsl(var(--foreground))]'
+                : 'border-transparent text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]'
+            )}
+          >
+            Reading Room
+          </button>
+          <button
+            onClick={() => setActiveTab('notes')}
+            className={cn(
+              'px-8 py-4 text-base font-bold border-b-[3px] transition-colors flex items-center gap-2',
+              activeTab === 'notes'
+                ? 'border-[hsl(var(--primary))] text-[hsl(var(--foreground))]'
+                : 'border-transparent text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]'
+            )}
+          >
+            <Edit3 className="w-4 h-4" />
+            Study Notes
+          </button>
         </div>
 
-        {/* Reader Display */}
-        {activeTab === 'reader' && (
-          hasExtractedText && viewMode === 'interactive' ? (
-            <div
-              className={cn(
-                'p-6 sm:p-10 rounded-2xl border transition-all space-y-8',
-                readingTheme === 'default' && 'bg-white dark:bg-[#14161C] border-stone-200 dark:border-stone-800 text-stone-900 dark:text-stone-100',
-                readingTheme === 'sepia' && 'bg-[#FAF6EE] text-[#433422] border-amber-200',
-                readingTheme === 'night' && 'bg-[#181A20] text-stone-200 border-stone-800'
-              )}
-            >
-              {/* Chapter Title Bar */}
-              <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200/60 dark:border-stone-800 pb-4">
-                <div>
-                  <span className="text-xs font-mono font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
-                    Chapter {currentChapter.chapterNumber} of {reader.chapters.length}
-                  </span>
-                  <h2 className="font-serif text-2xl sm:text-3xl font-normal mt-1">
-                    {currentChapter.title}
-                  </h2>
-                </div>
-
-                <div className="flex items-center gap-2">
-                  <button
-                    type="button"
-                    onClick={() => handlePlayChapter(currentChapter, selectedChapterIdx)}
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-white font-semibold text-xs transition-colors"
-                  >
-                    {currentTrack?.id === `${reader.id}-ch-${currentChapter.chapterNumber}` && isPlaying ? (
-                      <>
-                        <Pause className="w-3.5 h-3.5 fill-current" />
-                        <span>Pause Chapter Audio</span>
-                      </>
-                    ) : (
-                      <>
-                        <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
-                        <span>Play Chapter Audio</span>
-                      </>
-                    )}
-                  </button>
-                </div>
+        {activeTab === 'reader' ? (
+          <div className={cn(
+            "rounded-3xl min-h-[800px] transition-colors duration-500 relative",
+            theme === 'default' && 'surface-card border border-[hsl(var(--border))]',
+            theme === 'sepia' && 'bg-[#F4E9D5] text-[#433422] border border-[#E3D6BC]',
+            theme === 'ocean' && 'bg-[#F0F4F8] dark:bg-[#0A192F] text-[#0A192F] dark:text-[#E6F1FF] border border-[#112240]',
+            theme === 'night' && 'bg-[#161821] text-[#E8E4DC] border border-[#2B2F3D]'
+          )}>
+            {/* Toolbar */}
+            <div className="flex items-center justify-between p-4 sm:px-8 border-b border-black/10 dark:border-white/10 sticky top-0 z-20 bg-inherit rounded-t-3xl backdrop-blur-sm bg-opacity-95">
+              <div className="font-serif font-medium opacity-80 text-lg flex items-center gap-3">
+                <span className="text-[hsl(var(--muted-foreground))] text-sm font-mono">{currentChapter.chapterNumber}</span>
+                {currentChapter.title}
               </div>
-
-              {/* Story Text */}
-              <div
-                className={cn(
-                  'font-serif leading-relaxed whitespace-pre-line',
-                  fontSize === 'sm' && 'text-sm sm:text-base leading-7',
-                  fontSize === 'base' && 'text-base sm:text-lg leading-8',
-                  fontSize === 'lg' && 'text-lg sm:text-xl leading-9',
-                  fontSize === 'xl' && 'text-xl sm:text-2xl leading-10'
+              
+              <div className="relative">
+                <button
+                  onClick={() => setShowSettings(!showSettings)}
+                  className="p-2.5 rounded-xl hover:bg-black/5 dark:hover:bg-white/10 transition-colors opacity-70 hover:opacity-100 flex items-center gap-2 font-bold text-sm"
+                >
+                  <Settings className="w-5 h-5" />
+                  <span className="hidden sm:inline">Settings</span>
+                </button>
+                
+                {showSettings && (
+                  <div className="absolute right-0 top-14 z-50">
+                    <div className="fixed inset-0 z-40" onClick={() => setShowSettings(false)} />
+                    <div className="relative z-50">
+                      <ReadingSettingsPanel 
+                        fontSize={fontSize}
+                        lineHeight={lineHeight}
+                        theme={theme}
+                        marginWidth={marginWidth}
+                        onFontSizeChange={setFontSize}
+                        onLineHeightChange={setLineHeight}
+                        onThemeChange={setTheme}
+                        onMarginWidthChange={setMarginWidth}
+                      />
+                    </div>
+                  </div>
                 )}
-              >
-                {currentChapter.storyText}
-              </div>
-
-              {/* Activities & Exercises Card */}
-              {currentChapter.hasActivities && currentChapter.activitiesText && (
-                <div className="mt-8 p-6 rounded-2xl border border-amber-300 dark:border-amber-900/60 bg-amber-50/70 dark:bg-amber-950/20 space-y-4">
-                  <div className="flex items-center gap-2">
-                    <FileText className="w-5 h-5 text-amber-700 dark:text-amber-400" />
-                    <h3 className="font-serif text-lg font-semibold text-amber-950 dark:text-amber-200">
-                      Chapter Activities & Comprehension Exercises
-                    </h3>
-                  </div>
-                  <div className="font-sans text-sm text-stone-700 dark:text-stone-300 whitespace-pre-line leading-relaxed">
-                    {currentChapter.activitiesText}
-                  </div>
-                </div>
-              )}
-
-              {/* Chapter Navigation Footer */}
-              <div className="flex items-center justify-between border-t border-stone-200/60 dark:border-stone-800 pt-6">
-                <button
-                  type="button"
-                  disabled={selectedChapterIdx === 0}
-                  onClick={() => {
-                    const prevIdx = selectedChapterIdx - 1;
-                    handlePlayChapter(reader.chapters[prevIdx], prevIdx);
-                  }}
-                  className="px-4 py-2 rounded-xl border border-stone-200 dark:border-stone-800 disabled:opacity-40 disabled:cursor-not-allowed text-xs font-semibold hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
-                >
-                  ← Previous Chapter
-                </button>
-
-                <span className="text-xs font-mono text-stone-400">
-                  Track #{currentChapter.chapterNumber}
-                </span>
-
-                <button
-                  type="button"
-                  disabled={selectedChapterIdx === reader.chapters.length - 1}
-                  onClick={() => {
-                    const nextIdx = selectedChapterIdx + 1;
-                    handlePlayChapter(reader.chapters[nextIdx], nextIdx);
-                  }}
-                  className="px-4 py-2 rounded-xl border border-stone-200 dark:border-stone-800 disabled:opacity-40 disabled:cursor-not-allowed text-xs font-semibold hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
-                >
-                  Next Chapter →
-                </button>
               </div>
             </div>
-          ) : pdfUrl ? (
-            <div
-              className={cn(
-                'rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden shadow-xs h-[800px] relative transition-all',
-                readingTheme === 'sepia' && 'reader-mode-sepia',
-                readingTheme === 'night' && 'reader-mode-night',
-                readingTheme === 'default' && 'bg-white dark:bg-stone-900'
-              )}
-            >
-              <iframe
-                src={`${pdfUrl}#toolbar=0&navpanes=0`}
-                title="Graded Reader PDF"
-                className="w-full h-full border-none"
-              />
-            </div>
-          ) : (
-            <div className="p-12 text-center rounded-2xl border border-dashed border-stone-300 dark:border-stone-800 text-stone-500">
-              <p className="font-serif text-lg text-stone-800 dark:text-stone-200">Complete Audio Narration</p>
-              <p className="text-xs mt-1 text-stone-500">Use the chapter playlist above to immerse yourself in the audiobook narration.</p>
-            </div>
-          )
-        )}
 
-        {/* Story Notes */}
-        {activeTab === 'notes' && (
-          <div className="p-6 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] space-y-4 shadow-2xs">
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <div>
-                <h3 className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100">
-                  Book Notebook & Memorable Quotes
-                </h3>
-                <p className="text-xs text-stone-500 dark:text-stone-400">
-                  Record unfamiliar vocabulary, write chapter summaries, or collect quotes. Auto-saved locally.
-                </p>
-              </div>
+            {/* Text Content */}
+            <div className={cn(
+              "p-6 sm:p-16 mx-auto transition-all",
+              marginWidth === 'narrow' ? 'max-w-3xl' : marginWidth === 'wide' ? 'max-w-7xl' : 'max-w-5xl'
+            )}>
+              {hasExtractedText ? (
+                <>
+                  <SyncedReadAlong
+                    alignment={alignment}
+                    fallbackText={currentChapter.storyText}
+                    trackId={`${reader.id}-ch-${currentChapter.chapterNumber}`}
+                    fontSize={fontSize}
+                    lineHeight={lineHeight}
+                    readingTheme={theme}
+                  />
 
-              {noteText.trim() && (
-                <div className="flex items-center gap-2">
+                  {/* Activities & Exercises Card */}
+                  {currentChapter.hasActivities && currentChapter.activitiesText && (
+                    <div className="mt-24 p-8 rounded-3xl surface-inset border border-amber-300 dark:border-amber-900/60 bg-amber-50/70 dark:bg-amber-950/20 space-y-6">
+                      <div className="flex items-center gap-3">
+                        <FileText className="w-6 h-6 text-amber-700 dark:text-amber-400" />
+                        <h3 className="text-lg font-bold uppercase tracking-widest text-amber-900 dark:text-amber-500">
+                          End of Chapter Activities
+                        </h3>
+                      </div>
+                      <div
+                        className="font-sans text-base sm:text-lg leading-relaxed whitespace-pre-line text-amber-950 dark:text-amber-200 font-medium"
+                      >
+                        {currentChapter.activitiesText}
+                      </div>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <div className="text-center py-32 text-[hsl(var(--muted-foreground))] space-y-6">
+                  <p className="font-serif text-2xl">Interactive text not available.</p>
                   <button
-                    type="button"
-                    onClick={copyNotes}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-stone-200 dark:border-stone-800 hover:bg-stone-100 dark:hover:bg-stone-800 text-xs font-semibold text-stone-700 dark:text-stone-300 transition-colors"
+                    onClick={() => window.open(pdfUrl, '_blank')}
+                    className="px-6 py-3 rounded-xl bg-[hsl(var(--foreground)/0.06)] font-bold text-lg hover:bg-[hsl(var(--foreground)/0.1)] transition-colors"
                   >
-                    {copied ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
-                    <span>{copied ? 'Copied' : 'Copy'}</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={downloadNotes}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-stone-200 dark:border-stone-800 hover:bg-stone-100 dark:hover:bg-stone-800 text-xs font-semibold text-stone-700 dark:text-stone-300 transition-colors"
-                  >
-                    <Download className="w-3.5 h-3.5" />
-                    <span>Export .txt</span>
+                    Open Original PDF
                   </button>
                 </div>
               )}
             </div>
-
+          </div>
+        ) : (
+          // Notes Tab
+          <div className="space-y-4">
             <textarea
               value={noteText}
               onChange={handleNotesChange}
-              placeholder="Record quotes, chapter reflections, and new words...&#10;&#10;e.g.&#10;Chapter 1: The merchant wanders into the dark forest and discovers the hidden palace...&#10;Words to remember: enchanted, merchant, misfortune, splendid"
-              rows={14}
-              className="w-full p-4 rounded-xl border border-stone-200 dark:border-stone-800 bg-[#FAF8F5] dark:bg-stone-950 font-mono text-sm leading-relaxed focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 transition-colors"
+              placeholder="Write your study notes, vocabulary, or reflections here... They save automatically."
+              className="w-full h-[600px] p-8 rounded-3xl border border-[hsl(var(--border))] bg-transparent resize-none focus:outline-none focus:ring-2 focus:ring-[hsl(var(--primary))] font-sans text-lg font-medium leading-relaxed"
             />
+            <div className="flex justify-end gap-3">
+              <button
+                type="button"
+                onClick={() => navigator.clipboard.writeText(noteText)}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-[hsl(var(--border))] text-base font-bold hover:bg-[hsl(var(--foreground)/0.04)]"
+              >
+                <Copy className="w-5 h-5" />
+                <span>Copy</span>
+              </button>
+            </div>
           </div>
         )}
       </div>

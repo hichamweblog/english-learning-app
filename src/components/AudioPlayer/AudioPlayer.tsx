@@ -5,29 +5,23 @@ import Link from 'next/link';
 import {
   Play,
   Pause,
-  RotateCcw,
-  RotateCw,
+  SkipBack,
+  SkipForward,
   Volume2,
   VolumeX,
+  X,
   FileText,
   CheckCircle2,
-  Maximize2,
-  Minimize2,
-  X,
   Repeat,
-  Headphones,
+  ChevronUp,
+  ChevronDown,
+  MonitorPlay,
+  FastForward,
 } from 'lucide-react';
 import { useAudioStore, useProgressStore } from '@/lib/store';
 import { resolveMediaUrl, formatTime, cn } from '@/lib/utils';
 
 export function AudioPlayer() {
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [isMuted, setIsMuted] = useState(false);
-  const [prevVolume, setPrevVolume] = useState(1);
-  const [isLooping, setIsLooping] = useState(false);
-  const [showVolumeSlider, setShowVolumeSlider] = useState(false);
-  const [showRemainingTime, setShowRemainingTime] = useState(false);
-
   const {
     currentTrack,
     isPlaying,
@@ -36,6 +30,9 @@ export function AudioPlayer() {
     currentTime,
     duration,
     isExpanded,
+    playTrack,
+    pause,
+    resume,
     togglePlay,
     setPlaybackRate,
     setVolume,
@@ -46,107 +43,106 @@ export function AudioPlayer() {
     closePlayer,
   } = useAudioStore();
 
-  const { completedItems, toggleCompleted, saveItemPosition, addRecentItem } =
-    useProgressStore();
+  const { toggleCompleted, completedItems, saveItemPosition } = useProgressStore();
 
-  // Keyboard shortcuts for language learners: Space to play/pause, Left/Right arrows to skip, M to mute
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (!currentTrack) return;
-      const target = e.target as HTMLElement;
-      if (['INPUT', 'TEXTAREA'].includes(target?.tagName)) return;
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [isLooping, setIsLooping] = useState(false);
+  const [showVolume, setShowVolume] = useState(false);
 
-      if (e.code === 'Space') {
-        e.preventDefault();
-        togglePlay();
-      } else if (e.code === 'ArrowLeft') {
-        e.preventDefault();
-        skipSeconds(-10);
-      } else if (e.code === 'ArrowRight') {
-        e.preventDefault();
-        skipSeconds(10);
-      } else if (e.key === 'm' || e.key === 'M') {
-        e.preventDefault();
-        toggleMute();
-      } else if (e.key === '[') {
-        cycleSpeedDown();
-      } else if (e.key === ']') {
-        cycleSpeedUp();
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentTrack, isPlaying, duration, currentTime, isMuted, volume]);
-
-  // Sync track changes
-  useEffect(() => {
-    if (!audioRef.current || !currentTrack) return;
-
-    const audioUrl = resolveMediaUrl(currentTrack.audioPath);
-    if (audioRef.current.src !== window.location.origin + audioUrl && audioRef.current.src !== audioUrl) {
-      audioRef.current.src = audioUrl;
-      audioRef.current.load();
-    }
-
-    if (isPlaying) {
-      audioRef.current.play().catch((err) => {
-        console.warn('Playback error:', err);
-      });
-    }
-
-    addRecentItem({
-      id: currentTrack.id,
-      type: currentTrack.id.startsWith('reader') ? 'reader' : 'podcast',
-      title: currentTrack.title,
-      seriesTitle: currentTrack.seriesTitle,
-      url: currentTrack.itemUrl,
-    });
-  }, [currentTrack, isPlaying, addRecentItem]);
-
-  // Sync play/pause state
-  useEffect(() => {
-    if (!audioRef.current) return;
-    if (isPlaying) {
-      audioRef.current.play().catch(() => {});
-    } else {
-      audioRef.current.pause();
-    }
-  }, [isPlaying]);
-
-  // Sync playback rate
-  useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.playbackRate = playbackRate;
-    }
-  }, [playbackRate]);
-
-  // Sync volume
+  // Sync volume & rate
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = volume;
-    }
-  }, [volume]);
-
-  // Loop toggle
-  useEffect(() => {
-    if (audioRef.current) {
+      audioRef.current.playbackRate = playbackRate;
       audioRef.current.loop = isLooping;
     }
-  }, [isLooping]);
+  }, [volume, playbackRate, isLooping]);
 
-  if (!currentTrack) return null;
+  // Load new track source
+  useEffect(() => {
+    if (audioRef.current && currentTrack) {
+      const url = resolveMediaUrl(currentTrack.audioPath);
+      // Avoid reloading if it's the same URL
+      if (!audioRef.current.src.endsWith(url)) {
+        audioRef.current.src = url;
+        audioRef.current.load();
+      }
+      
+      if (isPlaying) {
+        audioRef.current.play().catch((e) => {
+          console.error('Audio auto-play failed:', e);
+          pause();
+        });
+      } else {
+        audioRef.current.pause();
+      }
+    }
+  }, [currentTrack, isPlaying, pause]);
 
-  const isCompleted = completedItems[currentTrack.id] || false;
-  const progressPercent = duration > 0 ? (currentTime / duration) * 100 : 0;
-  const remainingSeconds = Math.max(0, duration - currentTime);
+  // Media Session API for OS integration
+  useEffect(() => {
+    if ('mediaSession' in navigator && currentTrack) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: currentTrack.title,
+        artist: 'ContentFirst',
+        album: currentTrack.seriesTitle,
+      });
+
+      navigator.mediaSession.setActionHandler('play', resume);
+      navigator.mediaSession.setActionHandler('pause', pause);
+      navigator.mediaSession.setActionHandler('seekbackward', () => {
+        if (audioRef.current) seek(audioRef.current.currentTime - 10);
+      });
+      navigator.mediaSession.setActionHandler('seekforward', () => {
+        if (audioRef.current) seek(audioRef.current.currentTime + 10);
+      });
+    }
+  }, [currentTrack, resume, pause, seek]);
+
+  // Keyboard Shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Ignore inside inputs
+      if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement)?.tagName)) return;
+
+      switch (e.code) {
+        case 'Space':
+          e.preventDefault();
+          togglePlay();
+          break;
+        case 'ArrowLeft':
+          e.preventDefault();
+          if (audioRef.current) seek(audioRef.current.currentTime - 10);
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          if (audioRef.current) seek(audioRef.current.currentTime + 10);
+          break;
+        case 'KeyM':
+          e.preventDefault();
+          setVolume(volume === 0 ? 1 : 0);
+          break;
+        case 'BracketRight': // ] increase speed
+          e.preventDefault();
+          setPlaybackRate(Math.min(2, playbackRate + 0.25));
+          break;
+        case 'BracketLeft': // [ decrease speed
+          e.preventDefault();
+          setPlaybackRate(Math.max(0.5, playbackRate - 0.25));
+          break;
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [togglePlay, seek, volume, setVolume, playbackRate, setPlaybackRate]);
 
   const handleTimeUpdate = () => {
     if (audioRef.current) {
-      const time = audioRef.current.currentTime;
-      setCurrentTime(time);
-      if (Math.floor(time) % 5 === 0) {
-        saveItemPosition(currentTrack.id, time);
+      setCurrentTime(audioRef.current.currentTime);
+      
+      // Save position every ~5 seconds to prevent hammering store
+      if (Math.floor(audioRef.current.currentTime) % 5 === 0 && currentTrack) {
+        saveItemPosition(currentTrack.id, audioRef.current.currentTime);
       }
     }
   };
@@ -158,46 +154,27 @@ export function AudioPlayer() {
   };
 
   const handleEnded = () => {
-    if (!isLooping) {
-      toggleCompleted(currentTrack.id);
+    if (currentTrack && !isLooping) {
+      if (!completedItems[currentTrack.id]) {
+        toggleCompleted(currentTrack.id);
+      }
+      pause();
     }
   };
 
   const handleSeekChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const val = parseFloat(e.target.value);
-    const targetTime = (val / 100) * duration;
-    seek(targetTime);
+    const percent = parseFloat(e.target.value);
+    const newTime = (percent / 100) * duration;
+    seek(newTime);
   };
 
-  const skipSeconds = (secs: number) => {
-    if (audioRef.current) {
-      const newTime = Math.max(0, Math.min(audioRef.current.currentTime + secs, duration));
-      seek(newTime);
-    }
-  };
-
-  const toggleMute = () => {
-    if (isMuted) {
-      setVolume(prevVolume || 1);
-      setIsMuted(false);
-    } else {
-      setPrevVolume(volume);
-      setVolume(0);
-      setIsMuted(true);
-    }
-  };
-
-  const speeds = [0.75, 1, 1.25, 1.5, 2];
-
-  const cycleSpeedUp = () => {
-    const nextIdx = (speeds.indexOf(playbackRate) + 1) % speeds.length;
-    setPlaybackRate(speeds[nextIdx]);
-  };
-
-  const cycleSpeedDown = () => {
-    const prevIdx = (speeds.indexOf(playbackRate) - 1 + speeds.length) % speeds.length;
-    setPlaybackRate(speeds[prevIdx]);
-  };
+  const progressPercent = duration > 0 ? (currentTime / duration) * 100 : 0;
+  const isCompleted = currentTrack ? (completedItems[currentTrack.id] || false) : false;
+  
+  // Theme coloring based on content type
+  const isReader = currentTrack?.itemUrl.includes('/readers');
+  const accentColor = isReader ? 'text-[hsl(var(--reader-green))]' : 'text-[hsl(var(--podcast-sienna))]';
+  const accentBg = isReader ? 'bg-[hsl(var(--reader-green))]' : 'bg-[hsl(var(--podcast-sienna))]';
 
   return (
     <>
@@ -209,217 +186,197 @@ export function AudioPlayer() {
         onEnded={handleEnded}
         preload="auto"
       />
+      {currentTrack && (
 
-      {/* Floating Precision Audio Deck */}
       <div
         className={cn(
-          'fixed z-50 transition-all duration-300 left-1/2 -translate-x-1/2',
-          'w-[calc(100%-1.5rem)] sm:w-[calc(100%-3rem)] max-w-4xl',
-          'bg-[#FAF8F5]/96 dark:bg-[#14161C]/96 backdrop-blur-2xl',
-          'border border-stone-300/80 dark:border-stone-800/90 shadow-[0_12px_40px_rgba(0,0,0,0.16)]',
-          'rounded-2xl',
+          'fixed z-50 transition-all duration-300 ease-out left-1/2 -translate-x-1/2 frosted-glass rounded-2xl overflow-hidden',
+          'w-[calc(100%-1.5rem)] sm:w-[calc(100%-3rem)]',
           isExpanded
-            ? 'bottom-20 md:bottom-8 p-6'
-            : 'bottom-16 md:bottom-6 p-3 sm:px-5'
+            ? 'bottom-6 md:bottom-8 max-w-3xl p-5 sm:p-6'
+            : 'bottom-4 md:bottom-6 max-w-xl py-2 px-3 sm:px-4 flex flex-col h-14'
         )}
       >
-        {/* Scrub bar line */}
-        <div className="relative group w-full mb-1">
-          <input
-            type="range"
-            min="0"
-            max="100"
-            step="0.05"
-            value={progressPercent || 0}
-            onChange={handleSeekChange}
-            aria-label="Seek position in track"
-            className="w-full h-1.5 bg-stone-200 dark:bg-stone-800 rounded-full appearance-none cursor-pointer"
-          />
-        </div>
+        {/* Scrub bar — thin line at top when collapsed, standard slider when expanded */}
+        {isExpanded ? (
+          <div className="relative group w-full mb-4 px-1">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              step="0.1"
+              value={progressPercent}
+              onChange={handleSeekChange}
+              aria-label="Seek position"
+              className={cn("w-full h-1.5 rounded-full appearance-none cursor-pointer", accentBg)}
+              style={{
+                background: `linear-gradient(to right, hsl(var(--primary)) ${progressPercent}%, hsl(var(--muted)) ${progressPercent}%)`
+              }}
+            />
+          </div>
+        ) : (
+          <div className="absolute top-0 left-0 right-0 h-1 bg-[hsl(var(--muted))] cursor-pointer group" onClick={(e) => {
+            const rect = e.currentTarget.getBoundingClientRect();
+            const clickX = e.clientX - rect.left;
+            seek((clickX / rect.width) * duration);
+          }}>
+            <div 
+              className={cn("h-full transition-all group-hover:h-1.5", accentBg)} 
+              style={{ width: `${progressPercent}%` }} 
+            />
+          </div>
+        )}
 
-        {/* Row 1: Time, Metadata, Controls */}
-        <div className="flex items-center justify-between gap-3 sm:gap-4 pt-1">
-          {/* Track Info & Animated Wave */}
-          <div className="flex items-center gap-3 min-w-0 flex-1">
-            <Link
-              href={currentTrack.itemUrl}
-              className="w-10 h-10 rounded-xl bg-stone-900 text-stone-100 dark:bg-stone-800 dark:text-stone-200 flex items-center justify-center shrink-0 border border-stone-800/30 group hover:scale-105 transition-transform"
-              title="Navigate to lesson page"
-            >
-              {isPlaying ? (
-                <div className="flex items-end gap-0.5 h-4 w-4">
-                  <span className="w-0.5 bg-amber-400 rounded-full animate-wave-1" />
-                  <span className="w-0.5 bg-amber-400 rounded-full animate-wave-2" />
-                  <span className="w-0.5 bg-amber-400 rounded-full animate-wave-3" />
-                  <span className="w-0.5 bg-amber-400 rounded-full animate-wave-4" />
-                </div>
-              ) : (
-                <Headphones className="w-4 h-4 text-stone-400" />
-              )}
-            </Link>
-
-            <div className="min-w-0 flex-1">
-              <div className="flex items-center gap-2">
-                <span className="text-[10px] font-sans font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400 truncate">
-                  {currentTrack.seriesTitle}
-                </span>
-                {currentTrack.levelLabel && (
-                  <span className="hidden sm:inline-block px-1.5 py-0.2 text-[9px] font-semibold rounded bg-stone-200/80 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
-                    {currentTrack.levelLabel}
+        <div className={cn("flex", isExpanded ? "flex-col gap-5" : "flex-row items-center justify-between h-full w-full gap-3")}>
+          
+          {/* Track Info */}
+          <div className={cn("flex items-center min-w-0", isExpanded ? "justify-between" : "flex-1")}>
+            <div className="flex items-center gap-3 min-w-0">
+              <button 
+                onClick={togglePlay}
+                className={cn(
+                  "flex items-center justify-center shrink-0 transition-all",
+                  isExpanded 
+                    ? "hidden" 
+                    : "w-8 h-8 rounded-lg hover:bg-[hsl(var(--foreground)/0.06)]"
+                )}
+              >
+                {isPlaying ? <Pause className="w-4 h-4 fill-current" /> : <Play className="w-4 h-4 fill-current ml-0.5" />}
+              </button>
+              
+              <div className="min-w-0 flex flex-col justify-center">
+                <Link
+                  href={currentTrack.itemUrl}
+                  className="font-serif font-medium text-[hsl(var(--foreground))] hover:underline truncate block leading-tight text-[15px]"
+                >
+                  {currentTrack.title}
+                </Link>
+                {isExpanded && (
+                  <span className="text-xs font-sans text-[hsl(var(--muted-foreground))] mt-0.5 truncate">
+                    {currentTrack.seriesTitle} {currentTrack.levelLabel && `· ${currentTrack.levelLabel}`}
                   </span>
                 )}
               </div>
-              <Link
-                href={currentTrack.itemUrl}
-                className="block text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 truncate hover:underline"
-              >
-                {currentTrack.title}
-              </Link>
             </div>
-          </div>
 
-          {/* Central Controls: Rewind 15s, Play/Pause, Forward 15s */}
-          <div className="flex items-center gap-1 sm:gap-2">
-            {/* Rewind 15s */}
-            <button
-              type="button"
-              onClick={() => skipSeconds(-15)}
-              aria-label="Rewind 15 seconds (Left Arrow)"
-              title="Rewind 15 seconds"
-              className="relative p-2 text-stone-600 dark:text-stone-400 hover:text-stone-950 dark:hover:text-stone-100 hover:bg-stone-200/60 dark:hover:bg-stone-800/60 rounded-full transition-all"
-            >
-              <RotateCcw className="w-4 h-4" />
-              <span className="absolute inset-0 flex items-center justify-center text-[8px] font-bold mt-1 font-mono">
-                15
-              </span>
-            </button>
-
-            {/* Main Play / Pause Button */}
-            <button
-              type="button"
-              onClick={togglePlay}
-              aria-label={isPlaying ? 'Pause audio (Space)' : 'Play audio (Space)'}
-              className="p-3 bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 rounded-full shadow-md hover:scale-105 active:scale-95 transition-all"
-            >
-              {isPlaying ? (
-                <Pause className="w-4 h-4 fill-current" />
-              ) : (
-                <Play className="w-4 h-4 fill-current ml-0.5" />
-              )}
-            </button>
-
-            {/* Forward 15s */}
-            <button
-              type="button"
-              onClick={() => skipSeconds(15)}
-              aria-label="Forward 15 seconds (Right Arrow)"
-              title="Forward 15 seconds"
-              className="relative p-2 text-stone-600 dark:text-stone-400 hover:text-stone-950 dark:hover:text-stone-100 hover:bg-stone-200/60 dark:hover:bg-stone-800/60 rounded-full transition-all"
-            >
-              <RotateCw className="w-4 h-4" />
-              <span className="absolute inset-0 flex items-center justify-center text-[8px] font-bold mt-1 font-mono">
-                15
-              </span>
-            </button>
-          </div>
-
-          {/* Right Tools: Time Counter, Speed Pill, Looping, Volume, Close */}
-          <div className="flex items-center gap-1.5 sm:gap-2">
-            {/* Time Stamp (Click to toggle elapsed vs remaining) */}
-            <button
-              type="button"
-              onClick={() => setShowRemainingTime(!showRemainingTime)}
-              title="Toggle between elapsed and remaining time"
-              className="hidden md:inline-flex text-[11px] font-mono text-stone-500 dark:text-stone-400 tabular-nums px-2 py-1 rounded hover:bg-stone-200/50 dark:hover:bg-stone-800/50"
-            >
-              {showRemainingTime ? `-${formatTime(remainingSeconds)}` : `${formatTime(currentTime)} / ${formatTime(duration)}`}
-            </button>
-
-            {/* Speed Selector Button */}
-            <button
-              type="button"
-              onClick={cycleSpeedUp}
-              title="Click to cycle speed ([ and ] shortcuts)"
-              className="px-2 py-1 text-[11px] font-bold font-mono rounded-lg bg-stone-200/80 dark:bg-stone-800 text-stone-800 dark:text-stone-200 hover:bg-stone-300 dark:hover:bg-stone-700 transition-colors"
-            >
-              {playbackRate}x
-            </button>
-
-            {/* Repeat/Shadowing Loop Button */}
-            <button
-              type="button"
-              onClick={() => setIsLooping(!isLooping)}
-              title={isLooping ? 'Turn off sentence repeat' : 'Turn on sentence repeat for shadowing practice'}
-              aria-label="Toggle repeat loop"
-              className={cn(
-                'hidden sm:inline-flex p-1.5 rounded-lg transition-colors',
-                isLooping
-                  ? 'bg-amber-100 text-amber-800 dark:bg-amber-950/80 dark:text-amber-300 font-bold'
-                  : 'text-stone-500 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-200/60 dark:hover:bg-stone-800/60'
-              )}
-            >
-              <Repeat className="w-4 h-4" />
-            </button>
-
-            {/* Mark Completed Button */}
-            <button
-              type="button"
-              onClick={() => toggleCompleted(currentTrack.id)}
-              aria-label={isCompleted ? 'Mark incomplete' : 'Mark complete'}
-              title={isCompleted ? 'Completed lesson' : 'Mark as completed'}
-              className={cn(
-                'p-1.5 rounded-lg transition-colors',
-                isCompleted
-                  ? 'text-emerald-700 bg-emerald-100 dark:bg-emerald-950/80 dark:text-emerald-300'
-                  : 'text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 hover:bg-stone-200/60 dark:hover:bg-stone-800/60'
-              )}
-            >
-              <CheckCircle2 className="w-4 h-4" />
-            </button>
-
-            {/* PDF Guide Link if available */}
-            {currentTrack.pdfPath && (
-              <a
-                href={resolveMediaUrl(currentTrack.pdfPath)}
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Open Study Guide / Transcript PDF"
-                aria-label="Open Study Guide PDF"
-                className="hidden sm:inline-flex p-1.5 text-stone-500 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-200/60 dark:hover:bg-stone-800/60 rounded-lg transition-colors"
-              >
-                <FileText className="w-4 h-4" />
-              </a>
+            {/* Time / Expand toggle for collapsed view */}
+            {!isExpanded && (
+              <div className="flex items-center gap-3 shrink-0">
+                <span className="text-[11px] font-mono text-[hsl(var(--muted-foreground))] w-9 text-right hidden sm:block">
+                  {formatTime(currentTime)}
+                </span>
+                <div className="h-4 w-px bg-[hsl(var(--border))]" />
+                <button
+                  type="button"
+                  onClick={toggleExpanded}
+                  className="p-1 rounded text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]"
+                >
+                  <ChevronUp className="w-4 h-4" />
+                </button>
+              </div>
             )}
-
-            {/* Volume toggle */}
-            <div className="relative hidden sm:inline-flex items-center">
-              <button
-                type="button"
-                onClick={toggleMute}
-                aria-label={isMuted ? 'Unmute (M)' : 'Mute (M)'}
-                className="p-1.5 text-stone-500 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-200/60 dark:hover:bg-stone-800/60 rounded-lg transition-colors"
-              >
-                {isMuted || volume === 0 ? (
-                  <VolumeX className="w-4 h-4 text-stone-400" />
-                ) : (
-                  <Volume2 className="w-4 h-4" />
-                )}
-              </button>
-            </div>
-
-            {/* Dismiss Player */}
-            <button
-              type="button"
-              onClick={closePlayer}
-              aria-label="Close audio player"
-              title="Close player"
-              className="p-1.5 text-stone-400 hover:text-stone-700 dark:hover:text-stone-200 hover:bg-stone-200/60 dark:hover:bg-stone-800/60 rounded-lg transition-colors"
-            >
-              <X className="w-4 h-4" />
-            </button>
           </div>
+
+          {/* Controls — only visible when expanded */}
+          {isExpanded && (
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] font-mono text-[hsl(var(--muted-foreground))]">
+                  {formatTime(currentTime)}
+                </span>
+                
+                <div className="flex items-center justify-center gap-4 sm:gap-6">
+                  <button
+                    onClick={() => seek(currentTime - 10)}
+                    className="p-2 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
+                    aria-label="Rewind 10 seconds"
+                  >
+                    <SkipBack className="w-5 h-5 fill-current" />
+                  </button>
+                  
+                  <button
+                    onClick={togglePlay}
+                    className="w-12 h-12 rounded-full bg-[hsl(var(--foreground))] text-[hsl(var(--background))] flex items-center justify-center shadow-md hover:scale-105 active:scale-95 transition-all"
+                  >
+                    {isPlaying ? <Pause className="w-5 h-5 fill-current" /> : <Play className="w-5 h-5 fill-current ml-1" />}
+                  </button>
+                  
+                  <button
+                    onClick={() => seek(currentTime + 10)}
+                    className="p-2 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
+                    aria-label="Skip forward 10 seconds"
+                  >
+                    <SkipForward className="w-5 h-5 fill-current" />
+                  </button>
+                </div>
+                
+                <span className="text-[11px] font-mono text-[hsl(var(--muted-foreground))] text-right">
+                  -{formatTime(duration - currentTime)}
+                </span>
+              </div>
+
+              {/* Bottom toolbar */}
+              <div className="flex items-center justify-between pt-2 border-t border-[hsl(var(--border))]">
+                <div className="flex items-center gap-1">
+                  <button
+                    onClick={() => {
+                      const rates = [0.75, 1, 1.25, 1.5, 2];
+                      const next = rates[(rates.indexOf(playbackRate) + 1) % rates.length];
+                      setPlaybackRate(next);
+                    }}
+                    className="px-2 py-1 rounded text-[11px] font-mono font-semibold text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:bg-[hsl(var(--foreground)/0.06)] transition-colors w-10 text-center"
+                  >
+                    {playbackRate}x
+                  </button>
+                  
+                  <button
+                    onClick={() => setIsLooping(!isLooping)}
+                    className={cn(
+                      "p-1.5 rounded transition-colors",
+                      isLooping ? accentColor + " bg-[hsl(var(--foreground)/0.06)]" : "text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))]"
+                    )}
+                    aria-label="Toggle loop"
+                  >
+                    <Repeat className="w-4 h-4" />
+                  </button>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => toggleCompleted(currentTrack.id)}
+                    className={cn(
+                      "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-semibold transition-colors",
+                      isCompleted 
+                        ? "bg-[hsl(var(--primary)/0.15)] text-[hsl(var(--primary))]" 
+                        : "text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--foreground)/0.06)] hover:text-[hsl(var(--foreground))]"
+                    )}
+                  >
+                    <CheckCircle2 className="w-3.5 h-3.5" />
+                    <span className="hidden sm:inline">Completed</span>
+                  </button>
+                  
+                  <div className="h-4 w-px bg-[hsl(var(--border))]" />
+                  
+                  <button
+                    onClick={toggleExpanded}
+                    className="p-1.5 rounded text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
+                  >
+                    <ChevronDown className="w-4 h-4" />
+                  </button>
+                  
+                  <button
+                    onClick={closePlayer}
+                    className="p-1.5 rounded text-[hsl(var(--muted-foreground))] hover:text-red-500 transition-colors"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
+      )}
     </>
   );
 }

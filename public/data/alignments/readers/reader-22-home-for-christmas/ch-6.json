@@ -1,0 +1,4657 @@
+{
+  "sectionId": "reader-22-home-for-christmas-ch-6",
+  "trackNumber": 6,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/217 (S1) Home for Christmas/Track 06.mp3",
+  "totalDuration": 315.977125,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 3.32,
+      "text": "Chapter 3. A sleepless night.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Chapter",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "id": "p1w2",
+          "text": "3.",
+          "start": 0.32,
+          "end": 0.96
+        },
+        {
+          "id": "p1w3",
+          "text": "A",
+          "start": 2.16,
+          "end": 2.18
+        },
+        {
+          "id": "p1w4",
+          "text": "sleepless",
+          "start": 2.18,
+          "end": 2.8
+        },
+        {
+          "id": "p1w5",
+          "text": "night.",
+          "start": 2.8,
+          "end": 3.32
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 5.39,
+      "end": 6.97,
+      "text": "I want to open it.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "I",
+          "start": 5.39,
+          "end": 5.87
+        },
+        {
+          "id": "p2w2",
+          "text": "want",
+          "start": 5.87,
+          "end": 6.09
+        },
+        {
+          "id": "p2w3",
+          "text": "to",
+          "start": 6.09,
+          "end": 6.29
+        },
+        {
+          "id": "p2w4",
+          "text": "open",
+          "start": 6.29,
+          "end": 6.55
+        },
+        {
+          "id": "p2w5",
+          "text": "it.",
+          "start": 6.55,
+          "end": 6.97
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 7.35,
+      "end": 7.85,
+      "text": "Said Vanessa.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Said",
+          "start": 7.35,
+          "end": 7.69
+        },
+        {
+          "id": "p3w2",
+          "text": "Vanessa.",
+          "start": 7.69,
+          "end": 7.85
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 9.08,
+      "end": 10.26,
+      "text": "But it's not ours.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "But",
+          "start": 9.08,
+          "end": 9.34
+        },
+        {
+          "id": "p4w2",
+          "text": "it's",
+          "start": 9.34,
+          "end": 9.64
+        },
+        {
+          "id": "p4w3",
+          "text": "not",
+          "start": 9.64,
+          "end": 9.9
+        },
+        {
+          "id": "p4w4",
+          "text": "ours.",
+          "start": 9.9,
+          "end": 10.26
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 10.92,
+      "end": 11.56,
+      "text": "Said Haminda.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "Said",
+          "start": 10.92,
+          "end": 11.2
+        },
+        {
+          "id": "p5w2",
+          "text": "Haminda.",
+          "start": 11.2,
+          "end": 11.56
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 12.66,
+      "end": 14.3,
+      "text": "It was one o'clock in the morning,",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "It",
+          "start": 12.66,
+          "end": 12.76
+        },
+        {
+          "id": "p6w2",
+          "text": "was",
+          "start": 12.76,
+          "end": 12.92
+        },
+        {
+          "id": "p6w3",
+          "text": "one",
+          "start": 12.92,
+          "end": 13.26
+        },
+        {
+          "id": "p6w4",
+          "text": "o",
+          "start": 13.26,
+          "end": 13.4
+        },
+        {
+          "id": "p6w5",
+          "text": "'clock",
+          "start": 13.4,
+          "end": 13.68
+        },
+        {
+          "id": "p6w6",
+          "text": "in",
+          "start": 13.68,
+          "end": 13.86
+        },
+        {
+          "id": "p6w7",
+          "text": "the",
+          "start": 13.86,
+          "end": 13.96
+        },
+        {
+          "id": "p6w8",
+          "text": "morning,",
+          "start": 13.96,
+          "end": 14.3
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 14.76,
+      "end": 17.06,
+      "text": "and she was in bed trying to sleep.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "and",
+          "start": 14.76,
+          "end": 14.94
+        },
+        {
+          "id": "p7w2",
+          "text": "she",
+          "start": 14.94,
+          "end": 15.16
+        },
+        {
+          "id": "p7w3",
+          "text": "was",
+          "start": 15.16,
+          "end": 15.3
+        },
+        {
+          "id": "p7w4",
+          "text": "in",
+          "start": 15.3,
+          "end": 15.5
+        },
+        {
+          "id": "p7w5",
+          "text": "bed",
+          "start": 15.5,
+          "end": 15.78
+        },
+        {
+          "id": "p7w6",
+          "text": "trying",
+          "start": 15.78,
+          "end": 16.44
+        },
+        {
+          "id": "p7w7",
+          "text": "to",
+          "start": 16.44,
+          "end": 16.8
+        },
+        {
+          "id": "p7w8",
+          "text": "sleep.",
+          "start": 16.8,
+          "end": 17.06
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 18.29,
+      "end": 22.81,
+      "text": "We've got to be up in less than four hours if we want to get the first ferry.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "We've",
+          "start": 18.29,
+          "end": 18.69
+        },
+        {
+          "id": "p8w2",
+          "text": "got",
+          "start": 18.69,
+          "end": 18.89
+        },
+        {
+          "id": "p8w3",
+          "text": "to",
+          "start": 18.89,
+          "end": 19.13
+        },
+        {
+          "id": "p8w4",
+          "text": "be",
+          "start": 19.13,
+          "end": 19.27
+        },
+        {
+          "id": "p8w5",
+          "text": "up",
+          "start": 19.27,
+          "end": 19.47
+        },
+        {
+          "id": "p8w6",
+          "text": "in",
+          "start": 19.47,
+          "end": 19.67
+        },
+        {
+          "id": "p8w7",
+          "text": "less",
+          "start": 19.67,
+          "end": 19.87
+        },
+        {
+          "id": "p8w8",
+          "text": "than",
+          "start": 19.87,
+          "end": 20.13
+        },
+        {
+          "id": "p8w9",
+          "text": "four",
+          "start": 20.13,
+          "end": 20.55
+        },
+        {
+          "id": "p8w10",
+          "text": "hours",
+          "start": 20.55,
+          "end": 21.01
+        },
+        {
+          "id": "p8w11",
+          "text": "if",
+          "start": 21.01,
+          "end": 21.29
+        },
+        {
+          "id": "p8w12",
+          "text": "we",
+          "start": 21.29,
+          "end": 21.45
+        },
+        {
+          "id": "p8w13",
+          "text": "want",
+          "start": 21.45,
+          "end": 21.65
+        },
+        {
+          "id": "p8w14",
+          "text": "to",
+          "start": 21.65,
+          "end": 21.83
+        },
+        {
+          "id": "p8w15",
+          "text": "get",
+          "start": 21.83,
+          "end": 22.01
+        },
+        {
+          "id": "p8w16",
+          "text": "the",
+          "start": 22.01,
+          "end": 22.21
+        },
+        {
+          "id": "p8w17",
+          "text": "first",
+          "start": 22.21,
+          "end": 22.51
+        },
+        {
+          "id": "p8w18",
+          "text": "ferry.",
+          "start": 22.51,
+          "end": 22.81
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 23.53,
+      "end": 26.11,
+      "text": "So please, go to sleep.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "So",
+          "start": 23.53,
+          "end": 23.93
+        },
+        {
+          "id": "p9w2",
+          "text": "please,",
+          "start": 23.93,
+          "end": 24.35
+        },
+        {
+          "id": "p9w3",
+          "text": "go",
+          "start": 25.33,
+          "end": 25.61
+        },
+        {
+          "id": "p9w4",
+          "text": "to",
+          "start": 25.61,
+          "end": 25.81
+        },
+        {
+          "id": "p9w5",
+          "text": "sleep.",
+          "start": 25.81,
+          "end": 26.11
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 26.9,
+      "end": 32.16,
+      "text": "Vanessa turned away from the briefcase and pulled the blanket over her head.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "Vanessa",
+          "start": 26.9,
+          "end": 27.58
+        },
+        {
+          "id": "p10w2",
+          "text": "turned",
+          "start": 27.58,
+          "end": 28.16
+        },
+        {
+          "id": "p10w3",
+          "text": "away",
+          "start": 28.16,
+          "end": 28.6
+        },
+        {
+          "id": "p10w4",
+          "text": "from",
+          "start": 28.6,
+          "end": 28.86
+        },
+        {
+          "id": "p10w5",
+          "text": "the",
+          "start": 28.86,
+          "end": 29.0
+        },
+        {
+          "id": "p10w6",
+          "text": "briefcase",
+          "start": 29.0,
+          "end": 29.54
+        },
+        {
+          "id": "p10w7",
+          "text": "and",
+          "start": 29.54,
+          "end": 30.12
+        },
+        {
+          "id": "p10w8",
+          "text": "pulled",
+          "start": 30.12,
+          "end": 30.44
+        },
+        {
+          "id": "p10w9",
+          "text": "the",
+          "start": 30.44,
+          "end": 30.66
+        },
+        {
+          "id": "p10w10",
+          "text": "blanket",
+          "start": 30.66,
+          "end": 31.04
+        },
+        {
+          "id": "p10w11",
+          "text": "over",
+          "start": 31.04,
+          "end": 31.54
+        },
+        {
+          "id": "p10w12",
+          "text": "her",
+          "start": 31.54,
+          "end": 31.84
+        },
+        {
+          "id": "p10w13",
+          "text": "head.",
+          "start": 31.84,
+          "end": 32.16
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 33.04,
+      "end": 34.54,
+      "text": "We couldn't open it anyway.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "We",
+          "start": 33.04,
+          "end": 33.42
+        },
+        {
+          "id": "p11w2",
+          "text": "couldn't",
+          "start": 33.42,
+          "end": 33.78
+        },
+        {
+          "id": "p11w3",
+          "text": "open",
+          "start": 33.78,
+          "end": 33.96
+        },
+        {
+          "id": "p11w4",
+          "text": "it",
+          "start": 33.96,
+          "end": 34.24
+        },
+        {
+          "id": "p11w5",
+          "text": "anyway.",
+          "start": 34.24,
+          "end": 34.54
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 35.08,
+      "end": 35.52,
+      "text": "It's locked.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "It's",
+          "start": 35.08,
+          "end": 35.26
+        },
+        {
+          "id": "p12w2",
+          "text": "locked.",
+          "start": 35.26,
+          "end": 35.52
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 36.02,
+      "end": 37.78,
+      "text": "Said Shauna, getting into bed.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Said",
+          "start": 36.02,
+          "end": 36.28
+        },
+        {
+          "id": "p13w2",
+          "text": "Shauna,",
+          "start": 36.28,
+          "end": 36.62
+        },
+        {
+          "id": "p13w3",
+          "text": "getting",
+          "start": 37.04,
+          "end": 37.16
+        },
+        {
+          "id": "p13w4",
+          "text": "into",
+          "start": 37.16,
+          "end": 37.52
+        },
+        {
+          "id": "p13w5",
+          "text": "bed.",
+          "start": 37.52,
+          "end": 37.78
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 38.66,
+      "end": 40.58,
+      "text": "But then she noticed Vanessa's smile.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "But",
+          "start": 38.66,
+          "end": 38.82
+        },
+        {
+          "id": "p14w2",
+          "text": "then",
+          "start": 38.82,
+          "end": 39.06
+        },
+        {
+          "id": "p14w3",
+          "text": "she",
+          "start": 39.06,
+          "end": 39.24
+        },
+        {
+          "id": "p14w4",
+          "text": "noticed",
+          "start": 39.24,
+          "end": 39.58
+        },
+        {
+          "id": "p14w5",
+          "text": "Vanessa's",
+          "start": 39.58,
+          "end": 40.1
+        },
+        {
+          "id": "p14w6",
+          "text": "smile.",
+          "start": 40.1,
+          "end": 40.58
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 41.24,
+      "end": 42.86,
+      "text": "What? Why are you smiling?",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "What?",
+          "start": 41.24,
+          "end": 41.54
+        },
+        {
+          "id": "p15w2",
+          "text": "Why",
+          "start": 42.14,
+          "end": 42.36
+        },
+        {
+          "id": "p15w3",
+          "text": "are",
+          "start": 42.36,
+          "end": 42.48
+        },
+        {
+          "id": "p15w4",
+          "text": "you",
+          "start": 42.48,
+          "end": 42.6
+        },
+        {
+          "id": "p15w5",
+          "text": "smiling?",
+          "start": 42.6,
+          "end": 42.86
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 43.9,
+      "end": 48.42,
+      "text": "Vanessa took a clip from her hair and held it between her fingers.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "Vanessa",
+          "start": 43.9,
+          "end": 44.32
+        },
+        {
+          "id": "p16w2",
+          "text": "took",
+          "start": 44.32,
+          "end": 45.04
+        },
+        {
+          "id": "p16w3",
+          "text": "a",
+          "start": 45.04,
+          "end": 45.24
+        },
+        {
+          "id": "p16w4",
+          "text": "clip",
+          "start": 45.24,
+          "end": 45.6
+        },
+        {
+          "id": "p16w5",
+          "text": "from",
+          "start": 45.6,
+          "end": 45.92
+        },
+        {
+          "id": "p16w6",
+          "text": "her",
+          "start": 45.92,
+          "end": 46.14
+        },
+        {
+          "id": "p16w7",
+          "text": "hair",
+          "start": 46.14,
+          "end": 46.46
+        },
+        {
+          "id": "p16w8",
+          "text": "and",
+          "start": 46.46,
+          "end": 47.0
+        },
+        {
+          "id": "p16w9",
+          "text": "held",
+          "start": 47.0,
+          "end": 47.28
+        },
+        {
+          "id": "p16w10",
+          "text": "it",
+          "start": 47.28,
+          "end": 47.52
+        },
+        {
+          "id": "p16w11",
+          "text": "between",
+          "start": 47.52,
+          "end": 47.76
+        },
+        {
+          "id": "p16w12",
+          "text": "her",
+          "start": 47.76,
+          "end": 48.1
+        },
+        {
+          "id": "p16w13",
+          "text": "fingers.",
+          "start": 48.1,
+          "end": 48.42
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 49.08,
+      "end": 50.54,
+      "text": "That'll never work.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "That'll",
+          "start": 49.08,
+          "end": 49.74
+        },
+        {
+          "id": "p17w2",
+          "text": "never",
+          "start": 49.74,
+          "end": 49.94
+        },
+        {
+          "id": "p17w3",
+          "text": "work.",
+          "start": 49.94,
+          "end": 50.54
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 50.96,
+      "end": 51.72,
+      "text": "Laughed Shauna.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "Laughed",
+          "start": 50.96,
+          "end": 51.3
+        },
+        {
+          "id": "p18w2",
+          "text": "Shauna.",
+          "start": 51.3,
+          "end": 51.72
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 52.44,
+      "end": 54.06,
+      "text": "It always works in films.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "It",
+          "start": 52.44,
+          "end": 52.88
+        },
+        {
+          "id": "p19w2",
+          "text": "always",
+          "start": 52.88,
+          "end": 53.12
+        },
+        {
+          "id": "p19w3",
+          "text": "works",
+          "start": 53.12,
+          "end": 53.56
+        },
+        {
+          "id": "p19w4",
+          "text": "in",
+          "start": 53.56,
+          "end": 53.82
+        },
+        {
+          "id": "p19w5",
+          "text": "films.",
+          "start": 53.82,
+          "end": 54.06
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 55.0,
+      "end": 55.42,
+      "text": "Go on then.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "Go",
+          "start": 55.0,
+          "end": 55.06
+        },
+        {
+          "id": "p20w2",
+          "text": "on",
+          "start": 55.06,
+          "end": 55.24
+        },
+        {
+          "id": "p20w3",
+          "text": "then.",
+          "start": 55.24,
+          "end": 55.42
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 55.42,
+      "end": 56.58,
+      "text": "Said Shauna.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "Said",
+          "start": 55.42,
+          "end": 56.24
+        },
+        {
+          "id": "p21w2",
+          "text": "Shauna.",
+          "start": 56.24,
+          "end": 56.58
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 56.92,
+      "end": 57.32,
+      "text": "Do it.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "Do",
+          "start": 56.92,
+          "end": 57.12
+        },
+        {
+          "id": "p22w2",
+          "text": "it.",
+          "start": 57.12,
+          "end": 57.32
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 58.37,
+      "end": 61.25,
+      "text": "Haminda pulled the blankets over her head.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "Haminda",
+          "start": 58.37,
+          "end": 58.89
+        },
+        {
+          "id": "p23w2",
+          "text": "pulled",
+          "start": 58.89,
+          "end": 59.53
+        },
+        {
+          "id": "p23w3",
+          "text": "the",
+          "start": 59.53,
+          "end": 59.81
+        },
+        {
+          "id": "p23w4",
+          "text": "blankets",
+          "start": 59.81,
+          "end": 60.07
+        },
+        {
+          "id": "p23w5",
+          "text": "over",
+          "start": 60.07,
+          "end": 60.65
+        },
+        {
+          "id": "p23w6",
+          "text": "her",
+          "start": 60.65,
+          "end": 60.93
+        },
+        {
+          "id": "p23w7",
+          "text": "head.",
+          "start": 60.93,
+          "end": 61.25
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 62.05,
+      "end": 66.51,
+      "text": "Vanessa worked on one of the locks using her clip as a key.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "Vanessa",
+          "start": 62.05,
+          "end": 62.35
+        },
+        {
+          "id": "p24w2",
+          "text": "worked",
+          "start": 62.35,
+          "end": 63.11
+        },
+        {
+          "id": "p24w3",
+          "text": "on",
+          "start": 63.11,
+          "end": 63.51
+        },
+        {
+          "id": "p24w4",
+          "text": "one",
+          "start": 63.51,
+          "end": 63.73
+        },
+        {
+          "id": "p24w5",
+          "text": "of",
+          "start": 63.73,
+          "end": 63.87
+        },
+        {
+          "id": "p24w6",
+          "text": "the",
+          "start": 63.87,
+          "end": 64.01
+        },
+        {
+          "id": "p24w7",
+          "text": "locks",
+          "start": 64.01,
+          "end": 64.23
+        },
+        {
+          "id": "p24w8",
+          "text": "using",
+          "start": 64.23,
+          "end": 65.01
+        },
+        {
+          "id": "p24w9",
+          "text": "her",
+          "start": 65.01,
+          "end": 65.43
+        },
+        {
+          "id": "p24w10",
+          "text": "clip",
+          "start": 65.43,
+          "end": 65.77
+        },
+        {
+          "id": "p24w11",
+          "text": "as",
+          "start": 65.77,
+          "end": 66.19
+        },
+        {
+          "id": "p24w12",
+          "text": "a",
+          "start": 66.19,
+          "end": 66.29
+        },
+        {
+          "id": "p24w13",
+          "text": "key.",
+          "start": 66.29,
+          "end": 66.51
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 67.21,
+      "end": 67.91,
+      "text": "I knew it.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "I",
+          "start": 67.21,
+          "end": 67.45
+        },
+        {
+          "id": "p25w2",
+          "text": "knew",
+          "start": 67.45,
+          "end": 67.61
+        },
+        {
+          "id": "p25w3",
+          "text": "it.",
+          "start": 67.61,
+          "end": 67.91
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 68.27,
+      "end": 70.01,
+      "text": "Said Shauna after a few minutes.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "Said",
+          "start": 68.27,
+          "end": 68.53
+        },
+        {
+          "id": "p26w2",
+          "text": "Shauna",
+          "start": 68.53,
+          "end": 68.97
+        },
+        {
+          "id": "p26w3",
+          "text": "after",
+          "start": 68.97,
+          "end": 69.41
+        },
+        {
+          "id": "p26w4",
+          "text": "a",
+          "start": 69.41,
+          "end": 69.61
+        },
+        {
+          "id": "p26w5",
+          "text": "few",
+          "start": 69.61,
+          "end": 69.75
+        },
+        {
+          "id": "p26w6",
+          "text": "minutes.",
+          "start": 69.75,
+          "end": 70.01
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 70.39,
+      "end": 71.93,
+      "text": "I didn't think it was going to work.",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "I",
+          "start": 70.39,
+          "end": 70.49
+        },
+        {
+          "id": "p27w2",
+          "text": "didn't",
+          "start": 70.49,
+          "end": 70.75
+        },
+        {
+          "id": "p27w3",
+          "text": "think",
+          "start": 70.75,
+          "end": 70.95
+        },
+        {
+          "id": "p27w4",
+          "text": "it",
+          "start": 70.95,
+          "end": 71.15
+        },
+        {
+          "id": "p27w5",
+          "text": "was",
+          "start": 71.15,
+          "end": 71.25
+        },
+        {
+          "id": "p27w6",
+          "text": "going",
+          "start": 71.25,
+          "end": 71.47
+        },
+        {
+          "id": "p27w7",
+          "text": "to",
+          "start": 71.47,
+          "end": 71.63
+        },
+        {
+          "id": "p27w8",
+          "text": "work.",
+          "start": 71.63,
+          "end": 71.93
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 72.49,
+      "end": 77.83,
+      "text": "But before she could finish her sentence, there was a click and the lock opened.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "But",
+          "start": 72.49,
+          "end": 72.69
+        },
+        {
+          "id": "p28w2",
+          "text": "before",
+          "start": 72.69,
+          "end": 73.21
+        },
+        {
+          "id": "p28w3",
+          "text": "she",
+          "start": 73.21,
+          "end": 73.57
+        },
+        {
+          "id": "p28w4",
+          "text": "could",
+          "start": 73.57,
+          "end": 73.73
+        },
+        {
+          "id": "p28w5",
+          "text": "finish",
+          "start": 73.73,
+          "end": 74.07
+        },
+        {
+          "id": "p28w6",
+          "text": "her",
+          "start": 74.07,
+          "end": 74.29
+        },
+        {
+          "id": "p28w7",
+          "text": "sentence,",
+          "start": 74.29,
+          "end": 74.79
+        },
+        {
+          "id": "p28w8",
+          "text": "there",
+          "start": 75.29,
+          "end": 75.37
+        },
+        {
+          "id": "p28w9",
+          "text": "was",
+          "start": 75.37,
+          "end": 75.49
+        },
+        {
+          "id": "p28w10",
+          "text": "a",
+          "start": 75.49,
+          "end": 75.63
+        },
+        {
+          "id": "p28w11",
+          "text": "click",
+          "start": 75.63,
+          "end": 75.99
+        },
+        {
+          "id": "p28w12",
+          "text": "and",
+          "start": 75.99,
+          "end": 76.83
+        },
+        {
+          "id": "p28w13",
+          "text": "the",
+          "start": 76.83,
+          "end": 77.01
+        },
+        {
+          "id": "p28w14",
+          "text": "lock",
+          "start": 77.01,
+          "end": 77.29
+        },
+        {
+          "id": "p28w15",
+          "text": "opened.",
+          "start": 77.29,
+          "end": 77.83
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 79.05,
+      "end": 80.59,
+      "text": "Haminda sat up in bed.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "Haminda",
+          "start": 79.05,
+          "end": 79.49
+        },
+        {
+          "id": "p29w2",
+          "text": "sat",
+          "start": 79.49,
+          "end": 79.99
+        },
+        {
+          "id": "p29w3",
+          "text": "up",
+          "start": 79.99,
+          "end": 80.25
+        },
+        {
+          "id": "p29w4",
+          "text": "in",
+          "start": 80.25,
+          "end": 80.39
+        },
+        {
+          "id": "p29w5",
+          "text": "bed.",
+          "start": 80.39,
+          "end": 80.59
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 81.61,
+      "end": 83.91,
+      "text": "This didn't seem the right thing to do.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "This",
+          "start": 81.61,
+          "end": 81.93
+        },
+        {
+          "id": "p30w2",
+          "text": "didn't",
+          "start": 81.93,
+          "end": 82.37
+        },
+        {
+          "id": "p30w3",
+          "text": "seem",
+          "start": 82.37,
+          "end": 82.59
+        },
+        {
+          "id": "p30w4",
+          "text": "the",
+          "start": 82.59,
+          "end": 82.81
+        },
+        {
+          "id": "p30w5",
+          "text": "right",
+          "start": 82.81,
+          "end": 83.11
+        },
+        {
+          "id": "p30w6",
+          "text": "thing",
+          "start": 83.11,
+          "end": 83.45
+        },
+        {
+          "id": "p30w7",
+          "text": "to",
+          "start": 83.45,
+          "end": 83.67
+        },
+        {
+          "id": "p30w8",
+          "text": "do.",
+          "start": 83.67,
+          "end": 83.91
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 83.91,
+      "end": 86.19,
+      "text": "But now it was open.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "But",
+          "start": 83.91,
+          "end": 84.85
+        },
+        {
+          "id": "p31w2",
+          "text": "now",
+          "start": 84.85,
+          "end": 85.49
+        },
+        {
+          "id": "p31w3",
+          "text": "it",
+          "start": 85.49,
+          "end": 85.67
+        },
+        {
+          "id": "p31w4",
+          "text": "was",
+          "start": 85.67,
+          "end": 85.81
+        },
+        {
+          "id": "p31w5",
+          "text": "open.",
+          "start": 85.81,
+          "end": 86.19
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 86.79,
+      "end": 88.57,
+      "text": "She wanted to know what was inside.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "She",
+          "start": 86.79,
+          "end": 86.85
+        },
+        {
+          "id": "p32w2",
+          "text": "wanted",
+          "start": 86.85,
+          "end": 87.09
+        },
+        {
+          "id": "p32w3",
+          "text": "to",
+          "start": 87.09,
+          "end": 87.39
+        },
+        {
+          "id": "p32w4",
+          "text": "know",
+          "start": 87.39,
+          "end": 87.65
+        },
+        {
+          "id": "p32w5",
+          "text": "what",
+          "start": 87.65,
+          "end": 87.93
+        },
+        {
+          "id": "p32w6",
+          "text": "was",
+          "start": 87.93,
+          "end": 88.13
+        },
+        {
+          "id": "p32w7",
+          "text": "inside.",
+          "start": 88.13,
+          "end": 88.57
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 89.63,
+      "end": 92.01,
+      "text": "Vanessa soon opened the other lock.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "Vanessa",
+          "start": 89.63,
+          "end": 89.85
+        },
+        {
+          "id": "p33w2",
+          "text": "soon",
+          "start": 89.85,
+          "end": 90.67
+        },
+        {
+          "id": "p33w3",
+          "text": "opened",
+          "start": 90.67,
+          "end": 91.17
+        },
+        {
+          "id": "p33w4",
+          "text": "the",
+          "start": 91.17,
+          "end": 91.45
+        },
+        {
+          "id": "p33w5",
+          "text": "other",
+          "start": 91.45,
+          "end": 91.69
+        },
+        {
+          "id": "p33w6",
+          "text": "lock.",
+          "start": 91.69,
+          "end": 92.01
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 92.89,
+      "end": 95.33,
+      "text": "Slowly she opened the briefcase.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "Slowly",
+          "start": 92.89,
+          "end": 93.27
+        },
+        {
+          "id": "p34w2",
+          "text": "she",
+          "start": 93.27,
+          "end": 94.13
+        },
+        {
+          "id": "p34w3",
+          "text": "opened",
+          "start": 94.13,
+          "end": 94.59
+        },
+        {
+          "id": "p34w4",
+          "text": "the",
+          "start": 94.59,
+          "end": 94.83
+        },
+        {
+          "id": "p34w5",
+          "text": "briefcase.",
+          "start": 94.83,
+          "end": 95.33
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 95.97,
+      "end": 101.43,
+      "text": "Her eyes became big and round when she saw what was inside.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "Her",
+          "start": 95.97,
+          "end": 96.53
+        },
+        {
+          "id": "p35w2",
+          "text": "eyes",
+          "start": 96.53,
+          "end": 96.95
+        },
+        {
+          "id": "p35w3",
+          "text": "became",
+          "start": 96.95,
+          "end": 97.51
+        },
+        {
+          "id": "p35w4",
+          "text": "big",
+          "start": 97.51,
+          "end": 98.11
+        },
+        {
+          "id": "p35w5",
+          "text": "and",
+          "start": 98.11,
+          "end": 98.71
+        },
+        {
+          "id": "p35w6",
+          "text": "round",
+          "start": 98.71,
+          "end": 99.21
+        },
+        {
+          "id": "p35w7",
+          "text": "when",
+          "start": 99.21,
+          "end": 99.89
+        },
+        {
+          "id": "p35w8",
+          "text": "she",
+          "start": 99.89,
+          "end": 100.11
+        },
+        {
+          "id": "p35w9",
+          "text": "saw",
+          "start": 100.11,
+          "end": 100.43
+        },
+        {
+          "id": "p35w10",
+          "text": "what",
+          "start": 100.43,
+          "end": 100.79
+        },
+        {
+          "id": "p35w11",
+          "text": "was",
+          "start": 100.79,
+          "end": 100.99
+        },
+        {
+          "id": "p35w12",
+          "text": "inside.",
+          "start": 100.99,
+          "end": 101.43
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 102.62,
+      "end": 105.06,
+      "text": "Haminda watched their shocked faces.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "Haminda",
+          "start": 102.62,
+          "end": 103.04
+        },
+        {
+          "id": "p36w2",
+          "text": "watched",
+          "start": 103.04,
+          "end": 103.72
+        },
+        {
+          "id": "p36w3",
+          "text": "their",
+          "start": 103.72,
+          "end": 104.18
+        },
+        {
+          "id": "p36w4",
+          "text": "shocked",
+          "start": 104.18,
+          "end": 104.5
+        },
+        {
+          "id": "p36w5",
+          "text": "faces.",
+          "start": 104.5,
+          "end": 105.06
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 106.68,
+      "end": 107.4,
+      "text": "What's in it?",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "What's",
+          "start": 106.68,
+          "end": 107.1
+        },
+        {
+          "id": "p37w2",
+          "text": "in",
+          "start": 107.1,
+          "end": 107.2
+        },
+        {
+          "id": "p37w3",
+          "text": "it?",
+          "start": 107.2,
+          "end": 107.4
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 108.02,
+      "end": 108.46,
+      "text": "Show me.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "Show",
+          "start": 108.02,
+          "end": 108.16
+        },
+        {
+          "id": "p38w2",
+          "text": "me.",
+          "start": 108.16,
+          "end": 108.46
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 109.38,
+      "end": 111.5,
+      "text": "Vanessa turned the case towards her.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "Vanessa",
+          "start": 109.38,
+          "end": 109.68
+        },
+        {
+          "id": "p39w2",
+          "text": "turned",
+          "start": 109.68,
+          "end": 110.26
+        },
+        {
+          "id": "p39w3",
+          "text": "the",
+          "start": 110.26,
+          "end": 110.56
+        },
+        {
+          "id": "p39w4",
+          "text": "case",
+          "start": 110.56,
+          "end": 110.78
+        },
+        {
+          "id": "p39w5",
+          "text": "towards",
+          "start": 110.78,
+          "end": 111.14
+        },
+        {
+          "id": "p39w6",
+          "text": "her.",
+          "start": 111.14,
+          "end": 111.5
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 111.5,
+      "end": 114.0,
+      "text": "The briefcase was full of money.",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "The",
+          "start": 111.5,
+          "end": 112.3
+        },
+        {
+          "id": "p40w2",
+          "text": "briefcase",
+          "start": 112.3,
+          "end": 112.94
+        },
+        {
+          "id": "p40w3",
+          "text": "was",
+          "start": 112.94,
+          "end": 113.16
+        },
+        {
+          "id": "p40w4",
+          "text": "full",
+          "start": 113.16,
+          "end": 113.5
+        },
+        {
+          "id": "p40w5",
+          "text": "of",
+          "start": 113.5,
+          "end": 113.66
+        },
+        {
+          "id": "p40w6",
+          "text": "money.",
+          "start": 113.66,
+          "end": 114.0
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 114.91,
+      "end": 117.13,
+      "text": "After a few moments, Haminda said,",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "After",
+          "start": 114.91,
+          "end": 115.37
+        },
+        {
+          "id": "p41w2",
+          "text": "a",
+          "start": 115.37,
+          "end": 115.53
+        },
+        {
+          "id": "p41w3",
+          "text": "few",
+          "start": 115.53,
+          "end": 115.71
+        },
+        {
+          "id": "p41w4",
+          "text": "moments,",
+          "start": 115.71,
+          "end": 116.21
+        },
+        {
+          "id": "p41w5",
+          "text": "Haminda",
+          "start": 116.49,
+          "end": 116.81
+        },
+        {
+          "id": "p41w6",
+          "text": "said,",
+          "start": 116.81,
+          "end": 117.13
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 118.35,
+      "end": 121.05,
+      "text": "Hundreds of thousands of euros here.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "Hundreds",
+          "start": 118.35,
+          "end": 118.89
+        },
+        {
+          "id": "p42w2",
+          "text": "of",
+          "start": 118.89,
+          "end": 119.15
+        },
+        {
+          "id": "p42w3",
+          "text": "thousands",
+          "start": 119.15,
+          "end": 119.59
+        },
+        {
+          "id": "p42w4",
+          "text": "of",
+          "start": 119.59,
+          "end": 120.05
+        },
+        {
+          "id": "p42w5",
+          "text": "euros",
+          "start": 120.05,
+          "end": 120.43
+        },
+        {
+          "id": "p42w6",
+          "text": "here.",
+          "start": 120.43,
+          "end": 121.05
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 121.59,
+      "end": 122.93,
+      "text": "She laughed nervously.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "She",
+          "start": 121.59,
+          "end": 121.95
+        },
+        {
+          "id": "p43w2",
+          "text": "laughed",
+          "start": 121.95,
+          "end": 122.23
+        },
+        {
+          "id": "p43w3",
+          "text": "nervously.",
+          "start": 122.23,
+          "end": 122.93
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 123.93,
+      "end": 125.83,
+      "text": "I've never seen so much money.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "I've",
+          "start": 123.93,
+          "end": 124.61
+        },
+        {
+          "id": "p44w2",
+          "text": "never",
+          "start": 124.61,
+          "end": 124.71
+        },
+        {
+          "id": "p44w3",
+          "text": "seen",
+          "start": 124.71,
+          "end": 125.05
+        },
+        {
+          "id": "p44w4",
+          "text": "so",
+          "start": 125.05,
+          "end": 125.29
+        },
+        {
+          "id": "p44w5",
+          "text": "much",
+          "start": 125.29,
+          "end": 125.43
+        },
+        {
+          "id": "p44w6",
+          "text": "money.",
+          "start": 125.43,
+          "end": 125.83
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 126.29,
+      "end": 128.65,
+      "text": "There's only one thing we can do now.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "There's",
+          "start": 126.29,
+          "end": 126.97
+        },
+        {
+          "id": "p45w2",
+          "text": "only",
+          "start": 126.97,
+          "end": 127.13
+        },
+        {
+          "id": "p45w3",
+          "text": "one",
+          "start": 127.13,
+          "end": 127.41
+        },
+        {
+          "id": "p45w4",
+          "text": "thing",
+          "start": 127.41,
+          "end": 127.79
+        },
+        {
+          "id": "p45w5",
+          "text": "we",
+          "start": 127.79,
+          "end": 128.01
+        },
+        {
+          "id": "p45w6",
+          "text": "can",
+          "start": 128.01,
+          "end": 128.17
+        },
+        {
+          "id": "p45w7",
+          "text": "do",
+          "start": 128.17,
+          "end": 128.39
+        },
+        {
+          "id": "p45w8",
+          "text": "now.",
+          "start": 128.39,
+          "end": 128.65
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 129.4,
+      "end": 130.56,
+      "text": "What are you doing?",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "What",
+          "start": 129.4,
+          "end": 129.8
+        },
+        {
+          "id": "p46w2",
+          "text": "are",
+          "start": 129.8,
+          "end": 130.02
+        },
+        {
+          "id": "p46w3",
+          "text": "you",
+          "start": 130.02,
+          "end": 130.14
+        },
+        {
+          "id": "p46w4",
+          "text": "doing?",
+          "start": 130.14,
+          "end": 130.56
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 131.0,
+      "end": 135.24,
+      "text": "Vanessa said when she saw Haminda with her mobile phone in her hand.",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "Vanessa",
+          "start": 131.0,
+          "end": 131.2
+        },
+        {
+          "id": "p47w2",
+          "text": "said",
+          "start": 131.2,
+          "end": 131.84
+        },
+        {
+          "id": "p47w3",
+          "text": "when",
+          "start": 131.84,
+          "end": 132.28
+        },
+        {
+          "id": "p47w4",
+          "text": "she",
+          "start": 132.28,
+          "end": 132.46
+        },
+        {
+          "id": "p47w5",
+          "text": "saw",
+          "start": 132.46,
+          "end": 132.7
+        },
+        {
+          "id": "p47w6",
+          "text": "Haminda",
+          "start": 132.7,
+          "end": 133.24
+        },
+        {
+          "id": "p47w7",
+          "text": "with",
+          "start": 133.24,
+          "end": 133.46
+        },
+        {
+          "id": "p47w8",
+          "text": "her",
+          "start": 133.46,
+          "end": 133.64
+        },
+        {
+          "id": "p47w9",
+          "text": "mobile",
+          "start": 133.64,
+          "end": 133.94
+        },
+        {
+          "id": "p47w10",
+          "text": "phone",
+          "start": 133.94,
+          "end": 134.5
+        },
+        {
+          "id": "p47w11",
+          "text": "in",
+          "start": 134.5,
+          "end": 134.7
+        },
+        {
+          "id": "p47w12",
+          "text": "her",
+          "start": 134.7,
+          "end": 134.9
+        },
+        {
+          "id": "p47w13",
+          "text": "hand.",
+          "start": 134.9,
+          "end": 135.24
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 136.05,
+      "end": 137.79,
+      "text": "I'm going to phone the police.",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "I'm",
+          "start": 136.05,
+          "end": 136.53
+        },
+        {
+          "id": "p48w2",
+          "text": "going",
+          "start": 136.53,
+          "end": 136.75
+        },
+        {
+          "id": "p48w3",
+          "text": "to",
+          "start": 136.75,
+          "end": 136.97
+        },
+        {
+          "id": "p48w4",
+          "text": "phone",
+          "start": 136.97,
+          "end": 137.19
+        },
+        {
+          "id": "p48w5",
+          "text": "the",
+          "start": 137.19,
+          "end": 137.47
+        },
+        {
+          "id": "p48w6",
+          "text": "police.",
+          "start": 137.47,
+          "end": 137.79
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 138.45,
+      "end": 139.91,
+      "text": "You can't do that.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "You",
+          "start": 138.45,
+          "end": 139.03
+        },
+        {
+          "id": "p49w2",
+          "text": "can't",
+          "start": 139.03,
+          "end": 139.45
+        },
+        {
+          "id": "p49w3",
+          "text": "do",
+          "start": 139.45,
+          "end": 139.59
+        },
+        {
+          "id": "p49w4",
+          "text": "that.",
+          "start": 139.59,
+          "end": 139.91
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 139.91,
+      "end": 145.29,
+      "text": "Do you realise what a difference this money could make to our lives?",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "Do",
+          "start": 139.91,
+          "end": 140.81
+        },
+        {
+          "id": "p50w2",
+          "text": "you",
+          "start": 140.81,
+          "end": 141.01
+        },
+        {
+          "id": "p50w3",
+          "text": "realise",
+          "start": 141.01,
+          "end": 141.41
+        },
+        {
+          "id": "p50w4",
+          "text": "what",
+          "start": 141.41,
+          "end": 141.85
+        },
+        {
+          "id": "p50w5",
+          "text": "a",
+          "start": 141.85,
+          "end": 141.99
+        },
+        {
+          "id": "p50w6",
+          "text": "difference",
+          "start": 141.99,
+          "end": 142.37
+        },
+        {
+          "id": "p50w7",
+          "text": "this",
+          "start": 142.37,
+          "end": 142.71
+        },
+        {
+          "id": "p50w8",
+          "text": "money",
+          "start": 142.71,
+          "end": 143.05
+        },
+        {
+          "id": "p50w9",
+          "text": "could",
+          "start": 143.05,
+          "end": 143.27
+        },
+        {
+          "id": "p50w10",
+          "text": "make",
+          "start": 143.27,
+          "end": 143.53
+        },
+        {
+          "id": "p50w11",
+          "text": "to",
+          "start": 143.53,
+          "end": 143.73
+        },
+        {
+          "id": "p50w12",
+          "text": "our",
+          "start": 143.73,
+          "end": 143.89
+        },
+        {
+          "id": "p50w13",
+          "text": "lives?",
+          "start": 143.89,
+          "end": 145.29
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 146.04,
+      "end": 147.36,
+      "text": "But it's not ours.",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "But",
+          "start": 146.04,
+          "end": 146.54
+        },
+        {
+          "id": "p51w2",
+          "text": "it's",
+          "start": 146.54,
+          "end": 146.78
+        },
+        {
+          "id": "p51w3",
+          "text": "not",
+          "start": 146.78,
+          "end": 146.98
+        },
+        {
+          "id": "p51w4",
+          "text": "ours.",
+          "start": 146.98,
+          "end": 147.36
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 148.12,
+      "end": 149.84,
+      "text": "We don't know who it is.",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "We",
+          "start": 148.12,
+          "end": 148.58
+        },
+        {
+          "id": "p52w2",
+          "text": "don't",
+          "start": 148.58,
+          "end": 148.86
+        },
+        {
+          "id": "p52w3",
+          "text": "know",
+          "start": 148.86,
+          "end": 149.02
+        },
+        {
+          "id": "p52w4",
+          "text": "who",
+          "start": 149.02,
+          "end": 149.28
+        },
+        {
+          "id": "p52w5",
+          "text": "it",
+          "start": 149.28,
+          "end": 149.46
+        },
+        {
+          "id": "p52w6",
+          "text": "is.",
+          "start": 149.46,
+          "end": 149.84
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 150.4,
+      "end": 152.04,
+      "text": "There's no label or no name.",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "There's",
+          "start": 150.4,
+          "end": 150.62
+        },
+        {
+          "id": "p53w2",
+          "text": "no",
+          "start": 150.62,
+          "end": 150.78
+        },
+        {
+          "id": "p53w3",
+          "text": "label",
+          "start": 150.78,
+          "end": 151.22
+        },
+        {
+          "id": "p53w4",
+          "text": "or",
+          "start": 151.22,
+          "end": 151.46
+        },
+        {
+          "id": "p53w5",
+          "text": "no",
+          "start": 151.46,
+          "end": 151.6
+        },
+        {
+          "id": "p53w6",
+          "text": "name.",
+          "start": 151.6,
+          "end": 152.04
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 152.62,
+      "end": 153.48,
+      "text": "Tell her Shauna.",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "Tell",
+          "start": 152.62,
+          "end": 152.88
+        },
+        {
+          "id": "p54w2",
+          "text": "her",
+          "start": 152.88,
+          "end": 153.14
+        },
+        {
+          "id": "p54w3",
+          "text": "Shauna.",
+          "start": 153.14,
+          "end": 153.48
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 154.59,
+      "end": 158.89,
+      "text": "Shauna, you know we have to go to the police, don't you?",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "Shauna,",
+          "start": 154.59,
+          "end": 155.15
+        },
+        {
+          "id": "p55w2",
+          "text": "you",
+          "start": 156.21,
+          "end": 156.55
+        },
+        {
+          "id": "p55w3",
+          "text": "know",
+          "start": 156.55,
+          "end": 156.79
+        },
+        {
+          "id": "p55w4",
+          "text": "we",
+          "start": 156.79,
+          "end": 157.05
+        },
+        {
+          "id": "p55w5",
+          "text": "have",
+          "start": 157.05,
+          "end": 157.21
+        },
+        {
+          "id": "p55w6",
+          "text": "to",
+          "start": 157.21,
+          "end": 157.35
+        },
+        {
+          "id": "p55w7",
+          "text": "go",
+          "start": 157.35,
+          "end": 157.53
+        },
+        {
+          "id": "p55w8",
+          "text": "to",
+          "start": 157.53,
+          "end": 157.67
+        },
+        {
+          "id": "p55w9",
+          "text": "the",
+          "start": 157.67,
+          "end": 157.77
+        },
+        {
+          "id": "p55w10",
+          "text": "police,",
+          "start": 157.77,
+          "end": 158.05
+        },
+        {
+          "id": "p55w11",
+          "text": "don't",
+          "start": 158.33,
+          "end": 158.65
+        },
+        {
+          "id": "p55w12",
+          "text": "you?",
+          "start": 158.65,
+          "end": 158.89
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 159.17,
+      "end": 159.99,
+      "text": "Said Haminda.",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "Said",
+          "start": 159.17,
+          "end": 159.49
+        },
+        {
+          "id": "p56w2",
+          "text": "Haminda.",
+          "start": 159.49,
+          "end": 159.99
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 160.93,
+      "end": 161.71,
+      "text": "I don't know.",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "I",
+          "start": 160.93,
+          "end": 161.17
+        },
+        {
+          "id": "p57w2",
+          "text": "don't",
+          "start": 161.17,
+          "end": 161.47
+        },
+        {
+          "id": "p57w3",
+          "text": "know.",
+          "start": 161.47,
+          "end": 161.71
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 162.43,
+      "end": 164.95,
+      "text": "My fianc\u00e9 and I really want a honeymoon.",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "My",
+          "start": 162.43,
+          "end": 162.93
+        },
+        {
+          "id": "p58w2",
+          "text": "fianc\u00e9",
+          "start": 162.93,
+          "end": 163.43
+        },
+        {
+          "id": "p58w3",
+          "text": "and",
+          "start": 163.43,
+          "end": 163.63
+        },
+        {
+          "id": "p58w4",
+          "text": "I",
+          "start": 163.63,
+          "end": 163.79
+        },
+        {
+          "id": "p58w5",
+          "text": "really",
+          "start": 163.79,
+          "end": 164.05
+        },
+        {
+          "id": "p58w6",
+          "text": "want",
+          "start": 164.05,
+          "end": 164.37
+        },
+        {
+          "id": "p58w7",
+          "text": "a",
+          "start": 164.37,
+          "end": 164.51
+        },
+        {
+          "id": "p58w8",
+          "text": "honeymoon.",
+          "start": 164.51,
+          "end": 164.95
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 165.67,
+      "end": 167.83,
+      "text": "We could go anywhere in the world with this money.",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "We",
+          "start": 165.67,
+          "end": 165.97
+        },
+        {
+          "id": "p59w2",
+          "text": "could",
+          "start": 165.97,
+          "end": 166.13
+        },
+        {
+          "id": "p59w3",
+          "text": "go",
+          "start": 166.13,
+          "end": 166.29
+        },
+        {
+          "id": "p59w4",
+          "text": "anywhere",
+          "start": 166.29,
+          "end": 166.59
+        },
+        {
+          "id": "p59w5",
+          "text": "in",
+          "start": 166.59,
+          "end": 166.93
+        },
+        {
+          "id": "p59w6",
+          "text": "the",
+          "start": 166.93,
+          "end": 167.03
+        },
+        {
+          "id": "p59w7",
+          "text": "world",
+          "start": 167.03,
+          "end": 167.25
+        },
+        {
+          "id": "p59w8",
+          "text": "with",
+          "start": 167.25,
+          "end": 167.45
+        },
+        {
+          "id": "p59w9",
+          "text": "this",
+          "start": 167.45,
+          "end": 167.61
+        },
+        {
+          "id": "p59w10",
+          "text": "money.",
+          "start": 167.61,
+          "end": 167.83
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 167.83,
+      "end": 172.85,
+      "text": "The Maldives, the Caribbean, New York, San Francisco, anywhere.",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "The",
+          "start": 167.83,
+          "end": 168.45
+        },
+        {
+          "id": "p60w2",
+          "text": "Maldives,",
+          "start": 168.45,
+          "end": 168.95
+        },
+        {
+          "id": "p60w3",
+          "text": "the",
+          "start": 169.33,
+          "end": 169.33
+        },
+        {
+          "id": "p60w4",
+          "text": "Caribbean,",
+          "start": 169.33,
+          "end": 169.61
+        },
+        {
+          "id": "p60w5",
+          "text": "New",
+          "start": 170.55,
+          "end": 170.63
+        },
+        {
+          "id": "p60w6",
+          "text": "York,",
+          "start": 170.63,
+          "end": 171.01
+        },
+        {
+          "id": "p60w7",
+          "text": "San",
+          "start": 171.25,
+          "end": 171.31
+        },
+        {
+          "id": "p60w8",
+          "text": "Francisco,",
+          "start": 171.31,
+          "end": 171.77
+        },
+        {
+          "id": "p60w9",
+          "text": "anywhere.",
+          "start": 172.69,
+          "end": 172.85
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 173.88,
+      "end": 176.28,
+      "text": "At the moment, we're going to stay in my parents' caravan.",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "At",
+          "start": 173.88,
+          "end": 174.24
+        },
+        {
+          "id": "p61w2",
+          "text": "the",
+          "start": 174.24,
+          "end": 174.36
+        },
+        {
+          "id": "p61w3",
+          "text": "moment,",
+          "start": 174.36,
+          "end": 174.66
+        },
+        {
+          "id": "p61w4",
+          "text": "we're",
+          "start": 174.78,
+          "end": 175.04
+        },
+        {
+          "id": "p61w5",
+          "text": "going",
+          "start": 175.04,
+          "end": 175.16
+        },
+        {
+          "id": "p61w6",
+          "text": "to",
+          "start": 175.16,
+          "end": 175.3
+        },
+        {
+          "id": "p61w7",
+          "text": "stay",
+          "start": 175.3,
+          "end": 175.48
+        },
+        {
+          "id": "p61w8",
+          "text": "in",
+          "start": 175.48,
+          "end": 175.58
+        },
+        {
+          "id": "p61w9",
+          "text": "my",
+          "start": 175.58,
+          "end": 175.68
+        },
+        {
+          "id": "p61w10",
+          "text": "parents'",
+          "start": 175.68,
+          "end": 175.96
+        },
+        {
+          "id": "p61w11",
+          "text": "caravan.",
+          "start": 176.12,
+          "end": 176.28
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 177.49,
+      "end": 179.95,
+      "text": "Shauna looked into Haminda's eyes.",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "Shauna",
+          "start": 177.49,
+          "end": 177.95
+        },
+        {
+          "id": "p62w2",
+          "text": "looked",
+          "start": 177.95,
+          "end": 178.55
+        },
+        {
+          "id": "p62w3",
+          "text": "into",
+          "start": 178.55,
+          "end": 178.93
+        },
+        {
+          "id": "p62w4",
+          "text": "Haminda's",
+          "start": 178.93,
+          "end": 179.63
+        },
+        {
+          "id": "p62w5",
+          "text": "eyes.",
+          "start": 179.63,
+          "end": 179.95
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 181.46,
+      "end": 183.14,
+      "text": "We've never had a holiday together.",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "We've",
+          "start": 181.46,
+          "end": 181.84
+        },
+        {
+          "id": "p63w2",
+          "text": "never",
+          "start": 181.84,
+          "end": 181.94
+        },
+        {
+          "id": "p63w3",
+          "text": "had",
+          "start": 181.94,
+          "end": 182.3
+        },
+        {
+          "id": "p63w4",
+          "text": "a",
+          "start": 182.3,
+          "end": 182.42
+        },
+        {
+          "id": "p63w5",
+          "text": "holiday",
+          "start": 182.42,
+          "end": 182.64
+        },
+        {
+          "id": "p63w6",
+          "text": "together.",
+          "start": 182.64,
+          "end": 183.14
+        }
+      ]
+    },
+    {
+      "id": "p64",
+      "start": 184.33,
+      "end": 185.45,
+      "text": "I'm sorry, Haminda.",
+      "words": [
+        {
+          "id": "p64w1",
+          "text": "I'm",
+          "start": 184.33,
+          "end": 184.59
+        },
+        {
+          "id": "p64w2",
+          "text": "sorry,",
+          "start": 184.59,
+          "end": 184.87
+        },
+        {
+          "id": "p64w3",
+          "text": "Haminda.",
+          "start": 184.87,
+          "end": 185.45
+        }
+      ]
+    },
+    {
+      "id": "p65",
+      "start": 186.58,
+      "end": 188.66,
+      "text": "Vanessa held Haminda's hands.",
+      "words": [
+        {
+          "id": "p65w1",
+          "text": "Vanessa",
+          "start": 186.58,
+          "end": 186.92
+        },
+        {
+          "id": "p65w2",
+          "text": "held",
+          "start": 186.92,
+          "end": 187.58
+        },
+        {
+          "id": "p65w3",
+          "text": "Haminda's",
+          "start": 187.58,
+          "end": 188.24
+        },
+        {
+          "id": "p65w4",
+          "text": "hands.",
+          "start": 188.24,
+          "end": 188.66
+        }
+      ]
+    },
+    {
+      "id": "p66",
+      "start": 189.56,
+      "end": 194.88,
+      "text": "Her voice was soft and kind, and Haminda remembered that she was an actress.",
+      "words": [
+        {
+          "id": "p66w1",
+          "text": "Her",
+          "start": 189.56,
+          "end": 189.68
+        },
+        {
+          "id": "p66w2",
+          "text": "voice",
+          "start": 189.68,
+          "end": 190.02
+        },
+        {
+          "id": "p66w3",
+          "text": "was",
+          "start": 190.02,
+          "end": 190.3
+        },
+        {
+          "id": "p66w4",
+          "text": "soft",
+          "start": 190.3,
+          "end": 190.76
+        },
+        {
+          "id": "p66w5",
+          "text": "and",
+          "start": 190.76,
+          "end": 191.14
+        },
+        {
+          "id": "p66w6",
+          "text": "kind,",
+          "start": 191.14,
+          "end": 191.54
+        },
+        {
+          "id": "p66w7",
+          "text": "and",
+          "start": 192.3,
+          "end": 192.34
+        },
+        {
+          "id": "p66w8",
+          "text": "Haminda",
+          "start": 192.34,
+          "end": 192.72
+        },
+        {
+          "id": "p66w9",
+          "text": "remembered",
+          "start": 192.72,
+          "end": 193.38
+        },
+        {
+          "id": "p66w10",
+          "text": "that",
+          "start": 193.38,
+          "end": 194.02
+        },
+        {
+          "id": "p66w11",
+          "text": "she",
+          "start": 194.02,
+          "end": 194.24
+        },
+        {
+          "id": "p66w12",
+          "text": "was",
+          "start": 194.24,
+          "end": 194.44
+        },
+        {
+          "id": "p66w13",
+          "text": "an",
+          "start": 194.44,
+          "end": 194.58
+        },
+        {
+          "id": "p66w14",
+          "text": "actress.",
+          "start": 194.58,
+          "end": 194.88
+        }
+      ]
+    },
+    {
+      "id": "p67",
+      "start": 196.48,
+      "end": 198.22,
+      "text": "You said your dad, Zill.",
+      "words": [
+        {
+          "id": "p67w1",
+          "text": "You",
+          "start": 196.48,
+          "end": 196.88
+        },
+        {
+          "id": "p67w2",
+          "text": "said",
+          "start": 196.88,
+          "end": 197.16
+        },
+        {
+          "id": "p67w3",
+          "text": "your",
+          "start": 197.16,
+          "end": 197.42
+        },
+        {
+          "id": "p67w4",
+          "text": "dad,",
+          "start": 197.42,
+          "end": 197.76
+        },
+        {
+          "id": "p67w5",
+          "text": "Zill.",
+          "start": 198.04,
+          "end": 198.22
+        }
+      ]
+    },
+    {
+      "id": "p68",
+      "start": 198.22,
+      "end": 199.94,
+      "text": "Think about it.",
+      "words": [
+        {
+          "id": "p68w1",
+          "text": "Think",
+          "start": 198.22,
+          "end": 199.3
+        },
+        {
+          "id": "p68w2",
+          "text": "about",
+          "start": 199.3,
+          "end": 199.64
+        },
+        {
+          "id": "p68w3",
+          "text": "it.",
+          "start": 199.64,
+          "end": 199.94
+        }
+      ]
+    },
+    {
+      "id": "p69",
+      "start": 200.5,
+      "end": 203.9,
+      "text": "With this money, you could pay for the best doctors.",
+      "words": [
+        {
+          "id": "p69w1",
+          "text": "With",
+          "start": 200.5,
+          "end": 200.78
+        },
+        {
+          "id": "p69w2",
+          "text": "this",
+          "start": 200.78,
+          "end": 200.98
+        },
+        {
+          "id": "p69w3",
+          "text": "money,",
+          "start": 200.98,
+          "end": 201.34
+        },
+        {
+          "id": "p69w4",
+          "text": "you",
+          "start": 201.76,
+          "end": 202.16
+        },
+        {
+          "id": "p69w5",
+          "text": "could",
+          "start": 202.16,
+          "end": 202.34
+        },
+        {
+          "id": "p69w6",
+          "text": "pay",
+          "start": 202.34,
+          "end": 202.56
+        },
+        {
+          "id": "p69w7",
+          "text": "for",
+          "start": 202.56,
+          "end": 202.76
+        },
+        {
+          "id": "p69w8",
+          "text": "the",
+          "start": 202.76,
+          "end": 202.88
+        },
+        {
+          "id": "p69w9",
+          "text": "best",
+          "start": 202.88,
+          "end": 203.18
+        },
+        {
+          "id": "p69w10",
+          "text": "doctors.",
+          "start": 203.18,
+          "end": 203.9
+        }
+      ]
+    },
+    {
+      "id": "p70",
+      "start": 204.6,
+      "end": 206.7,
+      "text": "Haminda's phone started to ring.",
+      "words": [
+        {
+          "id": "p70w1",
+          "text": "Haminda's",
+          "start": 204.6,
+          "end": 205.28
+        },
+        {
+          "id": "p70w2",
+          "text": "phone",
+          "start": 205.28,
+          "end": 205.54
+        },
+        {
+          "id": "p70w3",
+          "text": "started",
+          "start": 205.54,
+          "end": 206.06
+        },
+        {
+          "id": "p70w4",
+          "text": "to",
+          "start": 206.06,
+          "end": 206.44
+        },
+        {
+          "id": "p70w5",
+          "text": "ring.",
+          "start": 206.44,
+          "end": 206.7
+        }
+      ]
+    },
+    {
+      "id": "p71",
+      "start": 207.92,
+      "end": 210.74,
+      "text": "Slowly, Haminda picked it up and answered.",
+      "words": [
+        {
+          "id": "p71w1",
+          "text": "Slowly,",
+          "start": 207.92,
+          "end": 207.92
+        },
+        {
+          "id": "p71w2",
+          "text": "Haminda",
+          "start": 208.36,
+          "end": 208.78
+        },
+        {
+          "id": "p71w3",
+          "text": "picked",
+          "start": 208.78,
+          "end": 209.18
+        },
+        {
+          "id": "p71w4",
+          "text": "it",
+          "start": 209.18,
+          "end": 209.46
+        },
+        {
+          "id": "p71w5",
+          "text": "up",
+          "start": 209.46,
+          "end": 209.7
+        },
+        {
+          "id": "p71w6",
+          "text": "and",
+          "start": 209.7,
+          "end": 210.3
+        },
+        {
+          "id": "p71w7",
+          "text": "answered.",
+          "start": 210.3,
+          "end": 210.74
+        }
+      ]
+    },
+    {
+      "id": "p72",
+      "start": 212.15,
+      "end": 215.92,
+      "text": "Hello. Oh, hello, Mum. How's Dad?",
+      "words": [
+        {
+          "id": "p72w1",
+          "text": "Hello.",
+          "start": 212.15,
+          "end": 212.47
+        },
+        {
+          "id": "p72w2",
+          "text": "Oh,",
+          "start": 213.66,
+          "end": 213.88
+        },
+        {
+          "id": "p72w3",
+          "text": "hello,",
+          "start": 213.88,
+          "end": 214.24
+        },
+        {
+          "id": "p72w4",
+          "text": "Mum.",
+          "start": 214.26,
+          "end": 214.42
+        },
+        {
+          "id": "p72w5",
+          "text": "How's",
+          "start": 215.32,
+          "end": 215.74
+        },
+        {
+          "id": "p72w6",
+          "text": "Dad?",
+          "start": 215.74,
+          "end": 215.92
+        }
+      ]
+    },
+    {
+      "id": "p73",
+      "start": 217.75,
+      "end": 223.25,
+      "text": "When the phone call finished, ten minutes later, her cheeks were wet with tears.",
+      "words": [
+        {
+          "id": "p73w1",
+          "text": "When",
+          "start": 217.75,
+          "end": 218.05
+        },
+        {
+          "id": "p73w2",
+          "text": "the",
+          "start": 218.05,
+          "end": 218.25
+        },
+        {
+          "id": "p73w3",
+          "text": "phone",
+          "start": 218.25,
+          "end": 218.49
+        },
+        {
+          "id": "p73w4",
+          "text": "call",
+          "start": 218.49,
+          "end": 218.77
+        },
+        {
+          "id": "p73w5",
+          "text": "finished,",
+          "start": 218.77,
+          "end": 219.23
+        },
+        {
+          "id": "p73w6",
+          "text": "ten",
+          "start": 219.73,
+          "end": 220.01
+        },
+        {
+          "id": "p73w7",
+          "text": "minutes",
+          "start": 220.01,
+          "end": 220.27
+        },
+        {
+          "id": "p73w8",
+          "text": "later,",
+          "start": 220.27,
+          "end": 220.71
+        },
+        {
+          "id": "p73w9",
+          "text": "her",
+          "start": 221.49,
+          "end": 221.57
+        },
+        {
+          "id": "p73w10",
+          "text": "cheeks",
+          "start": 221.57,
+          "end": 221.87
+        },
+        {
+          "id": "p73w11",
+          "text": "were",
+          "start": 221.87,
+          "end": 222.35
+        },
+        {
+          "id": "p73w12",
+          "text": "wet",
+          "start": 222.35,
+          "end": 222.69
+        },
+        {
+          "id": "p73w13",
+          "text": "with",
+          "start": 222.69,
+          "end": 222.95
+        },
+        {
+          "id": "p73w14",
+          "text": "tears.",
+          "start": 222.95,
+          "end": 223.25
+        }
+      ]
+    },
+    {
+      "id": "p74",
+      "start": 224.18,
+      "end": 225.56,
+      "text": "What is it, Haminda?",
+      "words": [
+        {
+          "id": "p74w1",
+          "text": "What",
+          "start": 224.18,
+          "end": 224.78
+        },
+        {
+          "id": "p74w2",
+          "text": "is",
+          "start": 224.78,
+          "end": 224.94
+        },
+        {
+          "id": "p74w3",
+          "text": "it,",
+          "start": 224.94,
+          "end": 225.1
+        },
+        {
+          "id": "p74w4",
+          "text": "Haminda?",
+          "start": 225.1,
+          "end": 225.56
+        }
+      ]
+    },
+    {
+      "id": "p75",
+      "start": 226.26,
+      "end": 226.88,
+      "text": "Asked Shauna.",
+      "words": [
+        {
+          "id": "p75w1",
+          "text": "Asked",
+          "start": 226.26,
+          "end": 226.46
+        },
+        {
+          "id": "p75w2",
+          "text": "Shauna.",
+          "start": 226.46,
+          "end": 226.88
+        }
+      ]
+    },
+    {
+      "id": "p76",
+      "start": 226.88,
+      "end": 233.32,
+      "text": "My dad. He's got worse. They're not sure if he will survive.",
+      "words": [
+        {
+          "id": "p76w1",
+          "text": "My",
+          "start": 226.88,
+          "end": 228.0
+        },
+        {
+          "id": "p76w2",
+          "text": "dad.",
+          "start": 228.36,
+          "end": 228.68
+        },
+        {
+          "id": "p76w3",
+          "text": "He's",
+          "start": 229.42,
+          "end": 229.9
+        },
+        {
+          "id": "p76w4",
+          "text": "got",
+          "start": 229.9,
+          "end": 230.04
+        },
+        {
+          "id": "p76w5",
+          "text": "worse.",
+          "start": 230.04,
+          "end": 230.4
+        },
+        {
+          "id": "p76w6",
+          "text": "They're",
+          "start": 231.58,
+          "end": 231.98
+        },
+        {
+          "id": "p76w7",
+          "text": "not",
+          "start": 231.98,
+          "end": 232.1
+        },
+        {
+          "id": "p76w8",
+          "text": "sure",
+          "start": 232.1,
+          "end": 232.5
+        },
+        {
+          "id": "p76w9",
+          "text": "if",
+          "start": 232.5,
+          "end": 232.72
+        },
+        {
+          "id": "p76w10",
+          "text": "he",
+          "start": 232.72,
+          "end": 232.86
+        },
+        {
+          "id": "p76w11",
+          "text": "will",
+          "start": 232.86,
+          "end": 232.98
+        },
+        {
+          "id": "p76w12",
+          "text": "survive.",
+          "start": 232.98,
+          "end": 233.32
+        }
+      ]
+    },
+    {
+      "id": "p77",
+      "start": 235.16,
+      "end": 237.22,
+      "text": "Vanessa closed the briefcase.",
+      "words": [
+        {
+          "id": "p77w1",
+          "text": "Vanessa",
+          "start": 235.16,
+          "end": 235.5
+        },
+        {
+          "id": "p77w2",
+          "text": "closed",
+          "start": 235.5,
+          "end": 236.32
+        },
+        {
+          "id": "p77w3",
+          "text": "the",
+          "start": 236.32,
+          "end": 236.7
+        },
+        {
+          "id": "p77w4",
+          "text": "briefcase.",
+          "start": 236.7,
+          "end": 237.22
+        }
+      ]
+    },
+    {
+      "id": "p78",
+      "start": 237.9,
+      "end": 245.38,
+      "text": "Well, then, you need to get there quickly. If we go to the police now, they'll ask us questions for hours.",
+      "words": [
+        {
+          "id": "p78w1",
+          "text": "Well,",
+          "start": 237.9,
+          "end": 238.5
+        },
+        {
+          "id": "p78w2",
+          "text": "then,",
+          "start": 238.72,
+          "end": 238.74
+        },
+        {
+          "id": "p78w3",
+          "text": "you",
+          "start": 239.16,
+          "end": 239.48
+        },
+        {
+          "id": "p78w4",
+          "text": "need",
+          "start": 239.48,
+          "end": 239.72
+        },
+        {
+          "id": "p78w5",
+          "text": "to",
+          "start": 239.72,
+          "end": 239.94
+        },
+        {
+          "id": "p78w6",
+          "text": "get",
+          "start": 239.94,
+          "end": 240.1
+        },
+        {
+          "id": "p78w7",
+          "text": "there",
+          "start": 240.1,
+          "end": 240.34
+        },
+        {
+          "id": "p78w8",
+          "text": "quickly.",
+          "start": 240.34,
+          "end": 240.6
+        },
+        {
+          "id": "p78w9",
+          "text": "If",
+          "start": 241.4,
+          "end": 241.64
+        },
+        {
+          "id": "p78w10",
+          "text": "we",
+          "start": 241.64,
+          "end": 241.8
+        },
+        {
+          "id": "p78w11",
+          "text": "go",
+          "start": 241.8,
+          "end": 241.98
+        },
+        {
+          "id": "p78w12",
+          "text": "to",
+          "start": 241.98,
+          "end": 242.12
+        },
+        {
+          "id": "p78w13",
+          "text": "the",
+          "start": 242.12,
+          "end": 242.26
+        },
+        {
+          "id": "p78w14",
+          "text": "police",
+          "start": 242.26,
+          "end": 242.48
+        },
+        {
+          "id": "p78w15",
+          "text": "now,",
+          "start": 242.48,
+          "end": 242.94
+        },
+        {
+          "id": "p78w16",
+          "text": "they'll",
+          "start": 243.4,
+          "end": 243.64
+        },
+        {
+          "id": "p78w17",
+          "text": "ask",
+          "start": 243.64,
+          "end": 243.84
+        },
+        {
+          "id": "p78w18",
+          "text": "us",
+          "start": 243.84,
+          "end": 244.04
+        },
+        {
+          "id": "p78w19",
+          "text": "questions",
+          "start": 244.04,
+          "end": 244.4
+        },
+        {
+          "id": "p78w20",
+          "text": "for",
+          "start": 244.4,
+          "end": 244.88
+        },
+        {
+          "id": "p78w21",
+          "text": "hours.",
+          "start": 244.88,
+          "end": 245.38
+        }
+      ]
+    },
+    {
+      "id": "p79",
+      "start": 246.91,
+      "end": 247.53,
+      "text": "Okay.",
+      "words": [
+        {
+          "id": "p79w1",
+          "text": "Okay.",
+          "start": 246.91,
+          "end": 247.53
+        }
+      ]
+    },
+    {
+      "id": "p80",
+      "start": 248.21,
+      "end": 249.23,
+      "text": "Said Haminda quietly.",
+      "words": [
+        {
+          "id": "p80w1",
+          "text": "Said",
+          "start": 248.21,
+          "end": 248.47
+        },
+        {
+          "id": "p80w2",
+          "text": "Haminda",
+          "start": 248.47,
+          "end": 248.89
+        },
+        {
+          "id": "p80w3",
+          "text": "quietly.",
+          "start": 248.89,
+          "end": 249.23
+        }
+      ]
+    },
+    {
+      "id": "p81",
+      "start": 250.46,
+      "end": 251.82,
+      "text": "Maybe not until tomorrow.",
+      "words": [
+        {
+          "id": "p81w1",
+          "text": "Maybe",
+          "start": 250.46,
+          "end": 250.74
+        },
+        {
+          "id": "p81w2",
+          "text": "not",
+          "start": 250.74,
+          "end": 251.1
+        },
+        {
+          "id": "p81w3",
+          "text": "until",
+          "start": 251.1,
+          "end": 251.28
+        },
+        {
+          "id": "p81w4",
+          "text": "tomorrow.",
+          "start": 251.28,
+          "end": 251.82
+        }
+      ]
+    },
+    {
+      "id": "p82",
+      "start": 252.56,
+      "end": 253.4,
+      "text": "Continued, Vanessa.",
+      "words": [
+        {
+          "id": "p82w1",
+          "text": "Continued,",
+          "start": 252.56,
+          "end": 252.84
+        },
+        {
+          "id": "p82w2",
+          "text": "Vanessa.",
+          "start": 252.96,
+          "end": 253.4
+        }
+      ]
+    },
+    {
+      "id": "p83",
+      "start": 254.2,
+      "end": 257.92,
+      "text": "I said okay. We won't go to the police now.",
+      "words": [
+        {
+          "id": "p83w1",
+          "text": "I",
+          "start": 254.2,
+          "end": 254.48
+        },
+        {
+          "id": "p83w2",
+          "text": "said",
+          "start": 254.48,
+          "end": 254.76
+        },
+        {
+          "id": "p83w3",
+          "text": "okay.",
+          "start": 254.76,
+          "end": 255.36
+        },
+        {
+          "id": "p83w4",
+          "text": "We",
+          "start": 256.08,
+          "end": 256.52
+        },
+        {
+          "id": "p83w5",
+          "text": "won't",
+          "start": 256.52,
+          "end": 256.84
+        },
+        {
+          "id": "p83w6",
+          "text": "go",
+          "start": 256.84,
+          "end": 257.0
+        },
+        {
+          "id": "p83w7",
+          "text": "to",
+          "start": 257.0,
+          "end": 257.18
+        },
+        {
+          "id": "p83w8",
+          "text": "the",
+          "start": 257.18,
+          "end": 257.3
+        },
+        {
+          "id": "p83w9",
+          "text": "police",
+          "start": 257.3,
+          "end": 257.52
+        },
+        {
+          "id": "p83w10",
+          "text": "now.",
+          "start": 257.52,
+          "end": 257.92
+        }
+      ]
+    },
+    {
+      "id": "p84",
+      "start": 257.92,
+      "end": 264.04,
+      "text": "But when we get to London, after I've seen my dad, then we'll go. Do you all agree?",
+      "words": [
+        {
+          "id": "p84w1",
+          "text": "But",
+          "start": 257.92,
+          "end": 258.68
+        },
+        {
+          "id": "p84w2",
+          "text": "when",
+          "start": 258.68,
+          "end": 258.9
+        },
+        {
+          "id": "p84w3",
+          "text": "we",
+          "start": 258.9,
+          "end": 259.06
+        },
+        {
+          "id": "p84w4",
+          "text": "get",
+          "start": 259.06,
+          "end": 259.24
+        },
+        {
+          "id": "p84w5",
+          "text": "to",
+          "start": 259.24,
+          "end": 259.44
+        },
+        {
+          "id": "p84w6",
+          "text": "London,",
+          "start": 259.44,
+          "end": 259.64
+        },
+        {
+          "id": "p84w7",
+          "text": "after",
+          "start": 260.14,
+          "end": 260.44
+        },
+        {
+          "id": "p84w8",
+          "text": "I've",
+          "start": 260.44,
+          "end": 260.74
+        },
+        {
+          "id": "p84w9",
+          "text": "seen",
+          "start": 260.74,
+          "end": 260.92
+        },
+        {
+          "id": "p84w10",
+          "text": "my",
+          "start": 260.92,
+          "end": 261.14
+        },
+        {
+          "id": "p84w11",
+          "text": "dad,",
+          "start": 261.14,
+          "end": 261.4
+        },
+        {
+          "id": "p84w12",
+          "text": "then",
+          "start": 261.82,
+          "end": 261.82
+        },
+        {
+          "id": "p84w13",
+          "text": "we'll",
+          "start": 261.82,
+          "end": 262.12
+        },
+        {
+          "id": "p84w14",
+          "text": "go.",
+          "start": 262.12,
+          "end": 262.3
+        },
+        {
+          "id": "p84w15",
+          "text": "Do",
+          "start": 263.24,
+          "end": 263.46
+        },
+        {
+          "id": "p84w16",
+          "text": "you",
+          "start": 263.46,
+          "end": 263.56
+        },
+        {
+          "id": "p84w17",
+          "text": "all",
+          "start": 263.56,
+          "end": 263.7
+        },
+        {
+          "id": "p84w18",
+          "text": "agree?",
+          "start": 263.7,
+          "end": 264.04
+        }
+      ]
+    },
+    {
+      "id": "p85",
+      "start": 265.14,
+      "end": 269.14,
+      "text": "Shauna nodded reluctantly. But Vanessa only said.",
+      "words": [
+        {
+          "id": "p85w1",
+          "text": "Shauna",
+          "start": 265.14,
+          "end": 265.62
+        },
+        {
+          "id": "p85w2",
+          "text": "nodded",
+          "start": 265.62,
+          "end": 266.16
+        },
+        {
+          "id": "p85w3",
+          "text": "reluctantly.",
+          "start": 266.16,
+          "end": 266.56
+        },
+        {
+          "id": "p85w4",
+          "text": "But",
+          "start": 267.84,
+          "end": 267.84
+        },
+        {
+          "id": "p85w5",
+          "text": "Vanessa",
+          "start": 267.84,
+          "end": 268.14
+        },
+        {
+          "id": "p85w6",
+          "text": "only",
+          "start": 268.14,
+          "end": 268.8
+        },
+        {
+          "id": "p85w7",
+          "text": "said.",
+          "start": 268.8,
+          "end": 269.14
+        }
+      ]
+    },
+    {
+      "id": "p86",
+      "start": 269.9,
+      "end": 274.08,
+      "text": "Let's get a few hours' sleep now. We don't want to miss the next ferry.",
+      "words": [
+        {
+          "id": "p86w1",
+          "text": "Let's",
+          "start": 269.9,
+          "end": 270.28
+        },
+        {
+          "id": "p86w2",
+          "text": "get",
+          "start": 270.28,
+          "end": 270.42
+        },
+        {
+          "id": "p86w3",
+          "text": "a",
+          "start": 270.42,
+          "end": 270.56
+        },
+        {
+          "id": "p86w4",
+          "text": "few",
+          "start": 270.56,
+          "end": 270.78
+        },
+        {
+          "id": "p86w5",
+          "text": "hours'",
+          "start": 270.78,
+          "end": 271.12
+        },
+        {
+          "id": "p86w6",
+          "text": "sleep",
+          "start": 271.46,
+          "end": 271.54
+        },
+        {
+          "id": "p86w7",
+          "text": "now.",
+          "start": 271.54,
+          "end": 271.86
+        },
+        {
+          "id": "p86w8",
+          "text": "We",
+          "start": 272.46,
+          "end": 272.64
+        },
+        {
+          "id": "p86w9",
+          "text": "don't",
+          "start": 272.64,
+          "end": 272.92
+        },
+        {
+          "id": "p86w10",
+          "text": "want",
+          "start": 272.92,
+          "end": 273.06
+        },
+        {
+          "id": "p86w11",
+          "text": "to",
+          "start": 273.06,
+          "end": 273.2
+        },
+        {
+          "id": "p86w12",
+          "text": "miss",
+          "start": 273.2,
+          "end": 273.38
+        },
+        {
+          "id": "p86w13",
+          "text": "the",
+          "start": 273.38,
+          "end": 273.54
+        },
+        {
+          "id": "p86w14",
+          "text": "next",
+          "start": 273.54,
+          "end": 273.74
+        },
+        {
+          "id": "p86w15",
+          "text": "ferry.",
+          "start": 273.74,
+          "end": 274.08
+        }
+      ]
+    },
+    {
+      "id": "p87",
+      "start": 275.34,
+      "end": 284.55,
+      "text": "This time, they arrived early and waited in the car. It wasn't snowing, but it was cold, and everything looked very dark.",
+      "words": [
+        {
+          "id": "p87w1",
+          "text": "This",
+          "start": 275.34,
+          "end": 275.72
+        },
+        {
+          "id": "p87w2",
+          "text": "time,",
+          "start": 275.72,
+          "end": 276.04
+        },
+        {
+          "id": "p87w3",
+          "text": "they",
+          "start": 276.3,
+          "end": 276.52
+        },
+        {
+          "id": "p87w4",
+          "text": "arrived",
+          "start": 276.52,
+          "end": 276.82
+        },
+        {
+          "id": "p87w5",
+          "text": "early",
+          "start": 276.82,
+          "end": 277.2
+        },
+        {
+          "id": "p87w6",
+          "text": "and",
+          "start": 277.2,
+          "end": 277.8
+        },
+        {
+          "id": "p87w7",
+          "text": "waited",
+          "start": 277.8,
+          "end": 278.04
+        },
+        {
+          "id": "p87w8",
+          "text": "in",
+          "start": 278.04,
+          "end": 278.36
+        },
+        {
+          "id": "p87w9",
+          "text": "the",
+          "start": 278.36,
+          "end": 278.48
+        },
+        {
+          "id": "p87w10",
+          "text": "car.",
+          "start": 278.48,
+          "end": 278.76
+        },
+        {
+          "id": "p87w11",
+          "text": "It",
+          "start": 279.53,
+          "end": 279.93
+        },
+        {
+          "id": "p87w12",
+          "text": "wasn't",
+          "start": 279.93,
+          "end": 280.31
+        },
+        {
+          "id": "p87w13",
+          "text": "snowing,",
+          "start": 280.31,
+          "end": 280.91
+        },
+        {
+          "id": "p87w14",
+          "text": "but",
+          "start": 281.17,
+          "end": 281.45
+        },
+        {
+          "id": "p87w15",
+          "text": "it",
+          "start": 281.45,
+          "end": 281.55
+        },
+        {
+          "id": "p87w16",
+          "text": "was",
+          "start": 281.55,
+          "end": 281.69
+        },
+        {
+          "id": "p87w17",
+          "text": "cold,",
+          "start": 281.69,
+          "end": 282.13
+        },
+        {
+          "id": "p87w18",
+          "text": "and",
+          "start": 282.63,
+          "end": 282.89
+        },
+        {
+          "id": "p87w19",
+          "text": "everything",
+          "start": 282.89,
+          "end": 283.23
+        },
+        {
+          "id": "p87w20",
+          "text": "looked",
+          "start": 283.23,
+          "end": 283.63
+        },
+        {
+          "id": "p87w21",
+          "text": "very",
+          "start": 283.63,
+          "end": 284.07
+        },
+        {
+          "id": "p87w22",
+          "text": "dark.",
+          "start": 284.07,
+          "end": 284.55
+        }
+      ]
+    },
+    {
+      "id": "p88",
+      "start": 285.5,
+      "end": 291.62,
+      "text": "When they started to drive onto the ferry, Haminda saw the face of the driver of the car behind her.",
+      "words": [
+        {
+          "id": "p88w1",
+          "text": "When",
+          "start": 285.5,
+          "end": 285.84
+        },
+        {
+          "id": "p88w2",
+          "text": "they",
+          "start": 285.84,
+          "end": 286.04
+        },
+        {
+          "id": "p88w3",
+          "text": "started",
+          "start": 286.04,
+          "end": 286.3
+        },
+        {
+          "id": "p88w4",
+          "text": "to",
+          "start": 286.3,
+          "end": 286.6
+        },
+        {
+          "id": "p88w5",
+          "text": "drive",
+          "start": 286.6,
+          "end": 286.94
+        },
+        {
+          "id": "p88w6",
+          "text": "onto",
+          "start": 286.94,
+          "end": 287.2
+        },
+        {
+          "id": "p88w7",
+          "text": "the",
+          "start": 287.2,
+          "end": 287.46
+        },
+        {
+          "id": "p88w8",
+          "text": "ferry,",
+          "start": 287.46,
+          "end": 287.78
+        },
+        {
+          "id": "p88w9",
+          "text": "Haminda",
+          "start": 288.36,
+          "end": 288.7
+        },
+        {
+          "id": "p88w10",
+          "text": "saw",
+          "start": 288.7,
+          "end": 289.06
+        },
+        {
+          "id": "p88w11",
+          "text": "the",
+          "start": 289.06,
+          "end": 289.26
+        },
+        {
+          "id": "p88w12",
+          "text": "face",
+          "start": 289.26,
+          "end": 289.54
+        },
+        {
+          "id": "p88w13",
+          "text": "of",
+          "start": 289.54,
+          "end": 289.7
+        },
+        {
+          "id": "p88w14",
+          "text": "the",
+          "start": 289.7,
+          "end": 289.82
+        },
+        {
+          "id": "p88w15",
+          "text": "driver",
+          "start": 289.82,
+          "end": 290.12
+        },
+        {
+          "id": "p88w16",
+          "text": "of",
+          "start": 290.12,
+          "end": 290.46
+        },
+        {
+          "id": "p88w17",
+          "text": "the",
+          "start": 290.46,
+          "end": 290.58
+        },
+        {
+          "id": "p88w18",
+          "text": "car",
+          "start": 290.58,
+          "end": 290.82
+        },
+        {
+          "id": "p88w19",
+          "text": "behind",
+          "start": 290.82,
+          "end": 291.14
+        },
+        {
+          "id": "p88w20",
+          "text": "her.",
+          "start": 291.14,
+          "end": 291.62
+        }
+      ]
+    },
+    {
+      "id": "p89",
+      "start": 292.56,
+      "end": 293.54,
+      "text": "That's strange.",
+      "words": [
+        {
+          "id": "p89w1",
+          "text": "That's",
+          "start": 292.56,
+          "end": 293.06
+        },
+        {
+          "id": "p89w2",
+          "text": "strange.",
+          "start": 293.06,
+          "end": 293.54
+        }
+      ]
+    },
+    {
+      "id": "p90",
+      "start": 294.1,
+      "end": 294.66,
+      "text": "She thought?",
+      "words": [
+        {
+          "id": "p90w1",
+          "text": "She",
+          "start": 294.1,
+          "end": 294.36
+        },
+        {
+          "id": "p90w2",
+          "text": "thought?",
+          "start": 294.36,
+          "end": 294.66
+        }
+      ]
+    },
+    {
+      "id": "p91",
+      "start": 295.36,
+      "end": 299.02,
+      "text": "It's still dark outside, but he's wearing sunglasses.",
+      "words": [
+        {
+          "id": "p91w1",
+          "text": "It's",
+          "start": 295.36,
+          "end": 296.04
+        },
+        {
+          "id": "p91w2",
+          "text": "still",
+          "start": 296.04,
+          "end": 296.28
+        },
+        {
+          "id": "p91w3",
+          "text": "dark",
+          "start": 296.28,
+          "end": 296.6
+        },
+        {
+          "id": "p91w4",
+          "text": "outside,",
+          "start": 296.6,
+          "end": 297.1
+        },
+        {
+          "id": "p91w5",
+          "text": "but",
+          "start": 297.94,
+          "end": 298.04
+        },
+        {
+          "id": "p91w6",
+          "text": "he's",
+          "start": 298.04,
+          "end": 298.26
+        },
+        {
+          "id": "p91w7",
+          "text": "wearing",
+          "start": 298.26,
+          "end": 298.56
+        },
+        {
+          "id": "p91w8",
+          "text": "sunglasses.",
+          "start": 298.56,
+          "end": 299.02
+        }
+      ]
+    },
+    {
+      "id": "p92",
+      "start": 300.8,
+      "end": 301.64,
+      "text": "Are you okay?",
+      "words": [
+        {
+          "id": "p92w1",
+          "text": "Are",
+          "start": 300.8,
+          "end": 301.06
+        },
+        {
+          "id": "p92w2",
+          "text": "you",
+          "start": 301.06,
+          "end": 301.24
+        },
+        {
+          "id": "p92w3",
+          "text": "okay?",
+          "start": 301.24,
+          "end": 301.64
+        }
+      ]
+    },
+    {
+      "id": "p93",
+      "start": 302.2,
+      "end": 302.84,
+      "text": "Asked Shauna.",
+      "words": [
+        {
+          "id": "p93w1",
+          "text": "Asked",
+          "start": 302.2,
+          "end": 302.46
+        },
+        {
+          "id": "p93w2",
+          "text": "Shauna.",
+          "start": 302.46,
+          "end": 302.84
+        }
+      ]
+    },
+    {
+      "id": "p94",
+      "start": 303.68,
+      "end": 306.02,
+      "text": "I'm cold. That's all.",
+      "words": [
+        {
+          "id": "p94w1",
+          "text": "I'm",
+          "start": 303.68,
+          "end": 304.36
+        },
+        {
+          "id": "p94w2",
+          "text": "cold.",
+          "start": 304.36,
+          "end": 304.94
+        },
+        {
+          "id": "p94w3",
+          "text": "That's",
+          "start": 305.64,
+          "end": 305.84
+        },
+        {
+          "id": "p94w4",
+          "text": "all.",
+          "start": 305.84,
+          "end": 306.02
+        }
+      ]
+    },
+    {
+      "id": "p95",
+      "start": 306.48,
+      "end": 311.39,
+      "text": "Haminda answered. But she didn't seem sure of what she was saying.",
+      "words": [
+        {
+          "id": "p95w1",
+          "text": "Haminda",
+          "start": 306.48,
+          "end": 306.98
+        },
+        {
+          "id": "p95w2",
+          "text": "answered.",
+          "start": 306.98,
+          "end": 307.42
+        },
+        {
+          "id": "p95w3",
+          "text": "But",
+          "start": 308.65,
+          "end": 308.73
+        },
+        {
+          "id": "p95w4",
+          "text": "she",
+          "start": 308.73,
+          "end": 308.91
+        },
+        {
+          "id": "p95w5",
+          "text": "didn't",
+          "start": 308.91,
+          "end": 309.25
+        },
+        {
+          "id": "p95w6",
+          "text": "seem",
+          "start": 309.25,
+          "end": 309.47
+        },
+        {
+          "id": "p95w7",
+          "text": "sure",
+          "start": 309.47,
+          "end": 309.93
+        },
+        {
+          "id": "p95w8",
+          "text": "of",
+          "start": 309.93,
+          "end": 310.47
+        },
+        {
+          "id": "p95w9",
+          "text": "what",
+          "start": 310.47,
+          "end": 310.69
+        },
+        {
+          "id": "p95w10",
+          "text": "she",
+          "start": 310.69,
+          "end": 310.91
+        },
+        {
+          "id": "p95w11",
+          "text": "was",
+          "start": 310.91,
+          "end": 311.05
+        },
+        {
+          "id": "p95w12",
+          "text": "saying.",
+          "start": 311.05,
+          "end": 311.39
+        }
+      ]
+    }
+  ]
+}

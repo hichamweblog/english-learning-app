@@ -168,71 +168,51 @@ export function ReaderBrowser({ initialReaders }: Props) {
       </div>
 
       {/* Reader Book Cards Grid (Literary Bookshelf Look) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
         {paginated.map((reader) => {
           const isCompleted = completedItems[reader.id] || false;
 
           return (
             <div
               key={reader.id}
-              className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs hover:shadow-md transition-all flex flex-col justify-between group hover:border-emerald-600/60 dark:hover:border-emerald-500/60 relative overflow-hidden"
+              className="group relative flex flex-col h-full"
             >
-              {/* Subtle decorative spine stripe */}
-              <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-emerald-700/40 group-hover:bg-emerald-600 transition-colors" />
+              <Link
+                href={`/readers/${reader.id}`}
+                className={cn(
+                  "relative aspect-[2/3] rounded-md shadow-md border-r-2 border-b-[3px] border-[hsl(var(--foreground)/0.15)] flex flex-col justify-between p-4 sm:p-5 transition-all duration-300",
+                  "bg-gradient-to-br from-[hsl(var(--reader-green)/0.8)] to-[hsl(var(--reader-green))]",
+                  "hover:shadow-xl hover:-translate-y-1 hover:border-r-4 hover:border-b-[5px]",
+                  "overflow-hidden"
+                )}
+              >
+                {/* Book Spine Highlight Overlay */}
+                <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-r from-black/20 to-transparent" />
+                <div className="absolute left-2 top-0 bottom-0 w-px bg-white/10" />
 
-              <div className="pl-1">
-                <div className="flex items-center justify-between gap-2 mb-2.5">
-                  <span className="text-[10px] font-sans font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">
-                    {reader.levelLabel}
-                  </span>
-
-                  <div className="flex items-center gap-2">
-                    {reader.hasAudio && (
-                      <span className="text-[11px] text-emerald-700 dark:text-emerald-400 font-mono font-medium flex items-center gap-1 bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded-full">
-                        <Headphones className="w-3 h-3" />
-                        {reader.audioTracksCount} tracks
-                      </span>
+                <div className="relative z-10 flex flex-col h-full justify-between">
+                  {/* Top: Metadata */}
+                  <div className="flex justify-between items-start gap-2">
+                    <span className="text-[9px] font-sans font-bold uppercase tracking-widest text-white/90">
+                      {reader.levelLabel}
+                    </span>
+                    {isCompleted && (
+                      <CheckCircle2 className="w-4 h-4 text-white drop-shadow-sm" />
                     )}
+                  </div>
 
-                    <button
-                      type="button"
-                      onClick={() => toggleCompleted(reader.id)}
-                      aria-label={isCompleted ? 'Mark book incomplete' : 'Mark book complete'}
-                      title={isCompleted ? 'Mark as incomplete' : 'Mark as complete'}
-                      className={cn(
-                        'p-1 rounded-full transition-colors',
-                        isCompleted
-                          ? 'text-emerald-600 bg-emerald-50 dark:bg-emerald-950/40'
-                          : 'text-stone-300 dark:text-stone-700 hover:text-stone-500'
-                      )}
-                    >
-                      <CheckCircle2 className="w-4 h-4" />
-                    </button>
+                  {/* Center/Bottom: Title */}
+                  <div className="mt-auto pt-4">
+                    <h3 className="font-serif text-lg sm:text-xl font-medium text-white leading-tight drop-shadow-sm">
+                      {reader.title}
+                    </h3>
+                    <p className="text-[10px] text-white/70 font-mono mt-2 flex justify-between items-center">
+                      <span>{reader.seriesCode}</span>
+                      {reader.hasAudio && <Headphones className="w-3 h-3 opacity-70" />}
+                    </p>
                   </div>
                 </div>
-
-                <Link
-                  href={`/readers/${reader.id}`}
-                  className="font-serif text-lg font-medium text-stone-900 dark:text-stone-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors line-clamp-2 block"
-                >
-                  {reader.title}
-                </Link>
-                <p className="text-xs text-stone-400 mt-1">
-                  Series Code: {reader.seriesCode}
-                </p>
-              </div>
-
-              <div className="mt-5 pt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between pl-1">
-                <span className="text-xs text-stone-400">
-                  Full text & chapter audio
-                </span>
-                <Link
-                  href={`/readers/${reader.id}`}
-                  className="text-xs font-semibold text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1"
-                >
-                  Read & Listen →
-                </Link>
-              </div>
+              </Link>
             </div>
           );
         })}

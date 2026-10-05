@@ -1,0 +1,97 @@
+{
+  "sectionId": "reader-20-a-dream-come-true-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/223 (S2) A Dream Come True/Track 01.mp3",
+  "totalDuration": 29.9885625,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 8.43,
+      "end": 13.15,
+      "text": "A Dream Come True by Andrea M Hutchinson",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "A",
+          "start": 8.43,
+          "end": 8.87
+        },
+        {
+          "id": "p1w2",
+          "text": "Dream",
+          "start": 8.87,
+          "end": 9.21
+        },
+        {
+          "id": "p1w3",
+          "text": "Come",
+          "start": 9.21,
+          "end": 9.67
+        },
+        {
+          "id": "p1w4",
+          "text": "True",
+          "start": 9.67,
+          "end": 10.17
+        },
+        {
+          "id": "p1w5",
+          "text": "by",
+          "start": 10.17,
+          "end": 11.25
+        },
+        {
+          "id": "p1w6",
+          "text": "Andrea",
+          "start": 11.25,
+          "end": 11.93
+        },
+        {
+          "id": "p1w7",
+          "text": "M",
+          "start": 11.93,
+          "end": 12.49
+        },
+        {
+          "id": "p1w8",
+          "text": "Hutchinson",
+          "start": 12.49,
+          "end": 13.15
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 14.96,
+      "end": 17.12,
+      "text": "CoffeeRide Black Cat Publishing",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "CoffeeRide",
+          "start": 14.96,
+          "end": 15.54
+        },
+        {
+          "id": "p2w2",
+          "text": "Black",
+          "start": 15.54,
+          "end": 16.22
+        },
+        {
+          "id": "p2w3",
+          "text": "Cat",
+          "start": 16.22,
+          "end": 16.56
+        },
+        {
+          "id": "p2w4",
+          "text": "Publishing",
+          "start": 16.56,
+          "end": 17.12
+        }
+      ]
+    }
+  ]
+}

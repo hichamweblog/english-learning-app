@@ -269,6 +269,55 @@ function checkBooks() {
   }
 }
 
+function checkShynaCourses() {
+  const coursesFile = path.resolve('public/data/shyna-courses.json');
+  if (!fs.existsSync(coursesFile)) return;
+
+  const extractedCoursesDir = path.resolve('public/data/extracted/shyna-courses');
+  const courseFiles = fs.existsSync(extractedCoursesDir)
+    ? fs.readdirSync(extractedCoursesDir).filter(f => f.endsWith('.json') && f !== 'index.json')
+    : [];
+
+  console.log(`Validating Espresso English Courses (${courseFiles.length} detailed course files)...`);
+
+  for (const f of courseFiles) {
+    totalFiles++;
+    try {
+      const c = JSON.parse(fs.readFileSync(path.join(extractedCoursesDir, f), 'utf-8'));
+      let valid = true;
+      if (!c.id || !c.title || !c.category || !Array.isArray(c.lessons) || c.lessons.length === 0) {
+        failures.push(`Course file ${f}: missing required metadata or lessons`);
+        valid = false;
+      }
+      if (c.masterPdfPath && !fs.existsSync(path.resolve('public', c.masterPdfPath))) {
+        failures.push(`Course ${c.id}: master PDF not found on disk: ${c.masterPdfPath}`);
+        valid = false;
+      }
+      for (const l of c.lessons) {
+        if (l.hasAudio && l.audioPath && !fs.existsSync(path.resolve('public', l.audioPath))) {
+          failures.push(`Course ${c.id} Lesson ${l.lessonNumber}: missing audio: ${l.audioPath}`);
+          valid = false;
+        }
+        if (l.hasVideo && l.videoPath && !fs.existsSync(path.resolve('public', l.videoPath))) {
+          failures.push(`Course ${c.id} Lesson ${l.lessonNumber}: missing video: ${l.videoPath}`);
+          valid = false;
+        }
+        if (l.pdfPath && !fs.existsSync(path.resolve('public', l.pdfPath))) {
+          failures.push(`Course ${c.id} Lesson ${l.lessonNumber}: missing PDF: ${l.pdfPath}`);
+          valid = false;
+        }
+        if (l.transcriptPath && !fs.existsSync(path.resolve('public', l.transcriptPath))) {
+          failures.push(`Course ${c.id} Lesson ${l.lessonNumber}: missing transcript: ${l.transcriptPath}`);
+          valid = false;
+        }
+      }
+      if (valid) totalPassed++;
+    } catch (err) {
+      failures.push(`Course file ${f}: JSON parse error - ${err.message}`);
+    }
+  }
+}
+
 console.log('=== Extracted Content Validation Suite ===\n');
 
 checkDirectory('daily', 'Daily');
@@ -279,6 +328,7 @@ checkFluentRegular();
 checkEtaw();
 checkReaders();
 checkBooks();
+checkShynaCourses();
 
 console.log('\n==========================================');
 console.log(`Total Extracted Files Checked: ${totalFiles}`);

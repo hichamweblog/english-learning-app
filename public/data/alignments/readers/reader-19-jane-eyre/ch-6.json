@@ -1,0 +1,5567 @@
+{
+  "sectionId": "reader-19-jane-eyre-ch-6",
+  "trackNumber": 6,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/234 (S2) Jane Eyre/486 Jane Eyre Audio/06 Track 6.mp3",
+  "totalDuration": 394.3445,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 10.15,
+      "text": "Part 4. A mysterious visitor. One evening, another visitor came to Thornfield Hall. He",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Part",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "id": "p1w2",
+          "text": "4.",
+          "start": 0.22,
+          "end": 0.62
+        },
+        {
+          "id": "p1w3",
+          "text": "A",
+          "start": 1.74,
+          "end": 1.74
+        },
+        {
+          "id": "p1w4",
+          "text": "mysterious",
+          "start": 1.74,
+          "end": 2.02
+        },
+        {
+          "id": "p1w5",
+          "text": "visitor.",
+          "start": 2.02,
+          "end": 2.9
+        },
+        {
+          "id": "p1w6",
+          "text": "One",
+          "start": 5.41,
+          "end": 5.65
+        },
+        {
+          "id": "p1w7",
+          "text": "evening,",
+          "start": 5.65,
+          "end": 5.95
+        },
+        {
+          "id": "p1w8",
+          "text": "another",
+          "start": 6.49,
+          "end": 6.83
+        },
+        {
+          "id": "p1w9",
+          "text": "visitor",
+          "start": 6.83,
+          "end": 7.17
+        },
+        {
+          "id": "p1w10",
+          "text": "came",
+          "start": 7.17,
+          "end": 7.49
+        },
+        {
+          "id": "p1w11",
+          "text": "to",
+          "start": 7.49,
+          "end": 7.67
+        },
+        {
+          "id": "p1w12",
+          "text": "Thornfield",
+          "start": 7.67,
+          "end": 8.21
+        },
+        {
+          "id": "p1w13",
+          "text": "Hall.",
+          "start": 8.21,
+          "end": 8.61
+        },
+        {
+          "id": "p1w14",
+          "text": "He",
+          "start": 10.01,
+          "end": 10.15
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 10.15,
+      "end": 17.18,
+      "text": "was a well-dressed young man with dark hair. He said that his name was Mr. Mason, and that",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "was",
+          "start": 10.15,
+          "end": 10.25
+        },
+        {
+          "id": "p2w2",
+          "text": "a",
+          "start": 10.25,
+          "end": 10.37
+        },
+        {
+          "id": "p2w3",
+          "text": "well",
+          "start": 10.37,
+          "end": 10.59
+        },
+        {
+          "id": "p2w4",
+          "text": "-dressed",
+          "start": 10.59,
+          "end": 10.95
+        },
+        {
+          "id": "p2w5",
+          "text": "young",
+          "start": 10.95,
+          "end": 11.37
+        },
+        {
+          "id": "p2w6",
+          "text": "man",
+          "start": 11.37,
+          "end": 11.77
+        },
+        {
+          "id": "p2w7",
+          "text": "with",
+          "start": 11.77,
+          "end": 11.99
+        },
+        {
+          "id": "p2w8",
+          "text": "dark",
+          "start": 11.99,
+          "end": 12.29
+        },
+        {
+          "id": "p2w9",
+          "text": "hair.",
+          "start": 12.29,
+          "end": 12.67
+        },
+        {
+          "id": "p2w10",
+          "text": "He",
+          "start": 13.8,
+          "end": 14.12
+        },
+        {
+          "id": "p2w11",
+          "text": "said",
+          "start": 14.12,
+          "end": 14.34
+        },
+        {
+          "id": "p2w12",
+          "text": "that",
+          "start": 14.34,
+          "end": 14.52
+        },
+        {
+          "id": "p2w13",
+          "text": "his",
+          "start": 14.52,
+          "end": 14.68
+        },
+        {
+          "id": "p2w14",
+          "text": "name",
+          "start": 14.68,
+          "end": 14.92
+        },
+        {
+          "id": "p2w15",
+          "text": "was",
+          "start": 14.92,
+          "end": 15.18
+        },
+        {
+          "id": "p2w16",
+          "text": "Mr.",
+          "start": 15.18,
+          "end": 15.4
+        },
+        {
+          "id": "p2w17",
+          "text": "Mason,",
+          "start": 15.76,
+          "end": 15.76
+        },
+        {
+          "id": "p2w18",
+          "text": "and",
+          "start": 16.8,
+          "end": 17.02
+        },
+        {
+          "id": "p2w19",
+          "text": "that",
+          "start": 17.02,
+          "end": 17.18
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 17.18,
+      "end": 23.71,
+      "text": "he and Mr. Rochester were old friends. But Mr. Rochester looked alarmed when he saw him.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "he",
+          "start": 17.18,
+          "end": 17.42
+        },
+        {
+          "id": "p3w2",
+          "text": "and",
+          "start": 17.42,
+          "end": 17.62
+        },
+        {
+          "id": "p3w3",
+          "text": "Mr.",
+          "start": 17.62,
+          "end": 17.88
+        },
+        {
+          "id": "p3w4",
+          "text": "Rochester",
+          "start": 18.1,
+          "end": 18.12
+        },
+        {
+          "id": "p3w5",
+          "text": "were",
+          "start": 18.12,
+          "end": 18.62
+        },
+        {
+          "id": "p3w6",
+          "text": "old",
+          "start": 18.62,
+          "end": 18.82
+        },
+        {
+          "id": "p3w7",
+          "text": "friends.",
+          "start": 18.82,
+          "end": 19.12
+        },
+        {
+          "id": "p3w8",
+          "text": "But",
+          "start": 20.59,
+          "end": 21.01
+        },
+        {
+          "id": "p3w9",
+          "text": "Mr.",
+          "start": 21.01,
+          "end": 21.19
+        },
+        {
+          "id": "p3w10",
+          "text": "Rochester",
+          "start": 21.45,
+          "end": 21.71
+        },
+        {
+          "id": "p3w11",
+          "text": "looked",
+          "start": 21.71,
+          "end": 22.09
+        },
+        {
+          "id": "p3w12",
+          "text": "alarmed",
+          "start": 22.09,
+          "end": 22.55
+        },
+        {
+          "id": "p3w13",
+          "text": "when",
+          "start": 22.55,
+          "end": 23.11
+        },
+        {
+          "id": "p3w14",
+          "text": "he",
+          "start": 23.11,
+          "end": 23.27
+        },
+        {
+          "id": "p3w15",
+          "text": "saw",
+          "start": 23.27,
+          "end": 23.47
+        },
+        {
+          "id": "p3w16",
+          "text": "him.",
+          "start": 23.47,
+          "end": 23.71
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 24.74,
+      "end": 30.89,
+      "text": "His face turned white. Mr. Rochester and Mr. Mason talked for a long time that night.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "His",
+          "start": 24.74,
+          "end": 24.82
+        },
+        {
+          "id": "p4w2",
+          "text": "face",
+          "start": 24.82,
+          "end": 25.1
+        },
+        {
+          "id": "p4w3",
+          "text": "turned",
+          "start": 25.1,
+          "end": 25.44
+        },
+        {
+          "id": "p4w4",
+          "text": "white.",
+          "start": 25.44,
+          "end": 25.78
+        },
+        {
+          "id": "p4w5",
+          "text": "Mr.",
+          "start": 27.65,
+          "end": 27.81
+        },
+        {
+          "id": "p4w6",
+          "text": "Rochester",
+          "start": 28.25,
+          "end": 28.25
+        },
+        {
+          "id": "p4w7",
+          "text": "and",
+          "start": 28.25,
+          "end": 28.57
+        },
+        {
+          "id": "p4w8",
+          "text": "Mr.",
+          "start": 28.57,
+          "end": 28.69
+        },
+        {
+          "id": "p4w9",
+          "text": "Mason",
+          "start": 29.23,
+          "end": 29.23
+        },
+        {
+          "id": "p4w10",
+          "text": "talked",
+          "start": 29.23,
+          "end": 29.51
+        },
+        {
+          "id": "p4w11",
+          "text": "for",
+          "start": 29.51,
+          "end": 29.79
+        },
+        {
+          "id": "p4w12",
+          "text": "a",
+          "start": 29.79,
+          "end": 29.85
+        },
+        {
+          "id": "p4w13",
+          "text": "long",
+          "start": 29.85,
+          "end": 30.03
+        },
+        {
+          "id": "p4w14",
+          "text": "time",
+          "start": 30.03,
+          "end": 30.41
+        },
+        {
+          "id": "p4w15",
+          "text": "that",
+          "start": 30.41,
+          "end": 30.57
+        },
+        {
+          "id": "p4w16",
+          "text": "night.",
+          "start": 30.57,
+          "end": 30.89
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 30.89,
+      "end": 38.82,
+      "text": "They went to bed very late. I woke up suddenly and heard a terrible scream from the room above",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "They",
+          "start": 30.89,
+          "end": 31.49
+        },
+        {
+          "id": "p5w2",
+          "text": "went",
+          "start": 31.78,
+          "end": 32.42
+        },
+        {
+          "id": "p5w3",
+          "text": "to",
+          "start": 32.42,
+          "end": 32.6
+        },
+        {
+          "id": "p5w4",
+          "text": "bed",
+          "start": 32.6,
+          "end": 32.74
+        },
+        {
+          "id": "p5w5",
+          "text": "very",
+          "start": 32.74,
+          "end": 33.02
+        },
+        {
+          "id": "p5w6",
+          "text": "late.",
+          "start": 33.02,
+          "end": 33.32
+        },
+        {
+          "id": "p5w7",
+          "text": "I",
+          "start": 34.76,
+          "end": 34.9
+        },
+        {
+          "id": "p5w8",
+          "text": "woke",
+          "start": 34.9,
+          "end": 35.04
+        },
+        {
+          "id": "p5w9",
+          "text": "up",
+          "start": 35.04,
+          "end": 35.22
+        },
+        {
+          "id": "p5w10",
+          "text": "suddenly",
+          "start": 35.22,
+          "end": 35.62
+        },
+        {
+          "id": "p5w11",
+          "text": "and",
+          "start": 35.62,
+          "end": 36.4
+        },
+        {
+          "id": "p5w12",
+          "text": "heard",
+          "start": 36.4,
+          "end": 36.64
+        },
+        {
+          "id": "p5w13",
+          "text": "a",
+          "start": 36.64,
+          "end": 36.74
+        },
+        {
+          "id": "p5w14",
+          "text": "terrible",
+          "start": 36.74,
+          "end": 37.3
+        },
+        {
+          "id": "p5w15",
+          "text": "scream",
+          "start": 37.3,
+          "end": 37.62
+        },
+        {
+          "id": "p5w16",
+          "text": "from",
+          "start": 37.62,
+          "end": 38.26
+        },
+        {
+          "id": "p5w17",
+          "text": "the",
+          "start": 38.26,
+          "end": 38.44
+        },
+        {
+          "id": "p5w18",
+          "text": "room",
+          "start": 38.44,
+          "end": 38.62
+        },
+        {
+          "id": "p5w19",
+          "text": "above",
+          "start": 38.62,
+          "end": 38.82
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 38.82,
+      "end": 45.91,
+      "text": "my bedroom. Then there was a lot of noise as if people were fighting. There was another",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "my",
+          "start": 38.82,
+          "end": 39.04
+        },
+        {
+          "id": "p6w2",
+          "text": "bedroom.",
+          "start": 39.04,
+          "end": 39.42
+        },
+        {
+          "id": "p6w3",
+          "text": "Then",
+          "start": 41.43,
+          "end": 41.91
+        },
+        {
+          "id": "p6w4",
+          "text": "there",
+          "start": 41.91,
+          "end": 42.07
+        },
+        {
+          "id": "p6w5",
+          "text": "was",
+          "start": 42.07,
+          "end": 42.17
+        },
+        {
+          "id": "p6w6",
+          "text": "a",
+          "start": 42.17,
+          "end": 42.29
+        },
+        {
+          "id": "p6w7",
+          "text": "lot",
+          "start": 42.29,
+          "end": 42.45
+        },
+        {
+          "id": "p6w8",
+          "text": "of",
+          "start": 42.45,
+          "end": 42.57
+        },
+        {
+          "id": "p6w9",
+          "text": "noise",
+          "start": 42.57,
+          "end": 42.83
+        },
+        {
+          "id": "p6w10",
+          "text": "as",
+          "start": 42.83,
+          "end": 43.47
+        },
+        {
+          "id": "p6w11",
+          "text": "if",
+          "start": 43.47,
+          "end": 43.61
+        },
+        {
+          "id": "p6w12",
+          "text": "people",
+          "start": 43.61,
+          "end": 43.83
+        },
+        {
+          "id": "p6w13",
+          "text": "were",
+          "start": 43.83,
+          "end": 44.03
+        },
+        {
+          "id": "p6w14",
+          "text": "fighting.",
+          "start": 44.03,
+          "end": 44.39
+        },
+        {
+          "id": "p6w15",
+          "text": "There",
+          "start": 45.25,
+          "end": 45.47
+        },
+        {
+          "id": "p6w16",
+          "text": "was",
+          "start": 45.47,
+          "end": 45.59
+        },
+        {
+          "id": "p6w17",
+          "text": "another",
+          "start": 45.59,
+          "end": 45.91
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 45.91,
+      "end": 55.98,
+      "text": "loud scream. I heard a voice shout. Rochester, come quickly, help me. I heard doors opening",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "loud",
+          "start": 45.91,
+          "end": 46.25
+        },
+        {
+          "id": "p7w2",
+          "text": "scream.",
+          "start": 46.25,
+          "end": 46.73
+        },
+        {
+          "id": "p7w3",
+          "text": "I",
+          "start": 50.0,
+          "end": 50.02
+        },
+        {
+          "id": "p7w4",
+          "text": "heard",
+          "start": 50.02,
+          "end": 50.18
+        },
+        {
+          "id": "p7w5",
+          "text": "a",
+          "start": 50.18,
+          "end": 50.3
+        },
+        {
+          "id": "p7w6",
+          "text": "voice",
+          "start": 50.3,
+          "end": 50.5
+        },
+        {
+          "id": "p7w7",
+          "text": "shout.",
+          "start": 50.5,
+          "end": 50.78
+        },
+        {
+          "id": "p7w8",
+          "text": "Rochester,",
+          "start": 51.96,
+          "end": 51.96
+        },
+        {
+          "id": "p7w9",
+          "text": "come",
+          "start": 52.36,
+          "end": 52.56
+        },
+        {
+          "id": "p7w10",
+          "text": "quickly,",
+          "start": 52.56,
+          "end": 52.98
+        },
+        {
+          "id": "p7w11",
+          "text": "help",
+          "start": 53.48,
+          "end": 53.64
+        },
+        {
+          "id": "p7w12",
+          "text": "me.",
+          "start": 53.64,
+          "end": 53.98
+        },
+        {
+          "id": "p7w13",
+          "text": "I",
+          "start": 54.74,
+          "end": 55.08
+        },
+        {
+          "id": "p7w14",
+          "text": "heard",
+          "start": 55.08,
+          "end": 55.24
+        },
+        {
+          "id": "p7w15",
+          "text": "doors",
+          "start": 55.24,
+          "end": 55.56
+        },
+        {
+          "id": "p7w16",
+          "text": "opening",
+          "start": 55.56,
+          "end": 55.98
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 55.98,
+      "end": 62.44,
+      "text": "and the sound of someone running. I put on my clothes and opened my door. All the visitors",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "and",
+          "start": 55.98,
+          "end": 56.4
+        },
+        {
+          "id": "p8w2",
+          "text": "the",
+          "start": 56.4,
+          "end": 56.52
+        },
+        {
+          "id": "p8w3",
+          "text": "sound",
+          "start": 56.52,
+          "end": 56.74
+        },
+        {
+          "id": "p8w4",
+          "text": "of",
+          "start": 56.74,
+          "end": 56.9
+        },
+        {
+          "id": "p8w5",
+          "text": "someone",
+          "start": 56.9,
+          "end": 57.24
+        },
+        {
+          "id": "p8w6",
+          "text": "running.",
+          "start": 57.24,
+          "end": 57.46
+        },
+        {
+          "id": "p8w7",
+          "text": "I",
+          "start": 58.36,
+          "end": 58.62
+        },
+        {
+          "id": "p8w8",
+          "text": "put",
+          "start": 58.62,
+          "end": 58.76
+        },
+        {
+          "id": "p8w9",
+          "text": "on",
+          "start": 58.76,
+          "end": 58.9
+        },
+        {
+          "id": "p8w10",
+          "text": "my",
+          "start": 58.9,
+          "end": 59.04
+        },
+        {
+          "id": "p8w11",
+          "text": "clothes",
+          "start": 59.04,
+          "end": 59.32
+        },
+        {
+          "id": "p8w12",
+          "text": "and",
+          "start": 59.32,
+          "end": 59.54
+        },
+        {
+          "id": "p8w13",
+          "text": "opened",
+          "start": 59.54,
+          "end": 59.74
+        },
+        {
+          "id": "p8w14",
+          "text": "my",
+          "start": 59.74,
+          "end": 59.98
+        },
+        {
+          "id": "p8w15",
+          "text": "door.",
+          "start": 59.98,
+          "end": 60.24
+        },
+        {
+          "id": "p8w16",
+          "text": "All",
+          "start": 61.64,
+          "end": 62.12
+        },
+        {
+          "id": "p8w17",
+          "text": "the",
+          "start": 62.12,
+          "end": 62.24
+        },
+        {
+          "id": "p8w18",
+          "text": "visitors",
+          "start": 62.24,
+          "end": 62.44
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 62.44,
+      "end": 69.72,
+      "text": "were awake and standing outside their doors. What happened? They cried. Fire. Who screamed?",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "were",
+          "start": 62.44,
+          "end": 62.72
+        },
+        {
+          "id": "p9w2",
+          "text": "awake",
+          "start": 62.72,
+          "end": 63.06
+        },
+        {
+          "id": "p9w3",
+          "text": "and",
+          "start": 63.06,
+          "end": 63.2
+        },
+        {
+          "id": "p9w4",
+          "text": "standing",
+          "start": 63.2,
+          "end": 63.66
+        },
+        {
+          "id": "p9w5",
+          "text": "outside",
+          "start": 63.66,
+          "end": 63.98
+        },
+        {
+          "id": "p9w6",
+          "text": "their",
+          "start": 63.98,
+          "end": 64.42
+        },
+        {
+          "id": "p9w7",
+          "text": "doors.",
+          "start": 64.42,
+          "end": 64.64
+        },
+        {
+          "id": "p9w8",
+          "text": "What",
+          "start": 65.06,
+          "end": 65.26
+        },
+        {
+          "id": "p9w9",
+          "text": "happened?",
+          "start": 65.26,
+          "end": 65.58
+        },
+        {
+          "id": "p9w10",
+          "text": "They",
+          "start": 66.28,
+          "end": 66.38
+        },
+        {
+          "id": "p9w11",
+          "text": "cried.",
+          "start": 66.38,
+          "end": 66.64
+        },
+        {
+          "id": "p9w12",
+          "text": "Fire.",
+          "start": 67.9,
+          "end": 68.06
+        },
+        {
+          "id": "p9w13",
+          "text": "Who",
+          "start": 69.02,
+          "end": 69.4
+        },
+        {
+          "id": "p9w14",
+          "text": "screamed?",
+          "start": 69.4,
+          "end": 69.72
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 71.2,
+      "end": 76.96,
+      "text": "Mr. Rochester came down the stairs from the attic. His friends crowded around him asking him questions.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "Mr.",
+          "start": 71.2,
+          "end": 71.78
+        },
+        {
+          "id": "p10w2",
+          "text": "Rochester",
+          "start": 72.0,
+          "end": 72.06
+        },
+        {
+          "id": "p10w3",
+          "text": "came",
+          "start": 72.06,
+          "end": 72.56
+        },
+        {
+          "id": "p10w4",
+          "text": "down",
+          "start": 72.56,
+          "end": 72.78
+        },
+        {
+          "id": "p10w5",
+          "text": "the",
+          "start": 72.78,
+          "end": 72.94
+        },
+        {
+          "id": "p10w6",
+          "text": "stairs",
+          "start": 72.94,
+          "end": 73.18
+        },
+        {
+          "id": "p10w7",
+          "text": "from",
+          "start": 73.18,
+          "end": 73.4
+        },
+        {
+          "id": "p10w8",
+          "text": "the",
+          "start": 73.4,
+          "end": 73.48
+        },
+        {
+          "id": "p10w9",
+          "text": "attic.",
+          "start": 73.48,
+          "end": 73.7
+        },
+        {
+          "id": "p10w10",
+          "text": "His",
+          "start": 74.6,
+          "end": 74.74
+        },
+        {
+          "id": "p10w11",
+          "text": "friends",
+          "start": 74.74,
+          "end": 75.1
+        },
+        {
+          "id": "p10w12",
+          "text": "crowded",
+          "start": 75.1,
+          "end": 75.48
+        },
+        {
+          "id": "p10w13",
+          "text": "around",
+          "start": 75.48,
+          "end": 75.94
+        },
+        {
+          "id": "p10w14",
+          "text": "him",
+          "start": 75.94,
+          "end": 76.2
+        },
+        {
+          "id": "p10w15",
+          "text": "asking",
+          "start": 76.2,
+          "end": 76.44
+        },
+        {
+          "id": "p10w16",
+          "text": "him",
+          "start": 76.44,
+          "end": 76.64
+        },
+        {
+          "id": "p10w17",
+          "text": "questions.",
+          "start": 76.64,
+          "end": 76.96
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 77.54,
+      "end": 84.86,
+      "text": "Everything is all right. He told them. But what has happened? Someone asked. One of the servants",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Everything",
+          "start": 77.54,
+          "end": 77.98
+        },
+        {
+          "id": "p11w2",
+          "text": "is",
+          "start": 77.98,
+          "end": 78.46
+        },
+        {
+          "id": "p11w3",
+          "text": "all",
+          "start": 78.46,
+          "end": 78.84
+        },
+        {
+          "id": "p11w4",
+          "text": "right.",
+          "start": 78.84,
+          "end": 79.34
+        },
+        {
+          "id": "p11w5",
+          "text": "He",
+          "start": 79.66,
+          "end": 79.8
+        },
+        {
+          "id": "p11w6",
+          "text": "told",
+          "start": 79.8,
+          "end": 80.0
+        },
+        {
+          "id": "p11w7",
+          "text": "them.",
+          "start": 80.0,
+          "end": 80.38
+        },
+        {
+          "id": "p11w8",
+          "text": "But",
+          "start": 81.12,
+          "end": 81.46
+        },
+        {
+          "id": "p11w9",
+          "text": "what",
+          "start": 81.46,
+          "end": 81.6
+        },
+        {
+          "id": "p11w10",
+          "text": "has",
+          "start": 81.6,
+          "end": 81.76
+        },
+        {
+          "id": "p11w11",
+          "text": "happened?",
+          "start": 81.76,
+          "end": 82.14
+        },
+        {
+          "id": "p11w12",
+          "text": "Someone",
+          "start": 82.62,
+          "end": 82.96
+        },
+        {
+          "id": "p11w13",
+          "text": "asked.",
+          "start": 82.96,
+          "end": 83.32
+        },
+        {
+          "id": "p11w14",
+          "text": "One",
+          "start": 83.86,
+          "end": 84.22
+        },
+        {
+          "id": "p11w15",
+          "text": "of",
+          "start": 84.22,
+          "end": 84.4
+        },
+        {
+          "id": "p11w16",
+          "text": "the",
+          "start": 84.4,
+          "end": 84.56
+        },
+        {
+          "id": "p11w17",
+          "text": "servants",
+          "start": 84.56,
+          "end": 84.86
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 84.86,
+      "end": 92.08,
+      "text": "had a nightmare. That is all. She's a very nervous person. She thought that she saw a ghost,",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "had",
+          "start": 84.86,
+          "end": 85.22
+        },
+        {
+          "id": "p12w2",
+          "text": "a",
+          "start": 85.22,
+          "end": 85.32
+        },
+        {
+          "id": "p12w3",
+          "text": "nightmare.",
+          "start": 85.32,
+          "end": 85.58
+        },
+        {
+          "id": "p12w4",
+          "text": "That",
+          "start": 86.44,
+          "end": 86.6
+        },
+        {
+          "id": "p12w5",
+          "text": "is",
+          "start": 86.6,
+          "end": 86.78
+        },
+        {
+          "id": "p12w6",
+          "text": "all.",
+          "start": 86.78,
+          "end": 87.06
+        },
+        {
+          "id": "p12w7",
+          "text": "She's",
+          "start": 87.78,
+          "end": 88.28
+        },
+        {
+          "id": "p12w8",
+          "text": "a",
+          "start": 88.28,
+          "end": 88.38
+        },
+        {
+          "id": "p12w9",
+          "text": "very",
+          "start": 88.38,
+          "end": 88.76
+        },
+        {
+          "id": "p12w10",
+          "text": "nervous",
+          "start": 88.76,
+          "end": 89.24
+        },
+        {
+          "id": "p12w11",
+          "text": "person.",
+          "start": 89.24,
+          "end": 89.9
+        },
+        {
+          "id": "p12w12",
+          "text": "She",
+          "start": 90.48,
+          "end": 90.8
+        },
+        {
+          "id": "p12w13",
+          "text": "thought",
+          "start": 90.8,
+          "end": 91.04
+        },
+        {
+          "id": "p12w14",
+          "text": "that",
+          "start": 91.04,
+          "end": 91.2
+        },
+        {
+          "id": "p12w15",
+          "text": "she",
+          "start": 91.2,
+          "end": 91.38
+        },
+        {
+          "id": "p12w16",
+          "text": "saw",
+          "start": 91.38,
+          "end": 91.6
+        },
+        {
+          "id": "p12w17",
+          "text": "a",
+          "start": 91.6,
+          "end": 91.74
+        },
+        {
+          "id": "p12w18",
+          "text": "ghost,",
+          "start": 91.74,
+          "end": 92.08
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 92.08,
+      "end": 101.2,
+      "text": "and so she screamed. There is no need to worry. Please go back to bed now. One by one Mr. Rochester's",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "and",
+          "start": 92.08,
+          "end": 92.9
+        },
+        {
+          "id": "p13w2",
+          "text": "so",
+          "start": 92.9,
+          "end": 93.1
+        },
+        {
+          "id": "p13w3",
+          "text": "she",
+          "start": 93.1,
+          "end": 93.26
+        },
+        {
+          "id": "p13w4",
+          "text": "screamed.",
+          "start": 93.26,
+          "end": 93.56
+        },
+        {
+          "id": "p13w5",
+          "text": "There",
+          "start": 94.56,
+          "end": 94.82
+        },
+        {
+          "id": "p13w6",
+          "text": "is",
+          "start": 94.82,
+          "end": 94.98
+        },
+        {
+          "id": "p13w7",
+          "text": "no",
+          "start": 94.98,
+          "end": 95.24
+        },
+        {
+          "id": "p13w8",
+          "text": "need",
+          "start": 95.24,
+          "end": 95.6
+        },
+        {
+          "id": "p13w9",
+          "text": "to",
+          "start": 95.6,
+          "end": 95.8
+        },
+        {
+          "id": "p13w10",
+          "text": "worry.",
+          "start": 95.8,
+          "end": 96.1
+        },
+        {
+          "id": "p13w11",
+          "text": "Please",
+          "start": 96.92,
+          "end": 97.32
+        },
+        {
+          "id": "p13w12",
+          "text": "go",
+          "start": 97.32,
+          "end": 97.66
+        },
+        {
+          "id": "p13w13",
+          "text": "back",
+          "start": 97.66,
+          "end": 97.88
+        },
+        {
+          "id": "p13w14",
+          "text": "to",
+          "start": 97.88,
+          "end": 98.04
+        },
+        {
+          "id": "p13w15",
+          "text": "bed",
+          "start": 98.04,
+          "end": 98.18
+        },
+        {
+          "id": "p13w16",
+          "text": "now.",
+          "start": 98.18,
+          "end": 98.46
+        },
+        {
+          "id": "p13w17",
+          "text": "One",
+          "start": 99.1,
+          "end": 99.46
+        },
+        {
+          "id": "p13w18",
+          "text": "by",
+          "start": 99.46,
+          "end": 99.7
+        },
+        {
+          "id": "p13w19",
+          "text": "one",
+          "start": 99.7,
+          "end": 100.04
+        },
+        {
+          "id": "p13w20",
+          "text": "Mr.",
+          "start": 100.04,
+          "end": 100.68
+        },
+        {
+          "id": "p13w21",
+          "text": "Rochester's",
+          "start": 100.94,
+          "end": 101.2
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 101.2,
+      "end": 108.7,
+      "text": "friends went back to their rooms. I also went back to my room. But soon afterwards, someone",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "friends",
+          "start": 101.2,
+          "end": 101.58
+        },
+        {
+          "id": "p14w2",
+          "text": "went",
+          "start": 101.58,
+          "end": 101.88
+        },
+        {
+          "id": "p14w3",
+          "text": "back",
+          "start": 101.88,
+          "end": 102.18
+        },
+        {
+          "id": "p14w4",
+          "text": "to",
+          "start": 102.18,
+          "end": 102.38
+        },
+        {
+          "id": "p14w5",
+          "text": "their",
+          "start": 102.38,
+          "end": 102.54
+        },
+        {
+          "id": "p14w6",
+          "text": "rooms.",
+          "start": 102.54,
+          "end": 102.76
+        },
+        {
+          "id": "p14w7",
+          "text": "I",
+          "start": 104.25,
+          "end": 104.49
+        },
+        {
+          "id": "p14w8",
+          "text": "also",
+          "start": 104.49,
+          "end": 104.67
+        },
+        {
+          "id": "p14w9",
+          "text": "went",
+          "start": 104.67,
+          "end": 104.99
+        },
+        {
+          "id": "p14w10",
+          "text": "back",
+          "start": 104.99,
+          "end": 105.21
+        },
+        {
+          "id": "p14w11",
+          "text": "to",
+          "start": 105.21,
+          "end": 105.39
+        },
+        {
+          "id": "p14w12",
+          "text": "my",
+          "start": 105.39,
+          "end": 105.51
+        },
+        {
+          "id": "p14w13",
+          "text": "room.",
+          "start": 105.51,
+          "end": 105.73
+        },
+        {
+          "id": "p14w14",
+          "text": "But",
+          "start": 106.72,
+          "end": 106.92
+        },
+        {
+          "id": "p14w15",
+          "text": "soon",
+          "start": 106.92,
+          "end": 107.16
+        },
+        {
+          "id": "p14w16",
+          "text": "afterwards,",
+          "start": 107.16,
+          "end": 107.66
+        },
+        {
+          "id": "p14w17",
+          "text": "someone",
+          "start": 108.2,
+          "end": 108.7
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 108.7,
+      "end": 119.43,
+      "text": "knocked at my door. I opened it and saw Mr. Rochester. Jane, can you come with me? He asked.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "knocked",
+          "start": 108.7,
+          "end": 109.1
+        },
+        {
+          "id": "p15w2",
+          "text": "at",
+          "start": 109.1,
+          "end": 109.4
+        },
+        {
+          "id": "p15w3",
+          "text": "my",
+          "start": 109.4,
+          "end": 109.58
+        },
+        {
+          "id": "p15w4",
+          "text": "door.",
+          "start": 109.58,
+          "end": 109.86
+        },
+        {
+          "id": "p15w5",
+          "text": "I",
+          "start": 112.37,
+          "end": 112.61
+        },
+        {
+          "id": "p15w6",
+          "text": "opened",
+          "start": 112.61,
+          "end": 112.81
+        },
+        {
+          "id": "p15w7",
+          "text": "it",
+          "start": 112.81,
+          "end": 113.17
+        },
+        {
+          "id": "p15w8",
+          "text": "and",
+          "start": 113.17,
+          "end": 113.73
+        },
+        {
+          "id": "p15w9",
+          "text": "saw",
+          "start": 113.73,
+          "end": 113.99
+        },
+        {
+          "id": "p15w10",
+          "text": "Mr.",
+          "start": 113.99,
+          "end": 114.17
+        },
+        {
+          "id": "p15w11",
+          "text": "Rochester.",
+          "start": 114.37,
+          "end": 114.63
+        },
+        {
+          "id": "p15w12",
+          "text": "Jane,",
+          "start": 116.05,
+          "end": 116.47
+        },
+        {
+          "id": "p15w13",
+          "text": "can",
+          "start": 117.35,
+          "end": 117.59
+        },
+        {
+          "id": "p15w14",
+          "text": "you",
+          "start": 117.59,
+          "end": 117.77
+        },
+        {
+          "id": "p15w15",
+          "text": "come",
+          "start": 117.77,
+          "end": 118.03
+        },
+        {
+          "id": "p15w16",
+          "text": "with",
+          "start": 118.03,
+          "end": 118.25
+        },
+        {
+          "id": "p15w17",
+          "text": "me?",
+          "start": 118.25,
+          "end": 118.49
+        },
+        {
+          "id": "p15w18",
+          "text": "He",
+          "start": 118.91,
+          "end": 119.21
+        },
+        {
+          "id": "p15w19",
+          "text": "asked.",
+          "start": 119.21,
+          "end": 119.43
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 119.43,
+      "end": 127.73,
+      "text": "I knew from his voice that something was very wrong. Yes, of course, I said. And I followed",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "I",
+          "start": 119.43,
+          "end": 119.95
+        },
+        {
+          "id": "p16w2",
+          "text": "knew",
+          "start": 120.11,
+          "end": 120.95
+        },
+        {
+          "id": "p16w3",
+          "text": "from",
+          "start": 120.95,
+          "end": 121.15
+        },
+        {
+          "id": "p16w4",
+          "text": "his",
+          "start": 121.15,
+          "end": 121.31
+        },
+        {
+          "id": "p16w5",
+          "text": "voice",
+          "start": 121.31,
+          "end": 121.57
+        },
+        {
+          "id": "p16w6",
+          "text": "that",
+          "start": 121.57,
+          "end": 121.81
+        },
+        {
+          "id": "p16w7",
+          "text": "something",
+          "start": 121.81,
+          "end": 122.11
+        },
+        {
+          "id": "p16w8",
+          "text": "was",
+          "start": 122.11,
+          "end": 122.43
+        },
+        {
+          "id": "p16w9",
+          "text": "very",
+          "start": 122.43,
+          "end": 122.79
+        },
+        {
+          "id": "p16w10",
+          "text": "wrong.",
+          "start": 122.79,
+          "end": 123.11
+        },
+        {
+          "id": "p16w11",
+          "text": "Yes,",
+          "start": 124.41,
+          "end": 124.91
+        },
+        {
+          "id": "p16w12",
+          "text": "of",
+          "start": 125.03,
+          "end": 125.13
+        },
+        {
+          "id": "p16w13",
+          "text": "course,",
+          "start": 125.13,
+          "end": 125.31
+        },
+        {
+          "id": "p16w14",
+          "text": "I",
+          "start": 125.81,
+          "end": 126.01
+        },
+        {
+          "id": "p16w15",
+          "text": "said.",
+          "start": 126.01,
+          "end": 126.35
+        },
+        {
+          "id": "p16w16",
+          "text": "And",
+          "start": 126.95,
+          "end": 127.39
+        },
+        {
+          "id": "p16w17",
+          "text": "I",
+          "start": 127.39,
+          "end": 127.51
+        },
+        {
+          "id": "p16w18",
+          "text": "followed",
+          "start": 127.51,
+          "end": 127.73
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 127.73,
+      "end": 135.6,
+      "text": "him down the corridor and up the stairs to the attic. He unlocked the door of the attic, and",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "him",
+          "start": 127.73,
+          "end": 127.95
+        },
+        {
+          "id": "p17w2",
+          "text": "down",
+          "start": 127.95,
+          "end": 128.09
+        },
+        {
+          "id": "p17w3",
+          "text": "the",
+          "start": 128.09,
+          "end": 128.25
+        },
+        {
+          "id": "p17w4",
+          "text": "corridor",
+          "start": 128.25,
+          "end": 128.51
+        },
+        {
+          "id": "p17w5",
+          "text": "and",
+          "start": 128.51,
+          "end": 128.89
+        },
+        {
+          "id": "p17w6",
+          "text": "up",
+          "start": 128.89,
+          "end": 129.13
+        },
+        {
+          "id": "p17w7",
+          "text": "the",
+          "start": 129.13,
+          "end": 129.29
+        },
+        {
+          "id": "p17w8",
+          "text": "stairs",
+          "start": 129.29,
+          "end": 129.57
+        },
+        {
+          "id": "p17w9",
+          "text": "to",
+          "start": 129.57,
+          "end": 129.77
+        },
+        {
+          "id": "p17w10",
+          "text": "the",
+          "start": 129.77,
+          "end": 129.85
+        },
+        {
+          "id": "p17w11",
+          "text": "attic.",
+          "start": 129.85,
+          "end": 130.11
+        },
+        {
+          "id": "p17w12",
+          "text": "He",
+          "start": 131.42,
+          "end": 131.56
+        },
+        {
+          "id": "p17w13",
+          "text": "unlocked",
+          "start": 131.56,
+          "end": 131.84
+        },
+        {
+          "id": "p17w14",
+          "text": "the",
+          "start": 131.84,
+          "end": 132.22
+        },
+        {
+          "id": "p17w15",
+          "text": "door",
+          "start": 132.22,
+          "end": 132.44
+        },
+        {
+          "id": "p17w16",
+          "text": "of",
+          "start": 132.44,
+          "end": 132.58
+        },
+        {
+          "id": "p17w17",
+          "text": "the",
+          "start": 132.58,
+          "end": 132.68
+        },
+        {
+          "id": "p17w18",
+          "text": "attic,",
+          "start": 132.68,
+          "end": 132.98
+        },
+        {
+          "id": "p17w19",
+          "text": "and",
+          "start": 135.22,
+          "end": 135.6
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 135.6,
+      "end": 143.69,
+      "text": "we entered the room. Wait here. He said. I stayed outside the door of another room while",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "we",
+          "start": 135.6,
+          "end": 135.74
+        },
+        {
+          "id": "p18w2",
+          "text": "entered",
+          "start": 135.74,
+          "end": 136.06
+        },
+        {
+          "id": "p18w3",
+          "text": "the",
+          "start": 136.06,
+          "end": 136.36
+        },
+        {
+          "id": "p18w4",
+          "text": "room.",
+          "start": 136.36,
+          "end": 136.56
+        },
+        {
+          "id": "p18w5",
+          "text": "Wait",
+          "start": 137.7,
+          "end": 138.02
+        },
+        {
+          "id": "p18w6",
+          "text": "here.",
+          "start": 138.02,
+          "end": 138.42
+        },
+        {
+          "id": "p18w7",
+          "text": "He",
+          "start": 138.88,
+          "end": 139.06
+        },
+        {
+          "id": "p18w8",
+          "text": "said.",
+          "start": 139.06,
+          "end": 139.3
+        },
+        {
+          "id": "p18w9",
+          "text": "I",
+          "start": 140.75,
+          "end": 140.85
+        },
+        {
+          "id": "p18w10",
+          "text": "stayed",
+          "start": 140.85,
+          "end": 141.13
+        },
+        {
+          "id": "p18w11",
+          "text": "outside",
+          "start": 141.13,
+          "end": 141.51
+        },
+        {
+          "id": "p18w12",
+          "text": "the",
+          "start": 141.51,
+          "end": 141.97
+        },
+        {
+          "id": "p18w13",
+          "text": "door",
+          "start": 141.97,
+          "end": 142.19
+        },
+        {
+          "id": "p18w14",
+          "text": "of",
+          "start": 142.19,
+          "end": 142.35
+        },
+        {
+          "id": "p18w15",
+          "text": "another",
+          "start": 142.35,
+          "end": 142.59
+        },
+        {
+          "id": "p18w16",
+          "text": "room",
+          "start": 142.59,
+          "end": 142.97
+        },
+        {
+          "id": "p18w17",
+          "text": "while",
+          "start": 142.97,
+          "end": 143.69
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 143.69,
+      "end": 160.95,
+      "text": "he unlocked it and went inside. Then from behind this door, I heard a terrible sound. It sounded",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "he",
+          "start": 143.69,
+          "end": 143.95
+        },
+        {
+          "id": "p19w2",
+          "text": "unlocked",
+          "start": 143.95,
+          "end": 144.21
+        },
+        {
+          "id": "p19w3",
+          "text": "it",
+          "start": 144.21,
+          "end": 144.57
+        },
+        {
+          "id": "p19w4",
+          "text": "and",
+          "start": 144.57,
+          "end": 145.51
+        },
+        {
+          "id": "p19w5",
+          "text": "went",
+          "start": 146.85,
+          "end": 147.05
+        },
+        {
+          "id": "p19w6",
+          "text": "inside.",
+          "start": 147.05,
+          "end": 147.41
+        },
+        {
+          "id": "p19w7",
+          "text": "Then",
+          "start": 149.83,
+          "end": 150.13
+        },
+        {
+          "id": "p19w8",
+          "text": "from",
+          "start": 150.13,
+          "end": 150.43
+        },
+        {
+          "id": "p19w9",
+          "text": "behind",
+          "start": 150.43,
+          "end": 150.81
+        },
+        {
+          "id": "p19w10",
+          "text": "this",
+          "start": 150.81,
+          "end": 151.13
+        },
+        {
+          "id": "p19w11",
+          "text": "door,",
+          "start": 151.13,
+          "end": 151.43
+        },
+        {
+          "id": "p19w12",
+          "text": "I",
+          "start": 152.29,
+          "end": 152.59
+        },
+        {
+          "id": "p19w13",
+          "text": "heard",
+          "start": 152.59,
+          "end": 152.75
+        },
+        {
+          "id": "p19w14",
+          "text": "a",
+          "start": 152.75,
+          "end": 152.89
+        },
+        {
+          "id": "p19w15",
+          "text": "terrible",
+          "start": 152.89,
+          "end": 153.49
+        },
+        {
+          "id": "p19w16",
+          "text": "sound.",
+          "start": 153.49,
+          "end": 154.09
+        },
+        {
+          "id": "p19w17",
+          "text": "It",
+          "start": 160.37,
+          "end": 160.71
+        },
+        {
+          "id": "p19w18",
+          "text": "sounded",
+          "start": 160.71,
+          "end": 160.95
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 160.95,
+      "end": 167.46,
+      "text": "like a wounded animal crying with rage. Once again, I heard that crawl frightening laugh.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "like",
+          "start": 160.95,
+          "end": 161.29
+        },
+        {
+          "id": "p20w2",
+          "text": "a",
+          "start": 161.29,
+          "end": 161.43
+        },
+        {
+          "id": "p20w3",
+          "text": "wounded",
+          "start": 161.43,
+          "end": 161.67
+        },
+        {
+          "id": "p20w4",
+          "text": "animal",
+          "start": 161.67,
+          "end": 162.13
+        },
+        {
+          "id": "p20w5",
+          "text": "crying",
+          "start": 162.13,
+          "end": 162.79
+        },
+        {
+          "id": "p20w6",
+          "text": "with",
+          "start": 162.79,
+          "end": 163.17
+        },
+        {
+          "id": "p20w7",
+          "text": "rage.",
+          "start": 163.17,
+          "end": 163.41
+        },
+        {
+          "id": "p20w8",
+          "text": "Once",
+          "start": 164.58,
+          "end": 165.02
+        },
+        {
+          "id": "p20w9",
+          "text": "again,",
+          "start": 165.02,
+          "end": 165.34
+        },
+        {
+          "id": "p20w10",
+          "text": "I",
+          "start": 165.66,
+          "end": 165.78
+        },
+        {
+          "id": "p20w11",
+          "text": "heard",
+          "start": 165.78,
+          "end": 165.92
+        },
+        {
+          "id": "p20w12",
+          "text": "that",
+          "start": 165.92,
+          "end": 166.1
+        },
+        {
+          "id": "p20w13",
+          "text": "crawl",
+          "start": 166.1,
+          "end": 166.46
+        },
+        {
+          "id": "p20w14",
+          "text": "frightening",
+          "start": 166.46,
+          "end": 167.1
+        },
+        {
+          "id": "p20w15",
+          "text": "laugh.",
+          "start": 167.1,
+          "end": 167.46
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 171.0,
+      "end": 177.91,
+      "text": "Was Grace Paul inside that room? Mr. Rochester came out and locked the door again. Are you",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "Was",
+          "start": 171.0,
+          "end": 171.3
+        },
+        {
+          "id": "p21w2",
+          "text": "Grace",
+          "start": 171.3,
+          "end": 171.54
+        },
+        {
+          "id": "p21w3",
+          "text": "Paul",
+          "start": 171.54,
+          "end": 171.92
+        },
+        {
+          "id": "p21w4",
+          "text": "inside",
+          "start": 171.92,
+          "end": 172.22
+        },
+        {
+          "id": "p21w5",
+          "text": "that",
+          "start": 172.22,
+          "end": 172.64
+        },
+        {
+          "id": "p21w6",
+          "text": "room?",
+          "start": 172.64,
+          "end": 172.92
+        },
+        {
+          "id": "p21w7",
+          "text": "Mr.",
+          "start": 174.39,
+          "end": 174.71
+        },
+        {
+          "id": "p21w8",
+          "text": "Rochester",
+          "start": 174.87,
+          "end": 174.89
+        },
+        {
+          "id": "p21w9",
+          "text": "came",
+          "start": 174.89,
+          "end": 175.35
+        },
+        {
+          "id": "p21w10",
+          "text": "out",
+          "start": 175.35,
+          "end": 175.57
+        },
+        {
+          "id": "p21w11",
+          "text": "and",
+          "start": 175.57,
+          "end": 175.75
+        },
+        {
+          "id": "p21w12",
+          "text": "locked",
+          "start": 175.75,
+          "end": 175.93
+        },
+        {
+          "id": "p21w13",
+          "text": "the",
+          "start": 175.93,
+          "end": 176.11
+        },
+        {
+          "id": "p21w14",
+          "text": "door",
+          "start": 176.11,
+          "end": 176.29
+        },
+        {
+          "id": "p21w15",
+          "text": "again.",
+          "start": 176.29,
+          "end": 176.57
+        },
+        {
+          "id": "p21w16",
+          "text": "Are",
+          "start": 177.41,
+          "end": 177.77
+        },
+        {
+          "id": "p21w17",
+          "text": "you",
+          "start": 177.77,
+          "end": 177.91
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 177.91,
+      "end": 186.34,
+      "text": "afraid of the sight of blood, Jane? He asked me. I don't think so. I replied. Then come into",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "afraid",
+          "start": 177.91,
+          "end": 178.27
+        },
+        {
+          "id": "p22w2",
+          "text": "of",
+          "start": 178.27,
+          "end": 178.59
+        },
+        {
+          "id": "p22w3",
+          "text": "the",
+          "start": 178.59,
+          "end": 178.77
+        },
+        {
+          "id": "p22w4",
+          "text": "sight",
+          "start": 178.77,
+          "end": 179.05
+        },
+        {
+          "id": "p22w5",
+          "text": "of",
+          "start": 179.05,
+          "end": 179.23
+        },
+        {
+          "id": "p22w6",
+          "text": "blood,",
+          "start": 179.23,
+          "end": 179.45
+        },
+        {
+          "id": "p22w7",
+          "text": "Jane?",
+          "start": 179.75,
+          "end": 179.91
+        },
+        {
+          "id": "p22w8",
+          "text": "He",
+          "start": 180.21,
+          "end": 180.37
+        },
+        {
+          "id": "p22w9",
+          "text": "asked",
+          "start": 180.37,
+          "end": 180.57
+        },
+        {
+          "id": "p22w10",
+          "text": "me.",
+          "start": 180.57,
+          "end": 180.83
+        },
+        {
+          "id": "p22w11",
+          "text": "I",
+          "start": 181.9,
+          "end": 182.28
+        },
+        {
+          "id": "p22w12",
+          "text": "don't",
+          "start": 182.28,
+          "end": 182.66
+        },
+        {
+          "id": "p22w13",
+          "text": "think",
+          "start": 182.66,
+          "end": 182.86
+        },
+        {
+          "id": "p22w14",
+          "text": "so.",
+          "start": 182.86,
+          "end": 183.18
+        },
+        {
+          "id": "p22w15",
+          "text": "I",
+          "start": 183.82,
+          "end": 184.02
+        },
+        {
+          "id": "p22w16",
+          "text": "replied.",
+          "start": 184.02,
+          "end": 184.16
+        },
+        {
+          "id": "p22w17",
+          "text": "Then",
+          "start": 185.28,
+          "end": 185.68
+        },
+        {
+          "id": "p22w18",
+          "text": "come",
+          "start": 185.68,
+          "end": 186.14
+        },
+        {
+          "id": "p22w19",
+          "text": "into",
+          "start": 186.14,
+          "end": 186.34
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 186.34,
+      "end": 192.49,
+      "text": "the room with me. He said. I entered the room and saw that Mr. Mason was lying on a large",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "the",
+          "start": 186.34,
+          "end": 186.58
+        },
+        {
+          "id": "p23w2",
+          "text": "room",
+          "start": 186.58,
+          "end": 186.76
+        },
+        {
+          "id": "p23w3",
+          "text": "with",
+          "start": 186.76,
+          "end": 186.94
+        },
+        {
+          "id": "p23w4",
+          "text": "me.",
+          "start": 186.94,
+          "end": 187.18
+        },
+        {
+          "id": "p23w5",
+          "text": "He",
+          "start": 187.52,
+          "end": 187.7
+        },
+        {
+          "id": "p23w6",
+          "text": "said.",
+          "start": 187.7,
+          "end": 187.92
+        },
+        {
+          "id": "p23w7",
+          "text": "I",
+          "start": 189.13,
+          "end": 189.17
+        },
+        {
+          "id": "p23w8",
+          "text": "entered",
+          "start": 189.17,
+          "end": 189.31
+        },
+        {
+          "id": "p23w9",
+          "text": "the",
+          "start": 189.31,
+          "end": 189.53
+        },
+        {
+          "id": "p23w10",
+          "text": "room",
+          "start": 189.53,
+          "end": 189.73
+        },
+        {
+          "id": "p23w11",
+          "text": "and",
+          "start": 189.73,
+          "end": 190.33
+        },
+        {
+          "id": "p23w12",
+          "text": "saw",
+          "start": 190.33,
+          "end": 190.55
+        },
+        {
+          "id": "p23w13",
+          "text": "that",
+          "start": 190.55,
+          "end": 190.71
+        },
+        {
+          "id": "p23w14",
+          "text": "Mr.",
+          "start": 190.71,
+          "end": 190.89
+        },
+        {
+          "id": "p23w15",
+          "text": "Mason",
+          "start": 191.23,
+          "end": 191.23
+        },
+        {
+          "id": "p23w16",
+          "text": "was",
+          "start": 191.23,
+          "end": 191.63
+        },
+        {
+          "id": "p23w17",
+          "text": "lying",
+          "start": 191.63,
+          "end": 191.93
+        },
+        {
+          "id": "p23w18",
+          "text": "on",
+          "start": 191.93,
+          "end": 192.17
+        },
+        {
+          "id": "p23w19",
+          "text": "a",
+          "start": 192.17,
+          "end": 192.25
+        },
+        {
+          "id": "p23w20",
+          "text": "large",
+          "start": 192.25,
+          "end": 192.49
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 192.49,
+      "end": 200.82,
+      "text": "bed. His face was pale and his eyes were closed. His white shirt was covered in blood.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "bed.",
+          "start": 192.49,
+          "end": 192.83
+        },
+        {
+          "id": "p24w2",
+          "text": "His",
+          "start": 193.86,
+          "end": 194.34
+        },
+        {
+          "id": "p24w3",
+          "text": "face",
+          "start": 194.34,
+          "end": 194.54
+        },
+        {
+          "id": "p24w4",
+          "text": "was",
+          "start": 194.54,
+          "end": 194.78
+        },
+        {
+          "id": "p24w5",
+          "text": "pale",
+          "start": 194.78,
+          "end": 195.08
+        },
+        {
+          "id": "p24w6",
+          "text": "and",
+          "start": 195.08,
+          "end": 196.02
+        },
+        {
+          "id": "p24w7",
+          "text": "his",
+          "start": 196.02,
+          "end": 196.14
+        },
+        {
+          "id": "p24w8",
+          "text": "eyes",
+          "start": 196.14,
+          "end": 196.42
+        },
+        {
+          "id": "p24w9",
+          "text": "were",
+          "start": 196.42,
+          "end": 196.64
+        },
+        {
+          "id": "p24w10",
+          "text": "closed.",
+          "start": 196.64,
+          "end": 196.86
+        },
+        {
+          "id": "p24w11",
+          "text": "His",
+          "start": 198.64,
+          "end": 198.84
+        },
+        {
+          "id": "p24w12",
+          "text": "white",
+          "start": 198.84,
+          "end": 199.06
+        },
+        {
+          "id": "p24w13",
+          "text": "shirt",
+          "start": 199.06,
+          "end": 199.46
+        },
+        {
+          "id": "p24w14",
+          "text": "was",
+          "start": 199.46,
+          "end": 199.86
+        },
+        {
+          "id": "p24w15",
+          "text": "covered",
+          "start": 199.86,
+          "end": 200.3
+        },
+        {
+          "id": "p24w16",
+          "text": "in",
+          "start": 200.3,
+          "end": 200.58
+        },
+        {
+          "id": "p24w17",
+          "text": "blood.",
+          "start": 200.58,
+          "end": 200.82
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 202.48,
+      "end": 212.01,
+      "text": "Is he dead? I asked. No. Mr. Rochester replied. He isn't badly hurt, but I must go and call",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "Is",
+          "start": 202.48,
+          "end": 202.88
+        },
+        {
+          "id": "p25w2",
+          "text": "he",
+          "start": 202.88,
+          "end": 203.04
+        },
+        {
+          "id": "p25w3",
+          "text": "dead?",
+          "start": 203.04,
+          "end": 203.3
+        },
+        {
+          "id": "p25w4",
+          "text": "I",
+          "start": 204.0,
+          "end": 204.08
+        },
+        {
+          "id": "p25w5",
+          "text": "asked.",
+          "start": 204.08,
+          "end": 204.4
+        },
+        {
+          "id": "p25w6",
+          "text": "No.",
+          "start": 205.41,
+          "end": 205.89
+        },
+        {
+          "id": "p25w7",
+          "text": "Mr.",
+          "start": 206.29,
+          "end": 206.53
+        },
+        {
+          "id": "p25w8",
+          "text": "Rochester",
+          "start": 206.67,
+          "end": 206.77
+        },
+        {
+          "id": "p25w9",
+          "text": "replied.",
+          "start": 206.77,
+          "end": 207.31
+        },
+        {
+          "id": "p25w10",
+          "text": "He",
+          "start": 208.33,
+          "end": 208.71
+        },
+        {
+          "id": "p25w11",
+          "text": "isn't",
+          "start": 208.71,
+          "end": 209.39
+        },
+        {
+          "id": "p25w12",
+          "text": "badly",
+          "start": 209.39,
+          "end": 209.71
+        },
+        {
+          "id": "p25w13",
+          "text": "hurt,",
+          "start": 209.71,
+          "end": 210.23
+        },
+        {
+          "id": "p25w14",
+          "text": "but",
+          "start": 211.03,
+          "end": 211.19
+        },
+        {
+          "id": "p25w15",
+          "text": "I",
+          "start": 211.19,
+          "end": 211.35
+        },
+        {
+          "id": "p25w16",
+          "text": "must",
+          "start": 211.35,
+          "end": 211.49
+        },
+        {
+          "id": "p25w17",
+          "text": "go",
+          "start": 211.49,
+          "end": 211.71
+        },
+        {
+          "id": "p25w18",
+          "text": "and",
+          "start": 211.71,
+          "end": 211.79
+        },
+        {
+          "id": "p25w19",
+          "text": "call",
+          "start": 211.79,
+          "end": 212.01
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 212.01,
+      "end": 218.9,
+      "text": "a doctor for him. Will you stay with him until I return? Mr. Mason moved and tried to speak.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "a",
+          "start": 212.01,
+          "end": 212.13
+        },
+        {
+          "id": "p26w2",
+          "text": "doctor",
+          "start": 212.13,
+          "end": 212.33
+        },
+        {
+          "id": "p26w3",
+          "text": "for",
+          "start": 212.33,
+          "end": 212.73
+        },
+        {
+          "id": "p26w4",
+          "text": "him.",
+          "start": 212.73,
+          "end": 212.97
+        },
+        {
+          "id": "p26w5",
+          "text": "Will",
+          "start": 214.0,
+          "end": 214.16
+        },
+        {
+          "id": "p26w6",
+          "text": "you",
+          "start": 214.16,
+          "end": 214.28
+        },
+        {
+          "id": "p26w7",
+          "text": "stay",
+          "start": 214.28,
+          "end": 214.48
+        },
+        {
+          "id": "p26w8",
+          "text": "with",
+          "start": 214.48,
+          "end": 214.7
+        },
+        {
+          "id": "p26w9",
+          "text": "him",
+          "start": 214.7,
+          "end": 214.92
+        },
+        {
+          "id": "p26w10",
+          "text": "until",
+          "start": 214.92,
+          "end": 215.22
+        },
+        {
+          "id": "p26w11",
+          "text": "I",
+          "start": 215.22,
+          "end": 215.4
+        },
+        {
+          "id": "p26w12",
+          "text": "return?",
+          "start": 215.4,
+          "end": 215.58
+        },
+        {
+          "id": "p26w13",
+          "text": "Mr.",
+          "start": 216.98,
+          "end": 217.46
+        },
+        {
+          "id": "p26w14",
+          "text": "Mason",
+          "start": 217.54,
+          "end": 217.66
+        },
+        {
+          "id": "p26w15",
+          "text": "moved",
+          "start": 217.66,
+          "end": 218.1
+        },
+        {
+          "id": "p26w16",
+          "text": "and",
+          "start": 218.1,
+          "end": 218.32
+        },
+        {
+          "id": "p26w17",
+          "text": "tried",
+          "start": 218.32,
+          "end": 218.56
+        },
+        {
+          "id": "p26w18",
+          "text": "to",
+          "start": 218.56,
+          "end": 218.72
+        },
+        {
+          "id": "p26w19",
+          "text": "speak.",
+          "start": 218.72,
+          "end": 218.9
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 219.81,
+      "end": 225.89,
+      "text": "Mr. Rochester said to him. Don't try to talk, Mason. You must not speak to Jane while I am",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "Mr.",
+          "start": 219.81,
+          "end": 220.29
+        },
+        {
+          "id": "p27w2",
+          "text": "Rochester",
+          "start": 220.39,
+          "end": 220.45
+        },
+        {
+          "id": "p27w3",
+          "text": "said",
+          "start": 220.45,
+          "end": 220.95
+        },
+        {
+          "id": "p27w4",
+          "text": "to",
+          "start": 220.95,
+          "end": 221.11
+        },
+        {
+          "id": "p27w5",
+          "text": "him.",
+          "start": 221.11,
+          "end": 221.31
+        },
+        {
+          "id": "p27w6",
+          "text": "Don't",
+          "start": 221.53,
+          "end": 221.97
+        },
+        {
+          "id": "p27w7",
+          "text": "try",
+          "start": 221.97,
+          "end": 222.17
+        },
+        {
+          "id": "p27w8",
+          "text": "to",
+          "start": 222.17,
+          "end": 222.29
+        },
+        {
+          "id": "p27w9",
+          "text": "talk,",
+          "start": 222.29,
+          "end": 222.57
+        },
+        {
+          "id": "p27w10",
+          "text": "Mason.",
+          "start": 222.57,
+          "end": 222.99
+        },
+        {
+          "id": "p27w11",
+          "text": "You",
+          "start": 223.51,
+          "end": 223.91
+        },
+        {
+          "id": "p27w12",
+          "text": "must",
+          "start": 223.91,
+          "end": 224.03
+        },
+        {
+          "id": "p27w13",
+          "text": "not",
+          "start": 224.03,
+          "end": 224.21
+        },
+        {
+          "id": "p27w14",
+          "text": "speak",
+          "start": 224.21,
+          "end": 224.69
+        },
+        {
+          "id": "p27w15",
+          "text": "to",
+          "start": 224.69,
+          "end": 224.97
+        },
+        {
+          "id": "p27w16",
+          "text": "Jane",
+          "start": 224.97,
+          "end": 225.25
+        },
+        {
+          "id": "p27w17",
+          "text": "while",
+          "start": 225.25,
+          "end": 225.61
+        },
+        {
+          "id": "p27w18",
+          "text": "I",
+          "start": 225.61,
+          "end": 225.79
+        },
+        {
+          "id": "p27w19",
+          "text": "am",
+          "start": 225.79,
+          "end": 225.89
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 225.89,
+      "end": 233.38,
+      "text": "away. Mr. Rochester left me alone with the injured man. He was away for a long time and I",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "away.",
+          "start": 225.89,
+          "end": 226.17
+        },
+        {
+          "id": "p28w2",
+          "text": "Mr.",
+          "start": 227.75,
+          "end": 228.11
+        },
+        {
+          "id": "p28w3",
+          "text": "Rochester",
+          "start": 228.31,
+          "end": 228.35
+        },
+        {
+          "id": "p28w4",
+          "text": "left",
+          "start": 228.35,
+          "end": 228.83
+        },
+        {
+          "id": "p28w5",
+          "text": "me",
+          "start": 228.83,
+          "end": 229.05
+        },
+        {
+          "id": "p28w6",
+          "text": "alone",
+          "start": 229.05,
+          "end": 229.31
+        },
+        {
+          "id": "p28w7",
+          "text": "with",
+          "start": 229.31,
+          "end": 229.55
+        },
+        {
+          "id": "p28w8",
+          "text": "the",
+          "start": 229.55,
+          "end": 229.69
+        },
+        {
+          "id": "p28w9",
+          "text": "injured",
+          "start": 229.69,
+          "end": 229.95
+        },
+        {
+          "id": "p28w10",
+          "text": "man.",
+          "start": 229.95,
+          "end": 230.33
+        },
+        {
+          "id": "p28w11",
+          "text": "He",
+          "start": 231.42,
+          "end": 231.8
+        },
+        {
+          "id": "p28w12",
+          "text": "was",
+          "start": 231.8,
+          "end": 231.88
+        },
+        {
+          "id": "p28w13",
+          "text": "away",
+          "start": 231.88,
+          "end": 232.1
+        },
+        {
+          "id": "p28w14",
+          "text": "for",
+          "start": 232.1,
+          "end": 232.34
+        },
+        {
+          "id": "p28w15",
+          "text": "a",
+          "start": 232.34,
+          "end": 232.42
+        },
+        {
+          "id": "p28w16",
+          "text": "long",
+          "start": 232.42,
+          "end": 232.56
+        },
+        {
+          "id": "p28w17",
+          "text": "time",
+          "start": 232.56,
+          "end": 232.92
+        },
+        {
+          "id": "p28w18",
+          "text": "and",
+          "start": 232.92,
+          "end": 233.26
+        },
+        {
+          "id": "p28w19",
+          "text": "I",
+          "start": 233.26,
+          "end": 233.38
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 233.38,
+      "end": 240.26,
+      "text": "was very frightened. Grace Paul was in the next room and at any moment she might come in and",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "was",
+          "start": 233.38,
+          "end": 233.48
+        },
+        {
+          "id": "p29w2",
+          "text": "very",
+          "start": 233.48,
+          "end": 233.7
+        },
+        {
+          "id": "p29w3",
+          "text": "frightened.",
+          "start": 233.7,
+          "end": 234.2
+        },
+        {
+          "id": "p29w4",
+          "text": "Grace",
+          "start": 235.8,
+          "end": 236.06
+        },
+        {
+          "id": "p29w5",
+          "text": "Paul",
+          "start": 236.06,
+          "end": 236.36
+        },
+        {
+          "id": "p29w6",
+          "text": "was",
+          "start": 236.36,
+          "end": 236.58
+        },
+        {
+          "id": "p29w7",
+          "text": "in",
+          "start": 236.58,
+          "end": 236.7
+        },
+        {
+          "id": "p29w8",
+          "text": "the",
+          "start": 236.7,
+          "end": 236.78
+        },
+        {
+          "id": "p29w9",
+          "text": "next",
+          "start": 236.78,
+          "end": 237.0
+        },
+        {
+          "id": "p29w10",
+          "text": "room",
+          "start": 237.0,
+          "end": 237.3
+        },
+        {
+          "id": "p29w11",
+          "text": "and",
+          "start": 237.3,
+          "end": 238.3
+        },
+        {
+          "id": "p29w12",
+          "text": "at",
+          "start": 238.58,
+          "end": 238.7
+        },
+        {
+          "id": "p29w13",
+          "text": "any",
+          "start": 238.7,
+          "end": 238.82
+        },
+        {
+          "id": "p29w14",
+          "text": "moment",
+          "start": 238.82,
+          "end": 239.18
+        },
+        {
+          "id": "p29w15",
+          "text": "she",
+          "start": 239.18,
+          "end": 239.4
+        },
+        {
+          "id": "p29w16",
+          "text": "might",
+          "start": 239.4,
+          "end": 239.6
+        },
+        {
+          "id": "p29w17",
+          "text": "come",
+          "start": 239.6,
+          "end": 239.98
+        },
+        {
+          "id": "p29w18",
+          "text": "in",
+          "start": 239.98,
+          "end": 240.16
+        },
+        {
+          "id": "p29w19",
+          "text": "and",
+          "start": 240.16,
+          "end": 240.26
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 240.26,
+      "end": 248.83,
+      "text": "try to hurt Mr. Mason or me. After a very long time, Mr. Rochester came back with the",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "try",
+          "start": 240.26,
+          "end": 240.58
+        },
+        {
+          "id": "p30w2",
+          "text": "to",
+          "start": 240.58,
+          "end": 240.72
+        },
+        {
+          "id": "p30w3",
+          "text": "hurt",
+          "start": 240.72,
+          "end": 240.94
+        },
+        {
+          "id": "p30w4",
+          "text": "Mr.",
+          "start": 240.94,
+          "end": 241.18
+        },
+        {
+          "id": "p30w5",
+          "text": "Mason",
+          "start": 241.46,
+          "end": 241.46
+        },
+        {
+          "id": "p30w6",
+          "text": "or",
+          "start": 241.46,
+          "end": 241.78
+        },
+        {
+          "id": "p30w7",
+          "text": "me.",
+          "start": 241.78,
+          "end": 241.94
+        },
+        {
+          "id": "p30w8",
+          "text": "After",
+          "start": 244.21,
+          "end": 244.63
+        },
+        {
+          "id": "p30w9",
+          "text": "a",
+          "start": 244.63,
+          "end": 244.79
+        },
+        {
+          "id": "p30w10",
+          "text": "very",
+          "start": 244.79,
+          "end": 245.07
+        },
+        {
+          "id": "p30w11",
+          "text": "long",
+          "start": 245.07,
+          "end": 245.35
+        },
+        {
+          "id": "p30w12",
+          "text": "time,",
+          "start": 245.35,
+          "end": 245.81
+        },
+        {
+          "id": "p30w13",
+          "text": "Mr.",
+          "start": 246.47,
+          "end": 246.73
+        },
+        {
+          "id": "p30w14",
+          "text": "Rochester",
+          "start": 246.87,
+          "end": 247.09
+        },
+        {
+          "id": "p30w15",
+          "text": "came",
+          "start": 247.09,
+          "end": 247.47
+        },
+        {
+          "id": "p30w16",
+          "text": "back",
+          "start": 247.47,
+          "end": 247.69
+        },
+        {
+          "id": "p30w17",
+          "text": "with",
+          "start": 247.69,
+          "end": 247.89
+        },
+        {
+          "id": "p30w18",
+          "text": "the",
+          "start": 247.89,
+          "end": 248.83
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 249.62,
+      "end": 254.78,
+      "text": "doctor. Mr. Rochester said to me. Thank you for your help, Jane. Mason is now going to leave",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "doctor.",
+          "start": 249.62,
+          "end": 249.84
+        },
+        {
+          "id": "p31w2",
+          "text": "Mr.",
+          "start": 249.84,
+          "end": 249.84
+        },
+        {
+          "id": "p31w3",
+          "text": "Rochester",
+          "start": 250.02,
+          "end": 250.06
+        },
+        {
+          "id": "p31w4",
+          "text": "said",
+          "start": 250.06,
+          "end": 250.6
+        },
+        {
+          "id": "p31w5",
+          "text": "to",
+          "start": 250.6,
+          "end": 250.76
+        },
+        {
+          "id": "p31w6",
+          "text": "me.",
+          "start": 250.76,
+          "end": 250.92
+        },
+        {
+          "id": "p31w7",
+          "text": "Thank",
+          "start": 251.18,
+          "end": 251.46
+        },
+        {
+          "id": "p31w8",
+          "text": "you",
+          "start": 251.46,
+          "end": 251.7
+        },
+        {
+          "id": "p31w9",
+          "text": "for",
+          "start": 251.7,
+          "end": 251.84
+        },
+        {
+          "id": "p31w10",
+          "text": "your",
+          "start": 251.84,
+          "end": 251.96
+        },
+        {
+          "id": "p31w11",
+          "text": "help,",
+          "start": 251.96,
+          "end": 252.16
+        },
+        {
+          "id": "p31w12",
+          "text": "Jane.",
+          "start": 252.3,
+          "end": 252.44
+        },
+        {
+          "id": "p31w13",
+          "text": "Mason",
+          "start": 253.22,
+          "end": 253.6
+        },
+        {
+          "id": "p31w14",
+          "text": "is",
+          "start": 253.6,
+          "end": 253.9
+        },
+        {
+          "id": "p31w15",
+          "text": "now",
+          "start": 253.9,
+          "end": 254.16
+        },
+        {
+          "id": "p31w16",
+          "text": "going",
+          "start": 254.16,
+          "end": 254.38
+        },
+        {
+          "id": "p31w17",
+          "text": "to",
+          "start": 254.38,
+          "end": 254.56
+        },
+        {
+          "id": "p31w18",
+          "text": "leave",
+          "start": 254.56,
+          "end": 254.78
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 254.78,
+      "end": 260.92,
+      "text": "Thornfield Hall. The doctor will take him away to be cared for in a safe place. I helped",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "Thornfield",
+          "start": 254.78,
+          "end": 255.36
+        },
+        {
+          "id": "p32w2",
+          "text": "Hall.",
+          "start": 255.36,
+          "end": 255.68
+        },
+        {
+          "id": "p32w3",
+          "text": "The",
+          "start": 256.5,
+          "end": 256.78
+        },
+        {
+          "id": "p32w4",
+          "text": "doctor",
+          "start": 256.78,
+          "end": 256.98
+        },
+        {
+          "id": "p32w5",
+          "text": "will",
+          "start": 256.98,
+          "end": 257.28
+        },
+        {
+          "id": "p32w6",
+          "text": "take",
+          "start": 257.28,
+          "end": 257.48
+        },
+        {
+          "id": "p32w7",
+          "text": "him",
+          "start": 257.48,
+          "end": 257.62
+        },
+        {
+          "id": "p32w8",
+          "text": "away",
+          "start": 257.62,
+          "end": 257.82
+        },
+        {
+          "id": "p32w9",
+          "text": "to",
+          "start": 257.82,
+          "end": 257.94
+        },
+        {
+          "id": "p32w10",
+          "text": "be",
+          "start": 257.94,
+          "end": 258.06
+        },
+        {
+          "id": "p32w11",
+          "text": "cared",
+          "start": 258.06,
+          "end": 258.28
+        },
+        {
+          "id": "p32w12",
+          "text": "for",
+          "start": 258.28,
+          "end": 258.5
+        },
+        {
+          "id": "p32w13",
+          "text": "in",
+          "start": 258.5,
+          "end": 258.66
+        },
+        {
+          "id": "p32w14",
+          "text": "a",
+          "start": 258.66,
+          "end": 258.76
+        },
+        {
+          "id": "p32w15",
+          "text": "safe",
+          "start": 258.76,
+          "end": 258.92
+        },
+        {
+          "id": "p32w16",
+          "text": "place.",
+          "start": 258.92,
+          "end": 259.3
+        },
+        {
+          "id": "p32w17",
+          "text": "I",
+          "start": 260.28,
+          "end": 260.7
+        },
+        {
+          "id": "p32w18",
+          "text": "helped",
+          "start": 260.7,
+          "end": 260.92
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 260.92,
+      "end": 266.28,
+      "text": "Mr. Rochester and the doctor to get Mr. Mason down the stairs and out of the house. Take",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "Mr.",
+          "start": 260.92,
+          "end": 261.18
+        },
+        {
+          "id": "p33w2",
+          "text": "Rochester",
+          "start": 261.7,
+          "end": 261.7
+        },
+        {
+          "id": "p33w3",
+          "text": "and",
+          "start": 261.7,
+          "end": 261.9
+        },
+        {
+          "id": "p33w4",
+          "text": "the",
+          "start": 261.9,
+          "end": 262.02
+        },
+        {
+          "id": "p33w5",
+          "text": "doctor",
+          "start": 262.02,
+          "end": 262.18
+        },
+        {
+          "id": "p33w6",
+          "text": "to",
+          "start": 262.18,
+          "end": 262.62
+        },
+        {
+          "id": "p33w7",
+          "text": "get",
+          "start": 262.62,
+          "end": 262.8
+        },
+        {
+          "id": "p33w8",
+          "text": "Mr.",
+          "start": 262.8,
+          "end": 262.98
+        },
+        {
+          "id": "p33w9",
+          "text": "Mason",
+          "start": 263.2,
+          "end": 263.3
+        },
+        {
+          "id": "p33w10",
+          "text": "down",
+          "start": 263.3,
+          "end": 263.74
+        },
+        {
+          "id": "p33w11",
+          "text": "the",
+          "start": 263.74,
+          "end": 263.98
+        },
+        {
+          "id": "p33w12",
+          "text": "stairs",
+          "start": 263.98,
+          "end": 264.3
+        },
+        {
+          "id": "p33w13",
+          "text": "and",
+          "start": 264.3,
+          "end": 264.56
+        },
+        {
+          "id": "p33w14",
+          "text": "out",
+          "start": 264.56,
+          "end": 264.86
+        },
+        {
+          "id": "p33w15",
+          "text": "of",
+          "start": 264.86,
+          "end": 265.0
+        },
+        {
+          "id": "p33w16",
+          "text": "the",
+          "start": 265.0,
+          "end": 265.1
+        },
+        {
+          "id": "p33w17",
+          "text": "house.",
+          "start": 265.1,
+          "end": 265.36
+        },
+        {
+          "id": "p33w18",
+          "text": "Take",
+          "start": 265.92,
+          "end": 266.28
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 266.28,
+      "end": 271.24,
+      "text": "care of him, Doctor. Said Mr. Rochester. Soon he will be well enough to go back to the West",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "care",
+          "start": 266.28,
+          "end": 266.54
+        },
+        {
+          "id": "p34w2",
+          "text": "of",
+          "start": 266.54,
+          "end": 266.72
+        },
+        {
+          "id": "p34w3",
+          "text": "him,",
+          "start": 266.72,
+          "end": 266.82
+        },
+        {
+          "id": "p34w4",
+          "text": "Doctor.",
+          "start": 266.82,
+          "end": 267.16
+        },
+        {
+          "id": "p34w5",
+          "text": "Said",
+          "start": 267.4,
+          "end": 267.58
+        },
+        {
+          "id": "p34w6",
+          "text": "Mr.",
+          "start": 267.58,
+          "end": 267.76
+        },
+        {
+          "id": "p34w7",
+          "text": "Rochester.",
+          "start": 267.96,
+          "end": 268.26
+        },
+        {
+          "id": "p34w8",
+          "text": "Soon",
+          "start": 268.78,
+          "end": 269.04
+        },
+        {
+          "id": "p34w9",
+          "text": "he",
+          "start": 269.04,
+          "end": 269.36
+        },
+        {
+          "id": "p34w10",
+          "text": "will",
+          "start": 269.36,
+          "end": 269.48
+        },
+        {
+          "id": "p34w11",
+          "text": "be",
+          "start": 269.48,
+          "end": 269.62
+        },
+        {
+          "id": "p34w12",
+          "text": "well",
+          "start": 269.62,
+          "end": 269.8
+        },
+        {
+          "id": "p34w13",
+          "text": "enough",
+          "start": 269.8,
+          "end": 270.08
+        },
+        {
+          "id": "p34w14",
+          "text": "to",
+          "start": 270.08,
+          "end": 270.32
+        },
+        {
+          "id": "p34w15",
+          "text": "go",
+          "start": 270.32,
+          "end": 270.48
+        },
+        {
+          "id": "p34w16",
+          "text": "back",
+          "start": 270.48,
+          "end": 270.7
+        },
+        {
+          "id": "p34w17",
+          "text": "to",
+          "start": 270.7,
+          "end": 270.92
+        },
+        {
+          "id": "p34w18",
+          "text": "the",
+          "start": 270.92,
+          "end": 271.02
+        },
+        {
+          "id": "p34w19",
+          "text": "West",
+          "start": 271.02,
+          "end": 271.24
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 271.24,
+      "end": 279.28,
+      "text": "Indies. But before he got into the carriage, Mr. Mason said something very strange. Look",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "Indies.",
+          "start": 271.24,
+          "end": 271.38
+        },
+        {
+          "id": "p35w2",
+          "text": "But",
+          "start": 272.94,
+          "end": 273.22
+        },
+        {
+          "id": "p35w3",
+          "text": "before",
+          "start": 273.22,
+          "end": 273.54
+        },
+        {
+          "id": "p35w4",
+          "text": "he",
+          "start": 273.54,
+          "end": 273.82
+        },
+        {
+          "id": "p35w5",
+          "text": "got",
+          "start": 273.82,
+          "end": 273.96
+        },
+        {
+          "id": "p35w6",
+          "text": "into",
+          "start": 273.96,
+          "end": 274.22
+        },
+        {
+          "id": "p35w7",
+          "text": "the",
+          "start": 274.22,
+          "end": 274.42
+        },
+        {
+          "id": "p35w8",
+          "text": "carriage,",
+          "start": 274.42,
+          "end": 274.7
+        },
+        {
+          "id": "p35w9",
+          "text": "Mr.",
+          "start": 275.74,
+          "end": 275.96
+        },
+        {
+          "id": "p35w10",
+          "text": "Mason",
+          "start": 276.08,
+          "end": 276.18
+        },
+        {
+          "id": "p35w11",
+          "text": "said",
+          "start": 276.18,
+          "end": 276.62
+        },
+        {
+          "id": "p35w12",
+          "text": "something",
+          "start": 276.62,
+          "end": 277.0
+        },
+        {
+          "id": "p35w13",
+          "text": "very",
+          "start": 277.0,
+          "end": 277.46
+        },
+        {
+          "id": "p35w14",
+          "text": "strange.",
+          "start": 277.46,
+          "end": 277.9
+        },
+        {
+          "id": "p35w15",
+          "text": "Look",
+          "start": 278.86,
+          "end": 279.28
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 279.28,
+      "end": 289.44,
+      "text": "after her, Rochester. Promise to look after her. Yes. Said Mr. Rochester and his face was",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "after",
+          "start": 279.28,
+          "end": 279.88
+        },
+        {
+          "id": "p36w2",
+          "text": "her,",
+          "start": 279.88,
+          "end": 280.1
+        },
+        {
+          "id": "p36w3",
+          "text": "Rochester.",
+          "start": 280.22,
+          "end": 280.56
+        },
+        {
+          "id": "p36w4",
+          "text": "Promise",
+          "start": 281.62,
+          "end": 282.18
+        },
+        {
+          "id": "p36w5",
+          "text": "to",
+          "start": 282.18,
+          "end": 283.02
+        },
+        {
+          "id": "p36w6",
+          "text": "look",
+          "start": 283.02,
+          "end": 283.2
+        },
+        {
+          "id": "p36w7",
+          "text": "after",
+          "start": 283.2,
+          "end": 283.74
+        },
+        {
+          "id": "p36w8",
+          "text": "her.",
+          "start": 283.74,
+          "end": 284.08
+        },
+        {
+          "id": "p36w9",
+          "text": "Yes.",
+          "start": 285.38,
+          "end": 285.88
+        },
+        {
+          "id": "p36w10",
+          "text": "Said",
+          "start": 286.4,
+          "end": 286.86
+        },
+        {
+          "id": "p36w11",
+          "text": "Mr.",
+          "start": 286.86,
+          "end": 287.0
+        },
+        {
+          "id": "p36w12",
+          "text": "Rochester",
+          "start": 287.26,
+          "end": 287.36
+        },
+        {
+          "id": "p36w13",
+          "text": "and",
+          "start": 287.36,
+          "end": 288.68
+        },
+        {
+          "id": "p36w14",
+          "text": "his",
+          "start": 288.74,
+          "end": 288.9
+        },
+        {
+          "id": "p36w15",
+          "text": "face",
+          "start": 288.9,
+          "end": 289.18
+        },
+        {
+          "id": "p36w16",
+          "text": "was",
+          "start": 289.18,
+          "end": 289.44
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 289.44,
+      "end": 303.6,
+      "text": "very sad. I will always look after her. I wanted to go back to the house and to my bed,",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "very",
+          "start": 289.44,
+          "end": 289.82
+        },
+        {
+          "id": "p37w2",
+          "text": "sad.",
+          "start": 289.82,
+          "end": 290.26
+        },
+        {
+          "id": "p37w3",
+          "text": "I",
+          "start": 291.13,
+          "end": 291.55
+        },
+        {
+          "id": "p37w4",
+          "text": "will",
+          "start": 291.55,
+          "end": 291.73
+        },
+        {
+          "id": "p37w5",
+          "text": "always",
+          "start": 291.73,
+          "end": 292.31
+        },
+        {
+          "id": "p37w6",
+          "text": "look",
+          "start": 292.31,
+          "end": 292.79
+        },
+        {
+          "id": "p37w7",
+          "text": "after",
+          "start": 292.79,
+          "end": 293.17
+        },
+        {
+          "id": "p37w8",
+          "text": "her.",
+          "start": 293.17,
+          "end": 293.45
+        },
+        {
+          "id": "p37w9",
+          "text": "I",
+          "start": 301.26,
+          "end": 301.54
+        },
+        {
+          "id": "p37w10",
+          "text": "wanted",
+          "start": 301.54,
+          "end": 301.72
+        },
+        {
+          "id": "p37w11",
+          "text": "to",
+          "start": 301.72,
+          "end": 301.98
+        },
+        {
+          "id": "p37w12",
+          "text": "go",
+          "start": 301.98,
+          "end": 302.12
+        },
+        {
+          "id": "p37w13",
+          "text": "back",
+          "start": 302.12,
+          "end": 302.32
+        },
+        {
+          "id": "p37w14",
+          "text": "to",
+          "start": 302.32,
+          "end": 302.5
+        },
+        {
+          "id": "p37w15",
+          "text": "the",
+          "start": 302.5,
+          "end": 302.6
+        },
+        {
+          "id": "p37w16",
+          "text": "house",
+          "start": 302.6,
+          "end": 302.88
+        },
+        {
+          "id": "p37w17",
+          "text": "and",
+          "start": 302.88,
+          "end": 303.08
+        },
+        {
+          "id": "p37w18",
+          "text": "to",
+          "start": 303.08,
+          "end": 303.22
+        },
+        {
+          "id": "p37w19",
+          "text": "my",
+          "start": 303.22,
+          "end": 303.36
+        },
+        {
+          "id": "p37w20",
+          "text": "bed,",
+          "start": 303.36,
+          "end": 303.6
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 304.55,
+      "end": 311.15,
+      "text": "but Mr. Rochester put his hand on my arm. Don't go yet. He said, walk with me for a while.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "but",
+          "start": 304.55,
+          "end": 304.73
+        },
+        {
+          "id": "p38w2",
+          "text": "Mr.",
+          "start": 304.73,
+          "end": 304.95
+        },
+        {
+          "id": "p38w3",
+          "text": "Rochester",
+          "start": 305.45,
+          "end": 305.45
+        },
+        {
+          "id": "p38w4",
+          "text": "put",
+          "start": 305.45,
+          "end": 305.79
+        },
+        {
+          "id": "p38w5",
+          "text": "his",
+          "start": 305.79,
+          "end": 306.09
+        },
+        {
+          "id": "p38w6",
+          "text": "hand",
+          "start": 306.09,
+          "end": 306.39
+        },
+        {
+          "id": "p38w7",
+          "text": "on",
+          "start": 306.39,
+          "end": 306.55
+        },
+        {
+          "id": "p38w8",
+          "text": "my",
+          "start": 306.55,
+          "end": 306.71
+        },
+        {
+          "id": "p38w9",
+          "text": "arm.",
+          "start": 306.71,
+          "end": 306.99
+        },
+        {
+          "id": "p38w10",
+          "text": "Don't",
+          "start": 307.57,
+          "end": 308.07
+        },
+        {
+          "id": "p38w11",
+          "text": "go",
+          "start": 308.07,
+          "end": 308.21
+        },
+        {
+          "id": "p38w12",
+          "text": "yet.",
+          "start": 308.21,
+          "end": 308.47
+        },
+        {
+          "id": "p38w13",
+          "text": "He",
+          "start": 308.67,
+          "end": 308.77
+        },
+        {
+          "id": "p38w14",
+          "text": "said,",
+          "start": 308.77,
+          "end": 309.03
+        },
+        {
+          "id": "p38w15",
+          "text": "walk",
+          "start": 309.55,
+          "end": 310.05
+        },
+        {
+          "id": "p38w16",
+          "text": "with",
+          "start": 310.05,
+          "end": 310.33
+        },
+        {
+          "id": "p38w17",
+          "text": "me",
+          "start": 310.33,
+          "end": 310.53
+        },
+        {
+          "id": "p38w18",
+          "text": "for",
+          "start": 310.53,
+          "end": 310.71
+        },
+        {
+          "id": "p38w19",
+          "text": "a",
+          "start": 310.71,
+          "end": 310.85
+        },
+        {
+          "id": "p38w20",
+          "text": "while.",
+          "start": 310.85,
+          "end": 311.15
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 311.96,
+      "end": 320.0,
+      "text": "We walk together in the garden. What a night that was. Mr. Rochester said. Were you afraid,",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "We",
+          "start": 311.96,
+          "end": 312.48
+        },
+        {
+          "id": "p39w2",
+          "text": "walk",
+          "start": 312.48,
+          "end": 312.68
+        },
+        {
+          "id": "p39w3",
+          "text": "together",
+          "start": 312.68,
+          "end": 313.16
+        },
+        {
+          "id": "p39w4",
+          "text": "in",
+          "start": 313.16,
+          "end": 313.38
+        },
+        {
+          "id": "p39w5",
+          "text": "the",
+          "start": 313.38,
+          "end": 313.48
+        },
+        {
+          "id": "p39w6",
+          "text": "garden.",
+          "start": 313.48,
+          "end": 313.76
+        },
+        {
+          "id": "p39w7",
+          "text": "What",
+          "start": 315.32,
+          "end": 315.7
+        },
+        {
+          "id": "p39w8",
+          "text": "a",
+          "start": 315.7,
+          "end": 315.88
+        },
+        {
+          "id": "p39w9",
+          "text": "night",
+          "start": 315.88,
+          "end": 316.16
+        },
+        {
+          "id": "p39w10",
+          "text": "that",
+          "start": 316.16,
+          "end": 316.54
+        },
+        {
+          "id": "p39w11",
+          "text": "was.",
+          "start": 316.54,
+          "end": 316.96
+        },
+        {
+          "id": "p39w12",
+          "text": "Mr.",
+          "start": 317.36,
+          "end": 317.62
+        },
+        {
+          "id": "p39w13",
+          "text": "Rochester",
+          "start": 317.76,
+          "end": 317.82
+        },
+        {
+          "id": "p39w14",
+          "text": "said.",
+          "start": 317.82,
+          "end": 318.5
+        },
+        {
+          "id": "p39w15",
+          "text": "Were",
+          "start": 319.14,
+          "end": 319.54
+        },
+        {
+          "id": "p39w16",
+          "text": "you",
+          "start": 319.54,
+          "end": 319.68
+        },
+        {
+          "id": "p39w17",
+          "text": "afraid,",
+          "start": 319.68,
+          "end": 320.0
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 320.3,
+      "end": 327.99,
+      "text": "Jane? Yes, I was, I replied. While I waited for you in the attic, I heard something in the",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "Jane?",
+          "start": 320.3,
+          "end": 320.4
+        },
+        {
+          "id": "p40w2",
+          "text": "Yes,",
+          "start": 321.26,
+          "end": 321.78
+        },
+        {
+          "id": "p40w3",
+          "text": "I",
+          "start": 321.78,
+          "end": 322.04
+        },
+        {
+          "id": "p40w4",
+          "text": "was,",
+          "start": 322.04,
+          "end": 322.34
+        },
+        {
+          "id": "p40w5",
+          "text": "I",
+          "start": 322.76,
+          "end": 322.98
+        },
+        {
+          "id": "p40w6",
+          "text": "replied.",
+          "start": 322.98,
+          "end": 323.16
+        },
+        {
+          "id": "p40w7",
+          "text": "While",
+          "start": 324.29,
+          "end": 324.63
+        },
+        {
+          "id": "p40w8",
+          "text": "I",
+          "start": 324.63,
+          "end": 324.81
+        },
+        {
+          "id": "p40w9",
+          "text": "waited",
+          "start": 324.81,
+          "end": 325.01
+        },
+        {
+          "id": "p40w10",
+          "text": "for",
+          "start": 325.01,
+          "end": 325.33
+        },
+        {
+          "id": "p40w11",
+          "text": "you",
+          "start": 325.33,
+          "end": 325.47
+        },
+        {
+          "id": "p40w12",
+          "text": "in",
+          "start": 325.47,
+          "end": 325.59
+        },
+        {
+          "id": "p40w13",
+          "text": "the",
+          "start": 325.59,
+          "end": 325.69
+        },
+        {
+          "id": "p40w14",
+          "text": "attic,",
+          "start": 325.69,
+          "end": 325.89
+        },
+        {
+          "id": "p40w15",
+          "text": "I",
+          "start": 327.05,
+          "end": 327.19
+        },
+        {
+          "id": "p40w16",
+          "text": "heard",
+          "start": 327.19,
+          "end": 327.33
+        },
+        {
+          "id": "p40w17",
+          "text": "something",
+          "start": 327.33,
+          "end": 327.69
+        },
+        {
+          "id": "p40w18",
+          "text": "in",
+          "start": 327.69,
+          "end": 327.89
+        },
+        {
+          "id": "p40w19",
+          "text": "the",
+          "start": 327.89,
+          "end": 327.99
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 327.99,
+      "end": 335.62,
+      "text": "next room. I heard a terrible laugh. Was it Grace Paul, Mr. Rochester? Will she go away",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "next",
+          "start": 327.99,
+          "end": 328.19
+        },
+        {
+          "id": "p41w2",
+          "text": "room.",
+          "start": 328.19,
+          "end": 328.53
+        },
+        {
+          "id": "p41w3",
+          "text": "I",
+          "start": 329.97,
+          "end": 330.07
+        },
+        {
+          "id": "p41w4",
+          "text": "heard",
+          "start": 330.07,
+          "end": 330.19
+        },
+        {
+          "id": "p41w5",
+          "text": "a",
+          "start": 330.19,
+          "end": 330.29
+        },
+        {
+          "id": "p41w6",
+          "text": "terrible",
+          "start": 330.29,
+          "end": 330.79
+        },
+        {
+          "id": "p41w7",
+          "text": "laugh.",
+          "start": 330.79,
+          "end": 331.09
+        },
+        {
+          "id": "p41w8",
+          "text": "Was",
+          "start": 331.75,
+          "end": 332.25
+        },
+        {
+          "id": "p41w9",
+          "text": "it",
+          "start": 332.25,
+          "end": 332.37
+        },
+        {
+          "id": "p41w10",
+          "text": "Grace",
+          "start": 332.37,
+          "end": 332.71
+        },
+        {
+          "id": "p41w11",
+          "text": "Paul,",
+          "start": 332.71,
+          "end": 333.03
+        },
+        {
+          "id": "p41w12",
+          "text": "Mr.",
+          "start": 333.19,
+          "end": 333.27
+        },
+        {
+          "id": "p41w13",
+          "text": "Rochester?",
+          "start": 333.47,
+          "end": 333.85
+        },
+        {
+          "id": "p41w14",
+          "text": "Will",
+          "start": 334.86,
+          "end": 335.12
+        },
+        {
+          "id": "p41w15",
+          "text": "she",
+          "start": 335.12,
+          "end": 335.26
+        },
+        {
+          "id": "p41w16",
+          "text": "go",
+          "start": 335.26,
+          "end": 335.42
+        },
+        {
+          "id": "p41w17",
+          "text": "away",
+          "start": 335.42,
+          "end": 335.62
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 335.62,
+      "end": 342.55,
+      "text": "now? Don't worry about Grace Paul. He said. He did not look at me as he spoke. She will",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "now?",
+          "start": 335.62,
+          "end": 335.94
+        },
+        {
+          "id": "p42w2",
+          "text": "Don't",
+          "start": 336.56,
+          "end": 337.08
+        },
+        {
+          "id": "p42w3",
+          "text": "worry",
+          "start": 337.08,
+          "end": 337.32
+        },
+        {
+          "id": "p42w4",
+          "text": "about",
+          "start": 337.32,
+          "end": 337.68
+        },
+        {
+          "id": "p42w5",
+          "text": "Grace",
+          "start": 337.68,
+          "end": 338.04
+        },
+        {
+          "id": "p42w6",
+          "text": "Paul.",
+          "start": 338.04,
+          "end": 338.52
+        },
+        {
+          "id": "p42w7",
+          "text": "He",
+          "start": 338.74,
+          "end": 338.86
+        },
+        {
+          "id": "p42w8",
+          "text": "said.",
+          "start": 338.86,
+          "end": 339.12
+        },
+        {
+          "id": "p42w9",
+          "text": "He",
+          "start": 339.81,
+          "end": 340.29
+        },
+        {
+          "id": "p42w10",
+          "text": "did",
+          "start": 340.29,
+          "end": 340.43
+        },
+        {
+          "id": "p42w11",
+          "text": "not",
+          "start": 340.43,
+          "end": 340.57
+        },
+        {
+          "id": "p42w12",
+          "text": "look",
+          "start": 340.57,
+          "end": 340.83
+        },
+        {
+          "id": "p42w13",
+          "text": "at",
+          "start": 340.83,
+          "end": 340.97
+        },
+        {
+          "id": "p42w14",
+          "text": "me",
+          "start": 340.97,
+          "end": 341.09
+        },
+        {
+          "id": "p42w15",
+          "text": "as",
+          "start": 341.09,
+          "end": 341.23
+        },
+        {
+          "id": "p42w16",
+          "text": "he",
+          "start": 341.23,
+          "end": 341.33
+        },
+        {
+          "id": "p42w17",
+          "text": "spoke.",
+          "start": 341.33,
+          "end": 341.55
+        },
+        {
+          "id": "p42w18",
+          "text": "She",
+          "start": 342.07,
+          "end": 342.35
+        },
+        {
+          "id": "p42w19",
+          "text": "will",
+          "start": 342.35,
+          "end": 342.55
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 342.55,
+      "end": 349.98,
+      "text": "not harm you. It is Mason, I fear. I will not be happy until he is back in the West Indies.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "not",
+          "start": 342.55,
+          "end": 342.75
+        },
+        {
+          "id": "p43w2",
+          "text": "harm",
+          "start": 342.75,
+          "end": 343.01
+        },
+        {
+          "id": "p43w3",
+          "text": "you.",
+          "start": 343.01,
+          "end": 343.27
+        },
+        {
+          "id": "p43w4",
+          "text": "It",
+          "start": 344.22,
+          "end": 344.46
+        },
+        {
+          "id": "p43w5",
+          "text": "is",
+          "start": 344.46,
+          "end": 344.64
+        },
+        {
+          "id": "p43w6",
+          "text": "Mason,",
+          "start": 344.64,
+          "end": 344.88
+        },
+        {
+          "id": "p43w7",
+          "text": "I",
+          "start": 345.3,
+          "end": 345.5
+        },
+        {
+          "id": "p43w8",
+          "text": "fear.",
+          "start": 345.5,
+          "end": 345.78
+        },
+        {
+          "id": "p43w9",
+          "text": "I",
+          "start": 346.92,
+          "end": 347.14
+        },
+        {
+          "id": "p43w10",
+          "text": "will",
+          "start": 347.14,
+          "end": 347.28
+        },
+        {
+          "id": "p43w11",
+          "text": "not",
+          "start": 347.28,
+          "end": 347.5
+        },
+        {
+          "id": "p43w12",
+          "text": "be",
+          "start": 347.5,
+          "end": 347.86
+        },
+        {
+          "id": "p43w13",
+          "text": "happy",
+          "start": 347.86,
+          "end": 348.14
+        },
+        {
+          "id": "p43w14",
+          "text": "until",
+          "start": 348.14,
+          "end": 348.64
+        },
+        {
+          "id": "p43w15",
+          "text": "he",
+          "start": 348.64,
+          "end": 348.82
+        },
+        {
+          "id": "p43w16",
+          "text": "is",
+          "start": 348.82,
+          "end": 348.94
+        },
+        {
+          "id": "p43w17",
+          "text": "back",
+          "start": 348.94,
+          "end": 349.18
+        },
+        {
+          "id": "p43w18",
+          "text": "in",
+          "start": 349.18,
+          "end": 349.42
+        },
+        {
+          "id": "p43w19",
+          "text": "the",
+          "start": 349.42,
+          "end": 349.56
+        },
+        {
+          "id": "p43w20",
+          "text": "West",
+          "start": 349.56,
+          "end": 349.78
+        },
+        {
+          "id": "p43w21",
+          "text": "Indies.",
+          "start": 349.78,
+          "end": 349.98
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 351.14,
+      "end": 357.59,
+      "text": "But Mr. Mason is a quiet and gentle man, I said, surprised. I am sure that he will do",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "But",
+          "start": 351.14,
+          "end": 351.46
+        },
+        {
+          "id": "p44w2",
+          "text": "Mr.",
+          "start": 351.46,
+          "end": 351.68
+        },
+        {
+          "id": "p44w3",
+          "text": "Mason",
+          "start": 351.84,
+          "end": 352.02
+        },
+        {
+          "id": "p44w4",
+          "text": "is",
+          "start": 352.02,
+          "end": 352.3
+        },
+        {
+          "id": "p44w5",
+          "text": "a",
+          "start": 352.3,
+          "end": 352.4
+        },
+        {
+          "id": "p44w6",
+          "text": "quiet",
+          "start": 352.4,
+          "end": 352.74
+        },
+        {
+          "id": "p44w7",
+          "text": "and",
+          "start": 352.74,
+          "end": 353.0
+        },
+        {
+          "id": "p44w8",
+          "text": "gentle",
+          "start": 353.0,
+          "end": 353.3
+        },
+        {
+          "id": "p44w9",
+          "text": "man,",
+          "start": 353.3,
+          "end": 353.76
+        },
+        {
+          "id": "p44w10",
+          "text": "I",
+          "start": 354.06,
+          "end": 354.26
+        },
+        {
+          "id": "p44w11",
+          "text": "said,",
+          "start": 354.26,
+          "end": 354.48
+        },
+        {
+          "id": "p44w12",
+          "text": "surprised.",
+          "start": 354.66,
+          "end": 355.0
+        },
+        {
+          "id": "p44w13",
+          "text": "I",
+          "start": 356.21,
+          "end": 356.69
+        },
+        {
+          "id": "p44w14",
+          "text": "am",
+          "start": 356.69,
+          "end": 356.77
+        },
+        {
+          "id": "p44w15",
+          "text": "sure",
+          "start": 356.77,
+          "end": 356.99
+        },
+        {
+          "id": "p44w16",
+          "text": "that",
+          "start": 356.99,
+          "end": 357.19
+        },
+        {
+          "id": "p44w17",
+          "text": "he",
+          "start": 357.19,
+          "end": 357.33
+        },
+        {
+          "id": "p44w18",
+          "text": "will",
+          "start": 357.33,
+          "end": 357.45
+        },
+        {
+          "id": "p44w19",
+          "text": "do",
+          "start": 357.45,
+          "end": 357.59
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 357.59,
+      "end": 363.19,
+      "text": "what you tell him. No. He will not hurt me deliberately. Mr. Rochester replied. But he",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "what",
+          "start": 357.59,
+          "end": 357.77
+        },
+        {
+          "id": "p45w2",
+          "text": "you",
+          "start": 357.77,
+          "end": 357.91
+        },
+        {
+          "id": "p45w3",
+          "text": "tell",
+          "start": 357.91,
+          "end": 358.09
+        },
+        {
+          "id": "p45w4",
+          "text": "him.",
+          "start": 358.09,
+          "end": 358.37
+        },
+        {
+          "id": "p45w5",
+          "text": "No.",
+          "start": 358.79,
+          "end": 359.27
+        },
+        {
+          "id": "p45w6",
+          "text": "He",
+          "start": 359.71,
+          "end": 359.77
+        },
+        {
+          "id": "p45w7",
+          "text": "will",
+          "start": 359.77,
+          "end": 359.85
+        },
+        {
+          "id": "p45w8",
+          "text": "not",
+          "start": 359.85,
+          "end": 360.01
+        },
+        {
+          "id": "p45w9",
+          "text": "hurt",
+          "start": 360.01,
+          "end": 360.27
+        },
+        {
+          "id": "p45w10",
+          "text": "me",
+          "start": 360.27,
+          "end": 360.49
+        },
+        {
+          "id": "p45w11",
+          "text": "deliberately.",
+          "start": 360.49,
+          "end": 360.75
+        },
+        {
+          "id": "p45w12",
+          "text": "Mr.",
+          "start": 361.33,
+          "end": 361.55
+        },
+        {
+          "id": "p45w13",
+          "text": "Rochester",
+          "start": 361.63,
+          "end": 361.75
+        },
+        {
+          "id": "p45w14",
+          "text": "replied.",
+          "start": 361.75,
+          "end": 362.31
+        },
+        {
+          "id": "p45w15",
+          "text": "But",
+          "start": 362.85,
+          "end": 363.03
+        },
+        {
+          "id": "p45w16",
+          "text": "he",
+          "start": 363.03,
+          "end": 363.19
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 363.19,
+      "end": 369.95,
+      "text": "might say something without meaning to. Which would do me great harm. I was surprised when",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "might",
+          "start": 363.19,
+          "end": 363.41
+        },
+        {
+          "id": "p46w2",
+          "text": "say",
+          "start": 363.41,
+          "end": 363.73
+        },
+        {
+          "id": "p46w3",
+          "text": "something",
+          "start": 363.73,
+          "end": 364.11
+        },
+        {
+          "id": "p46w4",
+          "text": "without",
+          "start": 364.11,
+          "end": 364.49
+        },
+        {
+          "id": "p46w5",
+          "text": "meaning",
+          "start": 364.49,
+          "end": 364.89
+        },
+        {
+          "id": "p46w6",
+          "text": "to.",
+          "start": 364.89,
+          "end": 365.29
+        },
+        {
+          "id": "p46w7",
+          "text": "Which",
+          "start": 365.95,
+          "end": 366.43
+        },
+        {
+          "id": "p46w8",
+          "text": "would",
+          "start": 366.43,
+          "end": 366.61
+        },
+        {
+          "id": "p46w9",
+          "text": "do",
+          "start": 366.61,
+          "end": 366.85
+        },
+        {
+          "id": "p46w10",
+          "text": "me",
+          "start": 366.85,
+          "end": 367.05
+        },
+        {
+          "id": "p46w11",
+          "text": "great",
+          "start": 367.05,
+          "end": 367.31
+        },
+        {
+          "id": "p46w12",
+          "text": "harm.",
+          "start": 367.31,
+          "end": 367.59
+        },
+        {
+          "id": "p46w13",
+          "text": "I",
+          "start": 368.67,
+          "end": 369.15
+        },
+        {
+          "id": "p46w14",
+          "text": "was",
+          "start": 369.15,
+          "end": 369.27
+        },
+        {
+          "id": "p46w15",
+          "text": "surprised",
+          "start": 369.27,
+          "end": 369.61
+        },
+        {
+          "id": "p46w16",
+          "text": "when",
+          "start": 369.61,
+          "end": 369.95
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 369.95,
+      "end": 377.23,
+      "text": "I heard this. Then you must tell him to be careful about what he says. I said, Mr. Rochester",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "I",
+          "start": 369.95,
+          "end": 370.09
+        },
+        {
+          "id": "p47w2",
+          "text": "heard",
+          "start": 370.09,
+          "end": 370.27
+        },
+        {
+          "id": "p47w3",
+          "text": "this.",
+          "start": 370.27,
+          "end": 370.55
+        },
+        {
+          "id": "p47w4",
+          "text": "Then",
+          "start": 371.86,
+          "end": 371.94
+        },
+        {
+          "id": "p47w5",
+          "text": "you",
+          "start": 371.94,
+          "end": 372.16
+        },
+        {
+          "id": "p47w6",
+          "text": "must",
+          "start": 372.16,
+          "end": 372.26
+        },
+        {
+          "id": "p47w7",
+          "text": "tell",
+          "start": 372.26,
+          "end": 372.52
+        },
+        {
+          "id": "p47w8",
+          "text": "him",
+          "start": 372.52,
+          "end": 372.7
+        },
+        {
+          "id": "p47w9",
+          "text": "to",
+          "start": 372.7,
+          "end": 372.82
+        },
+        {
+          "id": "p47w10",
+          "text": "be",
+          "start": 372.82,
+          "end": 372.94
+        },
+        {
+          "id": "p47w11",
+          "text": "careful",
+          "start": 372.94,
+          "end": 373.24
+        },
+        {
+          "id": "p47w12",
+          "text": "about",
+          "start": 373.24,
+          "end": 373.62
+        },
+        {
+          "id": "p47w13",
+          "text": "what",
+          "start": 373.62,
+          "end": 373.88
+        },
+        {
+          "id": "p47w14",
+          "text": "he",
+          "start": 373.88,
+          "end": 374.02
+        },
+        {
+          "id": "p47w15",
+          "text": "says.",
+          "start": 374.02,
+          "end": 374.28
+        },
+        {
+          "id": "p47w16",
+          "text": "I",
+          "start": 374.86,
+          "end": 374.9
+        },
+        {
+          "id": "p47w17",
+          "text": "said,",
+          "start": 374.9,
+          "end": 375.18
+        },
+        {
+          "id": "p47w18",
+          "text": "Mr.",
+          "start": 376.73,
+          "end": 376.99
+        },
+        {
+          "id": "p47w19",
+          "text": "Rochester",
+          "start": 377.23,
+          "end": 377.23
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 377.23,
+      "end": 386.04,
+      "text": "turned to look at me and he laughed. It is not that simple, Jane. He said, we went back",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "turned",
+          "start": 377.23,
+          "end": 377.67
+        },
+        {
+          "id": "p48w2",
+          "text": "to",
+          "start": 377.67,
+          "end": 377.87
+        },
+        {
+          "id": "p48w3",
+          "text": "look",
+          "start": 377.87,
+          "end": 378.01
+        },
+        {
+          "id": "p48w4",
+          "text": "at",
+          "start": 378.01,
+          "end": 378.13
+        },
+        {
+          "id": "p48w5",
+          "text": "me",
+          "start": 378.13,
+          "end": 378.33
+        },
+        {
+          "id": "p48w6",
+          "text": "and",
+          "start": 378.33,
+          "end": 378.85
+        },
+        {
+          "id": "p48w7",
+          "text": "he",
+          "start": 378.85,
+          "end": 378.97
+        },
+        {
+          "id": "p48w8",
+          "text": "laughed.",
+          "start": 378.97,
+          "end": 379.21
+        },
+        {
+          "id": "p48w9",
+          "text": "It",
+          "start": 380.69,
+          "end": 381.21
+        },
+        {
+          "id": "p48w10",
+          "text": "is",
+          "start": 381.21,
+          "end": 381.95
+        },
+        {
+          "id": "p48w11",
+          "text": "not",
+          "start": 381.95,
+          "end": 382.23
+        },
+        {
+          "id": "p48w12",
+          "text": "that",
+          "start": 382.23,
+          "end": 382.59
+        },
+        {
+          "id": "p48w13",
+          "text": "simple,",
+          "start": 382.59,
+          "end": 383.05
+        },
+        {
+          "id": "p48w14",
+          "text": "Jane.",
+          "start": 383.05,
+          "end": 383.51
+        },
+        {
+          "id": "p48w15",
+          "text": "He",
+          "start": 383.77,
+          "end": 383.85
+        },
+        {
+          "id": "p48w16",
+          "text": "said,",
+          "start": 383.85,
+          "end": 384.15
+        },
+        {
+          "id": "p48w17",
+          "text": "we",
+          "start": 385.36,
+          "end": 385.56
+        },
+        {
+          "id": "p48w18",
+          "text": "went",
+          "start": 385.56,
+          "end": 385.76
+        },
+        {
+          "id": "p48w19",
+          "text": "back",
+          "start": 385.76,
+          "end": 386.04
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 386.04,
+      "end": 387.04,
+      "text": "into the house together.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "into",
+          "start": 386.04,
+          "end": 386.24
+        },
+        {
+          "id": "p49w2",
+          "text": "the",
+          "start": 386.24,
+          "end": 386.44
+        },
+        {
+          "id": "p49w3",
+          "text": "house",
+          "start": 386.44,
+          "end": 386.62
+        },
+        {
+          "id": "p49w4",
+          "text": "together.",
+          "start": 386.62,
+          "end": 387.04
+        }
+      ]
+    }
+  ]
+}

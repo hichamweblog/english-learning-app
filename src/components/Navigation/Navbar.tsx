@@ -17,6 +17,7 @@ import {
   Play,
   Pause,
   Compass,
+  GraduationCap,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useAudioStore } from '@/lib/store';
@@ -70,6 +71,7 @@ export function Navbar() {
     { href: '/', label: 'Home', icon: Compass },
     { href: '/podcasts', label: 'Podcasts', icon: Headphones },
     { href: '/readers', label: 'Readers', icon: BookOpen },
+    { href: '/courses', label: 'Courses', icon: GraduationCap },
     { href: '/accent', label: 'Accent', icon: Mic },
     { href: '/library', label: 'Reference', icon: Library },
     { href: '/progress', label: 'Progress', icon: BarChart2 },

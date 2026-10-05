@@ -1,0 +1,3927 @@
+{
+  "sectionId": "reader-1-andersen-s-fairy-tales-ch-5",
+  "trackNumber": 5,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/287 (S1) Andersen's Fairy Tales/Track 05.mp3",
+  "totalDuration": 405.2898125,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 16.46,
+      "end": 17.78,
+      "text": "The Red Shoes",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "The",
+          "start": 16.46,
+          "end": 16.94
+        },
+        {
+          "id": "p1w2",
+          "text": "Red",
+          "start": 16.94,
+          "end": 17.28
+        },
+        {
+          "id": "p1w3",
+          "text": "Shoes",
+          "start": 17.28,
+          "end": 17.78
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 22.34,
+      "end": 23.6,
+      "text": "Chapter 1",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Chapter",
+          "start": 22.34,
+          "end": 23.02
+        },
+        {
+          "id": "p2w2",
+          "text": "1",
+          "start": 23.02,
+          "end": 23.6
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 24.77,
+      "end": 36.1,
+      "text": "A poor little girl. A little girl named Karen lived with her mother.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "A",
+          "start": 24.77,
+          "end": 25.11
+        },
+        {
+          "id": "p3w2",
+          "text": "poor",
+          "start": 25.11,
+          "end": 25.35
+        },
+        {
+          "id": "p3w3",
+          "text": "little",
+          "start": 25.35,
+          "end": 25.93
+        },
+        {
+          "id": "p3w4",
+          "text": "girl.",
+          "start": 25.93,
+          "end": 26.29
+        },
+        {
+          "id": "p3w5",
+          "text": "A",
+          "start": 33.22,
+          "end": 33.6
+        },
+        {
+          "id": "p3w6",
+          "text": "little",
+          "start": 33.6,
+          "end": 33.8
+        },
+        {
+          "id": "p3w7",
+          "text": "girl",
+          "start": 33.8,
+          "end": 34.18
+        },
+        {
+          "id": "p3w8",
+          "text": "named",
+          "start": 34.18,
+          "end": 34.54
+        },
+        {
+          "id": "p3w9",
+          "text": "Karen",
+          "start": 34.54,
+          "end": 34.92
+        },
+        {
+          "id": "p3w10",
+          "text": "lived",
+          "start": 34.92,
+          "end": 35.36
+        },
+        {
+          "id": "p3w11",
+          "text": "with",
+          "start": 35.36,
+          "end": 35.6
+        },
+        {
+          "id": "p3w12",
+          "text": "her",
+          "start": 35.6,
+          "end": 35.78
+        },
+        {
+          "id": "p3w13",
+          "text": "mother.",
+          "start": 35.78,
+          "end": 36.1
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 37.39,
+      "end": 39.95,
+      "text": "She was a small and weak-looking girl.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "She",
+          "start": 37.39,
+          "end": 37.69
+        },
+        {
+          "id": "p4w2",
+          "text": "was",
+          "start": 37.69,
+          "end": 37.87
+        },
+        {
+          "id": "p4w3",
+          "text": "a",
+          "start": 37.87,
+          "end": 38.03
+        },
+        {
+          "id": "p4w4",
+          "text": "small",
+          "start": 38.03,
+          "end": 38.47
+        },
+        {
+          "id": "p4w5",
+          "text": "and",
+          "start": 38.47,
+          "end": 38.81
+        },
+        {
+          "id": "p4w6",
+          "text": "weak",
+          "start": 38.81,
+          "end": 39.11
+        },
+        {
+          "id": "p4w7",
+          "text": "-looking",
+          "start": 39.11,
+          "end": 39.41
+        },
+        {
+          "id": "p4w8",
+          "text": "girl.",
+          "start": 39.41,
+          "end": 39.95
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 43.01,
+      "end": 47.65,
+      "text": "In summer, she never had any shoes because she was very poor.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "In",
+          "start": 43.01,
+          "end": 43.53
+        },
+        {
+          "id": "p5w2",
+          "text": "summer,",
+          "start": 43.53,
+          "end": 43.81
+        },
+        {
+          "id": "p5w3",
+          "text": "she",
+          "start": 44.13,
+          "end": 44.25
+        },
+        {
+          "id": "p5w4",
+          "text": "never",
+          "start": 44.25,
+          "end": 44.55
+        },
+        {
+          "id": "p5w5",
+          "text": "had",
+          "start": 44.55,
+          "end": 44.95
+        },
+        {
+          "id": "p5w6",
+          "text": "any",
+          "start": 44.95,
+          "end": 45.21
+        },
+        {
+          "id": "p5w7",
+          "text": "shoes",
+          "start": 45.21,
+          "end": 45.63
+        },
+        {
+          "id": "p5w8",
+          "text": "because",
+          "start": 45.63,
+          "end": 46.37
+        },
+        {
+          "id": "p5w9",
+          "text": "she",
+          "start": 46.37,
+          "end": 46.67
+        },
+        {
+          "id": "p5w10",
+          "text": "was",
+          "start": 46.67,
+          "end": 46.83
+        },
+        {
+          "id": "p5w11",
+          "text": "very",
+          "start": 46.83,
+          "end": 47.19
+        },
+        {
+          "id": "p5w12",
+          "text": "poor.",
+          "start": 47.19,
+          "end": 47.65
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 52.81,
+      "end": 56.01,
+      "text": "In winter, she had to wear a pair of heavy wooden shoes.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "In",
+          "start": 52.81,
+          "end": 53.21
+        },
+        {
+          "id": "p6w2",
+          "text": "winter,",
+          "start": 53.21,
+          "end": 53.39
+        },
+        {
+          "id": "p6w3",
+          "text": "she",
+          "start": 53.65,
+          "end": 53.81
+        },
+        {
+          "id": "p6w4",
+          "text": "had",
+          "start": 53.81,
+          "end": 53.99
+        },
+        {
+          "id": "p6w5",
+          "text": "to",
+          "start": 53.99,
+          "end": 54.15
+        },
+        {
+          "id": "p6w6",
+          "text": "wear",
+          "start": 54.15,
+          "end": 54.37
+        },
+        {
+          "id": "p6w7",
+          "text": "a",
+          "start": 54.37,
+          "end": 54.47
+        },
+        {
+          "id": "p6w8",
+          "text": "pair",
+          "start": 54.47,
+          "end": 54.71
+        },
+        {
+          "id": "p6w9",
+          "text": "of",
+          "start": 54.71,
+          "end": 54.89
+        },
+        {
+          "id": "p6w10",
+          "text": "heavy",
+          "start": 54.89,
+          "end": 55.27
+        },
+        {
+          "id": "p6w11",
+          "text": "wooden",
+          "start": 55.27,
+          "end": 55.53
+        },
+        {
+          "id": "p6w12",
+          "text": "shoes.",
+          "start": 55.53,
+          "end": 56.01
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 60.07,
+      "end": 65.87,
+      "text": "These shoes always made her feet hurt, but she didn't have anything else to wear.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "These",
+          "start": 60.07,
+          "end": 60.29
+        },
+        {
+          "id": "p7w2",
+          "text": "shoes",
+          "start": 60.29,
+          "end": 60.63
+        },
+        {
+          "id": "p7w3",
+          "text": "always",
+          "start": 60.63,
+          "end": 61.17
+        },
+        {
+          "id": "p7w4",
+          "text": "made",
+          "start": 61.17,
+          "end": 61.63
+        },
+        {
+          "id": "p7w5",
+          "text": "her",
+          "start": 61.63,
+          "end": 61.83
+        },
+        {
+          "id": "p7w6",
+          "text": "feet",
+          "start": 61.83,
+          "end": 62.13
+        },
+        {
+          "id": "p7w7",
+          "text": "hurt,",
+          "start": 62.13,
+          "end": 62.41
+        },
+        {
+          "id": "p7w8",
+          "text": "but",
+          "start": 63.39,
+          "end": 63.71
+        },
+        {
+          "id": "p7w9",
+          "text": "she",
+          "start": 63.71,
+          "end": 63.89
+        },
+        {
+          "id": "p7w10",
+          "text": "didn't",
+          "start": 63.89,
+          "end": 64.25
+        },
+        {
+          "id": "p7w11",
+          "text": "have",
+          "start": 64.25,
+          "end": 64.47
+        },
+        {
+          "id": "p7w12",
+          "text": "anything",
+          "start": 64.47,
+          "end": 64.83
+        },
+        {
+          "id": "p7w13",
+          "text": "else",
+          "start": 64.83,
+          "end": 65.31
+        },
+        {
+          "id": "p7w14",
+          "text": "to",
+          "start": 65.31,
+          "end": 65.55
+        },
+        {
+          "id": "p7w15",
+          "text": "wear.",
+          "start": 65.55,
+          "end": 65.87
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 65.87,
+      "end": 76.93,
+      "text": "An old shoemaker in the village felt sorry for her and made a pair of red shoes for her.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "An",
+          "start": 65.87,
+          "end": 66.93
+        },
+        {
+          "id": "p8w2",
+          "text": "old",
+          "start": 71.25,
+          "end": 71.49
+        },
+        {
+          "id": "p8w3",
+          "text": "shoemaker",
+          "start": 71.49,
+          "end": 72.11
+        },
+        {
+          "id": "p8w4",
+          "text": "in",
+          "start": 72.11,
+          "end": 72.33
+        },
+        {
+          "id": "p8w5",
+          "text": "the",
+          "start": 72.33,
+          "end": 72.43
+        },
+        {
+          "id": "p8w6",
+          "text": "village",
+          "start": 72.43,
+          "end": 72.75
+        },
+        {
+          "id": "p8w7",
+          "text": "felt",
+          "start": 72.75,
+          "end": 73.07
+        },
+        {
+          "id": "p8w8",
+          "text": "sorry",
+          "start": 73.07,
+          "end": 73.49
+        },
+        {
+          "id": "p8w9",
+          "text": "for",
+          "start": 73.49,
+          "end": 73.77
+        },
+        {
+          "id": "p8w10",
+          "text": "her",
+          "start": 73.77,
+          "end": 74.05
+        },
+        {
+          "id": "p8w11",
+          "text": "and",
+          "start": 74.05,
+          "end": 74.79
+        },
+        {
+          "id": "p8w12",
+          "text": "made",
+          "start": 74.79,
+          "end": 75.03
+        },
+        {
+          "id": "p8w13",
+          "text": "a",
+          "start": 75.03,
+          "end": 75.25
+        },
+        {
+          "id": "p8w14",
+          "text": "pair",
+          "start": 75.25,
+          "end": 75.57
+        },
+        {
+          "id": "p8w15",
+          "text": "of",
+          "start": 75.57,
+          "end": 75.73
+        },
+        {
+          "id": "p8w16",
+          "text": "red",
+          "start": 75.73,
+          "end": 75.95
+        },
+        {
+          "id": "p8w17",
+          "text": "shoes",
+          "start": 75.95,
+          "end": 76.35
+        },
+        {
+          "id": "p8w18",
+          "text": "for",
+          "start": 76.35,
+          "end": 76.69
+        },
+        {
+          "id": "p8w19",
+          "text": "her.",
+          "start": 76.69,
+          "end": 76.93
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 78.82,
+      "end": 82.64,
+      "text": "They weren't very good shoes, but they made her very happy.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "They",
+          "start": 78.82,
+          "end": 79.02
+        },
+        {
+          "id": "p9w2",
+          "text": "weren't",
+          "start": 79.02,
+          "end": 79.38
+        },
+        {
+          "id": "p9w3",
+          "text": "very",
+          "start": 79.38,
+          "end": 79.54
+        },
+        {
+          "id": "p9w4",
+          "text": "good",
+          "start": 79.54,
+          "end": 79.94
+        },
+        {
+          "id": "p9w5",
+          "text": "shoes,",
+          "start": 79.94,
+          "end": 80.24
+        },
+        {
+          "id": "p9w6",
+          "text": "but",
+          "start": 80.7,
+          "end": 80.98
+        },
+        {
+          "id": "p9w7",
+          "text": "they",
+          "start": 80.98,
+          "end": 81.14
+        },
+        {
+          "id": "p9w8",
+          "text": "made",
+          "start": 81.14,
+          "end": 81.46
+        },
+        {
+          "id": "p9w9",
+          "text": "her",
+          "start": 81.46,
+          "end": 81.68
+        },
+        {
+          "id": "p9w10",
+          "text": "very",
+          "start": 81.68,
+          "end": 82.02
+        },
+        {
+          "id": "p9w11",
+          "text": "happy.",
+          "start": 82.02,
+          "end": 82.64
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 94.88,
+      "end": 98.92,
+      "text": "Unfortunately, the little girl's mother died soon after.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "Unfortunately,",
+          "start": 94.88,
+          "end": 95.54
+        },
+        {
+          "id": "p10w2",
+          "text": "the",
+          "start": 96.32,
+          "end": 96.58
+        },
+        {
+          "id": "p10w3",
+          "text": "little",
+          "start": 96.58,
+          "end": 96.8
+        },
+        {
+          "id": "p10w4",
+          "text": "girl's",
+          "start": 96.8,
+          "end": 97.3
+        },
+        {
+          "id": "p10w5",
+          "text": "mother",
+          "start": 97.3,
+          "end": 97.58
+        },
+        {
+          "id": "p10w6",
+          "text": "died",
+          "start": 97.58,
+          "end": 97.9
+        },
+        {
+          "id": "p10w7",
+          "text": "soon",
+          "start": 97.9,
+          "end": 98.44
+        },
+        {
+          "id": "p10w8",
+          "text": "after.",
+          "start": 98.44,
+          "end": 98.92
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 100.9,
+      "end": 105.24,
+      "text": "Her mother's funeral was the first time she wore her new shoes.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Her",
+          "start": 100.9,
+          "end": 101.2
+        },
+        {
+          "id": "p11w2",
+          "text": "mother's",
+          "start": 101.2,
+          "end": 101.7
+        },
+        {
+          "id": "p11w3",
+          "text": "funeral",
+          "start": 101.7,
+          "end": 101.88
+        },
+        {
+          "id": "p11w4",
+          "text": "was",
+          "start": 101.88,
+          "end": 102.32
+        },
+        {
+          "id": "p11w5",
+          "text": "the",
+          "start": 102.32,
+          "end": 102.5
+        },
+        {
+          "id": "p11w6",
+          "text": "first",
+          "start": 102.5,
+          "end": 102.82
+        },
+        {
+          "id": "p11w7",
+          "text": "time",
+          "start": 102.82,
+          "end": 103.28
+        },
+        {
+          "id": "p11w8",
+          "text": "she",
+          "start": 103.28,
+          "end": 103.58
+        },
+        {
+          "id": "p11w9",
+          "text": "wore",
+          "start": 103.58,
+          "end": 103.88
+        },
+        {
+          "id": "p11w10",
+          "text": "her",
+          "start": 103.88,
+          "end": 104.2
+        },
+        {
+          "id": "p11w11",
+          "text": "new",
+          "start": 104.2,
+          "end": 104.5
+        },
+        {
+          "id": "p11w12",
+          "text": "shoes.",
+          "start": 104.5,
+          "end": 105.24
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 107.09,
+      "end": 109.47,
+      "text": "Karen was walking behind her mother's coffin.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Karen",
+          "start": 107.09,
+          "end": 107.41
+        },
+        {
+          "id": "p12w2",
+          "text": "was",
+          "start": 107.41,
+          "end": 107.73
+        },
+        {
+          "id": "p12w3",
+          "text": "walking",
+          "start": 107.73,
+          "end": 108.11
+        },
+        {
+          "id": "p12w4",
+          "text": "behind",
+          "start": 108.11,
+          "end": 108.49
+        },
+        {
+          "id": "p12w5",
+          "text": "her",
+          "start": 108.49,
+          "end": 108.83
+        },
+        {
+          "id": "p12w6",
+          "text": "mother's",
+          "start": 108.83,
+          "end": 109.27
+        },
+        {
+          "id": "p12w7",
+          "text": "coffin.",
+          "start": 109.27,
+          "end": 109.47
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 119.18,
+      "end": 121.78,
+      "text": "Just then a large carriage passed by.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Just",
+          "start": 119.18,
+          "end": 119.54
+        },
+        {
+          "id": "p13w2",
+          "text": "then",
+          "start": 119.54,
+          "end": 119.9
+        },
+        {
+          "id": "p13w3",
+          "text": "a",
+          "start": 119.9,
+          "end": 120.18
+        },
+        {
+          "id": "p13w4",
+          "text": "large",
+          "start": 120.18,
+          "end": 120.54
+        },
+        {
+          "id": "p13w5",
+          "text": "carriage",
+          "start": 120.54,
+          "end": 121.0
+        },
+        {
+          "id": "p13w6",
+          "text": "passed",
+          "start": 121.0,
+          "end": 121.42
+        },
+        {
+          "id": "p13w7",
+          "text": "by.",
+          "start": 121.42,
+          "end": 121.78
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 123.97,
+      "end": 126.89,
+      "text": "An old lady in the carriage saw the little girl.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "An",
+          "start": 123.97,
+          "end": 124.25
+        },
+        {
+          "id": "p14w2",
+          "text": "old",
+          "start": 124.25,
+          "end": 124.55
+        },
+        {
+          "id": "p14w3",
+          "text": "lady",
+          "start": 124.55,
+          "end": 125.03
+        },
+        {
+          "id": "p14w4",
+          "text": "in",
+          "start": 125.03,
+          "end": 125.23
+        },
+        {
+          "id": "p14w5",
+          "text": "the",
+          "start": 125.23,
+          "end": 125.31
+        },
+        {
+          "id": "p14w6",
+          "text": "carriage",
+          "start": 125.31,
+          "end": 125.65
+        },
+        {
+          "id": "p14w7",
+          "text": "saw",
+          "start": 125.65,
+          "end": 126.07
+        },
+        {
+          "id": "p14w8",
+          "text": "the",
+          "start": 126.07,
+          "end": 126.29
+        },
+        {
+          "id": "p14w9",
+          "text": "little",
+          "start": 126.29,
+          "end": 126.49
+        },
+        {
+          "id": "p14w10",
+          "text": "girl.",
+          "start": 126.49,
+          "end": 126.89
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 128.45,
+      "end": 130.55,
+      "text": "She immediately felt sorry for her.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "She",
+          "start": 128.45,
+          "end": 128.59
+        },
+        {
+          "id": "p15w2",
+          "text": "immediately",
+          "start": 128.59,
+          "end": 129.05
+        },
+        {
+          "id": "p15w3",
+          "text": "felt",
+          "start": 129.05,
+          "end": 129.63
+        },
+        {
+          "id": "p15w4",
+          "text": "sorry",
+          "start": 129.63,
+          "end": 130.03
+        },
+        {
+          "id": "p15w5",
+          "text": "for",
+          "start": 130.03,
+          "end": 130.31
+        },
+        {
+          "id": "p15w6",
+          "text": "her.",
+          "start": 130.31,
+          "end": 130.55
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 131.69,
+      "end": 133.37,
+      "text": "To the church minister, she said,",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "To",
+          "start": 131.69,
+          "end": 131.79
+        },
+        {
+          "id": "p16w2",
+          "text": "the",
+          "start": 131.79,
+          "end": 131.93
+        },
+        {
+          "id": "p16w3",
+          "text": "church",
+          "start": 131.93,
+          "end": 132.13
+        },
+        {
+          "id": "p16w4",
+          "text": "minister,",
+          "start": 132.13,
+          "end": 132.51
+        },
+        {
+          "id": "p16w5",
+          "text": "she",
+          "start": 132.75,
+          "end": 133.07
+        },
+        {
+          "id": "p16w6",
+          "text": "said,",
+          "start": 133.07,
+          "end": 133.37
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 133.97,
+      "end": 137.97,
+      "text": "Give her to me. I will raise and take care of her.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "Give",
+          "start": 133.97,
+          "end": 134.43
+        },
+        {
+          "id": "p17w2",
+          "text": "her",
+          "start": 134.43,
+          "end": 134.69
+        },
+        {
+          "id": "p17w3",
+          "text": "to",
+          "start": 134.69,
+          "end": 134.95
+        },
+        {
+          "id": "p17w4",
+          "text": "me.",
+          "start": 134.95,
+          "end": 135.19
+        },
+        {
+          "id": "p17w5",
+          "text": "I",
+          "start": 135.93,
+          "end": 136.09
+        },
+        {
+          "id": "p17w6",
+          "text": "will",
+          "start": 136.09,
+          "end": 136.33
+        },
+        {
+          "id": "p17w7",
+          "text": "raise",
+          "start": 136.33,
+          "end": 136.63
+        },
+        {
+          "id": "p17w8",
+          "text": "and",
+          "start": 136.63,
+          "end": 136.91
+        },
+        {
+          "id": "p17w9",
+          "text": "take",
+          "start": 136.91,
+          "end": 137.17
+        },
+        {
+          "id": "p17w10",
+          "text": "care",
+          "start": 137.17,
+          "end": 137.47
+        },
+        {
+          "id": "p17w11",
+          "text": "of",
+          "start": 137.47,
+          "end": 137.73
+        },
+        {
+          "id": "p17w12",
+          "text": "her.",
+          "start": 137.73,
+          "end": 137.97
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 140.43,
+      "end": 145.83,
+      "text": "Karen thought it was all because of the red shoes, but the old lady said,",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "Karen",
+          "start": 140.43,
+          "end": 140.71
+        },
+        {
+          "id": "p18w2",
+          "text": "thought",
+          "start": 140.71,
+          "end": 141.15
+        },
+        {
+          "id": "p18w3",
+          "text": "it",
+          "start": 141.15,
+          "end": 141.39
+        },
+        {
+          "id": "p18w4",
+          "text": "was",
+          "start": 141.39,
+          "end": 141.55
+        },
+        {
+          "id": "p18w5",
+          "text": "all",
+          "start": 141.55,
+          "end": 141.89
+        },
+        {
+          "id": "p18w6",
+          "text": "because",
+          "start": 141.89,
+          "end": 142.21
+        },
+        {
+          "id": "p18w7",
+          "text": "of",
+          "start": 142.21,
+          "end": 142.43
+        },
+        {
+          "id": "p18w8",
+          "text": "the",
+          "start": 142.43,
+          "end": 142.55
+        },
+        {
+          "id": "p18w9",
+          "text": "red",
+          "start": 142.55,
+          "end": 142.79
+        },
+        {
+          "id": "p18w10",
+          "text": "shoes,",
+          "start": 142.79,
+          "end": 143.19
+        },
+        {
+          "id": "p18w11",
+          "text": "but",
+          "start": 144.41,
+          "end": 144.69
+        },
+        {
+          "id": "p18w12",
+          "text": "the",
+          "start": 144.69,
+          "end": 144.87
+        },
+        {
+          "id": "p18w13",
+          "text": "old",
+          "start": 144.87,
+          "end": 145.11
+        },
+        {
+          "id": "p18w14",
+          "text": "lady",
+          "start": 145.11,
+          "end": 145.37
+        },
+        {
+          "id": "p18w15",
+          "text": "said,",
+          "start": 145.37,
+          "end": 145.83
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 147.22,
+      "end": 150.16,
+      "text": "Those shoes are terrible. Throw them out.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "Those",
+          "start": 147.22,
+          "end": 147.5
+        },
+        {
+          "id": "p19w2",
+          "text": "shoes",
+          "start": 147.5,
+          "end": 147.88
+        },
+        {
+          "id": "p19w3",
+          "text": "are",
+          "start": 147.88,
+          "end": 148.24
+        },
+        {
+          "id": "p19w4",
+          "text": "terrible.",
+          "start": 148.24,
+          "end": 148.64
+        },
+        {
+          "id": "p19w5",
+          "text": "Throw",
+          "start": 149.44,
+          "end": 149.56
+        },
+        {
+          "id": "p19w6",
+          "text": "them",
+          "start": 149.56,
+          "end": 149.86
+        },
+        {
+          "id": "p19w7",
+          "text": "out.",
+          "start": 149.86,
+          "end": 150.16
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 172.5,
+      "end": 174.68,
+      "text": "Karen went to live with the old lady.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "Karen",
+          "start": 172.5,
+          "end": 172.92
+        },
+        {
+          "id": "p20w2",
+          "text": "went",
+          "start": 172.92,
+          "end": 173.2
+        },
+        {
+          "id": "p20w3",
+          "text": "to",
+          "start": 173.2,
+          "end": 173.44
+        },
+        {
+          "id": "p20w4",
+          "text": "live",
+          "start": 173.44,
+          "end": 173.64
+        },
+        {
+          "id": "p20w5",
+          "text": "with",
+          "start": 173.64,
+          "end": 173.86
+        },
+        {
+          "id": "p20w6",
+          "text": "the",
+          "start": 173.86,
+          "end": 174.06
+        },
+        {
+          "id": "p20w7",
+          "text": "old",
+          "start": 174.06,
+          "end": 174.3
+        },
+        {
+          "id": "p20w8",
+          "text": "lady.",
+          "start": 174.3,
+          "end": 174.68
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 176.04,
+      "end": 178.44,
+      "text": "Every day she dressed and ate well.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "Every",
+          "start": 176.04,
+          "end": 176.38
+        },
+        {
+          "id": "p21w2",
+          "text": "day",
+          "start": 176.38,
+          "end": 176.88
+        },
+        {
+          "id": "p21w3",
+          "text": "she",
+          "start": 176.88,
+          "end": 177.18
+        },
+        {
+          "id": "p21w4",
+          "text": "dressed",
+          "start": 177.18,
+          "end": 177.44
+        },
+        {
+          "id": "p21w5",
+          "text": "and",
+          "start": 177.44,
+          "end": 177.84
+        },
+        {
+          "id": "p21w6",
+          "text": "ate",
+          "start": 177.84,
+          "end": 178.06
+        },
+        {
+          "id": "p21w7",
+          "text": "well.",
+          "start": 178.06,
+          "end": 178.44
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 179.62,
+      "end": 181.1,
+      "text": "She learned many things.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "She",
+          "start": 179.62,
+          "end": 179.84
+        },
+        {
+          "id": "p22w2",
+          "text": "learned",
+          "start": 179.84,
+          "end": 180.2
+        },
+        {
+          "id": "p22w3",
+          "text": "many",
+          "start": 180.2,
+          "end": 180.56
+        },
+        {
+          "id": "p22w4",
+          "text": "things.",
+          "start": 180.56,
+          "end": 181.1
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 182.08,
+      "end": 184.2,
+      "text": "She became a very pretty girl.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "She",
+          "start": 182.08,
+          "end": 182.36
+        },
+        {
+          "id": "p23w2",
+          "text": "became",
+          "start": 182.36,
+          "end": 182.72
+        },
+        {
+          "id": "p23w3",
+          "text": "a",
+          "start": 182.72,
+          "end": 183.02
+        },
+        {
+          "id": "p23w4",
+          "text": "very",
+          "start": 183.02,
+          "end": 183.38
+        },
+        {
+          "id": "p23w5",
+          "text": "pretty",
+          "start": 183.38,
+          "end": 183.7
+        },
+        {
+          "id": "p23w6",
+          "text": "girl.",
+          "start": 183.7,
+          "end": 184.2
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 186.69,
+      "end": 189.95,
+      "text": "One day, the queen was traveling with her daughter.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "One",
+          "start": 186.69,
+          "end": 187.09
+        },
+        {
+          "id": "p24w2",
+          "text": "day,",
+          "start": 187.09,
+          "end": 187.41
+        },
+        {
+          "id": "p24w3",
+          "text": "the",
+          "start": 187.41,
+          "end": 187.99
+        },
+        {
+          "id": "p24w4",
+          "text": "queen",
+          "start": 187.99,
+          "end": 188.27
+        },
+        {
+          "id": "p24w5",
+          "text": "was",
+          "start": 188.27,
+          "end": 188.61
+        },
+        {
+          "id": "p24w6",
+          "text": "traveling",
+          "start": 188.61,
+          "end": 189.05
+        },
+        {
+          "id": "p24w7",
+          "text": "with",
+          "start": 189.05,
+          "end": 189.43
+        },
+        {
+          "id": "p24w8",
+          "text": "her",
+          "start": 189.43,
+          "end": 189.63
+        },
+        {
+          "id": "p24w9",
+          "text": "daughter.",
+          "start": 189.63,
+          "end": 189.95
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 191.46,
+      "end": 195.72,
+      "text": "All of the village people crowded around the nearby castle to see them.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "All",
+          "start": 191.46,
+          "end": 191.82
+        },
+        {
+          "id": "p25w2",
+          "text": "of",
+          "start": 191.82,
+          "end": 191.98
+        },
+        {
+          "id": "p25w3",
+          "text": "the",
+          "start": 191.98,
+          "end": 192.1
+        },
+        {
+          "id": "p25w4",
+          "text": "village",
+          "start": 192.1,
+          "end": 192.38
+        },
+        {
+          "id": "p25w5",
+          "text": "people",
+          "start": 192.38,
+          "end": 192.74
+        },
+        {
+          "id": "p25w6",
+          "text": "crowded",
+          "start": 192.74,
+          "end": 193.18
+        },
+        {
+          "id": "p25w7",
+          "text": "around",
+          "start": 193.18,
+          "end": 193.74
+        },
+        {
+          "id": "p25w8",
+          "text": "the",
+          "start": 193.74,
+          "end": 194.08
+        },
+        {
+          "id": "p25w9",
+          "text": "nearby",
+          "start": 194.08,
+          "end": 194.38
+        },
+        {
+          "id": "p25w10",
+          "text": "castle",
+          "start": 194.38,
+          "end": 195.0
+        },
+        {
+          "id": "p25w11",
+          "text": "to",
+          "start": 195.0,
+          "end": 195.22
+        },
+        {
+          "id": "p25w12",
+          "text": "see",
+          "start": 195.22,
+          "end": 195.48
+        },
+        {
+          "id": "p25w13",
+          "text": "them.",
+          "start": 195.48,
+          "end": 195.72
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 196.88,
+      "end": 198.1,
+      "text": "Karen was there too.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "Karen",
+          "start": 196.88,
+          "end": 197.18
+        },
+        {
+          "id": "p26w2",
+          "text": "was",
+          "start": 197.18,
+          "end": 197.54
+        },
+        {
+          "id": "p26w3",
+          "text": "there",
+          "start": 197.54,
+          "end": 197.78
+        },
+        {
+          "id": "p26w4",
+          "text": "too.",
+          "start": 197.78,
+          "end": 198.1
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 199.46,
+      "end": 201.98,
+      "text": "Through a window, she could see the princess.",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "Through",
+          "start": 199.46,
+          "end": 199.78
+        },
+        {
+          "id": "p27w2",
+          "text": "a",
+          "start": 199.78,
+          "end": 199.98
+        },
+        {
+          "id": "p27w3",
+          "text": "window,",
+          "start": 199.98,
+          "end": 200.4
+        },
+        {
+          "id": "p27w4",
+          "text": "she",
+          "start": 200.86,
+          "end": 201.0
+        },
+        {
+          "id": "p27w5",
+          "text": "could",
+          "start": 201.0,
+          "end": 201.24
+        },
+        {
+          "id": "p27w6",
+          "text": "see",
+          "start": 201.24,
+          "end": 201.46
+        },
+        {
+          "id": "p27w7",
+          "text": "the",
+          "start": 201.46,
+          "end": 201.68
+        },
+        {
+          "id": "p27w8",
+          "text": "princess.",
+          "start": 201.68,
+          "end": 201.98
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 203.15,
+      "end": 207.53,
+      "text": "She was dressed in white and wore a beautiful pair of red shoes.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "She",
+          "start": 203.15,
+          "end": 203.55
+        },
+        {
+          "id": "p28w2",
+          "text": "was",
+          "start": 203.55,
+          "end": 203.73
+        },
+        {
+          "id": "p28w3",
+          "text": "dressed",
+          "start": 203.73,
+          "end": 204.03
+        },
+        {
+          "id": "p28w4",
+          "text": "in",
+          "start": 204.03,
+          "end": 204.43
+        },
+        {
+          "id": "p28w5",
+          "text": "white",
+          "start": 204.43,
+          "end": 204.69
+        },
+        {
+          "id": "p28w6",
+          "text": "and",
+          "start": 204.69,
+          "end": 205.17
+        },
+        {
+          "id": "p28w7",
+          "text": "wore",
+          "start": 205.17,
+          "end": 205.43
+        },
+        {
+          "id": "p28w8",
+          "text": "a",
+          "start": 205.43,
+          "end": 205.71
+        },
+        {
+          "id": "p28w9",
+          "text": "beautiful",
+          "start": 205.71,
+          "end": 206.15
+        },
+        {
+          "id": "p28w10",
+          "text": "pair",
+          "start": 206.15,
+          "end": 206.61
+        },
+        {
+          "id": "p28w11",
+          "text": "of",
+          "start": 206.61,
+          "end": 206.89
+        },
+        {
+          "id": "p28w12",
+          "text": "red",
+          "start": 206.89,
+          "end": 207.09
+        },
+        {
+          "id": "p28w13",
+          "text": "shoes.",
+          "start": 207.09,
+          "end": 207.53
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 208.48,
+      "end": 211.98,
+      "text": "Then, Karen remembered her old red shoes.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "Then,",
+          "start": 208.48,
+          "end": 209.12
+        },
+        {
+          "id": "p29w2",
+          "text": "Karen",
+          "start": 209.52,
+          "end": 209.84
+        },
+        {
+          "id": "p29w3",
+          "text": "remembered",
+          "start": 209.84,
+          "end": 210.46
+        },
+        {
+          "id": "p29w4",
+          "text": "her",
+          "start": 210.46,
+          "end": 210.88
+        },
+        {
+          "id": "p29w5",
+          "text": "old",
+          "start": 210.88,
+          "end": 211.28
+        },
+        {
+          "id": "p29w6",
+          "text": "red",
+          "start": 211.28,
+          "end": 211.56
+        },
+        {
+          "id": "p29w7",
+          "text": "shoes.",
+          "start": 211.56,
+          "end": 211.98
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 220.5,
+      "end": 224.28,
+      "text": "Karen grew older, and it was time for her to be confirmed.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "Karen",
+          "start": 220.5,
+          "end": 220.92
+        },
+        {
+          "id": "p30w2",
+          "text": "grew",
+          "start": 220.92,
+          "end": 221.32
+        },
+        {
+          "id": "p30w3",
+          "text": "older,",
+          "start": 221.32,
+          "end": 221.72
+        },
+        {
+          "id": "p30w4",
+          "text": "and",
+          "start": 222.4,
+          "end": 222.5
+        },
+        {
+          "id": "p30w5",
+          "text": "it",
+          "start": 222.5,
+          "end": 222.62
+        },
+        {
+          "id": "p30w6",
+          "text": "was",
+          "start": 222.62,
+          "end": 222.78
+        },
+        {
+          "id": "p30w7",
+          "text": "time",
+          "start": 222.78,
+          "end": 223.04
+        },
+        {
+          "id": "p30w8",
+          "text": "for",
+          "start": 223.04,
+          "end": 223.3
+        },
+        {
+          "id": "p30w9",
+          "text": "her",
+          "start": 223.3,
+          "end": 223.48
+        },
+        {
+          "id": "p30w10",
+          "text": "to",
+          "start": 223.48,
+          "end": 223.68
+        },
+        {
+          "id": "p30w11",
+          "text": "be",
+          "start": 223.68,
+          "end": 223.82
+        },
+        {
+          "id": "p30w12",
+          "text": "confirmed.",
+          "start": 223.82,
+          "end": 224.28
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 225.72,
+      "end": 228.38,
+      "text": "She needed some new clothes and shoes for this.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "She",
+          "start": 225.72,
+          "end": 225.92
+        },
+        {
+          "id": "p31w2",
+          "text": "needed",
+          "start": 225.92,
+          "end": 226.22
+        },
+        {
+          "id": "p31w3",
+          "text": "some",
+          "start": 226.22,
+          "end": 226.56
+        },
+        {
+          "id": "p31w4",
+          "text": "new",
+          "start": 226.56,
+          "end": 226.76
+        },
+        {
+          "id": "p31w5",
+          "text": "clothes",
+          "start": 226.76,
+          "end": 227.06
+        },
+        {
+          "id": "p31w6",
+          "text": "and",
+          "start": 227.06,
+          "end": 227.5
+        },
+        {
+          "id": "p31w7",
+          "text": "shoes",
+          "start": 227.5,
+          "end": 227.76
+        },
+        {
+          "id": "p31w8",
+          "text": "for",
+          "start": 227.76,
+          "end": 228.12
+        },
+        {
+          "id": "p31w9",
+          "text": "this.",
+          "start": 228.12,
+          "end": 228.38
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 229.4,
+      "end": 233.28,
+      "text": "In a shop, Karen found some red shoes like the princesses.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "In",
+          "start": 229.4,
+          "end": 229.68
+        },
+        {
+          "id": "p32w2",
+          "text": "a",
+          "start": 229.68,
+          "end": 229.8
+        },
+        {
+          "id": "p32w3",
+          "text": "shop,",
+          "start": 229.8,
+          "end": 230.06
+        },
+        {
+          "id": "p32w4",
+          "text": "Karen",
+          "start": 230.38,
+          "end": 230.72
+        },
+        {
+          "id": "p32w5",
+          "text": "found",
+          "start": 230.72,
+          "end": 231.04
+        },
+        {
+          "id": "p32w6",
+          "text": "some",
+          "start": 231.04,
+          "end": 231.36
+        },
+        {
+          "id": "p32w7",
+          "text": "red",
+          "start": 231.36,
+          "end": 231.64
+        },
+        {
+          "id": "p32w8",
+          "text": "shoes",
+          "start": 231.64,
+          "end": 232.0
+        },
+        {
+          "id": "p32w9",
+          "text": "like",
+          "start": 232.0,
+          "end": 232.36
+        },
+        {
+          "id": "p32w10",
+          "text": "the",
+          "start": 232.36,
+          "end": 232.54
+        },
+        {
+          "id": "p32w11",
+          "text": "princesses.",
+          "start": 232.54,
+          "end": 233.28
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 234.02,
+      "end": 235.98,
+      "text": "But she needed to wear black shoes.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "But",
+          "start": 234.02,
+          "end": 234.44
+        },
+        {
+          "id": "p33w2",
+          "text": "she",
+          "start": 234.44,
+          "end": 234.62
+        },
+        {
+          "id": "p33w3",
+          "text": "needed",
+          "start": 234.62,
+          "end": 234.88
+        },
+        {
+          "id": "p33w4",
+          "text": "to",
+          "start": 234.88,
+          "end": 235.14
+        },
+        {
+          "id": "p33w5",
+          "text": "wear",
+          "start": 235.14,
+          "end": 235.34
+        },
+        {
+          "id": "p33w6",
+          "text": "black",
+          "start": 235.34,
+          "end": 235.58
+        },
+        {
+          "id": "p33w7",
+          "text": "shoes.",
+          "start": 235.58,
+          "end": 235.98
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 237.11,
+      "end": 239.35,
+      "text": "The old lady had very poor sight.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "The",
+          "start": 237.11,
+          "end": 237.29
+        },
+        {
+          "id": "p34w2",
+          "text": "old",
+          "start": 237.29,
+          "end": 237.53
+        },
+        {
+          "id": "p34w3",
+          "text": "lady",
+          "start": 237.53,
+          "end": 237.95
+        },
+        {
+          "id": "p34w4",
+          "text": "had",
+          "start": 237.95,
+          "end": 238.21
+        },
+        {
+          "id": "p34w5",
+          "text": "very",
+          "start": 238.21,
+          "end": 238.63
+        },
+        {
+          "id": "p34w6",
+          "text": "poor",
+          "start": 238.63,
+          "end": 238.95
+        },
+        {
+          "id": "p34w7",
+          "text": "sight.",
+          "start": 238.95,
+          "end": 239.35
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 240.28,
+      "end": 243.6,
+      "text": "She did not know that the shoes were red and bought them.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "She",
+          "start": 240.28,
+          "end": 240.58
+        },
+        {
+          "id": "p35w2",
+          "text": "did",
+          "start": 240.58,
+          "end": 240.74
+        },
+        {
+          "id": "p35w3",
+          "text": "not",
+          "start": 240.74,
+          "end": 240.96
+        },
+        {
+          "id": "p35w4",
+          "text": "know",
+          "start": 240.96,
+          "end": 241.3
+        },
+        {
+          "id": "p35w5",
+          "text": "that",
+          "start": 241.3,
+          "end": 241.52
+        },
+        {
+          "id": "p35w6",
+          "text": "the",
+          "start": 241.52,
+          "end": 241.68
+        },
+        {
+          "id": "p35w7",
+          "text": "shoes",
+          "start": 241.68,
+          "end": 241.88
+        },
+        {
+          "id": "p35w8",
+          "text": "were",
+          "start": 241.88,
+          "end": 242.18
+        },
+        {
+          "id": "p35w9",
+          "text": "red",
+          "start": 242.18,
+          "end": 242.52
+        },
+        {
+          "id": "p35w10",
+          "text": "and",
+          "start": 242.52,
+          "end": 243.06
+        },
+        {
+          "id": "p35w11",
+          "text": "bought",
+          "start": 243.06,
+          "end": 243.3
+        },
+        {
+          "id": "p35w12",
+          "text": "them.",
+          "start": 243.3,
+          "end": 243.6
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 248.95,
+      "end": 250.69,
+      "text": "Karen wore them to her confirmation.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "Karen",
+          "start": 248.95,
+          "end": 249.29
+        },
+        {
+          "id": "p36w2",
+          "text": "wore",
+          "start": 249.29,
+          "end": 249.67
+        },
+        {
+          "id": "p36w3",
+          "text": "them",
+          "start": 249.67,
+          "end": 249.95
+        },
+        {
+          "id": "p36w4",
+          "text": "to",
+          "start": 249.95,
+          "end": 250.17
+        },
+        {
+          "id": "p36w5",
+          "text": "her",
+          "start": 250.17,
+          "end": 250.33
+        },
+        {
+          "id": "p36w6",
+          "text": "confirmation.",
+          "start": 250.33,
+          "end": 250.69
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 252.47,
+      "end": 255.19,
+      "text": "Everyone was quite shocked to see her shoes.",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "Everyone",
+          "start": 252.47,
+          "end": 253.01
+        },
+        {
+          "id": "p37w2",
+          "text": "was",
+          "start": 253.01,
+          "end": 253.37
+        },
+        {
+          "id": "p37w3",
+          "text": "quite",
+          "start": 253.37,
+          "end": 253.61
+        },
+        {
+          "id": "p37w4",
+          "text": "shocked",
+          "start": 253.61,
+          "end": 254.01
+        },
+        {
+          "id": "p37w5",
+          "text": "to",
+          "start": 254.01,
+          "end": 254.35
+        },
+        {
+          "id": "p37w6",
+          "text": "see",
+          "start": 254.35,
+          "end": 254.55
+        },
+        {
+          "id": "p37w7",
+          "text": "her",
+          "start": 254.55,
+          "end": 254.73
+        },
+        {
+          "id": "p37w8",
+          "text": "shoes.",
+          "start": 254.73,
+          "end": 255.19
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 256.38,
+      "end": 262.65,
+      "text": "During her confirmation, Karen only thought about her pretty red shoes.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "During",
+          "start": 256.38,
+          "end": 256.6
+        },
+        {
+          "id": "p38w2",
+          "text": "her",
+          "start": 256.6,
+          "end": 256.9
+        },
+        {
+          "id": "p38w3",
+          "text": "confirmation,",
+          "start": 256.9,
+          "end": 257.26
+        },
+        {
+          "id": "p38w4",
+          "text": "Karen",
+          "start": 259.63,
+          "end": 260.45
+        },
+        {
+          "id": "p38w5",
+          "text": "only",
+          "start": 260.45,
+          "end": 260.81
+        },
+        {
+          "id": "p38w6",
+          "text": "thought",
+          "start": 260.81,
+          "end": 261.23
+        },
+        {
+          "id": "p38w7",
+          "text": "about",
+          "start": 261.23,
+          "end": 261.53
+        },
+        {
+          "id": "p38w8",
+          "text": "her",
+          "start": 261.53,
+          "end": 261.73
+        },
+        {
+          "id": "p38w9",
+          "text": "pretty",
+          "start": 261.73,
+          "end": 262.03
+        },
+        {
+          "id": "p38w10",
+          "text": "red",
+          "start": 262.03,
+          "end": 262.33
+        },
+        {
+          "id": "p38w11",
+          "text": "shoes.",
+          "start": 262.33,
+          "end": 262.65
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 265.17,
+      "end": 269.81,
+      "text": "Later that day, the old lady heard about the color of her shoes from a neighbor.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "Later",
+          "start": 265.17,
+          "end": 265.65
+        },
+        {
+          "id": "p39w2",
+          "text": "that",
+          "start": 265.65,
+          "end": 265.91
+        },
+        {
+          "id": "p39w3",
+          "text": "day,",
+          "start": 265.91,
+          "end": 266.25
+        },
+        {
+          "id": "p39w4",
+          "text": "the",
+          "start": 266.75,
+          "end": 266.87
+        },
+        {
+          "id": "p39w5",
+          "text": "old",
+          "start": 266.87,
+          "end": 267.11
+        },
+        {
+          "id": "p39w6",
+          "text": "lady",
+          "start": 267.11,
+          "end": 267.35
+        },
+        {
+          "id": "p39w7",
+          "text": "heard",
+          "start": 267.35,
+          "end": 267.71
+        },
+        {
+          "id": "p39w8",
+          "text": "about",
+          "start": 267.71,
+          "end": 268.01
+        },
+        {
+          "id": "p39w9",
+          "text": "the",
+          "start": 268.01,
+          "end": 268.17
+        },
+        {
+          "id": "p39w10",
+          "text": "color",
+          "start": 268.17,
+          "end": 268.47
+        },
+        {
+          "id": "p39w11",
+          "text": "of",
+          "start": 268.47,
+          "end": 268.69
+        },
+        {
+          "id": "p39w12",
+          "text": "her",
+          "start": 268.69,
+          "end": 268.83
+        },
+        {
+          "id": "p39w13",
+          "text": "shoes",
+          "start": 268.83,
+          "end": 269.19
+        },
+        {
+          "id": "p39w14",
+          "text": "from",
+          "start": 269.19,
+          "end": 269.47
+        },
+        {
+          "id": "p39w15",
+          "text": "a",
+          "start": 269.47,
+          "end": 269.61
+        },
+        {
+          "id": "p39w16",
+          "text": "neighbor.",
+          "start": 269.61,
+          "end": 269.81
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 271.82,
+      "end": 276.24,
+      "text": "Karen, it was very bad of you to wear red shoes to church.",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "Karen,",
+          "start": 271.82,
+          "end": 272.38
+        },
+        {
+          "id": "p40w2",
+          "text": "it",
+          "start": 272.76,
+          "end": 273.04
+        },
+        {
+          "id": "p40w3",
+          "text": "was",
+          "start": 273.04,
+          "end": 273.2
+        },
+        {
+          "id": "p40w4",
+          "text": "very",
+          "start": 273.2,
+          "end": 273.66
+        },
+        {
+          "id": "p40w5",
+          "text": "bad",
+          "start": 273.66,
+          "end": 274.12
+        },
+        {
+          "id": "p40w6",
+          "text": "of",
+          "start": 274.12,
+          "end": 274.38
+        },
+        {
+          "id": "p40w7",
+          "text": "you",
+          "start": 274.38,
+          "end": 274.54
+        },
+        {
+          "id": "p40w8",
+          "text": "to",
+          "start": 274.54,
+          "end": 274.68
+        },
+        {
+          "id": "p40w9",
+          "text": "wear",
+          "start": 274.68,
+          "end": 274.9
+        },
+        {
+          "id": "p40w10",
+          "text": "red",
+          "start": 274.9,
+          "end": 275.22
+        },
+        {
+          "id": "p40w11",
+          "text": "shoes",
+          "start": 275.22,
+          "end": 275.7
+        },
+        {
+          "id": "p40w12",
+          "text": "to",
+          "start": 275.7,
+          "end": 276.0
+        },
+        {
+          "id": "p40w13",
+          "text": "church.",
+          "start": 276.0,
+          "end": 276.24
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 277.76,
+      "end": 280.62,
+      "text": "You must always wear black shoes.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "You",
+          "start": 277.76,
+          "end": 278.1
+        },
+        {
+          "id": "p41w2",
+          "text": "must",
+          "start": 278.1,
+          "end": 278.32
+        },
+        {
+          "id": "p41w3",
+          "text": "always",
+          "start": 278.32,
+          "end": 278.8
+        },
+        {
+          "id": "p41w4",
+          "text": "wear",
+          "start": 278.8,
+          "end": 279.48
+        },
+        {
+          "id": "p41w5",
+          "text": "black",
+          "start": 279.48,
+          "end": 280.0
+        },
+        {
+          "id": "p41w6",
+          "text": "shoes.",
+          "start": 280.0,
+          "end": 280.62
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 282.51,
+      "end": 283.65,
+      "text": "She scolded.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "She",
+          "start": 282.51,
+          "end": 283.13
+        },
+        {
+          "id": "p42w2",
+          "text": "scolded.",
+          "start": 283.13,
+          "end": 283.65
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 283.65,
+      "end": 298.06,
+      "text": "The next Sunday, Karen looked at her black shoes and then at her red shoes.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "The",
+          "start": 283.65,
+          "end": 283.97
+        },
+        {
+          "id": "p43w2",
+          "text": "next",
+          "start": 292.48,
+          "end": 293.54
+        },
+        {
+          "id": "p43w3",
+          "text": "Sunday,",
+          "start": 293.54,
+          "end": 293.92
+        },
+        {
+          "id": "p43w4",
+          "text": "Karen",
+          "start": 294.32,
+          "end": 294.46
+        },
+        {
+          "id": "p43w5",
+          "text": "looked",
+          "start": 294.46,
+          "end": 294.82
+        },
+        {
+          "id": "p43w6",
+          "text": "at",
+          "start": 294.82,
+          "end": 295.04
+        },
+        {
+          "id": "p43w7",
+          "text": "her",
+          "start": 295.04,
+          "end": 295.18
+        },
+        {
+          "id": "p43w8",
+          "text": "black",
+          "start": 295.18,
+          "end": 295.44
+        },
+        {
+          "id": "p43w9",
+          "text": "shoes",
+          "start": 295.44,
+          "end": 295.8
+        },
+        {
+          "id": "p43w10",
+          "text": "and",
+          "start": 295.8,
+          "end": 296.6
+        },
+        {
+          "id": "p43w11",
+          "text": "then",
+          "start": 296.6,
+          "end": 296.9
+        },
+        {
+          "id": "p43w12",
+          "text": "at",
+          "start": 296.9,
+          "end": 297.26
+        },
+        {
+          "id": "p43w13",
+          "text": "her",
+          "start": 297.26,
+          "end": 297.46
+        },
+        {
+          "id": "p43w14",
+          "text": "red",
+          "start": 297.46,
+          "end": 297.7
+        },
+        {
+          "id": "p43w15",
+          "text": "shoes.",
+          "start": 297.7,
+          "end": 298.06
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 299.44,
+      "end": 300.8,
+      "text": "She put on her red ones.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "She",
+          "start": 299.44,
+          "end": 299.66
+        },
+        {
+          "id": "p44w2",
+          "text": "put",
+          "start": 299.66,
+          "end": 299.88
+        },
+        {
+          "id": "p44w3",
+          "text": "on",
+          "start": 299.88,
+          "end": 300.1
+        },
+        {
+          "id": "p44w4",
+          "text": "her",
+          "start": 300.1,
+          "end": 300.26
+        },
+        {
+          "id": "p44w5",
+          "text": "red",
+          "start": 300.26,
+          "end": 300.54
+        },
+        {
+          "id": "p44w6",
+          "text": "ones.",
+          "start": 300.54,
+          "end": 300.8
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 302.08,
+      "end": 305.64,
+      "text": "Karen and the old lady walked to church along a dusty road.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "Karen",
+          "start": 302.08,
+          "end": 302.5
+        },
+        {
+          "id": "p45w2",
+          "text": "and",
+          "start": 302.5,
+          "end": 302.78
+        },
+        {
+          "id": "p45w3",
+          "text": "the",
+          "start": 302.78,
+          "end": 302.96
+        },
+        {
+          "id": "p45w4",
+          "text": "old",
+          "start": 302.96,
+          "end": 303.18
+        },
+        {
+          "id": "p45w5",
+          "text": "lady",
+          "start": 303.18,
+          "end": 303.6
+        },
+        {
+          "id": "p45w6",
+          "text": "walked",
+          "start": 303.6,
+          "end": 303.92
+        },
+        {
+          "id": "p45w7",
+          "text": "to",
+          "start": 303.92,
+          "end": 304.16
+        },
+        {
+          "id": "p45w8",
+          "text": "church",
+          "start": 304.16,
+          "end": 304.34
+        },
+        {
+          "id": "p45w9",
+          "text": "along",
+          "start": 304.34,
+          "end": 304.72
+        },
+        {
+          "id": "p45w10",
+          "text": "a",
+          "start": 304.72,
+          "end": 304.94
+        },
+        {
+          "id": "p45w11",
+          "text": "dusty",
+          "start": 304.94,
+          "end": 305.14
+        },
+        {
+          "id": "p45w12",
+          "text": "road.",
+          "start": 305.14,
+          "end": 305.64
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 306.88,
+      "end": 310.66,
+      "text": "Outside the church door, there was an old soldier standing.",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "Outside",
+          "start": 306.88,
+          "end": 307.36
+        },
+        {
+          "id": "p46w2",
+          "text": "the",
+          "start": 307.36,
+          "end": 307.82
+        },
+        {
+          "id": "p46w3",
+          "text": "church",
+          "start": 307.82,
+          "end": 308.0
+        },
+        {
+          "id": "p46w4",
+          "text": "door,",
+          "start": 308.0,
+          "end": 308.44
+        },
+        {
+          "id": "p46w5",
+          "text": "there",
+          "start": 309.04,
+          "end": 309.16
+        },
+        {
+          "id": "p46w6",
+          "text": "was",
+          "start": 309.16,
+          "end": 309.32
+        },
+        {
+          "id": "p46w7",
+          "text": "an",
+          "start": 309.32,
+          "end": 309.46
+        },
+        {
+          "id": "p46w8",
+          "text": "old",
+          "start": 309.46,
+          "end": 309.72
+        },
+        {
+          "id": "p46w9",
+          "text": "soldier",
+          "start": 309.72,
+          "end": 310.06
+        },
+        {
+          "id": "p46w10",
+          "text": "standing.",
+          "start": 310.06,
+          "end": 310.66
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 312.24,
+      "end": 314.4,
+      "text": "Shall I dust your shoes for you?",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "Shall",
+          "start": 312.24,
+          "end": 312.56
+        },
+        {
+          "id": "p47w2",
+          "text": "I",
+          "start": 312.56,
+          "end": 312.82
+        },
+        {
+          "id": "p47w3",
+          "text": "dust",
+          "start": 312.82,
+          "end": 313.02
+        },
+        {
+          "id": "p47w4",
+          "text": "your",
+          "start": 313.02,
+          "end": 313.38
+        },
+        {
+          "id": "p47w5",
+          "text": "shoes",
+          "start": 313.38,
+          "end": 313.92
+        },
+        {
+          "id": "p47w6",
+          "text": "for",
+          "start": 313.92,
+          "end": 314.14
+        },
+        {
+          "id": "p47w7",
+          "text": "you?",
+          "start": 314.14,
+          "end": 314.4
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 315.53,
+      "end": 316.47,
+      "text": "He asked them,",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "He",
+          "start": 315.53,
+          "end": 315.85
+        },
+        {
+          "id": "p48w2",
+          "text": "asked",
+          "start": 315.85,
+          "end": 316.11
+        },
+        {
+          "id": "p48w3",
+          "text": "them,",
+          "start": 316.11,
+          "end": 316.47
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 316.97,
+      "end": 319.15,
+      "text": "Yes, please do so.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "Yes,",
+          "start": 316.97,
+          "end": 317.69
+        },
+        {
+          "id": "p49w2",
+          "text": "please",
+          "start": 318.11,
+          "end": 318.43
+        },
+        {
+          "id": "p49w3",
+          "text": "do",
+          "start": 318.43,
+          "end": 318.77
+        },
+        {
+          "id": "p49w4",
+          "text": "so.",
+          "start": 318.77,
+          "end": 319.15
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 321.36,
+      "end": 321.86,
+      "text": "They replied.",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "They",
+          "start": 321.36,
+          "end": 321.66
+        },
+        {
+          "id": "p50w2",
+          "text": "replied.",
+          "start": 321.66,
+          "end": 321.86
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 321.86,
+      "end": 326.66,
+      "text": "The old soldier dusted them and said to Karen.",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "The",
+          "start": 321.86,
+          "end": 322.96
+        },
+        {
+          "id": "p51w2",
+          "text": "old",
+          "start": 323.92,
+          "end": 324.54
+        },
+        {
+          "id": "p51w3",
+          "text": "soldier",
+          "start": 324.54,
+          "end": 325.02
+        },
+        {
+          "id": "p51w4",
+          "text": "dusted",
+          "start": 325.02,
+          "end": 325.48
+        },
+        {
+          "id": "p51w5",
+          "text": "them",
+          "start": 325.48,
+          "end": 325.76
+        },
+        {
+          "id": "p51w6",
+          "text": "and",
+          "start": 325.76,
+          "end": 325.9
+        },
+        {
+          "id": "p51w7",
+          "text": "said",
+          "start": 325.9,
+          "end": 326.18
+        },
+        {
+          "id": "p51w8",
+          "text": "to",
+          "start": 326.18,
+          "end": 326.38
+        },
+        {
+          "id": "p51w9",
+          "text": "Karen.",
+          "start": 326.38,
+          "end": 326.66
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 328.48,
+      "end": 330.26,
+      "text": "What pretty dancing shoes.",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "What",
+          "start": 328.48,
+          "end": 328.74
+        },
+        {
+          "id": "p52w2",
+          "text": "pretty",
+          "start": 328.74,
+          "end": 329.08
+        },
+        {
+          "id": "p52w3",
+          "text": "dancing",
+          "start": 329.08,
+          "end": 329.68
+        },
+        {
+          "id": "p52w4",
+          "text": "shoes.",
+          "start": 329.68,
+          "end": 330.26
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 331.06,
+      "end": 333.16,
+      "text": "Be careful when you dance.",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "Be",
+          "start": 331.06,
+          "end": 331.7
+        },
+        {
+          "id": "p53w2",
+          "text": "careful",
+          "start": 331.7,
+          "end": 332.18
+        },
+        {
+          "id": "p53w3",
+          "text": "when",
+          "start": 332.18,
+          "end": 332.62
+        },
+        {
+          "id": "p53w4",
+          "text": "you",
+          "start": 332.62,
+          "end": 332.84
+        },
+        {
+          "id": "p53w5",
+          "text": "dance.",
+          "start": 332.84,
+          "end": 333.16
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 335.0,
+      "end": 337.68,
+      "text": "Then he hit the bottom of her shoes with his hand.",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "Then",
+          "start": 335.0,
+          "end": 335.26
+        },
+        {
+          "id": "p54w2",
+          "text": "he",
+          "start": 335.26,
+          "end": 335.46
+        },
+        {
+          "id": "p54w3",
+          "text": "hit",
+          "start": 335.46,
+          "end": 335.72
+        },
+        {
+          "id": "p54w4",
+          "text": "the",
+          "start": 335.72,
+          "end": 335.94
+        },
+        {
+          "id": "p54w5",
+          "text": "bottom",
+          "start": 335.94,
+          "end": 336.26
+        },
+        {
+          "id": "p54w6",
+          "text": "of",
+          "start": 336.26,
+          "end": 336.46
+        },
+        {
+          "id": "p54w7",
+          "text": "her",
+          "start": 336.46,
+          "end": 336.64
+        },
+        {
+          "id": "p54w8",
+          "text": "shoes",
+          "start": 336.64,
+          "end": 336.92
+        },
+        {
+          "id": "p54w9",
+          "text": "with",
+          "start": 336.92,
+          "end": 337.18
+        },
+        {
+          "id": "p54w10",
+          "text": "his",
+          "start": 337.18,
+          "end": 337.36
+        },
+        {
+          "id": "p54w11",
+          "text": "hand.",
+          "start": 337.36,
+          "end": 337.68
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 348.54,
+      "end": 351.74,
+      "text": "After church, Karen started to get into the carriage.",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "After",
+          "start": 348.54,
+          "end": 348.98
+        },
+        {
+          "id": "p55w2",
+          "text": "church,",
+          "start": 348.98,
+          "end": 349.22
+        },
+        {
+          "id": "p55w3",
+          "text": "Karen",
+          "start": 349.72,
+          "end": 350.08
+        },
+        {
+          "id": "p55w4",
+          "text": "started",
+          "start": 350.08,
+          "end": 350.46
+        },
+        {
+          "id": "p55w5",
+          "text": "to",
+          "start": 350.46,
+          "end": 350.76
+        },
+        {
+          "id": "p55w6",
+          "text": "get",
+          "start": 350.76,
+          "end": 350.98
+        },
+        {
+          "id": "p55w7",
+          "text": "into",
+          "start": 350.98,
+          "end": 351.24
+        },
+        {
+          "id": "p55w8",
+          "text": "the",
+          "start": 351.24,
+          "end": 351.38
+        },
+        {
+          "id": "p55w9",
+          "text": "carriage.",
+          "start": 351.38,
+          "end": 351.74
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 353.52,
+      "end": 357.08,
+      "text": "Just at that moment, the old soldier said to her again.",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "Just",
+          "start": 353.52,
+          "end": 353.88
+        },
+        {
+          "id": "p56w2",
+          "text": "at",
+          "start": 353.88,
+          "end": 354.08
+        },
+        {
+          "id": "p56w3",
+          "text": "that",
+          "start": 354.08,
+          "end": 354.28
+        },
+        {
+          "id": "p56w4",
+          "text": "moment,",
+          "start": 354.28,
+          "end": 354.74
+        },
+        {
+          "id": "p56w5",
+          "text": "the",
+          "start": 355.08,
+          "end": 355.34
+        },
+        {
+          "id": "p56w6",
+          "text": "old",
+          "start": 355.34,
+          "end": 355.62
+        },
+        {
+          "id": "p56w7",
+          "text": "soldier",
+          "start": 355.62,
+          "end": 355.9
+        },
+        {
+          "id": "p56w8",
+          "text": "said",
+          "start": 355.9,
+          "end": 356.38
+        },
+        {
+          "id": "p56w9",
+          "text": "to",
+          "start": 356.38,
+          "end": 356.58
+        },
+        {
+          "id": "p56w10",
+          "text": "her",
+          "start": 356.58,
+          "end": 356.74
+        },
+        {
+          "id": "p56w11",
+          "text": "again.",
+          "start": 356.74,
+          "end": 357.08
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 358.13,
+      "end": 359.79,
+      "text": "What pretty dancing shoes.",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "What",
+          "start": 358.13,
+          "end": 358.37
+        },
+        {
+          "id": "p57w2",
+          "text": "pretty",
+          "start": 358.37,
+          "end": 358.69
+        },
+        {
+          "id": "p57w3",
+          "text": "dancing",
+          "start": 358.69,
+          "end": 359.29
+        },
+        {
+          "id": "p57w4",
+          "text": "shoes.",
+          "start": 359.29,
+          "end": 359.79
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 360.57,
+      "end": 363.31,
+      "text": "When she heard that, she danced a few steps.",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "When",
+          "start": 360.57,
+          "end": 361.01
+        },
+        {
+          "id": "p58w2",
+          "text": "she",
+          "start": 361.01,
+          "end": 361.23
+        },
+        {
+          "id": "p58w3",
+          "text": "heard",
+          "start": 361.23,
+          "end": 361.45
+        },
+        {
+          "id": "p58w4",
+          "text": "that,",
+          "start": 361.45,
+          "end": 361.81
+        },
+        {
+          "id": "p58w5",
+          "text": "she",
+          "start": 362.09,
+          "end": 362.27
+        },
+        {
+          "id": "p58w6",
+          "text": "danced",
+          "start": 362.27,
+          "end": 362.45
+        },
+        {
+          "id": "p58w7",
+          "text": "a",
+          "start": 362.45,
+          "end": 362.81
+        },
+        {
+          "id": "p58w8",
+          "text": "few",
+          "start": 362.81,
+          "end": 362.97
+        },
+        {
+          "id": "p58w9",
+          "text": "steps.",
+          "start": 362.97,
+          "end": 363.31
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 366.08,
+      "end": 368.94,
+      "text": "Then something very strange happened.",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "Then",
+          "start": 366.08,
+          "end": 366.68
+        },
+        {
+          "id": "p59w2",
+          "text": "something",
+          "start": 366.68,
+          "end": 367.28
+        },
+        {
+          "id": "p59w3",
+          "text": "very",
+          "start": 367.28,
+          "end": 367.74
+        },
+        {
+          "id": "p59w4",
+          "text": "strange",
+          "start": 367.74,
+          "end": 368.3
+        },
+        {
+          "id": "p59w5",
+          "text": "happened.",
+          "start": 368.3,
+          "end": 368.94
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 373.5,
+      "end": 374.98,
+      "text": "She couldn't stop dancing.",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "She",
+          "start": 373.5,
+          "end": 373.76
+        },
+        {
+          "id": "p60w2",
+          "text": "couldn't",
+          "start": 373.76,
+          "end": 374.2
+        },
+        {
+          "id": "p60w3",
+          "text": "stop",
+          "start": 374.2,
+          "end": 374.5
+        },
+        {
+          "id": "p60w4",
+          "text": "dancing.",
+          "start": 374.5,
+          "end": 374.98
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 375.96,
+      "end": 378.1,
+      "text": "She danced all the way around the church.",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "She",
+          "start": 375.96,
+          "end": 376.16
+        },
+        {
+          "id": "p61w2",
+          "text": "danced",
+          "start": 376.16,
+          "end": 376.36
+        },
+        {
+          "id": "p61w3",
+          "text": "all",
+          "start": 376.36,
+          "end": 376.94
+        },
+        {
+          "id": "p61w4",
+          "text": "the",
+          "start": 376.94,
+          "end": 377.12
+        },
+        {
+          "id": "p61w5",
+          "text": "way",
+          "start": 377.12,
+          "end": 377.3
+        },
+        {
+          "id": "p61w6",
+          "text": "around",
+          "start": 377.3,
+          "end": 377.66
+        },
+        {
+          "id": "p61w7",
+          "text": "the",
+          "start": 377.66,
+          "end": 377.86
+        },
+        {
+          "id": "p61w8",
+          "text": "church.",
+          "start": 377.86,
+          "end": 378.1
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 379.14,
+      "end": 381.5,
+      "text": "The coachman grabbed her and put her in the carriage.",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "The",
+          "start": 379.14,
+          "end": 379.26
+        },
+        {
+          "id": "p62w2",
+          "text": "coachman",
+          "start": 379.26,
+          "end": 379.78
+        },
+        {
+          "id": "p62w3",
+          "text": "grabbed",
+          "start": 379.78,
+          "end": 380.02
+        },
+        {
+          "id": "p62w4",
+          "text": "her",
+          "start": 380.02,
+          "end": 380.44
+        },
+        {
+          "id": "p62w5",
+          "text": "and",
+          "start": 380.44,
+          "end": 380.54
+        },
+        {
+          "id": "p62w6",
+          "text": "put",
+          "start": 380.54,
+          "end": 380.76
+        },
+        {
+          "id": "p62w7",
+          "text": "her",
+          "start": 380.76,
+          "end": 380.92
+        },
+        {
+          "id": "p62w8",
+          "text": "in",
+          "start": 380.92,
+          "end": 381.04
+        },
+        {
+          "id": "p62w9",
+          "text": "the",
+          "start": 381.04,
+          "end": 381.16
+        },
+        {
+          "id": "p62w10",
+          "text": "carriage.",
+          "start": 381.16,
+          "end": 381.5
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 384.88,
+      "end": 387.22,
+      "text": "Her feet continued to dance in the carriage.",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "Her",
+          "start": 384.88,
+          "end": 385.08
+        },
+        {
+          "id": "p63w2",
+          "text": "feet",
+          "start": 385.08,
+          "end": 385.34
+        },
+        {
+          "id": "p63w3",
+          "text": "continued",
+          "start": 385.34,
+          "end": 386.0
+        },
+        {
+          "id": "p63w4",
+          "text": "to",
+          "start": 386.0,
+          "end": 386.22
+        },
+        {
+          "id": "p63w5",
+          "text": "dance",
+          "start": 386.22,
+          "end": 386.52
+        },
+        {
+          "id": "p63w6",
+          "text": "in",
+          "start": 386.52,
+          "end": 386.74
+        },
+        {
+          "id": "p63w7",
+          "text": "the",
+          "start": 386.74,
+          "end": 386.88
+        },
+        {
+          "id": "p63w8",
+          "text": "carriage.",
+          "start": 386.88,
+          "end": 387.22
+        }
+      ]
+    },
+    {
+      "id": "p64",
+      "start": 388.1,
+      "end": 389.58,
+      "text": "She even kicked the old lady.",
+      "words": [
+        {
+          "id": "p64w1",
+          "text": "She",
+          "start": 388.1,
+          "end": 388.24
+        },
+        {
+          "id": "p64w2",
+          "text": "even",
+          "start": 388.24,
+          "end": 388.54
+        },
+        {
+          "id": "p64w3",
+          "text": "kicked",
+          "start": 388.54,
+          "end": 388.84
+        },
+        {
+          "id": "p64w4",
+          "text": "the",
+          "start": 388.84,
+          "end": 389.12
+        },
+        {
+          "id": "p64w5",
+          "text": "old",
+          "start": 389.12,
+          "end": 389.28
+        },
+        {
+          "id": "p64w6",
+          "text": "lady.",
+          "start": 389.28,
+          "end": 389.58
+        }
+      ]
+    },
+    {
+      "id": "p65",
+      "start": 390.69,
+      "end": 394.59,
+      "text": "At last they got the shoes off and put them away in the cupboard.",
+      "words": [
+        {
+          "id": "p65w1",
+          "text": "At",
+          "start": 390.69,
+          "end": 391.19
+        },
+        {
+          "id": "p65w2",
+          "text": "last",
+          "start": 391.19,
+          "end": 391.45
+        },
+        {
+          "id": "p65w3",
+          "text": "they",
+          "start": 391.45,
+          "end": 391.75
+        },
+        {
+          "id": "p65w4",
+          "text": "got",
+          "start": 391.75,
+          "end": 391.97
+        },
+        {
+          "id": "p65w5",
+          "text": "the",
+          "start": 391.97,
+          "end": 392.21
+        },
+        {
+          "id": "p65w6",
+          "text": "shoes",
+          "start": 392.21,
+          "end": 392.45
+        },
+        {
+          "id": "p65w7",
+          "text": "off",
+          "start": 392.45,
+          "end": 392.77
+        },
+        {
+          "id": "p65w8",
+          "text": "and",
+          "start": 392.77,
+          "end": 393.19
+        },
+        {
+          "id": "p65w9",
+          "text": "put",
+          "start": 393.19,
+          "end": 393.39
+        },
+        {
+          "id": "p65w10",
+          "text": "them",
+          "start": 393.39,
+          "end": 393.61
+        },
+        {
+          "id": "p65w11",
+          "text": "away",
+          "start": 393.61,
+          "end": 393.91
+        },
+        {
+          "id": "p65w12",
+          "text": "in",
+          "start": 393.91,
+          "end": 394.09
+        },
+        {
+          "id": "p65w13",
+          "text": "the",
+          "start": 394.09,
+          "end": 394.19
+        },
+        {
+          "id": "p65w14",
+          "text": "cupboard.",
+          "start": 394.19,
+          "end": 394.59
+        }
+      ]
+    },
+    {
+      "id": "p66",
+      "start": 395.92,
+      "end": 397.78,
+      "text": "But Karen loved those shoes.",
+      "words": [
+        {
+          "id": "p66w1",
+          "text": "But",
+          "start": 395.92,
+          "end": 396.04
+        },
+        {
+          "id": "p66w2",
+          "text": "Karen",
+          "start": 396.04,
+          "end": 396.36
+        },
+        {
+          "id": "p66w3",
+          "text": "loved",
+          "start": 396.36,
+          "end": 396.98
+        },
+        {
+          "id": "p66w4",
+          "text": "those",
+          "start": 396.98,
+          "end": 397.44
+        },
+        {
+          "id": "p66w5",
+          "text": "shoes.",
+          "start": 397.44,
+          "end": 397.78
+        }
+      ]
+    }
+  ]
+}

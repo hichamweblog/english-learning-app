@@ -14,7 +14,7 @@ export interface ActiveTrack {
 
 export interface RecentItem {
   id: string;
-  type: 'podcast' | 'reader' | 'accent';
+  type: 'podcast' | 'reader' | 'accent' | 'reference';
   title: string;
   seriesTitle: string;
   url: string;
@@ -56,6 +56,37 @@ interface StudyProgressState {
   addRecentItem: (item: Omit<RecentItem, 'lastAccessed'>) => void;
   setTheme: (theme: 'light' | 'dark' | 'system') => void;
 }
+
+export interface ReadingSettingsState {
+  fontSize: number;
+  lineHeight: number;
+  theme: 'default' | 'sepia' | 'ocean' | 'night';
+  marginWidth: 'narrow' | 'comfortable' | 'wide';
+  setFontSize: (size: number) => void;
+  setLineHeight: (lh: number) => void;
+  setTheme: (theme: 'default' | 'sepia' | 'ocean' | 'night') => void;
+  setMarginWidth: (width: 'narrow' | 'comfortable' | 'wide') => void;
+}
+
+export const useReadingSettingsStore = create<ReadingSettingsState>()(
+  persist(
+    (set) => ({
+      fontSize: 24,
+      lineHeight: 1.75,
+      theme: 'default',
+      marginWidth: 'comfortable',
+      setFontSize: (fontSize) => set({ fontSize }),
+      setLineHeight: (lineHeight) => set({ lineHeight }),
+      setTheme: (theme) => set({ theme }),
+      setMarginWidth: (marginWidth) => set({ marginWidth }),
+    }),
+    {
+      name: 'reading-settings-storage',
+      storage: createJSONStorage(() => localStorage),
+      skipHydration: true,
+    }
+  )
+);
 
 export const useAudioStore = create<AudioPlayerState>((set, get) => ({
   currentTrack: null,
@@ -155,6 +186,7 @@ export const useProgressStore = create<StudyProgressState>()(
     {
       name: 'english-learning-progress',
       storage: createJSONStorage(() => localStorage),
+      skipHydration: true,
     }
   )
 );

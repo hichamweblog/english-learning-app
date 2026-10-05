@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import { Search, Book, ExternalLink, Download, FileText, X } from 'lucide-react';
+import Link from 'next/link';
+import { Search, Book, ExternalLink, Download, FileText, X, Sparkles, BookOpen } from 'lucide-react';
 import type { ReferenceBook } from '@/types/content';
 import { resolveMediaUrl, formatBytes, cn } from '@/lib/utils';
 
@@ -86,38 +87,60 @@ export function ReferenceBrowser({ initialBooks }: Props) {
           return (
             <div
               key={book.id}
-              className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs hover:shadow-xs transition-all flex flex-col justify-between group hover:border-stone-400 dark:hover:border-stone-600"
+              className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs hover:shadow-xs transition-all flex flex-col justify-between group hover:border-amber-500/50 dark:hover:border-amber-500/40"
             >
               <div>
                 <div className="flex items-center justify-between gap-2 mb-2.5">
                   <span className="text-[10px] font-sans font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
                     {book.category}
                   </span>
-                  <span className="text-[11px] text-stone-400 font-mono">
-                    {formatBytes(book.sizeBytes)}
-                  </span>
+                  <div className="flex items-center gap-1.5">
+                    {book.hasExtractedContent && (
+                      <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">
+                        <Sparkles className="w-2.5 h-2.5" />
+                        Interactive
+                      </span>
+                    )}
+                    <span className="text-[11px] text-stone-400 font-mono">
+                      {formatBytes(book.sizeBytes)}
+                    </span>
+                  </div>
                 </div>
 
-                <h3 className="font-serif text-base font-normal text-stone-900 dark:text-stone-100 line-clamp-2">
+                <Link
+                  href={`/library/${book.id}`}
+                  className="font-serif text-base font-normal text-stone-900 dark:text-stone-100 line-clamp-2 hover:text-amber-800 dark:hover:text-amber-400 transition-colors"
+                >
                   {book.title}
-                </h3>
+                </Link>
+
+                {book.author && (
+                  <p className="text-xs text-stone-400 mt-1 line-clamp-1">
+                    {book.author}
+                  </p>
+                )}
               </div>
 
               <div className="mt-5 pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
-                <span className="text-xs text-stone-400 flex items-center gap-1">
-                  <FileText className="w-3.5 h-3.5" />
-                  PDF Reference
-                </span>
-
-                <a
-                  href={pdfUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-xs font-semibold text-stone-900 dark:text-stone-100 hover:underline"
+                <Link
+                  href={`/library/${book.id}`}
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-800 dark:text-amber-400 hover:underline"
                 >
-                  <span>Open Folio</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>{book.hasExtractedContent ? 'Study Folio' : 'View Folio'}</span>
+                </Link>
+
+                {pdfUrl && (
+                  <a
+                    href={pdfUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-xs text-stone-500 hover:text-stone-900 dark:hover:text-stone-200"
+                  >
+                    <span>PDF</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                )}
               </div>
             </div>
           );

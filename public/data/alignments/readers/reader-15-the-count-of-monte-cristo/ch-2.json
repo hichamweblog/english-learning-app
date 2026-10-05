@@ -1,0 +1,4803 @@
+{
+  "sectionId": "reader-15-the-count-of-monte-cristo-ch-2",
+  "trackNumber": 2,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/301 (S2) The Count of Monte Cristo/Track 02.mp3",
+  "totalDuration": 347.115125,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 5.81,
+      "end": 8.65,
+      "text": "Chapter 2 An Enemies Trap",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Chapter",
+          "start": 5.81,
+          "end": 6.39
+        },
+        {
+          "id": "p1w2",
+          "text": "2",
+          "start": 6.39,
+          "end": 6.93
+        },
+        {
+          "id": "p1w3",
+          "text": "An",
+          "start": 6.93,
+          "end": 7.73
+        },
+        {
+          "id": "p1w4",
+          "text": "Enemies",
+          "start": 7.73,
+          "end": 8.17
+        },
+        {
+          "id": "p1w5",
+          "text": "Trap",
+          "start": 8.17,
+          "end": 8.65
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 14.54,
+      "end": 17.38,
+      "text": "Dante's walk quickly to his father's small house.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Dante's",
+          "start": 14.54,
+          "end": 15.18
+        },
+        {
+          "id": "p2w2",
+          "text": "walk",
+          "start": 15.18,
+          "end": 15.4
+        },
+        {
+          "id": "p2w3",
+          "text": "quickly",
+          "start": 15.4,
+          "end": 15.72
+        },
+        {
+          "id": "p2w4",
+          "text": "to",
+          "start": 15.72,
+          "end": 16.04
+        },
+        {
+          "id": "p2w5",
+          "text": "his",
+          "start": 16.04,
+          "end": 16.16
+        },
+        {
+          "id": "p2w6",
+          "text": "father's",
+          "start": 16.16,
+          "end": 16.74
+        },
+        {
+          "id": "p2w7",
+          "text": "small",
+          "start": 16.74,
+          "end": 16.94
+        },
+        {
+          "id": "p2w8",
+          "text": "house.",
+          "start": 16.94,
+          "end": 17.38
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 18.0,
+      "end": 19.56,
+      "text": "Son, you're home!",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Son,",
+          "start": 18.0,
+          "end": 18.64
+        },
+        {
+          "id": "p3w2",
+          "text": "you're",
+          "start": 18.98,
+          "end": 19.24
+        },
+        {
+          "id": "p3w3",
+          "text": "home!",
+          "start": 19.24,
+          "end": 19.56
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 20.61,
+      "end": 24.43,
+      "text": "Dante's father lived alone and he was happy to see his son.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Dante's",
+          "start": 20.61,
+          "end": 21.25
+        },
+        {
+          "id": "p4w2",
+          "text": "father",
+          "start": 21.25,
+          "end": 21.55
+        },
+        {
+          "id": "p4w3",
+          "text": "lived",
+          "start": 21.55,
+          "end": 21.81
+        },
+        {
+          "id": "p4w4",
+          "text": "alone",
+          "start": 21.81,
+          "end": 22.27
+        },
+        {
+          "id": "p4w5",
+          "text": "and",
+          "start": 22.27,
+          "end": 22.99
+        },
+        {
+          "id": "p4w6",
+          "text": "he",
+          "start": 22.99,
+          "end": 23.15
+        },
+        {
+          "id": "p4w7",
+          "text": "was",
+          "start": 23.15,
+          "end": 23.25
+        },
+        {
+          "id": "p4w8",
+          "text": "happy",
+          "start": 23.25,
+          "end": 23.57
+        },
+        {
+          "id": "p4w9",
+          "text": "to",
+          "start": 23.57,
+          "end": 23.79
+        },
+        {
+          "id": "p4w10",
+          "text": "see",
+          "start": 23.79,
+          "end": 23.97
+        },
+        {
+          "id": "p4w11",
+          "text": "his",
+          "start": 23.97,
+          "end": 24.13
+        },
+        {
+          "id": "p4w12",
+          "text": "son.",
+          "start": 24.13,
+          "end": 24.43
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 25.42,
+      "end": 28.28,
+      "text": "I have good news and bad news father.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "I",
+          "start": 25.42,
+          "end": 25.68
+        },
+        {
+          "id": "p5w2",
+          "text": "have",
+          "start": 25.68,
+          "end": 25.86
+        },
+        {
+          "id": "p5w3",
+          "text": "good",
+          "start": 25.86,
+          "end": 26.14
+        },
+        {
+          "id": "p5w4",
+          "text": "news",
+          "start": 26.14,
+          "end": 26.44
+        },
+        {
+          "id": "p5w5",
+          "text": "and",
+          "start": 26.44,
+          "end": 27.3
+        },
+        {
+          "id": "p5w6",
+          "text": "bad",
+          "start": 27.3,
+          "end": 27.58
+        },
+        {
+          "id": "p5w7",
+          "text": "news",
+          "start": 27.58,
+          "end": 27.84
+        },
+        {
+          "id": "p5w8",
+          "text": "father.",
+          "start": 27.84,
+          "end": 28.28
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 28.94,
+      "end": 30.14,
+      "text": "Said Dante's.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "Said",
+          "start": 28.94,
+          "end": 29.34
+        },
+        {
+          "id": "p6w2",
+          "text": "Dante's.",
+          "start": 29.34,
+          "end": 30.14
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 30.78,
+      "end": 32.12,
+      "text": "Captain Leclerc is dead.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Captain",
+          "start": 30.78,
+          "end": 31.18
+        },
+        {
+          "id": "p7w2",
+          "text": "Leclerc",
+          "start": 31.18,
+          "end": 31.64
+        },
+        {
+          "id": "p7w3",
+          "text": "is",
+          "start": 31.64,
+          "end": 31.88
+        },
+        {
+          "id": "p7w4",
+          "text": "dead.",
+          "start": 31.88,
+          "end": 32.12
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 32.92,
+      "end": 34.62,
+      "text": "He died before we came home.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "He",
+          "start": 32.92,
+          "end": 33.0
+        },
+        {
+          "id": "p8w2",
+          "text": "died",
+          "start": 33.0,
+          "end": 33.3
+        },
+        {
+          "id": "p8w3",
+          "text": "before",
+          "start": 33.3,
+          "end": 33.74
+        },
+        {
+          "id": "p8w4",
+          "text": "we",
+          "start": 33.74,
+          "end": 34.18
+        },
+        {
+          "id": "p8w5",
+          "text": "came",
+          "start": 34.18,
+          "end": 34.36
+        },
+        {
+          "id": "p8w6",
+          "text": "home.",
+          "start": 34.36,
+          "end": 34.62
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 35.54,
+      "end": 37.22,
+      "text": "That is bad news my son.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "That",
+          "start": 35.54,
+          "end": 35.84
+        },
+        {
+          "id": "p9w2",
+          "text": "is",
+          "start": 35.84,
+          "end": 35.94
+        },
+        {
+          "id": "p9w3",
+          "text": "bad",
+          "start": 35.94,
+          "end": 36.2
+        },
+        {
+          "id": "p9w4",
+          "text": "news",
+          "start": 36.2,
+          "end": 36.58
+        },
+        {
+          "id": "p9w5",
+          "text": "my",
+          "start": 36.58,
+          "end": 36.86
+        },
+        {
+          "id": "p9w6",
+          "text": "son.",
+          "start": 36.86,
+          "end": 37.22
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 37.22,
+      "end": 40.24,
+      "text": "He was a good man and a good captain.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "He",
+          "start": 37.22,
+          "end": 37.62
+        },
+        {
+          "id": "p10w2",
+          "text": "was",
+          "start": 37.62,
+          "end": 38.36
+        },
+        {
+          "id": "p10w3",
+          "text": "a",
+          "start": 38.36,
+          "end": 38.5
+        },
+        {
+          "id": "p10w4",
+          "text": "good",
+          "start": 38.5,
+          "end": 38.74
+        },
+        {
+          "id": "p10w5",
+          "text": "man",
+          "start": 38.74,
+          "end": 39.04
+        },
+        {
+          "id": "p10w6",
+          "text": "and",
+          "start": 39.04,
+          "end": 39.46
+        },
+        {
+          "id": "p10w7",
+          "text": "a",
+          "start": 39.46,
+          "end": 39.6
+        },
+        {
+          "id": "p10w8",
+          "text": "good",
+          "start": 39.6,
+          "end": 39.84
+        },
+        {
+          "id": "p10w9",
+          "text": "captain.",
+          "start": 39.84,
+          "end": 40.24
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 41.06,
+      "end": 42.18,
+      "text": "Said the old man.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Said",
+          "start": 41.06,
+          "end": 41.52
+        },
+        {
+          "id": "p11w2",
+          "text": "the",
+          "start": 41.52,
+          "end": 41.68
+        },
+        {
+          "id": "p11w3",
+          "text": "old",
+          "start": 41.68,
+          "end": 41.86
+        },
+        {
+          "id": "p11w4",
+          "text": "man.",
+          "start": 41.86,
+          "end": 42.18
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 42.98,
+      "end": 44.5,
+      "text": "But what is the good news?",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "But",
+          "start": 42.98,
+          "end": 43.36
+        },
+        {
+          "id": "p12w2",
+          "text": "what",
+          "start": 43.36,
+          "end": 43.62
+        },
+        {
+          "id": "p12w3",
+          "text": "is",
+          "start": 43.62,
+          "end": 43.84
+        },
+        {
+          "id": "p12w4",
+          "text": "the",
+          "start": 43.84,
+          "end": 43.98
+        },
+        {
+          "id": "p12w5",
+          "text": "good",
+          "start": 43.98,
+          "end": 44.18
+        },
+        {
+          "id": "p12w6",
+          "text": "news?",
+          "start": 44.18,
+          "end": 44.5
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 45.48,
+      "end": 50.02,
+      "text": "Father, I feel bad to say it now so soon after Captain Leclerc died.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Father,",
+          "start": 45.48,
+          "end": 45.94
+        },
+        {
+          "id": "p13w2",
+          "text": "I",
+          "start": 46.16,
+          "end": 46.26
+        },
+        {
+          "id": "p13w3",
+          "text": "feel",
+          "start": 46.26,
+          "end": 46.48
+        },
+        {
+          "id": "p13w4",
+          "text": "bad",
+          "start": 46.48,
+          "end": 46.74
+        },
+        {
+          "id": "p13w5",
+          "text": "to",
+          "start": 46.74,
+          "end": 46.94
+        },
+        {
+          "id": "p13w6",
+          "text": "say",
+          "start": 46.94,
+          "end": 47.18
+        },
+        {
+          "id": "p13w7",
+          "text": "it",
+          "start": 47.18,
+          "end": 47.32
+        },
+        {
+          "id": "p13w8",
+          "text": "now",
+          "start": 47.32,
+          "end": 47.56
+        },
+        {
+          "id": "p13w9",
+          "text": "so",
+          "start": 47.56,
+          "end": 48.06
+        },
+        {
+          "id": "p13w10",
+          "text": "soon",
+          "start": 48.06,
+          "end": 48.46
+        },
+        {
+          "id": "p13w11",
+          "text": "after",
+          "start": 48.46,
+          "end": 48.8
+        },
+        {
+          "id": "p13w12",
+          "text": "Captain",
+          "start": 48.8,
+          "end": 49.22
+        },
+        {
+          "id": "p13w13",
+          "text": "Leclerc",
+          "start": 49.22,
+          "end": 49.62
+        },
+        {
+          "id": "p13w14",
+          "text": "died.",
+          "start": 49.62,
+          "end": 50.02
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 50.46,
+      "end": 52.86,
+      "text": "But I am to become captain of the Pharaoh.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "But",
+          "start": 50.46,
+          "end": 50.82
+        },
+        {
+          "id": "p14w2",
+          "text": "I",
+          "start": 50.82,
+          "end": 51.14
+        },
+        {
+          "id": "p14w3",
+          "text": "am",
+          "start": 51.14,
+          "end": 51.38
+        },
+        {
+          "id": "p14w4",
+          "text": "to",
+          "start": 51.38,
+          "end": 51.52
+        },
+        {
+          "id": "p14w5",
+          "text": "become",
+          "start": 51.52,
+          "end": 51.72
+        },
+        {
+          "id": "p14w6",
+          "text": "captain",
+          "start": 51.72,
+          "end": 52.26
+        },
+        {
+          "id": "p14w7",
+          "text": "of",
+          "start": 52.26,
+          "end": 52.46
+        },
+        {
+          "id": "p14w8",
+          "text": "the",
+          "start": 52.46,
+          "end": 52.56
+        },
+        {
+          "id": "p14w9",
+          "text": "Pharaoh.",
+          "start": 52.56,
+          "end": 52.86
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 53.82,
+      "end": 54.72,
+      "text": "Dante said.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "Dante",
+          "start": 53.82,
+          "end": 54.12
+        },
+        {
+          "id": "p15w2",
+          "text": "said.",
+          "start": 54.12,
+          "end": 54.72
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 55.38,
+      "end": 57.18,
+      "text": "That is great news son.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "That",
+          "start": 55.38,
+          "end": 55.84
+        },
+        {
+          "id": "p16w2",
+          "text": "is",
+          "start": 55.84,
+          "end": 55.96
+        },
+        {
+          "id": "p16w3",
+          "text": "great",
+          "start": 55.96,
+          "end": 56.32
+        },
+        {
+          "id": "p16w4",
+          "text": "news",
+          "start": 56.32,
+          "end": 56.72
+        },
+        {
+          "id": "p16w5",
+          "text": "son.",
+          "start": 56.72,
+          "end": 57.18
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 57.76,
+      "end": 59.66,
+      "text": "You will make an excellent captain.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "You",
+          "start": 57.76,
+          "end": 58.02
+        },
+        {
+          "id": "p17w2",
+          "text": "will",
+          "start": 58.02,
+          "end": 58.18
+        },
+        {
+          "id": "p17w3",
+          "text": "make",
+          "start": 58.18,
+          "end": 58.44
+        },
+        {
+          "id": "p17w4",
+          "text": "an",
+          "start": 58.44,
+          "end": 58.6
+        },
+        {
+          "id": "p17w5",
+          "text": "excellent",
+          "start": 58.6,
+          "end": 59.22
+        },
+        {
+          "id": "p17w6",
+          "text": "captain.",
+          "start": 59.22,
+          "end": 59.66
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 60.81,
+      "end": 62.45,
+      "text": "Dante's father said proudly.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "Dante's",
+          "start": 60.81,
+          "end": 61.45
+        },
+        {
+          "id": "p18w2",
+          "text": "father",
+          "start": 61.45,
+          "end": 61.73
+        },
+        {
+          "id": "p18w3",
+          "text": "said",
+          "start": 61.73,
+          "end": 62.13
+        },
+        {
+          "id": "p18w4",
+          "text": "proudly.",
+          "start": 62.13,
+          "end": 62.45
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 63.41,
+      "end": 64.03,
+      "text": "Thank you father.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "Thank",
+          "start": 63.41,
+          "end": 63.61
+        },
+        {
+          "id": "p19w2",
+          "text": "you",
+          "start": 63.61,
+          "end": 63.81
+        },
+        {
+          "id": "p19w3",
+          "text": "father.",
+          "start": 63.81,
+          "end": 64.03
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 64.53,
+      "end": 66.11,
+      "text": "But now please excuse me.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "But",
+          "start": 64.53,
+          "end": 64.75
+        },
+        {
+          "id": "p20w2",
+          "text": "now",
+          "start": 64.75,
+          "end": 64.95
+        },
+        {
+          "id": "p20w3",
+          "text": "please",
+          "start": 64.95,
+          "end": 65.33
+        },
+        {
+          "id": "p20w4",
+          "text": "excuse",
+          "start": 65.33,
+          "end": 65.71
+        },
+        {
+          "id": "p20w5",
+          "text": "me.",
+          "start": 65.71,
+          "end": 66.11
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 66.55,
+      "end": 68.25,
+      "text": "I must go visit someone else.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "I",
+          "start": 66.55,
+          "end": 66.87
+        },
+        {
+          "id": "p21w2",
+          "text": "must",
+          "start": 66.87,
+          "end": 67.05
+        },
+        {
+          "id": "p21w3",
+          "text": "go",
+          "start": 67.05,
+          "end": 67.29
+        },
+        {
+          "id": "p21w4",
+          "text": "visit",
+          "start": 67.29,
+          "end": 67.55
+        },
+        {
+          "id": "p21w5",
+          "text": "someone",
+          "start": 67.55,
+          "end": 67.95
+        },
+        {
+          "id": "p21w6",
+          "text": "else.",
+          "start": 67.95,
+          "end": 68.25
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 69.12,
+      "end": 70.2,
+      "text": "Ah yes.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "Ah",
+          "start": 69.12,
+          "end": 69.58
+        },
+        {
+          "id": "p22w2",
+          "text": "yes.",
+          "start": 69.58,
+          "end": 70.2
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 71.0,
+      "end": 72.36,
+      "text": "Dante's father said.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "Dante's",
+          "start": 71.0,
+          "end": 71.64
+        },
+        {
+          "id": "p23w2",
+          "text": "father",
+          "start": 71.64,
+          "end": 71.86
+        },
+        {
+          "id": "p23w3",
+          "text": "said.",
+          "start": 71.86,
+          "end": 72.36
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 73.25,
+      "end": 75.55,
+      "text": "Have a good visit with your new wife.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "Have",
+          "start": 73.25,
+          "end": 73.63
+        },
+        {
+          "id": "p24w2",
+          "text": "a",
+          "start": 73.63,
+          "end": 73.75
+        },
+        {
+          "id": "p24w3",
+          "text": "good",
+          "start": 73.75,
+          "end": 73.95
+        },
+        {
+          "id": "p24w4",
+          "text": "visit",
+          "start": 73.95,
+          "end": 74.33
+        },
+        {
+          "id": "p24w5",
+          "text": "with",
+          "start": 74.33,
+          "end": 74.61
+        },
+        {
+          "id": "p24w6",
+          "text": "your",
+          "start": 74.61,
+          "end": 74.81
+        },
+        {
+          "id": "p24w7",
+          "text": "new",
+          "start": 74.81,
+          "end": 75.05
+        },
+        {
+          "id": "p24w8",
+          "text": "wife.",
+          "start": 75.05,
+          "end": 75.55
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 80.91,
+      "end": 84.33,
+      "text": "Dante's called out to Mercedes as he approached her home.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "Dante's",
+          "start": 80.91,
+          "end": 81.55
+        },
+        {
+          "id": "p25w2",
+          "text": "called",
+          "start": 81.55,
+          "end": 81.73
+        },
+        {
+          "id": "p25w3",
+          "text": "out",
+          "start": 81.73,
+          "end": 82.07
+        },
+        {
+          "id": "p25w4",
+          "text": "to",
+          "start": 82.07,
+          "end": 82.23
+        },
+        {
+          "id": "p25w5",
+          "text": "Mercedes",
+          "start": 82.23,
+          "end": 82.49
+        },
+        {
+          "id": "p25w6",
+          "text": "as",
+          "start": 82.49,
+          "end": 83.25
+        },
+        {
+          "id": "p25w7",
+          "text": "he",
+          "start": 83.25,
+          "end": 83.39
+        },
+        {
+          "id": "p25w8",
+          "text": "approached",
+          "start": 83.39,
+          "end": 83.69
+        },
+        {
+          "id": "p25w9",
+          "text": "her",
+          "start": 83.69,
+          "end": 83.99
+        },
+        {
+          "id": "p25w10",
+          "text": "home.",
+          "start": 83.99,
+          "end": 84.33
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 84.99,
+      "end": 85.29,
+      "text": "Mercedes!",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "Mercedes!",
+          "start": 84.99,
+          "end": 85.29
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 86.35,
+      "end": 86.59,
+      "text": "Mercedes!",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "Mercedes!",
+          "start": 86.35,
+          "end": 86.59
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 87.74,
+      "end": 90.44,
+      "text": "Suddenly a happy voice answered from inside.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "Suddenly",
+          "start": 87.74,
+          "end": 88.38
+        },
+        {
+          "id": "p28w2",
+          "text": "a",
+          "start": 88.38,
+          "end": 88.78
+        },
+        {
+          "id": "p28w3",
+          "text": "happy",
+          "start": 88.78,
+          "end": 89.1
+        },
+        {
+          "id": "p28w4",
+          "text": "voice",
+          "start": 89.1,
+          "end": 89.4
+        },
+        {
+          "id": "p28w5",
+          "text": "answered",
+          "start": 89.4,
+          "end": 89.84
+        },
+        {
+          "id": "p28w6",
+          "text": "from",
+          "start": 89.84,
+          "end": 90.24
+        },
+        {
+          "id": "p28w7",
+          "text": "inside.",
+          "start": 90.24,
+          "end": 90.44
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 91.96,
+      "end": 93.06,
+      "text": "I'm here Dante's.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "I'm",
+          "start": 91.96,
+          "end": 92.12
+        },
+        {
+          "id": "p29w2",
+          "text": "here",
+          "start": 92.12,
+          "end": 92.3
+        },
+        {
+          "id": "p29w3",
+          "text": "Dante's.",
+          "start": 92.3,
+          "end": 93.06
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 93.42,
+      "end": 93.72,
+      "text": "I'm here.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "I'm",
+          "start": 93.42,
+          "end": 93.5
+        },
+        {
+          "id": "p30w2",
+          "text": "here.",
+          "start": 93.5,
+          "end": 93.72
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 94.94,
+      "end": 96.92,
+      "text": "Mercedes answered as she ran to him.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "Mercedes",
+          "start": 94.94,
+          "end": 94.94
+        },
+        {
+          "id": "p31w2",
+          "text": "answered",
+          "start": 94.94,
+          "end": 95.6
+        },
+        {
+          "id": "p31w3",
+          "text": "as",
+          "start": 95.6,
+          "end": 96.14
+        },
+        {
+          "id": "p31w4",
+          "text": "she",
+          "start": 96.14,
+          "end": 96.32
+        },
+        {
+          "id": "p31w5",
+          "text": "ran",
+          "start": 96.32,
+          "end": 96.48
+        },
+        {
+          "id": "p31w6",
+          "text": "to",
+          "start": 96.48,
+          "end": 96.72
+        },
+        {
+          "id": "p31w7",
+          "text": "him.",
+          "start": 96.72,
+          "end": 96.92
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 98.08,
+      "end": 99.58,
+      "text": "Dante's took her in his arms.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "Dante's",
+          "start": 98.08,
+          "end": 98.66
+        },
+        {
+          "id": "p32w2",
+          "text": "took",
+          "start": 98.66,
+          "end": 98.84
+        },
+        {
+          "id": "p32w3",
+          "text": "her",
+          "start": 98.84,
+          "end": 99.02
+        },
+        {
+          "id": "p32w4",
+          "text": "in",
+          "start": 99.02,
+          "end": 99.14
+        },
+        {
+          "id": "p32w5",
+          "text": "his",
+          "start": 99.14,
+          "end": 99.28
+        },
+        {
+          "id": "p32w6",
+          "text": "arms.",
+          "start": 99.28,
+          "end": 99.58
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 101.01,
+      "end": 103.51,
+      "text": "For a few moments the rest of the world disappeared.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "For",
+          "start": 101.01,
+          "end": 101.31
+        },
+        {
+          "id": "p33w2",
+          "text": "a",
+          "start": 101.31,
+          "end": 101.47
+        },
+        {
+          "id": "p33w3",
+          "text": "few",
+          "start": 101.47,
+          "end": 101.63
+        },
+        {
+          "id": "p33w4",
+          "text": "moments",
+          "start": 101.63,
+          "end": 101.97
+        },
+        {
+          "id": "p33w5",
+          "text": "the",
+          "start": 101.97,
+          "end": 102.23
+        },
+        {
+          "id": "p33w6",
+          "text": "rest",
+          "start": 102.23,
+          "end": 102.47
+        },
+        {
+          "id": "p33w7",
+          "text": "of",
+          "start": 102.47,
+          "end": 102.69
+        },
+        {
+          "id": "p33w8",
+          "text": "the",
+          "start": 102.69,
+          "end": 102.83
+        },
+        {
+          "id": "p33w9",
+          "text": "world",
+          "start": 102.83,
+          "end": 103.11
+        },
+        {
+          "id": "p33w10",
+          "text": "disappeared.",
+          "start": 103.11,
+          "end": 103.51
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 104.55,
+      "end": 106.31,
+      "text": "The two lovers only knew each other.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "The",
+          "start": 104.55,
+          "end": 104.59
+        },
+        {
+          "id": "p34w2",
+          "text": "two",
+          "start": 104.59,
+          "end": 104.77
+        },
+        {
+          "id": "p34w3",
+          "text": "lovers",
+          "start": 104.77,
+          "end": 105.01
+        },
+        {
+          "id": "p34w4",
+          "text": "only",
+          "start": 105.01,
+          "end": 105.51
+        },
+        {
+          "id": "p34w5",
+          "text": "knew",
+          "start": 105.51,
+          "end": 105.85
+        },
+        {
+          "id": "p34w6",
+          "text": "each",
+          "start": 105.85,
+          "end": 106.03
+        },
+        {
+          "id": "p34w7",
+          "text": "other.",
+          "start": 106.03,
+          "end": 106.31
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 106.99,
+      "end": 108.21,
+      "text": "But others knew of them.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "But",
+          "start": 106.99,
+          "end": 107.07
+        },
+        {
+          "id": "p35w2",
+          "text": "others",
+          "start": 107.07,
+          "end": 107.39
+        },
+        {
+          "id": "p35w3",
+          "text": "knew",
+          "start": 107.39,
+          "end": 107.73
+        },
+        {
+          "id": "p35w4",
+          "text": "of",
+          "start": 107.73,
+          "end": 107.91
+        },
+        {
+          "id": "p35w5",
+          "text": "them.",
+          "start": 107.91,
+          "end": 108.21
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 111.16,
+      "end": 113.8,
+      "text": "Sitting and drinking wine nearby was Danglers.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "Sitting",
+          "start": 111.16,
+          "end": 111.5
+        },
+        {
+          "id": "p36w2",
+          "text": "and",
+          "start": 111.5,
+          "end": 111.78
+        },
+        {
+          "id": "p36w3",
+          "text": "drinking",
+          "start": 111.78,
+          "end": 112.06
+        },
+        {
+          "id": "p36w4",
+          "text": "wine",
+          "start": 112.06,
+          "end": 112.4
+        },
+        {
+          "id": "p36w5",
+          "text": "nearby",
+          "start": 112.4,
+          "end": 112.8
+        },
+        {
+          "id": "p36w6",
+          "text": "was",
+          "start": 112.8,
+          "end": 113.32
+        },
+        {
+          "id": "p36w7",
+          "text": "Danglers.",
+          "start": 113.32,
+          "end": 113.8
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 114.56,
+      "end": 116.38,
+      "text": "He was busy trying to think of a plan.",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "He",
+          "start": 114.56,
+          "end": 114.76
+        },
+        {
+          "id": "p37w2",
+          "text": "was",
+          "start": 114.76,
+          "end": 114.88
+        },
+        {
+          "id": "p37w3",
+          "text": "busy",
+          "start": 114.88,
+          "end": 115.14
+        },
+        {
+          "id": "p37w4",
+          "text": "trying",
+          "start": 115.14,
+          "end": 115.58
+        },
+        {
+          "id": "p37w5",
+          "text": "to",
+          "start": 115.58,
+          "end": 115.7
+        },
+        {
+          "id": "p37w6",
+          "text": "think",
+          "start": 115.7,
+          "end": 115.92
+        },
+        {
+          "id": "p37w7",
+          "text": "of",
+          "start": 115.92,
+          "end": 116.04
+        },
+        {
+          "id": "p37w8",
+          "text": "a",
+          "start": 116.04,
+          "end": 116.12
+        },
+        {
+          "id": "p37w9",
+          "text": "plan.",
+          "start": 116.12,
+          "end": 116.38
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 117.18,
+      "end": 119.12,
+      "text": "He did not want Dante's to be captain.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "He",
+          "start": 117.18,
+          "end": 117.3
+        },
+        {
+          "id": "p38w2",
+          "text": "did",
+          "start": 117.3,
+          "end": 117.42
+        },
+        {
+          "id": "p38w3",
+          "text": "not",
+          "start": 117.42,
+          "end": 117.66
+        },
+        {
+          "id": "p38w4",
+          "text": "want",
+          "start": 117.66,
+          "end": 118.02
+        },
+        {
+          "id": "p38w5",
+          "text": "Dante's",
+          "start": 118.02,
+          "end": 118.64
+        },
+        {
+          "id": "p38w6",
+          "text": "to",
+          "start": 118.64,
+          "end": 118.76
+        },
+        {
+          "id": "p38w7",
+          "text": "be",
+          "start": 118.76,
+          "end": 118.88
+        },
+        {
+          "id": "p38w8",
+          "text": "captain.",
+          "start": 118.88,
+          "end": 119.12
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 120.35,
+      "end": 123.65,
+      "text": "Just then Mercedes and Dante's walked by the outdoor cafe",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "Just",
+          "start": 120.35,
+          "end": 120.51
+        },
+        {
+          "id": "p39w2",
+          "text": "then",
+          "start": 120.51,
+          "end": 120.85
+        },
+        {
+          "id": "p39w3",
+          "text": "Mercedes",
+          "start": 120.85,
+          "end": 121.21
+        },
+        {
+          "id": "p39w4",
+          "text": "and",
+          "start": 121.21,
+          "end": 121.65
+        },
+        {
+          "id": "p39w5",
+          "text": "Dante's",
+          "start": 121.65,
+          "end": 122.23
+        },
+        {
+          "id": "p39w6",
+          "text": "walked",
+          "start": 122.23,
+          "end": 122.39
+        },
+        {
+          "id": "p39w7",
+          "text": "by",
+          "start": 122.39,
+          "end": 122.75
+        },
+        {
+          "id": "p39w8",
+          "text": "the",
+          "start": 122.75,
+          "end": 122.91
+        },
+        {
+          "id": "p39w9",
+          "text": "outdoor",
+          "start": 122.91,
+          "end": 123.11
+        },
+        {
+          "id": "p39w10",
+          "text": "cafe",
+          "start": 123.11,
+          "end": 123.65
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 124.25,
+      "end": 125.63,
+      "text": "where Danglers was drinking.",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "where",
+          "start": 124.25,
+          "end": 124.55
+        },
+        {
+          "id": "p40w2",
+          "text": "Danglers",
+          "start": 124.55,
+          "end": 125.01
+        },
+        {
+          "id": "p40w3",
+          "text": "was",
+          "start": 125.01,
+          "end": 125.29
+        },
+        {
+          "id": "p40w4",
+          "text": "drinking.",
+          "start": 125.29,
+          "end": 125.63
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 126.49,
+      "end": 130.13,
+      "text": "Talking happily with Mercedes, Dante's didn't see him.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "Talking",
+          "start": 126.49,
+          "end": 127.09
+        },
+        {
+          "id": "p41w2",
+          "text": "happily",
+          "start": 127.09,
+          "end": 127.49
+        },
+        {
+          "id": "p41w3",
+          "text": "with",
+          "start": 127.49,
+          "end": 127.81
+        },
+        {
+          "id": "p41w4",
+          "text": "Mercedes,",
+          "start": 127.81,
+          "end": 128.13
+        },
+        {
+          "id": "p41w5",
+          "text": "Dante's",
+          "start": 128.79,
+          "end": 129.37
+        },
+        {
+          "id": "p41w6",
+          "text": "didn't",
+          "start": 129.37,
+          "end": 129.67
+        },
+        {
+          "id": "p41w7",
+          "text": "see",
+          "start": 129.67,
+          "end": 129.87
+        },
+        {
+          "id": "p41w8",
+          "text": "him.",
+          "start": 129.87,
+          "end": 130.13
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 130.98,
+      "end": 134.02,
+      "text": "Now that you're captain you won't even talk to your friends.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "Now",
+          "start": 130.98,
+          "end": 131.3
+        },
+        {
+          "id": "p42w2",
+          "text": "that",
+          "start": 131.3,
+          "end": 131.56
+        },
+        {
+          "id": "p42w3",
+          "text": "you're",
+          "start": 131.56,
+          "end": 131.8
+        },
+        {
+          "id": "p42w4",
+          "text": "captain",
+          "start": 131.8,
+          "end": 132.16
+        },
+        {
+          "id": "p42w5",
+          "text": "you",
+          "start": 132.16,
+          "end": 132.54
+        },
+        {
+          "id": "p42w6",
+          "text": "won't",
+          "start": 132.54,
+          "end": 132.74
+        },
+        {
+          "id": "p42w7",
+          "text": "even",
+          "start": 132.74,
+          "end": 132.86
+        },
+        {
+          "id": "p42w8",
+          "text": "talk",
+          "start": 132.86,
+          "end": 133.28
+        },
+        {
+          "id": "p42w9",
+          "text": "to",
+          "start": 133.28,
+          "end": 133.48
+        },
+        {
+          "id": "p42w10",
+          "text": "your",
+          "start": 133.48,
+          "end": 133.64
+        },
+        {
+          "id": "p42w11",
+          "text": "friends.",
+          "start": 133.64,
+          "end": 134.02
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 134.72,
+      "end": 135.68,
+      "text": "Danglers asked.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "Danglers",
+          "start": 134.72,
+          "end": 135.36
+        },
+        {
+          "id": "p43w2",
+          "text": "asked.",
+          "start": 135.36,
+          "end": 135.68
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 136.85,
+      "end": 137.61,
+      "text": "No no.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "No",
+          "start": 136.85,
+          "end": 137.39
+        },
+        {
+          "id": "p44w2",
+          "text": "no.",
+          "start": 137.39,
+          "end": 137.61
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 138.15,
+      "end": 140.81,
+      "text": "I was just talking to Mercedes and didn't see you.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "I",
+          "start": 138.15,
+          "end": 138.21
+        },
+        {
+          "id": "p45w2",
+          "text": "was",
+          "start": 138.21,
+          "end": 138.41
+        },
+        {
+          "id": "p45w3",
+          "text": "just",
+          "start": 138.41,
+          "end": 138.61
+        },
+        {
+          "id": "p45w4",
+          "text": "talking",
+          "start": 138.61,
+          "end": 138.95
+        },
+        {
+          "id": "p45w5",
+          "text": "to",
+          "start": 138.95,
+          "end": 139.17
+        },
+        {
+          "id": "p45w6",
+          "text": "Mercedes",
+          "start": 139.17,
+          "end": 139.43
+        },
+        {
+          "id": "p45w7",
+          "text": "and",
+          "start": 139.43,
+          "end": 139.93
+        },
+        {
+          "id": "p45w8",
+          "text": "didn't",
+          "start": 139.93,
+          "end": 140.31
+        },
+        {
+          "id": "p45w9",
+          "text": "see",
+          "start": 140.31,
+          "end": 140.51
+        },
+        {
+          "id": "p45w10",
+          "text": "you.",
+          "start": 140.51,
+          "end": 140.81
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 141.66,
+      "end": 142.62,
+      "text": "Dante's answered.",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "Dante's",
+          "start": 141.66,
+          "end": 142.3
+        },
+        {
+          "id": "p46w2",
+          "text": "answered.",
+          "start": 142.3,
+          "end": 142.62
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 146.64,
+      "end": 147.48,
+      "text": "When is the wedding?",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "When",
+          "start": 146.64,
+          "end": 146.88
+        },
+        {
+          "id": "p47w2",
+          "text": "is",
+          "start": 146.88,
+          "end": 147.08
+        },
+        {
+          "id": "p47w3",
+          "text": "the",
+          "start": 147.08,
+          "end": 147.2
+        },
+        {
+          "id": "p47w4",
+          "text": "wedding?",
+          "start": 147.2,
+          "end": 147.48
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 148.57,
+      "end": 150.67,
+      "text": "Danglers asked without saying hello.",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "Danglers",
+          "start": 148.57,
+          "end": 149.07
+        },
+        {
+          "id": "p48w2",
+          "text": "asked",
+          "start": 149.07,
+          "end": 149.39
+        },
+        {
+          "id": "p48w3",
+          "text": "without",
+          "start": 149.39,
+          "end": 149.91
+        },
+        {
+          "id": "p48w4",
+          "text": "saying",
+          "start": 149.91,
+          "end": 150.37
+        },
+        {
+          "id": "p48w5",
+          "text": "hello.",
+          "start": 150.37,
+          "end": 150.67
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 151.57,
+      "end": 151.95,
+      "text": "Soon.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "Soon.",
+          "start": 151.57,
+          "end": 151.95
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "start": 152.69,
+      "end": 153.61,
+      "text": "Dante's answered.",
+      "words": [
+        {
+          "id": "p50w1",
+          "text": "Dante's",
+          "start": 152.69,
+          "end": 153.29
+        },
+        {
+          "id": "p50w2",
+          "text": "answered.",
+          "start": 153.29,
+          "end": 153.61
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "start": 154.71,
+      "end": 155.83,
+      "text": "Tomorrow or the next day?",
+      "words": [
+        {
+          "id": "p51w1",
+          "text": "Tomorrow",
+          "start": 154.71,
+          "end": 154.97
+        },
+        {
+          "id": "p51w2",
+          "text": "or",
+          "start": 154.97,
+          "end": 155.23
+        },
+        {
+          "id": "p51w3",
+          "text": "the",
+          "start": 155.23,
+          "end": 155.37
+        },
+        {
+          "id": "p51w4",
+          "text": "next",
+          "start": 155.37,
+          "end": 155.53
+        },
+        {
+          "id": "p51w5",
+          "text": "day?",
+          "start": 155.53,
+          "end": 155.83
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "start": 156.65,
+      "end": 157.63,
+      "text": "You are in a hurry.",
+      "words": [
+        {
+          "id": "p52w1",
+          "text": "You",
+          "start": 156.65,
+          "end": 156.91
+        },
+        {
+          "id": "p52w2",
+          "text": "are",
+          "start": 156.91,
+          "end": 157.11
+        },
+        {
+          "id": "p52w3",
+          "text": "in",
+          "start": 157.11,
+          "end": 157.31
+        },
+        {
+          "id": "p52w4",
+          "text": "a",
+          "start": 157.31,
+          "end": 157.41
+        },
+        {
+          "id": "p52w5",
+          "text": "hurry.",
+          "start": 157.41,
+          "end": 157.63
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "start": 158.6,
+      "end": 159.46,
+      "text": "Danglers said.",
+      "words": [
+        {
+          "id": "p53w1",
+          "text": "Danglers",
+          "start": 158.6,
+          "end": 159.1
+        },
+        {
+          "id": "p53w2",
+          "text": "said.",
+          "start": 159.1,
+          "end": 159.46
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "start": 160.42,
+      "end": 162.68,
+      "text": "Why are you getting married so quickly Captain?",
+      "words": [
+        {
+          "id": "p54w1",
+          "text": "Why",
+          "start": 160.42,
+          "end": 160.78
+        },
+        {
+          "id": "p54w2",
+          "text": "are",
+          "start": 160.78,
+          "end": 160.9
+        },
+        {
+          "id": "p54w3",
+          "text": "you",
+          "start": 160.9,
+          "end": 161.02
+        },
+        {
+          "id": "p54w4",
+          "text": "getting",
+          "start": 161.02,
+          "end": 161.2
+        },
+        {
+          "id": "p54w5",
+          "text": "married",
+          "start": 161.2,
+          "end": 161.52
+        },
+        {
+          "id": "p54w6",
+          "text": "so",
+          "start": 161.52,
+          "end": 161.88
+        },
+        {
+          "id": "p54w7",
+          "text": "quickly",
+          "start": 161.88,
+          "end": 162.16
+        },
+        {
+          "id": "p54w8",
+          "text": "Captain?",
+          "start": 162.16,
+          "end": 162.68
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "start": 163.94,
+      "end": 165.46,
+      "text": "I'm not captain yet.",
+      "words": [
+        {
+          "id": "p55w1",
+          "text": "I'm",
+          "start": 163.94,
+          "end": 164.58
+        },
+        {
+          "id": "p55w2",
+          "text": "not",
+          "start": 164.58,
+          "end": 164.72
+        },
+        {
+          "id": "p55w3",
+          "text": "captain",
+          "start": 164.72,
+          "end": 164.94
+        },
+        {
+          "id": "p55w4",
+          "text": "yet.",
+          "start": 164.94,
+          "end": 165.46
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "start": 166.36,
+      "end": 167.2,
+      "text": "Dante's answered.",
+      "words": [
+        {
+          "id": "p56w1",
+          "text": "Dante's",
+          "start": 166.36,
+          "end": 167.0
+        },
+        {
+          "id": "p56w2",
+          "text": "answered.",
+          "start": 167.0,
+          "end": 167.2
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "start": 168.28,
+      "end": 170.46,
+      "text": "We are in a hurry because I must go to Paris.",
+      "words": [
+        {
+          "id": "p57w1",
+          "text": "We",
+          "start": 168.28,
+          "end": 168.46
+        },
+        {
+          "id": "p57w2",
+          "text": "are",
+          "start": 168.46,
+          "end": 168.6
+        },
+        {
+          "id": "p57w3",
+          "text": "in",
+          "start": 168.6,
+          "end": 168.72
+        },
+        {
+          "id": "p57w4",
+          "text": "a",
+          "start": 168.72,
+          "end": 168.82
+        },
+        {
+          "id": "p57w5",
+          "text": "hurry",
+          "start": 168.82,
+          "end": 169.02
+        },
+        {
+          "id": "p57w6",
+          "text": "because",
+          "start": 169.02,
+          "end": 169.42
+        },
+        {
+          "id": "p57w7",
+          "text": "I",
+          "start": 169.42,
+          "end": 169.7
+        },
+        {
+          "id": "p57w8",
+          "text": "must",
+          "start": 169.7,
+          "end": 169.86
+        },
+        {
+          "id": "p57w9",
+          "text": "go",
+          "start": 169.86,
+          "end": 170.08
+        },
+        {
+          "id": "p57w10",
+          "text": "to",
+          "start": 170.08,
+          "end": 170.2
+        },
+        {
+          "id": "p57w11",
+          "text": "Paris.",
+          "start": 170.2,
+          "end": 170.46
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "start": 171.2,
+      "end": 174.94,
+      "text": "After that with Mr. Morale's blessing I may become captain.",
+      "words": [
+        {
+          "id": "p58w1",
+          "text": "After",
+          "start": 171.2,
+          "end": 171.64
+        },
+        {
+          "id": "p58w2",
+          "text": "that",
+          "start": 171.64,
+          "end": 172.02
+        },
+        {
+          "id": "p58w3",
+          "text": "with",
+          "start": 172.02,
+          "end": 172.18
+        },
+        {
+          "id": "p58w4",
+          "text": "Mr.",
+          "start": 172.18,
+          "end": 172.58
+        },
+        {
+          "id": "p58w5",
+          "text": "Morale's",
+          "start": 172.78,
+          "end": 173.08
+        },
+        {
+          "id": "p58w6",
+          "text": "blessing",
+          "start": 173.08,
+          "end": 173.36
+        },
+        {
+          "id": "p58w7",
+          "text": "I",
+          "start": 173.36,
+          "end": 173.98
+        },
+        {
+          "id": "p58w8",
+          "text": "may",
+          "start": 173.98,
+          "end": 174.18
+        },
+        {
+          "id": "p58w9",
+          "text": "become",
+          "start": 174.18,
+          "end": 174.6
+        },
+        {
+          "id": "p58w10",
+          "text": "captain.",
+          "start": 174.6,
+          "end": 174.94
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "start": 176.47,
+      "end": 178.65,
+      "text": "Paris, why must you go to Paris?",
+      "words": [
+        {
+          "id": "p59w1",
+          "text": "Paris,",
+          "start": 176.47,
+          "end": 176.79
+        },
+        {
+          "id": "p59w2",
+          "text": "why",
+          "start": 177.31,
+          "end": 177.69
+        },
+        {
+          "id": "p59w3",
+          "text": "must",
+          "start": 177.69,
+          "end": 177.89
+        },
+        {
+          "id": "p59w4",
+          "text": "you",
+          "start": 177.89,
+          "end": 178.15
+        },
+        {
+          "id": "p59w5",
+          "text": "go",
+          "start": 178.15,
+          "end": 178.31
+        },
+        {
+          "id": "p59w6",
+          "text": "to",
+          "start": 178.31,
+          "end": 178.41
+        },
+        {
+          "id": "p59w7",
+          "text": "Paris?",
+          "start": 178.41,
+          "end": 178.65
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "start": 179.65,
+      "end": 180.55,
+      "text": "Danglers asked.",
+      "words": [
+        {
+          "id": "p60w1",
+          "text": "Danglers",
+          "start": 179.65,
+          "end": 180.19
+        },
+        {
+          "id": "p60w2",
+          "text": "asked.",
+          "start": 180.19,
+          "end": 180.55
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "start": 181.66,
+      "end": 185.72,
+      "text": "Before he died, Captain Leclerc asked me to do something for him.",
+      "words": [
+        {
+          "id": "p61w1",
+          "text": "Before",
+          "start": 181.66,
+          "end": 182.02
+        },
+        {
+          "id": "p61w2",
+          "text": "he",
+          "start": 182.02,
+          "end": 182.42
+        },
+        {
+          "id": "p61w3",
+          "text": "died,",
+          "start": 182.42,
+          "end": 182.74
+        },
+        {
+          "id": "p61w4",
+          "text": "Captain",
+          "start": 183.2,
+          "end": 183.56
+        },
+        {
+          "id": "p61w5",
+          "text": "Leclerc",
+          "start": 183.56,
+          "end": 184.04
+        },
+        {
+          "id": "p61w6",
+          "text": "asked",
+          "start": 184.04,
+          "end": 184.36
+        },
+        {
+          "id": "p61w7",
+          "text": "me",
+          "start": 184.36,
+          "end": 184.58
+        },
+        {
+          "id": "p61w8",
+          "text": "to",
+          "start": 184.58,
+          "end": 184.7
+        },
+        {
+          "id": "p61w9",
+          "text": "do",
+          "start": 184.7,
+          "end": 184.82
+        },
+        {
+          "id": "p61w10",
+          "text": "something",
+          "start": 184.82,
+          "end": 185.14
+        },
+        {
+          "id": "p61w11",
+          "text": "for",
+          "start": 185.14,
+          "end": 185.48
+        },
+        {
+          "id": "p61w12",
+          "text": "him.",
+          "start": 185.48,
+          "end": 185.72
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "start": 186.34,
+      "end": 188.36,
+      "text": "For that reason I'm going to Paris.",
+      "words": [
+        {
+          "id": "p62w1",
+          "text": "For",
+          "start": 186.34,
+          "end": 186.52
+        },
+        {
+          "id": "p62w2",
+          "text": "that",
+          "start": 186.52,
+          "end": 186.74
+        },
+        {
+          "id": "p62w3",
+          "text": "reason",
+          "start": 186.74,
+          "end": 187.1
+        },
+        {
+          "id": "p62w4",
+          "text": "I'm",
+          "start": 187.1,
+          "end": 187.6
+        },
+        {
+          "id": "p62w5",
+          "text": "going",
+          "start": 187.6,
+          "end": 187.8
+        },
+        {
+          "id": "p62w6",
+          "text": "to",
+          "start": 187.8,
+          "end": 188.08
+        },
+        {
+          "id": "p62w7",
+          "text": "Paris.",
+          "start": 188.08,
+          "end": 188.36
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "start": 189.45,
+      "end": 190.45,
+      "text": "Dante's explained.",
+      "words": [
+        {
+          "id": "p63w1",
+          "text": "Dante's",
+          "start": 189.45,
+          "end": 190.09
+        },
+        {
+          "id": "p63w2",
+          "text": "explained.",
+          "start": 190.09,
+          "end": 190.45
+        }
+      ]
+    },
+    {
+      "id": "p64",
+      "start": 191.41,
+      "end": 192.89,
+      "text": "He said nothing about the letter.",
+      "words": [
+        {
+          "id": "p64w1",
+          "text": "He",
+          "start": 191.41,
+          "end": 191.57
+        },
+        {
+          "id": "p64w2",
+          "text": "said",
+          "start": 191.57,
+          "end": 191.75
+        },
+        {
+          "id": "p64w3",
+          "text": "nothing",
+          "start": 191.75,
+          "end": 192.03
+        },
+        {
+          "id": "p64w4",
+          "text": "about",
+          "start": 192.03,
+          "end": 192.47
+        },
+        {
+          "id": "p64w5",
+          "text": "the",
+          "start": 192.47,
+          "end": 192.67
+        },
+        {
+          "id": "p64w6",
+          "text": "letter.",
+          "start": 192.67,
+          "end": 192.89
+        }
+      ]
+    },
+    {
+      "id": "p65",
+      "start": 193.45,
+      "end": 197.15,
+      "text": "He knew it could be dangerous and he didn't trust Danglers.",
+      "words": [
+        {
+          "id": "p65w1",
+          "text": "He",
+          "start": 193.45,
+          "end": 193.97
+        },
+        {
+          "id": "p65w2",
+          "text": "knew",
+          "start": 193.97,
+          "end": 194.19
+        },
+        {
+          "id": "p65w3",
+          "text": "it",
+          "start": 194.19,
+          "end": 194.33
+        },
+        {
+          "id": "p65w4",
+          "text": "could",
+          "start": 194.33,
+          "end": 194.51
+        },
+        {
+          "id": "p65w5",
+          "text": "be",
+          "start": 194.51,
+          "end": 194.69
+        },
+        {
+          "id": "p65w6",
+          "text": "dangerous",
+          "start": 194.69,
+          "end": 195.09
+        },
+        {
+          "id": "p65w7",
+          "text": "and",
+          "start": 195.09,
+          "end": 195.89
+        },
+        {
+          "id": "p65w8",
+          "text": "he",
+          "start": 195.89,
+          "end": 195.99
+        },
+        {
+          "id": "p65w9",
+          "text": "didn't",
+          "start": 195.99,
+          "end": 196.31
+        },
+        {
+          "id": "p65w10",
+          "text": "trust",
+          "start": 196.31,
+          "end": 196.57
+        },
+        {
+          "id": "p65w11",
+          "text": "Danglers.",
+          "start": 196.57,
+          "end": 197.15
+        }
+      ]
+    },
+    {
+      "id": "p66",
+      "start": 198.53,
+      "end": 199.87,
+      "text": "You must come to our wedding.",
+      "words": [
+        {
+          "id": "p66w1",
+          "text": "You",
+          "start": 198.53,
+          "end": 198.75
+        },
+        {
+          "id": "p66w2",
+          "text": "must",
+          "start": 198.75,
+          "end": 198.97
+        },
+        {
+          "id": "p66w3",
+          "text": "come",
+          "start": 198.97,
+          "end": 199.29
+        },
+        {
+          "id": "p66w4",
+          "text": "to",
+          "start": 199.29,
+          "end": 199.47
+        },
+        {
+          "id": "p66w5",
+          "text": "our",
+          "start": 199.47,
+          "end": 199.61
+        },
+        {
+          "id": "p66w6",
+          "text": "wedding.",
+          "start": 199.61,
+          "end": 199.87
+        }
+      ]
+    },
+    {
+      "id": "p67",
+      "start": 201.08,
+      "end": 201.66,
+      "text": "Of course.",
+      "words": [
+        {
+          "id": "p67w1",
+          "text": "Of",
+          "start": 201.08,
+          "end": 201.4
+        },
+        {
+          "id": "p67w2",
+          "text": "course.",
+          "start": 201.4,
+          "end": 201.66
+        }
+      ]
+    },
+    {
+      "id": "p68",
+      "start": 202.84,
+      "end": 203.7,
+      "text": "Danglers answered.",
+      "words": [
+        {
+          "id": "p68w1",
+          "text": "Danglers",
+          "start": 202.84,
+          "end": 203.36
+        },
+        {
+          "id": "p68w2",
+          "text": "answered.",
+          "start": 203.36,
+          "end": 203.7
+        }
+      ]
+    },
+    {
+      "id": "p69",
+      "start": 204.48,
+      "end": 205.86,
+      "text": "Then he said quietly to himself.",
+      "words": [
+        {
+          "id": "p69w1",
+          "text": "Then",
+          "start": 204.48,
+          "end": 204.52
+        },
+        {
+          "id": "p69w2",
+          "text": "he",
+          "start": 204.52,
+          "end": 204.64
+        },
+        {
+          "id": "p69w3",
+          "text": "said",
+          "start": 204.64,
+          "end": 204.88
+        },
+        {
+          "id": "p69w4",
+          "text": "quietly",
+          "start": 204.88,
+          "end": 205.18
+        },
+        {
+          "id": "p69w5",
+          "text": "to",
+          "start": 205.18,
+          "end": 205.64
+        },
+        {
+          "id": "p69w6",
+          "text": "himself.",
+          "start": 205.64,
+          "end": 205.86
+        }
+      ]
+    },
+    {
+      "id": "p70",
+      "start": 207.08,
+      "end": 210.6,
+      "text": "You will never make it to Paris and you will never be my captain.",
+      "words": [
+        {
+          "id": "p70w1",
+          "text": "You",
+          "start": 207.08,
+          "end": 207.24
+        },
+        {
+          "id": "p70w2",
+          "text": "will",
+          "start": 207.24,
+          "end": 207.38
+        },
+        {
+          "id": "p70w3",
+          "text": "never",
+          "start": 207.38,
+          "end": 207.58
+        },
+        {
+          "id": "p70w4",
+          "text": "make",
+          "start": 207.58,
+          "end": 207.94
+        },
+        {
+          "id": "p70w5",
+          "text": "it",
+          "start": 207.94,
+          "end": 208.1
+        },
+        {
+          "id": "p70w6",
+          "text": "to",
+          "start": 208.1,
+          "end": 208.24
+        },
+        {
+          "id": "p70w7",
+          "text": "Paris",
+          "start": 208.24,
+          "end": 208.54
+        },
+        {
+          "id": "p70w8",
+          "text": "and",
+          "start": 208.54,
+          "end": 208.94
+        },
+        {
+          "id": "p70w9",
+          "text": "you",
+          "start": 208.94,
+          "end": 209.14
+        },
+        {
+          "id": "p70w10",
+          "text": "will",
+          "start": 209.14,
+          "end": 209.26
+        },
+        {
+          "id": "p70w11",
+          "text": "never",
+          "start": 209.26,
+          "end": 209.62
+        },
+        {
+          "id": "p70w12",
+          "text": "be",
+          "start": 209.62,
+          "end": 209.86
+        },
+        {
+          "id": "p70w13",
+          "text": "my",
+          "start": 209.86,
+          "end": 210.1
+        },
+        {
+          "id": "p70w14",
+          "text": "captain.",
+          "start": 210.1,
+          "end": 210.6
+        }
+      ]
+    },
+    {
+      "id": "p71",
+      "start": 214.3,
+      "end": 216.5,
+      "text": "Danglers wrote a letter to judge Villefort.",
+      "words": [
+        {
+          "id": "p71w1",
+          "text": "Danglers",
+          "start": 214.3,
+          "end": 214.82
+        },
+        {
+          "id": "p71w2",
+          "text": "wrote",
+          "start": 214.82,
+          "end": 215.12
+        },
+        {
+          "id": "p71w3",
+          "text": "a",
+          "start": 215.12,
+          "end": 215.3
+        },
+        {
+          "id": "p71w4",
+          "text": "letter",
+          "start": 215.3,
+          "end": 215.5
+        },
+        {
+          "id": "p71w5",
+          "text": "to",
+          "start": 215.5,
+          "end": 215.74
+        },
+        {
+          "id": "p71w6",
+          "text": "judge",
+          "start": 215.74,
+          "end": 215.98
+        },
+        {
+          "id": "p71w7",
+          "text": "Villefort.",
+          "start": 215.98,
+          "end": 216.5
+        }
+      ]
+    },
+    {
+      "id": "p72",
+      "start": 217.32,
+      "end": 219.9,
+      "text": "Villefort was the king's judge in Marseilles.",
+      "words": [
+        {
+          "id": "p72w1",
+          "text": "Villefort",
+          "start": 217.32,
+          "end": 217.84
+        },
+        {
+          "id": "p72w2",
+          "text": "was",
+          "start": 217.84,
+          "end": 218.1
+        },
+        {
+          "id": "p72w3",
+          "text": "the",
+          "start": 218.1,
+          "end": 218.3
+        },
+        {
+          "id": "p72w4",
+          "text": "king's",
+          "start": 218.3,
+          "end": 218.76
+        },
+        {
+          "id": "p72w5",
+          "text": "judge",
+          "start": 218.76,
+          "end": 219.06
+        },
+        {
+          "id": "p72w6",
+          "text": "in",
+          "start": 219.06,
+          "end": 219.36
+        },
+        {
+          "id": "p72w7",
+          "text": "Marseilles.",
+          "start": 219.36,
+          "end": 219.9
+        }
+      ]
+    },
+    {
+      "id": "p73",
+      "start": 220.56,
+      "end": 224.42,
+      "text": "He told the judge he was a friend of the king but he didn't give his name.",
+      "words": [
+        {
+          "id": "p73w1",
+          "text": "He",
+          "start": 220.56,
+          "end": 220.96
+        },
+        {
+          "id": "p73w2",
+          "text": "told",
+          "start": 220.96,
+          "end": 221.2
+        },
+        {
+          "id": "p73w3",
+          "text": "the",
+          "start": 221.2,
+          "end": 221.4
+        },
+        {
+          "id": "p73w4",
+          "text": "judge",
+          "start": 221.4,
+          "end": 221.58
+        },
+        {
+          "id": "p73w5",
+          "text": "he",
+          "start": 221.58,
+          "end": 221.92
+        },
+        {
+          "id": "p73w6",
+          "text": "was",
+          "start": 221.92,
+          "end": 222.02
+        },
+        {
+          "id": "p73w7",
+          "text": "a",
+          "start": 222.02,
+          "end": 222.14
+        },
+        {
+          "id": "p73w8",
+          "text": "friend",
+          "start": 222.14,
+          "end": 222.4
+        },
+        {
+          "id": "p73w9",
+          "text": "of",
+          "start": 222.4,
+          "end": 222.62
+        },
+        {
+          "id": "p73w10",
+          "text": "the",
+          "start": 222.62,
+          "end": 222.76
+        },
+        {
+          "id": "p73w11",
+          "text": "king",
+          "start": 222.76,
+          "end": 222.98
+        },
+        {
+          "id": "p73w12",
+          "text": "but",
+          "start": 222.98,
+          "end": 223.52
+        },
+        {
+          "id": "p73w13",
+          "text": "he",
+          "start": 223.52,
+          "end": 223.62
+        },
+        {
+          "id": "p73w14",
+          "text": "didn't",
+          "start": 223.62,
+          "end": 223.92
+        },
+        {
+          "id": "p73w15",
+          "text": "give",
+          "start": 223.92,
+          "end": 224.04
+        },
+        {
+          "id": "p73w16",
+          "text": "his",
+          "start": 224.04,
+          "end": 224.22
+        },
+        {
+          "id": "p73w17",
+          "text": "name.",
+          "start": 224.22,
+          "end": 224.42
+        }
+      ]
+    },
+    {
+      "id": "p74",
+      "start": 224.42,
+      "end": 229.27,
+      "text": "In his letter Danglers gave the judge information about Dante's.",
+      "words": [
+        {
+          "id": "p74w1",
+          "text": "In",
+          "start": 224.42,
+          "end": 224.78
+        },
+        {
+          "id": "p74w2",
+          "text": "his",
+          "start": 224.97,
+          "end": 225.97
+        },
+        {
+          "id": "p74w3",
+          "text": "letter",
+          "start": 225.97,
+          "end": 226.27
+        },
+        {
+          "id": "p74w4",
+          "text": "Danglers",
+          "start": 226.27,
+          "end": 226.81
+        },
+        {
+          "id": "p74w5",
+          "text": "gave",
+          "start": 226.81,
+          "end": 227.05
+        },
+        {
+          "id": "p74w6",
+          "text": "the",
+          "start": 227.05,
+          "end": 227.25
+        },
+        {
+          "id": "p74w7",
+          "text": "judge",
+          "start": 227.25,
+          "end": 227.41
+        },
+        {
+          "id": "p74w8",
+          "text": "information",
+          "start": 227.41,
+          "end": 227.89
+        },
+        {
+          "id": "p74w9",
+          "text": "about",
+          "start": 227.89,
+          "end": 228.51
+        },
+        {
+          "id": "p74w10",
+          "text": "Dante's.",
+          "start": 228.51,
+          "end": 229.27
+        }
+      ]
+    },
+    {
+      "id": "p75",
+      "start": 229.91,
+      "end": 235.39,
+      "text": "He wrote that Dante's was an enemy of the king and that Dante's had a secret letter from Napoleon",
+      "words": [
+        {
+          "id": "p75w1",
+          "text": "He",
+          "start": 229.91,
+          "end": 229.97
+        },
+        {
+          "id": "p75w2",
+          "text": "wrote",
+          "start": 229.97,
+          "end": 230.17
+        },
+        {
+          "id": "p75w3",
+          "text": "that",
+          "start": 230.17,
+          "end": 230.35
+        },
+        {
+          "id": "p75w4",
+          "text": "Dante's",
+          "start": 230.35,
+          "end": 230.95
+        },
+        {
+          "id": "p75w5",
+          "text": "was",
+          "start": 230.95,
+          "end": 231.11
+        },
+        {
+          "id": "p75w6",
+          "text": "an",
+          "start": 231.11,
+          "end": 231.25
+        },
+        {
+          "id": "p75w7",
+          "text": "enemy",
+          "start": 231.25,
+          "end": 231.61
+        },
+        {
+          "id": "p75w8",
+          "text": "of",
+          "start": 231.61,
+          "end": 231.83
+        },
+        {
+          "id": "p75w9",
+          "text": "the",
+          "start": 231.83,
+          "end": 231.97
+        },
+        {
+          "id": "p75w10",
+          "text": "king",
+          "start": 231.97,
+          "end": 232.21
+        },
+        {
+          "id": "p75w11",
+          "text": "and",
+          "start": 232.21,
+          "end": 233.29
+        },
+        {
+          "id": "p75w12",
+          "text": "that",
+          "start": 233.29,
+          "end": 233.41
+        },
+        {
+          "id": "p75w13",
+          "text": "Dante's",
+          "start": 233.41,
+          "end": 234.01
+        },
+        {
+          "id": "p75w14",
+          "text": "had",
+          "start": 234.01,
+          "end": 234.13
+        },
+        {
+          "id": "p75w15",
+          "text": "a",
+          "start": 234.13,
+          "end": 234.25
+        },
+        {
+          "id": "p75w16",
+          "text": "secret",
+          "start": 234.25,
+          "end": 234.59
+        },
+        {
+          "id": "p75w17",
+          "text": "letter",
+          "start": 234.59,
+          "end": 234.93
+        },
+        {
+          "id": "p75w18",
+          "text": "from",
+          "start": 234.93,
+          "end": 235.25
+        },
+        {
+          "id": "p75w19",
+          "text": "Napoleon",
+          "start": 235.25,
+          "end": 235.39
+        }
+      ]
+    },
+    {
+      "id": "p76",
+      "start": 236.03,
+      "end": 237.27,
+      "text": "for someone in Paris.",
+      "words": [
+        {
+          "id": "p76w1",
+          "text": "for",
+          "start": 236.03,
+          "end": 236.33
+        },
+        {
+          "id": "p76w2",
+          "text": "someone",
+          "start": 236.33,
+          "end": 236.69
+        },
+        {
+          "id": "p76w3",
+          "text": "in",
+          "start": 236.69,
+          "end": 236.91
+        },
+        {
+          "id": "p76w4",
+          "text": "Paris.",
+          "start": 236.91,
+          "end": 237.27
+        }
+      ]
+    },
+    {
+      "id": "p77",
+      "start": 238.05,
+      "end": 241.19,
+      "text": "He asked the judge to arrest Dante's and question him.",
+      "words": [
+        {
+          "id": "p77w1",
+          "text": "He",
+          "start": 238.05,
+          "end": 238.33
+        },
+        {
+          "id": "p77w2",
+          "text": "asked",
+          "start": 238.33,
+          "end": 238.53
+        },
+        {
+          "id": "p77w3",
+          "text": "the",
+          "start": 238.53,
+          "end": 238.79
+        },
+        {
+          "id": "p77w4",
+          "text": "judge",
+          "start": 238.79,
+          "end": 238.93
+        },
+        {
+          "id": "p77w5",
+          "text": "to",
+          "start": 238.93,
+          "end": 239.27
+        },
+        {
+          "id": "p77w6",
+          "text": "arrest",
+          "start": 239.27,
+          "end": 239.47
+        },
+        {
+          "id": "p77w7",
+          "text": "Dante's",
+          "start": 239.47,
+          "end": 240.27
+        },
+        {
+          "id": "p77w8",
+          "text": "and",
+          "start": 240.27,
+          "end": 240.51
+        },
+        {
+          "id": "p77w9",
+          "text": "question",
+          "start": 240.51,
+          "end": 240.73
+        },
+        {
+          "id": "p77w10",
+          "text": "him.",
+          "start": 240.73,
+          "end": 241.19
+        }
+      ]
+    },
+    {
+      "id": "p78",
+      "start": 242.11,
+      "end": 244.19,
+      "text": "He knew Dante's wouldn't lie to the judge.",
+      "words": [
+        {
+          "id": "p78w1",
+          "text": "He",
+          "start": 242.11,
+          "end": 242.29
+        },
+        {
+          "id": "p78w2",
+          "text": "knew",
+          "start": 242.29,
+          "end": 242.49
+        },
+        {
+          "id": "p78w3",
+          "text": "Dante's",
+          "start": 242.49,
+          "end": 243.15
+        },
+        {
+          "id": "p78w4",
+          "text": "wouldn't",
+          "start": 243.15,
+          "end": 243.45
+        },
+        {
+          "id": "p78w5",
+          "text": "lie",
+          "start": 243.45,
+          "end": 243.65
+        },
+        {
+          "id": "p78w6",
+          "text": "to",
+          "start": 243.65,
+          "end": 243.87
+        },
+        {
+          "id": "p78w7",
+          "text": "the",
+          "start": 243.87,
+          "end": 243.99
+        },
+        {
+          "id": "p78w8",
+          "text": "judge.",
+          "start": 243.99,
+          "end": 244.19
+        }
+      ]
+    },
+    {
+      "id": "p79",
+      "start": 245.03,
+      "end": 250.17,
+      "text": "He also knew that the secret letter from Napoleon would get Dante's into serious trouble.",
+      "words": [
+        {
+          "id": "p79w1",
+          "text": "He",
+          "start": 245.03,
+          "end": 245.11
+        },
+        {
+          "id": "p79w2",
+          "text": "also",
+          "start": 245.11,
+          "end": 245.29
+        },
+        {
+          "id": "p79w3",
+          "text": "knew",
+          "start": 245.29,
+          "end": 245.71
+        },
+        {
+          "id": "p79w4",
+          "text": "that",
+          "start": 245.71,
+          "end": 245.99
+        },
+        {
+          "id": "p79w5",
+          "text": "the",
+          "start": 245.99,
+          "end": 246.13
+        },
+        {
+          "id": "p79w6",
+          "text": "secret",
+          "start": 246.13,
+          "end": 246.45
+        },
+        {
+          "id": "p79w7",
+          "text": "letter",
+          "start": 246.45,
+          "end": 246.79
+        },
+        {
+          "id": "p79w8",
+          "text": "from",
+          "start": 246.79,
+          "end": 247.11
+        },
+        {
+          "id": "p79w9",
+          "text": "Napoleon",
+          "start": 247.11,
+          "end": 247.55
+        },
+        {
+          "id": "p79w10",
+          "text": "would",
+          "start": 247.55,
+          "end": 248.25
+        },
+        {
+          "id": "p79w11",
+          "text": "get",
+          "start": 248.25,
+          "end": 248.43
+        },
+        {
+          "id": "p79w12",
+          "text": "Dante's",
+          "start": 248.43,
+          "end": 249.09
+        },
+        {
+          "id": "p79w13",
+          "text": "into",
+          "start": 249.09,
+          "end": 249.23
+        },
+        {
+          "id": "p79w14",
+          "text": "serious",
+          "start": 249.23,
+          "end": 249.73
+        },
+        {
+          "id": "p79w15",
+          "text": "trouble.",
+          "start": 249.73,
+          "end": 250.17
+        }
+      ]
+    },
+    {
+      "id": "p80",
+      "start": 251.27,
+      "end": 253.07,
+      "text": "Danglers was an evil man.",
+      "words": [
+        {
+          "id": "p80w1",
+          "text": "Danglers",
+          "start": 251.27,
+          "end": 251.87
+        },
+        {
+          "id": "p80w2",
+          "text": "was",
+          "start": 251.87,
+          "end": 252.09
+        },
+        {
+          "id": "p80w3",
+          "text": "an",
+          "start": 252.09,
+          "end": 252.25
+        },
+        {
+          "id": "p80w4",
+          "text": "evil",
+          "start": 252.25,
+          "end": 252.57
+        },
+        {
+          "id": "p80w5",
+          "text": "man.",
+          "start": 252.57,
+          "end": 253.07
+        }
+      ]
+    },
+    {
+      "id": "p81",
+      "start": 253.83,
+      "end": 255.51,
+      "text": "When he sent the letter he was happy.",
+      "words": [
+        {
+          "id": "p81w1",
+          "text": "When",
+          "start": 253.83,
+          "end": 253.97
+        },
+        {
+          "id": "p81w2",
+          "text": "he",
+          "start": 253.97,
+          "end": 254.07
+        },
+        {
+          "id": "p81w3",
+          "text": "sent",
+          "start": 254.07,
+          "end": 254.29
+        },
+        {
+          "id": "p81w4",
+          "text": "the",
+          "start": 254.29,
+          "end": 254.47
+        },
+        {
+          "id": "p81w5",
+          "text": "letter",
+          "start": 254.47,
+          "end": 254.69
+        },
+        {
+          "id": "p81w6",
+          "text": "he",
+          "start": 254.69,
+          "end": 255.03
+        },
+        {
+          "id": "p81w7",
+          "text": "was",
+          "start": 255.03,
+          "end": 255.17
+        },
+        {
+          "id": "p81w8",
+          "text": "happy.",
+          "start": 255.17,
+          "end": 255.51
+        }
+      ]
+    },
+    {
+      "id": "p82",
+      "start": 256.27,
+      "end": 258.71,
+      "text": "He expected to be captain of the Pharaohs soon.",
+      "words": [
+        {
+          "id": "p82w1",
+          "text": "He",
+          "start": 256.27,
+          "end": 256.37
+        },
+        {
+          "id": "p82w2",
+          "text": "expected",
+          "start": 256.37,
+          "end": 256.77
+        },
+        {
+          "id": "p82w3",
+          "text": "to",
+          "start": 256.77,
+          "end": 257.11
+        },
+        {
+          "id": "p82w4",
+          "text": "be",
+          "start": 257.11,
+          "end": 257.25
+        },
+        {
+          "id": "p82w5",
+          "text": "captain",
+          "start": 257.25,
+          "end": 257.53
+        },
+        {
+          "id": "p82w6",
+          "text": "of",
+          "start": 257.53,
+          "end": 257.85
+        },
+        {
+          "id": "p82w7",
+          "text": "the",
+          "start": 257.85,
+          "end": 257.95
+        },
+        {
+          "id": "p82w8",
+          "text": "Pharaohs",
+          "start": 257.95,
+          "end": 258.47
+        },
+        {
+          "id": "p82w9",
+          "text": "soon.",
+          "start": 258.47,
+          "end": 258.71
+        }
+      ]
+    },
+    {
+      "id": "p83",
+      "start": 270.1,
+      "end": 273.02,
+      "text": "Two days later Dante's and Mercedes had their wedding.",
+      "words": [
+        {
+          "id": "p83w1",
+          "text": "Two",
+          "start": 270.1,
+          "end": 270.34
+        },
+        {
+          "id": "p83w2",
+          "text": "days",
+          "start": 270.34,
+          "end": 270.56
+        },
+        {
+          "id": "p83w3",
+          "text": "later",
+          "start": 270.56,
+          "end": 271.0
+        },
+        {
+          "id": "p83w4",
+          "text": "Dante's",
+          "start": 271.0,
+          "end": 271.82
+        },
+        {
+          "id": "p83w5",
+          "text": "and",
+          "start": 271.82,
+          "end": 271.86
+        },
+        {
+          "id": "p83w6",
+          "text": "Mercedes",
+          "start": 271.86,
+          "end": 272.16
+        },
+        {
+          "id": "p83w7",
+          "text": "had",
+          "start": 272.16,
+          "end": 272.64
+        },
+        {
+          "id": "p83w8",
+          "text": "their",
+          "start": 272.64,
+          "end": 272.82
+        },
+        {
+          "id": "p83w9",
+          "text": "wedding.",
+          "start": 272.82,
+          "end": 273.02
+        }
+      ]
+    },
+    {
+      "id": "p84",
+      "start": 273.86,
+      "end": 274.7,
+      "text": "Everyone was there.",
+      "words": [
+        {
+          "id": "p84w1",
+          "text": "Everyone",
+          "start": 273.86,
+          "end": 274.14
+        },
+        {
+          "id": "p84w2",
+          "text": "was",
+          "start": 274.14,
+          "end": 274.42
+        },
+        {
+          "id": "p84w3",
+          "text": "there.",
+          "start": 274.42,
+          "end": 274.7
+        }
+      ]
+    },
+    {
+      "id": "p85",
+      "start": 275.28,
+      "end": 277.82,
+      "text": "Morale, Danglers and other friends and family.",
+      "words": [
+        {
+          "id": "p85w1",
+          "text": "Morale,",
+          "start": 275.28,
+          "end": 275.58
+        },
+        {
+          "id": "p85w2",
+          "text": "Danglers",
+          "start": 276.02,
+          "end": 276.34
+        },
+        {
+          "id": "p85w3",
+          "text": "and",
+          "start": 276.34,
+          "end": 276.72
+        },
+        {
+          "id": "p85w4",
+          "text": "other",
+          "start": 276.72,
+          "end": 276.9
+        },
+        {
+          "id": "p85w5",
+          "text": "friends",
+          "start": 276.9,
+          "end": 277.24
+        },
+        {
+          "id": "p85w6",
+          "text": "and",
+          "start": 277.24,
+          "end": 277.44
+        },
+        {
+          "id": "p85w7",
+          "text": "family.",
+          "start": 277.44,
+          "end": 277.82
+        }
+      ]
+    },
+    {
+      "id": "p86",
+      "start": 282.59,
+      "end": 287.77,
+      "text": "Suddenly as the wedding finished a police officer and four soldiers arrived.",
+      "words": [
+        {
+          "id": "p86w1",
+          "text": "Suddenly",
+          "start": 282.59,
+          "end": 283.17
+        },
+        {
+          "id": "p86w2",
+          "text": "as",
+          "start": 283.17,
+          "end": 283.85
+        },
+        {
+          "id": "p86w3",
+          "text": "the",
+          "start": 283.85,
+          "end": 284.03
+        },
+        {
+          "id": "p86w4",
+          "text": "wedding",
+          "start": 284.03,
+          "end": 284.29
+        },
+        {
+          "id": "p86w5",
+          "text": "finished",
+          "start": 284.29,
+          "end": 284.83
+        },
+        {
+          "id": "p86w6",
+          "text": "a",
+          "start": 284.83,
+          "end": 285.31
+        },
+        {
+          "id": "p86w7",
+          "text": "police",
+          "start": 285.31,
+          "end": 285.57
+        },
+        {
+          "id": "p86w8",
+          "text": "officer",
+          "start": 285.57,
+          "end": 286.05
+        },
+        {
+          "id": "p86w9",
+          "text": "and",
+          "start": 286.05,
+          "end": 286.43
+        },
+        {
+          "id": "p86w10",
+          "text": "four",
+          "start": 286.43,
+          "end": 286.69
+        },
+        {
+          "id": "p86w11",
+          "text": "soldiers",
+          "start": 286.69,
+          "end": 287.29
+        },
+        {
+          "id": "p86w12",
+          "text": "arrived.",
+          "start": 287.29,
+          "end": 287.77
+        }
+      ]
+    },
+    {
+      "id": "p87",
+      "start": 290.33,
+      "end": 291.85,
+      "text": "Who is Edmund Dante's?",
+      "words": [
+        {
+          "id": "p87w1",
+          "text": "Who",
+          "start": 290.33,
+          "end": 290.55
+        },
+        {
+          "id": "p87w2",
+          "text": "is",
+          "start": 290.55,
+          "end": 290.81
+        },
+        {
+          "id": "p87w3",
+          "text": "Edmund",
+          "start": 290.81,
+          "end": 291.01
+        },
+        {
+          "id": "p87w4",
+          "text": "Dante's?",
+          "start": 291.01,
+          "end": 291.85
+        }
+      ]
+    },
+    {
+      "id": "p88",
+      "start": 292.47,
+      "end": 293.53,
+      "text": "The officer asked.",
+      "words": [
+        {
+          "id": "p88w1",
+          "text": "The",
+          "start": 292.47,
+          "end": 292.77
+        },
+        {
+          "id": "p88w2",
+          "text": "officer",
+          "start": 292.77,
+          "end": 293.05
+        },
+        {
+          "id": "p88w3",
+          "text": "asked.",
+          "start": 293.05,
+          "end": 293.53
+        }
+      ]
+    },
+    {
+      "id": "p89",
+      "start": 294.66,
+      "end": 296.02,
+      "text": "I am Edmund Dante's.",
+      "words": [
+        {
+          "id": "p89w1",
+          "text": "I",
+          "start": 294.66,
+          "end": 294.92
+        },
+        {
+          "id": "p89w2",
+          "text": "am",
+          "start": 294.92,
+          "end": 295.08
+        },
+        {
+          "id": "p89w3",
+          "text": "Edmund",
+          "start": 295.08,
+          "end": 295.22
+        },
+        {
+          "id": "p89w4",
+          "text": "Dante's.",
+          "start": 295.22,
+          "end": 296.02
+        }
+      ]
+    },
+    {
+      "id": "p90",
+      "start": 296.64,
+      "end": 297.42,
+      "text": "Dante's answered.",
+      "words": [
+        {
+          "id": "p90w1",
+          "text": "Dante's",
+          "start": 296.64,
+          "end": 297.24
+        },
+        {
+          "id": "p90w2",
+          "text": "answered.",
+          "start": 297.24,
+          "end": 297.42
+        }
+      ]
+    },
+    {
+      "id": "p91",
+      "start": 298.44,
+      "end": 299.48,
+      "text": "How can I help you sir?",
+      "words": [
+        {
+          "id": "p91w1",
+          "text": "How",
+          "start": 298.44,
+          "end": 298.56
+        },
+        {
+          "id": "p91w2",
+          "text": "can",
+          "start": 298.56,
+          "end": 298.7
+        },
+        {
+          "id": "p91w3",
+          "text": "I",
+          "start": 298.7,
+          "end": 298.84
+        },
+        {
+          "id": "p91w4",
+          "text": "help",
+          "start": 298.84,
+          "end": 299.02
+        },
+        {
+          "id": "p91w5",
+          "text": "you",
+          "start": 299.02,
+          "end": 299.22
+        },
+        {
+          "id": "p91w6",
+          "text": "sir?",
+          "start": 299.22,
+          "end": 299.48
+        }
+      ]
+    },
+    {
+      "id": "p92",
+      "start": 300.41,
+      "end": 301.93,
+      "text": "I am here to arrest you.",
+      "words": [
+        {
+          "id": "p92w1",
+          "text": "I",
+          "start": 300.41,
+          "end": 300.75
+        },
+        {
+          "id": "p92w2",
+          "text": "am",
+          "start": 300.75,
+          "end": 300.89
+        },
+        {
+          "id": "p92w3",
+          "text": "here",
+          "start": 300.89,
+          "end": 301.11
+        },
+        {
+          "id": "p92w4",
+          "text": "to",
+          "start": 301.11,
+          "end": 301.31
+        },
+        {
+          "id": "p92w5",
+          "text": "arrest",
+          "start": 301.31,
+          "end": 301.61
+        },
+        {
+          "id": "p92w6",
+          "text": "you.",
+          "start": 301.61,
+          "end": 301.93
+        }
+      ]
+    },
+    {
+      "id": "p93",
+      "start": 302.94,
+      "end": 303.94,
+      "text": "The officer answered.",
+      "words": [
+        {
+          "id": "p93w1",
+          "text": "The",
+          "start": 302.94,
+          "end": 303.18
+        },
+        {
+          "id": "p93w2",
+          "text": "officer",
+          "start": 303.18,
+          "end": 303.4
+        },
+        {
+          "id": "p93w3",
+          "text": "answered.",
+          "start": 303.4,
+          "end": 303.94
+        }
+      ]
+    },
+    {
+      "id": "p94",
+      "start": 305.09,
+      "end": 307.35,
+      "text": "You are to appear before Judge Villefort.",
+      "words": [
+        {
+          "id": "p94w1",
+          "text": "You",
+          "start": 305.09,
+          "end": 305.33
+        },
+        {
+          "id": "p94w2",
+          "text": "are",
+          "start": 305.33,
+          "end": 305.57
+        },
+        {
+          "id": "p94w3",
+          "text": "to",
+          "start": 305.57,
+          "end": 305.73
+        },
+        {
+          "id": "p94w4",
+          "text": "appear",
+          "start": 305.73,
+          "end": 305.95
+        },
+        {
+          "id": "p94w5",
+          "text": "before",
+          "start": 305.95,
+          "end": 306.41
+        },
+        {
+          "id": "p94w6",
+          "text": "Judge",
+          "start": 306.41,
+          "end": 306.71
+        },
+        {
+          "id": "p94w7",
+          "text": "Villefort.",
+          "start": 306.71,
+          "end": 307.35
+        }
+      ]
+    },
+    {
+      "id": "p95",
+      "start": 308.08,
+      "end": 309.98,
+      "text": "Everyone at the wedding was surprised.",
+      "words": [
+        {
+          "id": "p95w1",
+          "text": "Everyone",
+          "start": 308.08,
+          "end": 308.66
+        },
+        {
+          "id": "p95w2",
+          "text": "at",
+          "start": 308.66,
+          "end": 308.94
+        },
+        {
+          "id": "p95w3",
+          "text": "the",
+          "start": 308.94,
+          "end": 309.08
+        },
+        {
+          "id": "p95w4",
+          "text": "wedding",
+          "start": 309.08,
+          "end": 309.36
+        },
+        {
+          "id": "p95w5",
+          "text": "was",
+          "start": 309.36,
+          "end": 309.6
+        },
+        {
+          "id": "p95w6",
+          "text": "surprised.",
+          "start": 309.6,
+          "end": 309.98
+        }
+      ]
+    },
+    {
+      "id": "p96",
+      "start": 310.76,
+      "end": 312.4,
+      "text": "Danglers pretended to be surprised.",
+      "words": [
+        {
+          "id": "p96w1",
+          "text": "Danglers",
+          "start": 310.76,
+          "end": 311.04
+        },
+        {
+          "id": "p96w2",
+          "text": "pretended",
+          "start": 311.04,
+          "end": 311.5
+        },
+        {
+          "id": "p96w3",
+          "text": "to",
+          "start": 311.5,
+          "end": 311.88
+        },
+        {
+          "id": "p96w4",
+          "text": "be",
+          "start": 311.88,
+          "end": 312.0
+        },
+        {
+          "id": "p96w5",
+          "text": "surprised.",
+          "start": 312.0,
+          "end": 312.4
+        }
+      ]
+    },
+    {
+      "id": "p97",
+      "start": 313.56,
+      "end": 314.2,
+      "text": "But why?",
+      "words": [
+        {
+          "id": "p97w1",
+          "text": "But",
+          "start": 313.56,
+          "end": 313.86
+        },
+        {
+          "id": "p97w2",
+          "text": "why?",
+          "start": 313.86,
+          "end": 314.2
+        }
+      ]
+    },
+    {
+      "id": "p98",
+      "start": 315.16,
+      "end": 318.14,
+      "text": "Both Morale and Dante spoke at the same time.",
+      "words": [
+        {
+          "id": "p98w1",
+          "text": "Both",
+          "start": 315.16,
+          "end": 315.74
+        },
+        {
+          "id": "p98w2",
+          "text": "Morale",
+          "start": 315.74,
+          "end": 316.14
+        },
+        {
+          "id": "p98w3",
+          "text": "and",
+          "start": 316.14,
+          "end": 316.38
+        },
+        {
+          "id": "p98w4",
+          "text": "Dante",
+          "start": 316.38,
+          "end": 316.72
+        },
+        {
+          "id": "p98w5",
+          "text": "spoke",
+          "start": 316.72,
+          "end": 317.12
+        },
+        {
+          "id": "p98w6",
+          "text": "at",
+          "start": 317.12,
+          "end": 317.34
+        },
+        {
+          "id": "p98w7",
+          "text": "the",
+          "start": 317.34,
+          "end": 317.44
+        },
+        {
+          "id": "p98w8",
+          "text": "same",
+          "start": 317.44,
+          "end": 317.66
+        },
+        {
+          "id": "p98w9",
+          "text": "time.",
+          "start": 317.66,
+          "end": 318.14
+        }
+      ]
+    },
+    {
+      "id": "p99",
+      "start": 319.03,
+      "end": 321.23,
+      "text": "Everything will be explained at the court.",
+      "words": [
+        {
+          "id": "p99w1",
+          "text": "Everything",
+          "start": 319.03,
+          "end": 319.49
+        },
+        {
+          "id": "p99w2",
+          "text": "will",
+          "start": 319.49,
+          "end": 319.91
+        },
+        {
+          "id": "p99w3",
+          "text": "be",
+          "start": 319.91,
+          "end": 320.09
+        },
+        {
+          "id": "p99w4",
+          "text": "explained",
+          "start": 320.09,
+          "end": 320.53
+        },
+        {
+          "id": "p99w5",
+          "text": "at",
+          "start": 320.53,
+          "end": 320.83
+        },
+        {
+          "id": "p99w6",
+          "text": "the",
+          "start": 320.83,
+          "end": 320.97
+        },
+        {
+          "id": "p99w7",
+          "text": "court.",
+          "start": 320.97,
+          "end": 321.23
+        }
+      ]
+    },
+    {
+      "id": "p100",
+      "start": 321.85,
+      "end": 322.79,
+      "text": "The officer answered.",
+      "words": [
+        {
+          "id": "p100w1",
+          "text": "The",
+          "start": 321.85,
+          "end": 322.05
+        },
+        {
+          "id": "p100w2",
+          "text": "officer",
+          "start": 322.05,
+          "end": 322.37
+        },
+        {
+          "id": "p100w3",
+          "text": "answered.",
+          "start": 322.37,
+          "end": 322.79
+        }
+      ]
+    },
+    {
+      "id": "p101",
+      "start": 323.94,
+      "end": 324.82,
+      "text": "Please come with me.",
+      "words": [
+        {
+          "id": "p101w1",
+          "text": "Please",
+          "start": 323.94,
+          "end": 324.1
+        },
+        {
+          "id": "p101w2",
+          "text": "come",
+          "start": 324.1,
+          "end": 324.42
+        },
+        {
+          "id": "p101w3",
+          "text": "with",
+          "start": 324.42,
+          "end": 324.6
+        },
+        {
+          "id": "p101w4",
+          "text": "me.",
+          "start": 324.6,
+          "end": 324.82
+        }
+      ]
+    },
+    {
+      "id": "p102",
+      "start": 326.11,
+      "end": 328.33,
+      "text": "Dante's left with the officer and the soldiers.",
+      "words": [
+        {
+          "id": "p102w1",
+          "text": "Dante's",
+          "start": 326.11,
+          "end": 326.63
+        },
+        {
+          "id": "p102w2",
+          "text": "left",
+          "start": 326.63,
+          "end": 326.81
+        },
+        {
+          "id": "p102w3",
+          "text": "with",
+          "start": 326.81,
+          "end": 327.03
+        },
+        {
+          "id": "p102w4",
+          "text": "the",
+          "start": 327.03,
+          "end": 327.15
+        },
+        {
+          "id": "p102w5",
+          "text": "officer",
+          "start": 327.15,
+          "end": 327.55
+        },
+        {
+          "id": "p102w6",
+          "text": "and",
+          "start": 327.55,
+          "end": 327.83
+        },
+        {
+          "id": "p102w7",
+          "text": "the",
+          "start": 327.83,
+          "end": 327.97
+        },
+        {
+          "id": "p102w8",
+          "text": "soldiers.",
+          "start": 327.97,
+          "end": 328.33
+        }
+      ]
+    },
+    {
+      "id": "p103",
+      "start": 329.35,
+      "end": 330.79,
+      "text": "He gave a last look at Mercedes.",
+      "words": [
+        {
+          "id": "p103w1",
+          "text": "He",
+          "start": 329.35,
+          "end": 329.39
+        },
+        {
+          "id": "p103w2",
+          "text": "gave",
+          "start": 329.39,
+          "end": 329.55
+        },
+        {
+          "id": "p103w3",
+          "text": "a",
+          "start": 329.55,
+          "end": 329.71
+        },
+        {
+          "id": "p103w4",
+          "text": "last",
+          "start": 329.71,
+          "end": 329.93
+        },
+        {
+          "id": "p103w5",
+          "text": "look",
+          "start": 329.93,
+          "end": 330.39
+        },
+        {
+          "id": "p103w6",
+          "text": "at",
+          "start": 330.39,
+          "end": 330.59
+        },
+        {
+          "id": "p103w7",
+          "text": "Mercedes.",
+          "start": 330.59,
+          "end": 330.79
+        }
+      ]
+    },
+    {
+      "id": "p104",
+      "start": 331.85,
+      "end": 333.51,
+      "text": "He promised her he would return quickly.",
+      "words": [
+        {
+          "id": "p104w1",
+          "text": "He",
+          "start": 331.85,
+          "end": 331.89
+        },
+        {
+          "id": "p104w2",
+          "text": "promised",
+          "start": 331.89,
+          "end": 332.21
+        },
+        {
+          "id": "p104w3",
+          "text": "her",
+          "start": 332.21,
+          "end": 332.49
+        },
+        {
+          "id": "p104w4",
+          "text": "he",
+          "start": 332.49,
+          "end": 332.67
+        },
+        {
+          "id": "p104w5",
+          "text": "would",
+          "start": 332.67,
+          "end": 332.81
+        },
+        {
+          "id": "p104w6",
+          "text": "return",
+          "start": 332.81,
+          "end": 333.11
+        },
+        {
+          "id": "p104w7",
+          "text": "quickly.",
+          "start": 333.11,
+          "end": 333.51
+        }
+      ]
+    },
+    {
+      "id": "p105",
+      "start": 334.37,
+      "end": 336.43,
+      "text": "He didn't see the smile on Danglers face.",
+      "words": [
+        {
+          "id": "p105w1",
+          "text": "He",
+          "start": 334.37,
+          "end": 334.49
+        },
+        {
+          "id": "p105w2",
+          "text": "didn't",
+          "start": 334.49,
+          "end": 334.73
+        },
+        {
+          "id": "p105w3",
+          "text": "see",
+          "start": 334.73,
+          "end": 334.89
+        },
+        {
+          "id": "p105w4",
+          "text": "the",
+          "start": 334.89,
+          "end": 335.05
+        },
+        {
+          "id": "p105w5",
+          "text": "smile",
+          "start": 335.05,
+          "end": 335.35
+        },
+        {
+          "id": "p105w6",
+          "text": "on",
+          "start": 335.35,
+          "end": 335.67
+        },
+        {
+          "id": "p105w7",
+          "text": "Danglers",
+          "start": 335.67,
+          "end": 336.07
+        },
+        {
+          "id": "p105w8",
+          "text": "face.",
+          "start": 336.07,
+          "end": 336.43
+        }
+      ]
+    }
+  ]
+}

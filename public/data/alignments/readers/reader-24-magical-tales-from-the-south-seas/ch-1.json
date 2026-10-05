@@ -1,0 +1,117 @@
+{
+  "sectionId": "reader-24-magical-tales-from-the-south-seas-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/225 (S2) Magical Tales from the South Seas/Track 01.mp3",
+  "totalDuration": 29.9363125,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 8.88,
+      "end": 11.04,
+      "text": "Magical Tales from the South Seas",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Magical",
+          "start": 8.88,
+          "end": 9.46
+        },
+        {
+          "id": "p1w2",
+          "text": "Tales",
+          "start": 9.46,
+          "end": 9.76
+        },
+        {
+          "id": "p1w3",
+          "text": "from",
+          "start": 9.76,
+          "end": 10.26
+        },
+        {
+          "id": "p1w4",
+          "text": "the",
+          "start": 10.26,
+          "end": 10.4
+        },
+        {
+          "id": "p1w5",
+          "text": "South",
+          "start": 10.4,
+          "end": 10.68
+        },
+        {
+          "id": "p1w6",
+          "text": "Seas",
+          "start": 10.68,
+          "end": 11.04
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 11.69,
+      "end": 13.52,
+      "text": "by Robert Louis Stevenson",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "by",
+          "start": 11.69,
+          "end": 12.14
+        },
+        {
+          "id": "p2w2",
+          "text": "Robert",
+          "start": 12.14,
+          "end": 12.46
+        },
+        {
+          "id": "p2w3",
+          "text": "Louis",
+          "start": 12.46,
+          "end": 12.86
+        },
+        {
+          "id": "p2w4",
+          "text": "Stevenson",
+          "start": 12.86,
+          "end": 13.52
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 14.62,
+      "end": 16.93,
+      "text": "Copyright Black Cat Publishing",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Copyright",
+          "start": 14.62,
+          "end": 15.07
+        },
+        {
+          "id": "p3w2",
+          "text": "Black",
+          "start": 15.07,
+          "end": 16.15
+        },
+        {
+          "id": "p3w3",
+          "text": "Cat",
+          "start": 16.15,
+          "end": 16.43
+        },
+        {
+          "id": "p3w4",
+          "text": "Publishing",
+          "start": 16.43,
+          "end": 16.93
+        }
+      ]
+    }
+  ]
+}

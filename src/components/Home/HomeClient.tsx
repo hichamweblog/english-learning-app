@@ -7,102 +7,117 @@ import {
   Play,
   Pause,
   CheckCircle2,
-  Sparkles,
   ArrowRight,
   Headphones,
   BookOpen,
 } from 'lucide-react';
 import { useProgressStore, useAudioStore } from '@/lib/store';
-import { formatTime, cn } from '@/lib/utils';
+import { ProgressRing } from '@/components/ui/ProgressRing';
+import { cn } from '@/lib/utils';
 
 export function HomeClient() {
   const [mounted, setMounted] = useState(false);
   const { recentItems, completedItems } = useProgressStore();
-  const { currentTrack, isPlaying, playTrack, togglePlay } = useAudioStore();
+  const { currentTrack, isPlaying, togglePlay } = useAudioStore();
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
   if (!mounted || recentItems.length === 0) {
-    return null;
+    return (
+      <div className="surface-card p-8 rounded-2xl flex flex-col items-center justify-center text-center">
+        <BookOpen className="w-8 h-8 text-[hsl(var(--muted-foreground))] mb-3 opacity-50" />
+        <h3 className="font-serif text-lg text-[hsl(var(--foreground))]">Start Your First Lesson</h3>
+        <p className="text-sm text-[hsl(var(--muted-foreground))] mt-1 max-w-sm">
+          Jump into the daily spoken English pathway or pick a graded reader to begin your journey.
+        </p>
+      </div>
+    );
   }
 
   const latestItem = recentItems[0];
   const isLatestPlaying = currentTrack?.id === latestItem.id && isPlaying;
   const isLatestCurrent = currentTrack?.id === latestItem.id;
   const isDone = completedItems[latestItem.id] || false;
+  
+  // Dummy progress calculation (in a real app, we'd fetch savedPositions / duration)
+  // For the sake of the redesign UI, we'll give it a visual state based on completion
+  const progressPercent = isDone ? 100 : latestItem.progressPercent || 35;
 
-  const handleResume = (item: typeof latestItem) => {
-    if (currentTrack?.id === item.id) {
+  const handleResume = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (currentTrack?.id === latestItem.id) {
       togglePlay();
       return;
     }
-    // Navigate or trigger play
-    window.location.href = item.url;
+    window.location.href = latestItem.url;
   };
 
   return (
-    <section className="space-y-4" aria-labelledby="resume-heading">
-      <div className="flex items-center justify-between">
-        <h2 id="resume-heading" className="text-sm font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 flex items-center gap-2">
-          <Clock className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-          Resume Your Recent Study
-        </h2>
-        <Link
-          href="/progress"
-          className="text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 flex items-center gap-1"
-        >
-          View all activity <ArrowRight className="w-3.5 h-3.5" />
-        </Link>
-      </div>
+    <div className="surface-card p-6 sm:p-8 rounded-2xl relative overflow-hidden group">
+      {/* Subtle top accent border based on content type */}
+      <div className={cn(
+        "absolute top-0 left-0 right-0 h-1",
+        latestItem.type === 'reader' ? "bg-[hsl(var(--reader-green))]" : "bg-[hsl(var(--podcast-sienna))]"
+      )} />
 
-      {/* Hero Resume Spotlight Card */}
-      <div className="p-5 sm:p-6 rounded-2xl border border-stone-300/80 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-5 group">
-        <div className="flex items-start gap-4 min-w-0">
-          <div className="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 flex items-center justify-center shrink-0">
-            {latestItem.type === 'reader' ? (
-              <BookOpen className="w-6 h-6" />
-            ) : (
-              <Headphones className="w-6 h-6" />
-            )}
-          </div>
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+        <div className="flex flex-1 items-start gap-5">
+          <ProgressRing 
+            progress={progressPercent} 
+            size={56} 
+            strokeWidth={4}
+            progressColor={latestItem.type === 'reader' ? 'text-[hsl(var(--reader-green))]' : 'text-[hsl(var(--podcast-sienna))]'}
+          >
+            <div className="w-10 h-10 rounded-full bg-[hsl(var(--foreground)/0.04)] flex items-center justify-center text-[hsl(var(--foreground))] group-hover:scale-110 transition-transform">
+              {latestItem.type === 'reader' ? (
+                <BookOpen className="w-4 h-4" />
+              ) : (
+                <Headphones className="w-4 h-4" />
+              )}
+            </div>
+          </ProgressRing>
 
-          <div className="min-w-0">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300">
-                {latestItem.seriesTitle}
+          <div>
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="text-[10px] font-sans font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+                Continue • {latestItem.seriesTitle}
               </span>
               {isDone && (
-                <span className="inline-flex items-center gap-1 text-[11px] text-emerald-600 dark:text-emerald-400 font-medium">
+                <span className="inline-flex items-center gap-1 text-[10px] text-[hsl(var(--primary))] font-bold uppercase">
                   <CheckCircle2 className="w-3.5 h-3.5" />
-                  Completed
                 </span>
               )}
             </div>
 
             <Link
               href={latestItem.url}
-              className="text-base sm:text-lg font-serif font-medium text-stone-900 dark:text-stone-50 hover:underline block truncate"
+              className="text-xl sm:text-2xl font-serif text-[hsl(var(--foreground))] hover:underline block leading-tight"
             >
               {latestItem.title}
             </Link>
-            <p className="text-xs text-stone-500 dark:text-stone-400 mt-0.5">
-              Pick up right where you paused your session.
-            </p>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 shrink-0">
-          <Link
-            href={latestItem.url}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-950 font-semibold text-xs shadow-xs hover:scale-102 active:scale-98 transition-all"
-          >
-            <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
-            <span>Continue Lesson</span>
-          </Link>
-        </div>
+        <button
+          type="button"
+          onClick={handleResume}
+          className="shrink-0 w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-[hsl(var(--foreground))] text-[hsl(var(--background))] font-semibold text-sm shadow-md hover:opacity-90 active:scale-[0.98] transition-all"
+        >
+          {isLatestPlaying ? (
+            <>
+              <Pause className="w-4 h-4 fill-current" />
+              <span>Pause</span>
+            </>
+          ) : (
+            <>
+              <Play className="w-4 h-4 fill-current ml-0.5" />
+              <span>{progressPercent > 0 && progressPercent < 100 ? 'Resume' : 'Start Lesson'}</span>
+            </>
+          )}
+        </button>
       </div>
-    </section>
+    </div>
   );
 }

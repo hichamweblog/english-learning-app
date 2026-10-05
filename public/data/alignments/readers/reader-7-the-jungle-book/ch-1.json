@@ -1,0 +1,3887 @@
+{
+  "sectionId": "reader-7-the-jungle-book-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/293 (S1) The Jungle Book/Track 01.mp3",
+  "totalDuration": 364.5126875,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 28.53,
+      "end": 49.87,
+      "text": "Song yi, Mung, Zuo, Xing, Xing, Xing, Zhe Liu, Wai Vu.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Song",
+          "start": 28.53,
+          "end": 29.37
+        },
+        {
+          "id": "p1w2",
+          "text": "yi,",
+          "start": 45.02,
+          "end": 45.32
+        },
+        {
+          "id": "p1w3",
+          "text": "Mung,",
+          "start": 45.88,
+          "end": 46.02
+        },
+        {
+          "id": "p1w4",
+          "text": "Zuo,",
+          "start": 46.18,
+          "end": 46.3
+        },
+        {
+          "id": "p1w5",
+          "text": "Xing,",
+          "start": 46.44,
+          "end": 46.6
+        },
+        {
+          "id": "p1w6",
+          "text": "Xing,",
+          "start": 46.78,
+          "end": 46.78
+        },
+        {
+          "id": "p1w7",
+          "text": "Xing,",
+          "start": 46.84,
+          "end": 46.94
+        },
+        {
+          "id": "p1w8",
+          "text": "Zhe",
+          "start": 48.51,
+          "end": 49.01
+        },
+        {
+          "id": "p1w9",
+          "text": "Liu,",
+          "start": 49.01,
+          "end": 49.33
+        },
+        {
+          "id": "p1w10",
+          "text": "Wai",
+          "start": 49.49,
+          "end": 49.57
+        },
+        {
+          "id": "p1w11",
+          "text": "Vu.",
+          "start": 49.57,
+          "end": 49.87
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 51.86,
+      "end": 70.89,
+      "text": "The Jungle Book, Chapter 1. A Babe in the Woods.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "The",
+          "start": 51.86,
+          "end": 52.04
+        },
+        {
+          "id": "p2w2",
+          "text": "Jungle",
+          "start": 52.04,
+          "end": 52.34
+        },
+        {
+          "id": "p2w3",
+          "text": "Book,",
+          "start": 52.34,
+          "end": 52.8
+        },
+        {
+          "id": "p2w4",
+          "text": "Chapter",
+          "start": 68.63,
+          "end": 68.63
+        },
+        {
+          "id": "p2w5",
+          "text": "1.",
+          "start": 68.63,
+          "end": 68.97
+        },
+        {
+          "id": "p2w6",
+          "text": "A",
+          "start": 69.73,
+          "end": 69.81
+        },
+        {
+          "id": "p2w7",
+          "text": "Babe",
+          "start": 69.81,
+          "end": 70.03
+        },
+        {
+          "id": "p2w8",
+          "text": "in",
+          "start": 70.03,
+          "end": 70.45
+        },
+        {
+          "id": "p2w9",
+          "text": "the",
+          "start": 70.45,
+          "end": 70.61
+        },
+        {
+          "id": "p2w10",
+          "text": "Woods.",
+          "start": 70.61,
+          "end": 70.89
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 79.85,
+      "end": 84.41,
+      "text": "On a warm summer evening, a family of wolves were sleeping in their home.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "On",
+          "start": 79.85,
+          "end": 80.27
+        },
+        {
+          "id": "p3w2",
+          "text": "a",
+          "start": 80.27,
+          "end": 80.39
+        },
+        {
+          "id": "p3w3",
+          "text": "warm",
+          "start": 80.39,
+          "end": 80.59
+        },
+        {
+          "id": "p3w4",
+          "text": "summer",
+          "start": 80.59,
+          "end": 80.95
+        },
+        {
+          "id": "p3w5",
+          "text": "evening,",
+          "start": 80.95,
+          "end": 81.39
+        },
+        {
+          "id": "p3w6",
+          "text": "a",
+          "start": 81.81,
+          "end": 81.93
+        },
+        {
+          "id": "p3w7",
+          "text": "family",
+          "start": 81.93,
+          "end": 82.31
+        },
+        {
+          "id": "p3w8",
+          "text": "of",
+          "start": 82.31,
+          "end": 82.55
+        },
+        {
+          "id": "p3w9",
+          "text": "wolves",
+          "start": 82.55,
+          "end": 82.85
+        },
+        {
+          "id": "p3w10",
+          "text": "were",
+          "start": 82.85,
+          "end": 83.25
+        },
+        {
+          "id": "p3w11",
+          "text": "sleeping",
+          "start": 83.25,
+          "end": 83.55
+        },
+        {
+          "id": "p3w12",
+          "text": "in",
+          "start": 83.55,
+          "end": 83.95
+        },
+        {
+          "id": "p3w13",
+          "text": "their",
+          "start": 83.95,
+          "end": 84.11
+        },
+        {
+          "id": "p3w14",
+          "text": "home.",
+          "start": 84.11,
+          "end": 84.41
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 84.41,
+      "end": 89.05,
+      "text": "Their home was a cave in the Seoni Hills in the south of India.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Their",
+          "start": 84.41,
+          "end": 85.45
+        },
+        {
+          "id": "p4w2",
+          "text": "home",
+          "start": 85.45,
+          "end": 85.73
+        },
+        {
+          "id": "p4w3",
+          "text": "was",
+          "start": 85.73,
+          "end": 85.97
+        },
+        {
+          "id": "p4w4",
+          "text": "a",
+          "start": 85.97,
+          "end": 86.11
+        },
+        {
+          "id": "p4w5",
+          "text": "cave",
+          "start": 86.11,
+          "end": 86.39
+        },
+        {
+          "id": "p4w6",
+          "text": "in",
+          "start": 86.39,
+          "end": 86.79
+        },
+        {
+          "id": "p4w7",
+          "text": "the",
+          "start": 86.79,
+          "end": 86.89
+        },
+        {
+          "id": "p4w8",
+          "text": "Seoni",
+          "start": 86.89,
+          "end": 87.27
+        },
+        {
+          "id": "p4w9",
+          "text": "Hills",
+          "start": 87.27,
+          "end": 87.71
+        },
+        {
+          "id": "p4w10",
+          "text": "in",
+          "start": 87.71,
+          "end": 88.11
+        },
+        {
+          "id": "p4w11",
+          "text": "the",
+          "start": 88.11,
+          "end": 88.25
+        },
+        {
+          "id": "p4w12",
+          "text": "south",
+          "start": 88.25,
+          "end": 88.51
+        },
+        {
+          "id": "p4w13",
+          "text": "of",
+          "start": 88.51,
+          "end": 88.73
+        },
+        {
+          "id": "p4w14",
+          "text": "India.",
+          "start": 88.73,
+          "end": 89.05
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 90.09,
+      "end": 96.13,
+      "text": "The father awoke from his sleep. He stood up and looked at the mother wolf and the four cubs.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "The",
+          "start": 90.09,
+          "end": 90.15
+        },
+        {
+          "id": "p5w2",
+          "text": "father",
+          "start": 90.15,
+          "end": 90.51
+        },
+        {
+          "id": "p5w3",
+          "text": "awoke",
+          "start": 90.51,
+          "end": 90.83
+        },
+        {
+          "id": "p5w4",
+          "text": "from",
+          "start": 90.83,
+          "end": 91.33
+        },
+        {
+          "id": "p5w5",
+          "text": "his",
+          "start": 91.33,
+          "end": 91.55
+        },
+        {
+          "id": "p5w6",
+          "text": "sleep.",
+          "start": 91.55,
+          "end": 91.85
+        },
+        {
+          "id": "p5w7",
+          "text": "He",
+          "start": 92.63,
+          "end": 92.71
+        },
+        {
+          "id": "p5w8",
+          "text": "stood",
+          "start": 92.71,
+          "end": 92.97
+        },
+        {
+          "id": "p5w9",
+          "text": "up",
+          "start": 92.97,
+          "end": 93.27
+        },
+        {
+          "id": "p5w10",
+          "text": "and",
+          "start": 93.27,
+          "end": 93.61
+        },
+        {
+          "id": "p5w11",
+          "text": "looked",
+          "start": 93.61,
+          "end": 93.85
+        },
+        {
+          "id": "p5w12",
+          "text": "at",
+          "start": 93.85,
+          "end": 94.07
+        },
+        {
+          "id": "p5w13",
+          "text": "the",
+          "start": 94.07,
+          "end": 94.21
+        },
+        {
+          "id": "p5w14",
+          "text": "mother",
+          "start": 94.21,
+          "end": 94.47
+        },
+        {
+          "id": "p5w15",
+          "text": "wolf",
+          "start": 94.47,
+          "end": 94.75
+        },
+        {
+          "id": "p5w16",
+          "text": "and",
+          "start": 94.75,
+          "end": 95.11
+        },
+        {
+          "id": "p5w17",
+          "text": "the",
+          "start": 95.11,
+          "end": 95.25
+        },
+        {
+          "id": "p5w18",
+          "text": "four",
+          "start": 95.25,
+          "end": 95.53
+        },
+        {
+          "id": "p5w19",
+          "text": "cubs.",
+          "start": 95.53,
+          "end": 96.13
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 99.39,
+      "end": 103.09,
+      "text": "We must go out and look for food, said father wolf.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "We",
+          "start": 99.39,
+          "end": 99.63
+        },
+        {
+          "id": "p6w2",
+          "text": "must",
+          "start": 99.63,
+          "end": 99.85
+        },
+        {
+          "id": "p6w3",
+          "text": "go",
+          "start": 99.85,
+          "end": 100.17
+        },
+        {
+          "id": "p6w4",
+          "text": "out",
+          "start": 100.17,
+          "end": 100.43
+        },
+        {
+          "id": "p6w5",
+          "text": "and",
+          "start": 100.43,
+          "end": 100.75
+        },
+        {
+          "id": "p6w6",
+          "text": "look",
+          "start": 100.75,
+          "end": 100.97
+        },
+        {
+          "id": "p6w7",
+          "text": "for",
+          "start": 100.97,
+          "end": 101.27
+        },
+        {
+          "id": "p6w8",
+          "text": "food,",
+          "start": 101.27,
+          "end": 101.63
+        },
+        {
+          "id": "p6w9",
+          "text": "said",
+          "start": 102.11,
+          "end": 102.41
+        },
+        {
+          "id": "p6w10",
+          "text": "father",
+          "start": 102.41,
+          "end": 102.73
+        },
+        {
+          "id": "p6w11",
+          "text": "wolf.",
+          "start": 102.73,
+          "end": 103.09
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 103.79,
+      "end": 105.79,
+      "text": "He heard a familiar voice say,",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "He",
+          "start": 103.79,
+          "end": 104.11
+        },
+        {
+          "id": "p7w2",
+          "text": "heard",
+          "start": 104.11,
+          "end": 104.33
+        },
+        {
+          "id": "p7w3",
+          "text": "a",
+          "start": 104.33,
+          "end": 104.53
+        },
+        {
+          "id": "p7w4",
+          "text": "familiar",
+          "start": 104.53,
+          "end": 104.87
+        },
+        {
+          "id": "p7w5",
+          "text": "voice",
+          "start": 104.87,
+          "end": 105.39
+        },
+        {
+          "id": "p7w6",
+          "text": "say,",
+          "start": 105.39,
+          "end": 105.79
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 106.23,
+      "end": 111.99,
+      "text": "Good luck. It was Tabaki, a jackal who was always making trouble.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "Good",
+          "start": 106.23,
+          "end": 106.49
+        },
+        {
+          "id": "p8w2",
+          "text": "luck.",
+          "start": 106.49,
+          "end": 106.75
+        },
+        {
+          "id": "p8w3",
+          "text": "It",
+          "start": 108.09,
+          "end": 108.31
+        },
+        {
+          "id": "p8w4",
+          "text": "was",
+          "start": 108.31,
+          "end": 108.45
+        },
+        {
+          "id": "p8w5",
+          "text": "Tabaki,",
+          "start": 108.45,
+          "end": 108.95
+        },
+        {
+          "id": "p8w6",
+          "text": "a",
+          "start": 109.63,
+          "end": 109.81
+        },
+        {
+          "id": "p8w7",
+          "text": "jackal",
+          "start": 109.81,
+          "end": 110.35
+        },
+        {
+          "id": "p8w8",
+          "text": "who",
+          "start": 110.35,
+          "end": 110.67
+        },
+        {
+          "id": "p8w9",
+          "text": "was",
+          "start": 110.67,
+          "end": 110.81
+        },
+        {
+          "id": "p8w10",
+          "text": "always",
+          "start": 110.81,
+          "end": 111.27
+        },
+        {
+          "id": "p8w11",
+          "text": "making",
+          "start": 111.27,
+          "end": 111.55
+        },
+        {
+          "id": "p8w12",
+          "text": "trouble.",
+          "start": 111.55,
+          "end": 111.99
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 111.99,
+      "end": 118.05,
+      "text": "Share Khan, the tiger is coming here for food.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "Share",
+          "start": 111.99,
+          "end": 113.13
+        },
+        {
+          "id": "p9w2",
+          "text": "Khan,",
+          "start": 115.21,
+          "end": 115.59
+        },
+        {
+          "id": "p9w3",
+          "text": "the",
+          "start": 115.87,
+          "end": 115.95
+        },
+        {
+          "id": "p9w4",
+          "text": "tiger",
+          "start": 115.95,
+          "end": 116.27
+        },
+        {
+          "id": "p9w5",
+          "text": "is",
+          "start": 116.27,
+          "end": 116.73
+        },
+        {
+          "id": "p9w6",
+          "text": "coming",
+          "start": 116.73,
+          "end": 117.07
+        },
+        {
+          "id": "p9w7",
+          "text": "here",
+          "start": 117.07,
+          "end": 117.41
+        },
+        {
+          "id": "p9w8",
+          "text": "for",
+          "start": 117.41,
+          "end": 117.67
+        },
+        {
+          "id": "p9w9",
+          "text": "food.",
+          "start": 117.67,
+          "end": 118.05
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 118.65,
+      "end": 122.87,
+      "text": "Said Tabaki, Impossible. He must tell us first.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "Said",
+          "start": 118.65,
+          "end": 118.99
+        },
+        {
+          "id": "p10w2",
+          "text": "Tabaki,",
+          "start": 118.99,
+          "end": 119.45
+        },
+        {
+          "id": "p10w3",
+          "text": "Impossible.",
+          "start": 119.97,
+          "end": 120.85
+        },
+        {
+          "id": "p10w4",
+          "text": "He",
+          "start": 121.71,
+          "end": 121.77
+        },
+        {
+          "id": "p10w5",
+          "text": "must",
+          "start": 121.77,
+          "end": 121.95
+        },
+        {
+          "id": "p10w6",
+          "text": "tell",
+          "start": 121.95,
+          "end": 122.29
+        },
+        {
+          "id": "p10w7",
+          "text": "us",
+          "start": 122.29,
+          "end": 122.49
+        },
+        {
+          "id": "p10w8",
+          "text": "first.",
+          "start": 122.49,
+          "end": 122.87
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 123.51,
+      "end": 127.97,
+      "text": "Said father wolf. He is hunting men, not animals tonight.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "Said",
+          "start": 123.51,
+          "end": 123.89
+        },
+        {
+          "id": "p11w2",
+          "text": "father",
+          "start": 123.89,
+          "end": 124.15
+        },
+        {
+          "id": "p11w3",
+          "text": "wolf.",
+          "start": 124.15,
+          "end": 124.51
+        },
+        {
+          "id": "p11w4",
+          "text": "He",
+          "start": 125.19,
+          "end": 125.51
+        },
+        {
+          "id": "p11w5",
+          "text": "is",
+          "start": 125.51,
+          "end": 125.65
+        },
+        {
+          "id": "p11w6",
+          "text": "hunting",
+          "start": 125.65,
+          "end": 125.87
+        },
+        {
+          "id": "p11w7",
+          "text": "men,",
+          "start": 125.87,
+          "end": 126.39
+        },
+        {
+          "id": "p11w8",
+          "text": "not",
+          "start": 126.69,
+          "end": 127.01
+        },
+        {
+          "id": "p11w9",
+          "text": "animals",
+          "start": 127.01,
+          "end": 127.57
+        },
+        {
+          "id": "p11w10",
+          "text": "tonight.",
+          "start": 127.57,
+          "end": 127.97
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 128.79,
+      "end": 133.68,
+      "text": "Said Tabaki, but the jungle law doesn't permit man killing.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Said",
+          "start": 128.79,
+          "end": 129.13
+        },
+        {
+          "id": "p12w2",
+          "text": "Tabaki,",
+          "start": 129.13,
+          "end": 129.67
+        },
+        {
+          "id": "p12w3",
+          "text": "but",
+          "start": 130.62,
+          "end": 131.16
+        },
+        {
+          "id": "p12w4",
+          "text": "the",
+          "start": 131.16,
+          "end": 131.32
+        },
+        {
+          "id": "p12w5",
+          "text": "jungle",
+          "start": 131.32,
+          "end": 131.58
+        },
+        {
+          "id": "p12w6",
+          "text": "law",
+          "start": 131.58,
+          "end": 132.06
+        },
+        {
+          "id": "p12w7",
+          "text": "doesn't",
+          "start": 132.06,
+          "end": 132.62
+        },
+        {
+          "id": "p12w8",
+          "text": "permit",
+          "start": 132.62,
+          "end": 132.84
+        },
+        {
+          "id": "p12w9",
+          "text": "man",
+          "start": 132.84,
+          "end": 133.32
+        },
+        {
+          "id": "p12w10",
+          "text": "killing.",
+          "start": 133.32,
+          "end": 133.68
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 134.4,
+      "end": 139.96,
+      "text": "It only brings men with guns. Then they heard a noise very close to them.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "It",
+          "start": 134.4,
+          "end": 134.52
+        },
+        {
+          "id": "p13w2",
+          "text": "only",
+          "start": 134.52,
+          "end": 134.66
+        },
+        {
+          "id": "p13w3",
+          "text": "brings",
+          "start": 134.66,
+          "end": 135.1
+        },
+        {
+          "id": "p13w4",
+          "text": "men",
+          "start": 135.1,
+          "end": 135.46
+        },
+        {
+          "id": "p13w5",
+          "text": "with",
+          "start": 135.46,
+          "end": 135.78
+        },
+        {
+          "id": "p13w6",
+          "text": "guns.",
+          "start": 135.78,
+          "end": 136.04
+        },
+        {
+          "id": "p13w7",
+          "text": "Then",
+          "start": 137.54,
+          "end": 137.68
+        },
+        {
+          "id": "p13w8",
+          "text": "they",
+          "start": 137.68,
+          "end": 138.14
+        },
+        {
+          "id": "p13w9",
+          "text": "heard",
+          "start": 138.14,
+          "end": 138.38
+        },
+        {
+          "id": "p13w10",
+          "text": "a",
+          "start": 138.38,
+          "end": 138.5
+        },
+        {
+          "id": "p13w11",
+          "text": "noise",
+          "start": 138.5,
+          "end": 138.82
+        },
+        {
+          "id": "p13w12",
+          "text": "very",
+          "start": 138.82,
+          "end": 139.18
+        },
+        {
+          "id": "p13w13",
+          "text": "close",
+          "start": 139.18,
+          "end": 139.58
+        },
+        {
+          "id": "p13w14",
+          "text": "to",
+          "start": 139.58,
+          "end": 139.8
+        },
+        {
+          "id": "p13w15",
+          "text": "them.",
+          "start": 139.8,
+          "end": 139.96
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 142.15,
+      "end": 144.77,
+      "text": "It's a man cub. Said father wolf.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "It's",
+          "start": 142.15,
+          "end": 142.45
+        },
+        {
+          "id": "p14w2",
+          "text": "a",
+          "start": 142.45,
+          "end": 142.53
+        },
+        {
+          "id": "p14w3",
+          "text": "man",
+          "start": 142.53,
+          "end": 142.77
+        },
+        {
+          "id": "p14w4",
+          "text": "cub.",
+          "start": 142.77,
+          "end": 143.11
+        },
+        {
+          "id": "p14w5",
+          "text": "Said",
+          "start": 143.69,
+          "end": 144.11
+        },
+        {
+          "id": "p14w6",
+          "text": "father",
+          "start": 144.11,
+          "end": 144.41
+        },
+        {
+          "id": "p14w7",
+          "text": "wolf.",
+          "start": 144.41,
+          "end": 144.77
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 145.51,
+      "end": 148.81,
+      "text": "A baby was in front of them. He had no clothes.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "A",
+          "start": 145.51,
+          "end": 145.79
+        },
+        {
+          "id": "p15w2",
+          "text": "baby",
+          "start": 145.79,
+          "end": 146.05
+        },
+        {
+          "id": "p15w3",
+          "text": "was",
+          "start": 146.05,
+          "end": 146.43
+        },
+        {
+          "id": "p15w4",
+          "text": "in",
+          "start": 146.43,
+          "end": 146.61
+        },
+        {
+          "id": "p15w5",
+          "text": "front",
+          "start": 146.61,
+          "end": 146.83
+        },
+        {
+          "id": "p15w6",
+          "text": "of",
+          "start": 146.83,
+          "end": 147.07
+        },
+        {
+          "id": "p15w7",
+          "text": "them.",
+          "start": 147.07,
+          "end": 147.25
+        },
+        {
+          "id": "p15w8",
+          "text": "He",
+          "start": 147.79,
+          "end": 148.01
+        },
+        {
+          "id": "p15w9",
+          "text": "had",
+          "start": 148.01,
+          "end": 148.19
+        },
+        {
+          "id": "p15w10",
+          "text": "no",
+          "start": 148.19,
+          "end": 148.45
+        },
+        {
+          "id": "p15w11",
+          "text": "clothes.",
+          "start": 148.45,
+          "end": 148.81
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 149.78,
+      "end": 155.2,
+      "text": "The baby walked to mother wolf. Look, he is feeding with the other cubs.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "The",
+          "start": 149.78,
+          "end": 150.02
+        },
+        {
+          "id": "p16w2",
+          "text": "baby",
+          "start": 150.02,
+          "end": 150.32
+        },
+        {
+          "id": "p16w3",
+          "text": "walked",
+          "start": 150.32,
+          "end": 150.64
+        },
+        {
+          "id": "p16w4",
+          "text": "to",
+          "start": 150.64,
+          "end": 150.96
+        },
+        {
+          "id": "p16w5",
+          "text": "mother",
+          "start": 150.96,
+          "end": 151.2
+        },
+        {
+          "id": "p16w6",
+          "text": "wolf.",
+          "start": 151.2,
+          "end": 151.52
+        },
+        {
+          "id": "p16w7",
+          "text": "Look,",
+          "start": 152.0,
+          "end": 152.54
+        },
+        {
+          "id": "p16w8",
+          "text": "he",
+          "start": 153.18,
+          "end": 153.32
+        },
+        {
+          "id": "p16w9",
+          "text": "is",
+          "start": 153.32,
+          "end": 153.46
+        },
+        {
+          "id": "p16w10",
+          "text": "feeding",
+          "start": 153.46,
+          "end": 153.76
+        },
+        {
+          "id": "p16w11",
+          "text": "with",
+          "start": 153.76,
+          "end": 154.1
+        },
+        {
+          "id": "p16w12",
+          "text": "the",
+          "start": 154.1,
+          "end": 154.24
+        },
+        {
+          "id": "p16w13",
+          "text": "other",
+          "start": 154.24,
+          "end": 154.54
+        },
+        {
+          "id": "p16w14",
+          "text": "cubs.",
+          "start": 154.54,
+          "end": 155.2
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 155.44,
+      "end": 158.62,
+      "text": "She said, I have heard of this happening before.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "She",
+          "start": 155.44,
+          "end": 155.68
+        },
+        {
+          "id": "p17w2",
+          "text": "said,",
+          "start": 155.68,
+          "end": 155.98
+        },
+        {
+          "id": "p17w3",
+          "text": "I",
+          "start": 156.82,
+          "end": 156.94
+        },
+        {
+          "id": "p17w4",
+          "text": "have",
+          "start": 156.94,
+          "end": 157.14
+        },
+        {
+          "id": "p17w5",
+          "text": "heard",
+          "start": 157.14,
+          "end": 157.38
+        },
+        {
+          "id": "p17w6",
+          "text": "of",
+          "start": 157.38,
+          "end": 157.58
+        },
+        {
+          "id": "p17w7",
+          "text": "this",
+          "start": 157.58,
+          "end": 157.78
+        },
+        {
+          "id": "p17w8",
+          "text": "happening",
+          "start": 157.78,
+          "end": 158.16
+        },
+        {
+          "id": "p17w9",
+          "text": "before.",
+          "start": 158.16,
+          "end": 158.62
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 160.51,
+      "end": 164.23,
+      "text": "At that moment, Share Khan's large head appeared in the cave.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "At",
+          "start": 160.51,
+          "end": 160.97
+        },
+        {
+          "id": "p18w2",
+          "text": "that",
+          "start": 160.97,
+          "end": 161.15
+        },
+        {
+          "id": "p18w3",
+          "text": "moment,",
+          "start": 161.15,
+          "end": 161.61
+        },
+        {
+          "id": "p18w4",
+          "text": "Share",
+          "start": 162.01,
+          "end": 162.13
+        },
+        {
+          "id": "p18w5",
+          "text": "Khan's",
+          "start": 162.13,
+          "end": 162.61
+        },
+        {
+          "id": "p18w6",
+          "text": "large",
+          "start": 162.61,
+          "end": 162.79
+        },
+        {
+          "id": "p18w7",
+          "text": "head",
+          "start": 162.79,
+          "end": 163.19
+        },
+        {
+          "id": "p18w8",
+          "text": "appeared",
+          "start": 163.19,
+          "end": 163.55
+        },
+        {
+          "id": "p18w9",
+          "text": "in",
+          "start": 163.55,
+          "end": 163.89
+        },
+        {
+          "id": "p18w10",
+          "text": "the",
+          "start": 163.89,
+          "end": 164.03
+        },
+        {
+          "id": "p18w11",
+          "text": "cave.",
+          "start": 164.03,
+          "end": 164.23
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 165.42,
+      "end": 169.32,
+      "text": "Share Khan, it is good to see you. What do you want?",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "Share",
+          "start": 165.42,
+          "end": 166.0
+        },
+        {
+          "id": "p19w2",
+          "text": "Khan,",
+          "start": 166.0,
+          "end": 166.4
+        },
+        {
+          "id": "p19w3",
+          "text": "it",
+          "start": 166.74,
+          "end": 167.08
+        },
+        {
+          "id": "p19w4",
+          "text": "is",
+          "start": 167.08,
+          "end": 167.2
+        },
+        {
+          "id": "p19w5",
+          "text": "good",
+          "start": 167.2,
+          "end": 167.4
+        },
+        {
+          "id": "p19w6",
+          "text": "to",
+          "start": 167.4,
+          "end": 167.56
+        },
+        {
+          "id": "p19w7",
+          "text": "see",
+          "start": 167.56,
+          "end": 167.8
+        },
+        {
+          "id": "p19w8",
+          "text": "you.",
+          "start": 167.8,
+          "end": 168.02
+        },
+        {
+          "id": "p19w9",
+          "text": "What",
+          "start": 168.5,
+          "end": 168.72
+        },
+        {
+          "id": "p19w10",
+          "text": "do",
+          "start": 168.72,
+          "end": 168.9
+        },
+        {
+          "id": "p19w11",
+          "text": "you",
+          "start": 168.9,
+          "end": 169.06
+        },
+        {
+          "id": "p19w12",
+          "text": "want?",
+          "start": 169.06,
+          "end": 169.32
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 169.96,
+      "end": 174.04,
+      "text": "Asked father wolf. I am looking for a man cub.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "Asked",
+          "start": 169.96,
+          "end": 170.3
+        },
+        {
+          "id": "p20w2",
+          "text": "father",
+          "start": 170.3,
+          "end": 170.74
+        },
+        {
+          "id": "p20w3",
+          "text": "wolf.",
+          "start": 170.74,
+          "end": 171.02
+        },
+        {
+          "id": "p20w4",
+          "text": "I",
+          "start": 171.58,
+          "end": 172.22
+        },
+        {
+          "id": "p20w5",
+          "text": "am",
+          "start": 172.22,
+          "end": 172.4
+        },
+        {
+          "id": "p20w6",
+          "text": "looking",
+          "start": 172.4,
+          "end": 172.74
+        },
+        {
+          "id": "p20w7",
+          "text": "for",
+          "start": 172.74,
+          "end": 173.22
+        },
+        {
+          "id": "p20w8",
+          "text": "a",
+          "start": 173.22,
+          "end": 173.34
+        },
+        {
+          "id": "p20w9",
+          "text": "man",
+          "start": 173.34,
+          "end": 173.6
+        },
+        {
+          "id": "p20w10",
+          "text": "cub.",
+          "start": 173.6,
+          "end": 174.04
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 174.66,
+      "end": 178.66,
+      "text": "I know he is in there with you. Give him to me.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "I",
+          "start": 174.66,
+          "end": 174.98
+        },
+        {
+          "id": "p21w2",
+          "text": "know",
+          "start": 174.98,
+          "end": 175.28
+        },
+        {
+          "id": "p21w3",
+          "text": "he",
+          "start": 175.28,
+          "end": 175.58
+        },
+        {
+          "id": "p21w4",
+          "text": "is",
+          "start": 175.58,
+          "end": 175.82
+        },
+        {
+          "id": "p21w5",
+          "text": "in",
+          "start": 175.82,
+          "end": 176.04
+        },
+        {
+          "id": "p21w6",
+          "text": "there",
+          "start": 176.04,
+          "end": 176.26
+        },
+        {
+          "id": "p21w7",
+          "text": "with",
+          "start": 176.26,
+          "end": 176.52
+        },
+        {
+          "id": "p21w8",
+          "text": "you.",
+          "start": 176.52,
+          "end": 176.86
+        },
+        {
+          "id": "p21w9",
+          "text": "Give",
+          "start": 177.38,
+          "end": 177.76
+        },
+        {
+          "id": "p21w10",
+          "text": "him",
+          "start": 177.76,
+          "end": 178.08
+        },
+        {
+          "id": "p21w11",
+          "text": "to",
+          "start": 178.08,
+          "end": 178.36
+        },
+        {
+          "id": "p21w12",
+          "text": "me.",
+          "start": 178.36,
+          "end": 178.66
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 179.22,
+      "end": 184.2,
+      "text": "Demanded Share Khan. Share Khan was a very big and scary tiger.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "Demanded",
+          "start": 179.22,
+          "end": 179.72
+        },
+        {
+          "id": "p22w2",
+          "text": "Share",
+          "start": 179.72,
+          "end": 180.0
+        },
+        {
+          "id": "p22w3",
+          "text": "Khan.",
+          "start": 180.0,
+          "end": 180.38
+        },
+        {
+          "id": "p22w4",
+          "text": "Share",
+          "start": 181.12,
+          "end": 181.56
+        },
+        {
+          "id": "p22w5",
+          "text": "Khan",
+          "start": 181.56,
+          "end": 181.84
+        },
+        {
+          "id": "p22w6",
+          "text": "was",
+          "start": 181.84,
+          "end": 182.16
+        },
+        {
+          "id": "p22w7",
+          "text": "a",
+          "start": 182.16,
+          "end": 182.3
+        },
+        {
+          "id": "p22w8",
+          "text": "very",
+          "start": 182.3,
+          "end": 182.64
+        },
+        {
+          "id": "p22w9",
+          "text": "big",
+          "start": 182.64,
+          "end": 183.06
+        },
+        {
+          "id": "p22w10",
+          "text": "and",
+          "start": 183.06,
+          "end": 183.3
+        },
+        {
+          "id": "p22w11",
+          "text": "scary",
+          "start": 183.3,
+          "end": 183.74
+        },
+        {
+          "id": "p22w12",
+          "text": "tiger.",
+          "start": 183.74,
+          "end": 184.2
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 185.04,
+      "end": 190.18,
+      "text": "But father wolf was not scared because the tiger was too big to enter the cave.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "But",
+          "start": 185.04,
+          "end": 185.24
+        },
+        {
+          "id": "p23w2",
+          "text": "father",
+          "start": 185.24,
+          "end": 185.46
+        },
+        {
+          "id": "p23w3",
+          "text": "wolf",
+          "start": 185.46,
+          "end": 185.86
+        },
+        {
+          "id": "p23w4",
+          "text": "was",
+          "start": 185.86,
+          "end": 186.22
+        },
+        {
+          "id": "p23w5",
+          "text": "not",
+          "start": 186.22,
+          "end": 186.46
+        },
+        {
+          "id": "p23w6",
+          "text": "scared",
+          "start": 186.46,
+          "end": 186.86
+        },
+        {
+          "id": "p23w7",
+          "text": "because",
+          "start": 186.86,
+          "end": 187.64
+        },
+        {
+          "id": "p23w8",
+          "text": "the",
+          "start": 187.64,
+          "end": 187.88
+        },
+        {
+          "id": "p23w9",
+          "text": "tiger",
+          "start": 187.88,
+          "end": 188.16
+        },
+        {
+          "id": "p23w10",
+          "text": "was",
+          "start": 188.16,
+          "end": 188.5
+        },
+        {
+          "id": "p23w11",
+          "text": "too",
+          "start": 188.5,
+          "end": 188.8
+        },
+        {
+          "id": "p23w12",
+          "text": "big",
+          "start": 188.8,
+          "end": 189.1
+        },
+        {
+          "id": "p23w13",
+          "text": "to",
+          "start": 189.1,
+          "end": 189.38
+        },
+        {
+          "id": "p23w14",
+          "text": "enter",
+          "start": 189.38,
+          "end": 189.72
+        },
+        {
+          "id": "p23w15",
+          "text": "the",
+          "start": 189.72,
+          "end": 189.94
+        },
+        {
+          "id": "p23w16",
+          "text": "cave.",
+          "start": 189.94,
+          "end": 190.18
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 192.66,
+      "end": 198.18,
+      "text": "No, you cannot have him. He is ours now. Said father wolf.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "No,",
+          "start": 192.66,
+          "end": 193.22
+        },
+        {
+          "id": "p24w2",
+          "text": "you",
+          "start": 193.84,
+          "end": 194.16
+        },
+        {
+          "id": "p24w3",
+          "text": "cannot",
+          "start": 194.16,
+          "end": 194.36
+        },
+        {
+          "id": "p24w4",
+          "text": "have",
+          "start": 194.36,
+          "end": 194.82
+        },
+        {
+          "id": "p24w5",
+          "text": "him.",
+          "start": 194.82,
+          "end": 195.0
+        },
+        {
+          "id": "p24w6",
+          "text": "He",
+          "start": 195.6,
+          "end": 195.74
+        },
+        {
+          "id": "p24w7",
+          "text": "is",
+          "start": 195.74,
+          "end": 195.88
+        },
+        {
+          "id": "p24w8",
+          "text": "ours",
+          "start": 195.88,
+          "end": 196.14
+        },
+        {
+          "id": "p24w9",
+          "text": "now.",
+          "start": 196.14,
+          "end": 196.62
+        },
+        {
+          "id": "p24w10",
+          "text": "Said",
+          "start": 197.28,
+          "end": 197.5
+        },
+        {
+          "id": "p24w11",
+          "text": "father",
+          "start": 197.5,
+          "end": 197.88
+        },
+        {
+          "id": "p24w12",
+          "text": "wolf.",
+          "start": 197.88,
+          "end": 198.18
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 198.18,
+      "end": 202.47,
+      "text": "I will raise him as my son. Said mother wolf.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "I",
+          "start": 198.18,
+          "end": 199.2
+        },
+        {
+          "id": "p25w2",
+          "text": "will",
+          "start": 199.45,
+          "end": 199.63
+        },
+        {
+          "id": "p25w3",
+          "text": "raise",
+          "start": 199.63,
+          "end": 199.89
+        },
+        {
+          "id": "p25w4",
+          "text": "him",
+          "start": 199.89,
+          "end": 200.19
+        },
+        {
+          "id": "p25w5",
+          "text": "as",
+          "start": 200.19,
+          "end": 200.37
+        },
+        {
+          "id": "p25w6",
+          "text": "my",
+          "start": 200.37,
+          "end": 200.59
+        },
+        {
+          "id": "p25w7",
+          "text": "son.",
+          "start": 200.59,
+          "end": 200.97
+        },
+        {
+          "id": "p25w8",
+          "text": "Said",
+          "start": 201.63,
+          "end": 201.87
+        },
+        {
+          "id": "p25w9",
+          "text": "mother",
+          "start": 201.87,
+          "end": 202.11
+        },
+        {
+          "id": "p25w10",
+          "text": "wolf.",
+          "start": 202.11,
+          "end": 202.47
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 203.34,
+      "end": 209.39,
+      "text": "Go away Share Khan, fish killer. This made Share Khan very angry.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "Go",
+          "start": 203.34,
+          "end": 204.04
+        },
+        {
+          "id": "p26w2",
+          "text": "away",
+          "start": 204.04,
+          "end": 204.44
+        },
+        {
+          "id": "p26w3",
+          "text": "Share",
+          "start": 204.44,
+          "end": 204.82
+        },
+        {
+          "id": "p26w4",
+          "text": "Khan,",
+          "start": 204.82,
+          "end": 205.14
+        },
+        {
+          "id": "p26w5",
+          "text": "fish",
+          "start": 205.56,
+          "end": 205.7
+        },
+        {
+          "id": "p26w6",
+          "text": "killer.",
+          "start": 205.7,
+          "end": 206.1
+        },
+        {
+          "id": "p26w7",
+          "text": "This",
+          "start": 207.05,
+          "end": 207.43
+        },
+        {
+          "id": "p26w8",
+          "text": "made",
+          "start": 207.43,
+          "end": 207.73
+        },
+        {
+          "id": "p26w9",
+          "text": "Share",
+          "start": 207.73,
+          "end": 208.07
+        },
+        {
+          "id": "p26w10",
+          "text": "Khan",
+          "start": 208.07,
+          "end": 208.41
+        },
+        {
+          "id": "p26w11",
+          "text": "very",
+          "start": 208.41,
+          "end": 208.77
+        },
+        {
+          "id": "p26w12",
+          "text": "angry.",
+          "start": 208.77,
+          "end": 209.39
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 211.03,
+      "end": 214.93,
+      "text": "That man cub will be mine one day. You thieves.",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "That",
+          "start": 211.03,
+          "end": 211.41
+        },
+        {
+          "id": "p27w2",
+          "text": "man",
+          "start": 211.41,
+          "end": 211.77
+        },
+        {
+          "id": "p27w3",
+          "text": "cub",
+          "start": 211.77,
+          "end": 212.21
+        },
+        {
+          "id": "p27w4",
+          "text": "will",
+          "start": 212.21,
+          "end": 212.55
+        },
+        {
+          "id": "p27w5",
+          "text": "be",
+          "start": 212.55,
+          "end": 212.81
+        },
+        {
+          "id": "p27w6",
+          "text": "mine",
+          "start": 212.81,
+          "end": 213.07
+        },
+        {
+          "id": "p27w7",
+          "text": "one",
+          "start": 213.07,
+          "end": 213.51
+        },
+        {
+          "id": "p27w8",
+          "text": "day.",
+          "start": 213.51,
+          "end": 213.93
+        },
+        {
+          "id": "p27w9",
+          "text": "You",
+          "start": 214.55,
+          "end": 214.55
+        },
+        {
+          "id": "p27w10",
+          "text": "thieves.",
+          "start": 214.55,
+          "end": 214.93
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 215.97,
+      "end": 218.27,
+      "text": "Share Khan said and left the cave.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "Share",
+          "start": 215.97,
+          "end": 216.25
+        },
+        {
+          "id": "p28w2",
+          "text": "Khan",
+          "start": 216.25,
+          "end": 216.55
+        },
+        {
+          "id": "p28w3",
+          "text": "said",
+          "start": 216.55,
+          "end": 216.97
+        },
+        {
+          "id": "p28w4",
+          "text": "and",
+          "start": 216.97,
+          "end": 217.53
+        },
+        {
+          "id": "p28w5",
+          "text": "left",
+          "start": 217.53,
+          "end": 217.77
+        },
+        {
+          "id": "p28w6",
+          "text": "the",
+          "start": 217.77,
+          "end": 218.01
+        },
+        {
+          "id": "p28w7",
+          "text": "cave.",
+          "start": 218.01,
+          "end": 218.27
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 226.68,
+      "end": 231.94,
+      "text": "Father wolf was very surprised. Do you really want him as your own son?",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "Father",
+          "start": 226.68,
+          "end": 227.08
+        },
+        {
+          "id": "p29w2",
+          "text": "wolf",
+          "start": 227.08,
+          "end": 227.3
+        },
+        {
+          "id": "p29w3",
+          "text": "was",
+          "start": 227.3,
+          "end": 227.6
+        },
+        {
+          "id": "p29w4",
+          "text": "very",
+          "start": 227.6,
+          "end": 227.96
+        },
+        {
+          "id": "p29w5",
+          "text": "surprised.",
+          "start": 227.96,
+          "end": 228.4
+        },
+        {
+          "id": "p29w6",
+          "text": "Do",
+          "start": 229.22,
+          "end": 229.68
+        },
+        {
+          "id": "p29w7",
+          "text": "you",
+          "start": 229.68,
+          "end": 229.88
+        },
+        {
+          "id": "p29w8",
+          "text": "really",
+          "start": 229.88,
+          "end": 230.16
+        },
+        {
+          "id": "p29w9",
+          "text": "want",
+          "start": 230.16,
+          "end": 230.56
+        },
+        {
+          "id": "p29w10",
+          "text": "him",
+          "start": 230.56,
+          "end": 230.8
+        },
+        {
+          "id": "p29w11",
+          "text": "as",
+          "start": 230.8,
+          "end": 231.1
+        },
+        {
+          "id": "p29w12",
+          "text": "your",
+          "start": 231.1,
+          "end": 231.3
+        },
+        {
+          "id": "p29w13",
+          "text": "own",
+          "start": 231.3,
+          "end": 231.58
+        },
+        {
+          "id": "p29w14",
+          "text": "son?",
+          "start": 231.58,
+          "end": 231.94
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 232.5,
+      "end": 236.16,
+      "text": "He asked mother wolf. Yes, let's keep him.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "He",
+          "start": 232.5,
+          "end": 232.78
+        },
+        {
+          "id": "p30w2",
+          "text": "asked",
+          "start": 232.78,
+          "end": 233.02
+        },
+        {
+          "id": "p30w3",
+          "text": "mother",
+          "start": 233.02,
+          "end": 233.4
+        },
+        {
+          "id": "p30w4",
+          "text": "wolf.",
+          "start": 233.4,
+          "end": 233.68
+        },
+        {
+          "id": "p30w5",
+          "text": "Yes,",
+          "start": 234.14,
+          "end": 234.7
+        },
+        {
+          "id": "p30w6",
+          "text": "let's",
+          "start": 235.16,
+          "end": 235.74
+        },
+        {
+          "id": "p30w7",
+          "text": "keep",
+          "start": 235.74,
+          "end": 235.94
+        },
+        {
+          "id": "p30w8",
+          "text": "him.",
+          "start": 235.94,
+          "end": 236.16
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 237.56,
+      "end": 241.18,
+      "text": "I want to call him Mowgli. The frog, she said.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "I",
+          "start": 237.56,
+          "end": 237.82
+        },
+        {
+          "id": "p31w2",
+          "text": "want",
+          "start": 237.82,
+          "end": 238.02
+        },
+        {
+          "id": "p31w3",
+          "text": "to",
+          "start": 238.02,
+          "end": 238.22
+        },
+        {
+          "id": "p31w4",
+          "text": "call",
+          "start": 238.22,
+          "end": 238.44
+        },
+        {
+          "id": "p31w5",
+          "text": "him",
+          "start": 238.44,
+          "end": 238.68
+        },
+        {
+          "id": "p31w6",
+          "text": "Mowgli.",
+          "start": 238.68,
+          "end": 239.28
+        },
+        {
+          "id": "p31w7",
+          "text": "The",
+          "start": 239.76,
+          "end": 239.94
+        },
+        {
+          "id": "p31w8",
+          "text": "frog,",
+          "start": 239.94,
+          "end": 240.12
+        },
+        {
+          "id": "p31w9",
+          "text": "she",
+          "start": 240.68,
+          "end": 240.9
+        },
+        {
+          "id": "p31w10",
+          "text": "said.",
+          "start": 240.9,
+          "end": 241.18
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 242.16,
+      "end": 247.64,
+      "text": "What about the law of the jungle? The law says that when all wolf cubs can run,",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "What",
+          "start": 242.16,
+          "end": 242.36
+        },
+        {
+          "id": "p32w2",
+          "text": "about",
+          "start": 242.36,
+          "end": 242.62
+        },
+        {
+          "id": "p32w3",
+          "text": "the",
+          "start": 242.62,
+          "end": 242.86
+        },
+        {
+          "id": "p32w4",
+          "text": "law",
+          "start": 242.86,
+          "end": 243.12
+        },
+        {
+          "id": "p32w5",
+          "text": "of",
+          "start": 243.12,
+          "end": 243.44
+        },
+        {
+          "id": "p32w6",
+          "text": "the",
+          "start": 243.44,
+          "end": 243.56
+        },
+        {
+          "id": "p32w7",
+          "text": "jungle?",
+          "start": 243.56,
+          "end": 243.78
+        },
+        {
+          "id": "p32w8",
+          "text": "The",
+          "start": 244.64,
+          "end": 244.74
+        },
+        {
+          "id": "p32w9",
+          "text": "law",
+          "start": 244.74,
+          "end": 244.98
+        },
+        {
+          "id": "p32w10",
+          "text": "says",
+          "start": 244.98,
+          "end": 245.46
+        },
+        {
+          "id": "p32w11",
+          "text": "that",
+          "start": 245.46,
+          "end": 245.74
+        },
+        {
+          "id": "p32w12",
+          "text": "when",
+          "start": 245.74,
+          "end": 245.96
+        },
+        {
+          "id": "p32w13",
+          "text": "all",
+          "start": 245.96,
+          "end": 246.32
+        },
+        {
+          "id": "p32w14",
+          "text": "wolf",
+          "start": 246.32,
+          "end": 246.64
+        },
+        {
+          "id": "p32w15",
+          "text": "cubs",
+          "start": 246.64,
+          "end": 247.22
+        },
+        {
+          "id": "p32w16",
+          "text": "can",
+          "start": 247.22,
+          "end": 247.34
+        },
+        {
+          "id": "p32w17",
+          "text": "run,",
+          "start": 247.34,
+          "end": 247.64
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 248.26,
+      "end": 255.31,
+      "text": "they must go to the pack. Father wolf was worried, but they decided to raise Mowgli as their own cub.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "they",
+          "start": 248.26,
+          "end": 248.38
+        },
+        {
+          "id": "p33w2",
+          "text": "must",
+          "start": 248.38,
+          "end": 248.62
+        },
+        {
+          "id": "p33w3",
+          "text": "go",
+          "start": 248.62,
+          "end": 248.94
+        },
+        {
+          "id": "p33w4",
+          "text": "to",
+          "start": 248.94,
+          "end": 249.2
+        },
+        {
+          "id": "p33w5",
+          "text": "the",
+          "start": 249.2,
+          "end": 249.34
+        },
+        {
+          "id": "p33w6",
+          "text": "pack.",
+          "start": 249.34,
+          "end": 249.56
+        },
+        {
+          "id": "p33w7",
+          "text": "Father",
+          "start": 250.65,
+          "end": 251.09
+        },
+        {
+          "id": "p33w8",
+          "text": "wolf",
+          "start": 251.09,
+          "end": 251.31
+        },
+        {
+          "id": "p33w9",
+          "text": "was",
+          "start": 251.31,
+          "end": 251.61
+        },
+        {
+          "id": "p33w10",
+          "text": "worried,",
+          "start": 251.61,
+          "end": 252.01
+        },
+        {
+          "id": "p33w11",
+          "text": "but",
+          "start": 252.47,
+          "end": 252.79
+        },
+        {
+          "id": "p33w12",
+          "text": "they",
+          "start": 252.79,
+          "end": 252.97
+        },
+        {
+          "id": "p33w13",
+          "text": "decided",
+          "start": 252.97,
+          "end": 253.31
+        },
+        {
+          "id": "p33w14",
+          "text": "to",
+          "start": 253.31,
+          "end": 253.69
+        },
+        {
+          "id": "p33w15",
+          "text": "raise",
+          "start": 253.69,
+          "end": 253.93
+        },
+        {
+          "id": "p33w16",
+          "text": "Mowgli",
+          "start": 253.93,
+          "end": 254.41
+        },
+        {
+          "id": "p33w17",
+          "text": "as",
+          "start": 254.41,
+          "end": 254.67
+        },
+        {
+          "id": "p33w18",
+          "text": "their",
+          "start": 254.67,
+          "end": 254.87
+        },
+        {
+          "id": "p33w19",
+          "text": "own",
+          "start": 254.87,
+          "end": 255.09
+        },
+        {
+          "id": "p33w20",
+          "text": "cub.",
+          "start": 255.09,
+          "end": 255.31
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 256.19,
+      "end": 259.37,
+      "text": "Mowgli ran and played with all of the other cubs.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "Mowgli",
+          "start": 256.19,
+          "end": 256.57
+        },
+        {
+          "id": "p34w2",
+          "text": "ran",
+          "start": 256.57,
+          "end": 256.79
+        },
+        {
+          "id": "p34w3",
+          "text": "and",
+          "start": 256.79,
+          "end": 257.07
+        },
+        {
+          "id": "p34w4",
+          "text": "played",
+          "start": 257.07,
+          "end": 257.39
+        },
+        {
+          "id": "p34w5",
+          "text": "with",
+          "start": 257.39,
+          "end": 257.73
+        },
+        {
+          "id": "p34w6",
+          "text": "all",
+          "start": 257.73,
+          "end": 258.07
+        },
+        {
+          "id": "p34w7",
+          "text": "of",
+          "start": 258.07,
+          "end": 258.27
+        },
+        {
+          "id": "p34w8",
+          "text": "the",
+          "start": 258.27,
+          "end": 258.43
+        },
+        {
+          "id": "p34w9",
+          "text": "other",
+          "start": 258.43,
+          "end": 258.65
+        },
+        {
+          "id": "p34w10",
+          "text": "cubs.",
+          "start": 258.65,
+          "end": 259.37
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 265.1,
+      "end": 268.17,
+      "text": "One day there was a pack meeting at the meeting rock.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "One",
+          "start": 265.1,
+          "end": 265.39
+        },
+        {
+          "id": "p35w2",
+          "text": "day",
+          "start": 265.39,
+          "end": 265.67
+        },
+        {
+          "id": "p35w3",
+          "text": "there",
+          "start": 265.67,
+          "end": 266.15
+        },
+        {
+          "id": "p35w4",
+          "text": "was",
+          "start": 266.15,
+          "end": 266.33
+        },
+        {
+          "id": "p35w5",
+          "text": "a",
+          "start": 266.33,
+          "end": 266.47
+        },
+        {
+          "id": "p35w6",
+          "text": "pack",
+          "start": 266.47,
+          "end": 266.65
+        },
+        {
+          "id": "p35w7",
+          "text": "meeting",
+          "start": 266.65,
+          "end": 267.01
+        },
+        {
+          "id": "p35w8",
+          "text": "at",
+          "start": 267.01,
+          "end": 267.43
+        },
+        {
+          "id": "p35w9",
+          "text": "the",
+          "start": 267.43,
+          "end": 267.55
+        },
+        {
+          "id": "p35w10",
+          "text": "meeting",
+          "start": 267.55,
+          "end": 267.83
+        },
+        {
+          "id": "p35w11",
+          "text": "rock.",
+          "start": 267.83,
+          "end": 268.17
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 268.85,
+      "end": 275.51,
+      "text": "Akila, who was a gray wolf, was the leader. He called for all of the wolf cubs to stand before him.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "Akila,",
+          "start": 268.85,
+          "end": 269.25
+        },
+        {
+          "id": "p36w2",
+          "text": "who",
+          "start": 269.61,
+          "end": 269.77
+        },
+        {
+          "id": "p36w3",
+          "text": "was",
+          "start": 269.77,
+          "end": 269.93
+        },
+        {
+          "id": "p36w4",
+          "text": "a",
+          "start": 269.93,
+          "end": 270.07
+        },
+        {
+          "id": "p36w5",
+          "text": "gray",
+          "start": 270.07,
+          "end": 270.29
+        },
+        {
+          "id": "p36w6",
+          "text": "wolf,",
+          "start": 270.29,
+          "end": 270.65
+        },
+        {
+          "id": "p36w7",
+          "text": "was",
+          "start": 270.93,
+          "end": 271.09
+        },
+        {
+          "id": "p36w8",
+          "text": "the",
+          "start": 271.09,
+          "end": 271.29
+        },
+        {
+          "id": "p36w9",
+          "text": "leader.",
+          "start": 271.29,
+          "end": 271.51
+        },
+        {
+          "id": "p36w10",
+          "text": "He",
+          "start": 272.45,
+          "end": 272.47
+        },
+        {
+          "id": "p36w11",
+          "text": "called",
+          "start": 272.47,
+          "end": 272.75
+        },
+        {
+          "id": "p36w12",
+          "text": "for",
+          "start": 272.75,
+          "end": 273.01
+        },
+        {
+          "id": "p36w13",
+          "text": "all",
+          "start": 273.01,
+          "end": 273.35
+        },
+        {
+          "id": "p36w14",
+          "text": "of",
+          "start": 273.35,
+          "end": 273.47
+        },
+        {
+          "id": "p36w15",
+          "text": "the",
+          "start": 273.47,
+          "end": 273.65
+        },
+        {
+          "id": "p36w16",
+          "text": "wolf",
+          "start": 273.65,
+          "end": 273.85
+        },
+        {
+          "id": "p36w17",
+          "text": "cubs",
+          "start": 273.85,
+          "end": 274.37
+        },
+        {
+          "id": "p36w18",
+          "text": "to",
+          "start": 274.37,
+          "end": 274.49
+        },
+        {
+          "id": "p36w19",
+          "text": "stand",
+          "start": 274.49,
+          "end": 274.77
+        },
+        {
+          "id": "p36w20",
+          "text": "before",
+          "start": 274.77,
+          "end": 275.23
+        },
+        {
+          "id": "p36w21",
+          "text": "him.",
+          "start": 275.23,
+          "end": 275.51
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 276.59,
+      "end": 281.73,
+      "text": "Father wolf pushed Mowgli in front of Akila. Then from somewhere in the trees,",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "Father",
+          "start": 276.59,
+          "end": 276.61
+        },
+        {
+          "id": "p37w2",
+          "text": "wolf",
+          "start": 276.61,
+          "end": 276.87
+        },
+        {
+          "id": "p37w3",
+          "text": "pushed",
+          "start": 276.87,
+          "end": 277.27
+        },
+        {
+          "id": "p37w4",
+          "text": "Mowgli",
+          "start": 277.27,
+          "end": 277.79
+        },
+        {
+          "id": "p37w5",
+          "text": "in",
+          "start": 277.79,
+          "end": 278.01
+        },
+        {
+          "id": "p37w6",
+          "text": "front",
+          "start": 278.01,
+          "end": 278.27
+        },
+        {
+          "id": "p37w7",
+          "text": "of",
+          "start": 278.27,
+          "end": 278.53
+        },
+        {
+          "id": "p37w8",
+          "text": "Akila.",
+          "start": 278.53,
+          "end": 278.91
+        },
+        {
+          "id": "p37w9",
+          "text": "Then",
+          "start": 279.57,
+          "end": 279.99
+        },
+        {
+          "id": "p37w10",
+          "text": "from",
+          "start": 279.99,
+          "end": 280.59
+        },
+        {
+          "id": "p37w11",
+          "text": "somewhere",
+          "start": 280.59,
+          "end": 281.05
+        },
+        {
+          "id": "p37w12",
+          "text": "in",
+          "start": 281.05,
+          "end": 281.31
+        },
+        {
+          "id": "p37w13",
+          "text": "the",
+          "start": 281.31,
+          "end": 281.43
+        },
+        {
+          "id": "p37w14",
+          "text": "trees,",
+          "start": 281.43,
+          "end": 281.73
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 282.37,
+      "end": 291.15,
+      "text": "the wolves heard a growl. It was Share Khan. He is mine. He growled.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "the",
+          "start": 282.37,
+          "end": 282.47
+        },
+        {
+          "id": "p38w2",
+          "text": "wolves",
+          "start": 282.47,
+          "end": 282.67
+        },
+        {
+          "id": "p38w3",
+          "text": "heard",
+          "start": 282.67,
+          "end": 283.01
+        },
+        {
+          "id": "p38w4",
+          "text": "a",
+          "start": 283.01,
+          "end": 283.23
+        },
+        {
+          "id": "p38w5",
+          "text": "growl.",
+          "start": 283.23,
+          "end": 283.65
+        },
+        {
+          "id": "p38w6",
+          "text": "It",
+          "start": 286.65,
+          "end": 287.05
+        },
+        {
+          "id": "p38w7",
+          "text": "was",
+          "start": 287.05,
+          "end": 287.19
+        },
+        {
+          "id": "p38w8",
+          "text": "Share",
+          "start": 287.19,
+          "end": 287.47
+        },
+        {
+          "id": "p38w9",
+          "text": "Khan.",
+          "start": 287.47,
+          "end": 287.75
+        },
+        {
+          "id": "p38w10",
+          "text": "He",
+          "start": 288.45,
+          "end": 288.93
+        },
+        {
+          "id": "p38w11",
+          "text": "is",
+          "start": 288.93,
+          "end": 289.29
+        },
+        {
+          "id": "p38w12",
+          "text": "mine.",
+          "start": 289.29,
+          "end": 289.59
+        },
+        {
+          "id": "p38w13",
+          "text": "He",
+          "start": 290.41,
+          "end": 290.59
+        },
+        {
+          "id": "p38w14",
+          "text": "growled.",
+          "start": 290.59,
+          "end": 291.15
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 291.85,
+      "end": 295.95,
+      "text": "Akila, unafraid said, who will speak for this man cub?",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "Akila,",
+          "start": 291.85,
+          "end": 292.19
+        },
+        {
+          "id": "p39w2",
+          "text": "unafraid",
+          "start": 292.47,
+          "end": 292.97
+        },
+        {
+          "id": "p39w3",
+          "text": "said,",
+          "start": 292.97,
+          "end": 293.35
+        },
+        {
+          "id": "p39w4",
+          "text": "who",
+          "start": 294.09,
+          "end": 294.21
+        },
+        {
+          "id": "p39w5",
+          "text": "will",
+          "start": 294.21,
+          "end": 294.45
+        },
+        {
+          "id": "p39w6",
+          "text": "speak",
+          "start": 294.45,
+          "end": 294.79
+        },
+        {
+          "id": "p39w7",
+          "text": "for",
+          "start": 294.79,
+          "end": 295.11
+        },
+        {
+          "id": "p39w8",
+          "text": "this",
+          "start": 295.11,
+          "end": 295.29
+        },
+        {
+          "id": "p39w9",
+          "text": "man",
+          "start": 295.29,
+          "end": 295.57
+        },
+        {
+          "id": "p39w10",
+          "text": "cub?",
+          "start": 295.57,
+          "end": 295.95
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 296.53,
+      "end": 300.11,
+      "text": "Except for his father and mother, two voices are needed.",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "Except",
+          "start": 296.53,
+          "end": 296.85
+        },
+        {
+          "id": "p40w2",
+          "text": "for",
+          "start": 296.85,
+          "end": 297.33
+        },
+        {
+          "id": "p40w3",
+          "text": "his",
+          "start": 297.33,
+          "end": 297.49
+        },
+        {
+          "id": "p40w4",
+          "text": "father",
+          "start": 297.49,
+          "end": 297.85
+        },
+        {
+          "id": "p40w5",
+          "text": "and",
+          "start": 297.85,
+          "end": 298.09
+        },
+        {
+          "id": "p40w6",
+          "text": "mother,",
+          "start": 298.09,
+          "end": 298.45
+        },
+        {
+          "id": "p40w7",
+          "text": "two",
+          "start": 298.85,
+          "end": 299.09
+        },
+        {
+          "id": "p40w8",
+          "text": "voices",
+          "start": 299.09,
+          "end": 299.49
+        },
+        {
+          "id": "p40w9",
+          "text": "are",
+          "start": 299.49,
+          "end": 299.81
+        },
+        {
+          "id": "p40w10",
+          "text": "needed.",
+          "start": 299.81,
+          "end": 300.11
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 303.3,
+      "end": 308.48,
+      "text": "Baloo, a brown bear, and Bagira, a panther, entered the circle of wolves.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "Baloo,",
+          "start": 303.3,
+          "end": 303.76
+        },
+        {
+          "id": "p41w2",
+          "text": "a",
+          "start": 304.1,
+          "end": 304.18
+        },
+        {
+          "id": "p41w3",
+          "text": "brown",
+          "start": 304.18,
+          "end": 304.46
+        },
+        {
+          "id": "p41w4",
+          "text": "bear,",
+          "start": 304.46,
+          "end": 304.78
+        },
+        {
+          "id": "p41w5",
+          "text": "and",
+          "start": 305.24,
+          "end": 305.36
+        },
+        {
+          "id": "p41w6",
+          "text": "Bagira,",
+          "start": 305.36,
+          "end": 305.8
+        },
+        {
+          "id": "p41w7",
+          "text": "a",
+          "start": 306.24,
+          "end": 306.28
+        },
+        {
+          "id": "p41w8",
+          "text": "panther,",
+          "start": 306.28,
+          "end": 306.8
+        },
+        {
+          "id": "p41w9",
+          "text": "entered",
+          "start": 307.1,
+          "end": 307.4
+        },
+        {
+          "id": "p41w10",
+          "text": "the",
+          "start": 307.4,
+          "end": 307.68
+        },
+        {
+          "id": "p41w11",
+          "text": "circle",
+          "start": 307.68,
+          "end": 307.98
+        },
+        {
+          "id": "p41w12",
+          "text": "of",
+          "start": 307.98,
+          "end": 308.28
+        },
+        {
+          "id": "p41w13",
+          "text": "wolves.",
+          "start": 308.28,
+          "end": 308.48
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 309.48,
+      "end": 312.38,
+      "text": "I will speak for him, they said.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "I",
+          "start": 309.48,
+          "end": 309.92
+        },
+        {
+          "id": "p42w2",
+          "text": "will",
+          "start": 309.92,
+          "end": 310.12
+        },
+        {
+          "id": "p42w3",
+          "text": "speak",
+          "start": 310.12,
+          "end": 310.42
+        },
+        {
+          "id": "p42w4",
+          "text": "for",
+          "start": 310.42,
+          "end": 310.74
+        },
+        {
+          "id": "p42w5",
+          "text": "him,",
+          "start": 310.74,
+          "end": 311.02
+        },
+        {
+          "id": "p42w6",
+          "text": "they",
+          "start": 311.54,
+          "end": 312.08
+        },
+        {
+          "id": "p42w7",
+          "text": "said.",
+          "start": 312.08,
+          "end": 312.38
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 314.25,
+      "end": 322.43,
+      "text": "It is very bad to kill a man cub, said Bagira. Also, a man cub cannot hurt you.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "It",
+          "start": 314.25,
+          "end": 314.49
+        },
+        {
+          "id": "p43w2",
+          "text": "is",
+          "start": 314.49,
+          "end": 314.61
+        },
+        {
+          "id": "p43w3",
+          "text": "very",
+          "start": 314.61,
+          "end": 314.87
+        },
+        {
+          "id": "p43w4",
+          "text": "bad",
+          "start": 314.87,
+          "end": 315.47
+        },
+        {
+          "id": "p43w5",
+          "text": "to",
+          "start": 315.47,
+          "end": 315.71
+        },
+        {
+          "id": "p43w6",
+          "text": "kill",
+          "start": 315.71,
+          "end": 316.01
+        },
+        {
+          "id": "p43w7",
+          "text": "a",
+          "start": 316.01,
+          "end": 316.25
+        },
+        {
+          "id": "p43w8",
+          "text": "man",
+          "start": 316.25,
+          "end": 316.47
+        },
+        {
+          "id": "p43w9",
+          "text": "cub,",
+          "start": 316.47,
+          "end": 316.85
+        },
+        {
+          "id": "p43w10",
+          "text": "said",
+          "start": 317.39,
+          "end": 317.71
+        },
+        {
+          "id": "p43w11",
+          "text": "Bagira.",
+          "start": 317.71,
+          "end": 318.25
+        },
+        {
+          "id": "p43w12",
+          "text": "Also,",
+          "start": 318.93,
+          "end": 319.57
+        },
+        {
+          "id": "p43w13",
+          "text": "a",
+          "start": 320.25,
+          "end": 320.63
+        },
+        {
+          "id": "p43w14",
+          "text": "man",
+          "start": 320.63,
+          "end": 320.83
+        },
+        {
+          "id": "p43w15",
+          "text": "cub",
+          "start": 320.83,
+          "end": 321.21
+        },
+        {
+          "id": "p43w16",
+          "text": "cannot",
+          "start": 321.21,
+          "end": 321.59
+        },
+        {
+          "id": "p43w17",
+          "text": "hurt",
+          "start": 321.59,
+          "end": 322.07
+        },
+        {
+          "id": "p43w18",
+          "text": "you.",
+          "start": 322.07,
+          "end": 322.43
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 322.93,
+      "end": 324.59,
+      "text": "He may even help you later.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "He",
+          "start": 322.93,
+          "end": 323.19
+        },
+        {
+          "id": "p44w2",
+          "text": "may",
+          "start": 323.19,
+          "end": 323.41
+        },
+        {
+          "id": "p44w3",
+          "text": "even",
+          "start": 323.41,
+          "end": 323.81
+        },
+        {
+          "id": "p44w4",
+          "text": "help",
+          "start": 323.81,
+          "end": 324.13
+        },
+        {
+          "id": "p44w5",
+          "text": "you",
+          "start": 324.13,
+          "end": 324.37
+        },
+        {
+          "id": "p44w6",
+          "text": "later.",
+          "start": 324.37,
+          "end": 324.59
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 325.56,
+      "end": 330.72,
+      "text": "I will also teach him all of the jungle laws, said Baloo.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "I",
+          "start": 325.56,
+          "end": 326.16
+        },
+        {
+          "id": "p45w2",
+          "text": "will",
+          "start": 326.16,
+          "end": 326.38
+        },
+        {
+          "id": "p45w3",
+          "text": "also",
+          "start": 326.38,
+          "end": 326.88
+        },
+        {
+          "id": "p45w4",
+          "text": "teach",
+          "start": 326.88,
+          "end": 327.26
+        },
+        {
+          "id": "p45w5",
+          "text": "him",
+          "start": 327.26,
+          "end": 327.6
+        },
+        {
+          "id": "p45w6",
+          "text": "all",
+          "start": 327.6,
+          "end": 327.98
+        },
+        {
+          "id": "p45w7",
+          "text": "of",
+          "start": 327.98,
+          "end": 328.16
+        },
+        {
+          "id": "p45w8",
+          "text": "the",
+          "start": 328.16,
+          "end": 328.34
+        },
+        {
+          "id": "p45w9",
+          "text": "jungle",
+          "start": 328.34,
+          "end": 328.56
+        },
+        {
+          "id": "p45w10",
+          "text": "laws,",
+          "start": 328.56,
+          "end": 329.14
+        },
+        {
+          "id": "p45w11",
+          "text": "said",
+          "start": 329.86,
+          "end": 330.3
+        },
+        {
+          "id": "p45w12",
+          "text": "Baloo.",
+          "start": 330.3,
+          "end": 330.72
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 332.85,
+      "end": 340.53,
+      "text": "The other wolves agreed. Akila was happy with the decision. He will be able to help us later,",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "The",
+          "start": 332.85,
+          "end": 333.03
+        },
+        {
+          "id": "p46w2",
+          "text": "other",
+          "start": 333.03,
+          "end": 333.27
+        },
+        {
+          "id": "p46w3",
+          "text": "wolves",
+          "start": 333.27,
+          "end": 333.55
+        },
+        {
+          "id": "p46w4",
+          "text": "agreed.",
+          "start": 333.55,
+          "end": 334.07
+        },
+        {
+          "id": "p46w5",
+          "text": "Akila",
+          "start": 334.95,
+          "end": 335.23
+        },
+        {
+          "id": "p46w6",
+          "text": "was",
+          "start": 335.23,
+          "end": 335.53
+        },
+        {
+          "id": "p46w7",
+          "text": "happy",
+          "start": 335.53,
+          "end": 335.85
+        },
+        {
+          "id": "p46w8",
+          "text": "with",
+          "start": 335.85,
+          "end": 336.13
+        },
+        {
+          "id": "p46w9",
+          "text": "the",
+          "start": 336.13,
+          "end": 336.31
+        },
+        {
+          "id": "p46w10",
+          "text": "decision.",
+          "start": 336.31,
+          "end": 336.63
+        },
+        {
+          "id": "p46w11",
+          "text": "He",
+          "start": 338.67,
+          "end": 338.89
+        },
+        {
+          "id": "p46w12",
+          "text": "will",
+          "start": 338.89,
+          "end": 339.07
+        },
+        {
+          "id": "p46w13",
+          "text": "be",
+          "start": 339.07,
+          "end": 339.25
+        },
+        {
+          "id": "p46w14",
+          "text": "able",
+          "start": 339.25,
+          "end": 339.55
+        },
+        {
+          "id": "p46w15",
+          "text": "to",
+          "start": 339.55,
+          "end": 339.75
+        },
+        {
+          "id": "p46w16",
+          "text": "help",
+          "start": 339.75,
+          "end": 340.01
+        },
+        {
+          "id": "p46w17",
+          "text": "us",
+          "start": 340.01,
+          "end": 340.25
+        },
+        {
+          "id": "p46w18",
+          "text": "later,",
+          "start": 340.25,
+          "end": 340.53
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 340.91,
+      "end": 344.69,
+      "text": "when he is a man. You must raise and teach him well.",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "when",
+          "start": 340.91,
+          "end": 341.11
+        },
+        {
+          "id": "p47w2",
+          "text": "he",
+          "start": 341.11,
+          "end": 341.35
+        },
+        {
+          "id": "p47w3",
+          "text": "is",
+          "start": 341.35,
+          "end": 341.53
+        },
+        {
+          "id": "p47w4",
+          "text": "a",
+          "start": 341.53,
+          "end": 341.65
+        },
+        {
+          "id": "p47w5",
+          "text": "man.",
+          "start": 341.65,
+          "end": 341.85
+        },
+        {
+          "id": "p47w6",
+          "text": "You",
+          "start": 342.75,
+          "end": 342.87
+        },
+        {
+          "id": "p47w7",
+          "text": "must",
+          "start": 342.87,
+          "end": 343.09
+        },
+        {
+          "id": "p47w8",
+          "text": "raise",
+          "start": 343.09,
+          "end": 343.43
+        },
+        {
+          "id": "p47w9",
+          "text": "and",
+          "start": 343.43,
+          "end": 343.85
+        },
+        {
+          "id": "p47w10",
+          "text": "teach",
+          "start": 343.85,
+          "end": 344.09
+        },
+        {
+          "id": "p47w11",
+          "text": "him",
+          "start": 344.09,
+          "end": 344.41
+        },
+        {
+          "id": "p47w12",
+          "text": "well.",
+          "start": 344.41,
+          "end": 344.69
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 346.02,
+      "end": 349.12,
+      "text": "So Mowgli became a member of the Cioni Wolf pack.",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "So",
+          "start": 346.02,
+          "end": 346.16
+        },
+        {
+          "id": "p48w2",
+          "text": "Mowgli",
+          "start": 346.16,
+          "end": 346.64
+        },
+        {
+          "id": "p48w3",
+          "text": "became",
+          "start": 346.64,
+          "end": 347.02
+        },
+        {
+          "id": "p48w4",
+          "text": "a",
+          "start": 347.02,
+          "end": 347.32
+        },
+        {
+          "id": "p48w5",
+          "text": "member",
+          "start": 347.32,
+          "end": 347.64
+        },
+        {
+          "id": "p48w6",
+          "text": "of",
+          "start": 347.64,
+          "end": 347.9
+        },
+        {
+          "id": "p48w7",
+          "text": "the",
+          "start": 347.9,
+          "end": 348.04
+        },
+        {
+          "id": "p48w8",
+          "text": "Cioni",
+          "start": 348.04,
+          "end": 348.58
+        },
+        {
+          "id": "p48w9",
+          "text": "Wolf",
+          "start": 348.58,
+          "end": 348.84
+        },
+        {
+          "id": "p48w10",
+          "text": "pack.",
+          "start": 348.84,
+          "end": 349.12
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 350.42,
+      "end": 355.0,
+      "text": "Father wolf, Baloo, and Bagira taught Mowgli everything he needed to know.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "Father",
+          "start": 350.42,
+          "end": 350.42
+        },
+        {
+          "id": "p49w2",
+          "text": "wolf,",
+          "start": 350.42,
+          "end": 350.66
+        },
+        {
+          "id": "p49w3",
+          "text": "Baloo,",
+          "start": 351.04,
+          "end": 351.4
+        },
+        {
+          "id": "p49w4",
+          "text": "and",
+          "start": 351.72,
+          "end": 351.74
+        },
+        {
+          "id": "p49w5",
+          "text": "Bagira",
+          "start": 351.74,
+          "end": 352.16
+        },
+        {
+          "id": "p49w6",
+          "text": "taught",
+          "start": 352.16,
+          "end": 352.76
+        },
+        {
+          "id": "p49w7",
+          "text": "Mowgli",
+          "start": 352.76,
+          "end": 353.26
+        },
+        {
+          "id": "p49w8",
+          "text": "everything",
+          "start": 353.26,
+          "end": 353.86
+        },
+        {
+          "id": "p49w9",
+          "text": "he",
+          "start": 353.86,
+          "end": 354.12
+        },
+        {
+          "id": "p49w10",
+          "text": "needed",
+          "start": 354.12,
+          "end": 354.44
+        },
+        {
+          "id": "p49w11",
+          "text": "to",
+          "start": 354.44,
+          "end": 354.72
+        },
+        {
+          "id": "p49w12",
+          "text": "know.",
+          "start": 354.72,
+          "end": 355.0
+        }
+      ]
+    }
+  ]
+}

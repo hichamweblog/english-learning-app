@@ -1,0 +1,3095 @@
+{
+  "sectionId": "reader-4-heidi-ch-3",
+  "trackNumber": 3,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/290 (S1) Heidi/Track 03.mp3",
+  "totalDuration": 253.1526875,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 5.2,
+      "end": 6.34,
+      "text": "Chapter 3",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Chapter",
+          "start": 5.2,
+          "end": 5.68
+        },
+        {
+          "id": "p1w2",
+          "text": "3",
+          "start": 5.68,
+          "end": 6.34
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 7.23,
+      "end": 7.93,
+      "text": "Homesick",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Homesick",
+          "start": 7.23,
+          "end": 7.93
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 13.37,
+      "end": 17.61,
+      "text": "Mr. Cezaman came home from his business trip with many gifts.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "Mr.",
+          "start": 13.37,
+          "end": 13.99
+        },
+        {
+          "id": "p3w2",
+          "text": "Cezaman",
+          "start": 14.23,
+          "end": 14.51
+        },
+        {
+          "id": "p3w3",
+          "text": "came",
+          "start": 14.51,
+          "end": 15.07
+        },
+        {
+          "id": "p3w4",
+          "text": "home",
+          "start": 15.07,
+          "end": 15.45
+        },
+        {
+          "id": "p3w5",
+          "text": "from",
+          "start": 15.45,
+          "end": 15.75
+        },
+        {
+          "id": "p3w6",
+          "text": "his",
+          "start": 15.75,
+          "end": 15.95
+        },
+        {
+          "id": "p3w7",
+          "text": "business",
+          "start": 15.95,
+          "end": 16.29
+        },
+        {
+          "id": "p3w8",
+          "text": "trip",
+          "start": 16.29,
+          "end": 16.69
+        },
+        {
+          "id": "p3w9",
+          "text": "with",
+          "start": 16.69,
+          "end": 16.93
+        },
+        {
+          "id": "p3w10",
+          "text": "many",
+          "start": 16.93,
+          "end": 17.19
+        },
+        {
+          "id": "p3w11",
+          "text": "gifts.",
+          "start": 17.19,
+          "end": 17.61
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 18.41,
+      "end": 19.93,
+      "text": "He was happy to see Clara.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "He",
+          "start": 18.41,
+          "end": 18.79
+        },
+        {
+          "id": "p4w2",
+          "text": "was",
+          "start": 18.79,
+          "end": 18.93
+        },
+        {
+          "id": "p4w3",
+          "text": "happy",
+          "start": 18.93,
+          "end": 19.19
+        },
+        {
+          "id": "p4w4",
+          "text": "to",
+          "start": 19.19,
+          "end": 19.47
+        },
+        {
+          "id": "p4w5",
+          "text": "see",
+          "start": 19.47,
+          "end": 19.65
+        },
+        {
+          "id": "p4w6",
+          "text": "Clara.",
+          "start": 19.65,
+          "end": 19.93
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 20.93,
+      "end": 22.75,
+      "text": "He was also happy to meet Heidi.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "He",
+          "start": 20.93,
+          "end": 21.13
+        },
+        {
+          "id": "p5w2",
+          "text": "was",
+          "start": 21.13,
+          "end": 21.27
+        },
+        {
+          "id": "p5w3",
+          "text": "also",
+          "start": 21.27,
+          "end": 21.77
+        },
+        {
+          "id": "p5w4",
+          "text": "happy",
+          "start": 21.77,
+          "end": 22.03
+        },
+        {
+          "id": "p5w5",
+          "text": "to",
+          "start": 22.03,
+          "end": 22.29
+        },
+        {
+          "id": "p5w6",
+          "text": "meet",
+          "start": 22.29,
+          "end": 22.53
+        },
+        {
+          "id": "p5w7",
+          "text": "Heidi.",
+          "start": 22.53,
+          "end": 22.75
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 23.57,
+      "end": 26.57,
+      "text": "He could see that Heidi and Clara liked each other.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "He",
+          "start": 23.57,
+          "end": 23.83
+        },
+        {
+          "id": "p6w2",
+          "text": "could",
+          "start": 23.83,
+          "end": 24.01
+        },
+        {
+          "id": "p6w3",
+          "text": "see",
+          "start": 24.01,
+          "end": 24.31
+        },
+        {
+          "id": "p6w4",
+          "text": "that",
+          "start": 24.31,
+          "end": 24.55
+        },
+        {
+          "id": "p6w5",
+          "text": "Heidi",
+          "start": 24.55,
+          "end": 24.87
+        },
+        {
+          "id": "p6w6",
+          "text": "and",
+          "start": 24.87,
+          "end": 25.23
+        },
+        {
+          "id": "p6w7",
+          "text": "Clara",
+          "start": 25.23,
+          "end": 25.51
+        },
+        {
+          "id": "p6w8",
+          "text": "liked",
+          "start": 25.51,
+          "end": 25.97
+        },
+        {
+          "id": "p6w9",
+          "text": "each",
+          "start": 25.97,
+          "end": 26.21
+        },
+        {
+          "id": "p6w10",
+          "text": "other.",
+          "start": 26.21,
+          "end": 26.57
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 27.47,
+      "end": 32.19,
+      "text": "But Ms. Rottenmeyer said terrible things about Heidi to Clara's father.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "But",
+          "start": 27.47,
+          "end": 27.71
+        },
+        {
+          "id": "p7w2",
+          "text": "Ms.",
+          "start": 27.71,
+          "end": 27.93
+        },
+        {
+          "id": "p7w3",
+          "text": "Rottenmeyer",
+          "start": 28.27,
+          "end": 28.65
+        },
+        {
+          "id": "p7w4",
+          "text": "said",
+          "start": 28.65,
+          "end": 29.11
+        },
+        {
+          "id": "p7w5",
+          "text": "terrible",
+          "start": 29.11,
+          "end": 29.75
+        },
+        {
+          "id": "p7w6",
+          "text": "things",
+          "start": 29.75,
+          "end": 30.19
+        },
+        {
+          "id": "p7w7",
+          "text": "about",
+          "start": 30.19,
+          "end": 30.45
+        },
+        {
+          "id": "p7w8",
+          "text": "Heidi",
+          "start": 30.45,
+          "end": 30.89
+        },
+        {
+          "id": "p7w9",
+          "text": "to",
+          "start": 30.89,
+          "end": 31.45
+        },
+        {
+          "id": "p7w10",
+          "text": "Clara's",
+          "start": 31.45,
+          "end": 32.01
+        },
+        {
+          "id": "p7w11",
+          "text": "father.",
+          "start": 32.01,
+          "end": 32.19
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 33.19,
+      "end": 37.33,
+      "text": "I think that little girl is crazy, she said.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "I",
+          "start": 33.19,
+          "end": 33.89
+        },
+        {
+          "id": "p8w2",
+          "text": "think",
+          "start": 33.89,
+          "end": 34.29
+        },
+        {
+          "id": "p8w3",
+          "text": "that",
+          "start": 34.29,
+          "end": 34.65
+        },
+        {
+          "id": "p8w4",
+          "text": "little",
+          "start": 34.65,
+          "end": 34.93
+        },
+        {
+          "id": "p8w5",
+          "text": "girl",
+          "start": 34.93,
+          "end": 35.29
+        },
+        {
+          "id": "p8w6",
+          "text": "is",
+          "start": 35.29,
+          "end": 35.51
+        },
+        {
+          "id": "p8w7",
+          "text": "crazy,",
+          "start": 35.51,
+          "end": 35.81
+        },
+        {
+          "id": "p8w8",
+          "text": "she",
+          "start": 36.61,
+          "end": 36.97
+        },
+        {
+          "id": "p8w9",
+          "text": "said.",
+          "start": 36.97,
+          "end": 37.33
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 37.33,
+      "end": 40.51,
+      "text": "You should see the trouble she's caused here.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "You",
+          "start": 37.33,
+          "end": 38.27
+        },
+        {
+          "id": "p9w2",
+          "text": "should",
+          "start": 38.27,
+          "end": 38.61
+        },
+        {
+          "id": "p9w3",
+          "text": "see",
+          "start": 38.61,
+          "end": 38.87
+        },
+        {
+          "id": "p9w4",
+          "text": "the",
+          "start": 38.87,
+          "end": 39.03
+        },
+        {
+          "id": "p9w5",
+          "text": "trouble",
+          "start": 39.03,
+          "end": 39.31
+        },
+        {
+          "id": "p9w6",
+          "text": "she's",
+          "start": 39.31,
+          "end": 39.79
+        },
+        {
+          "id": "p9w7",
+          "text": "caused",
+          "start": 39.79,
+          "end": 40.07
+        },
+        {
+          "id": "p9w8",
+          "text": "here.",
+          "start": 40.07,
+          "end": 40.51
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 41.51,
+      "end": 43.89,
+      "text": "Mr. Cezaman asked Clara about Heidi.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "Mr.",
+          "start": 41.51,
+          "end": 41.83
+        },
+        {
+          "id": "p10w2",
+          "text": "Cezaman",
+          "start": 42.09,
+          "end": 42.37
+        },
+        {
+          "id": "p10w3",
+          "text": "asked",
+          "start": 42.37,
+          "end": 42.71
+        },
+        {
+          "id": "p10w4",
+          "text": "Clara",
+          "start": 42.71,
+          "end": 43.13
+        },
+        {
+          "id": "p10w5",
+          "text": "about",
+          "start": 43.13,
+          "end": 43.65
+        },
+        {
+          "id": "p10w6",
+          "text": "Heidi.",
+          "start": 43.65,
+          "end": 43.89
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 44.75,
+      "end": 46.47,
+      "text": "What happened while I was away?",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "What",
+          "start": 44.75,
+          "end": 45.05
+        },
+        {
+          "id": "p11w2",
+          "text": "happened",
+          "start": 45.05,
+          "end": 45.43
+        },
+        {
+          "id": "p11w3",
+          "text": "while",
+          "start": 45.43,
+          "end": 45.75
+        },
+        {
+          "id": "p11w4",
+          "text": "I",
+          "start": 45.75,
+          "end": 45.99
+        },
+        {
+          "id": "p11w5",
+          "text": "was",
+          "start": 45.99,
+          "end": 46.13
+        },
+        {
+          "id": "p11w6",
+          "text": "away?",
+          "start": 46.13,
+          "end": 46.47
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 47.33,
+      "end": 50.39,
+      "text": "Clara told him about the kittens and other things.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Clara",
+          "start": 47.33,
+          "end": 47.75
+        },
+        {
+          "id": "p12w2",
+          "text": "told",
+          "start": 47.75,
+          "end": 48.21
+        },
+        {
+          "id": "p12w3",
+          "text": "him",
+          "start": 48.21,
+          "end": 48.47
+        },
+        {
+          "id": "p12w4",
+          "text": "about",
+          "start": 48.47,
+          "end": 48.67
+        },
+        {
+          "id": "p12w5",
+          "text": "the",
+          "start": 48.67,
+          "end": 48.85
+        },
+        {
+          "id": "p12w6",
+          "text": "kittens",
+          "start": 48.85,
+          "end": 49.09
+        },
+        {
+          "id": "p12w7",
+          "text": "and",
+          "start": 49.09,
+          "end": 49.75
+        },
+        {
+          "id": "p12w8",
+          "text": "other",
+          "start": 49.75,
+          "end": 50.07
+        },
+        {
+          "id": "p12w9",
+          "text": "things.",
+          "start": 50.07,
+          "end": 50.39
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 51.17,
+      "end": 55.13,
+      "text": "Mr. Cezaman laughed. He went to Ms. Rottenmeyer and said.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Mr.",
+          "start": 51.17,
+          "end": 51.49
+        },
+        {
+          "id": "p13w2",
+          "text": "Cezaman",
+          "start": 51.73,
+          "end": 52.01
+        },
+        {
+          "id": "p13w3",
+          "text": "laughed.",
+          "start": 52.01,
+          "end": 52.29
+        },
+        {
+          "id": "p13w4",
+          "text": "He",
+          "start": 53.23,
+          "end": 53.29
+        },
+        {
+          "id": "p13w5",
+          "text": "went",
+          "start": 53.29,
+          "end": 53.47
+        },
+        {
+          "id": "p13w6",
+          "text": "to",
+          "start": 53.47,
+          "end": 53.71
+        },
+        {
+          "id": "p13w7",
+          "text": "Ms.",
+          "start": 53.71,
+          "end": 53.91
+        },
+        {
+          "id": "p13w8",
+          "text": "Rottenmeyer",
+          "start": 54.19,
+          "end": 54.59
+        },
+        {
+          "id": "p13w9",
+          "text": "and",
+          "start": 54.59,
+          "end": 54.85
+        },
+        {
+          "id": "p13w10",
+          "text": "said.",
+          "start": 54.85,
+          "end": 55.13
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 55.93,
+      "end": 58.29,
+      "text": "Heidi will stay. She is good for Clara.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "Heidi",
+          "start": 55.93,
+          "end": 56.27
+        },
+        {
+          "id": "p14w2",
+          "text": "will",
+          "start": 56.27,
+          "end": 56.49
+        },
+        {
+          "id": "p14w3",
+          "text": "stay.",
+          "start": 56.49,
+          "end": 56.75
+        },
+        {
+          "id": "p14w4",
+          "text": "She",
+          "start": 57.35,
+          "end": 57.43
+        },
+        {
+          "id": "p14w5",
+          "text": "is",
+          "start": 57.43,
+          "end": 57.59
+        },
+        {
+          "id": "p14w6",
+          "text": "good",
+          "start": 57.59,
+          "end": 57.79
+        },
+        {
+          "id": "p14w7",
+          "text": "for",
+          "start": 57.79,
+          "end": 58.03
+        },
+        {
+          "id": "p14w8",
+          "text": "Clara.",
+          "start": 58.03,
+          "end": 58.29
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 66.96,
+      "end": 71.24,
+      "text": "A few days later, Mr. Cezaman left on another business travel.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "A",
+          "start": 66.96,
+          "end": 67.26
+        },
+        {
+          "id": "p15w2",
+          "text": "few",
+          "start": 67.26,
+          "end": 67.48
+        },
+        {
+          "id": "p15w3",
+          "text": "days",
+          "start": 67.48,
+          "end": 67.68
+        },
+        {
+          "id": "p15w4",
+          "text": "later,",
+          "start": 67.68,
+          "end": 68.12
+        },
+        {
+          "id": "p15w5",
+          "text": "Mr.",
+          "start": 68.46,
+          "end": 68.72
+        },
+        {
+          "id": "p15w6",
+          "text": "Cezaman",
+          "start": 69.14,
+          "end": 69.42
+        },
+        {
+          "id": "p15w7",
+          "text": "left",
+          "start": 69.42,
+          "end": 69.78
+        },
+        {
+          "id": "p15w8",
+          "text": "on",
+          "start": 69.78,
+          "end": 70.12
+        },
+        {
+          "id": "p15w9",
+          "text": "another",
+          "start": 70.12,
+          "end": 70.4
+        },
+        {
+          "id": "p15w10",
+          "text": "business",
+          "start": 70.4,
+          "end": 70.82
+        },
+        {
+          "id": "p15w11",
+          "text": "travel.",
+          "start": 70.82,
+          "end": 71.24
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 71.24,
+      "end": 75.48,
+      "text": "But his mother, Grandma Ma Cezaman, came to visit.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "But",
+          "start": 71.24,
+          "end": 72.28
+        },
+        {
+          "id": "p16w2",
+          "text": "his",
+          "start": 72.28,
+          "end": 72.44
+        },
+        {
+          "id": "p16w3",
+          "text": "mother,",
+          "start": 72.44,
+          "end": 72.78
+        },
+        {
+          "id": "p16w4",
+          "text": "Grandma",
+          "start": 73.16,
+          "end": 73.62
+        },
+        {
+          "id": "p16w5",
+          "text": "Ma",
+          "start": 73.62,
+          "end": 73.76
+        },
+        {
+          "id": "p16w6",
+          "text": "Cezaman,",
+          "start": 73.76,
+          "end": 74.38
+        },
+        {
+          "id": "p16w7",
+          "text": "came",
+          "start": 74.74,
+          "end": 75.06
+        },
+        {
+          "id": "p16w8",
+          "text": "to",
+          "start": 75.06,
+          "end": 75.28
+        },
+        {
+          "id": "p16w9",
+          "text": "visit.",
+          "start": 75.28,
+          "end": 75.48
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 76.58,
+      "end": 78.8,
+      "text": "Her face seemed very kind to Heidi.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "Her",
+          "start": 76.58,
+          "end": 76.78
+        },
+        {
+          "id": "p17w2",
+          "text": "face",
+          "start": 76.78,
+          "end": 77.08
+        },
+        {
+          "id": "p17w3",
+          "text": "seemed",
+          "start": 77.08,
+          "end": 77.46
+        },
+        {
+          "id": "p17w4",
+          "text": "very",
+          "start": 77.46,
+          "end": 77.82
+        },
+        {
+          "id": "p17w5",
+          "text": "kind",
+          "start": 77.82,
+          "end": 78.3
+        },
+        {
+          "id": "p17w6",
+          "text": "to",
+          "start": 78.3,
+          "end": 78.6
+        },
+        {
+          "id": "p17w7",
+          "text": "Heidi.",
+          "start": 78.6,
+          "end": 78.8
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "start": 79.56,
+      "end": 81.82,
+      "text": "Heidi liked Grandma Ma very much.",
+      "words": [
+        {
+          "id": "p18w1",
+          "text": "Heidi",
+          "start": 79.56,
+          "end": 80.04
+        },
+        {
+          "id": "p18w2",
+          "text": "liked",
+          "start": 80.04,
+          "end": 80.36
+        },
+        {
+          "id": "p18w3",
+          "text": "Grandma",
+          "start": 80.36,
+          "end": 80.94
+        },
+        {
+          "id": "p18w4",
+          "text": "Ma",
+          "start": 80.94,
+          "end": 81.08
+        },
+        {
+          "id": "p18w5",
+          "text": "very",
+          "start": 81.08,
+          "end": 81.48
+        },
+        {
+          "id": "p18w6",
+          "text": "much.",
+          "start": 81.48,
+          "end": 81.82
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "start": 82.87,
+      "end": 85.77,
+      "text": "One day, Grandma Ma showed Heidi a book.",
+      "words": [
+        {
+          "id": "p19w1",
+          "text": "One",
+          "start": 82.87,
+          "end": 83.37
+        },
+        {
+          "id": "p19w2",
+          "text": "day,",
+          "start": 83.37,
+          "end": 83.65
+        },
+        {
+          "id": "p19w3",
+          "text": "Grandma",
+          "start": 84.01,
+          "end": 84.45
+        },
+        {
+          "id": "p19w4",
+          "text": "Ma",
+          "start": 84.45,
+          "end": 84.61
+        },
+        {
+          "id": "p19w5",
+          "text": "showed",
+          "start": 84.61,
+          "end": 84.93
+        },
+        {
+          "id": "p19w6",
+          "text": "Heidi",
+          "start": 84.93,
+          "end": 85.39
+        },
+        {
+          "id": "p19w7",
+          "text": "a",
+          "start": 85.39,
+          "end": 85.55
+        },
+        {
+          "id": "p19w8",
+          "text": "book.",
+          "start": 85.55,
+          "end": 85.77
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "start": 86.59,
+      "end": 88.59,
+      "text": "She wanted to help Heidi with her reading.",
+      "words": [
+        {
+          "id": "p20w1",
+          "text": "She",
+          "start": 86.59,
+          "end": 86.81
+        },
+        {
+          "id": "p20w2",
+          "text": "wanted",
+          "start": 86.81,
+          "end": 87.07
+        },
+        {
+          "id": "p20w3",
+          "text": "to",
+          "start": 87.07,
+          "end": 87.35
+        },
+        {
+          "id": "p20w4",
+          "text": "help",
+          "start": 87.35,
+          "end": 87.57
+        },
+        {
+          "id": "p20w5",
+          "text": "Heidi",
+          "start": 87.57,
+          "end": 87.91
+        },
+        {
+          "id": "p20w6",
+          "text": "with",
+          "start": 87.91,
+          "end": 88.19
+        },
+        {
+          "id": "p20w7",
+          "text": "her",
+          "start": 88.19,
+          "end": 88.37
+        },
+        {
+          "id": "p20w8",
+          "text": "reading.",
+          "start": 88.37,
+          "end": 88.59
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "start": 95.34,
+      "end": 98.96,
+      "text": "In the book, there is a picture of a boy with goats on a mountain.",
+      "words": [
+        {
+          "id": "p21w1",
+          "text": "In",
+          "start": 95.34,
+          "end": 95.56
+        },
+        {
+          "id": "p21w2",
+          "text": "the",
+          "start": 95.56,
+          "end": 95.74
+        },
+        {
+          "id": "p21w3",
+          "text": "book,",
+          "start": 95.74,
+          "end": 95.98
+        },
+        {
+          "id": "p21w4",
+          "text": "there",
+          "start": 96.18,
+          "end": 96.32
+        },
+        {
+          "id": "p21w5",
+          "text": "is",
+          "start": 96.32,
+          "end": 96.46
+        },
+        {
+          "id": "p21w6",
+          "text": "a",
+          "start": 96.46,
+          "end": 96.56
+        },
+        {
+          "id": "p21w7",
+          "text": "picture",
+          "start": 96.56,
+          "end": 96.88
+        },
+        {
+          "id": "p21w8",
+          "text": "of",
+          "start": 96.88,
+          "end": 97.12
+        },
+        {
+          "id": "p21w9",
+          "text": "a",
+          "start": 97.12,
+          "end": 97.22
+        },
+        {
+          "id": "p21w10",
+          "text": "boy",
+          "start": 97.22,
+          "end": 97.52
+        },
+        {
+          "id": "p21w11",
+          "text": "with",
+          "start": 97.52,
+          "end": 97.74
+        },
+        {
+          "id": "p21w12",
+          "text": "goats",
+          "start": 97.74,
+          "end": 98.0
+        },
+        {
+          "id": "p21w13",
+          "text": "on",
+          "start": 98.0,
+          "end": 98.54
+        },
+        {
+          "id": "p21w14",
+          "text": "a",
+          "start": 98.54,
+          "end": 98.66
+        },
+        {
+          "id": "p21w15",
+          "text": "mountain.",
+          "start": 98.66,
+          "end": 98.96
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "start": 99.9,
+      "end": 103.92,
+      "text": "The picture reminded Heidi of Peter, so she began to cry.",
+      "words": [
+        {
+          "id": "p22w1",
+          "text": "The",
+          "start": 99.9,
+          "end": 100.22
+        },
+        {
+          "id": "p22w2",
+          "text": "picture",
+          "start": 100.22,
+          "end": 100.58
+        },
+        {
+          "id": "p22w3",
+          "text": "reminded",
+          "start": 100.58,
+          "end": 100.96
+        },
+        {
+          "id": "p22w4",
+          "text": "Heidi",
+          "start": 100.96,
+          "end": 101.46
+        },
+        {
+          "id": "p22w5",
+          "text": "of",
+          "start": 101.46,
+          "end": 101.76
+        },
+        {
+          "id": "p22w6",
+          "text": "Peter,",
+          "start": 101.76,
+          "end": 101.98
+        },
+        {
+          "id": "p22w7",
+          "text": "so",
+          "start": 102.56,
+          "end": 102.86
+        },
+        {
+          "id": "p22w8",
+          "text": "she",
+          "start": 102.86,
+          "end": 103.06
+        },
+        {
+          "id": "p22w9",
+          "text": "began",
+          "start": 103.06,
+          "end": 103.34
+        },
+        {
+          "id": "p22w10",
+          "text": "to",
+          "start": 103.34,
+          "end": 103.66
+        },
+        {
+          "id": "p22w11",
+          "text": "cry.",
+          "start": 103.66,
+          "end": 103.92
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "start": 104.6,
+      "end": 111.1,
+      "text": "She was very homesick. Grandma told Heidi she could have the book when she learned to read.",
+      "words": [
+        {
+          "id": "p23w1",
+          "text": "She",
+          "start": 104.6,
+          "end": 105.16
+        },
+        {
+          "id": "p23w2",
+          "text": "was",
+          "start": 105.16,
+          "end": 105.34
+        },
+        {
+          "id": "p23w3",
+          "text": "very",
+          "start": 105.34,
+          "end": 105.74
+        },
+        {
+          "id": "p23w4",
+          "text": "homesick.",
+          "start": 105.74,
+          "end": 106.48
+        },
+        {
+          "id": "p23w5",
+          "text": "Grandma",
+          "start": 107.18,
+          "end": 107.6
+        },
+        {
+          "id": "p23w6",
+          "text": "told",
+          "start": 107.6,
+          "end": 108.02
+        },
+        {
+          "id": "p23w7",
+          "text": "Heidi",
+          "start": 108.02,
+          "end": 108.48
+        },
+        {
+          "id": "p23w8",
+          "text": "she",
+          "start": 108.48,
+          "end": 109.22
+        },
+        {
+          "id": "p23w9",
+          "text": "could",
+          "start": 109.22,
+          "end": 109.42
+        },
+        {
+          "id": "p23w10",
+          "text": "have",
+          "start": 109.42,
+          "end": 109.62
+        },
+        {
+          "id": "p23w11",
+          "text": "the",
+          "start": 109.62,
+          "end": 109.82
+        },
+        {
+          "id": "p23w12",
+          "text": "book",
+          "start": 109.82,
+          "end": 110.02
+        },
+        {
+          "id": "p23w13",
+          "text": "when",
+          "start": 110.02,
+          "end": 110.26
+        },
+        {
+          "id": "p23w14",
+          "text": "she",
+          "start": 110.26,
+          "end": 110.42
+        },
+        {
+          "id": "p23w15",
+          "text": "learned",
+          "start": 110.42,
+          "end": 110.62
+        },
+        {
+          "id": "p23w16",
+          "text": "to",
+          "start": 110.62,
+          "end": 110.86
+        },
+        {
+          "id": "p23w17",
+          "text": "read.",
+          "start": 110.86,
+          "end": 111.1
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "start": 112.45,
+      "end": 115.29,
+      "text": "From then on, Heidi tried very hard to read.",
+      "words": [
+        {
+          "id": "p24w1",
+          "text": "From",
+          "start": 112.45,
+          "end": 112.59
+        },
+        {
+          "id": "p24w2",
+          "text": "then",
+          "start": 112.59,
+          "end": 112.79
+        },
+        {
+          "id": "p24w3",
+          "text": "on,",
+          "start": 112.79,
+          "end": 113.05
+        },
+        {
+          "id": "p24w4",
+          "text": "Heidi",
+          "start": 113.37,
+          "end": 113.53
+        },
+        {
+          "id": "p24w5",
+          "text": "tried",
+          "start": 113.53,
+          "end": 113.91
+        },
+        {
+          "id": "p24w6",
+          "text": "very",
+          "start": 113.91,
+          "end": 114.33
+        },
+        {
+          "id": "p24w7",
+          "text": "hard",
+          "start": 114.33,
+          "end": 114.83
+        },
+        {
+          "id": "p24w8",
+          "text": "to",
+          "start": 114.83,
+          "end": 115.05
+        },
+        {
+          "id": "p24w9",
+          "text": "read.",
+          "start": 115.05,
+          "end": 115.29
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "start": 116.26,
+      "end": 120.12,
+      "text": "That night, she prayed to God to help her read and go home.",
+      "words": [
+        {
+          "id": "p25w1",
+          "text": "That",
+          "start": 116.26,
+          "end": 116.5
+        },
+        {
+          "id": "p25w2",
+          "text": "night,",
+          "start": 116.5,
+          "end": 116.8
+        },
+        {
+          "id": "p25w3",
+          "text": "she",
+          "start": 117.06,
+          "end": 117.1
+        },
+        {
+          "id": "p25w4",
+          "text": "prayed",
+          "start": 117.1,
+          "end": 117.42
+        },
+        {
+          "id": "p25w5",
+          "text": "to",
+          "start": 117.42,
+          "end": 117.74
+        },
+        {
+          "id": "p25w6",
+          "text": "God",
+          "start": 117.74,
+          "end": 118.02
+        },
+        {
+          "id": "p25w7",
+          "text": "to",
+          "start": 118.02,
+          "end": 118.28
+        },
+        {
+          "id": "p25w8",
+          "text": "help",
+          "start": 118.28,
+          "end": 118.52
+        },
+        {
+          "id": "p25w9",
+          "text": "her",
+          "start": 118.52,
+          "end": 118.72
+        },
+        {
+          "id": "p25w10",
+          "text": "read",
+          "start": 118.72,
+          "end": 118.98
+        },
+        {
+          "id": "p25w11",
+          "text": "and",
+          "start": 118.98,
+          "end": 119.6
+        },
+        {
+          "id": "p25w12",
+          "text": "go",
+          "start": 119.6,
+          "end": 119.78
+        },
+        {
+          "id": "p25w13",
+          "text": "home.",
+          "start": 119.78,
+          "end": 120.12
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "start": 123.35,
+      "end": 126.79,
+      "text": "After a week, Grandma Ma heard Heidi reading to Clara.",
+      "words": [
+        {
+          "id": "p26w1",
+          "text": "After",
+          "start": 123.35,
+          "end": 123.69
+        },
+        {
+          "id": "p26w2",
+          "text": "a",
+          "start": 123.69,
+          "end": 123.87
+        },
+        {
+          "id": "p26w3",
+          "text": "week,",
+          "start": 123.87,
+          "end": 124.11
+        },
+        {
+          "id": "p26w4",
+          "text": "Grandma",
+          "start": 124.69,
+          "end": 124.89
+        },
+        {
+          "id": "p26w5",
+          "text": "Ma",
+          "start": 124.89,
+          "end": 125.01
+        },
+        {
+          "id": "p26w6",
+          "text": "heard",
+          "start": 125.01,
+          "end": 125.51
+        },
+        {
+          "id": "p26w7",
+          "text": "Heidi",
+          "start": 125.51,
+          "end": 125.83
+        },
+        {
+          "id": "p26w8",
+          "text": "reading",
+          "start": 125.83,
+          "end": 126.21
+        },
+        {
+          "id": "p26w9",
+          "text": "to",
+          "start": 126.21,
+          "end": 126.49
+        },
+        {
+          "id": "p26w10",
+          "text": "Clara.",
+          "start": 126.49,
+          "end": 126.79
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "start": 127.61,
+      "end": 129.97,
+      "text": "She gladly gave Heidi the picture book.",
+      "words": [
+        {
+          "id": "p27w1",
+          "text": "She",
+          "start": 127.61,
+          "end": 127.97
+        },
+        {
+          "id": "p27w2",
+          "text": "gladly",
+          "start": 127.97,
+          "end": 128.31
+        },
+        {
+          "id": "p27w3",
+          "text": "gave",
+          "start": 128.31,
+          "end": 128.83
+        },
+        {
+          "id": "p27w4",
+          "text": "Heidi",
+          "start": 128.83,
+          "end": 129.11
+        },
+        {
+          "id": "p27w5",
+          "text": "the",
+          "start": 129.11,
+          "end": 129.39
+        },
+        {
+          "id": "p27w6",
+          "text": "picture",
+          "start": 129.39,
+          "end": 129.67
+        },
+        {
+          "id": "p27w7",
+          "text": "book.",
+          "start": 129.67,
+          "end": 129.97
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "start": 131.03,
+      "end": 133.39,
+      "text": "It was time for Grandma Ma to leave the house.",
+      "words": [
+        {
+          "id": "p28w1",
+          "text": "It",
+          "start": 131.03,
+          "end": 131.17
+        },
+        {
+          "id": "p28w2",
+          "text": "was",
+          "start": 131.17,
+          "end": 131.29
+        },
+        {
+          "id": "p28w3",
+          "text": "time",
+          "start": 131.29,
+          "end": 131.61
+        },
+        {
+          "id": "p28w4",
+          "text": "for",
+          "start": 131.61,
+          "end": 131.87
+        },
+        {
+          "id": "p28w5",
+          "text": "Grandma",
+          "start": 131.87,
+          "end": 132.31
+        },
+        {
+          "id": "p28w6",
+          "text": "Ma",
+          "start": 132.31,
+          "end": 132.45
+        },
+        {
+          "id": "p28w7",
+          "text": "to",
+          "start": 132.45,
+          "end": 132.71
+        },
+        {
+          "id": "p28w8",
+          "text": "leave",
+          "start": 132.71,
+          "end": 132.91
+        },
+        {
+          "id": "p28w9",
+          "text": "the",
+          "start": 132.91,
+          "end": 133.11
+        },
+        {
+          "id": "p28w10",
+          "text": "house.",
+          "start": 133.11,
+          "end": 133.39
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "start": 133.39,
+      "end": 147.37,
+      "text": "After she left, something strange started happening at night.",
+      "words": [
+        {
+          "id": "p29w1",
+          "text": "After",
+          "start": 133.39,
+          "end": 134.35
+        },
+        {
+          "id": "p29w2",
+          "text": "she",
+          "start": 143.89,
+          "end": 144.27
+        },
+        {
+          "id": "p29w3",
+          "text": "left,",
+          "start": 144.27,
+          "end": 144.53
+        },
+        {
+          "id": "p29w4",
+          "text": "something",
+          "start": 144.87,
+          "end": 145.37
+        },
+        {
+          "id": "p29w5",
+          "text": "strange",
+          "start": 145.37,
+          "end": 145.75
+        },
+        {
+          "id": "p29w6",
+          "text": "started",
+          "start": 145.75,
+          "end": 146.35
+        },
+        {
+          "id": "p29w7",
+          "text": "happening",
+          "start": 146.35,
+          "end": 146.89
+        },
+        {
+          "id": "p29w8",
+          "text": "at",
+          "start": 146.89,
+          "end": 147.13
+        },
+        {
+          "id": "p29w9",
+          "text": "night.",
+          "start": 147.13,
+          "end": 147.37
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "start": 148.37,
+      "end": 151.19,
+      "text": "Every morning, the front door was wide open.",
+      "words": [
+        {
+          "id": "p30w1",
+          "text": "Every",
+          "start": 148.37,
+          "end": 148.75
+        },
+        {
+          "id": "p30w2",
+          "text": "morning,",
+          "start": 148.75,
+          "end": 149.13
+        },
+        {
+          "id": "p30w3",
+          "text": "the",
+          "start": 149.45,
+          "end": 149.63
+        },
+        {
+          "id": "p30w4",
+          "text": "front",
+          "start": 149.63,
+          "end": 149.89
+        },
+        {
+          "id": "p30w5",
+          "text": "door",
+          "start": 149.89,
+          "end": 150.23
+        },
+        {
+          "id": "p30w6",
+          "text": "was",
+          "start": 150.23,
+          "end": 150.49
+        },
+        {
+          "id": "p30w7",
+          "text": "wide",
+          "start": 150.49,
+          "end": 150.77
+        },
+        {
+          "id": "p30w8",
+          "text": "open.",
+          "start": 150.77,
+          "end": 151.19
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "start": 152.03,
+      "end": 154.67,
+      "text": "Sebastian locked the door tight every evening.",
+      "words": [
+        {
+          "id": "p31w1",
+          "text": "Sebastian",
+          "start": 152.03,
+          "end": 152.25
+        },
+        {
+          "id": "p31w2",
+          "text": "locked",
+          "start": 152.25,
+          "end": 152.91
+        },
+        {
+          "id": "p31w3",
+          "text": "the",
+          "start": 152.91,
+          "end": 153.21
+        },
+        {
+          "id": "p31w4",
+          "text": "door",
+          "start": 153.21,
+          "end": 153.41
+        },
+        {
+          "id": "p31w5",
+          "text": "tight",
+          "start": 153.41,
+          "end": 153.79
+        },
+        {
+          "id": "p31w6",
+          "text": "every",
+          "start": 153.79,
+          "end": 154.17
+        },
+        {
+          "id": "p31w7",
+          "text": "evening.",
+          "start": 154.17,
+          "end": 154.67
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "start": 155.66,
+      "end": 159.08,
+      "text": "But in the morning, it was open. It was a mystery.",
+      "words": [
+        {
+          "id": "p32w1",
+          "text": "But",
+          "start": 155.66,
+          "end": 155.88
+        },
+        {
+          "id": "p32w2",
+          "text": "in",
+          "start": 155.88,
+          "end": 156.02
+        },
+        {
+          "id": "p32w3",
+          "text": "the",
+          "start": 156.02,
+          "end": 156.14
+        },
+        {
+          "id": "p32w4",
+          "text": "morning,",
+          "start": 156.14,
+          "end": 156.42
+        },
+        {
+          "id": "p32w5",
+          "text": "it",
+          "start": 156.82,
+          "end": 157.1
+        },
+        {
+          "id": "p32w6",
+          "text": "was",
+          "start": 157.1,
+          "end": 157.22
+        },
+        {
+          "id": "p32w7",
+          "text": "open.",
+          "start": 157.22,
+          "end": 157.54
+        },
+        {
+          "id": "p32w8",
+          "text": "It",
+          "start": 158.4,
+          "end": 158.52
+        },
+        {
+          "id": "p32w9",
+          "text": "was",
+          "start": 158.52,
+          "end": 158.66
+        },
+        {
+          "id": "p32w10",
+          "text": "a",
+          "start": 158.66,
+          "end": 158.78
+        },
+        {
+          "id": "p32w11",
+          "text": "mystery.",
+          "start": 158.78,
+          "end": 159.08
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "start": 160.24,
+      "end": 164.62,
+      "text": "One night, Sebastian and another servant stayed up to watch the door.",
+      "words": [
+        {
+          "id": "p33w1",
+          "text": "One",
+          "start": 160.24,
+          "end": 160.3
+        },
+        {
+          "id": "p33w2",
+          "text": "night,",
+          "start": 160.3,
+          "end": 160.62
+        },
+        {
+          "id": "p33w3",
+          "text": "Sebastian",
+          "start": 161.06,
+          "end": 161.74
+        },
+        {
+          "id": "p33w4",
+          "text": "and",
+          "start": 161.74,
+          "end": 162.18
+        },
+        {
+          "id": "p33w5",
+          "text": "another",
+          "start": 162.18,
+          "end": 162.48
+        },
+        {
+          "id": "p33w6",
+          "text": "servant",
+          "start": 162.48,
+          "end": 162.98
+        },
+        {
+          "id": "p33w7",
+          "text": "stayed",
+          "start": 162.98,
+          "end": 163.34
+        },
+        {
+          "id": "p33w8",
+          "text": "up",
+          "start": 163.34,
+          "end": 163.6
+        },
+        {
+          "id": "p33w9",
+          "text": "to",
+          "start": 163.6,
+          "end": 163.84
+        },
+        {
+          "id": "p33w10",
+          "text": "watch",
+          "start": 163.84,
+          "end": 164.1
+        },
+        {
+          "id": "p33w11",
+          "text": "the",
+          "start": 164.1,
+          "end": 164.38
+        },
+        {
+          "id": "p33w12",
+          "text": "door.",
+          "start": 164.38,
+          "end": 164.62
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "start": 165.92,
+      "end": 173.32,
+      "text": "Then, the wind blew the candle out. The house was totally dark.",
+      "words": [
+        {
+          "id": "p34w1",
+          "text": "Then,",
+          "start": 165.92,
+          "end": 166.06
+        },
+        {
+          "id": "p34w2",
+          "text": "the",
+          "start": 166.36,
+          "end": 166.58
+        },
+        {
+          "id": "p34w3",
+          "text": "wind",
+          "start": 166.58,
+          "end": 166.84
+        },
+        {
+          "id": "p34w4",
+          "text": "blew",
+          "start": 166.84,
+          "end": 167.22
+        },
+        {
+          "id": "p34w5",
+          "text": "the",
+          "start": 167.22,
+          "end": 167.4
+        },
+        {
+          "id": "p34w6",
+          "text": "candle",
+          "start": 167.4,
+          "end": 167.64
+        },
+        {
+          "id": "p34w7",
+          "text": "out.",
+          "start": 167.64,
+          "end": 167.98
+        },
+        {
+          "id": "p34w8",
+          "text": "The",
+          "start": 171.78,
+          "end": 171.88
+        },
+        {
+          "id": "p34w9",
+          "text": "house",
+          "start": 171.88,
+          "end": 172.12
+        },
+        {
+          "id": "p34w10",
+          "text": "was",
+          "start": 172.12,
+          "end": 172.42
+        },
+        {
+          "id": "p34w11",
+          "text": "totally",
+          "start": 172.42,
+          "end": 172.9
+        },
+        {
+          "id": "p34w12",
+          "text": "dark.",
+          "start": 172.9,
+          "end": 173.32
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "start": 173.32,
+      "end": 179.94,
+      "text": "And the door was open. Sebastian saw a small person in white run up the stairs.",
+      "words": [
+        {
+          "id": "p35w1",
+          "text": "And",
+          "start": 173.32,
+          "end": 174.08
+        },
+        {
+          "id": "p35w2",
+          "text": "the",
+          "start": 174.08,
+          "end": 174.2
+        },
+        {
+          "id": "p35w3",
+          "text": "door",
+          "start": 174.2,
+          "end": 174.4
+        },
+        {
+          "id": "p35w4",
+          "text": "was",
+          "start": 174.4,
+          "end": 174.58
+        },
+        {
+          "id": "p35w5",
+          "text": "open.",
+          "start": 174.58,
+          "end": 174.92
+        },
+        {
+          "id": "p35w6",
+          "text": "Sebastian",
+          "start": 175.94,
+          "end": 176.32
+        },
+        {
+          "id": "p35w7",
+          "text": "saw",
+          "start": 176.32,
+          "end": 176.98
+        },
+        {
+          "id": "p35w8",
+          "text": "a",
+          "start": 176.98,
+          "end": 177.28
+        },
+        {
+          "id": "p35w9",
+          "text": "small",
+          "start": 177.28,
+          "end": 177.56
+        },
+        {
+          "id": "p35w10",
+          "text": "person",
+          "start": 177.56,
+          "end": 178.06
+        },
+        {
+          "id": "p35w11",
+          "text": "in",
+          "start": 178.06,
+          "end": 178.28
+        },
+        {
+          "id": "p35w12",
+          "text": "white",
+          "start": 178.28,
+          "end": 178.52
+        },
+        {
+          "id": "p35w13",
+          "text": "run",
+          "start": 178.52,
+          "end": 179.28
+        },
+        {
+          "id": "p35w14",
+          "text": "up",
+          "start": 179.28,
+          "end": 179.5
+        },
+        {
+          "id": "p35w15",
+          "text": "the",
+          "start": 179.5,
+          "end": 179.66
+        },
+        {
+          "id": "p35w16",
+          "text": "stairs.",
+          "start": 179.66,
+          "end": 179.94
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "start": 181.5,
+      "end": 185.98,
+      "text": "He thought it was a ghost. He told everyone there was a ghost in the house.",
+      "words": [
+        {
+          "id": "p36w1",
+          "text": "He",
+          "start": 181.5,
+          "end": 181.74
+        },
+        {
+          "id": "p36w2",
+          "text": "thought",
+          "start": 181.74,
+          "end": 182.0
+        },
+        {
+          "id": "p36w3",
+          "text": "it",
+          "start": 182.0,
+          "end": 182.12
+        },
+        {
+          "id": "p36w4",
+          "text": "was",
+          "start": 182.12,
+          "end": 182.24
+        },
+        {
+          "id": "p36w5",
+          "text": "a",
+          "start": 182.24,
+          "end": 182.36
+        },
+        {
+          "id": "p36w6",
+          "text": "ghost.",
+          "start": 182.36,
+          "end": 182.66
+        },
+        {
+          "id": "p36w7",
+          "text": "He",
+          "start": 183.44,
+          "end": 183.72
+        },
+        {
+          "id": "p36w8",
+          "text": "told",
+          "start": 183.72,
+          "end": 183.9
+        },
+        {
+          "id": "p36w9",
+          "text": "everyone",
+          "start": 183.9,
+          "end": 184.3
+        },
+        {
+          "id": "p36w10",
+          "text": "there",
+          "start": 184.3,
+          "end": 184.76
+        },
+        {
+          "id": "p36w11",
+          "text": "was",
+          "start": 184.76,
+          "end": 184.88
+        },
+        {
+          "id": "p36w12",
+          "text": "a",
+          "start": 184.88,
+          "end": 185.02
+        },
+        {
+          "id": "p36w13",
+          "text": "ghost",
+          "start": 185.02,
+          "end": 185.3
+        },
+        {
+          "id": "p36w14",
+          "text": "in",
+          "start": 185.3,
+          "end": 185.6
+        },
+        {
+          "id": "p36w15",
+          "text": "the",
+          "start": 185.6,
+          "end": 185.7
+        },
+        {
+          "id": "p36w16",
+          "text": "house.",
+          "start": 185.7,
+          "end": 185.98
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "start": 190.23,
+      "end": 198.45,
+      "text": "Two days later, Mr. Cezaman came home. He and his friend, Dr. Classen, stayed up to watch the door.",
+      "words": [
+        {
+          "id": "p37w1",
+          "text": "Two",
+          "start": 190.23,
+          "end": 190.51
+        },
+        {
+          "id": "p37w2",
+          "text": "days",
+          "start": 190.51,
+          "end": 190.79
+        },
+        {
+          "id": "p37w3",
+          "text": "later,",
+          "start": 190.79,
+          "end": 191.37
+        },
+        {
+          "id": "p37w4",
+          "text": "Mr.",
+          "start": 191.59,
+          "end": 192.03
+        },
+        {
+          "id": "p37w5",
+          "text": "Cezaman",
+          "start": 192.29,
+          "end": 192.57
+        },
+        {
+          "id": "p37w6",
+          "text": "came",
+          "start": 192.57,
+          "end": 192.87
+        },
+        {
+          "id": "p37w7",
+          "text": "home.",
+          "start": 192.87,
+          "end": 193.27
+        },
+        {
+          "id": "p37w8",
+          "text": "He",
+          "start": 194.07,
+          "end": 194.31
+        },
+        {
+          "id": "p37w9",
+          "text": "and",
+          "start": 194.31,
+          "end": 194.63
+        },
+        {
+          "id": "p37w10",
+          "text": "his",
+          "start": 194.63,
+          "end": 194.77
+        },
+        {
+          "id": "p37w11",
+          "text": "friend,",
+          "start": 194.77,
+          "end": 195.03
+        },
+        {
+          "id": "p37w12",
+          "text": "Dr.",
+          "start": 195.39,
+          "end": 195.87
+        },
+        {
+          "id": "p37w13",
+          "text": "Classen,",
+          "start": 196.09,
+          "end": 196.47
+        },
+        {
+          "id": "p37w14",
+          "text": "stayed",
+          "start": 196.97,
+          "end": 197.11
+        },
+        {
+          "id": "p37w15",
+          "text": "up",
+          "start": 197.11,
+          "end": 197.41
+        },
+        {
+          "id": "p37w16",
+          "text": "to",
+          "start": 197.41,
+          "end": 197.61
+        },
+        {
+          "id": "p37w17",
+          "text": "watch",
+          "start": 197.61,
+          "end": 197.85
+        },
+        {
+          "id": "p37w18",
+          "text": "the",
+          "start": 197.85,
+          "end": 198.15
+        },
+        {
+          "id": "p37w19",
+          "text": "door.",
+          "start": 198.15,
+          "end": 198.45
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "start": 199.11,
+      "end": 204.59,
+      "text": "Late that night, they heard the door opening. There was a small person in white clothes.",
+      "words": [
+        {
+          "id": "p38w1",
+          "text": "Late",
+          "start": 199.11,
+          "end": 199.63
+        },
+        {
+          "id": "p38w2",
+          "text": "that",
+          "start": 199.63,
+          "end": 199.91
+        },
+        {
+          "id": "p38w3",
+          "text": "night,",
+          "start": 199.91,
+          "end": 200.25
+        },
+        {
+          "id": "p38w4",
+          "text": "they",
+          "start": 200.61,
+          "end": 200.73
+        },
+        {
+          "id": "p38w5",
+          "text": "heard",
+          "start": 200.73,
+          "end": 200.97
+        },
+        {
+          "id": "p38w6",
+          "text": "the",
+          "start": 200.97,
+          "end": 201.23
+        },
+        {
+          "id": "p38w7",
+          "text": "door",
+          "start": 201.23,
+          "end": 201.47
+        },
+        {
+          "id": "p38w8",
+          "text": "opening.",
+          "start": 201.47,
+          "end": 201.91
+        },
+        {
+          "id": "p38w9",
+          "text": "There",
+          "start": 202.61,
+          "end": 202.69
+        },
+        {
+          "id": "p38w10",
+          "text": "was",
+          "start": 202.69,
+          "end": 202.81
+        },
+        {
+          "id": "p38w11",
+          "text": "a",
+          "start": 202.81,
+          "end": 202.97
+        },
+        {
+          "id": "p38w12",
+          "text": "small",
+          "start": 202.97,
+          "end": 203.25
+        },
+        {
+          "id": "p38w13",
+          "text": "person",
+          "start": 203.25,
+          "end": 203.85
+        },
+        {
+          "id": "p38w14",
+          "text": "in",
+          "start": 203.85,
+          "end": 204.05
+        },
+        {
+          "id": "p38w15",
+          "text": "white",
+          "start": 204.05,
+          "end": 204.29
+        },
+        {
+          "id": "p38w16",
+          "text": "clothes.",
+          "start": 204.29,
+          "end": 204.59
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "start": 204.59,
+      "end": 206.21,
+      "text": "It was Heidi.",
+      "words": [
+        {
+          "id": "p39w1",
+          "text": "It",
+          "start": 204.59,
+          "end": 205.77
+        },
+        {
+          "id": "p39w2",
+          "text": "was",
+          "start": 205.77,
+          "end": 205.93
+        },
+        {
+          "id": "p39w3",
+          "text": "Heidi.",
+          "start": 205.93,
+          "end": 206.21
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "start": 206.93,
+      "end": 208.15,
+      "text": "What are you doing?",
+      "words": [
+        {
+          "id": "p40w1",
+          "text": "What",
+          "start": 206.93,
+          "end": 207.47
+        },
+        {
+          "id": "p40w2",
+          "text": "are",
+          "start": 207.47,
+          "end": 207.63
+        },
+        {
+          "id": "p40w3",
+          "text": "you",
+          "start": 207.63,
+          "end": 207.79
+        },
+        {
+          "id": "p40w4",
+          "text": "doing?",
+          "start": 207.79,
+          "end": 208.15
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "start": 208.78,
+      "end": 212.2,
+      "text": "asked Mr. Cezaman. Heidi looked confused.",
+      "words": [
+        {
+          "id": "p41w1",
+          "text": "asked",
+          "start": 208.78,
+          "end": 209.46
+        },
+        {
+          "id": "p41w2",
+          "text": "Mr.",
+          "start": 209.46,
+          "end": 209.64
+        },
+        {
+          "id": "p41w3",
+          "text": "Cezaman.",
+          "start": 209.98,
+          "end": 210.24
+        },
+        {
+          "id": "p41w4",
+          "text": "Heidi",
+          "start": 210.8,
+          "end": 211.48
+        },
+        {
+          "id": "p41w5",
+          "text": "looked",
+          "start": 211.48,
+          "end": 211.76
+        },
+        {
+          "id": "p41w6",
+          "text": "confused.",
+          "start": 211.76,
+          "end": 212.2
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "start": 212.96,
+      "end": 213.94,
+      "text": "I don't know.",
+      "words": [
+        {
+          "id": "p42w1",
+          "text": "I",
+          "start": 212.96,
+          "end": 213.42
+        },
+        {
+          "id": "p42w2",
+          "text": "don't",
+          "start": 213.42,
+          "end": 213.62
+        },
+        {
+          "id": "p42w3",
+          "text": "know.",
+          "start": 213.62,
+          "end": 213.94
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "start": 214.52,
+      "end": 219.42,
+      "text": "She answered. Every night, I dream I'm back with Grandfather.",
+      "words": [
+        {
+          "id": "p43w1",
+          "text": "She",
+          "start": 214.52,
+          "end": 214.82
+        },
+        {
+          "id": "p43w2",
+          "text": "answered.",
+          "start": 214.82,
+          "end": 215.12
+        },
+        {
+          "id": "p43w3",
+          "text": "Every",
+          "start": 216.0,
+          "end": 216.48
+        },
+        {
+          "id": "p43w4",
+          "text": "night,",
+          "start": 216.48,
+          "end": 216.96
+        },
+        {
+          "id": "p43w5",
+          "text": "I",
+          "start": 217.34,
+          "end": 217.6
+        },
+        {
+          "id": "p43w6",
+          "text": "dream",
+          "start": 217.6,
+          "end": 217.88
+        },
+        {
+          "id": "p43w7",
+          "text": "I'm",
+          "start": 217.88,
+          "end": 218.3
+        },
+        {
+          "id": "p43w8",
+          "text": "back",
+          "start": 218.3,
+          "end": 218.5
+        },
+        {
+          "id": "p43w9",
+          "text": "with",
+          "start": 218.5,
+          "end": 218.7
+        },
+        {
+          "id": "p43w10",
+          "text": "Grandfather.",
+          "start": 218.7,
+          "end": 219.42
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "start": 220.76,
+      "end": 222.22,
+      "text": "She's been sleepwalking.",
+      "words": [
+        {
+          "id": "p44w1",
+          "text": "She's",
+          "start": 220.76,
+          "end": 221.34
+        },
+        {
+          "id": "p44w2",
+          "text": "been",
+          "start": 221.34,
+          "end": 221.48
+        },
+        {
+          "id": "p44w3",
+          "text": "sleepwalking.",
+          "start": 221.48,
+          "end": 222.22
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "start": 222.76,
+      "end": 224.08,
+      "text": "Said Dr. Classen.",
+      "words": [
+        {
+          "id": "p45w1",
+          "text": "Said",
+          "start": 222.76,
+          "end": 223.1
+        },
+        {
+          "id": "p45w2",
+          "text": "Dr.",
+          "start": 223.1,
+          "end": 223.36
+        },
+        {
+          "id": "p45w3",
+          "text": "Classen.",
+          "start": 223.62,
+          "end": 224.08
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "start": 224.78,
+      "end": 229.34,
+      "text": "She must be very homesick. The only cure is to send her home.",
+      "words": [
+        {
+          "id": "p46w1",
+          "text": "She",
+          "start": 224.78,
+          "end": 225.18
+        },
+        {
+          "id": "p46w2",
+          "text": "must",
+          "start": 225.18,
+          "end": 225.4
+        },
+        {
+          "id": "p46w3",
+          "text": "be",
+          "start": 225.4,
+          "end": 225.66
+        },
+        {
+          "id": "p46w4",
+          "text": "very",
+          "start": 225.66,
+          "end": 225.9
+        },
+        {
+          "id": "p46w5",
+          "text": "homesick.",
+          "start": 225.9,
+          "end": 226.54
+        },
+        {
+          "id": "p46w6",
+          "text": "The",
+          "start": 227.24,
+          "end": 227.34
+        },
+        {
+          "id": "p46w7",
+          "text": "only",
+          "start": 227.34,
+          "end": 227.62
+        },
+        {
+          "id": "p46w8",
+          "text": "cure",
+          "start": 227.62,
+          "end": 227.96
+        },
+        {
+          "id": "p46w9",
+          "text": "is",
+          "start": 227.96,
+          "end": 228.34
+        },
+        {
+          "id": "p46w10",
+          "text": "to",
+          "start": 228.34,
+          "end": 228.5
+        },
+        {
+          "id": "p46w11",
+          "text": "send",
+          "start": 228.5,
+          "end": 228.8
+        },
+        {
+          "id": "p46w12",
+          "text": "her",
+          "start": 228.8,
+          "end": 229.02
+        },
+        {
+          "id": "p46w13",
+          "text": "home.",
+          "start": 229.02,
+          "end": 229.34
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "start": 229.98,
+      "end": 233.98,
+      "text": "The next day, Mr. Cezaman prepared to send Heidi home.",
+      "words": [
+        {
+          "id": "p47w1",
+          "text": "The",
+          "start": 229.98,
+          "end": 230.36
+        },
+        {
+          "id": "p47w2",
+          "text": "next",
+          "start": 230.36,
+          "end": 230.56
+        },
+        {
+          "id": "p47w3",
+          "text": "day,",
+          "start": 230.56,
+          "end": 230.9
+        },
+        {
+          "id": "p47w4",
+          "text": "Mr.",
+          "start": 231.24,
+          "end": 231.56
+        },
+        {
+          "id": "p47w5",
+          "text": "Cezaman",
+          "start": 231.68,
+          "end": 232.12
+        },
+        {
+          "id": "p47w6",
+          "text": "prepared",
+          "start": 232.12,
+          "end": 232.4
+        },
+        {
+          "id": "p47w7",
+          "text": "to",
+          "start": 232.4,
+          "end": 232.94
+        },
+        {
+          "id": "p47w8",
+          "text": "send",
+          "start": 232.94,
+          "end": 233.2
+        },
+        {
+          "id": "p47w9",
+          "text": "Heidi",
+          "start": 233.2,
+          "end": 233.52
+        },
+        {
+          "id": "p47w10",
+          "text": "home.",
+          "start": 233.52,
+          "end": 233.98
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "start": 233.98,
+      "end": 238.1,
+      "text": "Clara was very upset when she learned Heidi was leaving.",
+      "words": [
+        {
+          "id": "p48w1",
+          "text": "Clara",
+          "start": 233.98,
+          "end": 235.06
+        },
+        {
+          "id": "p48w2",
+          "text": "was",
+          "start": 235.12,
+          "end": 235.58
+        },
+        {
+          "id": "p48w3",
+          "text": "very",
+          "start": 235.58,
+          "end": 235.9
+        },
+        {
+          "id": "p48w4",
+          "text": "upset",
+          "start": 235.9,
+          "end": 236.32
+        },
+        {
+          "id": "p48w5",
+          "text": "when",
+          "start": 236.32,
+          "end": 236.72
+        },
+        {
+          "id": "p48w6",
+          "text": "she",
+          "start": 236.72,
+          "end": 236.9
+        },
+        {
+          "id": "p48w7",
+          "text": "learned",
+          "start": 236.9,
+          "end": 237.16
+        },
+        {
+          "id": "p48w8",
+          "text": "Heidi",
+          "start": 237.16,
+          "end": 237.44
+        },
+        {
+          "id": "p48w9",
+          "text": "was",
+          "start": 237.44,
+          "end": 237.72
+        },
+        {
+          "id": "p48w10",
+          "text": "leaving.",
+          "start": 237.72,
+          "end": 238.1
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "start": 238.94,
+      "end": 243.32,
+      "text": "But her father promised her she could visit Heidi with grandma very soon.",
+      "words": [
+        {
+          "id": "p49w1",
+          "text": "But",
+          "start": 238.94,
+          "end": 238.98
+        },
+        {
+          "id": "p49w2",
+          "text": "her",
+          "start": 238.98,
+          "end": 239.12
+        },
+        {
+          "id": "p49w3",
+          "text": "father",
+          "start": 239.12,
+          "end": 239.46
+        },
+        {
+          "id": "p49w4",
+          "text": "promised",
+          "start": 239.46,
+          "end": 239.96
+        },
+        {
+          "id": "p49w5",
+          "text": "her",
+          "start": 239.96,
+          "end": 240.24
+        },
+        {
+          "id": "p49w6",
+          "text": "she",
+          "start": 240.24,
+          "end": 240.7
+        },
+        {
+          "id": "p49w7",
+          "text": "could",
+          "start": 240.7,
+          "end": 240.88
+        },
+        {
+          "id": "p49w8",
+          "text": "visit",
+          "start": 240.88,
+          "end": 241.12
+        },
+        {
+          "id": "p49w9",
+          "text": "Heidi",
+          "start": 241.12,
+          "end": 241.52
+        },
+        {
+          "id": "p49w10",
+          "text": "with",
+          "start": 241.52,
+          "end": 241.8
+        },
+        {
+          "id": "p49w11",
+          "text": "grandma",
+          "start": 241.8,
+          "end": 242.04
+        },
+        {
+          "id": "p49w12",
+          "text": "very",
+          "start": 242.04,
+          "end": 242.68
+        },
+        {
+          "id": "p49w13",
+          "text": "soon.",
+          "start": 242.68,
+          "end": 243.32
+        }
+      ]
+    }
+  ]
+}

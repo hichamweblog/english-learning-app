@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans, Newsreader, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
-import { Navbar } from '@/components/Navigation/Navbar';
+import { Sidebar } from '@/components/Navigation/Sidebar';
 import { AudioPlayer } from '@/components/AudioPlayer/AudioPlayer';
+import { ClientLayoutWrapper } from '@/components/Navigation/ClientLayoutWrapper';
 
 const sans = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -24,9 +25,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'ContentFirst English — Educational Library & Player',
+  title: 'ContentFirst English — The Reading Room',
   description:
-    'Systematic English learning platform powered by authentic materials: 4,320+ audio episodes, graded readers, pronunciation courses, and reference library.',
+    'A quiet, focused environment for systematic English learning powered by authentic materials.',
 };
 
 export default function RootLayout({
@@ -40,8 +41,8 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${sans.variable} ${serif.variable} ${mono.variable}`}
     >
-      <body className="min-h-screen font-sans antialiased selection:bg-amber-200 selection:text-neutral-900 dark:selection:bg-amber-900/60 dark:selection:text-amber-100 flex flex-col">
-        {/* Accessible skip link per modern web guidance */}
+      <body className="min-h-screen font-sans antialiased bg-[hsl(var(--background))] text-[hsl(var(--foreground))] selection:bg-[hsl(36_90%_75%/0.4)] dark:selection:bg-[hsl(36_80%_40%/0.5)]">
+        {/* Accessible skip link */}
         <a
           href="#content"
           className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 z-50 px-4 py-2 bg-neutral-900 text-white dark:bg-white dark:text-neutral-900 text-xs font-semibold rounded-lg shadow-xl"
@@ -49,11 +50,13 @@ export default function RootLayout({
           Skip to main content
         </a>
 
-        <Navbar />
+        <Sidebar />
 
-        <main id="content" tabIndex={-1} className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-32 focus:outline-none">
-          {children}
-        </main>
+        <ClientLayoutWrapper>
+          <main id="content" tabIndex={-1} className="flex-1 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-32 focus:outline-none min-h-screen">
+            {children}
+          </main>
+        </ClientLayoutWrapper>
 
         <AudioPlayer />
       </body>

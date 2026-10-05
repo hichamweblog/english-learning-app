@@ -1,0 +1,883 @@
+{
+  "sectionId": "reader-19-jane-eyre-ch-5",
+  "trackNumber": 5,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/234 (S2) Jane Eyre/486 Jane Eyre Audio/05 Track 5.mp3",
+  "totalDuration": 63.3208125,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 2.39,
+      "text": "Part 3. Listening exercise",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Part",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "id": "p1w2",
+          "text": "3.",
+          "start": 0.22,
+          "end": 0.6
+        },
+        {
+          "id": "p1w3",
+          "text": "Listening",
+          "start": 1.45,
+          "end": 2.05
+        },
+        {
+          "id": "p1w4",
+          "text": "exercise",
+          "start": 2.05,
+          "end": 2.39
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 4.31,
+      "end": 6.63,
+      "text": "Hello, Jane Smith speaking.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Hello,",
+          "start": 4.31,
+          "end": 4.95
+        },
+        {
+          "id": "p2w2",
+          "text": "Jane",
+          "start": 5.53,
+          "end": 5.85
+        },
+        {
+          "id": "p2w3",
+          "text": "Smith",
+          "start": 5.85,
+          "end": 6.21
+        },
+        {
+          "id": "p2w4",
+          "text": "speaking.",
+          "start": 6.21,
+          "end": 6.63
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 7.65,
+      "end": 10.47,
+      "text": "I'm calling about the ad in yesterday's paper.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "I'm",
+          "start": 7.65,
+          "end": 7.89
+        },
+        {
+          "id": "p3w2",
+          "text": "calling",
+          "start": 7.89,
+          "end": 8.11
+        },
+        {
+          "id": "p3w3",
+          "text": "about",
+          "start": 8.11,
+          "end": 8.59
+        },
+        {
+          "id": "p3w4",
+          "text": "the",
+          "start": 8.59,
+          "end": 8.83
+        },
+        {
+          "id": "p3w5",
+          "text": "ad",
+          "start": 8.83,
+          "end": 9.15
+        },
+        {
+          "id": "p3w6",
+          "text": "in",
+          "start": 9.15,
+          "end": 9.39
+        },
+        {
+          "id": "p3w7",
+          "text": "yesterday's",
+          "start": 9.39,
+          "end": 9.65
+        },
+        {
+          "id": "p3w8",
+          "text": "paper.",
+          "start": 9.65,
+          "end": 10.47
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 11.01,
+      "end": 15.03,
+      "text": "Yes, I advertised for a job as a primary school teacher.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Yes,",
+          "start": 11.01,
+          "end": 11.43
+        },
+        {
+          "id": "p4w2",
+          "text": "I",
+          "start": 11.43,
+          "end": 12.19
+        },
+        {
+          "id": "p4w3",
+          "text": "advertised",
+          "start": 12.19,
+          "end": 12.49
+        },
+        {
+          "id": "p4w4",
+          "text": "for",
+          "start": 12.49,
+          "end": 13.03
+        },
+        {
+          "id": "p4w5",
+          "text": "a",
+          "start": 13.03,
+          "end": 13.13
+        },
+        {
+          "id": "p4w6",
+          "text": "job",
+          "start": 13.13,
+          "end": 13.43
+        },
+        {
+          "id": "p4w7",
+          "text": "as",
+          "start": 13.43,
+          "end": 13.73
+        },
+        {
+          "id": "p4w8",
+          "text": "a",
+          "start": 13.73,
+          "end": 13.83
+        },
+        {
+          "id": "p4w9",
+          "text": "primary",
+          "start": 13.83,
+          "end": 14.07
+        },
+        {
+          "id": "p4w10",
+          "text": "school",
+          "start": 14.07,
+          "end": 14.51
+        },
+        {
+          "id": "p4w11",
+          "text": "teacher.",
+          "start": 14.51,
+          "end": 15.03
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 15.69,
+      "end": 17.49,
+      "text": "Have you worked for many other schools?",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "Have",
+          "start": 15.69,
+          "end": 15.91
+        },
+        {
+          "id": "p5w2",
+          "text": "you",
+          "start": 15.91,
+          "end": 16.07
+        },
+        {
+          "id": "p5w3",
+          "text": "worked",
+          "start": 16.07,
+          "end": 16.33
+        },
+        {
+          "id": "p5w4",
+          "text": "for",
+          "start": 16.33,
+          "end": 16.59
+        },
+        {
+          "id": "p5w5",
+          "text": "many",
+          "start": 16.59,
+          "end": 16.83
+        },
+        {
+          "id": "p5w6",
+          "text": "other",
+          "start": 16.83,
+          "end": 17.21
+        },
+        {
+          "id": "p5w7",
+          "text": "schools?",
+          "start": 17.21,
+          "end": 17.49
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 18.09,
+      "end": 23.29,
+      "text": "Well, actually I worked for modelling primary school for a year and a half.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "Well,",
+          "start": 18.09,
+          "end": 18.63
+        },
+        {
+          "id": "p6w2",
+          "text": "actually",
+          "start": 19.05,
+          "end": 19.51
+        },
+        {
+          "id": "p6w3",
+          "text": "I",
+          "start": 19.51,
+          "end": 20.09
+        },
+        {
+          "id": "p6w4",
+          "text": "worked",
+          "start": 20.09,
+          "end": 20.33
+        },
+        {
+          "id": "p6w5",
+          "text": "for",
+          "start": 20.33,
+          "end": 20.61
+        },
+        {
+          "id": "p6w6",
+          "text": "modelling",
+          "start": 20.61,
+          "end": 20.79
+        },
+        {
+          "id": "p6w7",
+          "text": "primary",
+          "start": 20.79,
+          "end": 21.33
+        },
+        {
+          "id": "p6w8",
+          "text": "school",
+          "start": 21.33,
+          "end": 21.91
+        },
+        {
+          "id": "p6w9",
+          "text": "for",
+          "start": 21.91,
+          "end": 22.19
+        },
+        {
+          "id": "p6w10",
+          "text": "a",
+          "start": 22.19,
+          "end": 22.31
+        },
+        {
+          "id": "p6w11",
+          "text": "year",
+          "start": 22.31,
+          "end": 22.61
+        },
+        {
+          "id": "p6w12",
+          "text": "and",
+          "start": 22.61,
+          "end": 22.85
+        },
+        {
+          "id": "p6w13",
+          "text": "a",
+          "start": 22.85,
+          "end": 22.93
+        },
+        {
+          "id": "p6w14",
+          "text": "half.",
+          "start": 22.93,
+          "end": 23.29
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 24.05,
+      "end": 25.25,
+      "text": "Why did you leave?",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Why",
+          "start": 24.05,
+          "end": 24.63
+        },
+        {
+          "id": "p7w2",
+          "text": "did",
+          "start": 24.63,
+          "end": 24.85
+        },
+        {
+          "id": "p7w3",
+          "text": "you",
+          "start": 24.85,
+          "end": 24.99
+        },
+        {
+          "id": "p7w4",
+          "text": "leave?",
+          "start": 24.99,
+          "end": 25.25
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 26.28,
+      "end": 33.98,
+      "text": "Well, we had to get up at 6 every morning as the teachers had to serve breakfast at 7 o'clock.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "Well,",
+          "start": 26.28,
+          "end": 26.88
+        },
+        {
+          "id": "p8w2",
+          "text": "we",
+          "start": 27.48,
+          "end": 27.82
+        },
+        {
+          "id": "p8w3",
+          "text": "had",
+          "start": 27.82,
+          "end": 28.02
+        },
+        {
+          "id": "p8w4",
+          "text": "to",
+          "start": 28.02,
+          "end": 28.16
+        },
+        {
+          "id": "p8w5",
+          "text": "get",
+          "start": 28.16,
+          "end": 28.32
+        },
+        {
+          "id": "p8w6",
+          "text": "up",
+          "start": 28.32,
+          "end": 28.48
+        },
+        {
+          "id": "p8w7",
+          "text": "at",
+          "start": 28.48,
+          "end": 28.62
+        },
+        {
+          "id": "p8w8",
+          "text": "6",
+          "start": 28.62,
+          "end": 28.94
+        },
+        {
+          "id": "p8w9",
+          "text": "every",
+          "start": 28.94,
+          "end": 29.64
+        },
+        {
+          "id": "p8w10",
+          "text": "morning",
+          "start": 29.64,
+          "end": 30.1
+        },
+        {
+          "id": "p8w11",
+          "text": "as",
+          "start": 30.1,
+          "end": 30.7
+        },
+        {
+          "id": "p8w12",
+          "text": "the",
+          "start": 30.7,
+          "end": 30.86
+        },
+        {
+          "id": "p8w13",
+          "text": "teachers",
+          "start": 30.86,
+          "end": 31.24
+        },
+        {
+          "id": "p8w14",
+          "text": "had",
+          "start": 31.24,
+          "end": 31.6
+        },
+        {
+          "id": "p8w15",
+          "text": "to",
+          "start": 31.6,
+          "end": 31.78
+        },
+        {
+          "id": "p8w16",
+          "text": "serve",
+          "start": 31.78,
+          "end": 32.08
+        },
+        {
+          "id": "p8w17",
+          "text": "breakfast",
+          "start": 32.08,
+          "end": 32.44
+        },
+        {
+          "id": "p8w18",
+          "text": "at",
+          "start": 32.44,
+          "end": 33.04
+        },
+        {
+          "id": "p8w19",
+          "text": "7",
+          "start": 33.04,
+          "end": 33.28
+        },
+        {
+          "id": "p8w20",
+          "text": "o",
+          "start": 33.28,
+          "end": 33.5
+        },
+        {
+          "id": "p8w21",
+          "text": "'clock.",
+          "start": 33.5,
+          "end": 33.98
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 34.46,
+      "end": 36.46,
+      "text": "What was the headmistress's name?",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "What",
+          "start": 34.46,
+          "end": 34.84
+        },
+        {
+          "id": "p9w2",
+          "text": "was",
+          "start": 34.84,
+          "end": 35.1
+        },
+        {
+          "id": "p9w3",
+          "text": "the",
+          "start": 35.1,
+          "end": 35.24
+        },
+        {
+          "id": "p9w4",
+          "text": "headmistress's",
+          "start": 35.24,
+          "end": 36.16
+        },
+        {
+          "id": "p9w5",
+          "text": "name?",
+          "start": 36.16,
+          "end": 36.46
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 37.18,
+      "end": 37.62,
+      "text": "Pardon?",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "Pardon?",
+          "start": 37.18,
+          "end": 37.62
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 38.2,
+      "end": 39.9,
+      "text": "What was the name of your employer?",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "What",
+          "start": 38.2,
+          "end": 38.58
+        },
+        {
+          "id": "p11w2",
+          "text": "was",
+          "start": 38.58,
+          "end": 38.78
+        },
+        {
+          "id": "p11w3",
+          "text": "the",
+          "start": 38.78,
+          "end": 38.9
+        },
+        {
+          "id": "p11w4",
+          "text": "name",
+          "start": 38.9,
+          "end": 39.16
+        },
+        {
+          "id": "p11w5",
+          "text": "of",
+          "start": 39.16,
+          "end": 39.32
+        },
+        {
+          "id": "p11w6",
+          "text": "your",
+          "start": 39.32,
+          "end": 39.48
+        },
+        {
+          "id": "p11w7",
+          "text": "employer?",
+          "start": 39.48,
+          "end": 39.9
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 40.64,
+      "end": 41.34,
+      "text": "Oh, sorry.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Oh,",
+          "start": 40.64,
+          "end": 40.88
+        },
+        {
+          "id": "p12w2",
+          "text": "sorry.",
+          "start": 41.06,
+          "end": 41.34
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 42.44,
+      "end": 43.1,
+      "text": "Mary Stewart.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Mary",
+          "start": 42.44,
+          "end": 42.54
+        },
+        {
+          "id": "p13w2",
+          "text": "Stewart.",
+          "start": 42.54,
+          "end": 43.1
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 43.8,
+      "end": 45.28,
+      "text": "Ah, Mary Stewart.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "Ah,",
+          "start": 43.8,
+          "end": 44.14
+        },
+        {
+          "id": "p14w2",
+          "text": "Mary",
+          "start": 44.44,
+          "end": 44.66
+        },
+        {
+          "id": "p14w3",
+          "text": "Stewart.",
+          "start": 44.66,
+          "end": 45.28
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 45.9,
+      "end": 48.34,
+      "text": "Yes, she is a difficult person to work for.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "Yes,",
+          "start": 45.9,
+          "end": 46.28
+        },
+        {
+          "id": "p15w2",
+          "text": "she",
+          "start": 46.34,
+          "end": 46.56
+        },
+        {
+          "id": "p15w3",
+          "text": "is",
+          "start": 46.56,
+          "end": 46.7
+        },
+        {
+          "id": "p15w4",
+          "text": "a",
+          "start": 46.7,
+          "end": 46.78
+        },
+        {
+          "id": "p15w5",
+          "text": "difficult",
+          "start": 46.78,
+          "end": 47.12
+        },
+        {
+          "id": "p15w6",
+          "text": "person",
+          "start": 47.12,
+          "end": 47.58
+        },
+        {
+          "id": "p15w7",
+          "text": "to",
+          "start": 47.58,
+          "end": 47.88
+        },
+        {
+          "id": "p15w8",
+          "text": "work",
+          "start": 47.88,
+          "end": 48.06
+        },
+        {
+          "id": "p15w9",
+          "text": "for.",
+          "start": 48.06,
+          "end": 48.34
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 49.13,
+      "end": 50.95,
+      "text": "When would you be available to come in?",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "When",
+          "start": 49.13,
+          "end": 49.55
+        },
+        {
+          "id": "p16w2",
+          "text": "would",
+          "start": 49.55,
+          "end": 49.71
+        },
+        {
+          "id": "p16w3",
+          "text": "you",
+          "start": 49.71,
+          "end": 49.83
+        },
+        {
+          "id": "p16w4",
+          "text": "be",
+          "start": 49.83,
+          "end": 49.95
+        },
+        {
+          "id": "p16w5",
+          "text": "available",
+          "start": 49.95,
+          "end": 50.29
+        },
+        {
+          "id": "p16w6",
+          "text": "to",
+          "start": 50.29,
+          "end": 50.63
+        },
+        {
+          "id": "p16w7",
+          "text": "come",
+          "start": 50.63,
+          "end": 50.81
+        },
+        {
+          "id": "p16w8",
+          "text": "in?",
+          "start": 50.81,
+          "end": 50.95
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 50.95,
+      "end": 56.21,
+      "text": "Well, I'd be available as of next month if it's okay with you.",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "Well,",
+          "start": 50.95,
+          "end": 51.97
+        },
+        {
+          "id": "p17w2",
+          "text": "I'd",
+          "start": 52.51,
+          "end": 52.93
+        },
+        {
+          "id": "p17w3",
+          "text": "be",
+          "start": 52.93,
+          "end": 53.11
+        },
+        {
+          "id": "p17w4",
+          "text": "available",
+          "start": 53.11,
+          "end": 53.57
+        },
+        {
+          "id": "p17w5",
+          "text": "as",
+          "start": 53.57,
+          "end": 54.03
+        },
+        {
+          "id": "p17w6",
+          "text": "of",
+          "start": 54.03,
+          "end": 54.13
+        },
+        {
+          "id": "p17w7",
+          "text": "next",
+          "start": 54.13,
+          "end": 54.31
+        },
+        {
+          "id": "p17w8",
+          "text": "month",
+          "start": 54.31,
+          "end": 54.77
+        },
+        {
+          "id": "p17w9",
+          "text": "if",
+          "start": 54.77,
+          "end": 55.07
+        },
+        {
+          "id": "p17w10",
+          "text": "it's",
+          "start": 55.07,
+          "end": 55.29
+        },
+        {
+          "id": "p17w11",
+          "text": "okay",
+          "start": 55.29,
+          "end": 55.57
+        },
+        {
+          "id": "p17w12",
+          "text": "with",
+          "start": 55.57,
+          "end": 55.89
+        },
+        {
+          "id": "p17w13",
+          "text": "you.",
+          "start": 55.89,
+          "end": 56.21
+        }
+      ]
+    }
+  ]
+}

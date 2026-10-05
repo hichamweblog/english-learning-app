@@ -1,0 +1,1123 @@
+{
+  "sectionId": "reader-20-a-dream-come-true-ch-5",
+  "trackNumber": 5,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/223 (S2) A Dream Come True/Track 05.mp3",
+  "totalDuration": 71.758375,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 0.76,
+      "text": "Listening activity.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Listening",
+          "start": 0.0,
+          "end": 0.52
+        },
+        {
+          "id": "p1w2",
+          "text": "activity.",
+          "start": 0.52,
+          "end": 0.76
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 3.41,
+      "end": 5.89,
+      "text": "Hello Liz, this is Edna Baker.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Hello",
+          "start": 3.41,
+          "end": 3.85
+        },
+        {
+          "id": "p2w2",
+          "text": "Liz,",
+          "start": 3.85,
+          "end": 4.27
+        },
+        {
+          "id": "p2w3",
+          "text": "this",
+          "start": 4.91,
+          "end": 5.13
+        },
+        {
+          "id": "p2w4",
+          "text": "is",
+          "start": 5.13,
+          "end": 5.25
+        },
+        {
+          "id": "p2w5",
+          "text": "Edna",
+          "start": 5.25,
+          "end": 5.61
+        },
+        {
+          "id": "p2w6",
+          "text": "Baker.",
+          "start": 5.61,
+          "end": 5.89
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 6.91,
+      "end": 12.07,
+      "text": "I'd like to order a few more items for delivery, just some things I forgot last time.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "I'd",
+          "start": 6.91,
+          "end": 7.27
+        },
+        {
+          "id": "p3w2",
+          "text": "like",
+          "start": 7.27,
+          "end": 7.43
+        },
+        {
+          "id": "p3w3",
+          "text": "to",
+          "start": 7.43,
+          "end": 7.67
+        },
+        {
+          "id": "p3w4",
+          "text": "order",
+          "start": 7.67,
+          "end": 7.91
+        },
+        {
+          "id": "p3w5",
+          "text": "a",
+          "start": 7.91,
+          "end": 8.11
+        },
+        {
+          "id": "p3w6",
+          "text": "few",
+          "start": 8.11,
+          "end": 8.29
+        },
+        {
+          "id": "p3w7",
+          "text": "more",
+          "start": 8.29,
+          "end": 8.47
+        },
+        {
+          "id": "p3w8",
+          "text": "items",
+          "start": 8.47,
+          "end": 8.83
+        },
+        {
+          "id": "p3w9",
+          "text": "for",
+          "start": 8.83,
+          "end": 9.15
+        },
+        {
+          "id": "p3w10",
+          "text": "delivery,",
+          "start": 9.15,
+          "end": 9.37
+        },
+        {
+          "id": "p3w11",
+          "text": "just",
+          "start": 10.05,
+          "end": 10.27
+        },
+        {
+          "id": "p3w12",
+          "text": "some",
+          "start": 10.27,
+          "end": 10.51
+        },
+        {
+          "id": "p3w13",
+          "text": "things",
+          "start": 10.51,
+          "end": 10.81
+        },
+        {
+          "id": "p3w14",
+          "text": "I",
+          "start": 10.81,
+          "end": 10.99
+        },
+        {
+          "id": "p3w15",
+          "text": "forgot",
+          "start": 10.99,
+          "end": 11.29
+        },
+        {
+          "id": "p3w16",
+          "text": "last",
+          "start": 11.29,
+          "end": 11.69
+        },
+        {
+          "id": "p3w17",
+          "text": "time.",
+          "start": 11.69,
+          "end": 12.07
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 12.67,
+      "end": 18.21,
+      "text": "Oh hi Mrs Baker. That won't be a problem. You're at 56 Lime Court right?",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Oh",
+          "start": 12.67,
+          "end": 13.27
+        },
+        {
+          "id": "p4w2",
+          "text": "hi",
+          "start": 13.27,
+          "end": 13.53
+        },
+        {
+          "id": "p4w3",
+          "text": "Mrs",
+          "start": 13.53,
+          "end": 13.77
+        },
+        {
+          "id": "p4w4",
+          "text": "Baker.",
+          "start": 13.77,
+          "end": 14.11
+        },
+        {
+          "id": "p4w5",
+          "text": "That",
+          "start": 14.85,
+          "end": 15.05
+        },
+        {
+          "id": "p4w6",
+          "text": "won't",
+          "start": 15.05,
+          "end": 15.31
+        },
+        {
+          "id": "p4w7",
+          "text": "be",
+          "start": 15.31,
+          "end": 15.39
+        },
+        {
+          "id": "p4w8",
+          "text": "a",
+          "start": 15.39,
+          "end": 15.47
+        },
+        {
+          "id": "p4w9",
+          "text": "problem.",
+          "start": 15.47,
+          "end": 15.75
+        },
+        {
+          "id": "p4w10",
+          "text": "You're",
+          "start": 16.37,
+          "end": 16.71
+        },
+        {
+          "id": "p4w11",
+          "text": "at",
+          "start": 16.71,
+          "end": 16.81
+        },
+        {
+          "id": "p4w12",
+          "text": "56",
+          "start": 16.81,
+          "end": 17.09
+        },
+        {
+          "id": "p4w13",
+          "text": "Lime",
+          "start": 17.09,
+          "end": 17.53
+        },
+        {
+          "id": "p4w14",
+          "text": "Court",
+          "start": 17.53,
+          "end": 17.85
+        },
+        {
+          "id": "p4w15",
+          "text": "right?",
+          "start": 17.85,
+          "end": 18.21
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 18.85,
+      "end": 20.21,
+      "text": "It's 58 actually.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "It's",
+          "start": 18.85,
+          "end": 19.13
+        },
+        {
+          "id": "p5w2",
+          "text": "58",
+          "start": 19.13,
+          "end": 19.47
+        },
+        {
+          "id": "p5w3",
+          "text": "actually.",
+          "start": 19.47,
+          "end": 20.21
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 20.51,
+      "end": 22.81,
+      "text": "Oh I'm sorry. Can I have your order?",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "Oh",
+          "start": 20.51,
+          "end": 20.65
+        },
+        {
+          "id": "p6w2",
+          "text": "I'm",
+          "start": 20.65,
+          "end": 21.03
+        },
+        {
+          "id": "p6w3",
+          "text": "sorry.",
+          "start": 21.03,
+          "end": 21.41
+        },
+        {
+          "id": "p6w4",
+          "text": "Can",
+          "start": 21.99,
+          "end": 22.13
+        },
+        {
+          "id": "p6w5",
+          "text": "I",
+          "start": 22.13,
+          "end": 22.25
+        },
+        {
+          "id": "p6w6",
+          "text": "have",
+          "start": 22.25,
+          "end": 22.37
+        },
+        {
+          "id": "p6w7",
+          "text": "your",
+          "start": 22.37,
+          "end": 22.49
+        },
+        {
+          "id": "p6w8",
+          "text": "order?",
+          "start": 22.49,
+          "end": 22.81
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 23.61,
+      "end": 27.81,
+      "text": "Well, I'll need some cat food. I think about a dozen tins.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "Well,",
+          "start": 23.61,
+          "end": 23.87
+        },
+        {
+          "id": "p7w2",
+          "text": "I'll",
+          "start": 24.29,
+          "end": 24.59
+        },
+        {
+          "id": "p7w3",
+          "text": "need",
+          "start": 24.59,
+          "end": 24.77
+        },
+        {
+          "id": "p7w4",
+          "text": "some",
+          "start": 24.77,
+          "end": 25.05
+        },
+        {
+          "id": "p7w5",
+          "text": "cat",
+          "start": 25.05,
+          "end": 25.43
+        },
+        {
+          "id": "p7w6",
+          "text": "food.",
+          "start": 25.43,
+          "end": 25.81
+        },
+        {
+          "id": "p7w7",
+          "text": "I",
+          "start": 26.39,
+          "end": 26.53
+        },
+        {
+          "id": "p7w8",
+          "text": "think",
+          "start": 26.53,
+          "end": 26.67
+        },
+        {
+          "id": "p7w9",
+          "text": "about",
+          "start": 26.67,
+          "end": 26.93
+        },
+        {
+          "id": "p7w10",
+          "text": "a",
+          "start": 26.93,
+          "end": 27.15
+        },
+        {
+          "id": "p7w11",
+          "text": "dozen",
+          "start": 27.15,
+          "end": 27.39
+        },
+        {
+          "id": "p7w12",
+          "text": "tins.",
+          "start": 27.39,
+          "end": 27.81
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 27.81,
+      "end": 31.97,
+      "text": "We have whiskers cat food on special for 50 pence a tin.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "We",
+          "start": 27.81,
+          "end": 28.61
+        },
+        {
+          "id": "p8w2",
+          "text": "have",
+          "start": 28.61,
+          "end": 28.79
+        },
+        {
+          "id": "p8w3",
+          "text": "whiskers",
+          "start": 28.79,
+          "end": 29.37
+        },
+        {
+          "id": "p8w4",
+          "text": "cat",
+          "start": 29.37,
+          "end": 29.59
+        },
+        {
+          "id": "p8w5",
+          "text": "food",
+          "start": 29.59,
+          "end": 29.83
+        },
+        {
+          "id": "p8w6",
+          "text": "on",
+          "start": 29.83,
+          "end": 30.19
+        },
+        {
+          "id": "p8w7",
+          "text": "special",
+          "start": 30.19,
+          "end": 30.45
+        },
+        {
+          "id": "p8w8",
+          "text": "for",
+          "start": 30.45,
+          "end": 31.11
+        },
+        {
+          "id": "p8w9",
+          "text": "50",
+          "start": 31.11,
+          "end": 31.27
+        },
+        {
+          "id": "p8w10",
+          "text": "pence",
+          "start": 31.27,
+          "end": 31.75
+        },
+        {
+          "id": "p8w11",
+          "text": "a",
+          "start": 31.75,
+          "end": 31.83
+        },
+        {
+          "id": "p8w12",
+          "text": "tin.",
+          "start": 31.83,
+          "end": 31.97
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 32.31,
+      "end": 35.71,
+      "text": "That'll be fine. And two tins of tomatoes please.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "That'll",
+          "start": 32.31,
+          "end": 32.73
+        },
+        {
+          "id": "p9w2",
+          "text": "be",
+          "start": 32.73,
+          "end": 32.83
+        },
+        {
+          "id": "p9w3",
+          "text": "fine.",
+          "start": 32.83,
+          "end": 33.19
+        },
+        {
+          "id": "p9w4",
+          "text": "And",
+          "start": 33.69,
+          "end": 34.05
+        },
+        {
+          "id": "p9w5",
+          "text": "two",
+          "start": 34.05,
+          "end": 34.43
+        },
+        {
+          "id": "p9w6",
+          "text": "tins",
+          "start": 34.43,
+          "end": 34.75
+        },
+        {
+          "id": "p9w7",
+          "text": "of",
+          "start": 34.75,
+          "end": 34.93
+        },
+        {
+          "id": "p9w8",
+          "text": "tomatoes",
+          "start": 34.93,
+          "end": 35.21
+        },
+        {
+          "id": "p9w9",
+          "text": "please.",
+          "start": 35.21,
+          "end": 35.71
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 36.29,
+      "end": 39.39,
+      "text": "The same kind you sent last time. And I'll need a dozen eggs.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "The",
+          "start": 36.29,
+          "end": 36.33
+        },
+        {
+          "id": "p10w2",
+          "text": "same",
+          "start": 36.33,
+          "end": 36.53
+        },
+        {
+          "id": "p10w3",
+          "text": "kind",
+          "start": 36.53,
+          "end": 36.77
+        },
+        {
+          "id": "p10w4",
+          "text": "you",
+          "start": 36.77,
+          "end": 37.03
+        },
+        {
+          "id": "p10w5",
+          "text": "sent",
+          "start": 37.03,
+          "end": 37.21
+        },
+        {
+          "id": "p10w6",
+          "text": "last",
+          "start": 37.21,
+          "end": 37.53
+        },
+        {
+          "id": "p10w7",
+          "text": "time.",
+          "start": 37.53,
+          "end": 37.93
+        },
+        {
+          "id": "p10w8",
+          "text": "And",
+          "start": 38.39,
+          "end": 38.61
+        },
+        {
+          "id": "p10w9",
+          "text": "I'll",
+          "start": 38.61,
+          "end": 38.77
+        },
+        {
+          "id": "p10w10",
+          "text": "need",
+          "start": 38.77,
+          "end": 38.87
+        },
+        {
+          "id": "p10w11",
+          "text": "a",
+          "start": 38.87,
+          "end": 38.99
+        },
+        {
+          "id": "p10w12",
+          "text": "dozen",
+          "start": 38.99,
+          "end": 39.21
+        },
+        {
+          "id": "p10w13",
+          "text": "eggs.",
+          "start": 39.21,
+          "end": 39.39
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 40.15,
+      "end": 46.09,
+      "text": "That's two tins of Roma tomatoes, 75 pence each. And a dozen eggs for 125.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "That's",
+          "start": 40.15,
+          "end": 40.63
+        },
+        {
+          "id": "p11w2",
+          "text": "two",
+          "start": 40.63,
+          "end": 40.81
+        },
+        {
+          "id": "p11w3",
+          "text": "tins",
+          "start": 40.81,
+          "end": 41.17
+        },
+        {
+          "id": "p11w4",
+          "text": "of",
+          "start": 41.17,
+          "end": 41.33
+        },
+        {
+          "id": "p11w5",
+          "text": "Roma",
+          "start": 41.33,
+          "end": 41.59
+        },
+        {
+          "id": "p11w6",
+          "text": "tomatoes,",
+          "start": 41.59,
+          "end": 42.31
+        },
+        {
+          "id": "p11w7",
+          "text": "75",
+          "start": 42.99,
+          "end": 43.27
+        },
+        {
+          "id": "p11w8",
+          "text": "pence",
+          "start": 43.27,
+          "end": 43.95
+        },
+        {
+          "id": "p11w9",
+          "text": "each.",
+          "start": 43.95,
+          "end": 44.15
+        },
+        {
+          "id": "p11w10",
+          "text": "And",
+          "start": 44.75,
+          "end": 44.97
+        },
+        {
+          "id": "p11w11",
+          "text": "a",
+          "start": 44.97,
+          "end": 45.07
+        },
+        {
+          "id": "p11w12",
+          "text": "dozen",
+          "start": 45.07,
+          "end": 45.23
+        },
+        {
+          "id": "p11w13",
+          "text": "eggs",
+          "start": 45.23,
+          "end": 45.53
+        },
+        {
+          "id": "p11w14",
+          "text": "for",
+          "start": 45.53,
+          "end": 45.87
+        },
+        {
+          "id": "p11w15",
+          "text": "125.",
+          "start": 45.87,
+          "end": 46.09
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 47.33,
+      "end": 48.77,
+      "text": "Is that everything? Yes.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "Is",
+          "start": 47.33,
+          "end": 47.57
+        },
+        {
+          "id": "p12w2",
+          "text": "that",
+          "start": 47.57,
+          "end": 47.69
+        },
+        {
+          "id": "p12w3",
+          "text": "everything?",
+          "start": 47.69,
+          "end": 47.99
+        },
+        {
+          "id": "p12w4",
+          "text": "Yes.",
+          "start": 48.49,
+          "end": 48.77
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 49.71,
+      "end": 52.19,
+      "text": "Your total is going to be \u00a38.75.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "Your",
+          "start": 49.71,
+          "end": 49.91
+        },
+        {
+          "id": "p13w2",
+          "text": "total",
+          "start": 49.91,
+          "end": 50.23
+        },
+        {
+          "id": "p13w3",
+          "text": "is",
+          "start": 50.23,
+          "end": 50.57
+        },
+        {
+          "id": "p13w4",
+          "text": "going",
+          "start": 50.57,
+          "end": 50.71
+        },
+        {
+          "id": "p13w5",
+          "text": "to",
+          "start": 50.71,
+          "end": 50.93
+        },
+        {
+          "id": "p13w6",
+          "text": "be",
+          "start": 50.93,
+          "end": 51.05
+        },
+        {
+          "id": "p13w7",
+          "text": "\u00a38",
+          "start": 51.05,
+          "end": 51.39
+        },
+        {
+          "id": "p13w8",
+          "text": ".75.",
+          "start": 51.39,
+          "end": 52.19
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "start": 52.85,
+      "end": 56.09,
+      "text": "Oh no wait, I'm sorry. I forgot to order toilet rolls.",
+      "words": [
+        {
+          "id": "p14w1",
+          "text": "Oh",
+          "start": 52.85,
+          "end": 53.13
+        },
+        {
+          "id": "p14w2",
+          "text": "no",
+          "start": 53.13,
+          "end": 53.27
+        },
+        {
+          "id": "p14w3",
+          "text": "wait,",
+          "start": 53.27,
+          "end": 53.55
+        },
+        {
+          "id": "p14w4",
+          "text": "I'm",
+          "start": 53.75,
+          "end": 53.83
+        },
+        {
+          "id": "p14w5",
+          "text": "sorry.",
+          "start": 53.83,
+          "end": 54.11
+        },
+        {
+          "id": "p14w6",
+          "text": "I",
+          "start": 54.47,
+          "end": 54.59
+        },
+        {
+          "id": "p14w7",
+          "text": "forgot",
+          "start": 54.59,
+          "end": 54.83
+        },
+        {
+          "id": "p14w8",
+          "text": "to",
+          "start": 54.83,
+          "end": 55.07
+        },
+        {
+          "id": "p14w9",
+          "text": "order",
+          "start": 55.07,
+          "end": 55.27
+        },
+        {
+          "id": "p14w10",
+          "text": "toilet",
+          "start": 55.27,
+          "end": 55.57
+        },
+        {
+          "id": "p14w11",
+          "text": "rolls.",
+          "start": 55.57,
+          "end": 56.09
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "start": 56.61,
+      "end": 59.95,
+      "text": "Everybody does. We've got splendor toilet rolls.",
+      "words": [
+        {
+          "id": "p15w1",
+          "text": "Everybody",
+          "start": 56.61,
+          "end": 57.07
+        },
+        {
+          "id": "p15w2",
+          "text": "does.",
+          "start": 57.07,
+          "end": 57.49
+        },
+        {
+          "id": "p15w3",
+          "text": "We've",
+          "start": 58.21,
+          "end": 58.53
+        },
+        {
+          "id": "p15w4",
+          "text": "got",
+          "start": 58.53,
+          "end": 58.65
+        },
+        {
+          "id": "p15w5",
+          "text": "splendor",
+          "start": 58.65,
+          "end": 59.29
+        },
+        {
+          "id": "p15w6",
+          "text": "toilet",
+          "start": 59.29,
+          "end": 59.51
+        },
+        {
+          "id": "p15w7",
+          "text": "rolls.",
+          "start": 59.51,
+          "end": 59.95
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "start": 60.39,
+      "end": 62.39,
+      "text": "Four rolls for a pound. That's fine.",
+      "words": [
+        {
+          "id": "p16w1",
+          "text": "Four",
+          "start": 60.39,
+          "end": 60.61
+        },
+        {
+          "id": "p16w2",
+          "text": "rolls",
+          "start": 60.61,
+          "end": 60.91
+        },
+        {
+          "id": "p16w3",
+          "text": "for",
+          "start": 60.91,
+          "end": 61.15
+        },
+        {
+          "id": "p16w4",
+          "text": "a",
+          "start": 61.15,
+          "end": 61.23
+        },
+        {
+          "id": "p16w5",
+          "text": "pound.",
+          "start": 61.23,
+          "end": 61.53
+        },
+        {
+          "id": "p16w6",
+          "text": "That's",
+          "start": 61.97,
+          "end": 62.19
+        },
+        {
+          "id": "p16w7",
+          "text": "fine.",
+          "start": 62.19,
+          "end": 62.39
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "start": 63.17,
+      "end": 67.11,
+      "text": "So your order will come to 9.75. When would you like it delivered?",
+      "words": [
+        {
+          "id": "p17w1",
+          "text": "So",
+          "start": 63.17,
+          "end": 63.41
+        },
+        {
+          "id": "p17w2",
+          "text": "your",
+          "start": 63.41,
+          "end": 63.63
+        },
+        {
+          "id": "p17w3",
+          "text": "order",
+          "start": 63.63,
+          "end": 63.91
+        },
+        {
+          "id": "p17w4",
+          "text": "will",
+          "start": 63.91,
+          "end": 64.07
+        },
+        {
+          "id": "p17w5",
+          "text": "come",
+          "start": 64.07,
+          "end": 64.25
+        },
+        {
+          "id": "p17w6",
+          "text": "to",
+          "start": 64.25,
+          "end": 64.43
+        },
+        {
+          "id": "p17w7",
+          "text": "9",
+          "start": 64.43,
+          "end": 64.63
+        },
+        {
+          "id": "p17w8",
+          "text": ".75.",
+          "start": 64.63,
+          "end": 65.05
+        },
+        {
+          "id": "p17w9",
+          "text": "When",
+          "start": 66.11,
+          "end": 66.33
+        },
+        {
+          "id": "p17w10",
+          "text": "would",
+          "start": 66.33,
+          "end": 66.49
+        },
+        {
+          "id": "p17w11",
+          "text": "you",
+          "start": 66.49,
+          "end": 66.61
+        },
+        {
+          "id": "p17w12",
+          "text": "like",
+          "start": 66.61,
+          "end": 66.75
+        },
+        {
+          "id": "p17w13",
+          "text": "it",
+          "start": 66.75,
+          "end": 66.91
+        },
+        {
+          "id": "p17w14",
+          "text": "delivered?",
+          "start": 66.91,
+          "end": 67.11
+        }
+      ]
+    }
+  ]
+}

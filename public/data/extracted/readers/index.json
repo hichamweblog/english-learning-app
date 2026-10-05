@@ -1,272 +1,2185 @@
-[
-  {
-    "id": "reader-28-pride-and-prejudice",
-    "title": "Pride and Prejudice",
-    "level": "Starter",
-    "hasAudio": true,
-    "audioTracksCount": 7,
-    "chaptersCount": 7,
-    "hasExercises": true,
-    "totalWordCount": 35125
-  },
-  {
-    "id": "reader-32-the-canterville-ghost",
-    "title": "The Canterville Ghost",
-    "level": "Starter",
-    "hasAudio": true,
-    "audioTracksCount": 12,
-    "chaptersCount": 12,
-    "hasExercises": true,
-    "totalWordCount": 20443
-  },
-  {
-    "id": "reader-84-dr-jekyll-and-mr-hyde",
-    "title": "Dr Jekyll and Mr Hyde",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 16,
-    "chaptersCount": 16,
-    "hasExercises": true,
-    "totalWordCount": 13314
-  },
-  {
-    "id": "reader-86-how-to-be-an-alien",
-    "title": "How to be an Alien",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 23,
-    "chaptersCount": 23,
-    "hasExercises": true,
-    "totalWordCount": 8876
-  },
-  {
-    "id": "reader-89-titanic",
-    "title": "Titanic",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 1,
-    "chaptersCount": 1,
-    "hasExercises": true,
-    "totalWordCount": 7483
-  },
-  {
-    "id": "reader-91-the-young-king-and-other-stories",
-    "title": "The Young King and Other Stories",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 7,
-    "chaptersCount": 7,
-    "hasExercises": true,
-    "totalWordCount": 21787
-  },
-  {
-    "id": "reader-94-three-great-plays-of-shakespeare",
-    "title": "Three Great Plays of Shakespeare",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 296,
-    "chaptersCount": 296,
-    "hasExercises": true,
-    "totalWordCount": 17515
-  },
-  {
-    "id": "reader-98-1984",
-    "title": "1984",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 46,
-    "chaptersCount": 46,
-    "hasExercises": true,
-    "totalWordCount": 26059
-  },
-  {
-    "id": "reader-100-crime-story-collection-",
-    "title": "Crime Story Collection.",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 7,
-    "chaptersCount": 7,
-    "hasExercises": true,
-    "totalWordCount": 25729
-  },
-  {
-    "id": "reader-103-management-gurus",
-    "title": "Management Gurus",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 8,
-    "chaptersCount": 8,
-    "hasExercises": true,
-    "totalWordCount": 20998
-  },
-  {
-    "id": "reader-106-love-story",
-    "title": "Love Story",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 7,
-    "chaptersCount": 7,
-    "hasExercises": true,
-    "totalWordCount": 1025
-  },
-  {
-    "id": "reader-110-the-wizard-of-oz",
-    "title": "The Wizard of Oz",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 6,
-    "chaptersCount": 6,
-    "hasExercises": true,
-    "totalWordCount": 19615
-  },
-  {
-    "id": "reader-111-a-kiss-before-dying",
-    "title": "A Kiss Before Dying",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 11,
-    "chaptersCount": 11,
-    "hasExercises": false,
-    "totalWordCount": 12147
-  },
-  {
-    "id": "reader-114-dawson-s-creek-shifting-into-overdrive",
-    "title": "Dawson's Creek Shifting into Overdrive",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 9,
-    "chaptersCount": 9,
-    "hasExercises": true,
-    "totalWordCount": 12755
-  },
-  {
-    "id": "reader-119-dancing-with-strangers-stories-from-africa",
-    "title": "Dancing with Strangers. Stories from Africa",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 4,
-    "chaptersCount": 4,
-    "hasExercises": true,
-    "totalWordCount": 17103
-  },
-  {
-    "id": "reader-121-ethan-frome-2-",
-    "title": "Ethan Frome [2]",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 8,
-    "chaptersCount": 8,
-    "hasExercises": false,
-    "totalWordCount": 0
-  },
-  {
-    "id": "reader-131-love-story",
-    "title": "Love Story",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 7,
-    "chaptersCount": 7,
-    "hasExercises": true,
-    "totalWordCount": 1025
-  },
-  {
-    "id": "reader-140-the-cinema",
-    "title": "The Cinema",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 14,
-    "chaptersCount": 14,
-    "hasExercises": true,
-    "totalWordCount": 7972
-  },
-  {
-    "id": "reader-146-the-scarlet-letter-2-",
-    "title": "The Scarlet Letter [2]",
-    "level": "Pre-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 10,
-    "chaptersCount": 10,
-    "hasExercises": true,
-    "totalWordCount": 18541
-  },
-  {
-    "id": "reader-176-pride-and-prejudice",
-    "title": "Pride and Prejudice",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 7,
-    "chaptersCount": 7,
-    "hasExercises": true,
-    "totalWordCount": 43423
-  },
-  {
-    "id": "reader-177-prime-suspect",
-    "title": "Prime Suspect",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 1,
-    "chaptersCount": 1,
-    "hasExercises": true,
-    "totalWordCount": 19179
-  },
-  {
-    "id": "reader-178-tales-of-mistery-and-imagination",
-    "title": "Tales of Mistery and Imagination",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 10,
-    "chaptersCount": 10,
-    "hasExercises": true,
-    "totalWordCount": 36549
-  },
-  {
-    "id": "reader-180-world-folktales",
-    "title": "World Folktales",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 9,
-    "chaptersCount": 9,
-    "hasExercises": true,
-    "totalWordCount": 29783
-  },
-  {
-    "id": "reader-181-king-s-ransom",
-    "title": "King's Ransom",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 14,
-    "chaptersCount": 14,
-    "hasExercises": true,
-    "totalWordCount": 23458
-  },
-  {
-    "id": "reader-184-l-a-movie",
-    "title": "L. A. Movie",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 21,
-    "chaptersCount": 21,
-    "hasExercises": false,
-    "totalWordCount": 26787
-  },
-  {
-    "id": "reader-186-american-crime-stories-1-",
-    "title": "American Crime Stories [1]",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 7,
-    "chaptersCount": 7,
-    "hasExercises": true,
-    "totalWordCount": 29663
-  },
-  {
-    "id": "reader-196-the-age-of-innocence-1-",
-    "title": "The Age of Innocence [1]",
-    "level": "Upper-Intermediate",
-    "hasAudio": true,
-    "audioTracksCount": 11,
-    "chaptersCount": 11,
-    "hasExercises": true,
-    "totalWordCount": 15375
-  }
-]
+{
+  "totalReaders": 218,
+  "readers": [
+    {
+      "id": "reader-1-andersen-s-fairy-tales",
+      "title": "Andersen's Fairy Tales",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 3566,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) Andersen's Fairy Tales.pdf"
+    },
+    {
+      "id": "reader-10-a-dog-of-flanders",
+      "title": "A Dog of Flanders",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 3227,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) A Dog of Flanders.pdf"
+    },
+    {
+      "id": "reader-100-crime-story-collection-",
+      "title": "Crime Story Collection.",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 25194,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/073 Crime Story Collection..pdf"
+    },
+    {
+      "id": "reader-101-crime-story-collection",
+      "title": "Crime Story Collection",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 13599,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/073 Crime Story Collection.pdf"
+    },
+    {
+      "id": "reader-102-inventions-that-changed-the-world",
+      "title": "Inventions that Changed the World",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 14440,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/074 Inventions that Changed the World.pdf"
+    },
+    {
+      "id": "reader-103-management-gurus",
+      "title": "Management Gurus",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 20408,
+      "chaptersCount": 8,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/076 Management Gurus.pdf"
+    },
+    {
+      "id": "reader-104-the-long-shot",
+      "title": "The Long Shot",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 18537,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/13  The Long Shot.pdf"
+    },
+    {
+      "id": "reader-105-the-time-trippers-go-west",
+      "title": "The Time Trippers Go West",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 22371,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/16 The Time Trippers Go West.pdf"
+    },
+    {
+      "id": "reader-106-love-story",
+      "title": "Love Story",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 8822,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/191 Love Story.pdf"
+    },
+    {
+      "id": "reader-107-frankenstein",
+      "title": "Frankenstein",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 22876,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/20  Frankenstein.pdf"
+    },
+    {
+      "id": "reader-108-the-great-gatsby",
+      "title": "The Great Gatsby",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12874,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/450 The Great Gatsby.pdf"
+    },
+    {
+      "id": "reader-109-the-woman-who-disappeared",
+      "title": "The Woman Who Disappeared",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 15563,
+      "chaptersCount": 20,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/451 The Woman Who Disappeared.pdf"
+    },
+    {
+      "id": "reader-11-aesop-s-fables",
+      "title": "Aesop's Fables",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 4196,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) Aesop's Fables.pdf"
+    },
+    {
+      "id": "reader-110-the-wizard-of-oz",
+      "title": "The Wizard of Oz",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 16925,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/457 The Wizard of Oz.pdf"
+    },
+    {
+      "id": "reader-111-a-kiss-before-dying",
+      "title": "A Kiss Before Dying",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 15083,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/459 A Kiss Before Dying.pdf"
+    },
+    {
+      "id": "reader-112-the-legends-of-sleepy-hollow",
+      "title": "The Legends of Sleepy Hollow",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12337,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/474 The Legends of Sleepy Hollow.pdf"
+    },
+    {
+      "id": "reader-113-dawson-s-creek-the-beginning-of-everything-else",
+      "title": "Dawson's Creek The Beginning of Everything Else",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12009,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/475 Dawson's Creek The Beginning of Everything Else.pdf"
+    },
+    {
+      "id": "reader-114-dawson-s-creek-shifting-into-overdrive",
+      "title": "Dawson's Creek Shifting into Overdrive",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12599,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/476 Dawson's Creek Shifting into Overdrive.pdf"
+    },
+    {
+      "id": "reader-115-a-christmas-carol",
+      "title": "A Christmas Carol",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 15641,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/A Christmas Carol.pdf"
+    },
+    {
+      "id": "reader-116-a-study-in-scarlet",
+      "title": "A Study in Scarlet",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11321,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/A Study in Scarlet.pdf"
+    },
+    {
+      "id": "reader-117-beowulf",
+      "title": "Beowulf",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12867,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Beowulf.pdf"
+    },
+    {
+      "id": "reader-118-daisy-miller",
+      "title": "Daisy Miller",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 9200,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Daisy Miller.pdf"
+    },
+    {
+      "id": "reader-119-dancing-with-strangers-stories-from-africa",
+      "title": "Dancing with Strangers. Stories from Africa",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 13314,
+      "chaptersCount": 4,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Dancing with Strangers. Stories from Africa.pdf"
+    },
+    {
+      "id": "reader-12-anne-of-green-gables",
+      "title": "Anne of Green Gables",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 7176,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) Anne of Green Gables.pdf"
+    },
+    {
+      "id": "reader-120-destiny-calls-at-taransay",
+      "title": "Destiny calls at Taransay",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11933,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Destiny calls at Taransay.pdf"
+    },
+    {
+      "id": "reader-121-ethan-frome-2-",
+      "title": "Ethan Frome [2]",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 10992,
+      "chaptersCount": 8,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Ethan Frome [2].pdf"
+    },
+    {
+      "id": "reader-122-ethan-frome-3-",
+      "title": "Ethan Frome [3]",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 19063,
+      "chaptersCount": 8,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Ethan Frome [3].pdf"
+    },
+    {
+      "id": "reader-123-famous-british-criminals",
+      "title": "Famous British Criminals",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11377,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Famous British Criminals.pdf"
+    },
+    {
+      "id": "reader-124-great-crimes",
+      "title": "Great Crimes",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 9904,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Great Crimes.pdf"
+    },
+    {
+      "id": "reader-125-great-mysteries-of-our-world",
+      "title": "Great Mysteries of Our World",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11094,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Great Mysteries of Our World.pdf"
+    },
+    {
+      "id": "reader-126-hard-times-for-the-time-trippers",
+      "title": "Hard Times for the Time Trippers",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 21591,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Hard Times for the Time Trippers.pdf"
+    },
+    {
+      "id": "reader-127-history-of-english-language",
+      "title": "History of English Language",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 16472,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/History of English Language.pdf"
+    },
+    {
+      "id": "reader-128-jane-eyre",
+      "title": "Jane Eyre",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 19257,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Jane Eyre.pdf"
+    },
+    {
+      "id": "reader-129-kim",
+      "title": "Kim",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11626,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Kim.pdf"
+    },
+    {
+      "id": "reader-13-daddy-long-legs",
+      "title": "Daddy-Long-Legs",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 4445,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) Daddy-Long-Legs.pdf"
+    },
+    {
+      "id": "reader-130-lord-arthur-savile-s-crime-and-other-stories",
+      "title": "Lord Arthur Savile\u2019s Crime and Other Stories",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11269,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Lord Arthur Savile\u2019s Crime and Other Stories.pdf"
+    },
+    {
+      "id": "reader-131-love-story",
+      "title": "Love Story",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 8822,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Love Story.pdf"
+    },
+    {
+      "id": "reader-132-martin-luther-king",
+      "title": "Martin Luther King",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 9724,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Martin Luther King.pdf"
+    },
+    {
+      "id": "reader-133-moby-dick",
+      "title": "Moby Dick",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 15496,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Moby Dick.pdf"
+    },
+    {
+      "id": "reader-134-moonfleet",
+      "title": "Moonfleet",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11678,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Moonfleet.pdf"
+    },
+    {
+      "id": "reader-135-oliver-twist",
+      "title": "Oliver Twist",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 19580,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Oliver Twist.pdf"
+    },
+    {
+      "id": "reader-136-stories-of-suspense",
+      "title": "Stories of Suspense",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 9936,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Stories of Suspense.pdf"
+    },
+    {
+      "id": "reader-137-tales-of-the-supernatural",
+      "title": "Tales of the Supernatural",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12109,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Tales of the Supernatural.pdf"
+    },
+    {
+      "id": "reader-138-the-boscombe-valley-mystery",
+      "title": "The Boscombe Valley Mystery",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 13281,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Boscombe Valley Mystery.pdf"
+    },
+    {
+      "id": "reader-139-the-call-of-the-wild",
+      "title": "The Call of the Wild",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 24177,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Call of the Wild.pdf"
+    },
+    {
+      "id": "reader-14-peter-pan",
+      "title": "Peter Pan",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 4075,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) Peter Pan.pdf"
+    },
+    {
+      "id": "reader-140-the-cinema",
+      "title": "The Cinema",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 6564,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Cinema.pdf"
+    },
+    {
+      "id": "reader-141-the-diamond-as-big-as-the-ritz",
+      "title": "The Diamond as Big as The Ritz",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 9299,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Diamond as Big as The Ritz.pdf"
+    },
+    {
+      "id": "reader-142-the-hound-of-the-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 25214,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Hound of the Baskervilles.pdf"
+    },
+    {
+      "id": "reader-143-the-lost-montain",
+      "title": "The Lost Montain",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 22214,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Lost Montain.pdf"
+    },
+    {
+      "id": "reader-144-the-mystery-of-coniston-water",
+      "title": "The Mystery of Coniston Water",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 16182,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Mystery of Coniston Water.pdf"
+    },
+    {
+      "id": "reader-145-the-prisoner-of-zenda",
+      "title": "The Prisoner of Zenda",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 22975,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Prisoner of Zenda.pdf"
+    },
+    {
+      "id": "reader-146-the-scarlet-letter-2-",
+      "title": "The Scarlet Letter [2]",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 17291,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Scarlet Letter [2].pdf"
+    },
+    {
+      "id": "reader-147-the-scarlet-letter-3-",
+      "title": "The Scarlet Letter [3]",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 28385,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Scarlet Letter [3].pdf"
+    },
+    {
+      "id": "reader-148-the-time-trippers",
+      "title": "The Time Trippers",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 19790,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Time Trippers.pdf"
+    },
+    {
+      "id": "reader-149-the-valley-of-fear",
+      "title": "The Valley of Fear",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 13878,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Valley of Fear.pdf"
+    },
+    {
+      "id": "reader-15-the-count-of-monte-cristo",
+      "title": "The Count of Monte Cristo",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 8277,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) The Count of Monte Cristo.pdf"
+    },
+    {
+      "id": "reader-150-the-woman-in-white",
+      "title": "The Woman in White",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12562,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/The Woman in White.pdf"
+    },
+    {
+      "id": "reader-151-three-men-in-a-boat",
+      "title": "Three Men in a Boat",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 9919,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Three Men in a Boat.pdf"
+    },
+    {
+      "id": "reader-152-treasure-island",
+      "title": "Treasure Island",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 18936,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Treasure Island.pdf"
+    },
+    {
+      "id": "reader-153-washington-square-3-",
+      "title": "Washington Square [3]",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 6504,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/Washington Square [3].pdf"
+    },
+    {
+      "id": "reader-154-great-english-monarchs-and-their-times",
+      "title": "Great English Monarchs and their Times",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 18111,
+      "chaptersCount": 20,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30103\u30111 Great English Monarchs and their Times.pdf"
+    },
+    {
+      "id": "reader-155-alic-s-adventures-in-wonderland",
+      "title": "Alic's Adventures in Wonderland",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 13129,
+      "chaptersCount": 21,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30103\u30112 Alic's Adventures in Wonderland.pdf"
+    },
+    {
+      "id": "reader-156-oscar-wilde-s-short-stories",
+      "title": "Oscar Wilde's Short Stories",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 16907,
+      "chaptersCount": 22,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30103\u30113 Oscar Wilde's Short Stories.pdf"
+    },
+    {
+      "id": "reader-157-hamlet",
+      "title": "Hamlet",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12789,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30103\u30114 Hamlet.pdf"
+    },
+    {
+      "id": "reader-158-the-secret-garden",
+      "title": "The Secret Garden",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 11525,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30103\u30115 The Secret Garden.pdf"
+    },
+    {
+      "id": "reader-159-the1-000-000-bank-note",
+      "title": "The1,000,000 Bank Note",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 11355,
+      "chaptersCount": 18,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30111 The1,000,000 Bank Note.pdf"
+    },
+    {
+      "id": "reader-16-the-great-stone-face",
+      "title": "The Great Stone Face",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 5455,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) The Great Stone Face.pdf"
+    },
+    {
+      "id": "reader-160-jane-eyre",
+      "title": "Jane Eyre",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 18310,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30112 Jane Eyre.pdf"
+    },
+    {
+      "id": "reader-161-sherlock-holmes-investigates",
+      "title": "Sherlock Holmes Investigates",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 24096,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30113 Sherlock Holmes Investigates.pdf"
+    },
+    {
+      "id": "reader-162-the-strange-case-of-dr-jekyll-and-mr-hyde",
+      "title": "The strange Case of Dr Jekyll And Mr Hyde",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 16897,
+      "chaptersCount": 16,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30115 The strange Case of Dr Jekyll And Mr Hyde.pdf"
+    },
+    {
+      "id": "reader-163-classic-detective-stories",
+      "title": "Classic Detective Stories",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 28040,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30116 Classic Detective Stories.pdf"
+    },
+    {
+      "id": "reader-164-alien-at-school",
+      "title": "Alien at School",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 12769,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30118 Alien at School.pdf"
+    },
+    {
+      "id": "reader-165-romeo-and-juliet",
+      "title": "Romeo and Juliet",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 21223,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30119 Romeo and Juliet.pdf"
+    },
+    {
+      "id": "reader-166-anna-karenina",
+      "title": "Anna Karenina",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 12045,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) Anna Karenina.pdf"
+    },
+    {
+      "id": "reader-167-dracula",
+      "title": "Dracula",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 11275,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) Dracula.pdf"
+    },
+    {
+      "id": "reader-168-great-expectations",
+      "title": "Great Expectations",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 15657,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) Great Expectations.pdf"
+    },
+    {
+      "id": "reader-169-great-speeches",
+      "title": "Great Speeches",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 19396,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) Great Speeches.pdf"
+    },
+    {
+      "id": "reader-17-the-happy-prince",
+      "title": "The Happy Prince",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 2599,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) The Happy Prince.pdf"
+    },
+    {
+      "id": "reader-170-poe-s-short-stories",
+      "title": "Poe's Short Stories",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 17304,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) Poe's Short Stories.pdf"
+    },
+    {
+      "id": "reader-171-romeo-and-juliet",
+      "title": "Romeo and Juliet",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 6431,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) Romeo and Juliet.pdf"
+    },
+    {
+      "id": "reader-172-sense-and-sensibility",
+      "title": "Sense and Sensibility",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 16036,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) Sense and Sensibility.pdf"
+    },
+    {
+      "id": "reader-173-the-adventures-of-sherlock-holmes",
+      "title": "The Adventures of Sherlock Holmes",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 12234,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) The Adventures of Sherlock Holmes.pdf"
+    },
+    {
+      "id": "reader-174-the-old-man-and-the-sea",
+      "title": "The Old Man and The Sea",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 8659,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) The Old Man and The Sea.pdf"
+    },
+    {
+      "id": "reader-175-the-scarlet-letter",
+      "title": "The Scarlet Letter",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 10021,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/(S5) The Scarlet Letter.pdf"
+    },
+    {
+      "id": "reader-176-pride-and-prejudice",
+      "title": "Pride and Prejudice",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 42307,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/080 Pride and Prejudice.pdf"
+    },
+    {
+      "id": "reader-177-prime-suspect",
+      "title": "Prime Suspect",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 18196,
+      "chaptersCount": 1,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/091 Prime Suspect.pdf"
+    },
+    {
+      "id": "reader-178-tales-of-mistery-and-imagination",
+      "title": "Tales of Mistery and Imagination",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 36335,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/092 Tales of Mistery and Imagination.pdf"
+    },
+    {
+      "id": "reader-179-sons-and-lovers",
+      "title": "Sons and Lovers",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 8895,
+      "chaptersCount": 4,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/093 Sons and Lovers.pdf"
+    },
+    {
+      "id": "reader-18-the-stars-the-last-lesson-",
+      "title": "The Stars (The Last Lesson)",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 6102,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S2) The Stars (The Last Lesson).pdf"
+    },
+    {
+      "id": "reader-180-world-folktales",
+      "title": "World Folktales",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 29496,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/094 World Folktales.pdf"
+    },
+    {
+      "id": "reader-181-king-s-ransom",
+      "title": "King's Ransom",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 19998,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/11 King's Ransom.pdf"
+    },
+    {
+      "id": "reader-182-east-of-eden",
+      "title": "East of Eden",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 30438,
+      "chaptersCount": 45,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/24 East of Eden.pdf"
+    },
+    {
+      "id": "reader-183-east-43rd-street",
+      "title": "East 43rd Street",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 21779,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/52 East 43rd Street.pdf"
+    },
+    {
+      "id": "reader-184-l-a-movie",
+      "title": "L. A. Movie",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 26754,
+      "chaptersCount": 21,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/59 L. A. Movie.pdf"
+    },
+    {
+      "id": "reader-185-a-hacker-s-revenge",
+      "title": "A Hacker's Revenge",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 18183,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/A Hacker's Revenge.pdf"
+    },
+    {
+      "id": "reader-186-american-crime-stories-1-",
+      "title": "American Crime Stories [1]",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 25669,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/American Crime Stories [1].pdf"
+    },
+    {
+      "id": "reader-187-ed-mcbain-king-s-ransom-2-",
+      "title": "Ed McBain - King's Ransom [2]",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 19640,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Ed McBain - King's Ransom [2].pdf"
+    },
+    {
+      "id": "reader-188-fashion-and-lies",
+      "title": "Fashion and Lies",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 23482,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Fashion and Lies.pdf"
+    },
+    {
+      "id": "reader-189-heart-of-darkness",
+      "title": "Heart of Darkness",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 13030,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Heart of Darkness.pdf"
+    },
+    {
+      "id": "reader-19-jane-eyre",
+      "title": "Jane Eyre",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 17388,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 486 Jane Eyre.pdf"
+    },
+    {
+      "id": "reader-190-media-wars",
+      "title": "Media Wars",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 20638,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Media Wars.pdf"
+    },
+    {
+      "id": "reader-191-middlemarch",
+      "title": "Middlemarch",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 27964,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Middlemarch.pdf"
+    },
+    {
+      "id": "reader-192-persuasion",
+      "title": "Persuasion",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 10222,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Persuasion.pdf"
+    },
+    {
+      "id": "reader-193-rob-roy",
+      "title": "Rob Roy",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 18242,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Rob Roy.pdf"
+    },
+    {
+      "id": "reader-194-sense-and-sensibility",
+      "title": "Sense and Sensibility",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 22575,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Sense and Sensibility.pdf"
+    },
+    {
+      "id": "reader-195-silas-marner",
+      "title": "Silas Marner",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 21544,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Silas Marner.pdf"
+    },
+    {
+      "id": "reader-196-the-age-of-innocence-1-",
+      "title": "The Age of Innocence [1]",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 17577,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/The Age of Innocence [1].pdf"
+    },
+    {
+      "id": "reader-197-the-age-of-innocence",
+      "title": "The Age of Innocence",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 12048,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/The Age of Innocence.pdf"
+    },
+    {
+      "id": "reader-198-the-mill-on-the-floss",
+      "title": "The Mill on the Floss",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 19849,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/The Mill on the Floss.pdf"
+    },
+    {
+      "id": "reader-199-the-picture-of-dorian-gray",
+      "title": "The Picture of Dorian Gray",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 11107,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/The Picture of Dorian Gray.pdf"
+    },
+    {
+      "id": "reader-2-beauty-and-the-beast",
+      "title": "Beauty and the Beast",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 5664,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) Beauty and the Beast.pdf"
+    },
+    {
+      "id": "reader-20-a-dream-come-true",
+      "title": "A Dream Come True",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 11514,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 A Dream Come True.pdf"
+    },
+    {
+      "id": "reader-200-the-strange-case-of-dr-jekyll-and-mr-hyde",
+      "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 11253,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/The Strange Case of Dr Jekyll and Mr Hyde.pdf"
+    },
+    {
+      "id": "reader-201-the-taming-of-the-shrew",
+      "title": "The Taming of the Shrew",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 19060,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/The Taming of the Shrew.pdf"
+    },
+    {
+      "id": "reader-202-treading-on-dreams-stories-from-ireland",
+      "title": "Treading on Dreams. Stories from Ireland",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 26351,
+      "chaptersCount": 30,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Treading on Dreams. Stories from Ireland.pdf"
+    },
+    {
+      "id": "reader-203-wuthering-heights",
+      "title": "Wuthering Heights",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 32517,
+      "chaptersCount": 8,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/Wuthering Heights.pdf"
+    },
+    {
+      "id": "reader-204-a-christmas-carol",
+      "title": "A Christmas Carol",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 21256,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30111 A Christmas Carol.pdf"
+    },
+    {
+      "id": "reader-205-the-tragedy-of-dr-faustus",
+      "title": "The Tragedy of Dr Faustus",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 29363,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30112 The Tragedy of Dr Faustus.pdf"
+    },
+    {
+      "id": "reader-206-washington-square",
+      "title": "Washington Square",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 20498,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30113 Washington Square.pdf"
+    },
+    {
+      "id": "reader-207-a-midsummer-night-s-dream",
+      "title": "A Midsummer Night's Dream",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 16264,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30114 A Midsummer Night's Dream.pdf"
+    },
+    {
+      "id": "reader-208-american-horror",
+      "title": "American Horror",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 23259,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30115 American Horror.pdf"
+    },
+    {
+      "id": "reader-209-much-ado-about-nothing",
+      "title": "Much Ado About Nothing",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 30226,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30116 Much Ado About Nothing.pdf"
+    },
+    {
+      "id": "reader-21-alien-alert-in-seattle",
+      "title": "Alien Alert in Seattle",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7179,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Alien Alert in Seattle.pdf"
+    },
+    {
+      "id": "reader-210-the-canterbury-tales",
+      "title": "The Canterbury Tales",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 15736,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30117 The Canterbury Tales.pdf"
+    },
+    {
+      "id": "reader-211-dracula",
+      "title": "Dracula",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 30460,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30118 Dracula.pdf"
+    },
+    {
+      "id": "reader-212-the-last-of-the-mohicans",
+      "title": "The Last of the Mohicans",
+      "level": "upper-intermediate",
+      "levelLabel": "Upper-Intermediate",
+      "totalWordCount": 25401,
+      "chaptersCount": 26,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30105\u30119 The Last of the Mohicans.pdf"
+    },
+    {
+      "id": "reader-213-frankenstein",
+      "title": "Frankenstein",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 27641,
+      "chaptersCount": 19,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30111 Frankenstein.pdf"
+    },
+    {
+      "id": "reader-214-pride-and-prejudice",
+      "title": "Pride and Prejudice",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 59095,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30112 Pride and Prejudice.pdf"
+    },
+    {
+      "id": "reader-215-robinson-crusoe",
+      "title": "Robinson Crusoe",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 20782,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30113 Robinson Crusoe.pdf"
+    },
+    {
+      "id": "reader-216-a-tale-of-two-cities",
+      "title": "A Tale of Two Cities",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 37887,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30114 A Tale of Two Cities.pdf"
+    },
+    {
+      "id": "reader-217-the-problems-of-cell-13",
+      "title": "The Problems of Cell 13",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 15025,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30115 The Problems of Cell 13.pdf"
+    },
+    {
+      "id": "reader-218-the-murders-in-the-run-morgue-and-the-purloined-letter",
+      "title": "The Murders in the Run Morgue and The Purloined Letter",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 23968,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30116 The Murders in the Run Morgue and The Purloined Letter.pdf"
+    },
+    {
+      "id": "reader-219-tess-of-the-d-urbervilles",
+      "title": "Tess of the d'Urbervilles",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 29192,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30117 Tess of the d'Urbervilles.pdf"
+    },
+    {
+      "id": "reader-22-home-for-christmas",
+      "title": "Home for Christmas",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 9146,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Home for Christmas.pdf"
+    },
+    {
+      "id": "reader-220-the-scarlet-letter",
+      "title": "The Scarlet Letter",
+      "level": "advanced",
+      "levelLabel": "Advanced",
+      "totalWordCount": 13944,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level5-6/\u30106\u30119 The Scarlet Letter.pdf"
+    },
+    {
+      "id": "reader-23-kidnapped",
+      "title": "Kidnapped",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 9172,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Kidnapped.pdf"
+    },
+    {
+      "id": "reader-24-magical-tales-from-the-south-seas",
+      "title": "Magical Tales from the South Seas",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 10325,
+      "chaptersCount": 17,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Magical Tales from the South Seas.pdf"
+    },
+    {
+      "id": "reader-25-miami-police-file-the-o-nell-case",
+      "title": "Miami Police File the O'Nell Case",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 9785,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Miami Police File the O'Nell Case.pdf"
+    },
+    {
+      "id": "reader-26-missing-in-sydney",
+      "title": "Missing in Sydney",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7190,
+      "chaptersCount": 19,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Missing in Sydney.pdf"
+    },
+    {
+      "id": "reader-27-murder-at-coyote-canyon",
+      "title": "Murder at Coyote Canyon",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 11083,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Murder at Coyote Canyon.pdf"
+    },
+    {
+      "id": "reader-28-pride-and-prejudice",
+      "title": "Pride and Prejudice",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 33813,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Pride and Prejudice.pdf"
+    },
+    {
+      "id": "reader-29-sherlock-holmes-stories",
+      "title": "Sherlock Holmes Stories",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7180,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Sherlock Holmes Stories.pdf"
+    },
+    {
+      "id": "reader-3-cinderella",
+      "title": "Cinderella",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 2682,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) Cinderella.pdf"
+    },
+    {
+      "id": "reader-30-stories-of-ghosts-and-mystery",
+      "title": "Stories of Ghosts and Mystery",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 9787,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Stories of Ghosts and Mystery.pdf"
+    },
+    {
+      "id": "reader-31-tales-from-the-thousand-and-one-nights",
+      "title": "Tales from The Thousand and One Nights",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 15784,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 Tales from The Thousand and One Nights.pdf"
+    },
+    {
+      "id": "reader-32-the-canterville-ghost",
+      "title": "The Canterville Ghost",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 20546,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 The Canterville Ghost.pdf"
+    },
+    {
+      "id": "reader-33-the-fisherman-and-his-soul",
+      "title": "The Fisherman and his Soul",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 17765,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 The Fisherman and his Soul.pdf"
+    },
+    {
+      "id": "reader-34-the-lost-world",
+      "title": "The Lost World",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 11327,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 The Lost World.pdf"
+    },
+    {
+      "id": "reader-35-the-mutiny-on-the-bounty",
+      "title": "The Mutiny on the Bounty",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 10206,
+      "chaptersCount": 17,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 The Mutiny on the Bounty.pdf"
+    },
+    {
+      "id": "reader-36-the-rajah-s-diamond",
+      "title": "The Rajah\u2019s Diamond",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7711,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 The Rajah\u2019s Diamond.pdf"
+    },
+    {
+      "id": "reader-37-the-ransom-of-red-chief-and-other-stories",
+      "title": "The Ransom of Red Chief and Other Stories",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 17206,
+      "chaptersCount": 8,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/P1 The Ransom of Red Chief and Other Stories.pdf"
+    },
+    {
+      "id": "reader-38-peter-pan",
+      "title": "Peter Pan",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7352,
+      "chaptersCount": 11,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30111 Peter Pan.pdf"
+    },
+    {
+      "id": "reader-39-halloween-horror",
+      "title": "Halloween Horror",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 9171,
+      "chaptersCount": 16,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301110 Halloween Horror.pdf"
+    },
+    {
+      "id": "reader-4-heidi",
+      "title": "Heidi",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 4549,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) Heidi.pdf"
+    },
+    {
+      "id": "reader-40-the-adventures-of-tom-sawyer",
+      "title": "The Adventures of Tom Sawyer",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 11443,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301111 The Adventures of Tom Sawyer.pdf"
+    },
+    {
+      "id": "reader-41-the-adventures-of-huckleberry",
+      "title": "The Adventures of Huckleberry",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 11211,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301112 The Adventures of Huckleberry.pdf"
+    },
+    {
+      "id": "reader-42-the-wonderful-wizard-of-oz",
+      "title": "The Wonderful Wizard of Oz",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 10572,
+      "chaptersCount": 16,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301113 The Wonderful Wizard of Oz.pdf"
+    },
+    {
+      "id": "reader-43-the-secret-of-the-stones",
+      "title": "The Secret of the Stones",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 8887,
+      "chaptersCount": 19,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301114 The Secret of the Stones.pdf"
+    },
+    {
+      "id": "reader-44-the-wind-in-the-willows",
+      "title": "The Wind in the Willows",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 8783,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301115 The Wind in the Willows.pdf"
+    },
+    {
+      "id": "reader-45-the-black-arrow",
+      "title": "The Black Arrow",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 12259,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301116 The Black Arrow.pdf"
+    },
+    {
+      "id": "reader-46-around-the-world-in-eighty-days",
+      "title": "Around the World in Eighty Days",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 13743,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301117 Around the World in Eighty Days.pdf"
+    },
+    {
+      "id": "reader-47-little-women",
+      "title": "Little Women",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 10733,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301118 Little Women.pdf"
+    },
+    {
+      "id": "reader-48-beauty-and-the-beast",
+      "title": "Beauty and the Beast",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 10537,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301119 Beauty and the Beast.pdf"
+    },
+    {
+      "id": "reader-49-zorro",
+      "title": "Zorro",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7345,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30112 Zorro.pdf"
+    },
+    {
+      "id": "reader-5-the-arabian-night",
+      "title": "The Arabian Night",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 6451,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) The Arabian Night.pdf"
+    },
+    {
+      "id": "reader-50-black-beauty",
+      "title": "Black Beauty",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 12260,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u301120 Black Beauty.pdf"
+    },
+    {
+      "id": "reader-51-american-folk-tales",
+      "title": "American Folk Tales",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 9450,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30113 American Folk Tales.pdf"
+    },
+    {
+      "id": "reader-52-davy-crockett",
+      "title": "Davy Crockett",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7677,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30114 Davy Crockett.pdf"
+    },
+    {
+      "id": "reader-53-the-true-story-of-pocahontas",
+      "title": "The True Story of Pocahontas",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 8136,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30115 The True Story of Pocahontas.pdf"
+    },
+    {
+      "id": "reader-54-great-expectations",
+      "title": "Great Expectations",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 17587,
+      "chaptersCount": 16,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30116 Great Expectations.pdf"
+    },
+    {
+      "id": "reader-55-rip-van-winkle-and-the-legend-of-sleepy-hollow",
+      "title": "Rip Van Winkle and The Legend of Sleepy Hollow",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 9281,
+      "chaptersCount": 18,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30117 Rip Van Winkle and The Legend of Sleepy Hollow.pdf"
+    },
+    {
+      "id": "reader-56-the-happy-prince-and-the-selfish-giant",
+      "title": "The Happy Prince and The Selfish Giant",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 7580,
+      "chaptersCount": 9,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30118 The Happy Prince and The Selfish Giant.pdf"
+    },
+    {
+      "id": "reader-57-the-american-west",
+      "title": "The American West",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 8371,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30101\u30119 The American West.pdf"
+    },
+    {
+      "id": "reader-58-british-and-american-festivities",
+      "title": "British and American Festivities",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 14356,
+      "chaptersCount": 18,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30111 British and American Festivities.pdf"
+    },
+    {
+      "id": "reader-59-ghastly-ghosts",
+      "title": "Ghastly Ghosts",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 8129,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u301110 Ghastly Ghosts.pdf"
+    },
+    {
+      "id": "reader-6-the-christmas-stories",
+      "title": "The Christmas Stories",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 4578,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) The Christmas Stories.pdf"
+    },
+    {
+      "id": "reader-60-king-arthur-and-his-knights",
+      "title": "King Arthur and his Knights",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 8347,
+      "chaptersCount": 18,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30112 King Arthur and his Knights.pdf"
+    },
+    {
+      "id": "reader-61-olivervtwist",
+      "title": "OlivervTwist",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 13588,
+      "chaptersCount": 15,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30113 OlivervTwist.pdf"
+    },
+    {
+      "id": "reader-62-the-jumping-frog",
+      "title": "The Jumping Frog",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 5423,
+      "chaptersCount": 19,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30114 The Jumping Frog.pdf"
+    },
+    {
+      "id": "reader-63-robin-hood",
+      "title": "Robin Hood",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 10948,
+      "chaptersCount": 14,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30115 Robin Hood.pdf"
+    },
+    {
+      "id": "reader-64-the-call-of-the-wild",
+      "title": "The Call of the wild",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 18367,
+      "chaptersCount": 13,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30116 The Call of the wild.pdf"
+    },
+    {
+      "id": "reader-65-the-fisherman-and-his-soul",
+      "title": "The Fisherman and his Soul",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 17385,
+      "chaptersCount": 10,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30117 The Fisherman and his Soul.pdf"
+    },
+    {
+      "id": "reader-66-david-copperfield",
+      "title": "David Copperfield",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 15192,
+      "chaptersCount": 21,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30118 David Copperfield.pdf"
+    },
+    {
+      "id": "reader-67-animal-tales",
+      "title": "Animal Tales",
+      "level": "elementary",
+      "levelLabel": "Elementary",
+      "totalWordCount": 15203,
+      "chaptersCount": 24,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/\u30102\u30119 Animal Tales.pdf"
+    },
+    {
+      "id": "reader-68-alice-s-adventures-in-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 8435,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) Alice's Adventures in Wonderland.pdf"
+    },
+    {
+      "id": "reader-69-around-the-world-in-80-days",
+      "title": "Around the World in 80 Days",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 6691,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) Around the World in 80 Days.pdf"
+    },
+    {
+      "id": "reader-7-the-jungle-book",
+      "title": "The Jungle Book",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 4069,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) The Jungle Book.pdf"
+    },
+    {
+      "id": "reader-70-little-women",
+      "title": "Little Women",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 8598,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) Little Women.pdf"
+    },
+    {
+      "id": "reader-71-robin-hood",
+      "title": "Robin Hood",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 5981,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) Robin Hood.pdf"
+    },
+    {
+      "id": "reader-72-the-christmas-carol",
+      "title": "The Christmas Carol",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 8958,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) The Christmas Carol.pdf"
+    },
+    {
+      "id": "reader-73-the-merchant-of-venice",
+      "title": "The Merchant of Venice",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 7600,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) The Merchant of Venice.pdf"
+    },
+    {
+      "id": "reader-74-the-secret-garden",
+      "title": "The Secret Garden",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 5984,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) The Secret Garden.pdf"
+    },
+    {
+      "id": "reader-75-the-wizard-of-oz",
+      "title": "The Wizard of Oz",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 6396,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S3) The Wizard of Oz.pdf"
+    },
+    {
+      "id": "reader-76-don-quixote",
+      "title": "Don Quixote",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 7335,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) Don Quixote.pdf"
+    },
+    {
+      "id": "reader-77-les-miserables",
+      "title": "Les Miserables",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 12603,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) Les Miserables.pdf"
+    },
+    {
+      "id": "reader-78-o-henry-s-short-stories",
+      "title": "O Henry's Short Stories",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 4015,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) O Henry's Short Stories.pdf"
+    },
+    {
+      "id": "reader-79-the-age-of-fables",
+      "title": "The Age of Fables",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 6813,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) The Age of Fables.pdf"
+    },
+    {
+      "id": "reader-8-the-little-mermaid",
+      "title": "The Little Mermaid",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 4031,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) The Little Mermaid.pdf"
+    },
+    {
+      "id": "reader-80-the-invisible-man",
+      "title": "The Invisible Man",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 6584,
+      "chaptersCount": 5,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) The Invisible Man.pdf"
+    },
+    {
+      "id": "reader-81-the-little-prince",
+      "title": "The Little Prince",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 26341,
+      "chaptersCount": 27,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) The Little Prince.pdf"
+    },
+    {
+      "id": "reader-82-the-opera-stories",
+      "title": "The Opera Stories",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 6459,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) The Opera Stories.pdf"
+    },
+    {
+      "id": "reader-83-the-phantom-of-the-opera",
+      "title": "The Phantom of the Opera",
+      "level": "intermediate",
+      "levelLabel": "Intermediate",
+      "totalWordCount": 4134,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/(S4) The Phantom of the Opera.pdf"
+    },
+    {
+      "id": "reader-84-dr-jekyll-and-mr-hyde",
+      "title": "Dr Jekyll and Mr Hyde",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 16897,
+      "chaptersCount": 16,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/\u30104\u30115 The strange Case of Dr Jekyll And Mr Hyde.pdf"
+    },
+    {
+      "id": "reader-85-hamlet",
+      "title": "Hamlet",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 12684,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/039 Hamlet.pdf"
+    },
+    {
+      "id": "reader-86-how-to-be-an-alien",
+      "title": "How to be an Alien",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 18381,
+      "chaptersCount": 23,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/041 How to be an Alien.pdf"
+    },
+    {
+      "id": "reader-87-a-history-of-britain",
+      "title": "A History of Britain",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 7936,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/042 A History of Britain.pdf"
+    },
+    {
+      "id": "reader-88-the-beatles",
+      "title": "The Beatles",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 9821,
+      "chaptersCount": 8,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/045 The Beatles.pdf"
+    },
+    {
+      "id": "reader-89-titanic",
+      "title": "Titanic",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 7278,
+      "chaptersCount": 1,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/047 Titanic.pdf"
+    },
+    {
+      "id": "reader-9-uncle-tom-s-cabin",
+      "title": "Uncle Tom's Cabin",
+      "level": "starter",
+      "levelLabel": "Starter",
+      "totalWordCount": 5943,
+      "chaptersCount": 6,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level1-2/(S1) Uncle Tom's Cabin.pdf"
+    },
+    {
+      "id": "reader-90-the-no-1-ladies-detective-agency",
+      "title": "The No.1 Ladies' Detective Agency",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 31975,
+      "chaptersCount": 36,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/050 The No.1 Ladies' Detective Agency.pdf"
+    },
+    {
+      "id": "reader-91-the-young-king-and-other-stories",
+      "title": "The Young King and Other Stories",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 21941,
+      "chaptersCount": 7,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/051 The Young King and Other Stories.pdf"
+    },
+    {
+      "id": "reader-92-my-family-and-other-animals",
+      "title": "My Family and Other Animals",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 13938,
+      "chaptersCount": 27,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/052 My Family and Other Animals.pdf"
+    },
+    {
+      "id": "reader-93-sense-and-sensebility",
+      "title": "Sense and sensebility",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 2634,
+      "chaptersCount": 2,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/053 Sense and sensebility.pdf"
+    },
+    {
+      "id": "reader-94-three-great-plays-of-shakespeare",
+      "title": "Three Great Plays of Shakespeare",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 149884,
+      "chaptersCount": 296,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/063 Three Great Plays of Shakespeare.pdf"
+    },
+    {
+      "id": "reader-96-the-picture-of-dorian-gray",
+      "title": "The Picture of Dorian Gray",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 15818,
+      "chaptersCount": 29,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/065 The Picture of Dorian Gray.pdf"
+    },
+    {
+      "id": "reader-97-the-canterville-ghost-and-other-stories",
+      "title": "The Canterville Ghost and Other Stories",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 15099,
+      "chaptersCount": 12,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/066 The Canterville Ghost and Other Stories.pdf"
+    },
+    {
+      "id": "reader-98-1984",
+      "title": "1984",
+      "level": "pre-intermediate",
+      "levelLabel": "Pre-Intermediate",
+      "totalWordCount": 46341,
+      "chaptersCount": 46,
+      "hasAudio": true,
+      "pdfPath": "materials/00Graded-Readers-Challenge/Level3-4/067 1984.pdf"
+    }
+  ]
+}

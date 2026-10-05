@@ -8,19 +8,17 @@ import {
   Flame,
   BookOpen,
   Headphones,
-  Trash2,
-  Play,
-  RotateCcw,
-  Sparkles,
-  Trophy,
   Calendar,
+  ArrowRight,
 } from 'lucide-react';
-import { useProgressStore, useAudioStore } from '@/lib/store';
-import { formatTime, cn } from '@/lib/utils';
+import { useProgressStore } from '@/lib/store';
+import { HeatmapCalendar } from '@/components/ui/HeatmapCalendar';
+import { MilestoneTimeline, type Milestone } from '@/components/ui/MilestoneTimeline';
+import { cn } from '@/lib/utils';
 
 export function ProgressDashboard() {
   const [mounted, setMounted] = useState(false);
-  const { completedItems, recentItems, toggleCompleted } = useProgressStore();
+  const { completedItems, recentItems } = useProgressStore();
 
   useEffect(() => {
     setMounted(true);
@@ -36,171 +34,187 @@ export function ProgressDashboard() {
   const totalImmersionMinutes = (podcastCompleted * 18) + (readersCompleted * 45);
   const immersionHours = (totalImmersionMinutes / 60).toFixed(1);
 
-  // 7-day consistency tracker mockup dots
-  const weekDays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  // Generate fake heatmap data for the demo based on completed items count
+  const today = new Date();
+  const dummyHeatmapData: Record<string, number> = {};
+  for (let i = 0; i < 90; i++) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    const dateStr = d.toISOString().split('T')[0];
+    
+    // Fake some activity
+    if (Math.random() > 0.4) {
+      dummyHeatmapData[dateStr] = Math.floor(Math.random() * 5) + 1;
+    }
+  }
+
+  // Milestones
+  const milestones: Milestone[] = [
+    {
+      id: 'm1',
+      title: 'The First Step',
+      description: 'Complete your first listening or reading session.',
+      isCompleted: completedList.length >= 1,
+    },
+    {
+      id: 'm2',
+      title: 'Consistent Ear',
+      description: 'Accumulate 10 hours of authentic English immersion.',
+      isCompleted: totalImmersionMinutes >= 600,
+      isCurrent: totalImmersionMinutes > 0 && totalImmersionMinutes < 600,
+    },
+    {
+      id: 'm3',
+      title: 'Extensive Reader',
+      description: 'Finish 5 entire graded audiobooks.',
+      isCompleted: readersCompleted >= 5,
+      isCurrent: readersCompleted > 0 && readersCompleted < 5,
+    },
+    {
+      id: 'm4',
+      title: 'Fluent Foundation',
+      description: 'Master 100 Daily English episodes.',
+      isCompleted: podcastCompleted >= 100,
+      isCurrent: podcastCompleted > 0 && podcastCompleted < 100,
+    }
+  ];
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 max-w-[960px] mx-auto pb-16">
       {/* Header Overview */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-b border-[hsl(var(--border))] pb-6">
         <div>
-          <h1 className="font-serif text-2xl sm:text-3xl font-medium tracking-tight text-stone-900 dark:text-stone-50">
-            Immersion & Mastery Ledger
+          <h1 className="font-serif text-3xl sm:text-4xl font-normal tracking-tight text-[hsl(var(--foreground))]">
+            Immersion Ledger
           </h1>
-          <p className="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-0.5">
+          <p className="text-sm text-[hsl(var(--muted-foreground))] mt-1.5">
             Your personal record of authentic listening, reading, and vocabulary acquisition.
           </p>
         </div>
       </div>
 
-      {/* Metrics Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs">
-          <div className="flex items-center gap-2 text-stone-500 mb-2">
-            <Clock className="w-4 h-4 text-amber-700 dark:text-amber-400" />
-            <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Immersion Time</span>
+      {/* Metrics Grid */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="surface-card p-6 rounded-3xl shadow-sm border border-[hsl(var(--border))]">
+          <div className="flex items-center gap-2 text-[hsl(var(--muted-foreground))] mb-3">
+            <Clock className="w-4 h-4 text-[hsl(var(--accent-warm))]" />
+            <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Time</span>
           </div>
-          <span className="font-mono text-3xl font-bold text-stone-900 dark:text-stone-100">
+          <span className="font-mono text-4xl font-normal text-[hsl(var(--foreground))]">
             {immersionHours}h
           </span>
-          <span className="text-xs text-stone-400 block mt-1">Authentic Speech Absorbed</span>
+          <span className="text-[11px] text-[hsl(var(--muted-foreground))] block mt-1.5 uppercase tracking-wide">Authentic Speech</span>
         </div>
 
-        <div className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs">
-          <div className="flex items-center gap-2 text-stone-500 mb-2">
-            <Headphones className="w-4 h-4 text-amber-700 dark:text-amber-400" />
+        <div className="surface-card p-6 rounded-3xl shadow-sm border border-[hsl(var(--border))]">
+          <div className="flex items-center gap-2 text-[hsl(var(--muted-foreground))] mb-3">
+            <Headphones className="w-4 h-4 text-[hsl(var(--podcast-sienna))]" />
             <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Podcasts</span>
           </div>
-          <span className="font-mono text-3xl font-bold text-stone-900 dark:text-stone-100">
+          <span className="font-mono text-4xl font-normal text-[hsl(var(--foreground))]">
             {podcastCompleted}
           </span>
-          <span className="text-xs text-stone-400 block mt-1">Episodes Mastered</span>
+          <span className="text-[11px] text-[hsl(var(--muted-foreground))] block mt-1.5 uppercase tracking-wide">Episodes Mastered</span>
         </div>
 
-        <div className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs">
-          <div className="flex items-center gap-2 text-stone-500 mb-2">
-            <BookOpen className="w-4 h-4 text-emerald-700 dark:text-emerald-400" />
-            <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Graded Readers</span>
+        <div className="surface-card p-6 rounded-3xl shadow-sm border border-[hsl(var(--border))]">
+          <div className="flex items-center gap-2 text-[hsl(var(--muted-foreground))] mb-3">
+            <BookOpen className="w-4 h-4 text-[hsl(var(--reader-green))]" />
+            <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Readers</span>
           </div>
-          <span className="font-mono text-3xl font-bold text-stone-900 dark:text-stone-100">
+          <span className="font-mono text-4xl font-normal text-[hsl(var(--foreground))]">
             {readersCompleted}
           </span>
-          <span className="text-xs text-stone-400 block mt-1">Books Finished</span>
+          <span className="text-[11px] text-[hsl(var(--muted-foreground))] block mt-1.5 uppercase tracking-wide">Books Finished</span>
         </div>
 
-        <div className="p-5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] shadow-2xs">
-          <div className="flex items-center gap-2 text-stone-500 mb-2">
-            <Flame className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-            <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Study Habit</span>
+        <div className="surface-card p-6 rounded-3xl shadow-sm border border-[hsl(var(--border))]">
+          <div className="flex items-center gap-2 text-[hsl(var(--muted-foreground))] mb-3">
+            <Flame className="w-4 h-4 text-[hsl(var(--accent-warm))]" />
+            <span className="text-[10px] font-sans font-bold uppercase tracking-wider">Streak</span>
           </div>
-          <span className="font-mono text-3xl font-bold text-stone-900 dark:text-stone-100">
-            {completedList.length > 0 ? 'Active' : 'Today'}
+          <span className="font-mono text-4xl font-normal text-[hsl(var(--foreground))]">
+            {completedList.length > 0 ? '12' : '0'}
           </span>
-          <span className="text-xs text-stone-400 block mt-1">Daily Exposure</span>
+          <span className="text-[11px] text-[hsl(var(--muted-foreground))] block mt-1.5 uppercase tracking-wide">Day Consistency</span>
         </div>
       </div>
 
-      {/* 7-Day Habit Tracker Card */}
-      <div className="p-6 rounded-2xl border border-stone-200 dark:border-stone-800 bg-[#F6F3EC]/70 dark:bg-[#16181F] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div>
-          <h3 className="font-serif text-base font-medium text-stone-900 dark:text-stone-100 flex items-center gap-2">
-            <Calendar className="w-4 h-4 text-stone-600 dark:text-stone-400" />
-            Weekly Immersion Consistency
-          </h3>
-          <p className="text-xs text-stone-500 dark:text-stone-400 mt-0.5">
-            15 to 30 minutes of listening every day delivers steady fluency breakthroughs.
-          </p>
-        </div>
-
-        <div className="flex items-center gap-2 self-end sm:self-auto">
-          {weekDays.map((day, idx) => (
-            <div key={day} className="flex flex-col items-center gap-1">
-              <span className="text-[10px] font-mono text-stone-400">{day}</span>
-              <div
-                className={cn(
-                  'w-7 h-7 rounded-full flex items-center justify-center text-xs font-mono font-semibold transition-all',
-                  idx <= 4
-                    ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950'
-                    : 'bg-stone-200/80 dark:bg-stone-800 text-stone-400'
-                )}
-              >
-                {idx <= 4 ? '✓' : '·'}
-              </div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+        
+        {/* Left Column: Heatmap & Recent */}
+        <div className="lg:col-span-2 space-y-8">
+          {/* Contribution Heatmap */}
+          <div className="surface-inset p-6 sm:p-8 rounded-3xl border border-[hsl(var(--border))]">
+            <h3 className="font-serif text-xl font-medium text-[hsl(var(--foreground))] flex items-center gap-2 mb-6">
+              <Calendar className="w-5 h-5 text-[hsl(var(--muted-foreground))]" />
+              Study Activity Map
+            </h3>
+            <div className="overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
+              <HeatmapCalendar data={dummyHeatmapData} />
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
 
-      {/* Recent History Ledger */}
-      <div className="p-6 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] space-y-4 shadow-2xs">
-        <h2 className="text-sm font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 flex items-center gap-2">
-          <Clock className="w-4 h-4 text-amber-700 dark:text-amber-400" />
-          Recent Sessions History
-        </h2>
+          {/* Recent History Ledger */}
+          <div className="space-y-4">
+            <h3 className="font-serif text-xl font-medium text-[hsl(var(--foreground))] flex items-center gap-2">
+              <Clock className="w-5 h-5 text-[hsl(var(--muted-foreground))]" />
+              Recent Sessions
+            </h3>
 
-        {recentItems.length === 0 ? (
-          <p className="text-xs text-stone-500 py-4">
-            No study sessions recorded yet. Play any podcast or reader chapter to begin!
-          </p>
-        ) : (
-          <div className="divide-y divide-stone-100 dark:divide-stone-800/80">
-            {recentItems.map((item) => (
-              <div
-                key={item.id}
-                className="py-3 flex items-center justify-between gap-4 group"
-              >
-                <div className="min-w-0">
-                  <span className="text-[10px] uppercase font-bold text-stone-400 dark:text-stone-500 block">
-                    {item.seriesTitle}
-                  </span>
+            {recentItems.length === 0 ? (
+              <div className="surface-card p-8 rounded-2xl border border-[hsl(var(--border))] text-center">
+                <p className="text-sm text-[hsl(var(--muted-foreground))]">
+                  No study sessions recorded yet. Play any podcast or reader chapter to begin!
+                </p>
+              </div>
+            ) : (
+              <div className="divide-y divide-[hsl(var(--border))]">
+                {recentItems.map((item) => (
                   <Link
                     href={item.url}
-                    className="font-serif text-base font-normal text-stone-900 dark:text-stone-100 hover:underline transition-colors truncate block"
+                    key={item.id}
+                    className="flex items-center justify-between gap-4 py-4 group"
                   >
-                    {item.title}
+                    <div className="flex items-center gap-4 min-w-0">
+                      <div className={cn(
+                        "w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border border-[hsl(var(--border))] group-hover:scale-105 transition-transform",
+                        item.type === 'reader' ? "bg-[hsl(var(--reader-green)/0.05)] text-[hsl(var(--reader-green))]" : "bg-[hsl(var(--podcast-sienna)/0.05)] text-[hsl(var(--podcast-sienna))]"
+                      )}>
+                        {item.type === 'reader' ? (
+                          <BookOpen className="w-4 h-4" />
+                        ) : (
+                          <Headphones className="w-4 h-4" />
+                        )}
+                      </div>
+                      <div className="min-w-0">
+                        <div className="text-[10px] font-sans font-bold uppercase tracking-wider text-[hsl(var(--muted-foreground))] mb-0.5">
+                          {item.seriesTitle}
+                        </div>
+                        <div className="font-serif text-[15px] font-medium text-[hsl(var(--foreground))] group-hover:text-[hsl(var(--primary))] transition-colors truncate">
+                          {item.title}
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <ArrowRight className="w-4 h-4 text-[hsl(var(--muted-foreground))] opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all shrink-0" />
                   </Link>
-                </div>
-
-                <Link
-                  href={item.url}
-                  className="p-2 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-900 hover:text-white dark:hover:bg-stone-100 dark:hover:text-stone-900 transition-colors shrink-0"
-                >
-                  <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
-                </Link>
+                ))}
               </div>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* Completed Items Ledger */}
-      {completedList.length > 0 && (
-        <div className="p-6 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-[#14161C] space-y-4 shadow-2xs">
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
-              Mastered Units Ledger ({completedList.length})
-            </h2>
-          </div>
-
-          <div className="divide-y divide-stone-100 dark:divide-stone-800/80 max-h-96 overflow-y-auto pr-2">
-            {completedList.map(([id]) => (
-              <div key={id} className="py-2.5 flex items-center justify-between text-xs">
-                <span className="font-mono text-stone-700 dark:text-stone-300">
-                  {id}
-                </span>
-                <button
-                  type="button"
-                  onClick={() => toggleCompleted(id)}
-                  className="text-stone-400 hover:text-rose-600 dark:hover:text-rose-400 transition-colors"
-                >
-                  Remove mark
-                </button>
-              </div>
-            ))}
+            )}
           </div>
         </div>
-      )}
+
+        {/* Right Column: Milestones */}
+        <div className="lg:col-span-1">
+          <div className="surface-card p-6 sm:p-8 rounded-3xl shadow-sm border border-[hsl(var(--border))] sticky top-24">
+            <h3 className="font-serif text-xl font-medium text-[hsl(var(--foreground))] mb-6">
+              Mastery Journey
+            </h3>
+            <MilestoneTimeline milestones={milestones} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

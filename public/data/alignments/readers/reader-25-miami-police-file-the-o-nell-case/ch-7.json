@@ -1,0 +1,857 @@
+{
+  "sectionId": "reader-25-miami-police-file-the-o-nell-case-ch-7",
+  "trackNumber": 7,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/218 (S1) Miami Police File the O'Nell Case/Track 07.mp3",
+  "totalDuration": 61.649,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 0.0,
+      "end": 0.98,
+      "text": "Listening activity.",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Listening",
+          "start": 0.0,
+          "end": 0.68
+        },
+        {
+          "id": "p1w2",
+          "text": "activity.",
+          "start": 0.68,
+          "end": 0.98
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start": 2.41,
+      "end": 6.83,
+      "text": "Rover is helping Bill, Michelle and Nick to find important clues.",
+      "words": [
+        {
+          "id": "p2w1",
+          "text": "Rover",
+          "start": 2.41,
+          "end": 2.71
+        },
+        {
+          "id": "p2w2",
+          "text": "is",
+          "start": 2.71,
+          "end": 3.25
+        },
+        {
+          "id": "p2w3",
+          "text": "helping",
+          "start": 3.25,
+          "end": 3.51
+        },
+        {
+          "id": "p2w4",
+          "text": "Bill,",
+          "start": 3.51,
+          "end": 3.89
+        },
+        {
+          "id": "p2w5",
+          "text": "Michelle",
+          "start": 4.13,
+          "end": 4.43
+        },
+        {
+          "id": "p2w6",
+          "text": "and",
+          "start": 4.43,
+          "end": 4.89
+        },
+        {
+          "id": "p2w7",
+          "text": "Nick",
+          "start": 4.89,
+          "end": 5.19
+        },
+        {
+          "id": "p2w8",
+          "text": "to",
+          "start": 5.19,
+          "end": 5.73
+        },
+        {
+          "id": "p2w9",
+          "text": "find",
+          "start": 5.73,
+          "end": 5.99
+        },
+        {
+          "id": "p2w10",
+          "text": "important",
+          "start": 5.99,
+          "end": 6.27
+        },
+        {
+          "id": "p2w11",
+          "text": "clues.",
+          "start": 6.27,
+          "end": 6.83
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start": 7.91,
+      "end": 11.05,
+      "text": "He has an excellent sense of smell like all dogs.",
+      "words": [
+        {
+          "id": "p3w1",
+          "text": "He",
+          "start": 7.91,
+          "end": 8.05
+        },
+        {
+          "id": "p3w2",
+          "text": "has",
+          "start": 8.05,
+          "end": 8.23
+        },
+        {
+          "id": "p3w3",
+          "text": "an",
+          "start": 8.23,
+          "end": 8.35
+        },
+        {
+          "id": "p3w4",
+          "text": "excellent",
+          "start": 8.35,
+          "end": 8.65
+        },
+        {
+          "id": "p3w5",
+          "text": "sense",
+          "start": 8.65,
+          "end": 9.13
+        },
+        {
+          "id": "p3w6",
+          "text": "of",
+          "start": 9.13,
+          "end": 9.41
+        },
+        {
+          "id": "p3w7",
+          "text": "smell",
+          "start": 9.41,
+          "end": 9.71
+        },
+        {
+          "id": "p3w8",
+          "text": "like",
+          "start": 9.71,
+          "end": 10.39
+        },
+        {
+          "id": "p3w9",
+          "text": "all",
+          "start": 10.39,
+          "end": 10.67
+        },
+        {
+          "id": "p3w10",
+          "text": "dogs.",
+          "start": 10.67,
+          "end": 11.05
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start": 12.22,
+      "end": 17.82,
+      "text": "Rover is a beagle, and beagles were the favorite dogs of British royalty for centuries.",
+      "words": [
+        {
+          "id": "p4w1",
+          "text": "Rover",
+          "start": 12.22,
+          "end": 12.52
+        },
+        {
+          "id": "p4w2",
+          "text": "is",
+          "start": 12.52,
+          "end": 13.0
+        },
+        {
+          "id": "p4w3",
+          "text": "a",
+          "start": 13.0,
+          "end": 13.1
+        },
+        {
+          "id": "p4w4",
+          "text": "beagle,",
+          "start": 13.1,
+          "end": 13.48
+        },
+        {
+          "id": "p4w5",
+          "text": "and",
+          "start": 14.3,
+          "end": 14.42
+        },
+        {
+          "id": "p4w6",
+          "text": "beagles",
+          "start": 14.42,
+          "end": 14.84
+        },
+        {
+          "id": "p4w7",
+          "text": "were",
+          "start": 14.84,
+          "end": 15.22
+        },
+        {
+          "id": "p4w8",
+          "text": "the",
+          "start": 15.22,
+          "end": 15.34
+        },
+        {
+          "id": "p4w9",
+          "text": "favorite",
+          "start": 15.34,
+          "end": 15.72
+        },
+        {
+          "id": "p4w10",
+          "text": "dogs",
+          "start": 15.72,
+          "end": 16.02
+        },
+        {
+          "id": "p4w11",
+          "text": "of",
+          "start": 16.02,
+          "end": 16.38
+        },
+        {
+          "id": "p4w12",
+          "text": "British",
+          "start": 16.38,
+          "end": 16.68
+        },
+        {
+          "id": "p4w13",
+          "text": "royalty",
+          "start": 16.68,
+          "end": 17.04
+        },
+        {
+          "id": "p4w14",
+          "text": "for",
+          "start": 17.04,
+          "end": 17.54
+        },
+        {
+          "id": "p4w15",
+          "text": "centuries.",
+          "start": 17.54,
+          "end": 17.82
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start": 19.0,
+      "end": 22.6,
+      "text": "You can see beagles with their masters in paintings of long ago.",
+      "words": [
+        {
+          "id": "p5w1",
+          "text": "You",
+          "start": 19.0,
+          "end": 19.16
+        },
+        {
+          "id": "p5w2",
+          "text": "can",
+          "start": 19.16,
+          "end": 19.28
+        },
+        {
+          "id": "p5w3",
+          "text": "see",
+          "start": 19.28,
+          "end": 19.5
+        },
+        {
+          "id": "p5w4",
+          "text": "beagles",
+          "start": 19.5,
+          "end": 19.9
+        },
+        {
+          "id": "p5w5",
+          "text": "with",
+          "start": 19.9,
+          "end": 20.22
+        },
+        {
+          "id": "p5w6",
+          "text": "their",
+          "start": 20.22,
+          "end": 20.38
+        },
+        {
+          "id": "p5w7",
+          "text": "masters",
+          "start": 20.38,
+          "end": 20.74
+        },
+        {
+          "id": "p5w8",
+          "text": "in",
+          "start": 20.74,
+          "end": 21.24
+        },
+        {
+          "id": "p5w9",
+          "text": "paintings",
+          "start": 21.24,
+          "end": 21.6
+        },
+        {
+          "id": "p5w10",
+          "text": "of",
+          "start": 21.6,
+          "end": 21.92
+        },
+        {
+          "id": "p5w11",
+          "text": "long",
+          "start": 21.92,
+          "end": 22.14
+        },
+        {
+          "id": "p5w12",
+          "text": "ago.",
+          "start": 22.14,
+          "end": 22.6
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start": 23.86,
+      "end": 28.48,
+      "text": "The beagle is a small hunting dog with long ears and strong legs.",
+      "words": [
+        {
+          "id": "p6w1",
+          "text": "The",
+          "start": 23.86,
+          "end": 24.0
+        },
+        {
+          "id": "p6w2",
+          "text": "beagle",
+          "start": 24.0,
+          "end": 24.34
+        },
+        {
+          "id": "p6w3",
+          "text": "is",
+          "start": 24.34,
+          "end": 24.64
+        },
+        {
+          "id": "p6w4",
+          "text": "a",
+          "start": 24.64,
+          "end": 24.78
+        },
+        {
+          "id": "p6w5",
+          "text": "small",
+          "start": 24.78,
+          "end": 25.04
+        },
+        {
+          "id": "p6w6",
+          "text": "hunting",
+          "start": 25.04,
+          "end": 25.4
+        },
+        {
+          "id": "p6w7",
+          "text": "dog",
+          "start": 25.4,
+          "end": 25.86
+        },
+        {
+          "id": "p6w8",
+          "text": "with",
+          "start": 25.86,
+          "end": 26.32
+        },
+        {
+          "id": "p6w9",
+          "text": "long",
+          "start": 26.32,
+          "end": 26.54
+        },
+        {
+          "id": "p6w10",
+          "text": "ears",
+          "start": 26.54,
+          "end": 27.02
+        },
+        {
+          "id": "p6w11",
+          "text": "and",
+          "start": 27.02,
+          "end": 27.7
+        },
+        {
+          "id": "p6w12",
+          "text": "strong",
+          "start": 27.7,
+          "end": 28.02
+        },
+        {
+          "id": "p6w13",
+          "text": "legs.",
+          "start": 28.02,
+          "end": 28.48
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start": 28.48,
+      "end": 36.58,
+      "text": "It is about 13 to 15 inches high and weighs between 18 and 25 pounds.",
+      "words": [
+        {
+          "id": "p7w1",
+          "text": "It",
+          "start": 28.48,
+          "end": 29.38
+        },
+        {
+          "id": "p7w2",
+          "text": "is",
+          "start": 30.5,
+          "end": 30.82
+        },
+        {
+          "id": "p7w3",
+          "text": "about",
+          "start": 30.82,
+          "end": 31.06
+        },
+        {
+          "id": "p7w4",
+          "text": "13",
+          "start": 31.06,
+          "end": 31.68
+        },
+        {
+          "id": "p7w5",
+          "text": "to",
+          "start": 31.68,
+          "end": 31.9
+        },
+        {
+          "id": "p7w6",
+          "text": "15",
+          "start": 31.9,
+          "end": 32.36
+        },
+        {
+          "id": "p7w7",
+          "text": "inches",
+          "start": 32.36,
+          "end": 32.62
+        },
+        {
+          "id": "p7w8",
+          "text": "high",
+          "start": 32.62,
+          "end": 33.04
+        },
+        {
+          "id": "p7w9",
+          "text": "and",
+          "start": 33.04,
+          "end": 33.92
+        },
+        {
+          "id": "p7w10",
+          "text": "weighs",
+          "start": 33.92,
+          "end": 34.14
+        },
+        {
+          "id": "p7w11",
+          "text": "between",
+          "start": 34.14,
+          "end": 34.64
+        },
+        {
+          "id": "p7w12",
+          "text": "18",
+          "start": 34.64,
+          "end": 35.04
+        },
+        {
+          "id": "p7w13",
+          "text": "and",
+          "start": 35.04,
+          "end": 35.5
+        },
+        {
+          "id": "p7w14",
+          "text": "25",
+          "start": 35.5,
+          "end": 35.8
+        },
+        {
+          "id": "p7w15",
+          "text": "pounds.",
+          "start": 35.8,
+          "end": 36.58
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start": 37.38,
+      "end": 39.86,
+      "text": "It is the smallest member of the Hound family.",
+      "words": [
+        {
+          "id": "p8w1",
+          "text": "It",
+          "start": 37.38,
+          "end": 37.72
+        },
+        {
+          "id": "p8w2",
+          "text": "is",
+          "start": 37.72,
+          "end": 37.84
+        },
+        {
+          "id": "p8w3",
+          "text": "the",
+          "start": 37.84,
+          "end": 38.0
+        },
+        {
+          "id": "p8w4",
+          "text": "smallest",
+          "start": 38.0,
+          "end": 38.4
+        },
+        {
+          "id": "p8w5",
+          "text": "member",
+          "start": 38.4,
+          "end": 38.88
+        },
+        {
+          "id": "p8w6",
+          "text": "of",
+          "start": 38.88,
+          "end": 39.14
+        },
+        {
+          "id": "p8w7",
+          "text": "the",
+          "start": 39.14,
+          "end": 39.24
+        },
+        {
+          "id": "p8w8",
+          "text": "Hound",
+          "start": 39.24,
+          "end": 39.48
+        },
+        {
+          "id": "p8w9",
+          "text": "family.",
+          "start": 39.48,
+          "end": 39.86
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start": 40.86,
+      "end": 45.5,
+      "text": "Its coat is smooth and white with large patches of black and light brown.",
+      "words": [
+        {
+          "id": "p9w1",
+          "text": "Its",
+          "start": 40.86,
+          "end": 41.1
+        },
+        {
+          "id": "p9w2",
+          "text": "coat",
+          "start": 41.1,
+          "end": 41.36
+        },
+        {
+          "id": "p9w3",
+          "text": "is",
+          "start": 41.36,
+          "end": 41.54
+        },
+        {
+          "id": "p9w4",
+          "text": "smooth",
+          "start": 41.54,
+          "end": 41.94
+        },
+        {
+          "id": "p9w5",
+          "text": "and",
+          "start": 41.94,
+          "end": 42.24
+        },
+        {
+          "id": "p9w6",
+          "text": "white",
+          "start": 42.24,
+          "end": 42.52
+        },
+        {
+          "id": "p9w7",
+          "text": "with",
+          "start": 42.52,
+          "end": 43.3
+        },
+        {
+          "id": "p9w8",
+          "text": "large",
+          "start": 43.3,
+          "end": 43.54
+        },
+        {
+          "id": "p9w9",
+          "text": "patches",
+          "start": 43.54,
+          "end": 43.98
+        },
+        {
+          "id": "p9w10",
+          "text": "of",
+          "start": 43.98,
+          "end": 44.38
+        },
+        {
+          "id": "p9w11",
+          "text": "black",
+          "start": 44.38,
+          "end": 44.76
+        },
+        {
+          "id": "p9w12",
+          "text": "and",
+          "start": 44.76,
+          "end": 45.0
+        },
+        {
+          "id": "p9w13",
+          "text": "light",
+          "start": 45.0,
+          "end": 45.22
+        },
+        {
+          "id": "p9w14",
+          "text": "brown.",
+          "start": 45.22,
+          "end": 45.5
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start": 46.08,
+      "end": 47.9,
+      "text": "It has big brown eyes.",
+      "words": [
+        {
+          "id": "p10w1",
+          "text": "It",
+          "start": 46.08,
+          "end": 46.6
+        },
+        {
+          "id": "p10w2",
+          "text": "has",
+          "start": 46.6,
+          "end": 46.76
+        },
+        {
+          "id": "p10w3",
+          "text": "big",
+          "start": 46.76,
+          "end": 47.06
+        },
+        {
+          "id": "p10w4",
+          "text": "brown",
+          "start": 47.06,
+          "end": 47.44
+        },
+        {
+          "id": "p10w5",
+          "text": "eyes.",
+          "start": 47.44,
+          "end": 47.9
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "start": 49.12,
+      "end": 50.92,
+      "text": "These dogs are great rabbit hunters.",
+      "words": [
+        {
+          "id": "p11w1",
+          "text": "These",
+          "start": 49.12,
+          "end": 49.3
+        },
+        {
+          "id": "p11w2",
+          "text": "dogs",
+          "start": 49.3,
+          "end": 49.62
+        },
+        {
+          "id": "p11w3",
+          "text": "are",
+          "start": 49.62,
+          "end": 50.0
+        },
+        {
+          "id": "p11w4",
+          "text": "great",
+          "start": 50.0,
+          "end": 50.32
+        },
+        {
+          "id": "p11w5",
+          "text": "rabbit",
+          "start": 50.32,
+          "end": 50.62
+        },
+        {
+          "id": "p11w6",
+          "text": "hunters.",
+          "start": 50.62,
+          "end": 50.92
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "start": 52.08,
+      "end": 54.5,
+      "text": "They are intelligent, lively and gentle.",
+      "words": [
+        {
+          "id": "p12w1",
+          "text": "They",
+          "start": 52.08,
+          "end": 52.16
+        },
+        {
+          "id": "p12w2",
+          "text": "are",
+          "start": 52.16,
+          "end": 52.28
+        },
+        {
+          "id": "p12w3",
+          "text": "intelligent,",
+          "start": 52.28,
+          "end": 52.54
+        },
+        {
+          "id": "p12w4",
+          "text": "lively",
+          "start": 53.22,
+          "end": 53.44
+        },
+        {
+          "id": "p12w5",
+          "text": "and",
+          "start": 53.44,
+          "end": 54.24
+        },
+        {
+          "id": "p12w6",
+          "text": "gentle.",
+          "start": 54.24,
+          "end": 54.5
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "start": 55.58,
+      "end": 57.18,
+      "text": "They like making friends with people.",
+      "words": [
+        {
+          "id": "p13w1",
+          "text": "They",
+          "start": 55.58,
+          "end": 55.64
+        },
+        {
+          "id": "p13w2",
+          "text": "like",
+          "start": 55.64,
+          "end": 55.82
+        },
+        {
+          "id": "p13w3",
+          "text": "making",
+          "start": 55.82,
+          "end": 56.14
+        },
+        {
+          "id": "p13w4",
+          "text": "friends",
+          "start": 56.14,
+          "end": 56.46
+        },
+        {
+          "id": "p13w5",
+          "text": "with",
+          "start": 56.46,
+          "end": 56.84
+        },
+        {
+          "id": "p13w6",
+          "text": "people.",
+          "start": 56.84,
+          "end": 57.18
+        }
+      ]
+    }
+  ]
+}

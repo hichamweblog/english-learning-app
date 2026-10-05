@@ -1,0 +1,1 @@
+/home/dzgeek/Projects/english-learning-app/scripts/align/align-reader.py

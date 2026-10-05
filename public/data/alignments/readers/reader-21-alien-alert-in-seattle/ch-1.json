@@ -1,0 +1,95 @@
+{
+  "sectionId": "reader-21-alien-alert-in-seattle-ch-1",
+  "trackNumber": 1,
+  "audioPath": "/run/media/dzgeek/Disque local/Study English/English_Materials/00Graded-Readers-Challenge/Level1-2/216 (S1) Alien Alert in Seattle/Track 01.mp3",
+  "totalDuration": 38.66125,
+  "engine": "faster-whisper-base.en",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "start": 12.3,
+      "end": 24.66,
+      "text": "Alien Alert in Seattle by Gina D.B. Clement copyright black cats publishing",
+      "words": [
+        {
+          "id": "p1w1",
+          "text": "Alien",
+          "start": 12.3,
+          "end": 12.78
+        },
+        {
+          "id": "p1w2",
+          "text": "Alert",
+          "start": 12.78,
+          "end": 13.16
+        },
+        {
+          "id": "p1w3",
+          "text": "in",
+          "start": 13.16,
+          "end": 13.5
+        },
+        {
+          "id": "p1w4",
+          "text": "Seattle",
+          "start": 13.5,
+          "end": 13.92
+        },
+        {
+          "id": "p1w5",
+          "text": "by",
+          "start": 13.92,
+          "end": 15.08
+        },
+        {
+          "id": "p1w6",
+          "text": "Gina",
+          "start": 16.68,
+          "end": 17.1
+        },
+        {
+          "id": "p1w7",
+          "text": "D",
+          "start": 17.1,
+          "end": 17.72
+        },
+        {
+          "id": "p1w8",
+          "text": ".B.",
+          "start": 17.72,
+          "end": 18.1
+        },
+        {
+          "id": "p1w9",
+          "text": "Clement",
+          "start": 18.38,
+          "end": 18.56
+        },
+        {
+          "id": "p1w10",
+          "text": "copyright",
+          "start": 21.0,
+          "end": 22.54
+        },
+        {
+          "id": "p1w11",
+          "text": "black",
+          "start": 22.54,
+          "end": 23.44
+        },
+        {
+          "id": "p1w12",
+          "text": "cats",
+          "start": 23.44,
+          "end": 24.0
+        },
+        {
+          "id": "p1w13",
+          "text": "publishing",
+          "start": 24.0,
+          "end": 24.66
+        }
+      ]
+    }
+  ]
+}
